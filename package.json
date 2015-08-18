@@ -1,0 +1,51 @@
+{
+  "name": "jfogs",
+  "version": "0.0.0",
+  "description": "Javascript code obfuscator",
+  "main": "index.js",
+  "bin": {
+    "jfogs": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zswang/jfogs.git"
+  },
+  "keywords": [
+    "javascript",
+    "region",
+    "block"
+  ],
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zswang/jfogs/issues"
+  },
+  "homepage": "https://github.com/zswang/jfogs",
+  "devDependencies": {
+    "mocha": "2.0.1",
+    "istanbul": "0.3.17",
+    "should": "4.1.0",
+    "jshint": "2.8.0",
+    "jdists": "0.9.13"
+  },
+  "dependencies": {
+    "esprima": "^2.5.0",
+    "jrands": "^0.0.1",
+    "mkdirp": "^0.5.0",
+    "colors": "^1.0.3",
+    "optimist": "^0.6.1"
+  },
+  "scripts": {
+    "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec",
+    "lint": "jshint src/*.js src/**/*.js",
+    "dist": "jdists src/jfogs.js -o lib/jfogs.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ]
+}
