@@ -1,4 +1,8 @@
 (function ($jfogs$0, $jfogs$1, $jfogs$2, $jfogs$3, $jfogs$4, $jfogs$5, $jfogs$6, $jfogs$7, $jfogs$8, $jfogs$9, $jfogs$10, $jfogs$11, $jfogs$12, $jfogs$13, $jfogs$14, $jfogs$15, $jfogs$16, $jfogs$17, $jfogs$18, $jfogs$19, $jfogs$20, $jfogs$21, $jfogs$22, $jfogs$23, $jfogs$24, $jfogs$25, $jfogs$26, $jfogs$27, $jfogs$28, $jfogs$29, $jfogs$30, $jfogs$31, $jfogs$32, $jfogs$33, $jfogs$34, $jfogs$35, $jfogs$36, $jfogs$37, $jfogs$38, $jfogs$39) {
+var $jfogs$argv = arguments;
+for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
+  $jfogs$argv[$jfogs$i] = $jfogs$argv[$jfogs$i].split("").reverse().join("");
+}
 
 /**
  * Simple AMD Loader
@@ -366,4 +370,4 @@
     define[$jfogs$39] = '0.9.0';
 
 })(window, document);
-})("prototype", "toString", "_define_", "_require_", "length", "push", "sync", "join", "deps", "callee", "apply", "exports", "factory", "0", "getElementsByTagName", "createElement", "type", "src", "setAttribute", "appendChild", "addEventListener", "onreadystatechange", "test", "readyState", "debug", "removeChild", "slice", "pop", "shift", "alias", "indexOf", "split", "call", "hasOwnProperty", "console", "log", "define", "require", "amd", "version");
+})("epytotorp", "gnirtSot", "_enifed_", "_eriuqer_", "htgnel", "hsup", "cnys", "nioj", "sped", "eellac", "ylppa", "stropxe", "yrotcaf", "0", "emaNgaTyBstnemelEteg", "tnemelEetaerc", "epyt", "crs", "etubirttAtes", "dlihCdneppa", "renetsiLtnevEdda", "egnahcetatsydaerno", "tset", "etatSydaer", "gubed", "dlihCevomer", "ecils", "pop", "tfihs", "saila", "fOxedni", "tilps", "llac", "ytreporPnwOsah", "elosnoc", "gol", "enifed", "eriuqer", "dma", "noisrev");

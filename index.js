@@ -1,1 +1,1 @@
-module.exports = require('./src/jfogs');
+module.exports = require('./lib/jfogs');

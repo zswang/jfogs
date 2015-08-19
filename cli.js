@@ -20,6 +20,15 @@ var argv = optimist
   .describe('o', 'output file.')
   .string('o')
 
+.alias('t', 'type')
+  .describe('t', 'Encryption type.')
+  .string('t')
+
+.alias('x', 'cross')
+  .describe('x', 'Special character properties.')
+  .boolean('x')
+  .default(false)
+
 .alias('v', 'version')
   .describe('v', 'Print version number and exit.')
 
@@ -43,6 +52,8 @@ Usage:
 Options:
 
     #{-o, --output,cyan}                 Output file (default STDOUT)
+    #{-t, --type,cyan}                   Encryption type (default "")
+    #{-x, --cross,cyan}                  Special character properties (default false)
     #{-v, --version,cyan}                Output jfogs version
       */
     })

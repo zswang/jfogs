@@ -26,8 +26,18 @@ describe('fixtures', function() {
         }).should.throw();
         return;
       }
+      var options = {};
+      if (input.indexOf('zero') >= 0) {
+        options.type = 'zero';
+      }
+      if (input.indexOf('reverse') >= 0) {
+        options.type = 'reverse';
+      }
+      if (input.indexOf('cross') >= 0) {
+        options.cross = true;
+      }
       assert.equal(
-        jfogs.obfuscate(fs.readFileSync(path.join(dirname, input))),
+        jfogs.obfuscate(fs.readFileSync(path.join(dirname, input)), options),
         cleanCRLF(fs.readFileSync(path.join(dirname, output)))
       );
     });
