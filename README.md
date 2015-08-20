@@ -4,6 +4,23 @@ Javascript code obfuscator
 
 一个 JS 代码混淆器
 
+e.g.
+
++ input:
+
+```js
+console.log(/\w/img.test('hello'));
+```
+
++ output:
+
+```js
+(function ($fog$0, $fog$1, $fog$2, $fog$3) {
+  console[$fog$0]($fog$2[$fog$1]($fog$3));
+})("log", "test", /\w/img, "hello");
+     
+```
+
 [![Build Status](https://img.shields.io/travis/zswang/jfogs/master.svg)](https://travis-ci.org/zswang/jfogs)
 [![NPM version](https://img.shields.io/npm/v/jfogs.svg)](http://badge.fury.io/js/jfogs)
 
