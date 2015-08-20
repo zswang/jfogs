@@ -1,0 +1,1 @@
+console.log(/\w/img.test('hello'));

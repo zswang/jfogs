@@ -12,6 +12,11 @@ function cleanCRLF(text) {
 }
 
 // coverage
+jfogs.obfuscate('');
+jfogs.obfuscate('function test() {}');
+jfogs.obfuscate('function test(a) { a.囧 = 1; }', {
+  type: 'zero'
+});
 
 describe('fixtures', function() {
   var dirname = 'test/fixtures';
@@ -32,9 +37,6 @@ describe('fixtures', function() {
       }
       if (input.indexOf('reverse') >= 0) {
         options.type = 'reverse';
-      }
-      if (input.indexOf('cross') >= 0) {
-        options.cross = true;
       }
       assert.equal(
         jfogs.obfuscate(fs.readFileSync(path.join(dirname, input)), options),

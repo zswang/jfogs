@@ -21,13 +21,8 @@ var argv = optimist
   .string('o')
 
 .alias('t', 'type')
-  .describe('t', 'Encryption type.')
+  .describe('t', 'Encryption type. (e.g. "zero" | "reverse")')
   .string('t')
-
-.alias('x', 'cross')
-  .describe('x', 'Special character properties.')
-  .boolean('x')
-  .default(false)
 
 .alias('v', 'version')
   .describe('v', 'Print version number and exit.')
@@ -51,10 +46,10 @@ Usage:
 
 Options:
 
-    #{-o, --output,cyan}                 Output file (default STDOUT)
-    #{-t, --type,cyan}                   Encryption type (default "")
-    #{-x, --cross,cyan}                  Special character properties (default false)
-    #{-v, --version,cyan}                Output jfogs version
+    #{-o, --output,cyan}              Output file (default STDOUT)
+    #{-t, --type,cyan}                Encryption type (default "") e.g. "zero" | "reverse"
+    #{-x, --cross,cyan}               Special character properties (default false)
+    #{-v, --version,cyan}             Output jfogs version
       */
     })
     .replace(/[^]*\/\*!?\s*|\s*\*\/[^]*/g, '')

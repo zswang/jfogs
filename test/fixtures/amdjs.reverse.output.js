@@ -1,10 +1,15 @@
-(function ($jfogs$0, $jfogs$1, $jfogs$2, $jfogs$3, $jfogs$4, $jfogs$5, $jfogs$6, $jfogs$7, $jfogs$8, $jfogs$9, $jfogs$10, $jfogs$11, $jfogs$12, $jfogs$13, $jfogs$14, $jfogs$15, $jfogs$16, $jfogs$17, $jfogs$18, $jfogs$19, $jfogs$20, $jfogs$21, $jfogs$22, $jfogs$23, $jfogs$24, $jfogs$25, $jfogs$26, $jfogs$27, $jfogs$28, $jfogs$29, $jfogs$30, $jfogs$31, $jfogs$32, $jfogs$33, $jfogs$34, $jfogs$35, $jfogs$36, $jfogs$37, $jfogs$38, $jfogs$39) {
-var $jfogs$argv = arguments;
-for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
-  $jfogs$argv[$jfogs$i] = $jfogs$argv[$jfogs$i].split("").reverse().join("");
-}
 
-/**
+(function ($fog$0, $fog$1, $fog$2, $fog$3, $fog$4, $fog$5, $fog$6, $fog$7, $fog$8, $fog$9, $fog$10, $fog$11, $fog$12, $fog$13, $fog$14, $fog$15, $fog$16, $fog$17, $fog$18, $fog$19, $fog$20, $fog$21, $fog$22, $fog$23, $fog$24, $fog$25, $fog$26, $fog$27, $fog$28, $fog$29, $fog$30, $fog$31, $fog$32, $fog$33, $fog$34, $fog$35, $fog$36, $fog$37, $fog$38, $fog$39, $fog$40, $fog$41, $fog$42, $fog$43, $fog$44, $fog$45, $fog$46, $fog$47, $fog$48, $fog$49, $fog$50, $fog$51, $fog$52, $fog$53, $fog$54, $fog$55, $fog$56, $fog$57, $fog$58, $fog$59, $fog$60, $fog$61, $fog$62, $fog$63, $fog$64, $fog$65, $fog$66, $fog$67, $fog$68, $fog$69, $fog$70) {
+  
+var $fog$71 = arguments;
+for (var $fog$72 = 0; $fog$72 < $fog$71.length; $fog$72++) {
+  if (typeof $fog$71[$fog$72] !== 'string') {
+    continue;
+  }
+  $fog$71[$fog$72] = $fog$71[$fog$72].split("").reverse().join("");
+}
+      
+  /**
  * Simple AMD Loader
  * A subset of Asynchronous Module Definition (AMD) API
  * Baidu LightApp Loader Provider
@@ -21,17 +26,17 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
 
     var require;
     var define;
-    var _op = Object[$jfogs$0];
-    var _os = _op[$jfogs$1];
+    var _op = Object[$fog$0];
+    var _os = _op[$fog$1];
 
     var _moduleMap = {};
     var _loadedMap = {};
     var _loadingMap = {};
     var _definedStack = [];
-    var _anonymousId = 0;
-    var env = {debug: 1, ts: 0};
+    var _anonymousId = $fog$2;
+    var env = {debug: $fog$3, ts: $fog$2};
 
-    if (typeof win[$jfogs$2] !== 'undefined' && typeof win[$jfogs$3] !== 'undefined') {
+    if (typeof win[$fog$4] !== $fog$5 && typeof win[$fog$6] !== $fog$5) {
         return;
     }
 
@@ -48,25 +53,25 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
             return;
         }
         if (isFunction(id) || isArray(id) || isObject(id)) {
-            var modName = '_anonymous_mod_' + _anonymousId++;
-            if (arguments[$jfogs$4] === 1) {
+            var modName = $fog$7 + _anonymousId++;
+            if (arguments[$fog$8] === $fog$3) {
                 factory = id;
-                deps = null;
-            } else if (arguments[$jfogs$4] === 2) {
+                deps = $fog$9;
+            } else if (arguments[$fog$8] === $fog$10) {
                 factory = deps;
                 deps = id;
             }
             id = modName;
-        } else if (isFunction(deps) && arguments[$jfogs$4] === 2) {
+        } else if (isFunction(deps) && arguments[$fog$8] === $fog$10) {
             factory = deps;
-            deps = null;
+            deps = $fog$9;
         }
         _moduleMap[id] = {
             id: id,
             deps: deps,
             factory: factory
         };
-        _definedStack[$jfogs$5](id);
+        _definedStack[$fog$11](id);
 
     };
 
@@ -79,18 +84,18 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
      * @return {Void}
     **/
     require = function(deps, callback) {
-        if (typeof deps === 'string') {
+        if (typeof deps === $fog$12) {
             deps = [deps];
         }
-        if (deps[$jfogs$4] === 1 && arguments[$jfogs$4] === 1) {
-            return require[$jfogs$6](deps[$jfogs$7](''));
+        if (deps[$fog$8] === $fog$3 && arguments[$fog$8] === $fog$3) {
+            return require[$fog$13](deps[$fog$14]($fog$15));
         }
 
         var loadDeps = filterLoadDeps(deps);
-        var depsLen = loadDeps[$jfogs$4];
+        var depsLen = loadDeps[$fog$8];
         var loadCount = depsLen;
         if (depsLen) {
-            for (var i = 0; i < depsLen; i++) {
+            for (var i = $fog$2; i < depsLen; i++) {
                 var depModName = loadDeps[i];
                 loadResources(depModName, modResolved);
             }
@@ -102,20 +107,20 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
         function modResolved(modName) {
             var mod = getModule(modName) || {};
             var filterDeps = [];
-            var filterLen = 0;
-            if (hasProp(mod, 'deps') && mod[$jfogs$8]) {
-                filterDeps = filterLoadDeps(mod[$jfogs$8]);
-                filterLen = filterDeps[$jfogs$4];
+            var filterLen = $fog$2;
+            if (hasProp(mod, $fog$16) && mod[$fog$16]) {
+                filterDeps = filterLoadDeps(mod[$fog$16]);
+                filterLen = filterDeps[$fog$8];
             }
-            if (filterLen > 0) {
-                loadCount += filterLen - 1;
-                for (var i = 0; i < filterLen; i++) {
+            if (filterLen > $fog$2) {
+                loadCount += filterLen - $fog$3;
+                for (var i = $fog$2; i < filterLen; i++) {
                     var dep = filterDeps[i];
-                    loadResources(dep, arguments[$jfogs$9]);
+                    loadResources(dep, arguments[$fog$17]);
                 }
             }
             else {
-                if (--loadCount <= 0) {
+                if (--loadCount <= $fog$2) {
                     allResolved();
                 }
             }
@@ -123,11 +128,11 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
 
         function allResolved() {
             var exports = [];
-            for (var index = 0; index < depsLen; index++) {
-                exports[$jfogs$5](require[$jfogs$6](deps[index]));
+            for (var index = $fog$2; index < depsLen; index++) {
+                exports[$fog$11](require[$fog$13](deps[index]));
             }
-            callback && callback[$jfogs$10](undefined, exports);
-            exports = null;
+            callback && callback[$fog$18](undefined, exports);
+            exports = $fog$9;
         }
     };
 
@@ -140,43 +145,43 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
      * @access public
      * @return {Void}
     **/
-    require[$jfogs$6] = function(id) {
+    require[$fog$13] = function(id) {
         var module;
         var exports;
         var deps;
         var args = [];
 
         if (!hasProp(_moduleMap, id)) {
-            throw new Error('Required unknown module, id: "' + id + '"');
+            throw new Error($fog$19 + id + $fog$20);
         }
 
         module = getModule(id) || {};
-        if (hasProp(module, 'exports')) {
-            return module[$jfogs$11];
+        if (hasProp(module, $fog$21)) {
+            return module[$fog$21];
         }
-        module[$jfogs$11] = exports = {};
-        deps =  module[$jfogs$8];
+        module[$fog$21] = exports = {};
+        deps =  module[$fog$16];
         if (deps) {
-            for (var depsLen = deps[$jfogs$4], i = 0; i < depsLen; i++) {
+            for (var depsLen = deps[$fog$8], i = $fog$2; i < depsLen; i++) {
                 var dep = deps[i];
-                args[$jfogs$5](dep === 'require' ?
-                    require : (dep === 'module' ?
-                        module : (dep === 'exports' ? exports : require[$jfogs$6](dep))
+                args[$fog$11](dep === $fog$22 ?
+                    require : (dep === $fog$23 ?
+                        module : (dep === $fog$21 ? exports : require[$fog$13](dep))
                     )
                 );
             }
         }
 
-        if (isObject(module[$jfogs$12])) {
-            module[$jfogs$11] = module[$jfogs$12];
+        if (isObject(module[$fog$24])) {
+            module[$fog$21] = module[$fog$24];
         }
-        else if (isFunction(module[$jfogs$12])) {
-            var ret = module[$jfogs$12][$jfogs$10](undefined, args);
+        else if (isFunction(module[$fog$24])) {
+            var ret = module[$fog$24][$fog$18](undefined, args);
             if (ret !== undefined && ret !== exports) {
-                module[$jfogs$11] = ret;
+                module[$fog$21] = ret;
             }
         }
-        return module[$jfogs$11];
+        return module[$fog$21];
     };
 
 
@@ -191,25 +196,25 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
         }
         else if (hasProp(_loadingMap, url)) {
             _loadingMap[url] = _loadingMap[url] || [];
-            _loadingMap[url][$jfogs$5](callback);
+            _loadingMap[url][$fog$11](callback);
         }
         else {
             _loadingMap[url] = [];
-            var _head = doc[$jfogs$14]('head')[$jfogs$13];
-            var script = doc[$jfogs$15]('script');
-            script[$jfogs$16] = 'text/javascript';
-            script[$jfogs$17] = url;
-            script[$jfogs$18]('_md_', '_anymoore_' + url);
-            _head[$jfogs$19](script);
+            var _head = doc[$fog$25]($fog$26)[$fog$2];
+            var script = doc[$fog$27]($fog$28);
+            script[$fog$29] = $fog$30;
+            script[$fog$31] = url;
+            script[$fog$32]($fog$33, $fog$34 + url);
+            _head[$fog$35](script);
 
             if (isFunction(callback)) {
-                if (doc[$jfogs$20]) {
-                    script[$jfogs$20]('load', onload, false);
+                if (doc[$fog$36]) {
+                    script[$fog$36]($fog$37, onload, $fog$38);
                 }
                 else {
-                    script[$jfogs$21] = function() {
-                        if (/loaded|complete/[$jfogs$22](script[$jfogs$23])) {
-                            script[$jfogs$21] = null;
+                    script[$fog$39] = function() {
+                        if ($fog$41[$fog$40](script[$fog$42])) {
+                            script[$fog$39] = $fog$9;
                             onload();
                         }
                     };
@@ -218,27 +223,27 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
         }
 
         function onload() {
-            _loadedMap[url] = true;
-            if (!env[$jfogs$24]) {
-                _head[$jfogs$25](script);
+            _loadedMap[url] = $fog$43;
+            if (!env[$fog$44]) {
+                _head[$fog$45](script);
             }
 
-            var pathId = url[$jfogs$26](0, -3);
-            var modName = _definedStack[$jfogs$27]();
+            var pathId = url[$fog$46]($fog$2, -$fog$47);
+            var modName = _definedStack[$fog$48]();
             var mod = _moduleMap[modName];
 
             if (mod && pathId !== modName) {
                 _moduleMap[pathId] = {alias: modName};
             }
-            script = null;
+            script = $fog$9;
 
             var cbStack = _loadingMap[url] || [];
-            var cb = null;
-            if (cbStack[$jfogs$4] > 0) {
-                while (cb = cbStack[$jfogs$28]()) {
+            var cb = $fog$9;
+            if (cbStack[$fog$8] > $fog$2) {
+                while (cb = cbStack[$fog$49]()) {
                     cb && cb();
                 }
-                _loadingMap[url] = null;
+                _loadingMap[url] = $fog$9;
             }
             callback && callback();
         }
@@ -250,10 +255,10 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
      * @param {Function} callback callbak after loaded
     **/
     function loadResources(depModName, callback) {
-        var url = null;
+        var url = $fog$9;
         if (depModName) {
             var realId = realpath(depModName);
-            url = (realId[$jfogs$26](-3) !== '.js') ? (realId + '.js') : realId;
+            url = (realId[$fog$46](-$fog$47) !== $fog$50) ? (realId + $fog$50) : realId;
         }
         url && loadScript(url, function() {
             callback(depModName);
@@ -267,10 +272,10 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
     **/
     function filterLoadDeps(depsMod) {
         var filterDeps = [];
-        if (depsMod && depsMod[$jfogs$4] > 0) {
-            for (var i = 0, len = depsMod[$jfogs$4]; i < len; i++) {
-                if (depsMod[i] !== 'require' && depsMod[i] !== 'exports' && depsMod[i] !== 'module') {
-                    filterDeps[$jfogs$5](depsMod[i]);
+        if (depsMod && depsMod[$fog$8] > $fog$2) {
+            for (var i = $fog$2, len = depsMod[$fog$8]; i < len; i++) {
+                if (depsMod[i] !== $fog$22 && depsMod[i] !== $fog$21 && depsMod[i] !== $fog$23) {
+                    filterDeps[$fog$11](depsMod[i]);
                 }
             }
         }
@@ -284,12 +289,12 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
     **/
     function getModule(id) {
         if (!id || !hasProp(_moduleMap, id)) {
-            log('%c_moduleMap中不存在该模块: "' + id + '"', 'color:red');
-            return false;
+            log($fog$51 + id + $fog$20, $fog$52);
+            return $fog$38;
         }
         var module = _moduleMap[id];
-        if (hasProp(module, 'alias')) {
-            module = _moduleMap[module[$jfogs$29]];
+        if (hasProp(module, $fog$53)) {
+            module = _moduleMap[module[$fog$53]];
         }
         return module;
     }
@@ -301,27 +306,27 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
     **/
     function realpath(path) {
         var arr = [];
-        if (path[$jfogs$30]('://') !== -1) {
+        if (path[$fog$54]($fog$55) !== -$fog$3) {
             return path;
         }
-        arr = path[$jfogs$31]('/');
+        arr = path[$fog$56]($fog$57);
         path = [];
-        for (var k = 0, len = arr[$jfogs$4]; k < len; k++) {
-            if (arr[k] === '.') {
+        for (var k = $fog$2, len = arr[$fog$8]; k < len; k++) {
+            if (arr[k] === $fog$58) {
                 continue;
             }
-            if (arr[k] === '..') {
-                if (path[$jfogs$4] >= 2) {
-                    path[$jfogs$27]();
+            if (arr[k] === $fog$59) {
+                if (path[$fog$8] >= $fog$10) {
+                    path[$fog$48]();
                 }
             }
             else {
-                if (!path[$jfogs$4] || (arr[k] !== '')) {
-                    path[$jfogs$5](arr[k]);
+                if (!path[$fog$8] || (arr[k] !== $fog$15)) {
+                    path[$fog$11](arr[k]);
                 }
             }
         }
-        path = path[$jfogs$7]('/');
+        path = path[$fog$14]($fog$57);
         /* return path.indexOf('/') === 0 ? path : '/' + path; //暂时不在path前加'/' */
         return path;
     }
@@ -333,41 +338,42 @@ for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {
      * @return {boolean}
     **/
     function hasProp(obj, prop) {
-        return _op[$jfogs$33][$jfogs$32](obj, prop);
+        return _op[$fog$61][$fog$60](obj, prop);
     }
 
     function isFunction(obj) {
-        return _os[$jfogs$32](obj) === '[object Function]';
+        return _os[$fog$60](obj) === $fog$62;
     }
 
     function isArray(obj) {
-        return _os[$jfogs$32](obj) === '[object Array]';
+        return _os[$fog$60](obj) === $fog$63;
     }
 
     function isObject(obj) {
-        return _os[$jfogs$32](obj) === '[object Object]';
+        return _os[$fog$60](obj) === $fog$64;
     }
 
     function log() {
-        if (!env[$jfogs$24]) {
+        if (!env[$fog$44]) {
             return;
         }
-        var apc = Array[$jfogs$0][$jfogs$26];
-        win[$jfogs$34] && win[$jfogs$34][$jfogs$35][$jfogs$10](console, apc[$jfogs$32](arguments));
+        var apc = Array[$fog$0][$fog$46];
+        win[$fog$65] && win[$fog$65][$fog$66][$fog$18](console, apc[$fog$60](arguments));
     }
 
     /*防止污染用户后加载的AMD/CMD加载器，统一先使用: _define_, _require_*/
-    win[$jfogs$2] = define;
-    win[$jfogs$3] = require;
+    win[$fog$4] = define;
+    win[$fog$6] = require;
 
     /*测试阶段，如果没有加载过requirejs之类，可直接暴露到window*/
-    if (env[$jfogs$24] && typeof win[$jfogs$36] === 'undefined') {
-        win[$jfogs$36] = win[$jfogs$2];
-        win[$jfogs$37] = win[$jfogs$3];
+    if (env[$fog$44] && typeof win[$fog$67] === $fog$5) {
+        win[$fog$67] = win[$fog$4];
+        win[$fog$22] = win[$fog$6];
     }
 
-    define[$jfogs$38] = {};
-    define[$jfogs$39] = '0.9.0';
+    define[$fog$68] = {};
+    define[$fog$69] = $fog$70;
 
 })(window, document);
-})("epytotorp", "gnirtSot", "_enifed_", "_eriuqer_", "htgnel", "hsup", "cnys", "nioj", "sped", "eellac", "ylppa", "stropxe", "yrotcaf", "0", "emaNgaTyBstnemelEteg", "tnemelEetaerc", "epyt", "crs", "etubirttAtes", "dlihCdneppa", "renetsiLtnevEdda", "egnahcetatsydaerno", "tset", "etatSydaer", "gubed", "dlihCevomer", "ecils", "pop", "tfihs", "saila", "fOxedni", "tilps", "llac", "ytreporPnwOsah", "elosnoc", "gol", "enifed", "eriuqer", "dma", "noisrev");
+})("epytotorp", "gnirtSot", 0, 1, "_enifed_", "denifednu", "_eriuqer_", "_dom_suomynona_", "htgnel", null, 2, "hsup", "gnirts", "cnys", "nioj", "", "sped", "eellac", "ylppa", "\" :di ,eludom nwonknu deriuqeR", "\"", "stropxe", "eriuqer", "eludom", "yrotcaf", "emaNgaTyBstnemelEteg", "daeh", "tnemelEetaerc", "tpircs", "epyt", "tpircsavaj/txet", "crs", "etubirttAtes", "_dm_", "_eroomyna_", "dlihCdneppa", "renetsiLtnevEdda", "daol", false, "egnahcetatsydaerno", "tset", /loaded|complete/, "etatSydaer", true, "gubed", "dlihCevomer", "ecils", 3, "pop", "tfihs", "sj.", "\" :块模该在存不中paMeludom_c%", "der:roloc", "saila", "fOxedni", "//:", "tilps", "/", ".", "..", "llac", "ytreporPnwOsah", "]noitcnuF tcejbo[", "]yarrA tcejbo[", "]tcejbO tcejbo[", "elosnoc", "gol", "enifed", "dma", "noisrev", "0.9.0");
+     

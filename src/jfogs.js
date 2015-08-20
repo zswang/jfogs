@@ -1,4 +1,5 @@
 /*<remove>*/
+/*jslint node: true */
 'use strict';
 /*</remove>*/
 
@@ -22,7 +23,6 @@
 /*</jdists>*/
 
 var esprima = require('esprima');
-var util = require('util');
 
 /**
  * 对字符串进行 Unicode 编码
@@ -36,15 +36,29 @@ function encodeUnicode(str) {
   });
 }
 
-var crossChars = [];
-for (var i = 0; i < 36; i++) {
-  crossChars.push(String.fromCharCode(0x0620 + i) + String.fromCharCode(0x0300 + i));
+/**
+ * 格式化函数
+ *
+ * @param {String} template 模板
+ * @param {Object} json 数据项
+ */
+function format(template, json) {
+  /*<remove>*/
+  if (typeof template === 'function') { // 函数多行注释处理
+    template = String(template).replace(
+      /^[^]*\/\*\!?|\*\/[^]*$/g, // 替换掉函数前后部分
+      ''
+    );
+  }
+  /*</remove>*/
+  return template.replace(/#\{(.*?)\}/g, function (all, key) {
+    return json[key];
+  });
 }
 
-function crossCode(index) {
-  return index.toString(36).replace(/./g, function (all) {
-    return crossChars[parseInt(all, 36)];
-  });
+function identFrom(index, prefix) {
+  prefix = prefix || '$fog$';
+  return prefix + index;
 }
 
 /**
@@ -68,56 +82,88 @@ function obfuscate(code, options) {
     loc: false
   });
 
+  var guid = 0;
   var memberExpressions = [];
   var propertys = {};
   var names = [];
   var expressions = [];
-  var guid = 0;
+  var ranges = {};
 
-  function scan(obj) {
+  function record(obj, name) {
+    var range;
+    if (obj.type === 'Literal') {
+      range = obj.range;
+    }
+    else {
+      range = obj.property.range;
+    }
+    if (ranges[range]) {
+      return;
+    }
+    ranges[range] = true;
+    obj.$name = name;
+    memberExpressions.push(obj);
+    if (!propertys[name]) {
+      propertys[name] = identFrom(guid++, options.prefix);
+      names.push(propertys[name]);
+      expressions.push(name);
+    }
+  }
+
+  function scan(obj, parentKey) {
     if (!obj) {
       return;
     }
     if (obj.type === 'MemberExpression') {
-      if (obj.property.type === 'Literal' ||
-        (obj.property.type === 'Identifier' && !obj.computed)) {
-        memberExpressions.push(obj);
-        var name = JSON.stringify(obj.property.type === 'Literal' ?
-          obj.property.raw : obj.property.name);
-        if (!propertys[name]) {
-          propertys[name] = '$jfogs$' + (guid++);
-          names.push(propertys[name]);
-          expressions.push(name);
+      if (obj.property.type === 'Identifier' && !obj.computed) {
+        record(obj, JSON.stringify(obj.property.name));
+      }
+    }
+    if (obj.type === 'Literal') {
+      if (/^["']/.test(obj.raw)) {
+        if (parentKey !== 'key') { // 不能是 JSON 的 key
+          record(obj, JSON.stringify(eval(obj.raw)));
         }
+      }
+      else {
+        record(obj, obj.raw);
       }
     }
     for (var key in obj) {
       if (typeof obj[key] === 'object') {
-        scan(obj[key]);
+        scan(obj[key], key);
       }
     }
   }
   scan(syntax);
+
+  /*<debug> //
+  console.log(JSON.stringify(syntax, null, '  '));
+  //</debug>*/
   memberExpressions.sort(function (a, b) {
-    return b.property.range[0] - a.property.range[1];
-  });
-
-  if (options.cross) {
-    expressions.forEach(function (expression, index) {
-      propertys[expression] = '$jfogs$prop.' + crossCode(index);
-    });
-  }
-
-  memberExpressions.forEach(function (obj) {
-    var name = JSON.stringify(obj.property.type === 'Literal' ?
-      obj.property.raw : obj.property.name);
-    if (obj.property.type === 'Literal') {
-      code = code.slice(0, obj.property.range[0]) + propertys[name] +
-        code.slice(obj.property.range[1]);
+    if (a.type === 'Literal') {
+      a = a.range[1];
     }
     else {
-      code = code.slice(0, obj.object.range[1]) +
-        '[' + propertys[name] + ']' +
+      a = a.property.range[1];
+    }
+    if (b.type === 'Literal') {
+      b = b.range[1];
+    }
+    else {
+      b = b.property.range[1];
+    }
+    return b - a;
+  });
+
+  memberExpressions.forEach(function (obj) {
+    if (obj.type === 'Literal') {
+      code = code.slice(0, obj.range[0]) + propertys[obj.$name] +
+        code.slice(obj.range[1]);
+    }
+    else { // if (obj.type === 'MemberExpression') {
+      code = code.slice(0, obj.property.range[0]).replace(/\.\s*$/, '') +
+        '[' + propertys[obj.$name] + ']' +
         code.slice(obj.property.range[1]);
     }
   });
@@ -127,6 +173,9 @@ function obfuscate(code, options) {
   switch (options.type) {
   case 'zero':
     expressions = expressions.map(function (item) {
+      if (!(/^["]/.test(item))) {
+        return item;
+      }
       var t = parseInt('10000000', 2);
       return '"' + encodeUnicode(JSON.parse(item)).replace(/[^]/g, function (all) {
         return (t + all.charCodeAt()).toString(2).substring(1).replace(/[^]/g, function (n) {
@@ -137,45 +186,72 @@ function obfuscate(code, options) {
         });
       }) + '"';
     });
-    decryption = '' +
-      'var $jfogs$argv = arguments;\n' +
-      'for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {\n' +
-      '  $jfogs$argv[$jfogs$i] = $jfogs$argv[$jfogs$i].replace(/./g,\n' +
-      '    function (a) {\n' +
-      '      return {\n' +
-      '        "\u200c": 0,\n' +
-      '        "\u200d": 1\n' +
-      '      }[a]\n' +
-      '    }\n' +
-      '  ).replace(/.{7}/g, function (a) {\n' +
-      '    return String.fromCharCode(parseInt(a, 2));\n' +
-      '  });\n' +
-      '}\n';
+    /*<jdists encoding="candy">*/
+    decryption = format( /*#*/ function () {
+      /*!
+var #{argv} = arguments;
+for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
+  if (typeof #{argv}[#{index}] !== 'string') {
+    continue;
+  }
+  #{argv}[#{index}] = #{argv}[#{index}].replace(/./g,
+    function (a) {
+      return {
+        "\u200c": 0,
+        "\u200d": 1
+      }[a]
+    }
+  ).replace(/.{7}/g, function (a) {
+    return String.fromCharCode(parseInt(a, 2));
+  });
+}
+    */
+    }, {
+      argv: identFrom(guid++, options.prefix),
+      index: identFrom(guid++, options.prefix)
+    });
+    /*</jdists>*/
     break;
   case 'reverse':
     expressions = expressions.map(function (item) {
-      return item.split('').reverse().join('');
+      if (/^"/.test(item)) {
+        return JSON.stringify(JSON.parse(item).split('').reverse().join(''));
+      }
+      return item;
     });
-    decryption = '' +
-      'var $jfogs$argv = arguments;\n' +
-      'for (var $jfogs$i = 0; $jfogs$i < $jfogs$argv.length; $jfogs$i++) {\n' +
-      '  $jfogs$argv[$jfogs$i] = $jfogs$argv[$jfogs$i].split("").reverse().join("");\n' +
-      '}\n';
+    /*<jdists encoding="candy">*/
+    decryption = format( /*#*/ function () {
+      /*!
+var #{argv} = arguments;
+for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
+  if (typeof #{argv}[#{index}] !== 'string') {
+    continue;
+  }
+  #{argv}[#{index}] = #{argv}[#{index}].split("").reverse().join("");
+}
+      */
+    }, {
+      argv: identFrom(guid++, options.prefix),
+      index: identFrom(guid++, options.prefix)
+    });
+    /*</jdists>*/
     break;
   }
-
-  if (options.cross) {
-    decryption += 'var $jfogs$prop = {};\n';
-    expressions.forEach(function (expression, index) {
-      decryption += util.format('$jfogs$prop.%s = %s;\n', crossCode(index), names[index]);
-    });
-  }
-
-  return util.format('(function (%s) {\n%s\n%s\n})(%s);',
-    names.join(', '),
-    decryption,
-    code,
-    expressions.join(', ')
-  );
+  /*<jdists encoding="candy">*/
+  return format( /*#*/ function () {
+    /*!
+(function (#{names}) {
+  #{decryption}
+  #{code}
+})(#{expressions});
+     */
+  }, {
+    names: names.join(', '),
+    decryption: decryption,
+    code: code,
+    expressions: expressions.join(', ')
+  });
+  /*</jdists>*/
 }
+
 exports.obfuscate = obfuscate;

@@ -1,6 +1,6 @@
 {
   "name": "jfogs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript code obfuscator",
   "main": "index.js",
   "bin": {
@@ -39,8 +39,8 @@
     "optimist": "^0.6.1"
   },
   "scripts": {
-    "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec",
-    "lint": "jshint src/*.js src/**/*.js",
+    "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec --timeout 15000",
+    "lint": "jshint src/*.js",
     "dist": "jdists src/jfogs.js -o lib/jfogs.js"
   },
   "files": [
