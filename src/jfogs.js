@@ -122,6 +122,7 @@ function obfuscate(code, options) {
     if (obj.type === 'Literal') {
       if (/^["']/.test(obj.raw)) {
         if (parentKey !== 'key') { // 不能是 JSON 的 key
+          /* jslint evil: true */
           record(obj, JSON.stringify(eval(obj.raw)));
         }
       }
