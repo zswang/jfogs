@@ -1,6 +1,6 @@
 {
   "name": "jfogs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Javascript code obfuscator",
   "main": "index.js",
   "bin": {

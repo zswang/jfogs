@@ -114,12 +114,19 @@ function obfuscate(code, options) {
     if (!obj) {
       return;
     }
+    if (parentKey === 'range') {
+      return;
+    }
     if (obj.type === 'MemberExpression') {
       if (obj.property.type === 'Identifier' && !obj.computed) {
         record(obj, JSON.stringify(obj.property.name));
       }
     }
     if (obj.type === 'Literal') {
+      if (parentKey === 'expression') {
+        return;
+      }
+
       if (/^["']/.test(obj.raw)) {
         if (parentKey !== 'key') { // 不能是 JSON 的 key
           /* jslint evil: true */
@@ -129,6 +136,7 @@ function obfuscate(code, options) {
       else {
         record(obj, obj.raw);
       }
+      return;
     }
     for (var key in obj) {
       if (typeof obj[key] === 'object') {
@@ -155,9 +163,7 @@ function obfuscate(code, options) {
       b = b.property.range[1];
     }
     return b - a;
-  });
-
-  memberExpressions.forEach(function (obj) {
+  }).forEach(function (obj) {
     if (obj.type === 'Literal') {
       code = code.slice(0, obj.range[0]) + propertys[obj.$name] +
         code.slice(obj.range[1]);
@@ -171,6 +177,7 @@ function obfuscate(code, options) {
 
   var decryption = '';
 
+  /*<jdists encoding="candy">*/
   switch (options.type) {
   case 'zero':
     expressions = expressions.map(function (item) {
@@ -187,7 +194,6 @@ function obfuscate(code, options) {
         });
       }) + '"';
     });
-    /*<jdists encoding="candy">*/
     decryption = format( /*#*/ function () {
       /*!
 var #{argv} = arguments;
@@ -211,7 +217,6 @@ for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
       argv: identFrom(guid++, options.prefix),
       index: identFrom(guid++, options.prefix)
     });
-    /*</jdists>*/
     break;
   case 'reverse':
     expressions = expressions.map(function (item) {
@@ -220,7 +225,6 @@ for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
       }
       return item;
     });
-    /*<jdists encoding="candy">*/
     decryption = format( /*#*/ function () {
       /*!
 var #{argv} = arguments;
@@ -235,10 +239,8 @@ for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
       argv: identFrom(guid++, options.prefix),
       index: identFrom(guid++, options.prefix)
     });
-    /*</jdists>*/
     break;
   }
-  /*<jdists encoding="candy">*/
   return format( /*#*/ function () {
     /*!
 (function (#{names}) {
