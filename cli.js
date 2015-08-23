@@ -48,7 +48,6 @@ Options:
 
     #{-o, --output,cyan}              Output file (default STDOUT)
     #{-t, --type,cyan}                Encryption type (default "") e.g. "zero" | "reverse"
-    #{-x, --cross,cyan}               Special character properties (default false)
     #{-v, --version,cyan}             Output jfogs version
       */
     })
