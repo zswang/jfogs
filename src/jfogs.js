@@ -65,15 +65,15 @@ function format(template, json) {
  * @return {String} 返回混淆后的代码
  */
 function obfuscate(code, options) {
-  function identFrom(index) {
-    prefix = options.prefix || '$fog$';
-    return prefix + index;
-  }
-
   if (!code) {
     return code;
   }
   options = options || {};
+  var prefix = options.prefix || '$fog$';
+
+  function identFrom(index) {
+    return prefix + index;
+  }
 
   code = String(code).replace(/\r\n?|[\n\u2028\u2029]/g, '\n')
     .replace(/^\uFEFF/, ''); // 数据清洗
