@@ -9,8 +9,8 @@ for (var $fog$179 = 0; $fog$179 < $fog$178.length; $fog$179++) {
   $fog$178[$fog$179] = $fog$178[$fog$179].replace(/./g,
     function (a) {
       return {
-        "\u200c": 0,
-        "\u200d": 1
+        '\u200c': 0,
+        '\u200d': 1
       }[a]
     }
   ).replace(/.{7}/g, function (a) {

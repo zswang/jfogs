@@ -56,11 +56,6 @@ function format(template, json) {
   });
 }
 
-function identFrom(index, prefix) {
-  prefix = prefix || '$fog$';
-  return prefix + index;
-}
-
 /**
  * 混淆 JS 代码
  *
@@ -70,6 +65,11 @@ function identFrom(index, prefix) {
  * @return {String} 返回混淆后的代码
  */
 function obfuscate(code, options) {
+  function identFrom(index) {
+    prefix = options.prefix || '$fog$';
+    return prefix + index;
+  }
+
   if (!code) {
     return code;
   }
@@ -104,7 +104,7 @@ function obfuscate(code, options) {
     obj.$name = name;
     memberExpressions.push(obj);
     if (!propertys[name]) {
-      propertys[name] = identFrom(guid++, options.prefix);
+      propertys[name] = identFrom(guid++);
       names.push(propertys[name]);
       expressions.push(name);
     }
@@ -146,6 +146,15 @@ function obfuscate(code, options) {
   }
   scan(syntax);
 
+  switch (options.type) {
+  case 'reverse':
+    var items = expressions.slice().reverse();
+    items.forEach(function (item, index) {
+      propertys[item] = names[index];
+    });
+    break;
+  }
+
   /*<debug> //
   console.log(JSON.stringify(syntax, null, '  '));
   //</debug>*/
@@ -176,14 +185,16 @@ function obfuscate(code, options) {
   });
 
   var decryption = '';
+  var hasString; // 是否存在字符串处理
 
   /*<jdists encoding="candy">*/
   switch (options.type) {
   case 'zero':
     expressions = expressions.map(function (item) {
-      if (!(/^["]/.test(item))) {
+      if (!(/^["]/.test(item)) || item.length <= 2) {
         return item;
       }
+      hasString = true;
       var t = parseInt('10000000', 2);
       return '"' + encodeUnicode(JSON.parse(item)).replace(/[^]/g, function (all) {
         return (t + all.charCodeAt()).toString(2).substring(1).replace(/[^]/g, function (n) {
@@ -194,8 +205,9 @@ function obfuscate(code, options) {
         });
       }) + '"';
     });
-    decryption = format( /*#*/ function () {
-      /*!
+    if (hasString) {
+      decryption = format( /*#*/ function () {
+        /*!
 var #{argv} = arguments;
 for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
   if (typeof #{argv}[#{index}] !== 'string') {
@@ -204,8 +216,8 @@ for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
   #{argv}[#{index}] = #{argv}[#{index}].replace(/./g,
     function (a) {
       return {
-        "\u200c": 0,
-        "\u200d": 1
+        '\u200c': 0,
+        '\u200d': 1
       }[a]
     }
   ).replace(/.{7}/g, function (a) {
@@ -213,32 +225,58 @@ for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
   });
 }
     */
-    }, {
-      argv: identFrom(guid++, options.prefix),
-      index: identFrom(guid++, options.prefix)
-    });
+      }, {
+        argv: identFrom(guid++),
+        index: identFrom(guid++)
+      });
+    }
     break;
   case 'reverse':
     expressions = expressions.map(function (item) {
       if (/^"/.test(item)) {
+        hasString = true;
         return JSON.stringify(JSON.parse(item).split('').reverse().join(''));
       }
       return item;
     });
-    decryption = format( /*#*/ function () {
-      /*!
+    var params = {
+      argv: identFrom(guid++),
+      index: identFrom(guid++),
+      len: identFrom(guid++),
+      temp: identFrom(guid++)
+    };
+    if (hasString || expressions.length > 1) {
+      decryption += format( /*#*/ function () {
+        /*!
 var #{argv} = arguments;
-for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
-  if (typeof #{argv}[#{index}] !== 'string') {
-    continue;
+var #{len} = #{argv}.length;
+var #{index};
+        */
+      }, params);
+    }
+    if (hasString) {
+      decryption += format( /*#*/ function () {
+        /*!
+for (#{index} = 0; #{index} < #{len}; #{index}++) {
+  if (typeof #{argv}[#{index}] === 'string') {
+    #{argv}[#{index}] = #{argv}[#{index}].split('').reverse().join('');
   }
-  #{argv}[#{index}] = #{argv}[#{index}].split("").reverse().join("");
 }
-      */
-    }, {
-      argv: identFrom(guid++, options.prefix),
-      index: identFrom(guid++, options.prefix)
-    });
+        */
+      }, params);
+    }
+
+    if (expressions.length > 1) {
+      decryption += format( /*#*/ function () {
+        /*!
+for (#{index} = 0; #{index} < #{len} / 2; #{index}++) {
+  var #{temp} = #{argv}[#{index}];
+  #{argv}[#{index}] = #{argv}[#{len} - #{index} - 1];
+  #{argv}[#{len} - #{index} - 1] = #{temp};
+}
+        */
+      }, params);
+    }
     break;
   }
   return format( /*#*/ function () {

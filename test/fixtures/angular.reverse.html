@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+.dialog {
+    background: gray;
+}
+    </style>
+  <script src="angular.reverse.output.js"></script>
+</head>
+<body ng-app="main" ng-controller="dialog">
+    <script type="text/ng-template" id="info-dialog.html">
+        <div class="dialog">
+            <h1>{{message}}</h1>
+            <button ng-click="infoDialogHide()">close</button>
+        </div>
+    </script>
+    <button ng-click="infoDialogVisible = true">show</button>
+    <info-dialog ng-if="infoDialogVisible"></info-dialog>
+</body>
+<script>
+(function() {
+    angular.module('main', [])
+    .controller('dialog',
+        function($scope) {
+            $scope.message = 'hello world!';
+            $scope.infoDialogHide = function() {
+                $scope.infoDialogVisible = false;
+            };
+        }
+    )
+    .directive('infoDialog', function() {
+        return {
+            restrict: 'E',
+            templateUrl: 'info-dialog.html'
+        };
+    });
+
+})();
+</script>
+</html>

@@ -1,6 +1,22 @@
 
 (function ($fog$0, $fog$1, $fog$2, $fog$3, $fog$4, $fog$5, $fog$6, $fog$7, $fog$8, $fog$9, $fog$10, $fog$11, $fog$12, $fog$13, $fog$14, $fog$15, $fog$16, $fog$17, $fog$18, $fog$19, $fog$20, $fog$21, $fog$22, $fog$23, $fog$24, $fog$25, $fog$26, $fog$27, $fog$28, $fog$29, $fog$30, $fog$31, $fog$32, $fog$33, $fog$34, $fog$35, $fog$36, $fog$37, $fog$38, $fog$39, $fog$40, $fog$41, $fog$42, $fog$43, $fog$44, $fog$45, $fog$46, $fog$47, $fog$48, $fog$49, $fog$50, $fog$51, $fog$52, $fog$53, $fog$54, $fog$55, $fog$56, $fog$57, $fog$58, $fog$59, $fog$60, $fog$61, $fog$62, $fog$63, $fog$64, $fog$65, $fog$66, $fog$67, $fog$68, $fog$69, $fog$70, $fog$71, $fog$72, $fog$73, $fog$74, $fog$75, $fog$76, $fog$77, $fog$78, $fog$79, $fog$80, $fog$81, $fog$82, $fog$83, $fog$84, $fog$85, $fog$86, $fog$87, $fog$88, $fog$89, $fog$90, $fog$91, $fog$92, $fog$93, $fog$94, $fog$95, $fog$96, $fog$97, $fog$98, $fog$99, $fog$100, $fog$101, $fog$102, $fog$103, $fog$104, $fog$105, $fog$106, $fog$107, $fog$108, $fog$109, $fog$110, $fog$111, $fog$112, $fog$113, $fog$114, $fog$115, $fog$116, $fog$117, $fog$118, $fog$119, $fog$120, $fog$121, $fog$122, $fog$123, $fog$124, $fog$125, $fog$126, $fog$127, $fog$128, $fog$129, $fog$130, $fog$131, $fog$132, $fog$133, $fog$134, $fog$135, $fog$136, $fog$137, $fog$138, $fog$139, $fog$140, $fog$141, $fog$142, $fog$143, $fog$144, $fog$145, $fog$146, $fog$147, $fog$148, $fog$149, $fog$150, $fog$151, $fog$152, $fog$153, $fog$154, $fog$155, $fog$156, $fog$157, $fog$158, $fog$159, $fog$160, $fog$161, $fog$162, $fog$163, $fog$164, $fog$165, $fog$166, $fog$167, $fog$168, $fog$169, $fog$170, $fog$171, $fog$172, $fog$173, $fog$174, $fog$175, $fog$176, $fog$177, $fog$178, $fog$179, $fog$180, $fog$181, $fog$182, $fog$183, $fog$184, $fog$185, $fog$186, $fog$187, $fog$188, $fog$189, $fog$190, $fog$191, $fog$192, $fog$193, $fog$194, $fog$195, $fog$196, $fog$197, $fog$198, $fog$199, $fog$200, $fog$201, $fog$202, $fog$203, $fog$204, $fog$205, $fog$206, $fog$207, $fog$208, $fog$209, $fog$210, $fog$211, $fog$212, $fog$213, $fog$214, $fog$215, $fog$216, $fog$217, $fog$218, $fog$219, $fog$220, $fog$221, $fog$222, $fog$223, $fog$224, $fog$225, $fog$226, $fog$227, $fog$228, $fog$229, $fog$230, $fog$231, $fog$232, $fog$233, $fog$234, $fog$235, $fog$236, $fog$237, $fog$238, $fog$239, $fog$240, $fog$241, $fog$242, $fog$243, $fog$244, $fog$245, $fog$246, $fog$247, $fog$248, $fog$249, $fog$250, $fog$251, $fog$252, $fog$253, $fog$254, $fog$255, $fog$256, $fog$257, $fog$258, $fog$259, $fog$260, $fog$261, $fog$262, $fog$263, $fog$264, $fog$265, $fog$266, $fog$267, $fog$268, $fog$269, $fog$270, $fog$271, $fog$272, $fog$273, $fog$274, $fog$275, $fog$276, $fog$277, $fog$278, $fog$279, $fog$280, $fog$281, $fog$282, $fog$283, $fog$284, $fog$285, $fog$286, $fog$287, $fog$288, $fog$289, $fog$290, $fog$291, $fog$292, $fog$293, $fog$294, $fog$295, $fog$296, $fog$297, $fog$298, $fog$299, $fog$300, $fog$301, $fog$302, $fog$303, $fog$304, $fog$305, $fog$306, $fog$307, $fog$308, $fog$309, $fog$310, $fog$311, $fog$312, $fog$313, $fog$314, $fog$315, $fog$316, $fog$317, $fog$318, $fog$319, $fog$320, $fog$321, $fog$322, $fog$323, $fog$324, $fog$325, $fog$326, $fog$327, $fog$328, $fog$329, $fog$330, $fog$331, $fog$332, $fog$333, $fog$334, $fog$335, $fog$336, $fog$337, $fog$338, $fog$339, $fog$340, $fog$341, $fog$342, $fog$343, $fog$344, $fog$345, $fog$346, $fog$347, $fog$348, $fog$349, $fog$350, $fog$351, $fog$352, $fog$353, $fog$354, $fog$355, $fog$356, $fog$357, $fog$358, $fog$359, $fog$360, $fog$361, $fog$362, $fog$363, $fog$364, $fog$365, $fog$366, $fog$367, $fog$368, $fog$369, $fog$370, $fog$371, $fog$372, $fog$373, $fog$374, $fog$375, $fog$376, $fog$377, $fog$378, $fog$379, $fog$380, $fog$381, $fog$382, $fog$383, $fog$384, $fog$385, $fog$386, $fog$387, $fog$388, $fog$389, $fog$390, $fog$391, $fog$392, $fog$393, $fog$394, $fog$395, $fog$396, $fog$397, $fog$398, $fog$399, $fog$400, $fog$401, $fog$402, $fog$403, $fog$404, $fog$405, $fog$406, $fog$407, $fog$408, $fog$409, $fog$410, $fog$411, $fog$412, $fog$413, $fog$414, $fog$415, $fog$416, $fog$417, $fog$418, $fog$419, $fog$420, $fog$421, $fog$422, $fog$423, $fog$424, $fog$425, $fog$426, $fog$427, $fog$428, $fog$429, $fog$430, $fog$431, $fog$432, $fog$433, $fog$434, $fog$435, $fog$436, $fog$437, $fog$438, $fog$439, $fog$440, $fog$441, $fog$442, $fog$443, $fog$444, $fog$445, $fog$446, $fog$447, $fog$448, $fog$449, $fog$450, $fog$451, $fog$452, $fog$453, $fog$454, $fog$455, $fog$456, $fog$457, $fog$458, $fog$459, $fog$460, $fog$461, $fog$462, $fog$463, $fog$464, $fog$465, $fog$466, $fog$467, $fog$468, $fog$469, $fog$470, $fog$471, $fog$472, $fog$473, $fog$474, $fog$475, $fog$476, $fog$477, $fog$478, $fog$479, $fog$480, $fog$481, $fog$482, $fog$483, $fog$484, $fog$485, $fog$486, $fog$487, $fog$488, $fog$489, $fog$490, $fog$491, $fog$492, $fog$493, $fog$494, $fog$495, $fog$496, $fog$497, $fog$498, $fog$499, $fog$500, $fog$501, $fog$502, $fog$503, $fog$504, $fog$505, $fog$506, $fog$507, $fog$508, $fog$509, $fog$510, $fog$511, $fog$512, $fog$513, $fog$514, $fog$515, $fog$516, $fog$517, $fog$518, $fog$519, $fog$520, $fog$521, $fog$522, $fog$523, $fog$524, $fog$525, $fog$526, $fog$527, $fog$528, $fog$529, $fog$530, $fog$531, $fog$532, $fog$533, $fog$534, $fog$535, $fog$536, $fog$537, $fog$538, $fog$539, $fog$540, $fog$541, $fog$542, $fog$543, $fog$544, $fog$545, $fog$546, $fog$547, $fog$548, $fog$549, $fog$550, $fog$551, $fog$552, $fog$553, $fog$554, $fog$555, $fog$556, $fog$557, $fog$558, $fog$559, $fog$560, $fog$561, $fog$562, $fog$563, $fog$564, $fog$565, $fog$566, $fog$567, $fog$568, $fog$569, $fog$570, $fog$571, $fog$572, $fog$573, $fog$574, $fog$575, $fog$576, $fog$577, $fog$578, $fog$579, $fog$580, $fog$581, $fog$582, $fog$583, $fog$584, $fog$585, $fog$586, $fog$587, $fog$588, $fog$589, $fog$590, $fog$591, $fog$592, $fog$593, $fog$594, $fog$595, $fog$596, $fog$597, $fog$598, $fog$599, $fog$600, $fog$601, $fog$602, $fog$603, $fog$604, $fog$605, $fog$606, $fog$607, $fog$608, $fog$609, $fog$610, $fog$611, $fog$612, $fog$613, $fog$614, $fog$615, $fog$616, $fog$617, $fog$618, $fog$619, $fog$620, $fog$621, $fog$622, $fog$623, $fog$624, $fog$625, $fog$626, $fog$627, $fog$628, $fog$629, $fog$630, $fog$631, $fog$632, $fog$633, $fog$634, $fog$635, $fog$636, $fog$637, $fog$638, $fog$639, $fog$640, $fog$641, $fog$642, $fog$643, $fog$644, $fog$645, $fog$646, $fog$647, $fog$648, $fog$649, $fog$650, $fog$651, $fog$652, $fog$653, $fog$654, $fog$655, $fog$656, $fog$657, $fog$658, $fog$659, $fog$660, $fog$661, $fog$662, $fog$663, $fog$664, $fog$665, $fog$666, $fog$667, $fog$668, $fog$669, $fog$670, $fog$671, $fog$672, $fog$673, $fog$674, $fog$675, $fog$676, $fog$677, $fog$678, $fog$679, $fog$680, $fog$681, $fog$682, $fog$683, $fog$684, $fog$685, $fog$686, $fog$687, $fog$688, $fog$689, $fog$690, $fog$691, $fog$692, $fog$693, $fog$694, $fog$695, $fog$696, $fog$697, $fog$698, $fog$699, $fog$700, $fog$701, $fog$702, $fog$703, $fog$704, $fog$705, $fog$706, $fog$707, $fog$708, $fog$709, $fog$710, $fog$711, $fog$712, $fog$713, $fog$714, $fog$715, $fog$716, $fog$717, $fog$718, $fog$719, $fog$720, $fog$721, $fog$722, $fog$723, $fog$724, $fog$725, $fog$726, $fog$727, $fog$728, $fog$729, $fog$730, $fog$731, $fog$732, $fog$733, $fog$734, $fog$735, $fog$736, $fog$737, $fog$738, $fog$739, $fog$740, $fog$741, $fog$742, $fog$743, $fog$744, $fog$745, $fog$746, $fog$747, $fog$748, $fog$749, $fog$750, $fog$751, $fog$752, $fog$753, $fog$754, $fog$755, $fog$756, $fog$757, $fog$758, $fog$759, $fog$760, $fog$761, $fog$762, $fog$763, $fog$764, $fog$765, $fog$766, $fog$767, $fog$768, $fog$769, $fog$770, $fog$771, $fog$772, $fog$773, $fog$774, $fog$775, $fog$776, $fog$777, $fog$778, $fog$779, $fog$780, $fog$781, $fog$782, $fog$783, $fog$784, $fog$785, $fog$786, $fog$787, $fog$788, $fog$789, $fog$790, $fog$791, $fog$792, $fog$793, $fog$794, $fog$795, $fog$796, $fog$797, $fog$798, $fog$799, $fog$800, $fog$801, $fog$802, $fog$803, $fog$804, $fog$805, $fog$806, $fog$807, $fog$808, $fog$809, $fog$810, $fog$811, $fog$812, $fog$813, $fog$814, $fog$815, $fog$816, $fog$817, $fog$818, $fog$819, $fog$820, $fog$821, $fog$822, $fog$823, $fog$824, $fog$825, $fog$826, $fog$827, $fog$828, $fog$829, $fog$830, $fog$831, $fog$832, $fog$833, $fog$834, $fog$835, $fog$836, $fog$837, $fog$838, $fog$839, $fog$840, $fog$841, $fog$842, $fog$843, $fog$844, $fog$845, $fog$846, $fog$847, $fog$848, $fog$849, $fog$850, $fog$851, $fog$852, $fog$853, $fog$854, $fog$855, $fog$856, $fog$857, $fog$858, $fog$859, $fog$860, $fog$861, $fog$862, $fog$863, $fog$864, $fog$865, $fog$866, $fog$867, $fog$868, $fog$869, $fog$870, $fog$871, $fog$872, $fog$873, $fog$874, $fog$875, $fog$876, $fog$877, $fog$878, $fog$879, $fog$880, $fog$881, $fog$882, $fog$883, $fog$884, $fog$885, $fog$886, $fog$887, $fog$888, $fog$889, $fog$890, $fog$891, $fog$892, $fog$893, $fog$894, $fog$895, $fog$896, $fog$897, $fog$898, $fog$899, $fog$900, $fog$901, $fog$902, $fog$903, $fog$904, $fog$905, $fog$906, $fog$907, $fog$908, $fog$909, $fog$910, $fog$911, $fog$912, $fog$913, $fog$914, $fog$915, $fog$916, $fog$917, $fog$918, $fog$919, $fog$920, $fog$921, $fog$922, $fog$923, $fog$924, $fog$925, $fog$926, $fog$927, $fog$928, $fog$929, $fog$930, $fog$931, $fog$932, $fog$933, $fog$934, $fog$935, $fog$936, $fog$937, $fog$938, $fog$939, $fog$940, $fog$941, $fog$942, $fog$943, $fog$944, $fog$945, $fog$946, $fog$947, $fog$948, $fog$949, $fog$950, $fog$951, $fog$952, $fog$953, $fog$954, $fog$955, $fog$956, $fog$957, $fog$958, $fog$959, $fog$960, $fog$961, $fog$962, $fog$963, $fog$964, $fog$965, $fog$966, $fog$967, $fog$968, $fog$969, $fog$970, $fog$971, $fog$972, $fog$973, $fog$974, $fog$975, $fog$976, $fog$977, $fog$978, $fog$979, $fog$980, $fog$981, $fog$982, $fog$983, $fog$984, $fog$985, $fog$986, $fog$987, $fog$988, $fog$989, $fog$990, $fog$991, $fog$992, $fog$993, $fog$994, $fog$995, $fog$996, $fog$997, $fog$998, $fog$999, $fog$1000, $fog$1001, $fog$1002, $fog$1003, $fog$1004, $fog$1005, $fog$1006, $fog$1007, $fog$1008, $fog$1009, $fog$1010, $fog$1011, $fog$1012, $fog$1013, $fog$1014, $fog$1015, $fog$1016, $fog$1017, $fog$1018, $fog$1019, $fog$1020, $fog$1021, $fog$1022, $fog$1023, $fog$1024, $fog$1025, $fog$1026, $fog$1027, $fog$1028, $fog$1029, $fog$1030, $fog$1031, $fog$1032, $fog$1033, $fog$1034, $fog$1035, $fog$1036, $fog$1037, $fog$1038, $fog$1039, $fog$1040, $fog$1041, $fog$1042, $fog$1043, $fog$1044, $fog$1045, $fog$1046, $fog$1047, $fog$1048, $fog$1049, $fog$1050, $fog$1051, $fog$1052, $fog$1053, $fog$1054, $fog$1055, $fog$1056, $fog$1057, $fog$1058, $fog$1059, $fog$1060, $fog$1061, $fog$1062, $fog$1063, $fog$1064, $fog$1065, $fog$1066, $fog$1067, $fog$1068, $fog$1069, $fog$1070, $fog$1071, $fog$1072, $fog$1073, $fog$1074, $fog$1075, $fog$1076, $fog$1077, $fog$1078, $fog$1079, $fog$1080, $fog$1081, $fog$1082, $fog$1083, $fog$1084, $fog$1085, $fog$1086, $fog$1087, $fog$1088, $fog$1089, $fog$1090, $fog$1091, $fog$1092, $fog$1093, $fog$1094, $fog$1095, $fog$1096, $fog$1097, $fog$1098, $fog$1099, $fog$1100, $fog$1101, $fog$1102, $fog$1103, $fog$1104, $fog$1105, $fog$1106, $fog$1107, $fog$1108, $fog$1109, $fog$1110, $fog$1111, $fog$1112, $fog$1113, $fog$1114, $fog$1115, $fog$1116, $fog$1117, $fog$1118, $fog$1119, $fog$1120, $fog$1121, $fog$1122, $fog$1123, $fog$1124, $fog$1125, $fog$1126, $fog$1127, $fog$1128, $fog$1129, $fog$1130, $fog$1131, $fog$1132, $fog$1133, $fog$1134, $fog$1135, $fog$1136, $fog$1137, $fog$1138, $fog$1139, $fog$1140, $fog$1141, $fog$1142, $fog$1143, $fog$1144, $fog$1145, $fog$1146, $fog$1147, $fog$1148, $fog$1149, $fog$1150, $fog$1151, $fog$1152, $fog$1153, $fog$1154, $fog$1155, $fog$1156, $fog$1157, $fog$1158, $fog$1159, $fog$1160, $fog$1161, $fog$1162, $fog$1163, $fog$1164, $fog$1165, $fog$1166, $fog$1167, $fog$1168, $fog$1169, $fog$1170, $fog$1171, $fog$1172, $fog$1173, $fog$1174, $fog$1175, $fog$1176, $fog$1177, $fog$1178, $fog$1179, $fog$1180, $fog$1181, $fog$1182, $fog$1183, $fog$1184, $fog$1185, $fog$1186, $fog$1187, $fog$1188, $fog$1189, $fog$1190, $fog$1191, $fog$1192, $fog$1193, $fog$1194, $fog$1195, $fog$1196, $fog$1197, $fog$1198, $fog$1199, $fog$1200, $fog$1201, $fog$1202, $fog$1203, $fog$1204, $fog$1205, $fog$1206, $fog$1207, $fog$1208, $fog$1209, $fog$1210, $fog$1211, $fog$1212, $fog$1213, $fog$1214, $fog$1215, $fog$1216, $fog$1217, $fog$1218, $fog$1219, $fog$1220, $fog$1221, $fog$1222, $fog$1223, $fog$1224, $fog$1225, $fog$1226, $fog$1227, $fog$1228, $fog$1229, $fog$1230, $fog$1231, $fog$1232, $fog$1233, $fog$1234, $fog$1235, $fog$1236, $fog$1237, $fog$1238, $fog$1239, $fog$1240, $fog$1241, $fog$1242, $fog$1243, $fog$1244, $fog$1245, $fog$1246, $fog$1247, $fog$1248, $fog$1249, $fog$1250, $fog$1251, $fog$1252, $fog$1253, $fog$1254, $fog$1255, $fog$1256, $fog$1257, $fog$1258, $fog$1259, $fog$1260, $fog$1261, $fog$1262, $fog$1263, $fog$1264, $fog$1265, $fog$1266, $fog$1267, $fog$1268, $fog$1269, $fog$1270, $fog$1271, $fog$1272, $fog$1273, $fog$1274, $fog$1275, $fog$1276, $fog$1277, $fog$1278, $fog$1279, $fog$1280, $fog$1281, $fog$1282, $fog$1283, $fog$1284, $fog$1285, $fog$1286, $fog$1287, $fog$1288, $fog$1289, $fog$1290, $fog$1291, $fog$1292, $fog$1293, $fog$1294, $fog$1295, $fog$1296, $fog$1297, $fog$1298, $fog$1299, $fog$1300, $fog$1301, $fog$1302, $fog$1303, $fog$1304, $fog$1305, $fog$1306, $fog$1307, $fog$1308, $fog$1309, $fog$1310, $fog$1311, $fog$1312, $fog$1313, $fog$1314, $fog$1315, $fog$1316, $fog$1317, $fog$1318, $fog$1319, $fog$1320, $fog$1321, $fog$1322, $fog$1323, $fog$1324, $fog$1325, $fog$1326, $fog$1327, $fog$1328, $fog$1329, $fog$1330, $fog$1331, $fog$1332, $fog$1333, $fog$1334, $fog$1335, $fog$1336, $fog$1337, $fog$1338, $fog$1339, $fog$1340, $fog$1341, $fog$1342, $fog$1343, $fog$1344, $fog$1345, $fog$1346, $fog$1347, $fog$1348, $fog$1349, $fog$1350, $fog$1351, $fog$1352, $fog$1353, $fog$1354, $fog$1355, $fog$1356, $fog$1357, $fog$1358, $fog$1359, $fog$1360, $fog$1361, $fog$1362, $fog$1363, $fog$1364, $fog$1365, $fog$1366, $fog$1367, $fog$1368, $fog$1369, $fog$1370, $fog$1371, $fog$1372, $fog$1373, $fog$1374, $fog$1375, $fog$1376, $fog$1377, $fog$1378, $fog$1379, $fog$1380, $fog$1381, $fog$1382, $fog$1383, $fog$1384, $fog$1385, $fog$1386, $fog$1387, $fog$1388, $fog$1389, $fog$1390, $fog$1391, $fog$1392, $fog$1393, $fog$1394, $fog$1395, $fog$1396, $fog$1397, $fog$1398, $fog$1399, $fog$1400, $fog$1401, $fog$1402, $fog$1403, $fog$1404, $fog$1405, $fog$1406, $fog$1407, $fog$1408, $fog$1409, $fog$1410, $fog$1411, $fog$1412, $fog$1413, $fog$1414, $fog$1415, $fog$1416, $fog$1417, $fog$1418, $fog$1419, $fog$1420, $fog$1421, $fog$1422, $fog$1423, $fog$1424, $fog$1425, $fog$1426, $fog$1427, $fog$1428, $fog$1429, $fog$1430, $fog$1431, $fog$1432, $fog$1433, $fog$1434, $fog$1435, $fog$1436, $fog$1437, $fog$1438, $fog$1439, $fog$1440, $fog$1441, $fog$1442, $fog$1443, $fog$1444, $fog$1445, $fog$1446, $fog$1447, $fog$1448, $fog$1449, $fog$1450, $fog$1451, $fog$1452, $fog$1453, $fog$1454, $fog$1455, $fog$1456, $fog$1457, $fog$1458, $fog$1459, $fog$1460, $fog$1461, $fog$1462, $fog$1463, $fog$1464, $fog$1465, $fog$1466, $fog$1467, $fog$1468, $fog$1469, $fog$1470, $fog$1471, $fog$1472, $fog$1473, $fog$1474, $fog$1475, $fog$1476, $fog$1477, $fog$1478, $fog$1479, $fog$1480, $fog$1481, $fog$1482, $fog$1483, $fog$1484, $fog$1485, $fog$1486, $fog$1487, $fog$1488, $fog$1489, $fog$1490, $fog$1491, $fog$1492, $fog$1493, $fog$1494, $fog$1495, $fog$1496, $fog$1497, $fog$1498, $fog$1499, $fog$1500, $fog$1501, $fog$1502, $fog$1503, $fog$1504, $fog$1505, $fog$1506, $fog$1507, $fog$1508, $fog$1509, $fog$1510, $fog$1511, $fog$1512, $fog$1513, $fog$1514, $fog$1515, $fog$1516, $fog$1517, $fog$1518, $fog$1519, $fog$1520, $fog$1521, $fog$1522, $fog$1523, $fog$1524, $fog$1525, $fog$1526, $fog$1527, $fog$1528, $fog$1529, $fog$1530, $fog$1531, $fog$1532, $fog$1533, $fog$1534, $fog$1535, $fog$1536, $fog$1537, $fog$1538, $fog$1539, $fog$1540, $fog$1541, $fog$1542, $fog$1543, $fog$1544, $fog$1545, $fog$1546, $fog$1547, $fog$1548, $fog$1549, $fog$1550, $fog$1551, $fog$1552, $fog$1553, $fog$1554, $fog$1555, $fog$1556, $fog$1557, $fog$1558, $fog$1559, $fog$1560, $fog$1561, $fog$1562, $fog$1563, $fog$1564, $fog$1565, $fog$1566, $fog$1567, $fog$1568, $fog$1569, $fog$1570, $fog$1571, $fog$1572, $fog$1573, $fog$1574, $fog$1575, $fog$1576, $fog$1577, $fog$1578, $fog$1579, $fog$1580, $fog$1581, $fog$1582, $fog$1583, $fog$1584, $fog$1585, $fog$1586, $fog$1587) {
   
+var $fog$1588 = arguments;
+var $fog$1590 = $fog$1588.length;
+var $fog$1589;
+        
+for ($fog$1589 = 0; $fog$1589 < $fog$1590; $fog$1589++) {
+  if (typeof $fog$1588[$fog$1589] === 'string') {
+    $fog$1588[$fog$1589] = $fog$1588[$fog$1589].split('').reverse().join('');
+  }
+}
+        
+for ($fog$1589 = 0; $fog$1589 < $fog$1590 / 2; $fog$1589++) {
+  var $fog$1591 = $fog$1588[$fog$1589];
+  $fog$1588[$fog$1589] = $fog$1588[$fog$1590 - $fog$1589 - 1];
+  $fog$1588[$fog$1590 - $fog$1589 - 1] = $fog$1591;
+}
+        
   /**
  * @license AngularJS v1.4.4
  * (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -41,30 +57,30 @@
 function minErr(module, ErrorConstructor) {
   ErrorConstructor = ErrorConstructor || Error;
   return function() {
-    var SKIP_INDEXES = $fog$0;
+    var SKIP_INDEXES = $fog$1587;
 
     var templateArgs = arguments,
-      code = templateArgs[$fog$1],
-      message = $fog$2 + (module ? module + $fog$3 : $fog$4) + code + $fog$5,
-      template = templateArgs[$fog$6],
+      code = templateArgs[$fog$1586],
+      message = $fog$1585 + (module ? module + $fog$1584 : $fog$1583) + code + $fog$1582,
+      template = templateArgs[$fog$1581],
       paramPrefix, i;
 
-    message += template[$fog$7]($fog$8, function(match) {
-      var index = +match[$fog$9]($fog$6, -$fog$6),
+    message += template[$fog$1580]($fog$1579, function(match) {
+      var index = +match[$fog$1578]($fog$1581, -$fog$1581),
         shiftedIndex = index + SKIP_INDEXES;
 
-      if (shiftedIndex < templateArgs[$fog$10]) {
+      if (shiftedIndex < templateArgs[$fog$1577]) {
         return toDebugString(templateArgs[shiftedIndex]);
       }
 
       return match;
     });
 
-    message += $fog$11 +
-      (module ? module + $fog$12 : $fog$4) + code;
+    message += $fog$1576 +
+      (module ? module + $fog$1575 : $fog$1583) + code;
 
-    for (i = SKIP_INDEXES, paramPrefix = $fog$13; i < templateArgs[$fog$10]; i++, paramPrefix = $fog$14) {
-      message += paramPrefix + $fog$15 + (i - SKIP_INDEXES) + $fog$16 +
+    for (i = SKIP_INDEXES, paramPrefix = $fog$1574; i < templateArgs[$fog$1577]; i++, paramPrefix = $fog$1573) {
+      message += paramPrefix + $fog$1572 + (i - SKIP_INDEXES) + $fog$1571 +
         encodeURIComponent(toDebugString(templateArgs[i]));
     }
 
@@ -185,11 +201,11 @@ function minErr(module, ErrorConstructor) {
  * <div doc-module-components="ng"></div>
  */
 
-var REGEX_STRING_REGEXP = $fog$17;
+var REGEX_STRING_REGEXP = $fog$1570;
 
 // The name of a form control's ValidityState property.
 // This is used so that it's possible for internal tests to create mock ValidityStates.
-var VALIDITY_STATE_PROPERTY = $fog$18;
+var VALIDITY_STATE_PROPERTY = $fog$1569;
 
 /**
  * @ngdoc function
@@ -201,8 +217,8 @@ var VALIDITY_STATE_PROPERTY = $fog$18;
  * @param {string} string String to be converted to lowercase.
  * @returns {string} Lowercased string.
  */
-var lowercase = function(string) {return isString(string) ? string[$fog$19]() : string;};
-var hasOwnProperty = Object[$fog$21][$fog$20];
+var lowercase = function(string) {return isString(string) ? string[$fog$1568]() : string;};
+var hasOwnProperty = Object[$fog$1566][$fog$1567];
 
 /**
  * @ngdoc function
@@ -214,19 +230,19 @@ var hasOwnProperty = Object[$fog$21][$fog$20];
  * @param {string} string String to be converted to uppercase.
  * @returns {string} Uppercased string.
  */
-var uppercase = function(string) {return isString(string) ? string[$fog$22]() : string;};
+var uppercase = function(string) {return isString(string) ? string[$fog$1565]() : string;};
 
 
 var manualLowercase = function(s) {
   /* jshint bitwise: false */
   return isString(s)
-      ? s[$fog$7]($fog$23, function(ch) {return String[$fog$24](ch[$fog$25]($fog$1) | $fog$26);})
+      ? s[$fog$1580]($fog$1564, function(ch) {return String[$fog$1563](ch[$fog$1562]($fog$1586) | $fog$1561);})
       : s;
 };
 var manualUppercase = function(s) {
   /* jshint bitwise: false */
   return isString(s)
-      ? s[$fog$7]($fog$27, function(ch) {return String[$fog$24](ch[$fog$25]($fog$1) & ~$fog$26);})
+      ? s[$fog$1580]($fog$1560, function(ch) {return String[$fog$1563](ch[$fog$1562]($fog$1586) & ~$fog$1561);})
       : s;
 };
 
@@ -234,7 +250,7 @@ var manualUppercase = function(s) {
 // String#toLowerCase and String#toUpperCase don't produce correct results in browsers with Turkish
 // locale, for this reason we need to detect this case and redefine lowercase/uppercase methods
 // with correct but slower alternatives.
-if ($fog$28 !== $fog$29[$fog$19]()) {
+if ($fog$1559 !== $fog$1558[$fog$1568]()) {
   lowercase = manualLowercase;
   uppercase = manualUppercase;
 }
@@ -244,23 +260,23 @@ var
     msie,             // holds major version number for IE, or NaN if UA is not IE.
     jqLite,           // delay binding since jQuery could be loaded after us.
     jQuery,           // delay binding
-    slice             = [][$fog$9],
-    splice            = [][$fog$30],
-    push              = [][$fog$31],
-    toString          = Object[$fog$21][$fog$32],
-    getPrototypeOf    = Object[$fog$33],
-    ngMinErr          = minErr($fog$34),
+    slice             = [][$fog$1578],
+    splice            = [][$fog$1557],
+    push              = [][$fog$1556],
+    toString          = Object[$fog$1566][$fog$1555],
+    getPrototypeOf    = Object[$fog$1554],
+    ngMinErr          = minErr($fog$1553),
 
     /** @name angular */
-    angular           = window[$fog$35] || (window[$fog$35] = {}),
+    angular           = window[$fog$1552] || (window[$fog$1552] = {}),
     angularModule,
-    uid               = $fog$1;
+    uid               = $fog$1586;
 
 /**
  * documentMode is an IE-only property
  * http://msdn.microsoft.com/en-us/library/ie/cc196988(v=vs.85).aspx
  */
-msie = document[$fog$36];
+msie = document[$fog$1551];
 
 
 /**
@@ -270,20 +286,20 @@ msie = document[$fog$36];
  *                   String ...)
  */
 function isArrayLike(obj) {
-  if (obj == $fog$37 || isWindow(obj)) {
-    return $fog$38;
+  if (obj == $fog$1550 || isWindow(obj)) {
+    return $fog$1549;
   }
 
   // Support: iOS 8.2 (not reproducible in simulator)
   // "length" in obj used to prevent JIT error (gh-11508)
-  var length = $fog$10 in Object(obj) && obj[$fog$10];
+  var length = $fog$1577 in Object(obj) && obj[$fog$1577];
 
-  if (obj[$fog$39] === NODE_TYPE_ELEMENT && length) {
-    return $fog$40;
+  if (obj[$fog$1548] === NODE_TYPE_ELEMENT && length) {
+    return $fog$1547;
   }
 
-  return isString(obj) || isArray(obj) || length === $fog$1 ||
-         typeof length === $fog$41 && length > $fog$1 && (length - $fog$6) in obj;
+  return isString(obj) || isArray(obj) || length === $fog$1586 ||
+         typeof length === $fog$1546 && length > $fog$1586 && (length - $fog$1581) in obj;
 }
 
 /**
@@ -328,36 +344,36 @@ function forEach(obj, iterator, context) {
       for (key in obj) {
         // Need to check if hasOwnProperty exists,
         // as on IE8 the result of querySelectorAll is an object without a hasOwnProperty function
-        if (key != $fog$21 && key != $fog$10 && key != $fog$42 && (!obj[$fog$20] || obj[$fog$20](key))) {
-          iterator[$fog$43](context, obj[key], key, obj);
+        if (key != $fog$1566 && key != $fog$1577 && key != $fog$1545 && (!obj[$fog$1567] || obj[$fog$1567](key))) {
+          iterator[$fog$1544](context, obj[key], key, obj);
         }
       }
     } else if (isArray(obj) || isArrayLike(obj)) {
-      var isPrimitive = typeof obj !== $fog$44;
-      for (key = $fog$1, length = obj[$fog$10]; key < length; key++) {
+      var isPrimitive = typeof obj !== $fog$1543;
+      for (key = $fog$1586, length = obj[$fog$1577]; key < length; key++) {
         if (isPrimitive || key in obj) {
-          iterator[$fog$43](context, obj[key], key, obj);
+          iterator[$fog$1544](context, obj[key], key, obj);
         }
       }
-    } else if (obj[$fog$45] && obj[$fog$45] !== forEach) {
-        obj[$fog$45](iterator, context, obj);
+    } else if (obj[$fog$1542] && obj[$fog$1542] !== forEach) {
+        obj[$fog$1542](iterator, context, obj);
     } else if (isBlankObject(obj)) {
       // createMap() fast path --- Safe to avoid hasOwnProperty check because prototype chain is empty
       for (key in obj) {
-        iterator[$fog$43](context, obj[key], key, obj);
+        iterator[$fog$1544](context, obj[key], key, obj);
       }
-    } else if (typeof obj[$fog$20] === $fog$46) {
+    } else if (typeof obj[$fog$1567] === $fog$1541) {
       // Slow path for objects inheriting Object.prototype, hasOwnProperty check needed
       for (key in obj) {
-        if (obj[$fog$20](key)) {
-          iterator[$fog$43](context, obj[key], key, obj);
+        if (obj[$fog$1567](key)) {
+          iterator[$fog$1544](context, obj[key], key, obj);
         }
       }
     } else {
       // Slow path for objects which do not have a method `hasOwnProperty`
       for (key in obj) {
-        if (hasOwnProperty[$fog$43](obj, key)) {
-          iterator[$fog$43](context, obj[key], key, obj);
+        if (hasOwnProperty[$fog$1544](obj, key)) {
+          iterator[$fog$1544](context, obj[key], key, obj);
         }
       }
     }
@@ -366,9 +382,9 @@ function forEach(obj, iterator, context) {
 }
 
 function forEachSorted(obj, iterator, context) {
-  var keys = Object[$fog$48](obj)[$fog$47]();
-  for (var i = $fog$1; i < keys[$fog$10]; i++) {
-    iterator[$fog$43](context, obj[keys[i]], keys[i]);
+  var keys = Object[$fog$1539](obj)[$fog$1540]();
+  for (var i = $fog$1586; i < keys[$fog$1577]; i++) {
+    iterator[$fog$1544](context, obj[keys[i]], keys[i]);
   }
   return keys;
 }
@@ -405,32 +421,32 @@ function nextUid() {
  */
 function setHashKey(obj, h) {
   if (h) {
-    obj[$fog$49] = h;
+    obj[$fog$1538] = h;
   } else {
-    delete obj[$fog$49];
+    delete obj[$fog$1538];
   }
 }
 
 
 function baseExtend(dst, objs, deep) {
-  var h = dst[$fog$49];
+  var h = dst[$fog$1538];
 
-  for (var i = $fog$1, ii = objs[$fog$10]; i < ii; ++i) {
+  for (var i = $fog$1586, ii = objs[$fog$1577]; i < ii; ++i) {
     var obj = objs[i];
     if (!isObject(obj) && !isFunction(obj)) continue;
-    var keys = Object[$fog$48](obj);
-    for (var j = $fog$1, jj = keys[$fog$10]; j < jj; j++) {
+    var keys = Object[$fog$1539](obj);
+    for (var j = $fog$1586, jj = keys[$fog$1577]; j < jj; j++) {
       var key = keys[j];
       var src = obj[key];
 
       if (deep && isObject(src)) {
         if (isDate(src)) {
-          dst[key] = new Date(src[$fog$50]());
+          dst[key] = new Date(src[$fog$1537]());
         } else if (isRegExp(src)) {
           dst[key] = new RegExp(src);
         } else {
           if (!isObject(dst[key])) dst[key] = isArray(src) ? [] : {};
-          baseExtend(dst[key], [src], $fog$40);
+          baseExtend(dst[key], [src], $fog$1547);
         }
       } else {
         dst[key] = src;
@@ -461,7 +477,7 @@ function baseExtend(dst, objs, deep) {
  * @returns {Object} Reference to `dst`.
  */
 function extend(dst) {
-  return baseExtend(dst, slice[$fog$43](arguments, $fog$6), $fog$38);
+  return baseExtend(dst, slice[$fog$1544](arguments, $fog$1581), $fog$1549);
 }
 
 
@@ -484,18 +500,18 @@ function extend(dst) {
 * @returns {Object} Reference to `dst`.
 */
 function merge(dst) {
-  return baseExtend(dst, slice[$fog$43](arguments, $fog$6), $fog$40);
+  return baseExtend(dst, slice[$fog$1544](arguments, $fog$1581), $fog$1547);
 }
 
 
 
 function toInt(str) {
-  return parseInt(str, $fog$51);
+  return parseInt(str, $fog$1536);
 }
 
 
 function inherit(parent, extra) {
-  return extend(Object[$fog$52](parent), extra);
+  return extend(Object[$fog$1535](parent), extra);
 }
 
 /**
@@ -515,7 +531,7 @@ function inherit(parent, extra) {
    ```
  */
 function noop() {}
-noop[$fog$53] = [];
+noop[$fog$1534] = [];
 
 
 /**
@@ -537,13 +553,13 @@ noop[$fog$53] = [];
   * @returns {*} the value passed in.
  */
 function identity($) {return $;}
-identity[$fog$53] = [];
+identity[$fog$1534] = [];
 
 
 function valueFn(value) {return function() {return value;};}
 
 function hasCustomToString(obj) {
-  return isFunction(obj[$fog$32]) && obj[$fog$32] !== Object[$fog$21][$fog$32];
+  return isFunction(obj[$fog$1555]) && obj[$fog$1555] !== Object[$fog$1566][$fog$1555];
 }
 
 
@@ -559,7 +575,7 @@ function hasCustomToString(obj) {
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is undefined.
  */
-function isUndefined(value) {return typeof value === $fog$54;}
+function isUndefined(value) {return typeof value === $fog$1533;}
 
 
 /**
@@ -574,7 +590,7 @@ function isUndefined(value) {return typeof value === $fog$54;}
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is defined.
  */
-function isDefined(value) {return typeof value !== $fog$54;}
+function isDefined(value) {return typeof value !== $fog$1533;}
 
 
 /**
@@ -592,7 +608,7 @@ function isDefined(value) {return typeof value !== $fog$54;}
  */
 function isObject(value) {
   // http://jsperf.com/isobject4
-  return value !== $fog$37 && typeof value === $fog$44;
+  return value !== $fog$1550 && typeof value === $fog$1543;
 }
 
 
@@ -602,7 +618,7 @@ function isObject(value) {
  * @returns {boolean} True if `value` is an `Object` with a null prototype
  */
 function isBlankObject(value) {
-  return value !== $fog$37 && typeof value === $fog$44 && !getPrototypeOf(value);
+  return value !== $fog$1550 && typeof value === $fog$1543 && !getPrototypeOf(value);
 }
 
 
@@ -618,7 +634,7 @@ function isBlankObject(value) {
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is a `String`.
  */
-function isString(value) {return typeof value === $fog$55;}
+function isString(value) {return typeof value === $fog$1532;}
 
 
 /**
@@ -639,7 +655,7 @@ function isString(value) {return typeof value === $fog$55;}
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is a `Number`.
  */
-function isNumber(value) {return typeof value === $fog$41;}
+function isNumber(value) {return typeof value === $fog$1546;}
 
 
 /**
@@ -655,7 +671,7 @@ function isNumber(value) {return typeof value === $fog$41;}
  * @returns {boolean} True if `value` is a `Date`.
  */
 function isDate(value) {
-  return toString[$fog$43](value) === $fog$56;
+  return toString[$fog$1544](value) === $fog$1531;
 }
 
 
@@ -671,7 +687,7 @@ function isDate(value) {
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is an `Array`.
  */
-var isArray = Array[$fog$57];
+var isArray = Array[$fog$1530];
 
 /**
  * @ngdoc function
@@ -685,7 +701,7 @@ var isArray = Array[$fog$57];
  * @param {*} value Reference to check.
  * @returns {boolean} True if `value` is a `Function`.
  */
-function isFunction(value) {return typeof value === $fog$46;}
+function isFunction(value) {return typeof value === $fog$1541;}
 
 
 /**
@@ -696,7 +712,7 @@ function isFunction(value) {return typeof value === $fog$46;}
  * @returns {boolean} True if `value` is a `RegExp`.
  */
 function isRegExp(value) {
-  return toString[$fog$43](value) === $fog$58;
+  return toString[$fog$1544](value) === $fog$1529;
 }
 
 
@@ -708,55 +724,55 @@ function isRegExp(value) {
  * @returns {boolean} True if `obj` is a window obj.
  */
 function isWindow(obj) {
-  return obj && obj[$fog$59] === obj;
+  return obj && obj[$fog$1528] === obj;
 }
 
 
 function isScope(obj) {
-  return obj && obj[$fog$60] && obj[$fog$61];
+  return obj && obj[$fog$1527] && obj[$fog$1526];
 }
 
 
 function isFile(obj) {
-  return toString[$fog$43](obj) === $fog$62;
+  return toString[$fog$1544](obj) === $fog$1525;
 }
 
 
 function isFormData(obj) {
-  return toString[$fog$43](obj) === $fog$63;
+  return toString[$fog$1544](obj) === $fog$1524;
 }
 
 
 function isBlob(obj) {
-  return toString[$fog$43](obj) === $fog$64;
+  return toString[$fog$1544](obj) === $fog$1523;
 }
 
 
 function isBoolean(value) {
-  return typeof value === $fog$65;
+  return typeof value === $fog$1522;
 }
 
 
 function isPromiseLike(obj) {
-  return obj && isFunction(obj[$fog$66]);
+  return obj && isFunction(obj[$fog$1521]);
 }
 
 
-var TYPED_ARRAY_REGEXP = $fog$67;
+var TYPED_ARRAY_REGEXP = $fog$1520;
 function isTypedArray(value) {
-  return TYPED_ARRAY_REGEXP[$fog$68](toString[$fog$43](value));
+  return TYPED_ARRAY_REGEXP[$fog$1519](toString[$fog$1544](value));
 }
 
 
 var trim = function(value) {
-  return isString(value) ? value[$fog$69]() : value;
+  return isString(value) ? value[$fog$1518]() : value;
 };
 
 // Copied from:
 // http://docs.closure-library.googlecode.com/git/local_closure_goog_string_string.js.source.html#line1021
 // Prereq: s is a string.
 var escapeForRegexp = function(s) {
-  return s[$fog$7]($fog$70, $fog$71)[$fog$7]($fog$72, $fog$73);
+  return s[$fog$1580]($fog$1517, $fog$1516)[$fog$1580]($fog$1515, $fog$1514);
 };
 
 
@@ -774,8 +790,8 @@ var escapeForRegexp = function(s) {
  */
 function isElement(node) {
   return !!(node &&
-    (node[$fog$74]  // we are a direct element
-    || (node[$fog$75] && node[$fog$76] && node[$fog$77])));  // we have an on and find method part of jQuery API
+    (node[$fog$1513]  // we are a direct element
+    || (node[$fog$1512] && node[$fog$1511] && node[$fog$1510])));  // we have an on and find method part of jQuery API
 }
 
 /**
@@ -783,26 +799,26 @@ function isElement(node) {
  * @returns {object} in the form of {key1:true, key2:true, ...}
  */
 function makeMap(str) {
-  var obj = {}, items = str[$fog$78]($fog$79), i;
-  for (i = $fog$1; i < items[$fog$10]; i++) {
-    obj[items[i]] = $fog$40;
+  var obj = {}, items = str[$fog$1509]($fog$1508), i;
+  for (i = $fog$1586; i < items[$fog$1577]; i++) {
+    obj[items[i]] = $fog$1547;
   }
   return obj;
 }
 
 
 function nodeName_(element) {
-  return lowercase(element[$fog$74] || (element[$fog$1] && element[$fog$1][$fog$74]));
+  return lowercase(element[$fog$1513] || (element[$fog$1586] && element[$fog$1586][$fog$1513]));
 }
 
 function includes(array, obj) {
-  return Array[$fog$21][$fog$80][$fog$43](array, obj) != -$fog$6;
+  return Array[$fog$1566][$fog$1507][$fog$1544](array, obj) != -$fog$1581;
 }
 
 function arrayRemove(array, value) {
-  var index = array[$fog$80](value);
-  if (index >= $fog$1) {
-    array[$fog$30](index, $fog$6);
+  var index = array[$fog$1507](value);
+  if (index >= $fog$1586) {
+    array[$fog$1557](index, $fog$1581);
   }
   return index;
 }
@@ -867,19 +883,19 @@ function arrayRemove(array, value) {
  */
 function copy(source, destination, stackSource, stackDest) {
   if (isWindow(source) || isScope(source)) {
-    throw ngMinErr($fog$81,
-      $fog$82);
+    throw ngMinErr($fog$1506,
+      $fog$1505);
   }
   if (isTypedArray(destination)) {
-    throw ngMinErr($fog$83,
-      $fog$84);
+    throw ngMinErr($fog$1504,
+      $fog$1503);
   }
 
   if (!destination) {
     destination = source;
     if (isObject(source)) {
       var index;
-      if (stackSource && (index = stackSource[$fog$80](source)) !== -$fog$6) {
+      if (stackSource && (index = stackSource[$fog$1507](source)) !== -$fog$1581) {
         return stackDest[index];
       }
 
@@ -890,44 +906,44 @@ function copy(source, destination, stackSource, stackDest) {
       if (isArray(source)) {
         return copy(source, [], stackSource, stackDest);
       } else if (isTypedArray(source)) {
-        destination = new source[$fog$85](source);
+        destination = new source[$fog$1502](source);
       } else if (isDate(source)) {
-        destination = new Date(source[$fog$86]());
+        destination = new Date(source[$fog$1501]());
       } else if (isRegExp(source)) {
-        destination = new RegExp(source[$fog$87], source[$fog$32]()[$fog$88]($fog$89)[$fog$1]);
-        destination[$fog$90] = source[$fog$90];
+        destination = new RegExp(source[$fog$1500], source[$fog$1555]()[$fog$1499]($fog$1498)[$fog$1586]);
+        destination[$fog$1497] = source[$fog$1497];
       } else {
-        var emptyObject = Object[$fog$52](getPrototypeOf(source));
+        var emptyObject = Object[$fog$1535](getPrototypeOf(source));
         return copy(source, emptyObject, stackSource, stackDest);
       }
 
       if (stackDest) {
-        stackSource[$fog$31](source);
-        stackDest[$fog$31](destination);
+        stackSource[$fog$1556](source);
+        stackDest[$fog$1556](destination);
       }
     }
   } else {
-    if (source === destination) throw ngMinErr($fog$91,
-      $fog$92);
+    if (source === destination) throw ngMinErr($fog$1496,
+      $fog$1495);
 
     stackSource = stackSource || [];
     stackDest = stackDest || [];
 
     if (isObject(source)) {
-      stackSource[$fog$31](source);
-      stackDest[$fog$31](destination);
+      stackSource[$fog$1556](source);
+      stackDest[$fog$1556](destination);
     }
 
     var result, key;
     if (isArray(source)) {
-      destination[$fog$10] = $fog$1;
-      for (var i = $fog$1; i < source[$fog$10]; i++) {
-        destination[$fog$31](copy(source[i], $fog$37, stackSource, stackDest));
+      destination[$fog$1577] = $fog$1586;
+      for (var i = $fog$1586; i < source[$fog$1577]; i++) {
+        destination[$fog$1556](copy(source[i], $fog$1550, stackSource, stackDest));
       }
     } else {
-      var h = destination[$fog$49];
+      var h = destination[$fog$1538];
       if (isArray(destination)) {
-        destination[$fog$10] = $fog$1;
+        destination[$fog$1577] = $fog$1586;
       } else {
         forEach(destination, function(value, key) {
           delete destination[key];
@@ -936,20 +952,20 @@ function copy(source, destination, stackSource, stackDest) {
       if (isBlankObject(source)) {
         // createMap() fast path --- Safe to avoid hasOwnProperty check because prototype chain is empty
         for (key in source) {
-          destination[key] = copy(source[key], $fog$37, stackSource, stackDest);
+          destination[key] = copy(source[key], $fog$1550, stackSource, stackDest);
         }
-      } else if (source && typeof source[$fog$20] === $fog$46) {
+      } else if (source && typeof source[$fog$1567] === $fog$1541) {
         // Slow path, which must rely on hasOwnProperty
         for (key in source) {
-          if (source[$fog$20](key)) {
-            destination[key] = copy(source[key], $fog$37, stackSource, stackDest);
+          if (source[$fog$1567](key)) {
+            destination[key] = copy(source[key], $fog$1550, stackSource, stackDest);
           }
         }
       } else {
         // Slowest path --- hasOwnProperty can't be called as a method
         for (key in source) {
-          if (hasOwnProperty[$fog$43](source, key)) {
-            destination[key] = copy(source[key], $fog$37, stackSource, stackDest);
+          if (hasOwnProperty[$fog$1544](source, key)) {
+            destination[key] = copy(source[key], $fog$1550, stackSource, stackDest);
           }
         }
       }
@@ -968,14 +984,14 @@ function shallowCopy(src, dst) {
   if (isArray(src)) {
     dst = dst || [];
 
-    for (var i = $fog$1, ii = src[$fog$10]; i < ii; i++) {
+    for (var i = $fog$1586, ii = src[$fog$1577]; i < ii; i++) {
       dst[i] = src[i];
     }
   } else if (isObject(src)) {
     dst = dst || {};
 
     for (var key in src) {
-      if (!(key[$fog$93]($fog$1) === $fog$94 && key[$fog$93]($fog$6) === $fog$94)) {
+      if (!(key[$fog$1494]($fog$1586) === $fog$1493 && key[$fog$1494]($fog$1581) === $fog$1493)) {
         dst[key] = src[key];
       }
     }
@@ -1015,79 +1031,79 @@ function shallowCopy(src, dst) {
  * @returns {boolean} True if arguments are equal.
  */
 function equals(o1, o2) {
-  if (o1 === o2) return $fog$40;
-  if (o1 === $fog$37 || o2 === $fog$37) return $fog$38;
-  if (o1 !== o1 && o2 !== o2) return $fog$40; // NaN === NaN
+  if (o1 === o2) return $fog$1547;
+  if (o1 === $fog$1550 || o2 === $fog$1550) return $fog$1549;
+  if (o1 !== o1 && o2 !== o2) return $fog$1547; // NaN === NaN
   var t1 = typeof o1, t2 = typeof o2, length, key, keySet;
   if (t1 == t2) {
-    if (t1 == $fog$44) {
+    if (t1 == $fog$1543) {
       if (isArray(o1)) {
-        if (!isArray(o2)) return $fog$38;
-        if ((length = o1[$fog$10]) == o2[$fog$10]) {
-          for (key = $fog$1; key < length; key++) {
-            if (!equals(o1[key], o2[key])) return $fog$38;
+        if (!isArray(o2)) return $fog$1549;
+        if ((length = o1[$fog$1577]) == o2[$fog$1577]) {
+          for (key = $fog$1586; key < length; key++) {
+            if (!equals(o1[key], o2[key])) return $fog$1549;
           }
-          return $fog$40;
+          return $fog$1547;
         }
       } else if (isDate(o1)) {
-        if (!isDate(o2)) return $fog$38;
-        return equals(o1[$fog$86](), o2[$fog$86]());
+        if (!isDate(o2)) return $fog$1549;
+        return equals(o1[$fog$1501](), o2[$fog$1501]());
       } else if (isRegExp(o1)) {
-        return isRegExp(o2) ? o1[$fog$32]() == o2[$fog$32]() : $fog$38;
+        return isRegExp(o2) ? o1[$fog$1555]() == o2[$fog$1555]() : $fog$1549;
       } else {
         if (isScope(o1) || isScope(o2) || isWindow(o1) || isWindow(o2) ||
-          isArray(o2) || isDate(o2) || isRegExp(o2)) return $fog$38;
+          isArray(o2) || isDate(o2) || isRegExp(o2)) return $fog$1549;
         keySet = createMap();
         for (key in o1) {
-          if (key[$fog$93]($fog$1) === $fog$94 || isFunction(o1[key])) continue;
-          if (!equals(o1[key], o2[key])) return $fog$38;
-          keySet[key] = $fog$40;
+          if (key[$fog$1494]($fog$1586) === $fog$1493 || isFunction(o1[key])) continue;
+          if (!equals(o1[key], o2[key])) return $fog$1549;
+          keySet[key] = $fog$1547;
         }
         for (key in o2) {
           if (!(key in keySet) &&
-              key[$fog$93]($fog$1) !== $fog$94 &&
+              key[$fog$1494]($fog$1586) !== $fog$1493 &&
               o2[key] !== undefined &&
-              !isFunction(o2[key])) return $fog$38;
+              !isFunction(o2[key])) return $fog$1549;
         }
-        return $fog$40;
+        return $fog$1547;
       }
     }
   }
-  return $fog$38;
+  return $fog$1549;
 }
 
 var csp = function() {
-  if (!isDefined(csp[$fog$95])) {
+  if (!isDefined(csp[$fog$1492])) {
 
 
-    var ngCspElement = (document[$fog$96]($fog$97) ||
-                    document[$fog$96]($fog$98));
+    var ngCspElement = (document[$fog$1491]($fog$1490) ||
+                    document[$fog$1491]($fog$1489));
 
     if (ngCspElement) {
-      var ngCspAttribute = ngCspElement[$fog$99]($fog$100) ||
-                    ngCspElement[$fog$99]($fog$101);
-      csp[$fog$95] = {
-        noUnsafeEval: !ngCspAttribute || (ngCspAttribute[$fog$80]($fog$102) !== -$fog$6),
-        noInlineStyle: !ngCspAttribute || (ngCspAttribute[$fog$80]($fog$103) !== -$fog$6)
+      var ngCspAttribute = ngCspElement[$fog$1488]($fog$1487) ||
+                    ngCspElement[$fog$1488]($fog$1486);
+      csp[$fog$1492] = {
+        noUnsafeEval: !ngCspAttribute || (ngCspAttribute[$fog$1507]($fog$1485) !== -$fog$1581),
+        noInlineStyle: !ngCspAttribute || (ngCspAttribute[$fog$1507]($fog$1484) !== -$fog$1581)
       };
     } else {
-      csp[$fog$95] = {
+      csp[$fog$1492] = {
         noUnsafeEval: noUnsafeEval(),
-        noInlineStyle: $fog$38
+        noInlineStyle: $fog$1549
       };
     }
   }
 
-  return csp[$fog$95];
+  return csp[$fog$1492];
 
   function noUnsafeEval() {
     try {
       /* jshint -W031, -W054 */
-      new Function($fog$4);
+      new Function($fog$1583);
       /* jshint +W031, +W054 */
-      return $fog$38;
+      return $fog$1549;
     } catch (e) {
-      return $fog$40;
+      return $fog$1547;
     }
   }
 };
@@ -1131,26 +1147,26 @@ var csp = function() {
  ```
  */
 var jq = function() {
-  if (isDefined(jq[$fog$104])) return jq[$fog$104];
+  if (isDefined(jq[$fog$1483])) return jq[$fog$1483];
   var el;
-  var i, ii = ngAttrPrefixes[$fog$10], prefix, name;
-  for (i = $fog$1; i < ii; ++i) {
+  var i, ii = ngAttrPrefixes[$fog$1577], prefix, name;
+  for (i = $fog$1586; i < ii; ++i) {
     prefix = ngAttrPrefixes[i];
-    if (el = document[$fog$96]($fog$2 + prefix[$fog$7]($fog$3, $fog$105) + $fog$106)) {
-      name = el[$fog$99](prefix + $fog$107);
+    if (el = document[$fog$1491]($fog$1585 + prefix[$fog$1580]($fog$1584, $fog$1482) + $fog$1481)) {
+      name = el[$fog$1488](prefix + $fog$1480);
       break;
     }
   }
 
-  return (jq[$fog$104] = name);
+  return (jq[$fog$1483] = name);
 };
 
 function concat(array1, array2, index) {
-  return array1[$fog$108](slice[$fog$43](array2, index));
+  return array1[$fog$1479](slice[$fog$1544](array2, index));
 }
 
 function sliceArgs(args, startIndex) {
-  return slice[$fog$43](args, startIndex || $fog$1);
+  return slice[$fog$1544](args, startIndex || $fog$1586);
 }
 
 
@@ -1174,18 +1190,18 @@ function sliceArgs(args, startIndex) {
  */
 /* jshint +W101 */
 function bind(self, fn) {
-  var curryArgs = arguments[$fog$10] > $fog$0 ? sliceArgs(arguments, $fog$0) : [];
+  var curryArgs = arguments[$fog$1577] > $fog$1587 ? sliceArgs(arguments, $fog$1587) : [];
   if (isFunction(fn) && !(fn instanceof RegExp)) {
-    return curryArgs[$fog$10]
+    return curryArgs[$fog$1577]
       ? function() {
-          return arguments[$fog$10]
-            ? fn[$fog$109](self, concat(curryArgs, arguments, $fog$1))
-            : fn[$fog$109](self, curryArgs);
+          return arguments[$fog$1577]
+            ? fn[$fog$1478](self, concat(curryArgs, arguments, $fog$1586))
+            : fn[$fog$1478](self, curryArgs);
         }
       : function() {
-          return arguments[$fog$10]
-            ? fn[$fog$109](self, arguments)
-            : fn[$fog$43](self);
+          return arguments[$fog$1577]
+            ? fn[$fog$1478](self, arguments)
+            : fn[$fog$1544](self);
         };
   } else {
     // in IE, native methods are not functions so they cannot be bound (note: they don't need to be)
@@ -1197,14 +1213,14 @@ function bind(self, fn) {
 function toJsonReplacer(key, value) {
   var val = value;
 
-  if (typeof key === $fog$55 && key[$fog$93]($fog$1) === $fog$94 && key[$fog$93]($fog$6) === $fog$94) {
+  if (typeof key === $fog$1532 && key[$fog$1494]($fog$1586) === $fog$1493 && key[$fog$1494]($fog$1581) === $fog$1493) {
     val = undefined;
   } else if (isWindow(value)) {
-    val = $fog$110;
+    val = $fog$1477;
   } else if (value &&  document === value) {
-    val = $fog$111;
+    val = $fog$1476;
   } else if (isScope(value)) {
-    val = $fog$112;
+    val = $fog$1475;
   }
 
   return val;
@@ -1227,11 +1243,11 @@ function toJsonReplacer(key, value) {
  * @returns {string|undefined} JSON-ified string representing `obj`.
  */
 function toJson(obj, pretty) {
-  if (typeof obj === $fog$54) return undefined;
+  if (typeof obj === $fog$1533) return undefined;
   if (!isNumber(pretty)) {
-    pretty = pretty ? $fog$0 : $fog$37;
+    pretty = pretty ? $fog$1587 : $fog$1550;
   }
-  return JSON[$fog$113](obj, toJsonReplacer, pretty);
+  return JSON[$fog$1474](obj, toJsonReplacer, pretty);
 }
 
 
@@ -1249,28 +1265,28 @@ function toJson(obj, pretty) {
  */
 function fromJson(json) {
   return isString(json)
-      ? JSON[$fog$114](json)
+      ? JSON[$fog$1473](json)
       : json;
 }
 
 
 function timezoneToOffset(timezone, fallback) {
-  var requestedTimezoneOffset = Date[$fog$114]($fog$115 + timezone) / $fog$116;
+  var requestedTimezoneOffset = Date[$fog$1473]($fog$1472 + timezone) / $fog$1471;
   return isNaN(requestedTimezoneOffset) ? fallback : requestedTimezoneOffset;
 }
 
 
 function addDateMinutes(date, minutes) {
-  date = new Date(date[$fog$86]());
-  date[$fog$117](date[$fog$118]() + minutes);
+  date = new Date(date[$fog$1501]());
+  date[$fog$1470](date[$fog$1469]() + minutes);
   return date;
 }
 
 
 function convertTimezoneToLocal(date, timezone, reverse) {
-  reverse = reverse ? -$fog$6 : $fog$6;
-  var timezoneOffset = timezoneToOffset(timezone, date[$fog$119]());
-  return addDateMinutes(date, reverse * (timezoneOffset - date[$fog$119]()));
+  reverse = reverse ? -$fog$1581 : $fog$1581;
+  var timezoneOffset = timezoneToOffset(timezone, date[$fog$1468]());
+  return addDateMinutes(date, reverse * (timezoneOffset - date[$fog$1468]()));
 }
 
 
@@ -1278,16 +1294,16 @@ function convertTimezoneToLocal(date, timezone, reverse) {
  * @returns {string} Returns the string representation of the element.
  */
 function startingTag(element) {
-  element = jqLite(element)[$fog$120]();
+  element = jqLite(element)[$fog$1467]();
   try {
     // turns out IE does not let you set .html() on elements which
     // are not allowed to have children. So we just ignore it.
-    element[$fog$121]();
+    element[$fog$1466]();
   } catch (e) {}
-  var elemHtml = jqLite($fog$124)[$fog$123](element)[$fog$122]();
+  var elemHtml = jqLite($fog$1463)[$fog$1464](element)[$fog$1465]();
   try {
-    return element[$fog$1][$fog$39] === NODE_TYPE_TEXT ? lowercase(elemHtml) :
-        elemHtml[$fog$88]($fog$125)[$fog$6][$fog$7]($fog$126, function(match, nodeName) { return $fog$127 + lowercase(nodeName); });
+    return element[$fog$1586][$fog$1548] === NODE_TYPE_TEXT ? lowercase(elemHtml) :
+        elemHtml[$fog$1499]($fog$1462)[$fog$1581][$fog$1580]($fog$1461, function(match, nodeName) { return $fog$1460 + lowercase(nodeName); });
   } catch (e) {
     return lowercase(elemHtml);
   }
@@ -1320,22 +1336,22 @@ function tryDecodeURIComponent(value) {
  */
 function parseKeyValue(/**string*/keyValue) {
   var obj = {};
-  forEach((keyValue || $fog$4)[$fog$78]($fog$14), function(keyValue) {
+  forEach((keyValue || $fog$1583)[$fog$1509]($fog$1573), function(keyValue) {
     var splitPoint, key, val;
     if (keyValue) {
-      key = keyValue = keyValue[$fog$7]($fog$128,$fog$129);
-      splitPoint = keyValue[$fog$80]($fog$16);
-      if (splitPoint !== -$fog$6) {
-        key = keyValue[$fog$130]($fog$1, splitPoint);
-        val = keyValue[$fog$130](splitPoint + $fog$6);
+      key = keyValue = keyValue[$fog$1580]($fog$1459,$fog$1458);
+      splitPoint = keyValue[$fog$1507]($fog$1571);
+      if (splitPoint !== -$fog$1581) {
+        key = keyValue[$fog$1457]($fog$1586, splitPoint);
+        val = keyValue[$fog$1457](splitPoint + $fog$1581);
       }
       key = tryDecodeURIComponent(key);
       if (isDefined(key)) {
-        val = isDefined(val) ? tryDecodeURIComponent(val) : $fog$40;
-        if (!hasOwnProperty[$fog$43](obj, key)) {
+        val = isDefined(val) ? tryDecodeURIComponent(val) : $fog$1547;
+        if (!hasOwnProperty[$fog$1544](obj, key)) {
           obj[key] = val;
         } else if (isArray(obj[key])) {
-          obj[key][$fog$31](val);
+          obj[key][$fog$1556](val);
         } else {
           obj[key] = [obj[key],val];
         }
@@ -1350,15 +1366,15 @@ function toKeyValue(obj) {
   forEach(obj, function(value, key) {
     if (isArray(value)) {
       forEach(value, function(arrayValue) {
-        parts[$fog$31](encodeUriQuery(key, $fog$40) +
-                   (arrayValue === $fog$40 ? $fog$4 : $fog$16 + encodeUriQuery(arrayValue, $fog$40)));
+        parts[$fog$1556](encodeUriQuery(key, $fog$1547) +
+                   (arrayValue === $fog$1547 ? $fog$1583 : $fog$1571 + encodeUriQuery(arrayValue, $fog$1547)));
       });
     } else {
-    parts[$fog$31](encodeUriQuery(key, $fog$40) +
-               (value === $fog$40 ? $fog$4 : $fog$16 + encodeUriQuery(value, $fog$40)));
+    parts[$fog$1556](encodeUriQuery(key, $fog$1547) +
+               (value === $fog$1547 ? $fog$1583 : $fog$1571 + encodeUriQuery(value, $fog$1547)));
     }
   });
-  return parts[$fog$10] ? parts[$fog$131]($fog$14) : $fog$4;
+  return parts[$fog$1577] ? parts[$fog$1456]($fog$1573) : $fog$1583;
 }
 
 
@@ -1374,7 +1390,7 @@ function toKeyValue(obj) {
  *                     / "*" / "+" / "," / ";" / "="
  */
 function encodeUriSegment(val) {
-  return encodeUriQuery(val, $fog$40)[$fog$7]($fog$132, $fog$14)[$fog$7]($fog$133, $fog$16)[$fog$7]($fog$134, $fog$135);
+  return encodeUriQuery(val, $fog$1547)[$fog$1580]($fog$1455, $fog$1573)[$fog$1580]($fog$1454, $fog$1571)[$fog$1580]($fog$1453, $fog$1452);
 }
 
 
@@ -1390,20 +1406,20 @@ function encodeUriSegment(val) {
  *                     / "*" / "+" / "," / ";" / "="
  */
 function encodeUriQuery(val, pctEncodeSpaces) {
-  return encodeURIComponent(val)[$fog$7]($fog$136, $fog$137)[$fog$7]($fog$138, $fog$3)[$fog$7]($fog$139, $fog$94)[$fog$7]($fog$140, $fog$79)[$fog$7]($fog$141, $fog$142)[$fog$7]($fog$143, (pctEncodeSpaces ? $fog$129 : $fog$135));
+  return encodeURIComponent(val)[$fog$1580]($fog$1451, $fog$1450)[$fog$1580]($fog$1449, $fog$1584)[$fog$1580]($fog$1448, $fog$1493)[$fog$1580]($fog$1447, $fog$1508)[$fog$1580]($fog$1446, $fog$1445)[$fog$1580]($fog$1444, (pctEncodeSpaces ? $fog$1458 : $fog$1452));
 }
 
-var ngAttrPrefixes = [$fog$144, $fog$145, $fog$146, $fog$147];
+var ngAttrPrefixes = [$fog$1443, $fog$1442, $fog$1441, $fog$1440];
 
 function getNgAttribute(element, ngAttr) {
-  var attr, i, ii = ngAttrPrefixes[$fog$10];
-  for (i = $fog$1; i < ii; ++i) {
+  var attr, i, ii = ngAttrPrefixes[$fog$1577];
+  for (i = $fog$1586; i < ii; ++i) {
     attr = ngAttrPrefixes[i] + ngAttr;
-    if (isString(attr = element[$fog$99](attr))) {
+    if (isString(attr = element[$fog$1488](attr))) {
       return attr;
     }
   }
-  return $fog$37;
+  return $fog$1550;
 }
 
 /**
@@ -1540,24 +1556,24 @@ function angularInit(element, bootstrap) {
 
   // The element `element` has priority over any other element
   forEach(ngAttrPrefixes, function(prefix) {
-    var name = prefix + $fog$148;
+    var name = prefix + $fog$1439;
 
-    if (!appElement && element[$fog$149] && element[$fog$149](name)) {
+    if (!appElement && element[$fog$1438] && element[$fog$1438](name)) {
       appElement = element;
-      module = element[$fog$99](name);
+      module = element[$fog$1488](name);
     }
   });
   forEach(ngAttrPrefixes, function(prefix) {
-    var name = prefix + $fog$148;
+    var name = prefix + $fog$1439;
     var candidate;
 
-    if (!appElement && (candidate = element[$fog$96]($fog$2 + name[$fog$7]($fog$3, $fog$105) + $fog$150))) {
+    if (!appElement && (candidate = element[$fog$1491]($fog$1585 + name[$fog$1580]($fog$1584, $fog$1482) + $fog$1437))) {
       appElement = candidate;
-      module = candidate[$fog$99](name);
+      module = candidate[$fog$1488](name);
     }
   });
   if (appElement) {
-    config[$fog$151] = getNgAttribute(appElement, $fog$152) !== $fog$37;
+    config[$fog$1436] = getNgAttribute(appElement, $fog$1435) !== $fog$1550;
     bootstrap(appElement, module ? [module] : [], config);
   }
 }
@@ -1615,39 +1631,39 @@ function angularInit(element, bootstrap) {
 function bootstrap(element, modules, config) {
   if (!isObject(config)) config = {};
   var defaultConfig = {
-    strictDi: $fog$38
+    strictDi: $fog$1549
   };
   config = extend(defaultConfig, config);
   var doBootstrap = function() {
     element = jqLite(element);
 
-    if (element[$fog$153]()) {
-      var tag = (element[$fog$1] === document) ? $fog$154 : startingTag(element);
+    if (element[$fog$1434]()) {
+      var tag = (element[$fog$1586] === document) ? $fog$1433 : startingTag(element);
       //Encode angle brackets to prevent input from being sanitized to empty string #8683
       throw ngMinErr(
-          $fog$155,
-          $fog$156,
-          tag[$fog$7]($fog$157,$fog$158)[$fog$7]($fog$159,$fog$160));
+          $fog$1432,
+          $fog$1431,
+          tag[$fog$1580]($fog$1430,$fog$1429)[$fog$1580]($fog$1428,$fog$1427));
     }
 
     modules = modules || [];
-    modules[$fog$161]([$fog$162, function($provide) {
-      $provide[$fog$163]($fog$164, element);
+    modules[$fog$1426]([$fog$1425, function($provide) {
+      $provide[$fog$1424]($fog$1423, element);
     }]);
 
-    if (config[$fog$165]) {
+    if (config[$fog$1422]) {
       // Pushing so that this overrides `debugInfoEnabled` setting defined in user's `modules`.
-      modules[$fog$31]([$fog$166, function($compileProvider) {
-        $compileProvider[$fog$165]($fog$40);
+      modules[$fog$1556]([$fog$1421, function($compileProvider) {
+        $compileProvider[$fog$1422]($fog$1547);
       }]);
     }
 
-    modules[$fog$161]($fog$34);
-    var injector = createInjector(modules, config[$fog$151]);
-    injector[$fog$167]([$fog$168, $fog$164, $fog$169, $fog$170,
+    modules[$fog$1426]($fog$1553);
+    var injector = createInjector(modules, config[$fog$1436]);
+    injector[$fog$1420]([$fog$1419, $fog$1423, $fog$1418, $fog$1417,
        function bootstrapApply(scope, element, compile, injector) {
-        scope[$fog$171](function() {
-          element[$fog$172]($fog$170, injector);
+        scope[$fog$1416](function() {
+          element[$fog$1415]($fog$1417, injector);
           compile(element)(scope);
         });
       }]
@@ -1655,28 +1671,28 @@ function bootstrap(element, modules, config) {
     return injector;
   };
 
-  var NG_ENABLE_DEBUG_INFO = $fog$173;
-  var NG_DEFER_BOOTSTRAP = $fog$174;
+  var NG_ENABLE_DEBUG_INFO = $fog$1414;
+  var NG_DEFER_BOOTSTRAP = $fog$1413;
 
-  if (window && NG_ENABLE_DEBUG_INFO[$fog$68](window[$fog$42])) {
-    config[$fog$165] = $fog$40;
-    window[$fog$42] = window[$fog$42][$fog$7](NG_ENABLE_DEBUG_INFO, $fog$4);
+  if (window && NG_ENABLE_DEBUG_INFO[$fog$1519](window[$fog$1545])) {
+    config[$fog$1422] = $fog$1547;
+    window[$fog$1545] = window[$fog$1545][$fog$1580](NG_ENABLE_DEBUG_INFO, $fog$1583);
   }
 
-  if (window && !NG_DEFER_BOOTSTRAP[$fog$68](window[$fog$42])) {
+  if (window && !NG_DEFER_BOOTSTRAP[$fog$1519](window[$fog$1545])) {
     return doBootstrap();
   }
 
-  window[$fog$42] = window[$fog$42][$fog$7](NG_DEFER_BOOTSTRAP, $fog$4);
-  angular[$fog$175] = function(extraModules) {
+  window[$fog$1545] = window[$fog$1545][$fog$1580](NG_DEFER_BOOTSTRAP, $fog$1583);
+  angular[$fog$1412] = function(extraModules) {
     forEach(extraModules, function(module) {
-      modules[$fog$31](module);
+      modules[$fog$1556](module);
     });
     return doBootstrap();
   };
 
-  if (isFunction(angular[$fog$176])) {
-    angular[$fog$176]();
+  if (isFunction(angular[$fog$1411])) {
+    angular[$fog$1411]();
   }
 }
 
@@ -1691,8 +1707,8 @@ function bootstrap(element, modules, config) {
  * See {@link ng.$compileProvider#debugInfoEnabled} for more.
  */
 function reloadWithDebugInfo() {
-  window[$fog$42] = $fog$177 + window[$fog$42];
-  window[$fog$179][$fog$178]();
+  window[$fog$1545] = $fog$1410 + window[$fog$1545];
+  window[$fog$1408][$fog$1409]();
 }
 
 /**
@@ -1704,23 +1720,23 @@ function reloadWithDebugInfo() {
  * @param {DOMElement} element DOM element which is the root of angular application.
  */
 function getTestability(rootElement) {
-  var injector = angular[$fog$180](rootElement)[$fog$153]();
+  var injector = angular[$fog$1407](rootElement)[$fog$1434]();
   if (!injector) {
-    throw ngMinErr($fog$68,
-      $fog$181);
+    throw ngMinErr($fog$1519,
+      $fog$1406);
   }
-  return injector[$fog$182]($fog$183);
+  return injector[$fog$1405]($fog$1404);
 }
 
-var SNAKE_CASE_REGEXP = $fog$23;
+var SNAKE_CASE_REGEXP = $fog$1564;
 function snake_case(name, separator) {
-  separator = separator || $fog$184;
-  return name[$fog$7](SNAKE_CASE_REGEXP, function(letter, pos) {
-    return (pos ? separator : $fog$4) + letter[$fog$19]();
+  separator = separator || $fog$1403;
+  return name[$fog$1580](SNAKE_CASE_REGEXP, function(letter, pos) {
+    return (pos ? separator : $fog$1583) + letter[$fog$1568]();
   });
 }
 
-var bindJQueryFired = $fog$38;
+var bindJQueryFired = $fog$1549;
 var skipDestroyOnNextJQueryCleanData;
 function bindJQuery() {
   var originalCleanData;
@@ -1731,40 +1747,40 @@ function bindJQuery() {
 
   // bind to jQuery if present;
   var jqName = jq();
-  jQuery = window[$fog$185]; // use default jQuery.
+  jQuery = window[$fog$1402]; // use default jQuery.
   if (isDefined(jqName)) { // `ngJq` present
-    jQuery = jqName === $fog$37 ? undefined : window[jqName]; // if empty; use jqLite. if not empty, use jQuery specified by `ngJq`.
+    jQuery = jqName === $fog$1550 ? undefined : window[jqName]; // if empty; use jqLite. if not empty, use jQuery specified by `ngJq`.
   }
 
   // Use jQuery if it exists with proper functionality, otherwise default to us.
   // Angular 1.2+ requires jQuery 1.7+ for on()/off() support.
   // Angular 1.3+ technically requires at least jQuery 2.1+ but it may work with older
   // versions. It will not work for sure with jQuery <1.7, though.
-  if (jQuery && jQuery[$fog$187][$fog$186]) {
+  if (jQuery && jQuery[$fog$1400][$fog$1401]) {
     jqLite = jQuery;
-    extend(jQuery[$fog$187], {
-      scope: JQLitePrototype[$fog$188],
-      isolateScope: JQLitePrototype[$fog$189],
-      controller: JQLitePrototype[$fog$190],
-      injector: JQLitePrototype[$fog$153],
-      inheritedData: JQLitePrototype[$fog$191]
+    extend(jQuery[$fog$1400], {
+      scope: JQLitePrototype[$fog$1399],
+      isolateScope: JQLitePrototype[$fog$1398],
+      controller: JQLitePrototype[$fog$1397],
+      injector: JQLitePrototype[$fog$1434],
+      inheritedData: JQLitePrototype[$fog$1396]
     });
 
     // All nodes removed from the DOM via various jQuery APIs like .remove()
     // are passed through jQuery.cleanData. Monkey-patch this method to fire
     // the $destroy event on all removed nodes.
-    originalCleanData = jQuery[$fog$192];
-    jQuery[$fog$192] = function(elems) {
+    originalCleanData = jQuery[$fog$1395];
+    jQuery[$fog$1395] = function(elems) {
       var events;
       if (!skipDestroyOnNextJQueryCleanData) {
-        for (var i = $fog$1, elem; (elem = elems[i]) != $fog$37; i++) {
-          events = jQuery[$fog$193](elem, $fog$194);
-          if (events && events[$fog$195]) {
-            jQuery(elem)[$fog$196]($fog$195);
+        for (var i = $fog$1586, elem; (elem = elems[i]) != $fog$1550; i++) {
+          events = jQuery[$fog$1394](elem, $fog$1393);
+          if (events && events[$fog$1392]) {
+            jQuery(elem)[$fog$1391]($fog$1392);
           }
         }
       } else {
-        skipDestroyOnNextJQueryCleanData = $fog$38;
+        skipDestroyOnNextJQueryCleanData = $fog$1549;
       }
       originalCleanData(elems);
     };
@@ -1772,10 +1788,10 @@ function bindJQuery() {
     jqLite = JQLite;
   }
 
-  angular[$fog$180] = jqLite;
+  angular[$fog$1407] = jqLite;
 
   // Prevent double-proxying.
-  bindJQueryFired = $fog$40;
+  bindJQueryFired = $fog$1547;
 }
 
 /**
@@ -1783,18 +1799,18 @@ function bindJQuery() {
  */
 function assertArg(arg, name, reason) {
   if (!arg) {
-    throw ngMinErr($fog$197, $fog$198, (name || $fog$13), (reason || $fog$199));
+    throw ngMinErr($fog$1390, $fog$1389, (name || $fog$1574), (reason || $fog$1388));
   }
   return arg;
 }
 
 function assertArgFn(arg, name, acceptArrayAnnotation) {
   if (acceptArrayAnnotation && isArray(arg)) {
-      arg = arg[arg[$fog$10] - $fog$6];
+      arg = arg[arg[$fog$1577] - $fog$1581];
   }
 
-  assertArg(isFunction(arg), name, $fog$200 +
-      (arg && typeof arg === $fog$44 ? arg[$fog$85][$fog$42] || $fog$201 : typeof arg));
+  assertArg(isFunction(arg), name, $fog$1387 +
+      (arg && typeof arg === $fog$1543 ? arg[$fog$1502][$fog$1545] || $fog$1386 : typeof arg));
   return arg;
 }
 
@@ -1804,8 +1820,8 @@ function assertArgFn(arg, name, acceptArrayAnnotation) {
  * @param  {String} context the context in which the name is used, such as module or directive
  */
 function assertNotHasOwnProperty(name, context) {
-  if (name === $fog$20) {
-    throw ngMinErr($fog$202, $fog$203, context);
+  if (name === $fog$1567) {
+    throw ngMinErr($fog$1385, $fog$1384, context);
   }
 }
 
@@ -1819,12 +1835,12 @@ function assertNotHasOwnProperty(name, context) {
 //TODO(misko): this function needs to be removed
 function getter(obj, path, bindFnToScope) {
   if (!path) return obj;
-  var keys = path[$fog$78]($fog$204);
+  var keys = path[$fog$1509]($fog$1383);
   var key;
   var lastInstance = obj;
-  var len = keys[$fog$10];
+  var len = keys[$fog$1577];
 
-  for (var i = $fog$1; i < len; i++) {
+  for (var i = $fog$1586; i < len; i++) {
     key = keys[i];
     if (obj) {
       obj = (lastInstance = obj)[key];
@@ -1844,14 +1860,14 @@ function getter(obj, path, bindFnToScope) {
 function getBlockNodes(nodes) {
   // TODO(perf): just check if all items in `nodes` are siblings and if they are return the original
   //             collection, otherwise update the original collection.
-  var node = nodes[$fog$1];
-  var endNode = nodes[nodes[$fog$10] - $fog$6];
+  var node = nodes[$fog$1586];
+  var endNode = nodes[nodes[$fog$1577] - $fog$1581];
   var blockNodes = [node];
 
   do {
-    node = node[$fog$205];
+    node = node[$fog$1382];
     if (!node) break;
-    blockNodes[$fog$31](node);
+    blockNodes[$fog$1556](node);
   } while (node !== endNode);
 
   return jqLite(blockNodes);
@@ -1870,15 +1886,15 @@ function getBlockNodes(nodes) {
  * @returns {Object}
  */
 function createMap() {
-  return Object[$fog$52]($fog$37);
+  return Object[$fog$1535]($fog$1550);
 }
 
-var NODE_TYPE_ELEMENT = $fog$6;
-var NODE_TYPE_ATTRIBUTE = $fog$0;
-var NODE_TYPE_TEXT = $fog$206;
-var NODE_TYPE_COMMENT = $fog$207;
-var NODE_TYPE_DOCUMENT = $fog$208;
-var NODE_TYPE_DOCUMENT_FRAGMENT = $fog$209;
+var NODE_TYPE_ELEMENT = $fog$1581;
+var NODE_TYPE_ATTRIBUTE = $fog$1587;
+var NODE_TYPE_TEXT = $fog$1381;
+var NODE_TYPE_COMMENT = $fog$1380;
+var NODE_TYPE_DOCUMENT = $fog$1379;
+var NODE_TYPE_DOCUMENT_FRAGMENT = $fog$1378;
 
 /**
  * @ngdoc type
@@ -1891,19 +1907,19 @@ var NODE_TYPE_DOCUMENT_FRAGMENT = $fog$209;
 
 function setupModuleLoader(window) {
 
-  var $injectorMinErr = minErr($fog$170);
-  var ngMinErr = minErr($fog$34);
+  var $injectorMinErr = minErr($fog$1417);
+  var ngMinErr = minErr($fog$1553);
 
   function ensure(obj, name, factory) {
     return obj[name] || (obj[name] = factory());
   }
 
-  var angular = ensure(window, $fog$35, Object);
+  var angular = ensure(window, $fog$1552, Object);
 
   // We need to expose `angular.$$minErr` to modules such as `ngResource` that reference it during bootstrap
-  angular[$fog$210] = angular[$fog$210] || minErr;
+  angular[$fog$1377] = angular[$fog$1377] || minErr;
 
-  return ensure(angular, $fog$211, function() {
+  return ensure(angular, $fog$1376, function() {
     /** @type {Object.<string, angular.Module>} */
     var modules = {};
 
@@ -1960,20 +1976,20 @@ function setupModuleLoader(window) {
      */
     return function module(name, requires, configFn) {
       var assertNotHasOwnProperty = function(name, context) {
-        if (name === $fog$20) {
-          throw ngMinErr($fog$202, $fog$203, context);
+        if (name === $fog$1567) {
+          throw ngMinErr($fog$1385, $fog$1384, context);
         }
       };
 
-      assertNotHasOwnProperty(name, $fog$211);
-      if (requires && modules[$fog$20](name)) {
-        modules[name] = $fog$37;
+      assertNotHasOwnProperty(name, $fog$1376);
+      if (requires && modules[$fog$1567](name)) {
+        modules[name] = $fog$1550;
       }
       return ensure(modules, name, function() {
         if (!requires) {
-          throw $injectorMinErr($fog$212, $fog$213 +
-             $fog$214 +
-             $fog$215, name);
+          throw $injectorMinErr($fog$1375, $fog$1374 +
+             $fog$1373 +
+             $fog$1372, name);
         }
 
         /** @type {!Array.<Array.<*>>} */
@@ -1985,7 +2001,7 @@ function setupModuleLoader(window) {
         /** @type {!Array.<Function>} */
         var runBlocks = [];
 
-        var config = invokeLater($fog$170, $fog$167, $fog$31, configBlocks);
+        var config = invokeLater($fog$1417, $fog$1420, $fog$1556, configBlocks);
 
         /** @type {angular.Module} */
         var moduleInstance = {
@@ -2026,7 +2042,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link auto.$provide#provider $provide.provider()}.
            */
-          provider: invokeLaterAndSetModuleName($fog$162, $fog$216),
+          provider: invokeLaterAndSetModuleName($fog$1425, $fog$1371),
 
           /**
            * @ngdoc method
@@ -2037,7 +2053,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link auto.$provide#factory $provide.factory()}.
            */
-          factory: invokeLaterAndSetModuleName($fog$162, $fog$217),
+          factory: invokeLaterAndSetModuleName($fog$1425, $fog$1370),
 
           /**
            * @ngdoc method
@@ -2048,7 +2064,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link auto.$provide#service $provide.service()}.
            */
-          service: invokeLaterAndSetModuleName($fog$162, $fog$218),
+          service: invokeLaterAndSetModuleName($fog$1425, $fog$1369),
 
           /**
            * @ngdoc method
@@ -2059,7 +2075,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link auto.$provide#value $provide.value()}.
            */
-          value: invokeLater($fog$162, $fog$163),
+          value: invokeLater($fog$1425, $fog$1424),
 
           /**
            * @ngdoc method
@@ -2071,7 +2087,7 @@ function setupModuleLoader(window) {
            * Because the constant are fixed, they get applied before other provide methods.
            * See {@link auto.$provide#constant $provide.constant()}.
            */
-          constant: invokeLater($fog$162, $fog$219, $fog$161),
+          constant: invokeLater($fog$1425, $fog$1368, $fog$1426),
 
            /**
            * @ngdoc method
@@ -2083,7 +2099,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link auto.$provide#decorator $provide.decorator()}.
            */
-          decorator: invokeLaterAndSetModuleName($fog$162, $fog$220),
+          decorator: invokeLaterAndSetModuleName($fog$1425, $fog$1367),
 
           /**
            * @ngdoc method
@@ -2117,7 +2133,7 @@ function setupModuleLoader(window) {
            * See {@link ng.$animateProvider#register $animateProvider.register()} and
            * {@link ngAnimate ngAnimate module} for more information.
            */
-          animation: invokeLaterAndSetModuleName($fog$221, $fog$222),
+          animation: invokeLaterAndSetModuleName($fog$1366, $fog$1365),
 
           /**
            * @ngdoc method
@@ -2135,7 +2151,7 @@ function setupModuleLoader(window) {
            * (`myapp_subsection_filterx`).
            * </div>
            */
-          filter: invokeLaterAndSetModuleName($fog$223, $fog$222),
+          filter: invokeLaterAndSetModuleName($fog$1364, $fog$1365),
 
           /**
            * @ngdoc method
@@ -2147,7 +2163,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link ng.$controllerProvider#register $controllerProvider.register()}.
            */
-          controller: invokeLaterAndSetModuleName($fog$224, $fog$222),
+          controller: invokeLaterAndSetModuleName($fog$1363, $fog$1365),
 
           /**
            * @ngdoc method
@@ -2160,7 +2176,7 @@ function setupModuleLoader(window) {
            * @description
            * See {@link ng.$compileProvider#directive $compileProvider.directive()}.
            */
-          directive: invokeLaterAndSetModuleName($fog$166, $fog$225),
+          directive: invokeLaterAndSetModuleName($fog$1421, $fog$1362),
 
           /**
            * @ngdoc method
@@ -2186,7 +2202,7 @@ function setupModuleLoader(window) {
            * loading all modules.
            */
           run: function(block) {
-            runBlocks[$fog$31](block);
+            runBlocks[$fog$1556](block);
             return this;
           }
         };
@@ -2206,7 +2222,7 @@ function setupModuleLoader(window) {
         function invokeLater(provider, method, insertMethod, queue) {
           if (!queue) queue = invokeQueue;
           return function() {
-            queue[insertMethod || $fog$31]([provider, method, arguments]);
+            queue[insertMethod || $fog$1556]([provider, method, arguments]);
             return moduleInstance;
           };
         }
@@ -2218,8 +2234,8 @@ function setupModuleLoader(window) {
          */
         function invokeLaterAndSetModuleName(provider, method) {
           return function(recipeName, factoryFunction) {
-            if (factoryFunction && isFunction(factoryFunction)) factoryFunction[$fog$226] = name;
-            invokeQueue[$fog$31]([provider, method, arguments]);
+            if (factoryFunction && isFunction(factoryFunction)) factoryFunction[$fog$1361] = name;
+            invokeQueue[$fog$1556]([provider, method, arguments]);
             return moduleInstance;
           };
         }
@@ -2234,24 +2250,24 @@ function setupModuleLoader(window) {
 function serializeObject(obj) {
   var seen = [];
 
-  return JSON[$fog$113](obj, function(key, val) {
+  return JSON[$fog$1474](obj, function(key, val) {
     val = toJsonReplacer(key, val);
     if (isObject(val)) {
 
-      if (seen[$fog$80](val) >= $fog$1) return $fog$227;
+      if (seen[$fog$1507](val) >= $fog$1586) return $fog$1360;
 
-      seen[$fog$31](val);
+      seen[$fog$1556](val);
     }
     return val;
   });
 }
 
 function toDebugString(obj) {
-  if (typeof obj === $fog$46) {
-    return obj[$fog$32]()[$fog$7]($fog$228, $fog$4);
-  } else if (typeof obj === $fog$54) {
-    return $fog$54;
-  } else if (typeof obj !== $fog$55) {
+  if (typeof obj === $fog$1541) {
+    return obj[$fog$1555]()[$fog$1580]($fog$1359, $fog$1583);
+  } else if (typeof obj === $fog$1533) {
+    return $fog$1533;
+  } else if (typeof obj !== $fog$1532) {
     return serializeObject(obj);
   }
   return obj;
@@ -2365,11 +2381,11 @@ function toDebugString(obj) {
  * - `codeName` – `{string}` – Code name of the release, such as "jiggling-armfat".
  */
 var version = {
-  full: $fog$229,    // all of these placeholder strings will be replaced by grunt's
-  major: $fog$6,    // package task
-  minor: $fog$230,
-  dot: $fog$230,
-  codeName: $fog$231
+  full: $fog$1358,    // all of these placeholder strings will be replaced by grunt's
+  major: $fog$1581,    // package task
+  minor: $fog$1357,
+  dot: $fog$1357,
+  codeName: $fog$1356
 };
 
 
@@ -2400,7 +2416,7 @@ function publishExternalAPI(angular) {
     'isDate': isDate,
     'lowercase': lowercase,
     'uppercase': uppercase,
-    'callbacks': {counter: $fog$1},
+    'callbacks': {counter: $fog$1586},
     'getTestability': getTestability,
     '$$minErr': minErr,
     '$$csp': csp,
@@ -2409,13 +2425,13 @@ function publishExternalAPI(angular) {
 
   angularModule = setupModuleLoader(window);
 
-  angularModule($fog$34, [$fog$232], [$fog$162,
+  angularModule($fog$1553, [$fog$1355], [$fog$1425,
     function ngModule($provide) {
       // $$sanitizeUriProvider needs to be before $compileProvider as it is used by it.
-      $provide[$fog$216]({
+      $provide[$fog$1371]({
         $$sanitizeUri: $$SanitizeUriProvider
       });
-      $provide[$fog$216]($fog$169, $CompileProvider)[$fog$225]({
+      $provide[$fog$1371]($fog$1418, $CompileProvider)[$fog$1362]({
             a: htmlAnchorDirective,
             input: inputDirective,
             textarea: inputDirective,
@@ -2460,10 +2476,10 @@ function publishExternalAPI(angular) {
             ngMaxlength: maxlengthDirective,
             ngValue: ngValueDirective,
             ngModelOptions: ngModelOptionsDirective
-        })[$fog$225]({
+        })[$fog$1362]({
           ngInclude: ngIncludeFillContentDirective
-        })[$fog$225](ngAttributeAliasDirectives)[$fog$225](ngEventDirectives);
-      $provide[$fog$216]({
+        })[$fog$1362](ngAttributeAliasDirectives)[$fog$1362](ngEventDirectives);
+      $provide[$fog$1371]({
         $anchorScroll: $AnchorScrollProvider,
         $animate: $AnimateProvider,
         $animateCss: $CoreAnimateCssProvider,
@@ -2616,32 +2632,32 @@ function publishExternalAPI(angular) {
  * @returns {Object} jQuery object.
  */
 
-JQLite[$fog$233] = $fog$234;
+JQLite[$fog$1354] = $fog$1353;
 
-var jqCache = JQLite[$fog$235] = {},
-    jqId = $fog$6,
+var jqCache = JQLite[$fog$1352] = {},
+    jqId = $fog$1581,
     addEventListenerFn = function(element, type, fn) {
-      element[$fog$236](type, fn, $fog$38);
+      element[$fog$1351](type, fn, $fog$1549);
     },
     removeEventListenerFn = function(element, type, fn) {
-      element[$fog$237](type, fn, $fog$38);
+      element[$fog$1350](type, fn, $fog$1549);
     };
 
 /*
  * !!! This is an undocumented "private" function !!!
  */
-JQLite[$fog$193] = function(node) {
+JQLite[$fog$1394] = function(node) {
   //jQuery always returns an object on cache miss
-  return this[$fog$235][node[this[$fog$233]]] || {};
+  return this[$fog$1352][node[this[$fog$1354]]] || {};
 };
 
 function jqNextId() { return ++jqId; }
 
 
-var SPECIAL_CHARS_REGEXP = $fog$238;
-var MOZ_HACK_REGEXP = $fog$239;
-var MOUSE_EVENT_MAP= { mouseleave: $fog$240, mouseenter: $fog$241};
-var jqLiteMinErr = minErr($fog$242);
+var SPECIAL_CHARS_REGEXP = $fog$1349;
+var MOZ_HACK_REGEXP = $fog$1348;
+var MOUSE_EVENT_MAP= { mouseleave: $fog$1347, mouseenter: $fog$1346};
+var jqLiteMinErr = minErr($fog$1345);
 
 /**
  * Converts snake_case to camelCase.
@@ -2649,81 +2665,81 @@ var jqLiteMinErr = minErr($fog$242);
  * @param name Name to normalize
  */
 function camelCase(name) {
-  return name[$fog$7](SPECIAL_CHARS_REGEXP, function(_, separator, letter, offset) {
-      return offset ? letter[$fog$22]() : letter;
-    })[$fog$7](MOZ_HACK_REGEXP, $fog$243);
+  return name[$fog$1580](SPECIAL_CHARS_REGEXP, function(_, separator, letter, offset) {
+      return offset ? letter[$fog$1565]() : letter;
+    })[$fog$1580](MOZ_HACK_REGEXP, $fog$1344);
 }
 
-var SINGLE_TAG_REGEXP = $fog$244;
-var HTML_REGEXP = $fog$245;
-var TAG_NAME_REGEXP = $fog$246;
-var XHTML_TAG_REGEXP = $fog$247;
+var SINGLE_TAG_REGEXP = $fog$1343;
+var HTML_REGEXP = $fog$1342;
+var TAG_NAME_REGEXP = $fog$1341;
+var XHTML_TAG_REGEXP = $fog$1340;
 
 var wrapMap = {
-  'option': [$fog$6, $fog$248, $fog$249],
+  'option': [$fog$1581, $fog$1339, $fog$1338],
 
-  'thead': [$fog$6, $fog$250, $fog$251],
-  'col': [$fog$0, $fog$252, $fog$253],
-  'tr': [$fog$0, $fog$254, $fog$255],
-  'td': [$fog$206, $fog$256, $fog$257],
-  '_default': [$fog$1, $fog$4, $fog$4]
+  'thead': [$fog$1581, $fog$1337, $fog$1336],
+  'col': [$fog$1587, $fog$1335, $fog$1334],
+  'tr': [$fog$1587, $fog$1333, $fog$1332],
+  'td': [$fog$1381, $fog$1331, $fog$1330],
+  '_default': [$fog$1586, $fog$1583, $fog$1583]
 };
 
-wrapMap[$fog$258] = wrapMap[$fog$259];
-wrapMap[$fog$260] = wrapMap[$fog$261] = wrapMap[$fog$262] = wrapMap[$fog$263] = wrapMap[$fog$264];
-wrapMap[$fog$265] = wrapMap[$fog$266];
+wrapMap[$fog$1329] = wrapMap[$fog$1328];
+wrapMap[$fog$1327] = wrapMap[$fog$1326] = wrapMap[$fog$1325] = wrapMap[$fog$1324] = wrapMap[$fog$1323];
+wrapMap[$fog$1322] = wrapMap[$fog$1321];
 
 
 function jqLiteIsTextNode(html) {
-  return !HTML_REGEXP[$fog$68](html);
+  return !HTML_REGEXP[$fog$1519](html);
 }
 
 function jqLiteAcceptsData(node) {
   // The window object can accept data but has no nodeType
   // Otherwise we are only interested in elements (1) and documents (9)
-  var nodeType = node[$fog$39];
+  var nodeType = node[$fog$1548];
   return nodeType === NODE_TYPE_ELEMENT || !nodeType || nodeType === NODE_TYPE_DOCUMENT;
 }
 
 function jqLiteHasData(node) {
-  for (var key in jqCache[node[$fog$234]]) {
-    return $fog$40;
+  for (var key in jqCache[node[$fog$1353]]) {
+    return $fog$1547;
   }
-  return $fog$38;
+  return $fog$1549;
 }
 
 function jqLiteBuildFragment(html, context) {
   var tmp, tag, wrap,
-      fragment = context[$fog$267](),
+      fragment = context[$fog$1320](),
       nodes = [], i;
 
   if (jqLiteIsTextNode(html)) {
     // Convert non-html into a text node
-    nodes[$fog$31](context[$fog$268](html));
+    nodes[$fog$1556](context[$fog$1319](html));
   } else {
     // Convert html into DOM nodes
-    tmp = tmp || fragment[$fog$269](context[$fog$270]($fog$271));
-    tag = (TAG_NAME_REGEXP[$fog$272](html) || [$fog$4, $fog$4])[$fog$6][$fog$19]();
-    wrap = wrapMap[tag] || wrapMap[$fog$273];
-    tmp[$fog$274] = wrap[$fog$6] + html[$fog$7](XHTML_TAG_REGEXP, $fog$275) + wrap[$fog$0];
+    tmp = tmp || fragment[$fog$1318](context[$fog$1317]($fog$1316));
+    tag = (TAG_NAME_REGEXP[$fog$1315](html) || [$fog$1583, $fog$1583])[$fog$1581][$fog$1568]();
+    wrap = wrapMap[tag] || wrapMap[$fog$1314];
+    tmp[$fog$1313] = wrap[$fog$1581] + html[$fog$1580](XHTML_TAG_REGEXP, $fog$1312) + wrap[$fog$1587];
 
     // Descend through wrappers to the right content
-    i = wrap[$fog$1];
+    i = wrap[$fog$1586];
     while (i--) {
-      tmp = tmp[$fog$276];
+      tmp = tmp[$fog$1311];
     }
 
-    nodes = concat(nodes, tmp[$fog$277]);
+    nodes = concat(nodes, tmp[$fog$1310]);
 
-    tmp = fragment[$fog$278];
-    tmp[$fog$279] = $fog$4;
+    tmp = fragment[$fog$1309];
+    tmp[$fog$1308] = $fog$1583;
   }
 
   // Remove wrapper from fragment
-  fragment[$fog$279] = $fog$4;
-  fragment[$fog$274] = $fog$4; // Clear inner HTML
+  fragment[$fog$1308] = $fog$1583;
+  fragment[$fog$1313] = $fog$1583; // Clear inner HTML
   forEach(nodes, function(node) {
-    fragment[$fog$269](node);
+    fragment[$fog$1318](node);
   });
 
   return fragment;
@@ -2733,12 +2749,12 @@ function jqLiteParseHTML(html, context) {
   context = context || document;
   var parsed;
 
-  if ((parsed = SINGLE_TAG_REGEXP[$fog$272](html))) {
-    return [context[$fog$270](parsed[$fog$6])];
+  if ((parsed = SINGLE_TAG_REGEXP[$fog$1315](html))) {
+    return [context[$fog$1317](parsed[$fog$1581])];
   }
 
   if ((parsed = jqLiteBuildFragment(html, context))) {
-    return parsed[$fog$277];
+    return parsed[$fog$1310];
   }
 
   return [];
@@ -2754,11 +2770,11 @@ function JQLite(element) {
 
   if (isString(element)) {
     element = trim(element);
-    argIsString = $fog$40;
+    argIsString = $fog$1547;
   }
   if (!(this instanceof JQLite)) {
-    if (argIsString && element[$fog$93]($fog$1) != $fog$127) {
-      throw jqLiteMinErr($fog$280, $fog$281);
+    if (argIsString && element[$fog$1494]($fog$1586) != $fog$1460) {
+      throw jqLiteMinErr($fog$1307, $fog$1306);
     }
     return new JQLite(element);
   }
@@ -2771,42 +2787,42 @@ function JQLite(element) {
 }
 
 function jqLiteClone(element) {
-  return element[$fog$282]($fog$40);
+  return element[$fog$1305]($fog$1547);
 }
 
 function jqLiteDealoc(element, onlyDescendants) {
   if (!onlyDescendants) jqLiteRemoveData(element);
 
-  if (element[$fog$283]) {
-    var descendants = element[$fog$283]($fog$284);
-    for (var i = $fog$1, l = descendants[$fog$10]; i < l; i++) {
+  if (element[$fog$1304]) {
+    var descendants = element[$fog$1304]($fog$1303);
+    for (var i = $fog$1586, l = descendants[$fog$1577]; i < l; i++) {
       jqLiteRemoveData(descendants[i]);
     }
   }
 }
 
 function jqLiteOff(element, type, fn, unsupported) {
-  if (isDefined(unsupported)) throw jqLiteMinErr($fog$285, $fog$286);
+  if (isDefined(unsupported)) throw jqLiteMinErr($fog$1302, $fog$1301);
 
   var expandoStore = jqLiteExpandoStore(element);
-  var events = expandoStore && expandoStore[$fog$194];
-  var handle = expandoStore && expandoStore[$fog$287];
+  var events = expandoStore && expandoStore[$fog$1393];
+  var handle = expandoStore && expandoStore[$fog$1300];
 
   if (!handle) return; //no listeners registered
 
   if (!type) {
     for (type in events) {
-      if (type !== $fog$195) {
+      if (type !== $fog$1392) {
         removeEventListenerFn(element, type, handle);
       }
       delete events[type];
     }
   } else {
-    forEach(type[$fog$78]($fog$288), function(type) {
+    forEach(type[$fog$1509]($fog$1299), function(type) {
       if (isDefined(fn)) {
         var listenerFns = events[type];
         arrayRemove(listenerFns || [], fn);
-        if (listenerFns && listenerFns[$fog$10] > $fog$1) {
+        if (listenerFns && listenerFns[$fog$1577] > $fog$1586) {
           return;
         }
       }
@@ -2818,33 +2834,33 @@ function jqLiteOff(element, type, fn, unsupported) {
 }
 
 function jqLiteRemoveData(element, name) {
-  var expandoId = element[$fog$234];
+  var expandoId = element[$fog$1353];
   var expandoStore = expandoId && jqCache[expandoId];
 
   if (expandoStore) {
     if (name) {
-      delete expandoStore[$fog$172][name];
+      delete expandoStore[$fog$1415][name];
       return;
     }
 
-    if (expandoStore[$fog$287]) {
-      if (expandoStore[$fog$194][$fog$195]) {
-        expandoStore[$fog$287]({}, $fog$195);
+    if (expandoStore[$fog$1300]) {
+      if (expandoStore[$fog$1393][$fog$1392]) {
+        expandoStore[$fog$1300]({}, $fog$1392);
       }
       jqLiteOff(element);
     }
     delete jqCache[expandoId];
-    element[$fog$234] = undefined; // don't delete DOM expandos. IE and Chrome don't like it
+    element[$fog$1353] = undefined; // don't delete DOM expandos. IE and Chrome don't like it
   }
 }
 
 
 function jqLiteExpandoStore(element, createIfNecessary) {
-  var expandoId = element[$fog$234],
+  var expandoId = element[$fog$1353],
       expandoStore = expandoId && jqCache[expandoId];
 
   if (createIfNecessary && !expandoStore) {
-    element[$fog$234] = expandoId = jqNextId();
+    element[$fog$1353] = expandoId = jqNextId();
     expandoStore = jqCache[expandoId] = {events: {}, data: {}, handle: undefined};
   }
 
@@ -2859,7 +2875,7 @@ function jqLiteData(element, key, value) {
     var isSimpleGetter = !isSimpleSetter && key && !isObject(key);
     var massGetter = !key;
     var expandoStore = jqLiteExpandoStore(element, !isSimpleGetter);
-    var data = expandoStore && expandoStore[$fog$172];
+    var data = expandoStore && expandoStore[$fog$1415];
 
     if (isSimpleSetter) { // data('key', value)
       data[key] = value;
@@ -2879,35 +2895,35 @@ function jqLiteData(element, key, value) {
 }
 
 function jqLiteHasClass(element, selector) {
-  if (!element[$fog$99]) return $fog$38;
-  return (($fog$288 + (element[$fog$99]($fog$289) || $fog$4) + $fog$288)[$fog$7]($fog$290, $fog$288)[$fog$80]($fog$288 + selector + $fog$288) > -$fog$6);
+  if (!element[$fog$1488]) return $fog$1549;
+  return (($fog$1299 + (element[$fog$1488]($fog$1298) || $fog$1583) + $fog$1299)[$fog$1580]($fog$1297, $fog$1299)[$fog$1507]($fog$1299 + selector + $fog$1299) > -$fog$1581);
 }
 
 function jqLiteRemoveClass(element, cssClasses) {
-  if (cssClasses && element[$fog$291]) {
-    forEach(cssClasses[$fog$78]($fog$288), function(cssClass) {
-      element[$fog$291]($fog$289, trim(
-          ($fog$288 + (element[$fog$99]($fog$289) || $fog$4) + $fog$288)
-          [$fog$7]($fog$290, $fog$288)
-          [$fog$7]($fog$288 + trim(cssClass) + $fog$288, $fog$288))
+  if (cssClasses && element[$fog$1296]) {
+    forEach(cssClasses[$fog$1509]($fog$1299), function(cssClass) {
+      element[$fog$1296]($fog$1298, trim(
+          ($fog$1299 + (element[$fog$1488]($fog$1298) || $fog$1583) + $fog$1299)
+          [$fog$1580]($fog$1297, $fog$1299)
+          [$fog$1580]($fog$1299 + trim(cssClass) + $fog$1299, $fog$1299))
       );
     });
   }
 }
 
 function jqLiteAddClass(element, cssClasses) {
-  if (cssClasses && element[$fog$291]) {
-    var existingClasses = ($fog$288 + (element[$fog$99]($fog$289) || $fog$4) + $fog$288)
-                            [$fog$7]($fog$290, $fog$288);
+  if (cssClasses && element[$fog$1296]) {
+    var existingClasses = ($fog$1299 + (element[$fog$1488]($fog$1298) || $fog$1583) + $fog$1299)
+                            [$fog$1580]($fog$1297, $fog$1299);
 
-    forEach(cssClasses[$fog$78]($fog$288), function(cssClass) {
+    forEach(cssClasses[$fog$1509]($fog$1299), function(cssClass) {
       cssClass = trim(cssClass);
-      if (existingClasses[$fog$80]($fog$288 + cssClass + $fog$288) === -$fog$6) {
-        existingClasses += cssClass + $fog$288;
+      if (existingClasses[$fog$1507]($fog$1299 + cssClass + $fog$1299) === -$fog$1581) {
+        existingClasses += cssClass + $fog$1299;
       }
     });
 
-    element[$fog$291]($fog$289, trim(existingClasses));
+    element[$fog$1296]($fog$1298, trim(existingClasses));
   }
 }
 
@@ -2918,20 +2934,20 @@ function jqLiteAddNodes(root, elements) {
   if (elements) {
 
     // if a Node (the most common case)
-    if (elements[$fog$39]) {
-      root[root[$fog$10]++] = elements;
+    if (elements[$fog$1548]) {
+      root[root[$fog$1577]++] = elements;
     } else {
-      var length = elements[$fog$10];
+      var length = elements[$fog$1577];
 
       // if an Array or NodeList and not a Window
-      if (typeof length === $fog$41 && elements[$fog$59] !== elements) {
+      if (typeof length === $fog$1546 && elements[$fog$1528] !== elements) {
         if (length) {
-          for (var i = $fog$1; i < length; i++) {
-            root[root[$fog$10]++] = elements[i];
+          for (var i = $fog$1586; i < length; i++) {
+            root[root[$fog$1577]++] = elements[i];
           }
         }
       } else {
-        root[root[$fog$10]++] = elements;
+        root[root[$fog$1577]++] = elements;
       }
     }
   }
@@ -2939,94 +2955,94 @@ function jqLiteAddNodes(root, elements) {
 
 
 function jqLiteController(element, name) {
-  return jqLiteInheritedData(element, $fog$94 + (name || $fog$292) + $fog$293);
+  return jqLiteInheritedData(element, $fog$1493 + (name || $fog$1295) + $fog$1294);
 }
 
 function jqLiteInheritedData(element, name, value) {
   // if element is the document object work with the html element instead
   // this makes $(document).scope() possible
-  if (element[$fog$39] == NODE_TYPE_DOCUMENT) {
-    element = element[$fog$294];
+  if (element[$fog$1548] == NODE_TYPE_DOCUMENT) {
+    element = element[$fog$1293];
   }
   var names = isArray(name) ? name : [name];
 
   while (element) {
-    for (var i = $fog$1, ii = names[$fog$10]; i < ii; i++) {
-      if ((value = jqLite[$fog$172](element, names[i])) !== undefined) return value;
+    for (var i = $fog$1586, ii = names[$fog$1577]; i < ii; i++) {
+      if ((value = jqLite[$fog$1415](element, names[i])) !== undefined) return value;
     }
 
     // If dealing with a document fragment node with a host element, and no parent, use the host
     // element as the parent. This enables directives within a Shadow DOM or polyfilled Shadow DOM
     // to lookup parent controllers.
-    element = element[$fog$295] || (element[$fog$39] === NODE_TYPE_DOCUMENT_FRAGMENT && element[$fog$296]);
+    element = element[$fog$1292] || (element[$fog$1548] === NODE_TYPE_DOCUMENT_FRAGMENT && element[$fog$1291]);
   }
 }
 
 function jqLiteEmpty(element) {
-  jqLiteDealoc(element, $fog$40);
-  while (element[$fog$278]) {
-    element[$fog$297](element[$fog$278]);
+  jqLiteDealoc(element, $fog$1547);
+  while (element[$fog$1309]) {
+    element[$fog$1290](element[$fog$1309]);
   }
 }
 
 function jqLiteRemove(element, keepData) {
   if (!keepData) jqLiteDealoc(element);
-  var parent = element[$fog$295];
-  if (parent) parent[$fog$297](element);
+  var parent = element[$fog$1292];
+  if (parent) parent[$fog$1290](element);
 }
 
 
 function jqLiteDocumentLoaded(action, win) {
   win = win || window;
-  if (win[$fog$154][$fog$298] === $fog$299) {
+  if (win[$fog$1433][$fog$1289] === $fog$1288) {
     // Force the action to be run async for consistent behaviour
     // from the action's point of view
     // i.e. it will definitely not be in a $apply
-    win[$fog$300](action);
+    win[$fog$1287](action);
   } else {
     // No need to unbind this handler as load is only ever called once
-    jqLite(win)[$fog$186]($fog$301, action);
+    jqLite(win)[$fog$1401]($fog$1286, action);
   }
 }
 
 //////////////////////////////////////////
 // Functions which are declared directly.
 //////////////////////////////////////////
-var JQLitePrototype = JQLite[$fog$21] = {
+var JQLitePrototype = JQLite[$fog$1566] = {
   ready: function(fn) {
-    var fired = $fog$38;
+    var fired = $fog$1549;
 
     function trigger() {
       if (fired) return;
-      fired = $fog$40;
+      fired = $fog$1547;
       fn();
     }
 
     // check if document is already loaded
-    if (document[$fog$298] === $fog$299) {
+    if (document[$fog$1289] === $fog$1288) {
       setTimeout(trigger);
     } else {
-      this[$fog$186]($fog$302, trigger); // works for modern browsers and IE9
+      this[$fog$1401]($fog$1285, trigger); // works for modern browsers and IE9
       // we can not use jqLite since we are not done loading and jQuery could be loaded later.
       // jshint -W064
-      JQLite(window)[$fog$186]($fog$301, trigger); // fallback to window.onload for others
+      JQLite(window)[$fog$1401]($fog$1286, trigger); // fallback to window.onload for others
       // jshint +W064
     }
   },
   toString: function() {
     var value = [];
-    forEach(this, function(e) { value[$fog$31]($fog$4 + e);});
-    return $fog$2 + value[$fog$131]($fog$303) + $fog$150;
+    forEach(this, function(e) { value[$fog$1556]($fog$1583 + e);});
+    return $fog$1585 + value[$fog$1456]($fog$1284) + $fog$1437;
   },
 
   eq: function(index) {
-      return (index >= $fog$1) ? jqLite(this[index]) : jqLite(this[this[$fog$10] + index]);
+      return (index >= $fog$1586) ? jqLite(this[index]) : jqLite(this[this[$fog$1577] + index]);
   },
 
-  length: $fog$1,
+  length: $fog$1586,
   push: push,
-  sort: [][$fog$47],
-  splice: [][$fog$30]
+  sort: [][$fog$1540],
+  splice: [][$fog$1557]
 };
 
 //////////////////////////////////////////
@@ -3035,32 +3051,32 @@ var JQLitePrototype = JQLite[$fog$21] = {
 // value on get.
 //////////////////////////////////////////
 var BOOLEAN_ATTR = {};
-forEach($fog$304[$fog$78]($fog$79), function(value) {
+forEach($fog$1283[$fog$1509]($fog$1508), function(value) {
   BOOLEAN_ATTR[lowercase(value)] = value;
 });
 var BOOLEAN_ELEMENTS = {};
-forEach($fog$305[$fog$78]($fog$79), function(value) {
-  BOOLEAN_ELEMENTS[value] = $fog$40;
+forEach($fog$1282[$fog$1509]($fog$1508), function(value) {
+  BOOLEAN_ELEMENTS[value] = $fog$1547;
 });
 var ALIASED_ATTR = {
-  'ngMinlength': $fog$306,
-  'ngMaxlength': $fog$307,
-  'ngMin': $fog$308,
-  'ngMax': $fog$309,
-  'ngPattern': $fog$310
+  'ngMinlength': $fog$1281,
+  'ngMaxlength': $fog$1280,
+  'ngMin': $fog$1279,
+  'ngMax': $fog$1278,
+  'ngPattern': $fog$1277
 };
 
 function getBooleanAttrName(element, name) {
   // check dom last since we will most likely fail on name
-  var booleanAttr = BOOLEAN_ATTR[name[$fog$19]()];
+  var booleanAttr = BOOLEAN_ATTR[name[$fog$1568]()];
 
   // booleanAttr is here twice to minimize DOM access
   return booleanAttr && BOOLEAN_ELEMENTS[nodeName_(element)] && booleanAttr;
 }
 
 function getAliasedAttrName(element, name) {
-  var nodeName = element[$fog$74];
-  return (nodeName === $fog$311 || nodeName === $fog$312) && ALIASED_ATTR[name];
+  var nodeName = element[$fog$1513];
+  return (nodeName === $fog$1276 || nodeName === $fog$1275) && ALIASED_ATTR[name];
 }
 
 forEach({
@@ -3077,22 +3093,22 @@ forEach({
 
   scope: function(element) {
     // Can't use jqLiteData here directly so we stay compatible with jQuery!
-    return jqLite[$fog$172](element, $fog$313) || jqLiteInheritedData(element[$fog$295] || element, [$fog$314, $fog$313]);
+    return jqLite[$fog$1415](element, $fog$1274) || jqLiteInheritedData(element[$fog$1292] || element, [$fog$1273, $fog$1274]);
   },
 
   isolateScope: function(element) {
     // Can't use jqLiteData here directly so we stay compatible with jQuery!
-    return jqLite[$fog$172](element, $fog$314) || jqLite[$fog$172](element, $fog$315);
+    return jqLite[$fog$1415](element, $fog$1273) || jqLite[$fog$1415](element, $fog$1272);
   },
 
   controller: jqLiteController,
 
   injector: function(element) {
-    return jqLiteInheritedData(element, $fog$170);
+    return jqLiteInheritedData(element, $fog$1417);
   },
 
   removeAttr: function(element, name) {
-    element[$fog$316](name);
+    element[$fog$1271](name);
   },
 
   hasClass: jqLiteHasClass,
@@ -3101,14 +3117,14 @@ forEach({
     name = camelCase(name);
 
     if (isDefined(value)) {
-      element[$fog$317][name] = value;
+      element[$fog$1270][name] = value;
     } else {
-      return element[$fog$317][name];
+      return element[$fog$1270][name];
     }
   },
 
   attr: function(element, name, value) {
-    var nodeType = element[$fog$39];
+    var nodeType = element[$fog$1548];
     if (nodeType === NODE_TYPE_TEXT || nodeType === NODE_TYPE_ATTRIBUTE || nodeType === NODE_TYPE_COMMENT) {
       return;
     }
@@ -3116,26 +3132,26 @@ forEach({
     if (BOOLEAN_ATTR[lowercasedName]) {
       if (isDefined(value)) {
         if (!!value) {
-          element[name] = $fog$40;
-          element[$fog$291](name, lowercasedName);
+          element[name] = $fog$1547;
+          element[$fog$1296](name, lowercasedName);
         } else {
-          element[name] = $fog$38;
-          element[$fog$316](lowercasedName);
+          element[name] = $fog$1549;
+          element[$fog$1271](lowercasedName);
         }
       } else {
         return (element[name] ||
-                 (element[$fog$320][$fog$319](name) || noop)[$fog$318])
+                 (element[$fog$1267][$fog$1268](name) || noop)[$fog$1269])
                ? lowercasedName
                : undefined;
       }
     } else if (isDefined(value)) {
-      element[$fog$291](name, value);
-    } else if (element[$fog$99]) {
+      element[$fog$1296](name, value);
+    } else if (element[$fog$1488]) {
       // the extra argument "2" is to get the right thing for a.href in IE, see jQuery code
       // some elements (e.g. Document) don't have get attribute, so return undefined
-      var ret = element[$fog$99](name, $fog$0);
+      var ret = element[$fog$1488](name, $fog$1587);
       // normalize non-existing attributes to undefined (as jQuery)
-      return ret === $fog$37 ? undefined : ret;
+      return ret === $fog$1550 ? undefined : ret;
     }
   },
 
@@ -3148,40 +3164,40 @@ forEach({
   },
 
   text: (function() {
-    getText[$fog$321] = $fog$4;
+    getText[$fog$1266] = $fog$1583;
     return getText;
 
     function getText(element, value) {
       if (isUndefined(value)) {
-        var nodeType = element[$fog$39];
-        return (nodeType === NODE_TYPE_ELEMENT || nodeType === NODE_TYPE_TEXT) ? element[$fog$279] : $fog$4;
+        var nodeType = element[$fog$1548];
+        return (nodeType === NODE_TYPE_ELEMENT || nodeType === NODE_TYPE_TEXT) ? element[$fog$1308] : $fog$1583;
       }
-      element[$fog$279] = value;
+      element[$fog$1308] = value;
     }
   })(),
 
   val: function(element, value) {
     if (isUndefined(value)) {
-      if (element[$fog$322] && nodeName_(element) === $fog$323) {
+      if (element[$fog$1265] && nodeName_(element) === $fog$1264) {
         var result = [];
-        forEach(element[$fog$324], function(option) {
-          if (option[$fog$325]) {
-            result[$fog$31](option[$fog$163] || option[$fog$326]);
+        forEach(element[$fog$1263], function(option) {
+          if (option[$fog$1262]) {
+            result[$fog$1556](option[$fog$1424] || option[$fog$1261]);
           }
         });
-        return result[$fog$10] === $fog$1 ? $fog$37 : result;
+        return result[$fog$1577] === $fog$1586 ? $fog$1550 : result;
       }
-      return element[$fog$163];
+      return element[$fog$1424];
     }
-    element[$fog$163] = value;
+    element[$fog$1424] = value;
   },
 
   html: function(element, value) {
     if (isUndefined(value)) {
-      return element[$fog$274];
+      return element[$fog$1313];
     }
-    jqLiteDealoc(element, $fog$40);
-    element[$fog$274] = value;
+    jqLiteDealoc(element, $fog$1547);
+    element[$fog$1313] = value;
   },
 
   empty: jqLiteEmpty
@@ -3189,19 +3205,19 @@ forEach({
   /**
    * Properties: writes return selection, reads return first value
    */
-  JQLite[$fog$21][name] = function(arg1, arg2) {
+  JQLite[$fog$1566][name] = function(arg1, arg2) {
     var i, key;
-    var nodeCount = this[$fog$10];
+    var nodeCount = this[$fog$1577];
 
     // jqLiteHasClass has only two arguments, but is a getter-only fn, so we need to special-case it
     // in a way that survives minification.
     // jqLiteEmpty takes no arguments but is a setter.
     if (fn !== jqLiteEmpty &&
-        (((fn[$fog$10] == $fog$0 && (fn !== jqLiteHasClass && fn !== jqLiteController)) ? arg1 : arg2) === undefined)) {
+        (((fn[$fog$1577] == $fog$1587 && (fn !== jqLiteHasClass && fn !== jqLiteController)) ? arg1 : arg2) === undefined)) {
       if (isObject(arg1)) {
 
         // we are a write, but the object properties are the key/values
-        for (i = $fog$1; i < nodeCount; i++) {
+        for (i = $fog$1586; i < nodeCount; i++) {
           if (fn === jqLiteData) {
             // data() takes the whole object in jQuery
             fn(this[i], arg1);
@@ -3216,10 +3232,10 @@ forEach({
       } else {
         // we are a read, so read the first child.
         // TODO: do we still need this?
-        var value = fn[$fog$321];
+        var value = fn[$fog$1266];
         // Only if we have $dv do we iterate over all, otherwise it is just the first element.
-        var jj = (value === undefined) ? Math[$fog$308](nodeCount, $fog$6) : nodeCount;
-        for (var j = $fog$1; j < jj; j++) {
+        var jj = (value === undefined) ? Math[$fog$1279](nodeCount, $fog$1581) : nodeCount;
+        for (var j = $fog$1586; j < jj; j++) {
           var nodeValue = fn(this[j], arg1, arg2);
           value = value ? value + nodeValue : nodeValue;
         }
@@ -3227,7 +3243,7 @@ forEach({
       }
     } else {
       // we are a write, so apply to all children
-      for (i = $fog$1; i < nodeCount; i++) {
+      for (i = $fog$1586; i < nodeCount; i++) {
         fn(this[i], arg1, arg2);
       }
       // return self for chaining
@@ -3239,49 +3255,49 @@ forEach({
 function createEventHandler(element, events) {
   var eventHandler = function(event, type) {
     // jQuery specific api
-    event[$fog$327] = function() {
-      return event[$fog$328];
+    event[$fog$1260] = function() {
+      return event[$fog$1259];
     };
 
-    var eventFns = events[type || event[$fog$329]];
-    var eventFnsLength = eventFns ? eventFns[$fog$10] : $fog$1;
+    var eventFns = events[type || event[$fog$1258]];
+    var eventFnsLength = eventFns ? eventFns[$fog$1577] : $fog$1586;
 
     if (!eventFnsLength) return;
 
-    if (isUndefined(event[$fog$330])) {
-      var originalStopImmediatePropagation = event[$fog$331];
-      event[$fog$331] = function() {
-        event[$fog$330] = $fog$40;
+    if (isUndefined(event[$fog$1257])) {
+      var originalStopImmediatePropagation = event[$fog$1256];
+      event[$fog$1256] = function() {
+        event[$fog$1257] = $fog$1547;
 
-        if (event[$fog$332]) {
-          event[$fog$332]();
+        if (event[$fog$1255]) {
+          event[$fog$1255]();
         }
 
         if (originalStopImmediatePropagation) {
-          originalStopImmediatePropagation[$fog$43](event);
+          originalStopImmediatePropagation[$fog$1544](event);
         }
       };
     }
 
-    event[$fog$333] = function() {
-      return event[$fog$330] === $fog$40;
+    event[$fog$1254] = function() {
+      return event[$fog$1257] === $fog$1547;
     };
 
     // Copy event handlers in case event handlers array is modified during execution.
-    if ((eventFnsLength > $fog$6)) {
+    if ((eventFnsLength > $fog$1581)) {
       eventFns = shallowCopy(eventFns);
     }
 
-    for (var i = $fog$1; i < eventFnsLength; i++) {
-      if (!event[$fog$333]()) {
-        eventFns[i][$fog$43](element, event);
+    for (var i = $fog$1586; i < eventFnsLength; i++) {
+      if (!event[$fog$1254]()) {
+        eventFns[i][$fog$1544](element, event);
       }
     }
   };
 
   // TODO: this is a hack for angularMocks/clearDataCache that makes it possible to deregister all
   //       events on `element`
-  eventHandler[$fog$334] = element;
+  eventHandler[$fog$1253] = element;
   return eventHandler;
 }
 
@@ -3294,24 +3310,24 @@ forEach({
   removeData: jqLiteRemoveData,
 
   on: function jqLiteOn(element, type, fn, unsupported) {
-    if (isDefined(unsupported)) throw jqLiteMinErr($fog$335, $fog$336);
+    if (isDefined(unsupported)) throw jqLiteMinErr($fog$1252, $fog$1251);
 
     // Do not add event handlers to non-elements because they will not be cleaned up.
     if (!jqLiteAcceptsData(element)) {
       return;
     }
 
-    var expandoStore = jqLiteExpandoStore(element, $fog$40);
-    var events = expandoStore[$fog$194];
-    var handle = expandoStore[$fog$287];
+    var expandoStore = jqLiteExpandoStore(element, $fog$1547);
+    var events = expandoStore[$fog$1393];
+    var handle = expandoStore[$fog$1300];
 
     if (!handle) {
-      handle = expandoStore[$fog$287] = createEventHandler(element, events);
+      handle = expandoStore[$fog$1300] = createEventHandler(element, events);
     }
 
     // http://jsperf.com/string-indexof-vs-split
-    var types = type[$fog$80]($fog$288) >= $fog$1 ? type[$fog$78]($fog$288) : [type];
-    var i = types[$fog$10];
+    var types = type[$fog$1507]($fog$1299) >= $fog$1586 ? type[$fog$1509]($fog$1299) : [type];
+    var i = types[$fog$1577];
 
     while (i--) {
       type = types[i];
@@ -3320,28 +3336,28 @@ forEach({
       if (!eventFns) {
         events[type] = [];
 
-        if (type === $fog$337 || type === $fog$338) {
+        if (type === $fog$1250 || type === $fog$1249) {
           // Refer to jQuery's implementation of mouseenter & mouseleave
           // Read about mouseenter and mouseleave:
           // http://www.quirksmode.org/js/events_mouse.html#link8
 
           jqLiteOn(element, MOUSE_EVENT_MAP[type], function(event) {
-            var target = this, related = event[$fog$339];
+            var target = this, related = event[$fog$1248];
             // For mousenter/leave call the handler if related is outside the target.
             // NB: No relatedTarget if the mouse left/entered the browser window
-            if (!related || (related !== target && !target[$fog$340](related))) {
+            if (!related || (related !== target && !target[$fog$1247](related))) {
               handle(event, type);
             }
           });
 
         } else {
-          if (type !== $fog$195) {
+          if (type !== $fog$1392) {
             addEventListenerFn(element, type, handle);
           }
         }
         eventFns = events[type];
       }
-      eventFns[$fog$31](fn);
+      eventFns[$fog$1556](fn);
     }
   },
 
@@ -3353,21 +3369,21 @@ forEach({
     //add the listener twice so that when it is called
     //you can remove the original function and still be
     //able to call element.off(ev, fn) normally
-    element[$fog$186](type, function onFn() {
-      element[$fog$341](type, fn);
-      element[$fog$341](type, onFn);
+    element[$fog$1401](type, function onFn() {
+      element[$fog$1246](type, fn);
+      element[$fog$1246](type, onFn);
     });
-    element[$fog$186](type, fn);
+    element[$fog$1401](type, fn);
   },
 
   replaceWith: function(element, replaceNode) {
-    var index, parent = element[$fog$295];
+    var index, parent = element[$fog$1292];
     jqLiteDealoc(element);
     forEach(new JQLite(replaceNode), function(node) {
       if (index) {
-        parent[$fog$342](node, index[$fog$205]);
+        parent[$fog$1245](node, index[$fog$1382]);
       } else {
-        parent[$fog$343](node, element);
+        parent[$fog$1244](node, element);
       }
       index = node;
     });
@@ -3375,61 +3391,61 @@ forEach({
 
   children: function(element) {
     var children = [];
-    forEach(element[$fog$277], function(element) {
-      if (element[$fog$39] === NODE_TYPE_ELEMENT) {
-        children[$fog$31](element);
+    forEach(element[$fog$1310], function(element) {
+      if (element[$fog$1548] === NODE_TYPE_ELEMENT) {
+        children[$fog$1556](element);
       }
     });
     return children;
   },
 
   contents: function(element) {
-    return element[$fog$344] || element[$fog$277] || [];
+    return element[$fog$1243] || element[$fog$1310] || [];
   },
 
   append: function(element, node) {
-    var nodeType = element[$fog$39];
+    var nodeType = element[$fog$1548];
     if (nodeType !== NODE_TYPE_ELEMENT && nodeType !== NODE_TYPE_DOCUMENT_FRAGMENT) return;
 
     node = new JQLite(node);
 
-    for (var i = $fog$1, ii = node[$fog$10]; i < ii; i++) {
+    for (var i = $fog$1586, ii = node[$fog$1577]; i < ii; i++) {
       var child = node[i];
-      element[$fog$269](child);
+      element[$fog$1318](child);
     }
   },
 
   prepend: function(element, node) {
-    if (element[$fog$39] === NODE_TYPE_ELEMENT) {
-      var index = element[$fog$278];
+    if (element[$fog$1548] === NODE_TYPE_ELEMENT) {
+      var index = element[$fog$1309];
       forEach(new JQLite(node), function(child) {
-        element[$fog$342](child, index);
+        element[$fog$1245](child, index);
       });
     }
   },
 
   wrap: function(element, wrapNode) {
-    wrapNode = jqLite(wrapNode)[$fog$345]($fog$1)[$fog$120]()[$fog$1];
-    var parent = element[$fog$295];
+    wrapNode = jqLite(wrapNode)[$fog$1242]($fog$1586)[$fog$1467]()[$fog$1586];
+    var parent = element[$fog$1292];
     if (parent) {
-      parent[$fog$343](wrapNode, element);
+      parent[$fog$1244](wrapNode, element);
     }
-    wrapNode[$fog$269](element);
+    wrapNode[$fog$1318](element);
   },
 
   remove: jqLiteRemove,
 
   detach: function(element) {
-    jqLiteRemove(element, $fog$40);
+    jqLiteRemove(element, $fog$1547);
   },
 
   after: function(element, newElement) {
-    var index = element, parent = element[$fog$295];
+    var index = element, parent = element[$fog$1292];
     newElement = new JQLite(newElement);
 
-    for (var i = $fog$1, ii = newElement[$fog$10]; i < ii; i++) {
+    for (var i = $fog$1586, ii = newElement[$fog$1577]; i < ii; i++) {
       var node = newElement[i];
-      parent[$fog$342](node, index[$fog$205]);
+      parent[$fog$1245](node, index[$fog$1382]);
       index = node;
     }
   },
@@ -3439,7 +3455,7 @@ forEach({
 
   toggleClass: function(element, selector, condition) {
     if (selector) {
-      forEach(selector[$fog$78]($fog$288), function(className) {
+      forEach(selector[$fog$1509]($fog$1299), function(className) {
         var classCondition = condition;
         if (isUndefined(classCondition)) {
           classCondition = !jqLiteHasClass(element, className);
@@ -3450,17 +3466,17 @@ forEach({
   },
 
   parent: function(element) {
-    var parent = element[$fog$295];
-    return parent && parent[$fog$39] !== NODE_TYPE_DOCUMENT_FRAGMENT ? parent : $fog$37;
+    var parent = element[$fog$1292];
+    return parent && parent[$fog$1548] !== NODE_TYPE_DOCUMENT_FRAGMENT ? parent : $fog$1550;
   },
 
   next: function(element) {
-    return element[$fog$346];
+    return element[$fog$1241];
   },
 
   find: function(element, selector) {
-    if (element[$fog$347]) {
-      return element[$fog$347](selector);
+    if (element[$fog$1240]) {
+      return element[$fog$1240](selector);
     } else {
       return [];
     }
@@ -3471,35 +3487,35 @@ forEach({
   triggerHandler: function(element, event, extraParameters) {
 
     var dummyEvent, eventFnsCopy, handlerArgs;
-    var eventName = event[$fog$329] || event;
+    var eventName = event[$fog$1258] || event;
     var expandoStore = jqLiteExpandoStore(element);
-    var events = expandoStore && expandoStore[$fog$194];
+    var events = expandoStore && expandoStore[$fog$1393];
     var eventFns = events && events[eventName];
 
     if (eventFns) {
       // Create a dummy event to pass to the handlers
       dummyEvent = {
-        preventDefault: function() { this[$fog$328] = $fog$40; },
-        isDefaultPrevented: function() { return this[$fog$328] === $fog$40; },
-        stopImmediatePropagation: function() { this[$fog$330] = $fog$40; },
-        isImmediatePropagationStopped: function() { return this[$fog$330] === $fog$40; },
+        preventDefault: function() { this[$fog$1259] = $fog$1547; },
+        isDefaultPrevented: function() { return this[$fog$1259] === $fog$1547; },
+        stopImmediatePropagation: function() { this[$fog$1257] = $fog$1547; },
+        isImmediatePropagationStopped: function() { return this[$fog$1257] === $fog$1547; },
         stopPropagation: noop,
         type: eventName,
         target: element
       };
 
       // If a custom event was provided then extend our dummy event with it
-      if (event[$fog$329]) {
+      if (event[$fog$1258]) {
         dummyEvent = extend(dummyEvent, event);
       }
 
       // Copy event handlers in case event handlers array is modified during execution.
       eventFnsCopy = shallowCopy(eventFns);
-      handlerArgs = extraParameters ? [dummyEvent][$fog$108](extraParameters) : [dummyEvent];
+      handlerArgs = extraParameters ? [dummyEvent][$fog$1479](extraParameters) : [dummyEvent];
 
       forEach(eventFnsCopy, function(fn) {
-        if (!dummyEvent[$fog$333]()) {
-          fn[$fog$109](element, handlerArgs);
+        if (!dummyEvent[$fog$1254]()) {
+          fn[$fog$1478](element, handlerArgs);
         }
       });
     }
@@ -3508,10 +3524,10 @@ forEach({
   /**
    * chaining functions
    */
-  JQLite[$fog$21][name] = function(arg1, arg2, arg3) {
+  JQLite[$fog$1566][name] = function(arg1, arg2, arg3) {
     var value;
 
-    for (var i = $fog$1, ii = this[$fog$10]; i < ii; i++) {
+    for (var i = $fog$1586, ii = this[$fog$1577]; i < ii; i++) {
       if (isUndefined(value)) {
         value = fn(this[i], arg1, arg2, arg3);
         if (isDefined(value)) {
@@ -3526,25 +3542,25 @@ forEach({
   };
 
   // bind legacy bind/unbind to on/off
-  JQLite[$fog$21][$fog$348] = JQLite[$fog$21][$fog$186];
-  JQLite[$fog$21][$fog$349] = JQLite[$fog$21][$fog$341];
+  JQLite[$fog$1566][$fog$1239] = JQLite[$fog$1566][$fog$1401];
+  JQLite[$fog$1566][$fog$1238] = JQLite[$fog$1566][$fog$1246];
 });
 
 
 // Provider for private $$jqLite service
 function $$jqLiteProvider() {
-  this[$fog$350] = function $$jqLite() {
+  this[$fog$1237] = function $$jqLite() {
     return extend(JQLite, {
       hasClass: function(node, classes) {
-        if (node[$fog$76]) node = node[$fog$1];
+        if (node[$fog$1511]) node = node[$fog$1586];
         return jqLiteHasClass(node, classes);
       },
       addClass: function(node, classes) {
-        if (node[$fog$76]) node = node[$fog$1];
+        if (node[$fog$1511]) node = node[$fog$1586];
         return jqLiteAddClass(node, classes);
       },
       removeClass: function(node, classes) {
-        if (node[$fog$76]) node = node[$fog$1];
+        if (node[$fog$1511]) node = node[$fog$1586];
         return jqLiteRemoveClass(node, classes);
       }
     });
@@ -3564,20 +3580,20 @@ function $$jqLiteProvider() {
  *         The resulting string key is in 'type:hashKey' format.
  */
 function hashKey(obj, nextUidFn) {
-  var key = obj && obj[$fog$49];
+  var key = obj && obj[$fog$1538];
 
   if (key) {
-    if (typeof key === $fog$46) {
-      key = obj[$fog$49]();
+    if (typeof key === $fog$1541) {
+      key = obj[$fog$1538]();
     }
     return key;
   }
 
   var objType = typeof obj;
-  if (objType == $fog$46 || (objType == $fog$44 && obj !== $fog$37)) {
-    key = obj[$fog$49] = objType + $fog$3 + (nextUidFn || nextUid)();
+  if (objType == $fog$1541 || (objType == $fog$1543 && obj !== $fog$1550)) {
+    key = obj[$fog$1538] = objType + $fog$1584 + (nextUidFn || nextUid)();
   } else {
-    key = objType + $fog$3 + obj;
+    key = objType + $fog$1584 + obj;
   }
 
   return key;
@@ -3588,21 +3604,21 @@ function hashKey(obj, nextUidFn) {
  */
 function HashMap(array, isolatedUid) {
   if (isolatedUid) {
-    var uid = $fog$1;
-    this[$fog$351] = function() {
+    var uid = $fog$1586;
+    this[$fog$1236] = function() {
       return ++uid;
     };
   }
-  forEach(array, this[$fog$352], this);
+  forEach(array, this[$fog$1235], this);
 }
-HashMap[$fog$21] = {
+HashMap[$fog$1566] = {
   /**
    * Store key value pair
    * @param key key to store can be any type
    * @param value value to store can be any type
    */
   put: function(key, value) {
-    this[hashKey(key, this[$fog$351])] = value;
+    this[hashKey(key, this[$fog$1236])] = value;
   },
 
   /**
@@ -3610,7 +3626,7 @@ HashMap[$fog$21] = {
    * @returns {Object} the value for the key
    */
   get: function(key) {
-    return this[hashKey(key, this[$fog$351])];
+    return this[hashKey(key, this[$fog$1236])];
   },
 
   /**
@@ -3618,14 +3634,14 @@ HashMap[$fog$21] = {
    * @param key
    */
   remove: function(key) {
-    var value = this[key = hashKey(key, this[$fog$351])];
+    var value = this[key = hashKey(key, this[$fog$1236])];
     delete this[key];
     return value;
   }
 };
 
 var $$HashMapProvider = [function() {
-  this[$fog$350] = [function() {
+  this[$fog$1237] = [function() {
     return HashMap;
   }];
 }];
@@ -3692,21 +3708,21 @@ var $$HashMapProvider = [function() {
  * Implicit module which gets automatically added to each {@link auto.$injector $injector}.
  */
 
-var FN_ARGS = $fog$353;
-var FN_ARG_SPLIT = $fog$354;
-var FN_ARG = $fog$355;
-var STRIP_COMMENTS = $fog$356;
-var $injectorMinErr = minErr($fog$170);
+var FN_ARGS = $fog$1234;
+var FN_ARG_SPLIT = $fog$1233;
+var FN_ARG = $fog$1232;
+var STRIP_COMMENTS = $fog$1231;
+var $injectorMinErr = minErr($fog$1417);
 
 function anonFn(fn) {
   // For anonymous functions, showing at the very least the function signature can help in
   // debugging.
-  var fnText = fn[$fog$32]()[$fog$7](STRIP_COMMENTS, $fog$4),
-      args = fnText[$fog$88](FN_ARGS);
+  var fnText = fn[$fog$1555]()[$fog$1580](STRIP_COMMENTS, $fog$1583),
+      args = fnText[$fog$1499](FN_ARGS);
   if (args) {
-    return $fog$357 + (args[$fog$6] || $fog$4)[$fog$7]($fog$358, $fog$288) + $fog$359;
+    return $fog$1230 + (args[$fog$1581] || $fog$1583)[$fog$1580]($fog$1229, $fog$1299) + $fog$1228;
   }
-  return $fog$187;
+  return $fog$1400;
 }
 
 function annotate(fn, strictDi, name) {
@@ -3715,33 +3731,33 @@ function annotate(fn, strictDi, name) {
       argDecl,
       last;
 
-  if (typeof fn === $fog$46) {
-    if (!($inject = fn[$fog$53])) {
+  if (typeof fn === $fog$1541) {
+    if (!($inject = fn[$fog$1534])) {
       $inject = [];
-      if (fn[$fog$10]) {
+      if (fn[$fog$1577]) {
         if (strictDi) {
           if (!isString(name) || !name) {
-            name = fn[$fog$42] || anonFn(fn);
+            name = fn[$fog$1545] || anonFn(fn);
           }
-          throw $injectorMinErr($fog$360,
-            $fog$361, name);
+          throw $injectorMinErr($fog$1227,
+            $fog$1226, name);
         }
-        fnText = fn[$fog$32]()[$fog$7](STRIP_COMMENTS, $fog$4);
-        argDecl = fnText[$fog$88](FN_ARGS);
-        forEach(argDecl[$fog$6][$fog$78](FN_ARG_SPLIT), function(arg) {
-          arg[$fog$7](FN_ARG, function(all, underscore, name) {
-            $inject[$fog$31](name);
+        fnText = fn[$fog$1555]()[$fog$1580](STRIP_COMMENTS, $fog$1583);
+        argDecl = fnText[$fog$1499](FN_ARGS);
+        forEach(argDecl[$fog$1581][$fog$1509](FN_ARG_SPLIT), function(arg) {
+          arg[$fog$1580](FN_ARG, function(all, underscore, name) {
+            $inject[$fog$1556](name);
           });
         });
       }
-      fn[$fog$53] = $inject;
+      fn[$fog$1534] = $inject;
     }
   } else if (isArray(fn)) {
-    last = fn[$fog$10] - $fog$6;
-    assertArgFn(fn[last], $fog$187);
-    $inject = fn[$fog$9]($fog$1, last);
+    last = fn[$fog$1577] - $fog$1581;
+    assertArgFn(fn[last], $fog$1400);
+    $inject = fn[$fog$1578]($fog$1586, last);
   } else {
-    assertArgFn(fn, $fog$187, $fog$40);
+    assertArgFn(fn, $fog$1400, $fog$1547);
   }
   return $inject;
 }
@@ -4245,11 +4261,11 @@ function annotate(fn, strictDi, name) {
 
 
 function createInjector(modulesToLoad, strictDi) {
-  strictDi = (strictDi === $fog$40);
+  strictDi = (strictDi === $fog$1547);
   var INSTANTIATING = {},
-      providerSuffix = $fog$362,
+      providerSuffix = $fog$1225,
       path = [],
-      loadedModules = new HashMap([], $fog$40),
+      loadedModules = new HashMap([], $fog$1547),
       providerCache = {
         $provide: {
             provider: supportObject(provider),
@@ -4260,22 +4276,22 @@ function createInjector(modulesToLoad, strictDi) {
             decorator: decorator
           }
       },
-      providerInjector = (providerCache[$fog$170] =
+      providerInjector = (providerCache[$fog$1417] =
           createInternalInjector(providerCache, function(serviceName, caller) {
-            if (angular[$fog$363](caller)) {
-              path[$fog$31](caller);
+            if (angular[$fog$1224](caller)) {
+              path[$fog$1556](caller);
             }
-            throw $injectorMinErr($fog$364, $fog$365, path[$fog$131]($fog$366));
+            throw $injectorMinErr($fog$1223, $fog$1222, path[$fog$1456]($fog$1221));
           })),
       instanceCache = {},
-      instanceInjector = (instanceCache[$fog$170] =
+      instanceInjector = (instanceCache[$fog$1417] =
           createInternalInjector(instanceCache, function(serviceName, caller) {
-            var provider = providerInjector[$fog$182](serviceName + providerSuffix, caller);
-            return instanceInjector[$fog$167](provider[$fog$350], provider, undefined, serviceName);
+            var provider = providerInjector[$fog$1405](serviceName + providerSuffix, caller);
+            return instanceInjector[$fog$1420](provider[$fog$1237], provider, undefined, serviceName);
           }));
 
 
-  forEach(loadModules(modulesToLoad), function(fn) { if (fn) instanceInjector[$fog$167](fn); });
+  forEach(loadModules(modulesToLoad), function(fn) { if (fn) instanceInjector[$fog$1420](fn); });
 
   return instanceInjector;
 
@@ -4294,21 +4310,21 @@ function createInjector(modulesToLoad, strictDi) {
   }
 
   function provider(name, provider_) {
-    assertNotHasOwnProperty(name, $fog$218);
+    assertNotHasOwnProperty(name, $fog$1369);
     if (isFunction(provider_) || isArray(provider_)) {
-      provider_ = providerInjector[$fog$367](provider_);
+      provider_ = providerInjector[$fog$1220](provider_);
     }
-    if (!provider_[$fog$350]) {
-      throw $injectorMinErr($fog$368, $fog$369, name);
+    if (!provider_[$fog$1237]) {
+      throw $injectorMinErr($fog$1219, $fog$1218, name);
     }
     return providerCache[name + providerSuffix] = provider_;
   }
 
   function enforceReturnValue(name, factory) {
     return function enforcedReturnValue() {
-      var result = instanceInjector[$fog$167](factory, this);
+      var result = instanceInjector[$fog$1420](factory, this);
       if (isUndefined(result)) {
-        throw $injectorMinErr($fog$370, $fog$371, name);
+        throw $injectorMinErr($fog$1217, $fog$1216, name);
       }
       return result;
     };
@@ -4316,31 +4332,31 @@ function createInjector(modulesToLoad, strictDi) {
 
   function factory(name, factoryFn, enforce) {
     return provider(name, {
-      $get: enforce !== $fog$38 ? enforceReturnValue(name, factoryFn) : factoryFn
+      $get: enforce !== $fog$1549 ? enforceReturnValue(name, factoryFn) : factoryFn
     });
   }
 
   function service(name, constructor) {
-    return factory(name, [$fog$170, function($injector) {
-      return $injector[$fog$367](constructor);
+    return factory(name, [$fog$1417, function($injector) {
+      return $injector[$fog$1220](constructor);
     }]);
   }
 
-  function value(name, val) { return factory(name, valueFn(val), $fog$38); }
+  function value(name, val) { return factory(name, valueFn(val), $fog$1549); }
 
   function constant(name, value) {
-    assertNotHasOwnProperty(name, $fog$219);
+    assertNotHasOwnProperty(name, $fog$1368);
     providerCache[name] = value;
     instanceCache[name] = value;
   }
 
   function decorator(serviceName, decorFn) {
-    var origProvider = providerInjector[$fog$182](serviceName + providerSuffix),
-        orig$get = origProvider[$fog$350];
+    var origProvider = providerInjector[$fog$1405](serviceName + providerSuffix),
+        orig$get = origProvider[$fog$1237];
 
-    origProvider[$fog$350] = function() {
-      var origInstance = instanceInjector[$fog$167](orig$get, origProvider);
-      return instanceInjector[$fog$167](decorFn, $fog$37, {$delegate: origInstance});
+    origProvider[$fog$1237] = function() {
+      var origInstance = instanceInjector[$fog$1420](orig$get, origProvider);
+      return instanceInjector[$fog$1420](decorFn, $fog$1550, {$delegate: origInstance});
     };
   }
 
@@ -4348,49 +4364,49 @@ function createInjector(modulesToLoad, strictDi) {
   // Module Loading
   ////////////////////////////////////
   function loadModules(modulesToLoad) {
-    assertArg(isUndefined(modulesToLoad) || isArray(modulesToLoad), $fog$372, $fog$373);
+    assertArg(isUndefined(modulesToLoad) || isArray(modulesToLoad), $fog$1215, $fog$1214);
     var runBlocks = [], moduleFn;
     forEach(modulesToLoad, function(module) {
-      if (loadedModules[$fog$182](module)) return;
-      loadedModules[$fog$352](module, $fog$40);
+      if (loadedModules[$fog$1405](module)) return;
+      loadedModules[$fog$1235](module, $fog$1547);
 
       function runInvokeQueue(queue) {
         var i, ii;
-        for (i = $fog$1, ii = queue[$fog$10]; i < ii; i++) {
+        for (i = $fog$1586, ii = queue[$fog$1577]; i < ii; i++) {
           var invokeArgs = queue[i],
-              provider = providerInjector[$fog$182](invokeArgs[$fog$1]);
+              provider = providerInjector[$fog$1405](invokeArgs[$fog$1586]);
 
-          provider[invokeArgs[$fog$6]][$fog$109](provider, invokeArgs[$fog$0]);
+          provider[invokeArgs[$fog$1581]][$fog$1478](provider, invokeArgs[$fog$1587]);
         }
       }
 
       try {
         if (isString(module)) {
           moduleFn = angularModule(module);
-          runBlocks = runBlocks[$fog$108](loadModules(moduleFn[$fog$374]))[$fog$108](moduleFn[$fog$375]);
-          runInvokeQueue(moduleFn[$fog$376]);
-          runInvokeQueue(moduleFn[$fog$377]);
+          runBlocks = runBlocks[$fog$1479](loadModules(moduleFn[$fog$1213]))[$fog$1479](moduleFn[$fog$1212]);
+          runInvokeQueue(moduleFn[$fog$1211]);
+          runInvokeQueue(moduleFn[$fog$1210]);
         } else if (isFunction(module)) {
-            runBlocks[$fog$31](providerInjector[$fog$167](module));
+            runBlocks[$fog$1556](providerInjector[$fog$1420](module));
         } else if (isArray(module)) {
-            runBlocks[$fog$31](providerInjector[$fog$167](module));
+            runBlocks[$fog$1556](providerInjector[$fog$1420](module));
         } else {
-          assertArgFn(module, $fog$211);
+          assertArgFn(module, $fog$1376);
         }
       } catch (e) {
         if (isArray(module)) {
-          module = module[module[$fog$10] - $fog$6];
+          module = module[module[$fog$1577] - $fog$1581];
         }
-        if (e[$fog$378] && e[$fog$379] && e[$fog$379][$fog$80](e[$fog$378]) == -$fog$6) {
+        if (e[$fog$1209] && e[$fog$1208] && e[$fog$1208][$fog$1507](e[$fog$1209]) == -$fog$1581) {
           // Safari & FF's stack traces don't contain error.message content
           // unlike those of Chrome and IE
           // So if stack doesn't contain message, we create a new string that contains both.
           // Since error.stack is read-only in Safari, I'm overriding e and not e.stack here.
           /* jshint -W022 */
-          e = e[$fog$378] + $fog$380 + e[$fog$379];
+          e = e[$fog$1209] + $fog$1207 + e[$fog$1208];
         }
-        throw $injectorMinErr($fog$381, $fog$382,
-                  module, e[$fog$379] || e[$fog$378] || e);
+        throw $injectorMinErr($fog$1206, $fog$1205,
+                  module, e[$fog$1208] || e[$fog$1209] || e);
       }
     });
     return runBlocks;
@@ -4403,15 +4419,15 @@ function createInjector(modulesToLoad, strictDi) {
   function createInternalInjector(cache, factory) {
 
     function getService(serviceName, caller) {
-      if (cache[$fog$20](serviceName)) {
+      if (cache[$fog$1567](serviceName)) {
         if (cache[serviceName] === INSTANTIATING) {
-          throw $injectorMinErr($fog$383, $fog$384,
-                    serviceName + $fog$366 + path[$fog$131]($fog$366));
+          throw $injectorMinErr($fog$1204, $fog$1203,
+                    serviceName + $fog$1221 + path[$fog$1456]($fog$1221));
         }
         return cache[serviceName];
       } else {
         try {
-          path[$fog$161](serviceName);
+          path[$fog$1426](serviceName);
           cache[serviceName] = INSTANTIATING;
           return cache[serviceName] = factory(serviceName, caller);
         } catch (err) {
@@ -4420,30 +4436,30 @@ function createInjector(modulesToLoad, strictDi) {
           }
           throw err;
         } finally {
-          path[$fog$385]();
+          path[$fog$1202]();
         }
       }
     }
 
     function invoke(fn, self, locals, serviceName) {
-      if (typeof locals === $fog$55) {
+      if (typeof locals === $fog$1532) {
         serviceName = locals;
-        locals = $fog$37;
+        locals = $fog$1550;
       }
 
       var args = [],
-          $inject = createInjector[$fog$386](fn, strictDi, serviceName),
+          $inject = createInjector[$fog$1201](fn, strictDi, serviceName),
           length, i,
           key;
 
-      for (i = $fog$1, length = $inject[$fog$10]; i < length; i++) {
+      for (i = $fog$1586, length = $inject[$fog$1577]; i < length; i++) {
         key = $inject[i];
-        if (typeof key !== $fog$55) {
-          throw $injectorMinErr($fog$387,
-                  $fog$388, key);
+        if (typeof key !== $fog$1532) {
+          throw $injectorMinErr($fog$1200,
+                  $fog$1199, key);
         }
-        args[$fog$31](
-          locals && locals[$fog$20](key)
+        args[$fog$1556](
+          locals && locals[$fog$1567](key)
           ? locals[key]
           : getService(key, serviceName)
         );
@@ -4454,14 +4470,14 @@ function createInjector(modulesToLoad, strictDi) {
 
       // http://jsperf.com/angularjs-invoke-apply-vs-switch
       // #5388
-      return fn[$fog$109](self, args);
+      return fn[$fog$1478](self, args);
     }
 
     function instantiate(Type, locals, serviceName) {
       // Check if Type is annotated and use just the given function at n-1 as parameter
       // e.g. someModule.factory('greeter', ['$window', function(renamed$window) {}]);
       // Object creation: http://jsperf.com/create-constructor/2
-      var instance = Object[$fog$52]((isArray(Type) ? Type[Type[$fog$10] - $fog$6] : Type)[$fog$21] || $fog$37);
+      var instance = Object[$fog$1535]((isArray(Type) ? Type[Type[$fog$1577] - $fog$1581] : Type)[$fog$1566] || $fog$1550);
       var returnedValue = invoke(Type, instance, locals, serviceName);
 
       return isObject(returnedValue) || isFunction(returnedValue) ? returnedValue : instance;
@@ -4471,15 +4487,15 @@ function createInjector(modulesToLoad, strictDi) {
       invoke: invoke,
       instantiate: instantiate,
       get: getService,
-      annotate: createInjector[$fog$386],
+      annotate: createInjector[$fog$1201],
       has: function(name) {
-        return providerCache[$fog$20](name + providerSuffix) || cache[$fog$20](name);
+        return providerCache[$fog$1567](name + providerSuffix) || cache[$fog$1567](name);
       }
     };
   }
 }
 
-createInjector[$fog$386] = annotate;
+createInjector[$fog$1201] = annotate;
 
 /**
  * @ngdoc provider
@@ -4491,7 +4507,7 @@ createInjector[$fog$386] = annotate;
  */
 function $AnchorScrollProvider() {
 
-  var autoScrollingEnabled = $fog$40;
+  var autoScrollingEnabled = $fog$1547;
 
   /**
    * @ngdoc method
@@ -4506,8 +4522,8 @@ function $AnchorScrollProvider() {
    * {@link ng.$anchorScroll $anchorScroll()} in order to scroll to the element related to the
    * current hash.
    */
-  this[$fog$389] = function() {
-    autoScrollingEnabled = $fog$38;
+  this[$fog$1198] = function() {
+    autoScrollingEnabled = $fog$1549;
   };
 
   /**
@@ -4651,18 +4667,18 @@ function $AnchorScrollProvider() {
        </file>
      </example>
    */
-  this[$fog$350] = [$fog$390, $fog$391, $fog$168, function($window, $location, $rootScope) {
-    var document = $window[$fog$154];
+  this[$fog$1237] = [$fog$1197, $fog$1196, $fog$1419, function($window, $location, $rootScope) {
+    var document = $window[$fog$1433];
 
     // Helper function to get first anchor from a NodeList
     // (using `Array#some()` instead of `angular#forEach()` since it's more performant
     //  and working in all supported browsers.)
     function getFirstAnchor(list) {
-      var result = $fog$37;
-      Array[$fog$21][$fog$392][$fog$43](list, function(element) {
-        if (nodeName_(element) === $fog$393) {
+      var result = $fog$1550;
+      Array[$fog$1566][$fog$1195][$fog$1544](list, function(element) {
+        if (nodeName_(element) === $fog$1194) {
           result = element;
-          return $fog$40;
+          return $fog$1547;
         }
       });
       return result;
@@ -4670,20 +4686,20 @@ function $AnchorScrollProvider() {
 
     function getYOffset() {
 
-      var offset = scroll[$fog$394];
+      var offset = scroll[$fog$1193];
 
       if (isFunction(offset)) {
         offset = offset();
       } else if (isElement(offset)) {
-        var elem = offset[$fog$1];
-        var style = $window[$fog$395](elem);
-        if (style[$fog$396] !== $fog$397) {
-          offset = $fog$1;
+        var elem = offset[$fog$1586];
+        var style = $window[$fog$1192](elem);
+        if (style[$fog$1191] !== $fog$1190) {
+          offset = $fog$1586;
         } else {
-          offset = elem[$fog$399]()[$fog$398];
+          offset = elem[$fog$1188]()[$fog$1189];
         }
       } else if (!isNumber(offset)) {
-        offset = $fog$1;
+        offset = $fog$1586;
       }
 
       return offset;
@@ -4691,7 +4707,7 @@ function $AnchorScrollProvider() {
 
     function scrollTo(elem) {
       if (elem) {
-        elem[$fog$400]();
+        elem[$fog$1187]();
 
         var offset = getYOffset();
 
@@ -4709,41 +4725,41 @@ function $AnchorScrollProvider() {
           // In such cases we do not need to scroll the whole `offset` up, just the difference between
           // the top of the element and the offset, which is enough to align the top of `elem` at the
           // desired position.
-          var elemTop = elem[$fog$399]()[$fog$401];
-          $window[$fog$402]($fog$1, elemTop - offset);
+          var elemTop = elem[$fog$1188]()[$fog$1186];
+          $window[$fog$1185]($fog$1586, elemTop - offset);
         }
       } else {
-        $window[$fog$403]($fog$1, $fog$1);
+        $window[$fog$1184]($fog$1586, $fog$1586);
       }
     }
 
     function scroll(hash) {
-      hash = isString(hash) ? hash : $location[$fog$404]();
+      hash = isString(hash) ? hash : $location[$fog$1183]();
       var elm;
 
       // empty hash, scroll to the top of the page
-      if (!hash) scrollTo($fog$37);
+      if (!hash) scrollTo($fog$1550);
 
       // element with given id
-      else if ((elm = document[$fog$405](hash))) scrollTo(elm);
+      else if ((elm = document[$fog$1182](hash))) scrollTo(elm);
 
       // first anchor with given name :-D
-      else if ((elm = getFirstAnchor(document[$fog$406](hash)))) scrollTo(elm);
+      else if ((elm = getFirstAnchor(document[$fog$1181](hash)))) scrollTo(elm);
 
       // no element and hash == 'top', scroll to the top of the page
-      else if (hash === $fog$401) scrollTo($fog$37);
+      else if (hash === $fog$1186) scrollTo($fog$1550);
     }
 
     // does not scroll when user clicks on anchor link that is currently on
     // (no url change, no $location.hash() change), browser native does scroll
     if (autoScrollingEnabled) {
-      $rootScope[$fog$61](function autoScrollWatch() {return $location[$fog$404]();},
+      $rootScope[$fog$1526](function autoScrollWatch() {return $location[$fog$1183]();},
         function autoScrollWatchAction(newVal, oldVal) {
           // skip the initial scroll if $location.hash is empty
-          if (newVal === oldVal && newVal === $fog$4) return;
+          if (newVal === oldVal && newVal === $fog$1583) return;
 
           jqLiteDocumentLoaded(function() {
-            $rootScope[$fog$60](scroll);
+            $rootScope[$fog$1527](scroll);
           });
         });
     }
@@ -4752,23 +4768,23 @@ function $AnchorScrollProvider() {
   }];
 }
 
-var $animateMinErr = minErr($fog$407);
-var ELEMENT_NODE = $fog$6;
-var NG_ANIMATE_CLASSNAME = $fog$408;
+var $animateMinErr = minErr($fog$1180);
+var ELEMENT_NODE = $fog$1581;
+var NG_ANIMATE_CLASSNAME = $fog$1179;
 
 function mergeClasses(a,b) {
-  if (!a && !b) return $fog$4;
+  if (!a && !b) return $fog$1583;
   if (!a) return b;
   if (!b) return a;
-  if (isArray(a)) a = a[$fog$131]($fog$288);
-  if (isArray(b)) b = b[$fog$131]($fog$288);
-  return a + $fog$288 + b;
+  if (isArray(a)) a = a[$fog$1456]($fog$1299);
+  if (isArray(b)) b = b[$fog$1456]($fog$1299);
+  return a + $fog$1299 + b;
 }
 
 function extractElementNode(element) {
-  for (var i = $fog$1; i < element[$fog$10]; i++) {
+  for (var i = $fog$1586; i < element[$fog$1577]; i++) {
     var elm = element[i];
-    if (elm[$fog$39] === ELEMENT_NODE) {
+    if (elm[$fog$1548] === ELEMENT_NODE) {
       return elm;
     }
   }
@@ -4776,7 +4792,7 @@ function extractElementNode(element) {
 
 function splitClasses(classes) {
   if (isString(classes)) {
-    classes = classes[$fog$78]($fog$288);
+    classes = classes[$fog$1509]($fog$1299);
   }
 
   // Use createMap() to prevent class assumptions involving property names in
@@ -4785,8 +4801,8 @@ function splitClasses(classes) {
   forEach(classes, function(klass) {
     // sometimes the split leaves empty string values
     // incase extra spaces were applied to the options
-    if (klass[$fog$10]) {
-      obj[klass] = $fog$40;
+    if (klass[$fog$1577]) {
+      obj[klass] = $fog$1547;
     }
   });
   return obj;
@@ -4806,11 +4822,11 @@ function prepareAnimateOptions(options) {
 }
 
 var $$CoreAnimateRunnerProvider = function() {
-  this[$fog$350] = [$fog$409, $fog$410, function($q, $$rAF) {
+  this[$fog$1237] = [$fog$1178, $fog$1177, function($q, $$rAF) {
     function AnimateRunner() {}
-    AnimateRunner[$fog$411] = noop;
-    AnimateRunner[$fog$412] = noop;
-    AnimateRunner[$fog$21] = {
+    AnimateRunner[$fog$1176] = noop;
+    AnimateRunner[$fog$1175] = noop;
+    AnimateRunner[$fog$1566] = {
       end: noop,
       cancel: noop,
       resume: noop,
@@ -4821,7 +4837,7 @@ var $$CoreAnimateRunnerProvider = function() {
           $$rAF(function() {
             resolve();
           });
-        })[$fog$66](pass, fail);
+        })[$fog$1521](pass, fail);
       }
     };
     return AnimateRunner;
@@ -4834,7 +4850,7 @@ var $$CoreAnimateQueueProvider = function() {
   var postDigestQueue = new HashMap();
   var postDigestElements = [];
 
-  this[$fog$350] = [$fog$413, $fog$168,
+  this[$fog$1237] = [$fog$1174, $fog$1419,
        function($$AnimateRunner,   $rootScope) {
     return {
       enabled: noop,
@@ -4846,11 +4862,11 @@ var $$CoreAnimateQueueProvider = function() {
         domOperation        && domOperation();
 
         options = options || {};
-        options[$fog$414]        && element[$fog$415](options[$fog$414]);
-        options[$fog$416]          && element[$fog$415](options[$fog$416]);
+        options[$fog$1173]        && element[$fog$1172](options[$fog$1173]);
+        options[$fog$1171]          && element[$fog$1172](options[$fog$1171]);
 
-        if (options[$fog$417] || options[$fog$418]) {
-          addRemoveClassesPostDigest(element, options[$fog$417], options[$fog$418]);
+        if (options[$fog$1170] || options[$fog$1169]) {
+          addRemoveClassesPostDigest(element, options[$fog$1170], options[$fog$1169]);
         }
 
         return new $$AnimateRunner(); // jshint ignore:line
@@ -4858,21 +4874,21 @@ var $$CoreAnimateQueueProvider = function() {
     };
 
     function addRemoveClassesPostDigest(element, add, remove) {
-      var classVal, data = postDigestQueue[$fog$182](element);
+      var classVal, data = postDigestQueue[$fog$1405](element);
 
       if (!data) {
-        postDigestQueue[$fog$352](element, data = {});
-        postDigestElements[$fog$31](element);
+        postDigestQueue[$fog$1235](element, data = {});
+        postDigestElements[$fog$1556](element);
       }
 
       var updateData = function(classes, value) {
-        var changed = $fog$38;
+        var changed = $fog$1549;
         if (classes) {
-          classes = isString(classes) ? classes[$fog$78]($fog$288) :
+          classes = isString(classes) ? classes[$fog$1509]($fog$1299) :
                     isArray(classes) ? classes : [];
           forEach(classes, function(className) {
             if (className) {
-              changed = $fog$40;
+              changed = $fog$1547;
               data[className] = value;
             }
           });
@@ -4880,24 +4896,24 @@ var $$CoreAnimateQueueProvider = function() {
         return changed;
       };
 
-      var classesAdded = updateData(add, $fog$40);
-      var classesRemoved = updateData(remove, $fog$38);
-      if ((!classesAdded && !classesRemoved) || postDigestElements[$fog$10] > $fog$6) return;
+      var classesAdded = updateData(add, $fog$1547);
+      var classesRemoved = updateData(remove, $fog$1549);
+      if ((!classesAdded && !classesRemoved) || postDigestElements[$fog$1577] > $fog$1581) return;
 
-      $rootScope[$fog$419](function() {
+      $rootScope[$fog$1168](function() {
         forEach(postDigestElements, function(element) {
-          var data = postDigestQueue[$fog$182](element);
+          var data = postDigestQueue[$fog$1405](element);
           if (data) {
-            var existing = splitClasses(element[$fog$76]($fog$289));
-            var toAdd = $fog$4;
-            var toRemove = $fog$4;
+            var existing = splitClasses(element[$fog$1511]($fog$1298));
+            var toAdd = $fog$1583;
+            var toRemove = $fog$1583;
             forEach(data, function(status, className) {
               var hasClass = !!existing[className];
               if (status !== hasClass) {
                 if (status) {
-                  toAdd += (toAdd[$fog$10] ? $fog$288 : $fog$4) + className;
+                  toAdd += (toAdd[$fog$1577] ? $fog$1299 : $fog$1583) + className;
                 } else {
-                  toRemove += (toRemove[$fog$10] ? $fog$288 : $fog$4) + className;
+                  toRemove += (toRemove[$fog$1577] ? $fog$1299 : $fog$1583) + className;
                 }
               }
             });
@@ -4906,11 +4922,11 @@ var $$CoreAnimateQueueProvider = function() {
               toAdd    && jqLiteAddClass(elm, toAdd);
               toRemove && jqLiteRemoveClass(elm, toRemove);
             });
-            postDigestQueue[$fog$420](element);
+            postDigestQueue[$fog$1167](element);
           }
         });
 
-        postDigestElements[$fog$10] = $fog$1;
+        postDigestElements[$fog$1577] = $fog$1586;
       });
     }
   }];
@@ -4928,10 +4944,10 @@ var $$CoreAnimateQueueProvider = function() {
  *
  * To see the functional implementation check out `src/ngAnimate/animate.js`.
  */
-var $AnimateProvider = [$fog$162, function($provide) {
+var $AnimateProvider = [$fog$1425, function($provide) {
   var provider = this;
 
-  this[$fog$421] = Object[$fog$52]($fog$37);
+  this[$fog$1166] = Object[$fog$1535]($fog$1550);
 
    /**
    * @ngdoc method
@@ -4972,14 +4988,14 @@ var $AnimateProvider = [$fog$162, function($provide) {
    * @param {Function} factory The factory function that will be executed to return the animation
    *                           object.
    */
-  this[$fog$222] = function(name, factory) {
-    if (name && name[$fog$93]($fog$1) !== $fog$204) {
-      throw $animateMinErr($fog$422, $fog$423, name);
+  this[$fog$1365] = function(name, factory) {
+    if (name && name[$fog$1494]($fog$1586) !== $fog$1383) {
+      throw $animateMinErr($fog$1165, $fog$1164, name);
     }
 
-    var key = name + $fog$424;
-    provider[$fog$421][name[$fog$425]($fog$6)] = key;
-    $provide[$fog$217](key, factory);
+    var key = name + $fog$1163;
+    provider[$fog$1166][name[$fog$1162]($fog$1581)] = key;
+    $provide[$fog$1370](key, factory);
   };
 
   /**
@@ -4996,32 +5012,32 @@ var $AnimateProvider = [$fog$162, function($provide) {
    * @param {RegExp=} expression The className expression which will be checked against all animations
    * @return {RegExp} The current CSS className expression value. If null then there is no expression value
    */
-  this[$fog$426] = function(expression) {
-    if (arguments[$fog$10] === $fog$6) {
-      this[$fog$427] = (expression instanceof RegExp) ? expression : $fog$37;
-      if (this[$fog$427]) {
-        var reservedRegex = new RegExp($fog$428 + NG_ANIMATE_CLASSNAME + $fog$428);
-        if (reservedRegex[$fog$68](this[$fog$427][$fog$32]())) {
-          throw $animateMinErr($fog$429,$fog$430, NG_ANIMATE_CLASSNAME);
+  this[$fog$1161] = function(expression) {
+    if (arguments[$fog$1577] === $fog$1581) {
+      this[$fog$1160] = (expression instanceof RegExp) ? expression : $fog$1550;
+      if (this[$fog$1160]) {
+        var reservedRegex = new RegExp($fog$1159 + NG_ANIMATE_CLASSNAME + $fog$1159);
+        if (reservedRegex[$fog$1519](this[$fog$1160][$fog$1555]())) {
+          throw $animateMinErr($fog$1158,$fog$1157, NG_ANIMATE_CLASSNAME);
 
         }
       }
     }
-    return this[$fog$427];
+    return this[$fog$1160];
   };
 
-  this[$fog$350] = [$fog$431, function($$animateQueue) {
+  this[$fog$1237] = [$fog$1156, function($$animateQueue) {
     function domInsert(element, parentElement, afterElement) {
       // if for some reason the previous element was removed
       // from the dom sometime before this code runs then let's
       // just stick to using the parent element as the anchor
       if (afterElement) {
         var afterNode = extractElementNode(afterElement);
-        if (afterNode && !afterNode[$fog$295] && !afterNode[$fog$432]) {
-          afterElement = $fog$37;
+        if (afterNode && !afterNode[$fog$1292] && !afterNode[$fog$1155]) {
+          afterElement = $fog$1550;
         }
       }
-      afterElement ? afterElement[$fog$433](element) : parentElement[$fog$434](element);
+      afterElement ? afterElement[$fog$1154](element) : parentElement[$fog$1153](element);
     }
 
     /**
@@ -5073,7 +5089,7 @@ var $AnimateProvider = [$fog$162, function($provide) {
        * * `element` - The captured DOM element that the animation was fired on.
        * * `phase` - The phase of the animation. The two possible phases are **start** (when the animation starts) and **close** (when it ends).
        */
-      on: $$animateQueue[$fog$186],
+      on: $$animateQueue[$fog$1401],
 
       /**
        *
@@ -5099,7 +5115,7 @@ var $AnimateProvider = [$fog$162, function($provide) {
        * @param {DOMElement=} container the container element the event listener was placed on
        * @param {Function=} callback the callback function that was registered as the listener
        */
-      off: $$animateQueue[$fog$341],
+      off: $$animateQueue[$fog$1246],
 
       /**
        * @ngdoc method
@@ -5117,7 +5133,7 @@ var $AnimateProvider = [$fog$162, function($provide) {
        * @param {DOMElement} element the external element that will be pinned
        * @param {DOMElement} parentElement the host parent element that will be associated with the external element
        */
-      pin: $$animateQueue[$fog$435],
+      pin: $$animateQueue[$fog$1152],
 
       /**
        *
@@ -5148,7 +5164,7 @@ var $AnimateProvider = [$fog$162, function($provide) {
        *
        * @return {boolean} whether or not animations are enabled
        */
-      enabled: $$animateQueue[$fog$436],
+      enabled: $$animateQueue[$fog$1151],
 
       /**
        * @ngdoc method
@@ -5159,7 +5175,7 @@ var $AnimateProvider = [$fog$162, function($provide) {
        * @param {Promise} animationPromise The animation promise that is returned when an animation is started.
        */
       cancel: function(runner) {
-        runner[$fog$437] && runner[$fog$437]();
+        runner[$fog$1150] && runner[$fog$1150]();
       },
 
       /**
@@ -5183,9 +5199,9 @@ var $AnimateProvider = [$fog$162, function($provide) {
       enter: function(element, parent, after, options) {
         parent = parent && jqLite(parent);
         after = after && jqLite(after);
-        parent = parent || after[$fog$438]();
+        parent = parent || after[$fog$1149]();
         domInsert(element, parent, after);
-        return $$animateQueue[$fog$31](element, $fog$439, prepareAnimateOptions(options));
+        return $$animateQueue[$fog$1556](element, $fog$1148, prepareAnimateOptions(options));
       },
 
       /**
@@ -5209,9 +5225,9 @@ var $AnimateProvider = [$fog$162, function($provide) {
       move: function(element, parent, after, options) {
         parent = parent && jqLite(parent);
         after = after && jqLite(after);
-        parent = parent || after[$fog$438]();
+        parent = parent || after[$fog$1149]();
         domInsert(element, parent, after);
-        return $$animateQueue[$fog$31](element, $fog$440, prepareAnimateOptions(options));
+        return $$animateQueue[$fog$1556](element, $fog$1147, prepareAnimateOptions(options));
       },
 
       /**
@@ -5228,8 +5244,8 @@ var $AnimateProvider = [$fog$162, function($provide) {
        * @return {Promise} the animation callback promise
        */
       leave: function(element, options) {
-        return $$animateQueue[$fog$31](element, $fog$441, prepareAnimateOptions(options), function() {
-          element[$fog$420]();
+        return $$animateQueue[$fog$1556](element, $fog$1146, prepareAnimateOptions(options), function() {
+          element[$fog$1167]();
         });
       },
 
@@ -5253,8 +5269,8 @@ var $AnimateProvider = [$fog$162, function($provide) {
        */
       addClass: function(element, className, options) {
         options = prepareAnimateOptions(options);
-        options[$fog$417] = mergeClasses(options[$fog$442], className);
-        return $$animateQueue[$fog$31](element, $fog$417, options);
+        options[$fog$1170] = mergeClasses(options[$fog$1145], className);
+        return $$animateQueue[$fog$1556](element, $fog$1170, options);
       },
 
       /**
@@ -5277,8 +5293,8 @@ var $AnimateProvider = [$fog$162, function($provide) {
        */
       removeClass: function(element, className, options) {
         options = prepareAnimateOptions(options);
-        options[$fog$418] = mergeClasses(options[$fog$418], className);
-        return $$animateQueue[$fog$31](element, $fog$418, options);
+        options[$fog$1169] = mergeClasses(options[$fog$1169], className);
+        return $$animateQueue[$fog$1556](element, $fog$1169, options);
       },
 
       /**
@@ -5302,9 +5318,9 @@ var $AnimateProvider = [$fog$162, function($provide) {
        */
       setClass: function(element, add, remove, options) {
         options = prepareAnimateOptions(options);
-        options[$fog$417] = mergeClasses(options[$fog$417], add);
-        options[$fog$418] = mergeClasses(options[$fog$418], remove);
-        return $$animateQueue[$fog$31](element, $fog$443, options);
+        options[$fog$1170] = mergeClasses(options[$fog$1170], add);
+        options[$fog$1169] = mergeClasses(options[$fog$1169], remove);
+        return $$animateQueue[$fog$1556](element, $fog$1144, options);
       },
 
       /**
@@ -5330,12 +5346,12 @@ var $AnimateProvider = [$fog$162, function($provide) {
        */
       animate: function(element, from, to, className, options) {
         options = prepareAnimateOptions(options);
-        options[$fog$414] = options[$fog$414] ? extend(options[$fog$414], from) : from;
-        options[$fog$416]   = options[$fog$416]   ? extend(options[$fog$416], to)     : to;
+        options[$fog$1173] = options[$fog$1173] ? extend(options[$fog$1173], from) : from;
+        options[$fog$1171]   = options[$fog$1171]   ? extend(options[$fog$1171], to)     : to;
 
-        className = className || $fog$444;
-        options[$fog$445] = mergeClasses(options[$fog$445], className);
-        return $$animateQueue[$fog$31](element, $fog$446, options);
+        className = className || $fog$1143;
+        options[$fog$1142] = mergeClasses(options[$fog$1142], className);
+        return $$animateQueue[$fog$1556](element, $fog$1141, options);
       }
     };
   }];
@@ -5353,40 +5369,40 @@ var $AnimateProvider = [$fog$162, function($provide) {
  * Click here {@link ngAnimate.$animateCss to read the documentation for $animateCss}.
  */
 var $CoreAnimateCssProvider = function() {
-  this[$fog$350] = [$fog$410, $fog$409, function($$rAF, $q) {
+  this[$fog$1237] = [$fog$1177, $fog$1178, function($$rAF, $q) {
 
     var RAFPromise = function() {};
-    RAFPromise[$fog$21] = {
+    RAFPromise[$fog$1566] = {
       done: function(cancel) {
-        this[$fog$447] && this[$fog$447][cancel === $fog$40 ? $fog$448 : $fog$449]();
+        this[$fog$1140] && this[$fog$1140][cancel === $fog$1547 ? $fog$1139 : $fog$1138]();
       },
       end: function() {
-        this[$fog$450]();
+        this[$fog$1137]();
       },
       cancel: function() {
-        this[$fog$450]($fog$40);
+        this[$fog$1137]($fog$1547);
       },
       getPromise: function() {
-        if (!this[$fog$447]) {
-          this[$fog$447] = $q[$fog$447]();
+        if (!this[$fog$1140]) {
+          this[$fog$1140] = $q[$fog$1140]();
         }
-        return this[$fog$447][$fog$451];
+        return this[$fog$1140][$fog$1136];
       },
       then: function(f1,f2) {
-        return this[$fog$452]()[$fog$66](f1,f2);
+        return this[$fog$1135]()[$fog$1521](f1,f2);
       },
       'catch': function(f1) {
-        return this[$fog$452]()[$fog$453](f1);
+        return this[$fog$1135]()[$fog$1134](f1);
       },
       'finally': function(f1) {
-        return this[$fog$452]()[$fog$454](f1);
+        return this[$fog$1135]()[$fog$1133](f1);
       }
     };
 
     return function(element, options) {
-      if (options[$fog$414]) {
-        element[$fog$415](options[$fog$414]);
-        options[$fog$414] = $fog$37;
+      if (options[$fog$1173]) {
+        element[$fog$1172](options[$fog$1173]);
+        options[$fog$1173] = $fog$1550;
       }
 
       var closed, runner = new RAFPromise();
@@ -5399,25 +5415,25 @@ var $CoreAnimateCssProvider = function() {
         $$rAF(function() {
           close();
           if (!closed) {
-            runner[$fog$450]();
+            runner[$fog$1137]();
           }
-          closed = $fog$40;
+          closed = $fog$1547;
         });
         return runner;
       }
 
       function close() {
-        if (options[$fog$417]) {
-          element[$fog$417](options[$fog$417]);
-          options[$fog$417] = $fog$37;
+        if (options[$fog$1170]) {
+          element[$fog$1170](options[$fog$1170]);
+          options[$fog$1170] = $fog$1550;
         }
-        if (options[$fog$418]) {
-          element[$fog$418](options[$fog$418]);
-          options[$fog$418] = $fog$37;
+        if (options[$fog$1169]) {
+          element[$fog$1169](options[$fog$1169]);
+          options[$fog$1169] = $fog$1550;
         }
-        if (options[$fog$416]) {
-          element[$fog$415](options[$fog$416]);
-          options[$fog$416] = $fog$37;
+        if (options[$fog$1171]) {
+          element[$fog$1172](options[$fog$1171]);
+          options[$fog$1171] = $fog$1550;
         }
       }
     };
@@ -5449,21 +5465,21 @@ var $CoreAnimateCssProvider = function() {
  */
 function Browser(window, document, $log, $sniffer) {
   var self = this,
-      rawDocument = document[$fog$1],
-      location = window[$fog$179],
-      history = window[$fog$455],
-      setTimeout = window[$fog$300],
-      clearTimeout = window[$fog$456],
+      rawDocument = document[$fog$1586],
+      location = window[$fog$1408],
+      history = window[$fog$1132],
+      setTimeout = window[$fog$1287],
+      clearTimeout = window[$fog$1131],
       pendingDeferIds = {};
 
-  self[$fog$457] = $fog$38;
+  self[$fog$1130] = $fog$1549;
 
-  var outstandingRequestCount = $fog$1;
+  var outstandingRequestCount = $fog$1586;
   var outstandingRequestCallbacks = [];
 
   // TODO(vojta): remove this temporary api
-  self[$fog$458] = completeOutstandingRequest;
-  self[$fog$459] = function() { outstandingRequestCount++; };
+  self[$fog$1129] = completeOutstandingRequest;
+  self[$fog$1128] = function() { outstandingRequestCount++; };
 
   /**
    * Executes the `fn` function(supports currying) and decrements the `outstandingRequestCallbacks`
@@ -5471,15 +5487,15 @@ function Browser(window, document, $log, $sniffer) {
    */
   function completeOutstandingRequest(fn) {
     try {
-      fn[$fog$109]($fog$37, sliceArgs(arguments, $fog$6));
+      fn[$fog$1478]($fog$1550, sliceArgs(arguments, $fog$1581));
     } finally {
       outstandingRequestCount--;
-      if (outstandingRequestCount === $fog$1) {
-        while (outstandingRequestCallbacks[$fog$10]) {
+      if (outstandingRequestCount === $fog$1586) {
+        while (outstandingRequestCallbacks[$fog$1577]) {
           try {
-            outstandingRequestCallbacks[$fog$460]()();
+            outstandingRequestCallbacks[$fog$1127]()();
           } catch (e) {
-            $log[$fog$461](e);
+            $log[$fog$1126](e);
           }
         }
       }
@@ -5487,8 +5503,8 @@ function Browser(window, document, $log, $sniffer) {
   }
 
   function getHash(url) {
-    var index = url[$fog$80]($fog$462);
-    return index === -$fog$6 ? $fog$4 : url[$fog$425](index);
+    var index = url[$fog$1507]($fog$1125);
+    return index === -$fog$1581 ? $fog$1583 : url[$fog$1162](index);
   }
 
   /**
@@ -5497,11 +5513,11 @@ function Browser(window, document, $log, $sniffer) {
    * TODO(vojta): prefix this method with $$ ?
    * @param {function()} callback Function that will be called when no outstanding request
    */
-  self[$fog$463] = function(callback) {
-    if (outstandingRequestCount === $fog$1) {
+  self[$fog$1124] = function(callback) {
+    if (outstandingRequestCount === $fog$1586) {
       callback();
     } else {
-      outstandingRequestCallbacks[$fog$31](callback);
+      outstandingRequestCallbacks[$fog$1556](callback);
     }
   };
 
@@ -5510,9 +5526,9 @@ function Browser(window, document, $log, $sniffer) {
   //////////////////////////////////////////////////////////////
 
   var cachedState, lastHistoryState,
-      lastBrowserUrl = location[$fog$464],
-      baseElement = document[$fog$77]($fog$465),
-      reloadLocation = $fog$37;
+      lastBrowserUrl = location[$fog$1123],
+      baseElement = document[$fog$1510]($fog$1122),
+      reloadLocation = $fog$1550;
 
   cacheState();
   lastHistoryState = cachedState;
@@ -5537,17 +5553,17 @@ function Browser(window, document, $log, $sniffer) {
    * @param {boolean=} replace Should new url replace current history record?
    * @param {object=} state object to use with pushState/replaceState
    */
-  self[$fog$466] = function(url, replace, state) {
+  self[$fog$1121] = function(url, replace, state) {
     // In modern browsers `history.state` is `null` by default; treating it separately
     // from `undefined` would cause `$browser.url('/foo')` to change `history.state`
     // to undefined via `pushState`. Instead, let's change `undefined` to `null` here.
     if (isUndefined(state)) {
-      state = $fog$37;
+      state = $fog$1550;
     }
 
     // Android Browser BFCache causes location, history reference to become stale.
-    if (location !== window[$fog$179]) location = window[$fog$179];
-    if (history !== window[$fog$455]) history = window[$fog$455];
+    if (location !== window[$fog$1408]) location = window[$fog$1408];
+    if (history !== window[$fog$1132]) history = window[$fog$1132];
 
     // setter
     if (url) {
@@ -5556,7 +5572,7 @@ function Browser(window, document, $log, $sniffer) {
       // Don't change anything if previous and current URLs and states match. This also prevents
       // IE<10 from getting into redirect loop when in LocationHashbangInHtml5Url mode.
       // See https://github.com/angular/angular.js/commit/ffb2701
-      if (lastBrowserUrl === url && (!$sniffer[$fog$455] || sameState)) {
+      if (lastBrowserUrl === url && (!$sniffer[$fog$1132] || sameState)) {
         return self;
       }
       var sameBase = lastBrowserUrl && stripHash(lastBrowserUrl) === stripHash(url);
@@ -5566,8 +5582,8 @@ function Browser(window, document, $log, $sniffer) {
       // due to a bug in IE10/IE11 which leads
       // to not firing a `hashchange` nor `popstate` event
       // in some cases (see #9143).
-      if ($sniffer[$fog$455] && (!sameBase || !sameState)) {
-        history[replace ? $fog$467 : $fog$468](state, $fog$4, url);
+      if ($sniffer[$fog$1132] && (!sameBase || !sameState)) {
+        history[replace ? $fog$1120 : $fog$1119](state, $fog$1583, url);
         cacheState();
         // Do the assignment again so that those two variables are referentially identical.
         lastHistoryState = cachedState;
@@ -5576,11 +5592,11 @@ function Browser(window, document, $log, $sniffer) {
           reloadLocation = url;
         }
         if (replace) {
-          location[$fog$7](url);
+          location[$fog$1580](url);
         } else if (!sameBase) {
-          location[$fog$464] = url;
+          location[$fog$1123] = url;
         } else {
-          location[$fog$404] = getHash(url);
+          location[$fog$1183] = getHash(url);
         }
       }
       return self;
@@ -5589,7 +5605,7 @@ function Browser(window, document, $log, $sniffer) {
       // - reloadLocation is needed as browsers don't allow to read out
       //   the new location.href if a reload happened.
       // - the replacement is a workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=407172
-      return reloadLocation || location[$fog$464][$fog$7]($fog$469,$fog$470);
+      return reloadLocation || location[$fog$1123][$fog$1580]($fog$1118,$fog$1117);
     }
   };
 
@@ -5603,12 +5619,12 @@ function Browser(window, document, $log, $sniffer) {
    *
    * @returns {object} state
    */
-  self[$fog$471] = function() {
+  self[$fog$1116] = function() {
     return cachedState;
   };
 
   var urlChangeListeners = [],
-      urlChangeInit = $fog$38;
+      urlChangeInit = $fog$1549;
 
   function cacheStateAndFireUrlChange() {
     cacheState();
@@ -5617,18 +5633,18 @@ function Browser(window, document, $log, $sniffer) {
 
   function getCurrentState() {
     try {
-      return history[$fog$471];
+      return history[$fog$1116];
     } catch (e) {
       // MSIE can reportedly throw when there is no state (UNCONFIRMED).
     }
   }
 
   // This variable should be used *only* inside the cacheState function.
-  var lastCachedState = $fog$37;
+  var lastCachedState = $fog$1550;
   function cacheState() {
     // This should be the only place in $browser where `history.state` is read.
     cachedState = getCurrentState();
-    cachedState = isUndefined(cachedState) ? $fog$37 : cachedState;
+    cachedState = isUndefined(cachedState) ? $fog$1550 : cachedState;
 
     // Prevent callbacks fo fire twice if both hashchange & popstate were fired.
     if (equals(cachedState, lastCachedState)) {
@@ -5638,14 +5654,14 @@ function Browser(window, document, $log, $sniffer) {
   }
 
   function fireUrlChange() {
-    if (lastBrowserUrl === self[$fog$466]() && lastHistoryState === cachedState) {
+    if (lastBrowserUrl === self[$fog$1121]() && lastHistoryState === cachedState) {
       return;
     }
 
-    lastBrowserUrl = self[$fog$466]();
+    lastBrowserUrl = self[$fog$1121]();
     lastHistoryState = cachedState;
     forEach(urlChangeListeners, function(listener) {
-      listener(self[$fog$466](), cachedState);
+      listener(self[$fog$1121](), cachedState);
     });
   }
 
@@ -5670,7 +5686,7 @@ function Browser(window, document, $log, $sniffer) {
    * @param {function(string)} listener Listener function to be called when url changes.
    * @return {function(string)} Returns the registered listener fn - handy if the fn is anonymous.
    */
-  self[$fog$472] = function(callback) {
+  self[$fog$1115] = function(callback) {
     // TODO(vojta): refactor to use node's syntax for events
     if (!urlChangeInit) {
       // We listen on both (hashchange/popstate) when available, as some browsers (e.g. Opera)
@@ -5678,14 +5694,14 @@ function Browser(window, document, $log, $sniffer) {
       // changed by push/replaceState
 
       // html5 history api - popstate event
-      if ($sniffer[$fog$455]) jqLite(window)[$fog$186]($fog$473, cacheStateAndFireUrlChange);
+      if ($sniffer[$fog$1132]) jqLite(window)[$fog$1401]($fog$1114, cacheStateAndFireUrlChange);
       // hashchange event
-      jqLite(window)[$fog$186]($fog$474, cacheStateAndFireUrlChange);
+      jqLite(window)[$fog$1401]($fog$1113, cacheStateAndFireUrlChange);
 
-      urlChangeInit = $fog$40;
+      urlChangeInit = $fog$1547;
     }
 
-    urlChangeListeners[$fog$31](callback);
+    urlChangeListeners[$fog$1556](callback);
     return callback;
   };
 
@@ -5695,8 +5711,8 @@ function Browser(window, document, $log, $sniffer) {
    *
    * NOTE: this api is intended for use only by $rootScope.
    */
-  self[$fog$475] = function() {
-    jqLite(window)[$fog$341]($fog$476, cacheStateAndFireUrlChange);
+  self[$fog$1112] = function() {
+    jqLite(window)[$fog$1246]($fog$1111, cacheStateAndFireUrlChange);
   };
 
   /**
@@ -5704,7 +5720,7 @@ function Browser(window, document, $log, $sniffer) {
    * Needs to be exported to be able to check for changes that have been done in sync,
    * as hashchange/popstate events fire in async.
    */
-  self[$fog$477] = fireUrlChange;
+  self[$fog$1110] = fireUrlChange;
 
   //////////////////////////////////////////////////////////////
   // Misc API
@@ -5719,9 +5735,9 @@ function Browser(window, document, $log, $sniffer) {
    *
    * @returns {string} The current base href
    */
-  self[$fog$478] = function() {
-    var href = baseElement[$fog$76]($fog$464);
-    return href ? href[$fog$7]($fog$479, $fog$4) : $fog$4;
+  self[$fog$1109] = function() {
+    var href = baseElement[$fog$1511]($fog$1123);
+    return href ? href[$fog$1580]($fog$1108, $fog$1583) : $fog$1583;
   };
 
   /**
@@ -5738,14 +5754,14 @@ function Browser(window, document, $log, $sniffer) {
    * via `$browser.defer.flush()`.
    *
    */
-  self[$fog$447] = function(fn, delay) {
+  self[$fog$1140] = function(fn, delay) {
     var timeoutId;
     outstandingRequestCount++;
     timeoutId = setTimeout(function() {
       delete pendingDeferIds[timeoutId];
       completeOutstandingRequest(fn);
-    }, delay || $fog$1);
-    pendingDeferIds[timeoutId] = $fog$40;
+    }, delay || $fog$1586);
+    pendingDeferIds[timeoutId] = $fog$1547;
     return timeoutId;
   };
 
@@ -5760,20 +5776,20 @@ function Browser(window, document, $log, $sniffer) {
    * @returns {boolean} Returns `true` if the task hasn't executed yet and was successfully
    *                    canceled.
    */
-  self[$fog$447][$fog$480] = function(deferId) {
+  self[$fog$1140][$fog$1107] = function(deferId) {
     if (pendingDeferIds[deferId]) {
       delete pendingDeferIds[deferId];
       clearTimeout(deferId);
       completeOutstandingRequest(noop);
-      return $fog$40;
+      return $fog$1547;
     }
-    return $fog$38;
+    return $fog$1549;
   };
 
 }
 
 function $BrowserProvider() {
-  this[$fog$350] = [$fog$390, $fog$481, $fog$482, $fog$483,
+  this[$fog$1237] = [$fog$1197, $fog$1106, $fog$1105, $fog$1104,
       function($window, $log, $sniffer, $document) {
         return new Browser($window, $document, $log, $sniffer);
       }];
@@ -5862,21 +5878,21 @@ function $BrowserProvider() {
  */
 function $CacheFactoryProvider() {
 
-  this[$fog$350] = function() {
+  this[$fog$1237] = function() {
     var caches = {};
 
     function cacheFactory(cacheId, options) {
       if (cacheId in caches) {
-        throw minErr($fog$484)($fog$485, $fog$486, cacheId);
+        throw minErr($fog$1103)($fog$1102, $fog$1101, cacheId);
       }
 
-      var size = $fog$1,
+      var size = $fog$1586,
           stats = extend({}, options, {id: cacheId}),
           data = {},
-          capacity = (options && options[$fog$487]) || Number[$fog$488],
+          capacity = (options && options[$fog$1100]) || Number[$fog$1099],
           lruHash = {},
-          freshEnd = $fog$37,
-          staleEnd = $fog$37;
+          freshEnd = $fog$1550,
+          staleEnd = $fog$1550;
 
       /**
        * @ngdoc type
@@ -5939,7 +5955,7 @@ function $CacheFactoryProvider() {
          */
         put: function(key, value) {
           if (isUndefined(value)) return;
-          if (capacity < Number[$fog$488]) {
+          if (capacity < Number[$fog$1099]) {
             var lruEntry = lruHash[key] || (lruHash[key] = {key: key});
 
             refresh(lruEntry);
@@ -5949,7 +5965,7 @@ function $CacheFactoryProvider() {
           data[key] = value;
 
           if (size > capacity) {
-            this[$fog$420](staleEnd[$fog$489]);
+            this[$fog$1167](staleEnd[$fog$1098]);
           }
 
           return value;
@@ -5967,7 +5983,7 @@ function $CacheFactoryProvider() {
          * @returns {*} the value stored.
          */
         get: function(key) {
-          if (capacity < Number[$fog$488]) {
+          if (capacity < Number[$fog$1099]) {
             var lruEntry = lruHash[key];
 
             if (!lruEntry) return;
@@ -5990,14 +6006,14 @@ function $CacheFactoryProvider() {
          * @param {string} key the key of the entry to be removed
          */
         remove: function(key) {
-          if (capacity < Number[$fog$488]) {
+          if (capacity < Number[$fog$1099]) {
             var lruEntry = lruHash[key];
 
             if (!lruEntry) return;
 
-            if (lruEntry == freshEnd) freshEnd = lruEntry[$fog$15];
-            if (lruEntry == staleEnd) staleEnd = lruEntry[$fog$490];
-            link(lruEntry[$fog$490],lruEntry[$fog$15]);
+            if (lruEntry == freshEnd) freshEnd = lruEntry[$fog$1572];
+            if (lruEntry == staleEnd) staleEnd = lruEntry[$fog$1097];
+            link(lruEntry[$fog$1097],lruEntry[$fog$1572]);
 
             delete lruHash[key];
           }
@@ -6017,9 +6033,9 @@ function $CacheFactoryProvider() {
          */
         removeAll: function() {
           data = {};
-          size = $fog$1;
+          size = $fog$1586;
           lruHash = {};
-          freshEnd = staleEnd = $fog$37;
+          freshEnd = staleEnd = $fog$1550;
         },
 
 
@@ -6033,9 +6049,9 @@ function $CacheFactoryProvider() {
          * removing it from the {@link $cacheFactory $cacheFactory} set.
          */
         destroy: function() {
-          data = $fog$37;
-          stats = $fog$37;
-          lruHash = $fog$37;
+          data = $fog$1550;
+          stats = $fog$1550;
+          lruHash = $fog$1550;
           delete caches[cacheId];
         },
 
@@ -6070,13 +6086,13 @@ function $CacheFactoryProvider() {
           if (!staleEnd) {
             staleEnd = entry;
           } else if (staleEnd == entry) {
-            staleEnd = entry[$fog$490];
+            staleEnd = entry[$fog$1097];
           }
 
-          link(entry[$fog$490], entry[$fog$15]);
+          link(entry[$fog$1097], entry[$fog$1572]);
           link(entry, freshEnd);
           freshEnd = entry;
-          freshEnd[$fog$490] = $fog$37;
+          freshEnd[$fog$1097] = $fog$1550;
         }
       }
 
@@ -6086,8 +6102,8 @@ function $CacheFactoryProvider() {
        */
       function link(nextEntry, prevEntry) {
         if (nextEntry != prevEntry) {
-          if (nextEntry) nextEntry[$fog$15] = prevEntry; //p stands for previous, 'prev' didn't minify
-          if (prevEntry) prevEntry[$fog$490] = nextEntry; //n stands for next, 'next' didn't minify
+          if (nextEntry) nextEntry[$fog$1572] = prevEntry; //p stands for previous, 'prev' didn't minify
+          if (prevEntry) prevEntry[$fog$1097] = nextEntry; //n stands for next, 'next' didn't minify
         }
       }
     }
@@ -6102,10 +6118,10 @@ function $CacheFactoryProvider() {
    *
    * @returns {Object} - key-value map of `cacheId` to the result of calling `cache#info`
    */
-    cacheFactory[$fog$491] = function() {
+    cacheFactory[$fog$1096] = function() {
       var info = {};
       forEach(caches, function(cache, cacheId) {
-        info[cacheId] = cache[$fog$491]();
+        info[cacheId] = cache[$fog$1096]();
       });
       return info;
     };
@@ -6121,7 +6137,7 @@ function $CacheFactoryProvider() {
    * @param {string} cacheId Name or id of a cache to access.
    * @returns {object} Cache object identified by the cacheId or undefined if no such cache.
    */
-    cacheFactory[$fog$182] = function(cacheId) {
+    cacheFactory[$fog$1405] = function(cacheId) {
       return caches[cacheId];
     };
 
@@ -6174,8 +6190,8 @@ function $CacheFactoryProvider() {
  *
  */
 function $TemplateCacheProvider() {
-  this[$fog$350] = [$fog$484, function($cacheFactory) {
-    return $cacheFactory($fog$492);
+  this[$fog$1237] = [$fog$1103, function($cacheFactory) {
+    return $cacheFactory($fog$1095);
   }];
 }
 
@@ -6892,7 +6908,7 @@ function $TemplateCacheProvider() {
  * {@link guide/compiler Angular HTML Compiler} section of the Developer Guide.
  */
 
-var $compileMinErr = minErr($fog$169);
+var $compileMinErr = minErr($fog$1418);
 
 /**
  * @ngdoc provider
@@ -6900,42 +6916,42 @@ var $compileMinErr = minErr($fog$169);
  *
  * @description
  */
-$CompileProvider[$fog$53] = [$fog$162, $fog$493];
+$CompileProvider[$fog$1534] = [$fog$1425, $fog$1094];
 function $CompileProvider($provide, $$sanitizeUriProvider) {
   var hasDirectives = {},
-      Suffix = $fog$494,
-      COMMENT_DIRECTIVE_REGEXP = $fog$495,
-      CLASS_DIRECTIVE_REGEXP = $fog$496,
-      ALL_OR_NOTHING_ATTRS = makeMap($fog$497),
-      REQUIRE_PREFIX_REGEXP = $fog$498;
+      Suffix = $fog$1093,
+      COMMENT_DIRECTIVE_REGEXP = $fog$1092,
+      CLASS_DIRECTIVE_REGEXP = $fog$1091,
+      ALL_OR_NOTHING_ATTRS = makeMap($fog$1090),
+      REQUIRE_PREFIX_REGEXP = $fog$1089;
 
   // Ref: http://developers.whatwg.org/webappapis.html#event-handler-idl-attributes
   // The assumption is that future DOM event attribute names will begin with
   // 'on' and be composed of only English letters.
-  var EVENT_HANDLER_ATTR_REGEXP = $fog$499;
+  var EVENT_HANDLER_ATTR_REGEXP = $fog$1088;
 
   function parseIsolateBindings(scope, directiveName, isController) {
-    var LOCAL_REGEXP = $fog$500;
+    var LOCAL_REGEXP = $fog$1087;
 
     var bindings = {};
 
     forEach(scope, function(definition, scopeName) {
-      var match = definition[$fog$88](LOCAL_REGEXP);
+      var match = definition[$fog$1499](LOCAL_REGEXP);
 
       if (!match) {
-        throw $compileMinErr($fog$501,
-            $fog$502 +
-            $fog$503,
+        throw $compileMinErr($fog$1086,
+            $fog$1085 +
+            $fog$1084,
             directiveName, scopeName, definition,
-            (isController ? $fog$504 :
-            $fog$505));
+            (isController ? $fog$1083 :
+            $fog$1082));
       }
 
       bindings[scopeName] = {
-        mode: match[$fog$6][$fog$1],
-        collection: match[$fog$0] === $fog$284,
-        optional: match[$fog$206] === $fog$13,
-        attrName: match[$fog$230] || scopeName
+        mode: match[$fog$1581][$fog$1586],
+        collection: match[$fog$1587] === $fog$1303,
+        optional: match[$fog$1381] === $fog$1574,
+        attrName: match[$fog$1357] || scopeName
       };
     });
 
@@ -6944,35 +6960,35 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
   function parseDirectiveBindings(directive, directiveName) {
     var bindings = {
-      isolateScope: $fog$37,
-      bindToController: $fog$37
+      isolateScope: $fog$1550,
+      bindToController: $fog$1550
     };
-    if (isObject(directive[$fog$188])) {
-      if (directive[$fog$506] === $fog$40) {
-        bindings[$fog$506] = parseIsolateBindings(directive[$fog$188],
-                                                         directiveName, $fog$40);
-        bindings[$fog$189] = {};
+    if (isObject(directive[$fog$1399])) {
+      if (directive[$fog$1081] === $fog$1547) {
+        bindings[$fog$1081] = parseIsolateBindings(directive[$fog$1399],
+                                                         directiveName, $fog$1547);
+        bindings[$fog$1398] = {};
       } else {
-        bindings[$fog$189] = parseIsolateBindings(directive[$fog$188],
-                                                     directiveName, $fog$38);
+        bindings[$fog$1398] = parseIsolateBindings(directive[$fog$1399],
+                                                     directiveName, $fog$1549);
       }
     }
-    if (isObject(directive[$fog$506])) {
-      bindings[$fog$506] =
-          parseIsolateBindings(directive[$fog$506], directiveName, $fog$40);
+    if (isObject(directive[$fog$1081])) {
+      bindings[$fog$1081] =
+          parseIsolateBindings(directive[$fog$1081], directiveName, $fog$1547);
     }
-    if (isObject(bindings[$fog$506])) {
-      var controller = directive[$fog$190];
-      var controllerAs = directive[$fog$507];
+    if (isObject(bindings[$fog$1081])) {
+      var controller = directive[$fog$1397];
+      var controllerAs = directive[$fog$1080];
       if (!controller) {
         // There is no controller, there may or may not be a controllerAs property
-        throw $compileMinErr($fog$508,
-              $fog$509,
+        throw $compileMinErr($fog$1079,
+              $fog$1078,
               directiveName);
       } else if (!identifierForController(controller, controllerAs)) {
         // There is a controller, but no identifier or controllerAs property
-        throw $compileMinErr($fog$510,
-              $fog$511,
+        throw $compileMinErr($fog$1077,
+              $fog$1076,
               directiveName);
       }
     }
@@ -6980,13 +6996,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
   }
 
   function assertValidDirectiveName(name) {
-    var letter = name[$fog$93]($fog$1);
+    var letter = name[$fog$1494]($fog$1586);
     if (!letter || letter !== lowercase(letter)) {
-      throw $compileMinErr($fog$512, $fog$513, name);
+      throw $compileMinErr($fog$1075, $fog$1074, name);
     }
-    if (name !== name[$fog$69]()) {
-      throw $compileMinErr($fog$512,
-            $fog$514,
+    if (name !== name[$fog$1518]()) {
+      throw $compileMinErr($fog$1075,
+            $fog$1073,
             name);
     }
   }
@@ -7006,36 +7022,36 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
    *    {@link guide/directive} for more info.
    * @returns {ng.$compileProvider} Self for chaining.
    */
-   this[$fog$225] = function registerDirective(name, directiveFactory) {
-    assertNotHasOwnProperty(name, $fog$225);
+   this[$fog$1362] = function registerDirective(name, directiveFactory) {
+    assertNotHasOwnProperty(name, $fog$1362);
     if (isString(name)) {
       assertValidDirectiveName(name);
-      assertArg(directiveFactory, $fog$515);
-      if (!hasDirectives[$fog$20](name)) {
+      assertArg(directiveFactory, $fog$1072);
+      if (!hasDirectives[$fog$1567](name)) {
         hasDirectives[name] = [];
-        $provide[$fog$217](name + Suffix, [$fog$170, $fog$516,
+        $provide[$fog$1370](name + Suffix, [$fog$1417, $fog$1071,
           function($injector, $exceptionHandler) {
             var directives = [];
             forEach(hasDirectives[name], function(directiveFactory, index) {
               try {
-                var directive = $injector[$fog$167](directiveFactory);
+                var directive = $injector[$fog$1420](directiveFactory);
                 if (isFunction(directive)) {
                   directive = { compile: valueFn(directive) };
-                } else if (!directive[$fog$517] && directive[$fog$518]) {
-                  directive[$fog$517] = valueFn(directive[$fog$518]);
+                } else if (!directive[$fog$1070] && directive[$fog$1069]) {
+                  directive[$fog$1070] = valueFn(directive[$fog$1069]);
                 }
-                directive[$fog$519] = directive[$fog$519] || $fog$1;
-                directive[$fog$520] = index;
-                directive[$fog$42] = directive[$fog$42] || name;
-                directive[$fog$521] = directive[$fog$521] || (directive[$fog$190] && directive[$fog$42]);
-                directive[$fog$522] = directive[$fog$522] || $fog$523;
-                var bindings = directive[$fog$524] =
-                    parseDirectiveBindings(directive, directive[$fog$42]);
-                if (isObject(bindings[$fog$189])) {
-                  directive[$fog$525] = bindings[$fog$189];
+                directive[$fog$1068] = directive[$fog$1068] || $fog$1586;
+                directive[$fog$1067] = index;
+                directive[$fog$1545] = directive[$fog$1545] || name;
+                directive[$fog$1066] = directive[$fog$1066] || (directive[$fog$1397] && directive[$fog$1545]);
+                directive[$fog$1065] = directive[$fog$1065] || $fog$1064;
+                var bindings = directive[$fog$1063] =
+                    parseDirectiveBindings(directive, directive[$fog$1545]);
+                if (isObject(bindings[$fog$1398])) {
+                  directive[$fog$1062] = bindings[$fog$1398];
                 }
-                directive[$fog$226] = directiveFactory[$fog$226];
-                directives[$fog$31](directive);
+                directive[$fog$1361] = directiveFactory[$fog$1361];
+                directives[$fog$1556](directive);
               } catch (e) {
                 $exceptionHandler(e);
               }
@@ -7043,7 +7059,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
             return directives;
           }]);
       }
-      hasDirectives[name][$fog$31](directiveFactory);
+      hasDirectives[name][$fog$1556](directiveFactory);
     } else {
       forEach(name, reverseParams(registerDirective));
     }
@@ -7071,12 +7087,12 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
    * @returns {RegExp|ng.$compileProvider} Current RegExp if called without value or self for
    *    chaining otherwise.
    */
-  this[$fog$526] = function(regexp) {
+  this[$fog$1061] = function(regexp) {
     if (isDefined(regexp)) {
-      $$sanitizeUriProvider[$fog$526](regexp);
+      $$sanitizeUriProvider[$fog$1061](regexp);
       return this;
     } else {
-      return $$sanitizeUriProvider[$fog$526]();
+      return $$sanitizeUriProvider[$fog$1061]();
     }
   };
 
@@ -7101,12 +7117,12 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
    * @returns {RegExp|ng.$compileProvider} Current RegExp if called without value or self for
    *    chaining otherwise.
    */
-  this[$fog$527] = function(regexp) {
+  this[$fog$1060] = function(regexp) {
     if (isDefined(regexp)) {
-      $$sanitizeUriProvider[$fog$527](regexp);
+      $$sanitizeUriProvider[$fog$1060](regexp);
       return this;
     } else {
-      return $$sanitizeUriProvider[$fog$527]();
+      return $$sanitizeUriProvider[$fog$1060]();
     }
   };
 
@@ -7132,8 +7148,8 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
    *
    * The default value is true.
    */
-  var debugInfoEnabled = $fog$40;
-  this[$fog$165] = function(enabled) {
+  var debugInfoEnabled = $fog$1547;
+  this[$fog$1422] = function(enabled) {
     if (isDefined(enabled)) {
       debugInfoEnabled = enabled;
       return this;
@@ -7141,29 +7157,29 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
     return debugInfoEnabled;
   };
 
-  this[$fog$350] = [
-            $fog$170, $fog$528, $fog$516, $fog$529, $fog$530,
-            $fog$531, $fog$168, $fog$483, $fog$532, $fog$407, $fog$533,
+  this[$fog$1237] = [
+            $fog$1417, $fog$1059, $fog$1071, $fog$1058, $fog$1057,
+            $fog$1056, $fog$1419, $fog$1104, $fog$1055, $fog$1180, $fog$1054,
     function($injector,   $interpolate,   $exceptionHandler,   $templateRequest,   $parse,
              $controller,   $rootScope,   $document,   $sce,   $animate,   $$sanitizeUri) {
 
     var Attributes = function(element, attributesToCopy) {
       if (attributesToCopy) {
-        var keys = Object[$fog$48](attributesToCopy);
+        var keys = Object[$fog$1539](attributesToCopy);
         var i, l, key;
 
-        for (i = $fog$1, l = keys[$fog$10]; i < l; i++) {
+        for (i = $fog$1586, l = keys[$fog$1577]; i < l; i++) {
           key = keys[i];
           this[key] = attributesToCopy[key];
         }
       } else {
-        this[$fog$534] = {};
+        this[$fog$1053] = {};
       }
 
-      this[$fog$535] = element;
+      this[$fog$1052] = element;
     };
 
-    Attributes[$fog$21] = {
+    Attributes[$fog$1566] = {
       /**
        * @ngdoc method
        * @name $compile.directive.Attributes#$normalize
@@ -7194,8 +7210,8 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
        * @param {string} classVal The className value that will be added to the element
        */
       $addClass: function(classVal) {
-        if (classVal && classVal[$fog$10] > $fog$1) {
-          $animate[$fog$417](this[$fog$535], classVal);
+        if (classVal && classVal[$fog$1577] > $fog$1586) {
+          $animate[$fog$1170](this[$fog$1052], classVal);
         }
       },
 
@@ -7211,8 +7227,8 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
        * @param {string} classVal The className value that will be removed from the element
        */
       $removeClass: function(classVal) {
-        if (classVal && classVal[$fog$10] > $fog$1) {
-          $animate[$fog$418](this[$fog$535], classVal);
+        if (classVal && classVal[$fog$1577] > $fog$1586) {
+          $animate[$fog$1169](this[$fog$1052], classVal);
         }
       },
 
@@ -7230,13 +7246,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
        */
       $updateClass: function(newClasses, oldClasses) {
         var toAdd = tokenDifference(newClasses, oldClasses);
-        if (toAdd && toAdd[$fog$10]) {
-          $animate[$fog$417](this[$fog$535], toAdd);
+        if (toAdd && toAdd[$fog$1577]) {
+          $animate[$fog$1170](this[$fog$1052], toAdd);
         }
 
         var toRemove = tokenDifference(oldClasses, newClasses);
-        if (toRemove && toRemove[$fog$10]) {
-          $animate[$fog$418](this[$fog$535], toRemove);
+        if (toRemove && toRemove[$fog$1577]) {
+          $animate[$fog$1169](this[$fog$1052], toRemove);
         }
       },
 
@@ -7254,14 +7270,14 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         //is set through this function since it may cause $updateClass to
         //become unstable.
 
-        var node = this[$fog$535][$fog$1],
+        var node = this[$fog$1052][$fog$1586],
             booleanKey = getBooleanAttrName(node, key),
             aliasedKey = getAliasedAttrName(node, key),
             observer = key,
             nodeName;
 
         if (booleanKey) {
-          this[$fog$535][$fog$75](key, value);
+          this[$fog$1052][$fog$1512](key, value);
           attrName = booleanKey;
         } else if (aliasedKey) {
           this[aliasedKey] = value;
@@ -7272,66 +7288,66 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
         // translate normalized key to actual key
         if (attrName) {
-          this[$fog$534][key] = attrName;
+          this[$fog$1053][key] = attrName;
         } else {
-          attrName = this[$fog$534][key];
+          attrName = this[$fog$1053][key];
           if (!attrName) {
-            this[$fog$534][key] = attrName = snake_case(key, $fog$536);
+            this[$fog$1053][key] = attrName = snake_case(key, $fog$1051);
           }
         }
 
-        nodeName = nodeName_(this[$fog$535]);
+        nodeName = nodeName_(this[$fog$1052]);
 
-        if ((nodeName === $fog$393 && key === $fog$464) ||
-            (nodeName === $fog$537 && key === $fog$538)) {
+        if ((nodeName === $fog$1194 && key === $fog$1123) ||
+            (nodeName === $fog$1050 && key === $fog$1049)) {
           // sanitize a[href] and img[src] values
-          this[key] = value = $$sanitizeUri(value, key === $fog$538);
-        } else if (nodeName === $fog$537 && key === $fog$539) {
+          this[key] = value = $$sanitizeUri(value, key === $fog$1049);
+        } else if (nodeName === $fog$1050 && key === $fog$1048) {
           // sanitize img[srcset] values
-          var result = $fog$4;
+          var result = $fog$1583;
 
           // first check if there are spaces because it's not the same pattern
           var trimmedSrcset = trim(value);
           //                (   999x   ,|   999w   ,|   ,|,   )
-          var srcPattern = $fog$540;
-          var pattern = $fog$541[$fog$68](trimmedSrcset) ? srcPattern : $fog$542;
+          var srcPattern = $fog$1047;
+          var pattern = $fog$1046[$fog$1519](trimmedSrcset) ? srcPattern : $fog$1045;
 
           // split srcset into tuple of uri and descriptor except for the last item
-          var rawUris = trimmedSrcset[$fog$78](pattern);
+          var rawUris = trimmedSrcset[$fog$1509](pattern);
 
           // for each tuples
-          var nbrUrisWith2parts = Math[$fog$543](rawUris[$fog$10] / $fog$0);
-          for (var i = $fog$1; i < nbrUrisWith2parts; i++) {
-            var innerIdx = i * $fog$0;
+          var nbrUrisWith2parts = Math[$fog$1044](rawUris[$fog$1577] / $fog$1587);
+          for (var i = $fog$1586; i < nbrUrisWith2parts; i++) {
+            var innerIdx = i * $fog$1587;
             // sanitize the uri
-            result += $$sanitizeUri(trim(rawUris[innerIdx]), $fog$40);
+            result += $$sanitizeUri(trim(rawUris[innerIdx]), $fog$1547);
             // add the descriptor
-            result += ($fog$288 + trim(rawUris[innerIdx + $fog$6]));
+            result += ($fog$1299 + trim(rawUris[innerIdx + $fog$1581]));
           }
 
           // split the last item into uri and descriptor
-          var lastTuple = trim(rawUris[i * $fog$0])[$fog$78]($fog$541);
+          var lastTuple = trim(rawUris[i * $fog$1587])[$fog$1509]($fog$1046);
 
           // sanitize the last uri
-          result += $$sanitizeUri(trim(lastTuple[$fog$1]), $fog$40);
+          result += $$sanitizeUri(trim(lastTuple[$fog$1586]), $fog$1547);
 
           // and add the last descriptor if any
-          if (lastTuple[$fog$10] === $fog$0) {
-            result += ($fog$288 + trim(lastTuple[$fog$6]));
+          if (lastTuple[$fog$1577] === $fog$1587) {
+            result += ($fog$1299 + trim(lastTuple[$fog$1581]));
           }
           this[key] = value = result;
         }
 
-        if (writeAttr !== $fog$38) {
-          if (value === $fog$37 || value === undefined) {
-            this[$fog$535][$fog$544](attrName);
+        if (writeAttr !== $fog$1549) {
+          if (value === $fog$1550 || value === undefined) {
+            this[$fog$1052][$fog$1043](attrName);
           } else {
-            this[$fog$535][$fog$76](attrName, value);
+            this[$fog$1052][$fog$1511](attrName, value);
           }
         }
 
         // fire observers
-        var $$observers = this[$fog$545];
+        var $$observers = this[$fog$1042];
         $$observers && forEach($$observers[observer], function(fn) {
           try {
             fn(value);
@@ -7362,12 +7378,12 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
        */
       $observe: function(key, fn) {
         var attrs = this,
-            $$observers = (attrs[$fog$545] || (attrs[$fog$545] = createMap())),
+            $$observers = (attrs[$fog$1042] || (attrs[$fog$1042] = createMap())),
             listeners = ($$observers[key] || ($$observers[key] = []));
 
-        listeners[$fog$31](fn);
-        $rootScope[$fog$60](function() {
-          if (!listeners[$fog$546] && attrs[$fog$20](key) && !isUndefined(attrs[key])) {
+        listeners[$fog$1556](fn);
+        $rootScope[$fog$1527](function() {
+          if (!listeners[$fog$1041] && attrs[$fog$1567](key) && !isUndefined(attrs[key])) {
             // no one registered attribute interpolation function, so lets call it manually
             fn(attrs[key]);
           }
@@ -7382,7 +7398,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
     function safeAddClass($element, className) {
       try {
-        $element[$fog$417](className);
+        $element[$fog$1170](className);
       } catch (e) {
         // ignore, since it means that we are trying to set class on
         // SVG element, where class name is read-only.
@@ -7390,38 +7406,38 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
     }
 
 
-    var startSymbol = $interpolate[$fog$547](),
-        endSymbol = $interpolate[$fog$548](),
-        denormalizeTemplate = (startSymbol == $fog$549 || endSymbol  == $fog$550)
+    var startSymbol = $interpolate[$fog$1040](),
+        endSymbol = $interpolate[$fog$1039](),
+        denormalizeTemplate = (startSymbol == $fog$1038 || endSymbol  == $fog$1037)
             ? identity
             : function denormalizeTemplate(template) {
-              return template[$fog$7]($fog$551, startSymbol)[$fog$7]($fog$552, endSymbol);
+              return template[$fog$1580]($fog$1036, startSymbol)[$fog$1580]($fog$1035, endSymbol);
         },
-        NG_ATTR_BINDING = $fog$553;
+        NG_ATTR_BINDING = $fog$1034;
 
-    compile[$fog$554] = debugInfoEnabled ? function $$addBindingInfo($element, binding) {
-      var bindings = $element[$fog$172]($fog$555) || [];
+    compile[$fog$1033] = debugInfoEnabled ? function $$addBindingInfo($element, binding) {
+      var bindings = $element[$fog$1415]($fog$1032) || [];
 
       if (isArray(binding)) {
-        bindings = bindings[$fog$108](binding);
+        bindings = bindings[$fog$1479](binding);
       } else {
-        bindings[$fog$31](binding);
+        bindings[$fog$1556](binding);
       }
 
-      $element[$fog$172]($fog$555, bindings);
+      $element[$fog$1415]($fog$1032, bindings);
     } : noop;
 
-    compile[$fog$556] = debugInfoEnabled ? function $$addBindingClass($element) {
-      safeAddClass($element, $fog$557);
+    compile[$fog$1031] = debugInfoEnabled ? function $$addBindingClass($element) {
+      safeAddClass($element, $fog$1030);
     } : noop;
 
-    compile[$fog$558] = debugInfoEnabled ? function $$addScopeInfo($element, scope, isolated, noTemplate) {
-      var dataName = isolated ? (noTemplate ? $fog$315 : $fog$314) : $fog$313;
-      $element[$fog$172](dataName, scope);
+    compile[$fog$1029] = debugInfoEnabled ? function $$addScopeInfo($element, scope, isolated, noTemplate) {
+      var dataName = isolated ? (noTemplate ? $fog$1272 : $fog$1273) : $fog$1274;
+      $element[$fog$1415](dataName, scope);
     } : noop;
 
-    compile[$fog$559] = debugInfoEnabled ? function $$addScopeClass($element, isolated) {
-      safeAddClass($element, isolated ? $fog$560 : $fog$561);
+    compile[$fog$1028] = debugInfoEnabled ? function $$addScopeClass($element, isolated) {
+      safeAddClass($element, isolated ? $fog$1027 : $fog$1026);
     } : noop;
 
     return compile;
@@ -7438,59 +7454,59 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       // We can not compile top level text elements since text nodes can be merged and we will
       // not be able to attach scope data to them, so we will wrap them in <span>
       forEach($compileNodes, function(node, index) {
-        if (node[$fog$39] == NODE_TYPE_TEXT && node[$fog$562][$fog$88]($fog$563) /* non-empty */ ) {
-          $compileNodes[index] = jqLite(node)[$fog$564]($fog$565)[$fog$438]()[$fog$1];
+        if (node[$fog$1548] == NODE_TYPE_TEXT && node[$fog$1025][$fog$1499]($fog$1024) /* non-empty */ ) {
+          $compileNodes[index] = jqLite(node)[$fog$1023]($fog$1022)[$fog$1149]()[$fog$1586];
         }
       });
       var compositeLinkFn =
               compileNodes($compileNodes, transcludeFn, $compileNodes,
                            maxPriority, ignoreDirective, previousCompileContext);
-      compile[$fog$559]($compileNodes);
-      var namespace = $fog$37;
+      compile[$fog$1028]($compileNodes);
+      var namespace = $fog$1550;
       return function publicLinkFn(scope, cloneConnectFn, options) {
-        assertArg(scope, $fog$188);
+        assertArg(scope, $fog$1399);
 
         options = options || {};
-        var parentBoundTranscludeFn = options[$fog$566],
-          transcludeControllers = options[$fog$567],
-          futureParentElement = options[$fog$568];
+        var parentBoundTranscludeFn = options[$fog$1021],
+          transcludeControllers = options[$fog$1020],
+          futureParentElement = options[$fog$1019];
 
         // When `parentBoundTranscludeFn` is passed, it is a
         // `controllersBoundTransclude` function (it was previously passed
         // as `transclude` to directive.link) so we must unwrap it to get
         // its `boundTranscludeFn`
-        if (parentBoundTranscludeFn && parentBoundTranscludeFn[$fog$569]) {
-          parentBoundTranscludeFn = parentBoundTranscludeFn[$fog$569];
+        if (parentBoundTranscludeFn && parentBoundTranscludeFn[$fog$1018]) {
+          parentBoundTranscludeFn = parentBoundTranscludeFn[$fog$1018];
         }
 
         if (!namespace) {
           namespace = detectNamespaceForChildElements(futureParentElement);
         }
         var $linkNode;
-        if (namespace !== $fog$122) {
+        if (namespace !== $fog$1465) {
           // When using a directive with replace:true and templateUrl the $compileNodes
           // (or a child element inside of them)
           // might change, so we need to recreate the namespace adapted compileNodes
           // for call to the link function.
           // Note: This will already clone the nodes...
           $linkNode = jqLite(
-            wrapTemplate(namespace, jqLite($fog$124)[$fog$123]($compileNodes)[$fog$122]())
+            wrapTemplate(namespace, jqLite($fog$1463)[$fog$1464]($compileNodes)[$fog$1465]())
           );
         } else if (cloneConnectFn) {
           // important!!: we must call our jqLite.clone() since the jQuery one is trying to be smart
           // and sometimes changes the structure of the DOM.
-          $linkNode = JQLitePrototype[$fog$120][$fog$43]($compileNodes);
+          $linkNode = JQLitePrototype[$fog$1467][$fog$1544]($compileNodes);
         } else {
           $linkNode = $compileNodes;
         }
 
         if (transcludeControllers) {
           for (var controllerName in transcludeControllers) {
-            $linkNode[$fog$172]($fog$94 + controllerName + $fog$293, transcludeControllers[controllerName][$fog$570]);
+            $linkNode[$fog$1415]($fog$1493 + controllerName + $fog$1294, transcludeControllers[controllerName][$fog$1017]);
           }
         }
 
-        compile[$fog$558]($linkNode, scope);
+        compile[$fog$1029]($linkNode, scope);
 
         if (cloneConnectFn) cloneConnectFn($linkNode, scope);
         if (compositeLinkFn) compositeLinkFn(scope, $linkNode, $linkNode, parentBoundTranscludeFn);
@@ -7500,11 +7516,11 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
     function detectNamespaceForChildElements(parentElement) {
       // TODO: Make this detect MathML as well...
-      var node = parentElement && parentElement[$fog$1];
+      var node = parentElement && parentElement[$fog$1586];
       if (!node) {
-        return $fog$122;
+        return $fog$1465;
       } else {
-        return nodeName_(node) !== $fog$571 && node[$fog$32]()[$fog$88]($fog$572) ? $fog$573 : $fog$122;
+        return nodeName_(node) !== $fog$1016 && node[$fog$1555]()[$fog$1499]($fog$1015) ? $fog$1014 : $fog$1465;
       }
     }
 
@@ -7528,43 +7544,43 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       var linkFns = [],
           attrs, directives, nodeLinkFn, childNodes, childLinkFn, linkFnFound, nodeLinkFnFound;
 
-      for (var i = $fog$1; i < nodeList[$fog$10]; i++) {
+      for (var i = $fog$1586; i < nodeList[$fog$1577]; i++) {
         attrs = new Attributes();
 
         // we must always refer to nodeList[i] since the nodes can be replaced underneath us.
-        directives = collectDirectives(nodeList[i], [], attrs, i === $fog$1 ? maxPriority : undefined,
+        directives = collectDirectives(nodeList[i], [], attrs, i === $fog$1586 ? maxPriority : undefined,
                                         ignoreDirective);
 
-        nodeLinkFn = (directives[$fog$10])
+        nodeLinkFn = (directives[$fog$1577])
             ? applyDirectivesToNode(directives, nodeList[i], attrs, transcludeFn, $rootElement,
-                                      $fog$37, [], [], previousCompileContext)
-            : $fog$37;
+                                      $fog$1550, [], [], previousCompileContext)
+            : $fog$1550;
 
-        if (nodeLinkFn && nodeLinkFn[$fog$188]) {
-          compile[$fog$559](attrs[$fog$535]);
+        if (nodeLinkFn && nodeLinkFn[$fog$1399]) {
+          compile[$fog$1028](attrs[$fog$1052]);
         }
 
-        childLinkFn = (nodeLinkFn && nodeLinkFn[$fog$574] ||
-                      !(childNodes = nodeList[i][$fog$277]) ||
-                      !childNodes[$fog$10])
-            ? $fog$37
+        childLinkFn = (nodeLinkFn && nodeLinkFn[$fog$1013] ||
+                      !(childNodes = nodeList[i][$fog$1310]) ||
+                      !childNodes[$fog$1577])
+            ? $fog$1550
             : compileNodes(childNodes,
                  nodeLinkFn ? (
-                  (nodeLinkFn[$fog$575] || !nodeLinkFn[$fog$576])
-                     && nodeLinkFn[$fog$577]) : transcludeFn);
+                  (nodeLinkFn[$fog$1012] || !nodeLinkFn[$fog$1011])
+                     && nodeLinkFn[$fog$1010]) : transcludeFn);
 
         if (nodeLinkFn || childLinkFn) {
-          linkFns[$fog$31](i, nodeLinkFn, childLinkFn);
-          linkFnFound = $fog$40;
+          linkFns[$fog$1556](i, nodeLinkFn, childLinkFn);
+          linkFnFound = $fog$1547;
           nodeLinkFnFound = nodeLinkFnFound || nodeLinkFn;
         }
 
         //use the previous context only for the first element in the virtual group
-        previousCompileContext = $fog$37;
+        previousCompileContext = $fog$1550;
       }
 
       // return a linking function if we have found anything, null otherwise
-      return linkFnFound ? compositeLinkFn : $fog$37;
+      return linkFnFound ? compositeLinkFn : $fog$1550;
 
       function compositeLinkFn(scope, nodeList, $rootElement, parentBoundTranscludeFn) {
         var nodeLinkFn, childLinkFn, node, childScope, i, ii, idx, childBoundTranscludeFn;
@@ -7574,11 +7590,11 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         if (nodeLinkFnFound) {
           // copy nodeList so that if a nodeLinkFn removes or adds an element at this DOM level our
           // offsets don't get screwed up
-          var nodeListLength = nodeList[$fog$10];
+          var nodeListLength = nodeList[$fog$1577];
           stableNodeList = new Array(nodeListLength);
 
           // create a sparse array by only copying the elements which have a linkFn
-          for (i = $fog$1; i < linkFns[$fog$10]; i+=$fog$206) {
+          for (i = $fog$1586; i < linkFns[$fog$1577]; i+=$fog$1381) {
             idx = linkFns[i];
             stableNodeList[idx] = nodeList[idx];
           }
@@ -7586,43 +7602,43 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
           stableNodeList = nodeList;
         }
 
-        for (i = $fog$1, ii = linkFns[$fog$10]; i < ii;) {
+        for (i = $fog$1586, ii = linkFns[$fog$1577]; i < ii;) {
           node = stableNodeList[linkFns[i++]];
           nodeLinkFn = linkFns[i++];
           childLinkFn = linkFns[i++];
 
           if (nodeLinkFn) {
-            if (nodeLinkFn[$fog$188]) {
-              childScope = scope[$fog$578]();
-              compile[$fog$558](jqLite(node), childScope);
-              var destroyBindings = nodeLinkFn[$fog$579];
+            if (nodeLinkFn[$fog$1399]) {
+              childScope = scope[$fog$1009]();
+              compile[$fog$1029](jqLite(node), childScope);
+              var destroyBindings = nodeLinkFn[$fog$1008];
               if (destroyBindings) {
-                nodeLinkFn[$fog$579] = $fog$37;
-                childScope[$fog$580]($fog$581, destroyBindings);
+                nodeLinkFn[$fog$1008] = $fog$1550;
+                childScope[$fog$1007]($fog$1006, destroyBindings);
               }
             } else {
               childScope = scope;
             }
 
-            if (nodeLinkFn[$fog$575]) {
+            if (nodeLinkFn[$fog$1012]) {
               childBoundTranscludeFn = createBoundTranscludeFn(
-                  scope, nodeLinkFn[$fog$577], parentBoundTranscludeFn);
+                  scope, nodeLinkFn[$fog$1010], parentBoundTranscludeFn);
 
-            } else if (!nodeLinkFn[$fog$576] && parentBoundTranscludeFn) {
+            } else if (!nodeLinkFn[$fog$1011] && parentBoundTranscludeFn) {
               childBoundTranscludeFn = parentBoundTranscludeFn;
 
             } else if (!parentBoundTranscludeFn && transcludeFn) {
               childBoundTranscludeFn = createBoundTranscludeFn(scope, transcludeFn);
 
             } else {
-              childBoundTranscludeFn = $fog$37;
+              childBoundTranscludeFn = $fog$1550;
             }
 
             nodeLinkFn(childLinkFn, childScope, node, $rootElement, childBoundTranscludeFn,
                        nodeLinkFn);
 
           } else if (childLinkFn) {
-            childLinkFn(scope, node[$fog$277], undefined, parentBoundTranscludeFn);
+            childLinkFn(scope, node[$fog$1310], undefined, parentBoundTranscludeFn);
           }
         }
       }
@@ -7633,8 +7649,8 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       var boundTranscludeFn = function(transcludedScope, cloneFn, controllers, futureParentElement, containingScope) {
 
         if (!transcludedScope) {
-          transcludedScope = scope[$fog$578]($fog$38, containingScope);
-          transcludedScope[$fog$582] = $fog$40;
+          transcludedScope = scope[$fog$1009]($fog$1549, containingScope);
+          transcludedScope[$fog$1005] = $fog$1547;
         }
 
         return transcludeFn(transcludedScope, cloneFn, {
@@ -7658,8 +7674,8 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      * @param {number=} maxPriority Max directive priority.
      */
     function collectDirectives(node, directives, attrs, maxPriority, ignoreDirective) {
-      var nodeType = node[$fog$39],
-          attrsMap = attrs[$fog$534],
+      var nodeType = node[$fog$1548],
+          attrsMap = attrs[$fog$1053],
           match,
           className;
 
@@ -7667,82 +7683,82 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         case NODE_TYPE_ELEMENT: /* Element */
           // use the node name: <directive>
           addDirective(directives,
-              directiveNormalize(nodeName_(node)), $fog$583, maxPriority, ignoreDirective);
+              directiveNormalize(nodeName_(node)), $fog$1004, maxPriority, ignoreDirective);
 
           // iterate over the attributes
-          for (var attr, name, nName, ngAttrName, value, isNgAttr, nAttrs = node[$fog$320],
-                   j = $fog$1, jj = nAttrs && nAttrs[$fog$10]; j < jj; j++) {
-            var attrStartName = $fog$38;
-            var attrEndName = $fog$38;
+          for (var attr, name, nName, ngAttrName, value, isNgAttr, nAttrs = node[$fog$1267],
+                   j = $fog$1586, jj = nAttrs && nAttrs[$fog$1577]; j < jj; j++) {
+            var attrStartName = $fog$1549;
+            var attrEndName = $fog$1549;
 
             attr = nAttrs[j];
-            name = attr[$fog$42];
-            value = trim(attr[$fog$163]);
+            name = attr[$fog$1545];
+            value = trim(attr[$fog$1424]);
 
             // support ngAttr attribute binding
             ngAttrName = directiveNormalize(name);
-            if (isNgAttr = NG_ATTR_BINDING[$fog$68](ngAttrName)) {
-              name = name[$fog$7](PREFIX_REGEXP, $fog$4)
-                [$fog$425]($fog$207)[$fog$7]($fog$584, function(match, letter) {
-                  return letter[$fog$22]();
+            if (isNgAttr = NG_ATTR_BINDING[$fog$1519](ngAttrName)) {
+              name = name[$fog$1580](PREFIX_REGEXP, $fog$1583)
+                [$fog$1162]($fog$1380)[$fog$1580]($fog$1003, function(match, letter) {
+                  return letter[$fog$1565]();
                 });
             }
 
-            var directiveNName = ngAttrName[$fog$7]($fog$585, $fog$4);
+            var directiveNName = ngAttrName[$fog$1580]($fog$1002, $fog$1583);
             if (directiveIsMultiElement(directiveNName)) {
-              if (ngAttrName === directiveNName + $fog$586) {
+              if (ngAttrName === directiveNName + $fog$1001) {
                 attrStartName = name;
-                attrEndName = name[$fog$425]($fog$1, name[$fog$10] - $fog$587) + $fog$437;
-                name = name[$fog$425]($fog$1, name[$fog$10] - $fog$588);
+                attrEndName = name[$fog$1162]($fog$1586, name[$fog$1577] - $fog$1000) + $fog$1150;
+                name = name[$fog$1162]($fog$1586, name[$fog$1577] - $fog$999);
               }
             }
 
-            nName = directiveNormalize(name[$fog$19]());
+            nName = directiveNormalize(name[$fog$1568]());
             attrsMap[nName] = name;
-            if (isNgAttr || !attrs[$fog$20](nName)) {
+            if (isNgAttr || !attrs[$fog$1567](nName)) {
                 attrs[nName] = value;
                 if (getBooleanAttrName(node, nName)) {
-                  attrs[nName] = $fog$40; // presence means true
+                  attrs[nName] = $fog$1547; // presence means true
                 }
             }
             addAttrInterpolateDirective(node, directives, value, nName, isNgAttr);
-            addDirective(directives, nName, $fog$589, maxPriority, ignoreDirective, attrStartName,
+            addDirective(directives, nName, $fog$998, maxPriority, ignoreDirective, attrStartName,
                           attrEndName);
           }
 
           // use class as directive
-          className = node[$fog$590];
+          className = node[$fog$997];
           if (isObject(className)) {
               // Maybe SVGAnimatedString
-              className = className[$fog$591];
+              className = className[$fog$996];
           }
-          if (isString(className) && className !== $fog$4) {
-            while (match = CLASS_DIRECTIVE_REGEXP[$fog$272](className)) {
-              nName = directiveNormalize(match[$fog$0]);
-              if (addDirective(directives, nName, $fog$592, maxPriority, ignoreDirective)) {
-                attrs[nName] = trim(match[$fog$206]);
+          if (isString(className) && className !== $fog$1583) {
+            while (match = CLASS_DIRECTIVE_REGEXP[$fog$1315](className)) {
+              nName = directiveNormalize(match[$fog$1587]);
+              if (addDirective(directives, nName, $fog$995, maxPriority, ignoreDirective)) {
+                attrs[nName] = trim(match[$fog$1381]);
               }
-              className = className[$fog$425](match[$fog$520] + match[$fog$1][$fog$10]);
+              className = className[$fog$1162](match[$fog$1067] + match[$fog$1586][$fog$1577]);
             }
           }
           break;
         case NODE_TYPE_TEXT: /* Text Node */
-          if (msie === $fog$209) {
+          if (msie === $fog$1378) {
             // Workaround for #11781
-            while (node[$fog$295] && node[$fog$205] && node[$fog$205][$fog$39] === NODE_TYPE_TEXT) {
-              node[$fog$562] = node[$fog$562] + node[$fog$205][$fog$562];
-              node[$fog$295][$fog$297](node[$fog$205]);
+            while (node[$fog$1292] && node[$fog$1382] && node[$fog$1382][$fog$1548] === NODE_TYPE_TEXT) {
+              node[$fog$1025] = node[$fog$1025] + node[$fog$1382][$fog$1025];
+              node[$fog$1292][$fog$1290](node[$fog$1382]);
             }
           }
-          addTextInterpolateDirective(directives, node[$fog$562]);
+          addTextInterpolateDirective(directives, node[$fog$1025]);
           break;
         case NODE_TYPE_COMMENT: /* Comment */
           try {
-            match = COMMENT_DIRECTIVE_REGEXP[$fog$272](node[$fog$562]);
+            match = COMMENT_DIRECTIVE_REGEXP[$fog$1315](node[$fog$1025]);
             if (match) {
-              nName = directiveNormalize(match[$fog$6]);
-              if (addDirective(directives, nName, $fog$593, maxPriority, ignoreDirective)) {
-                attrs[nName] = trim(match[$fog$0]);
+              nName = directiveNormalize(match[$fog$1581]);
+              if (addDirective(directives, nName, $fog$994, maxPriority, ignoreDirective)) {
+                attrs[nName] = trim(match[$fog$1587]);
               }
             }
           } catch (e) {
@@ -7753,7 +7769,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
           break;
       }
 
-      directives[$fog$47](byPriority);
+      directives[$fog$1540](byPriority);
       return directives;
     }
 
@@ -7767,23 +7783,23 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      */
     function groupScan(node, attrStart, attrEnd) {
       var nodes = [];
-      var depth = $fog$1;
-      if (attrStart && node[$fog$149] && node[$fog$149](attrStart)) {
+      var depth = $fog$1586;
+      if (attrStart && node[$fog$1438] && node[$fog$1438](attrStart)) {
         do {
           if (!node) {
-            throw $compileMinErr($fog$594,
-                      $fog$595,
+            throw $compileMinErr($fog$993,
+                      $fog$992,
                       attrStart, attrEnd);
           }
-          if (node[$fog$39] == NODE_TYPE_ELEMENT) {
-            if (node[$fog$149](attrStart)) depth++;
-            if (node[$fog$149](attrEnd)) depth--;
+          if (node[$fog$1548] == NODE_TYPE_ELEMENT) {
+            if (node[$fog$1438](attrStart)) depth++;
+            if (node[$fog$1438](attrEnd)) depth--;
           }
-          nodes[$fog$31](node);
-          node = node[$fog$205];
-        } while (depth > $fog$1);
+          nodes[$fog$1556](node);
+          node = node[$fog$1382];
+        } while (depth > $fog$1586);
       } else {
-        nodes[$fog$31](node);
+        nodes[$fog$1556](node);
       }
 
       return jqLite(nodes);
@@ -7799,7 +7815,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      */
     function groupElementsLinkFnWrapper(linkFn, attrStart, attrEnd) {
       return function(scope, element, attrs, controllers, transcludeFn) {
-        element = groupScan(element[$fog$1], attrStart, attrEnd);
+        element = groupScan(element[$fog$1586], attrStart, attrEnd);
         return linkFn(scope, element, attrs, controllers, transcludeFn);
       };
     }
@@ -7832,16 +7848,16 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                                    previousCompileContext) {
       previousCompileContext = previousCompileContext || {};
 
-      var terminalPriority = -Number[$fog$488],
-          newScopeDirective = previousCompileContext[$fog$596],
-          controllerDirectives = previousCompileContext[$fog$597],
-          newIsolateScopeDirective = previousCompileContext[$fog$598],
-          templateDirective = previousCompileContext[$fog$599],
-          nonTlbTranscludeDirective = previousCompileContext[$fog$600],
-          hasTranscludeDirective = $fog$38,
-          hasTemplate = $fog$38,
-          hasElementTranscludeDirective = previousCompileContext[$fog$601],
-          $compileNode = templateAttrs[$fog$535] = jqLite(compileNode),
+      var terminalPriority = -Number[$fog$1099],
+          newScopeDirective = previousCompileContext[$fog$991],
+          controllerDirectives = previousCompileContext[$fog$990],
+          newIsolateScopeDirective = previousCompileContext[$fog$989],
+          templateDirective = previousCompileContext[$fog$988],
+          nonTlbTranscludeDirective = previousCompileContext[$fog$987],
+          hasTranscludeDirective = $fog$1549,
+          hasTemplate = $fog$1549,
+          hasElementTranscludeDirective = previousCompileContext[$fog$986],
+          $compileNode = templateAttrs[$fog$1052] = jqLite(compileNode),
           directive,
           directiveName,
           $template,
@@ -7851,10 +7867,10 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
           directiveValue;
 
       // executes all directives on the current element
-      for (var i = $fog$1, ii = directives[$fog$10]; i < ii; i++) {
+      for (var i = $fog$1586, ii = directives[$fog$1577]; i < ii; i++) {
         directive = directives[i];
-        var attrStart = directive[$fog$602];
-        var attrEnd = directive[$fog$603];
+        var attrStart = directive[$fog$985];
+        var attrEnd = directive[$fog$984];
 
         // collect multiblock sections
         if (attrStart) {
@@ -7862,25 +7878,25 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         }
         $template = undefined;
 
-        if (terminalPriority > directive[$fog$519]) {
+        if (terminalPriority > directive[$fog$1068]) {
           break; // prevent further processing of directives
         }
 
-        if (directiveValue = directive[$fog$188]) {
+        if (directiveValue = directive[$fog$1399]) {
 
           // skip the check for directives with async templates, we'll check the derived sync
           // directive when the template arrives
-          if (!directive[$fog$604]) {
+          if (!directive[$fog$983]) {
             if (isObject(directiveValue)) {
               // This directive is trying to add an isolated scope.
               // Check that there is no scope of any kind already
-              assertNoDuplicate($fog$605, newIsolateScopeDirective || newScopeDirective,
+              assertNoDuplicate($fog$982, newIsolateScopeDirective || newScopeDirective,
                                 directive, $compileNode);
               newIsolateScopeDirective = directive;
             } else {
               // This directive is trying to add a child scope.
               // Check that there is no isolated scope already
-              assertNoDuplicate($fog$605, newIsolateScopeDirective, directive,
+              assertNoDuplicate($fog$982, newIsolateScopeDirective, directive,
                                 $compileNode);
             }
           }
@@ -7888,39 +7904,39 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
           newScopeDirective = newScopeDirective || directive;
         }
 
-        directiveName = directive[$fog$42];
+        directiveName = directive[$fog$1545];
 
-        if (!directive[$fog$604] && directive[$fog$190]) {
-          directiveValue = directive[$fog$190];
+        if (!directive[$fog$983] && directive[$fog$1397]) {
+          directiveValue = directive[$fog$1397];
           controllerDirectives = controllerDirectives || createMap();
-          assertNoDuplicate($fog$470 + directiveName + $fog$606,
+          assertNoDuplicate($fog$1117 + directiveName + $fog$981,
               controllerDirectives[directiveName], directive, $compileNode);
           controllerDirectives[directiveName] = directive;
         }
 
-        if (directiveValue = directive[$fog$577]) {
-          hasTranscludeDirective = $fog$40;
+        if (directiveValue = directive[$fog$1010]) {
+          hasTranscludeDirective = $fog$1547;
 
           // Special case ngIf and ngRepeat so that we don't complain about duplicate transclusion.
           // This option should only be used by directives that know how to safely handle element transclusion,
           // where the transcluded nodes are added or replaced after linking.
-          if (!directive[$fog$607]) {
-            assertNoDuplicate($fog$608, nonTlbTranscludeDirective, directive, $compileNode);
+          if (!directive[$fog$980]) {
+            assertNoDuplicate($fog$979, nonTlbTranscludeDirective, directive, $compileNode);
             nonTlbTranscludeDirective = directive;
           }
 
-          if (directiveValue == $fog$180) {
-            hasElementTranscludeDirective = $fog$40;
-            terminalPriority = directive[$fog$519];
+          if (directiveValue == $fog$1407) {
+            hasElementTranscludeDirective = $fog$1547;
+            terminalPriority = directive[$fog$1068];
             $template = $compileNode;
-            $compileNode = templateAttrs[$fog$535] =
-                jqLite(document[$fog$609]($fog$288 + directiveName + $fog$610 +
-                                              templateAttrs[directiveName] + $fog$288));
-            compileNode = $compileNode[$fog$1];
+            $compileNode = templateAttrs[$fog$1052] =
+                jqLite(document[$fog$978]($fog$1299 + directiveName + $fog$977 +
+                                              templateAttrs[directiveName] + $fog$1299));
+            compileNode = $compileNode[$fog$1586];
             replaceWith(jqCollection, sliceArgs($template), compileNode);
 
             childTranscludeFn = compile($template, transcludeFn, terminalPriority,
-                                        replaceDirective && replaceDirective[$fog$42], {
+                                        replaceDirective && replaceDirective[$fog$1545], {
                                           // Don't pass in:
                                           // - controllerDirectives - otherwise we'll create duplicates controllers
                                           // - newIsolateScopeDirective or templateDirective - combining templates with
@@ -7931,36 +7947,36 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                                           nonTlbTranscludeDirective: nonTlbTranscludeDirective
                                         });
           } else {
-            $template = jqLite(jqLiteClone(compileNode))[$fog$611]();
-            $compileNode[$fog$121](); // clear contents
+            $template = jqLite(jqLiteClone(compileNode))[$fog$976]();
+            $compileNode[$fog$1466](); // clear contents
             childTranscludeFn = compile($template, transcludeFn);
           }
         }
 
-        if (directive[$fog$612]) {
-          hasTemplate = $fog$40;
-          assertNoDuplicate($fog$612, templateDirective, directive, $compileNode);
+        if (directive[$fog$975]) {
+          hasTemplate = $fog$1547;
+          assertNoDuplicate($fog$975, templateDirective, directive, $compileNode);
           templateDirective = directive;
 
-          directiveValue = (isFunction(directive[$fog$612]))
-              ? directive[$fog$612]($compileNode, templateAttrs)
-              : directive[$fog$612];
+          directiveValue = (isFunction(directive[$fog$975]))
+              ? directive[$fog$975]($compileNode, templateAttrs)
+              : directive[$fog$975];
 
           directiveValue = denormalizeTemplate(directiveValue);
 
-          if (directive[$fog$7]) {
+          if (directive[$fog$1580]) {
             replaceDirective = directive;
             if (jqLiteIsTextNode(directiveValue)) {
               $template = [];
             } else {
-              $template = removeComments(wrapTemplate(directive[$fog$613], trim(directiveValue)));
+              $template = removeComments(wrapTemplate(directive[$fog$974], trim(directiveValue)));
             }
-            compileNode = $template[$fog$1];
+            compileNode = $template[$fog$1586];
 
-            if ($template[$fog$10] != $fog$6 || compileNode[$fog$39] !== NODE_TYPE_ELEMENT) {
-              throw $compileMinErr($fog$614,
-                  $fog$615,
-                  directiveName, $fog$4);
+            if ($template[$fog$1577] != $fog$1581 || compileNode[$fog$1548] !== NODE_TYPE_ELEMENT) {
+              throw $compileMinErr($fog$973,
+                  $fog$972,
+                  directiveName, $fog$1583);
             }
 
             replaceWith(jqCollection, $compileNode, compileNode);
@@ -7973,30 +7989,30 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
             // - collect directives from the template and sort them by priority
             // - combine directives as: processed + template + unprocessed
             var templateDirectives = collectDirectives(compileNode, [], newTemplateAttrs);
-            var unprocessedDirectives = directives[$fog$30](i + $fog$6, directives[$fog$10] - (i + $fog$6));
+            var unprocessedDirectives = directives[$fog$1557](i + $fog$1581, directives[$fog$1577] - (i + $fog$1581));
 
             if (newIsolateScopeDirective) {
               markDirectivesAsIsolate(templateDirectives);
             }
-            directives = directives[$fog$108](templateDirectives)[$fog$108](unprocessedDirectives);
+            directives = directives[$fog$1479](templateDirectives)[$fog$1479](unprocessedDirectives);
             mergeTemplateAttributes(templateAttrs, newTemplateAttrs);
 
-            ii = directives[$fog$10];
+            ii = directives[$fog$1577];
           } else {
-            $compileNode[$fog$122](directiveValue);
+            $compileNode[$fog$1465](directiveValue);
           }
         }
 
-        if (directive[$fog$604]) {
-          hasTemplate = $fog$40;
-          assertNoDuplicate($fog$612, templateDirective, directive, $compileNode);
+        if (directive[$fog$983]) {
+          hasTemplate = $fog$1547;
+          assertNoDuplicate($fog$975, templateDirective, directive, $compileNode);
           templateDirective = directive;
 
-          if (directive[$fog$7]) {
+          if (directive[$fog$1580]) {
             replaceDirective = directive;
           }
 
-          nodeLinkFn = compileTemplateUrl(directives[$fog$30](i, directives[$fog$10] - i), $compileNode,
+          nodeLinkFn = compileTemplateUrl(directives[$fog$1557](i, directives[$fog$1577] - i), $compileNode,
               templateAttrs, jqCollection, hasTranscludeDirective && childTranscludeFn, preLinkFns, postLinkFns, {
                 controllerDirectives: controllerDirectives,
                 newScopeDirective: (newScopeDirective !== directive) && newScopeDirective,
@@ -8004,33 +8020,33 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                 templateDirective: templateDirective,
                 nonTlbTranscludeDirective: nonTlbTranscludeDirective
               });
-          ii = directives[$fog$10];
-        } else if (directive[$fog$517]) {
+          ii = directives[$fog$1577];
+        } else if (directive[$fog$1070]) {
           try {
-            linkFn = directive[$fog$517]($compileNode, templateAttrs, childTranscludeFn);
+            linkFn = directive[$fog$1070]($compileNode, templateAttrs, childTranscludeFn);
             if (isFunction(linkFn)) {
-              addLinkFns($fog$37, linkFn, attrStart, attrEnd);
+              addLinkFns($fog$1550, linkFn, attrStart, attrEnd);
             } else if (linkFn) {
-              addLinkFns(linkFn[$fog$616], linkFn[$fog$617], attrStart, attrEnd);
+              addLinkFns(linkFn[$fog$971], linkFn[$fog$970], attrStart, attrEnd);
             }
           } catch (e) {
             $exceptionHandler(e, startingTag($compileNode));
           }
         }
 
-        if (directive[$fog$574]) {
-          nodeLinkFn[$fog$574] = $fog$40;
-          terminalPriority = Math[$fog$309](terminalPriority, directive[$fog$519]);
+        if (directive[$fog$1013]) {
+          nodeLinkFn[$fog$1013] = $fog$1547;
+          terminalPriority = Math[$fog$1278](terminalPriority, directive[$fog$1068]);
         }
 
       }
 
-      nodeLinkFn[$fog$188] = newScopeDirective && newScopeDirective[$fog$188] === $fog$40;
-      nodeLinkFn[$fog$575] = hasTranscludeDirective;
-      nodeLinkFn[$fog$576] = hasTemplate;
-      nodeLinkFn[$fog$577] = childTranscludeFn;
+      nodeLinkFn[$fog$1399] = newScopeDirective && newScopeDirective[$fog$1399] === $fog$1547;
+      nodeLinkFn[$fog$1012] = hasTranscludeDirective;
+      nodeLinkFn[$fog$1011] = hasTemplate;
+      nodeLinkFn[$fog$1010] = childTranscludeFn;
 
-      previousCompileContext[$fog$601] = hasElementTranscludeDirective;
+      previousCompileContext[$fog$986] = hasElementTranscludeDirective;
 
       // might be normal or delayed nodeLinkFn depending on if templateUrl is present
       return nodeLinkFn;
@@ -8040,21 +8056,21 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       function addLinkFns(pre, post, attrStart, attrEnd) {
         if (pre) {
           if (attrStart) pre = groupElementsLinkFnWrapper(pre, attrStart, attrEnd);
-          pre[$fog$521] = directive[$fog$521];
-          pre[$fog$618] = directiveName;
-          if (newIsolateScopeDirective === directive || directive[$fog$619]) {
-            pre = cloneAndAnnotateFn(pre, {isolateScope: $fog$40});
+          pre[$fog$1066] = directive[$fog$1066];
+          pre[$fog$969] = directiveName;
+          if (newIsolateScopeDirective === directive || directive[$fog$968]) {
+            pre = cloneAndAnnotateFn(pre, {isolateScope: $fog$1547});
           }
-          preLinkFns[$fog$31](pre);
+          preLinkFns[$fog$1556](pre);
         }
         if (post) {
           if (attrStart) post = groupElementsLinkFnWrapper(post, attrStart, attrEnd);
-          post[$fog$521] = directive[$fog$521];
-          post[$fog$618] = directiveName;
-          if (newIsolateScopeDirective === directive || directive[$fog$619]) {
-            post = cloneAndAnnotateFn(post, {isolateScope: $fog$40});
+          post[$fog$1066] = directive[$fog$1066];
+          post[$fog$969] = directiveName;
+          if (newIsolateScopeDirective === directive || directive[$fog$968]) {
+            post = cloneAndAnnotateFn(post, {isolateScope: $fog$1547});
           }
-          postLinkFns[$fog$31](post);
+          postLinkFns[$fog$1556](post);
         }
       }
 
@@ -8063,39 +8079,39 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         var value;
 
         if (isString(require)) {
-          var match = require[$fog$88](REQUIRE_PREFIX_REGEXP);
-          var name = require[$fog$130](match[$fog$1][$fog$10]);
-          var inheritType = match[$fog$6] || match[$fog$206];
-          var optional = match[$fog$0] === $fog$13;
+          var match = require[$fog$1499](REQUIRE_PREFIX_REGEXP);
+          var name = require[$fog$1457](match[$fog$1586][$fog$1577]);
+          var inheritType = match[$fog$1581] || match[$fog$1381];
+          var optional = match[$fog$1587] === $fog$1574;
 
           //If only parents then start at the parent element
-          if (inheritType === $fog$620) {
-            $element = $element[$fog$438]();
+          if (inheritType === $fog$967) {
+            $element = $element[$fog$1149]();
           //Otherwise attempt getting the controller from elementControllers in case
           //the element is transcluded (and has no data) and to avoid .data if possible
           } else {
             value = elementControllers && elementControllers[name];
-            value = value && value[$fog$570];
+            value = value && value[$fog$1017];
           }
 
           if (!value) {
-            var dataName = $fog$94 + name + $fog$293;
-            value = inheritType ? $element[$fog$191](dataName) : $element[$fog$172](dataName);
+            var dataName = $fog$1493 + name + $fog$1294;
+            value = inheritType ? $element[$fog$1396](dataName) : $element[$fog$1415](dataName);
           }
 
           if (!value && !optional) {
-            throw $compileMinErr($fog$621,
-                $fog$622,
+            throw $compileMinErr($fog$966,
+                $fog$965,
                 name, directiveName);
           }
         } else if (isArray(require)) {
           value = [];
-          for (var i = $fog$1, ii = require[$fog$10]; i < ii; i++) {
+          for (var i = $fog$1586, ii = require[$fog$1577]; i < ii; i++) {
             value[i] = getControllers(directiveName, require[i], $element, elementControllers);
           }
         }
 
-        return value || $fog$37;
+        return value || $fog$1550;
       }
 
       function setupControllers($element, attrs, transcludeFn, controllerDirectives, isolateScope, scope) {
@@ -8103,27 +8119,27 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         for (var controllerKey in controllerDirectives) {
           var directive = controllerDirectives[controllerKey];
           var locals = {
-            $scope: directive === newIsolateScopeDirective || directive[$fog$619] ? isolateScope : scope,
+            $scope: directive === newIsolateScopeDirective || directive[$fog$968] ? isolateScope : scope,
             $element: $element,
             $attrs: attrs,
             $transclude: transcludeFn
           };
 
-          var controller = directive[$fog$190];
-          if (controller == $fog$137) {
-            controller = attrs[directive[$fog$42]];
+          var controller = directive[$fog$1397];
+          if (controller == $fog$1450) {
+            controller = attrs[directive[$fog$1545]];
           }
 
-          var controllerInstance = $controller(controller, locals, $fog$40, directive[$fog$507]);
+          var controllerInstance = $controller(controller, locals, $fog$1547, directive[$fog$1080]);
 
           // For directives with element transclusion the element is a comment,
           // but jQuery .data doesn't support attaching data to comment nodes as it's hard to
           // clean up (http://bugs.jquery.com/ticket/8335).
           // Instead, we save the controllers for the element in a local hash and attach to .data
           // later, once we have the actual element.
-          elementControllers[directive[$fog$42]] = controllerInstance;
+          elementControllers[directive[$fog$1545]] = controllerInstance;
           if (!hasElementTranscludeDirective) {
-            $element[$fog$172]($fog$94 + directive[$fog$42] + $fog$293, controllerInstance[$fog$570]);
+            $element[$fog$1415]($fog$1493 + directive[$fog$1545] + $fog$1294, controllerInstance[$fog$1017]);
           }
         }
         return elementControllers;
@@ -8136,21 +8152,21 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
         if (compileNode === linkNode) {
           attrs = templateAttrs;
-          $element = templateAttrs[$fog$535];
+          $element = templateAttrs[$fog$1052];
         } else {
           $element = jqLite(linkNode);
           attrs = new Attributes($element, templateAttrs);
         }
 
         if (newIsolateScopeDirective) {
-          isolateScope = scope[$fog$578]($fog$40);
+          isolateScope = scope[$fog$1009]($fog$1547);
         }
 
         if (boundTranscludeFn) {
           // track `boundTranscludeFn` so it can be unwrapped if `transcludeFn`
           // is later passed as `parentBoundTranscludeFn` to `publicLinkFn`
           transcludeFn = controllersBoundTransclude;
-          transcludeFn[$fog$569] = boundTranscludeFn;
+          transcludeFn[$fog$1018] = boundTranscludeFn;
         }
 
         if (controllerDirectives) {
@@ -8159,13 +8175,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
         if (newIsolateScopeDirective) {
           // Initialize isolate scope bindings for new isolate scope directive.
-          compile[$fog$558]($element, isolateScope, $fog$40, !(templateDirective && (templateDirective === newIsolateScopeDirective ||
-              templateDirective === newIsolateScopeDirective[$fog$623])));
-          compile[$fog$559]($element, $fog$40);
-          isolateScope[$fog$525] =
-              newIsolateScopeDirective[$fog$525];
+          compile[$fog$1029]($element, isolateScope, $fog$1547, !(templateDirective && (templateDirective === newIsolateScopeDirective ||
+              templateDirective === newIsolateScopeDirective[$fog$964])));
+          compile[$fog$1028]($element, $fog$1547);
+          isolateScope[$fog$1062] =
+              newIsolateScopeDirective[$fog$1062];
           initializeDirectiveBindings(scope, attrs, isolateScope,
-                                      isolateScope[$fog$525],
+                                      isolateScope[$fog$1062],
                                       newIsolateScopeDirective, isolateScope);
         }
         if (elementControllers) {
@@ -8173,14 +8189,14 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
           var scopeDirective = newIsolateScopeDirective || newScopeDirective;
           var bindings;
           var controllerForBindings;
-          if (scopeDirective && elementControllers[scopeDirective[$fog$42]]) {
-            bindings = scopeDirective[$fog$524][$fog$506];
-            controller = elementControllers[scopeDirective[$fog$42]];
+          if (scopeDirective && elementControllers[scopeDirective[$fog$1545]]) {
+            bindings = scopeDirective[$fog$1063][$fog$1081];
+            controller = elementControllers[scopeDirective[$fog$1545]];
 
-            if (controller && controller[$fog$624] && bindings) {
+            if (controller && controller[$fog$963] && bindings) {
               controllerForBindings = controller;
-              thisLinkFn[$fog$579] =
-                  initializeDirectiveBindings(scope, attrs, controller[$fog$570],
+              thisLinkFn[$fog$1008] =
+                  initializeDirectiveBindings(scope, attrs, controller[$fog$1017],
                                               bindings, scopeDirective);
             }
           }
@@ -8188,15 +8204,15 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
             controller = elementControllers[i];
             var controllerResult = controller();
 
-            if (controllerResult !== controller[$fog$570]) {
+            if (controllerResult !== controller[$fog$1017]) {
               // If the controller constructor has a return value, overwrite the instance
               // from setupControllers and update the element data
-              controller[$fog$570] = controllerResult;
-              $element[$fog$172]($fog$94 + i + $fog$293, controllerResult);
+              controller[$fog$1017] = controllerResult;
+              $element[$fog$1415]($fog$1493 + i + $fog$1294, controllerResult);
               if (controller === controllerForBindings) {
                 // Remove and re-install bindToController bindings
-                thisLinkFn[$fog$579]();
-                thisLinkFn[$fog$579] =
+                thisLinkFn[$fog$1008]();
+                thisLinkFn[$fog$1008] =
                   initializeDirectiveBindings(scope, attrs, controllerResult, bindings, scopeDirective);
               }
             }
@@ -8204,13 +8220,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         }
 
         // PRELINKING
-        for (i = $fog$1, ii = preLinkFns[$fog$10]; i < ii; i++) {
+        for (i = $fog$1586, ii = preLinkFns[$fog$1577]; i < ii; i++) {
           linkFn = preLinkFns[i];
           invokeLinkFn(linkFn,
-              linkFn[$fog$189] ? isolateScope : scope,
+              linkFn[$fog$1398] ? isolateScope : scope,
               $element,
               attrs,
-              linkFn[$fog$521] && getControllers(linkFn[$fog$618], linkFn[$fog$521], $element, elementControllers),
+              linkFn[$fog$1066] && getControllers(linkFn[$fog$969], linkFn[$fog$1066], $element, elementControllers),
               transcludeFn
           );
         }
@@ -8219,19 +8235,19 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         // We only pass the isolate scope, if the isolate directive has a template,
         // otherwise the child elements do not belong to the isolate directive.
         var scopeToChild = scope;
-        if (newIsolateScopeDirective && (newIsolateScopeDirective[$fog$612] || newIsolateScopeDirective[$fog$604] === $fog$37)) {
+        if (newIsolateScopeDirective && (newIsolateScopeDirective[$fog$975] || newIsolateScopeDirective[$fog$983] === $fog$1550)) {
           scopeToChild = isolateScope;
         }
-        childLinkFn && childLinkFn(scopeToChild, linkNode[$fog$277], undefined, boundTranscludeFn);
+        childLinkFn && childLinkFn(scopeToChild, linkNode[$fog$1310], undefined, boundTranscludeFn);
 
         // POSTLINKING
-        for (i = postLinkFns[$fog$10] - $fog$6; i >= $fog$1; i--) {
+        for (i = postLinkFns[$fog$1577] - $fog$1581; i >= $fog$1586; i--) {
           linkFn = postLinkFns[i];
           invokeLinkFn(linkFn,
-              linkFn[$fog$189] ? isolateScope : scope,
+              linkFn[$fog$1398] ? isolateScope : scope,
               $element,
               attrs,
-              linkFn[$fog$521] && getControllers(linkFn[$fog$618], linkFn[$fog$521], $element, elementControllers),
+              linkFn[$fog$1066] && getControllers(linkFn[$fog$969], linkFn[$fog$1066], $element, elementControllers),
               transcludeFn
           );
         }
@@ -8252,7 +8268,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
             transcludeControllers = elementControllers;
           }
           if (!futureParentElement) {
-            futureParentElement = hasElementTranscludeDirective ? $element[$fog$438]() : $element;
+            futureParentElement = hasElementTranscludeDirective ? $element[$fog$1149]() : $element;
           }
           return boundTranscludeFn(scope, cloneAttachFn, transcludeControllers, futureParentElement, scopeToChild);
         }
@@ -8261,8 +8277,8 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
     function markDirectivesAsIsolate(directives) {
       // mark all directives as needing isolate scope.
-      for (var j = $fog$1, jj = directives[$fog$10]; j < jj; j++) {
-        directives[j] = inherit(directives[j], {$$isolateScope: $fog$40});
+      for (var j = $fog$1586, jj = directives[$fog$1577]; j < jj; j++) {
+        directives[j] = inherit(directives[j], {$$isolateScope: $fog$1547});
       }
     }
 
@@ -8282,19 +8298,19 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      */
     function addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName,
                           endAttrName) {
-      if (name === ignoreDirective) return $fog$37;
-      var match = $fog$37;
-      if (hasDirectives[$fog$20](name)) {
-        for (var directive, directives = $injector[$fog$182](name + Suffix),
-            i = $fog$1, ii = directives[$fog$10]; i < ii; i++) {
+      if (name === ignoreDirective) return $fog$1550;
+      var match = $fog$1550;
+      if (hasDirectives[$fog$1567](name)) {
+        for (var directive, directives = $injector[$fog$1405](name + Suffix),
+            i = $fog$1586, ii = directives[$fog$1577]; i < ii; i++) {
           try {
             directive = directives[i];
-            if ((maxPriority === undefined || maxPriority > directive[$fog$519]) &&
-                 directive[$fog$522][$fog$80](location) != -$fog$6) {
+            if ((maxPriority === undefined || maxPriority > directive[$fog$1068]) &&
+                 directive[$fog$1065][$fog$1507](location) != -$fog$1581) {
               if (startAttrName) {
                 directive = inherit(directive, {$$start: startAttrName, $$end: endAttrName});
               }
-              tDirectives[$fog$31](directive);
+              tDirectives[$fog$1556](directive);
               match = directive;
             }
           } catch (e) { $exceptionHandler(e); }
@@ -8313,16 +8329,16 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      * @returns true if directive was registered as multi-element.
      */
     function directiveIsMultiElement(name) {
-      if (hasDirectives[$fog$20](name)) {
-        for (var directive, directives = $injector[$fog$182](name + Suffix),
-            i = $fog$1, ii = directives[$fog$10]; i < ii; i++) {
+      if (hasDirectives[$fog$1567](name)) {
+        for (var directive, directives = $injector[$fog$1405](name + Suffix),
+            i = $fog$1586, ii = directives[$fog$1577]; i < ii; i++) {
           directive = directives[i];
-          if (directive[$fog$625]) {
-            return $fog$40;
+          if (directive[$fog$962]) {
+            return $fog$1547;
           }
         }
       }
-      return $fog$38;
+      return $fog$1549;
     }
 
     /**
@@ -8334,32 +8350,32 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      * @param {object} src source attributes (from the directive template)
      */
     function mergeTemplateAttributes(dst, src) {
-      var srcAttr = src[$fog$534],
-          dstAttr = dst[$fog$534],
-          $element = dst[$fog$535];
+      var srcAttr = src[$fog$1053],
+          dstAttr = dst[$fog$1053],
+          $element = dst[$fog$1052];
 
       // reapply the old attributes to the new element
       forEach(dst, function(value, key) {
-        if (key[$fog$93]($fog$1) != $fog$94) {
+        if (key[$fog$1494]($fog$1586) != $fog$1493) {
           if (src[key] && src[key] !== value) {
-            value += (key === $fog$317 ? $fog$142 : $fog$288) + src[key];
+            value += (key === $fog$1270 ? $fog$1445 : $fog$1299) + src[key];
           }
-          dst[$fog$626](key, value, $fog$40, srcAttr[key]);
+          dst[$fog$961](key, value, $fog$1547, srcAttr[key]);
         }
       });
 
       // copy the new attributes on the old attrs object
       forEach(src, function(value, key) {
-        if (key == $fog$289) {
+        if (key == $fog$1298) {
           safeAddClass($element, value);
-          dst[$fog$289] = (dst[$fog$289] ? dst[$fog$289] + $fog$288 : $fog$4) + value;
-        } else if (key == $fog$317) {
-          $element[$fog$76]($fog$317, $element[$fog$76]($fog$317) + $fog$142 + value);
-          dst[$fog$317] = (dst[$fog$317] ? dst[$fog$317] + $fog$142 : $fog$4) + value;
+          dst[$fog$1298] = (dst[$fog$1298] ? dst[$fog$1298] + $fog$1299 : $fog$1583) + value;
+        } else if (key == $fog$1270) {
+          $element[$fog$1511]($fog$1270, $element[$fog$1511]($fog$1270) + $fog$1445 + value);
+          dst[$fog$1270] = (dst[$fog$1270] ? dst[$fog$1270] + $fog$1445 : $fog$1583) + value;
           // `dst` will never contain hasOwnProperty as DOM parser won't let it.
           // You will get an "InvalidCharacterError: DOM Exception 5" error if you
           // have an attribute like "has-own-property" or "data-has-own-property", etc.
-        } else if (key[$fog$93]($fog$1) != $fog$94 && !dst[$fog$20](key)) {
+        } else if (key[$fog$1494]($fog$1586) != $fog$1493 && !dst[$fog$1567](key)) {
           dst[key] = value;
           dstAttr[key] = srcAttr[key];
         }
@@ -8372,78 +8388,78 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       var linkQueue = [],
           afterTemplateNodeLinkFn,
           afterTemplateChildLinkFn,
-          beforeTemplateCompileNode = $compileNode[$fog$1],
-          origAsyncDirective = directives[$fog$385](),
+          beforeTemplateCompileNode = $compileNode[$fog$1586],
+          origAsyncDirective = directives[$fog$1202](),
           derivedSyncDirective = inherit(origAsyncDirective, {
-            templateUrl: $fog$37, transclude: $fog$37, replace: $fog$37, $$originalDirective: origAsyncDirective
+            templateUrl: $fog$1550, transclude: $fog$1550, replace: $fog$1550, $$originalDirective: origAsyncDirective
           }),
-          templateUrl = (isFunction(origAsyncDirective[$fog$604]))
-              ? origAsyncDirective[$fog$604]($compileNode, tAttrs)
-              : origAsyncDirective[$fog$604],
-          templateNamespace = origAsyncDirective[$fog$613];
+          templateUrl = (isFunction(origAsyncDirective[$fog$983]))
+              ? origAsyncDirective[$fog$983]($compileNode, tAttrs)
+              : origAsyncDirective[$fog$983],
+          templateNamespace = origAsyncDirective[$fog$974];
 
-      $compileNode[$fog$121]();
+      $compileNode[$fog$1466]();
 
       $templateRequest(templateUrl)
-        [$fog$66](function(content) {
+        [$fog$1521](function(content) {
           var compileNode, tempTemplateAttrs, $template, childBoundTranscludeFn;
 
           content = denormalizeTemplate(content);
 
-          if (origAsyncDirective[$fog$7]) {
+          if (origAsyncDirective[$fog$1580]) {
             if (jqLiteIsTextNode(content)) {
               $template = [];
             } else {
               $template = removeComments(wrapTemplate(templateNamespace, trim(content)));
             }
-            compileNode = $template[$fog$1];
+            compileNode = $template[$fog$1586];
 
-            if ($template[$fog$10] != $fog$6 || compileNode[$fog$39] !== NODE_TYPE_ELEMENT) {
-              throw $compileMinErr($fog$614,
-                  $fog$615,
-                  origAsyncDirective[$fog$42], templateUrl);
+            if ($template[$fog$1577] != $fog$1581 || compileNode[$fog$1548] !== NODE_TYPE_ELEMENT) {
+              throw $compileMinErr($fog$973,
+                  $fog$972,
+                  origAsyncDirective[$fog$1545], templateUrl);
             }
 
             tempTemplateAttrs = {$attr: {}};
             replaceWith($rootElement, $compileNode, compileNode);
             var templateDirectives = collectDirectives(compileNode, [], tempTemplateAttrs);
 
-            if (isObject(origAsyncDirective[$fog$188])) {
+            if (isObject(origAsyncDirective[$fog$1399])) {
               markDirectivesAsIsolate(templateDirectives);
             }
-            directives = templateDirectives[$fog$108](directives);
+            directives = templateDirectives[$fog$1479](directives);
             mergeTemplateAttributes(tAttrs, tempTemplateAttrs);
           } else {
             compileNode = beforeTemplateCompileNode;
-            $compileNode[$fog$122](content);
+            $compileNode[$fog$1465](content);
           }
 
-          directives[$fog$161](derivedSyncDirective);
+          directives[$fog$1426](derivedSyncDirective);
 
           afterTemplateNodeLinkFn = applyDirectivesToNode(directives, compileNode, tAttrs,
               childTranscludeFn, $compileNode, origAsyncDirective, preLinkFns, postLinkFns,
               previousCompileContext);
           forEach($rootElement, function(node, i) {
             if (node == compileNode) {
-              $rootElement[i] = $compileNode[$fog$1];
+              $rootElement[i] = $compileNode[$fog$1586];
             }
           });
-          afterTemplateChildLinkFn = compileNodes($compileNode[$fog$1][$fog$277], childTranscludeFn);
+          afterTemplateChildLinkFn = compileNodes($compileNode[$fog$1586][$fog$1310], childTranscludeFn);
 
-          while (linkQueue[$fog$10]) {
-            var scope = linkQueue[$fog$385](),
-                beforeTemplateLinkNode = linkQueue[$fog$385](),
-                linkRootElement = linkQueue[$fog$385](),
-                boundTranscludeFn = linkQueue[$fog$385](),
-                linkNode = $compileNode[$fog$1];
+          while (linkQueue[$fog$1577]) {
+            var scope = linkQueue[$fog$1202](),
+                beforeTemplateLinkNode = linkQueue[$fog$1202](),
+                linkRootElement = linkQueue[$fog$1202](),
+                boundTranscludeFn = linkQueue[$fog$1202](),
+                linkNode = $compileNode[$fog$1586];
 
-            if (scope[$fog$627]) continue;
+            if (scope[$fog$960]) continue;
 
             if (beforeTemplateLinkNode !== beforeTemplateCompileNode) {
-              var oldClasses = beforeTemplateLinkNode[$fog$590];
+              var oldClasses = beforeTemplateLinkNode[$fog$997];
 
-              if (!(previousCompileContext[$fog$601] &&
-                  origAsyncDirective[$fog$7])) {
+              if (!(previousCompileContext[$fog$986] &&
+                  origAsyncDirective[$fog$1580])) {
                 // it was cloned therefore we have to clone as well.
                 linkNode = jqLiteClone(compileNode);
               }
@@ -8452,28 +8468,28 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
               // Copy in CSS classes from original node
               safeAddClass(jqLite(linkNode), oldClasses);
             }
-            if (afterTemplateNodeLinkFn[$fog$575]) {
-              childBoundTranscludeFn = createBoundTranscludeFn(scope, afterTemplateNodeLinkFn[$fog$577], boundTranscludeFn);
+            if (afterTemplateNodeLinkFn[$fog$1012]) {
+              childBoundTranscludeFn = createBoundTranscludeFn(scope, afterTemplateNodeLinkFn[$fog$1010], boundTranscludeFn);
             } else {
               childBoundTranscludeFn = boundTranscludeFn;
             }
             afterTemplateNodeLinkFn(afterTemplateChildLinkFn, scope, linkNode, $rootElement,
               childBoundTranscludeFn, afterTemplateNodeLinkFn);
           }
-          linkQueue = $fog$37;
+          linkQueue = $fog$1550;
         });
 
       return function delayedNodeLinkFn(ignoreChildLinkFn, scope, node, rootElement, boundTranscludeFn) {
         var childBoundTranscludeFn = boundTranscludeFn;
-        if (scope[$fog$627]) return;
+        if (scope[$fog$960]) return;
         if (linkQueue) {
-          linkQueue[$fog$31](scope,
+          linkQueue[$fog$1556](scope,
                          node,
                          rootElement,
                          childBoundTranscludeFn);
         } else {
-          if (afterTemplateNodeLinkFn[$fog$575]) {
-            childBoundTranscludeFn = createBoundTranscludeFn(scope, afterTemplateNodeLinkFn[$fog$577], boundTranscludeFn);
+          if (afterTemplateNodeLinkFn[$fog$1012]) {
+            childBoundTranscludeFn = createBoundTranscludeFn(scope, afterTemplateNodeLinkFn[$fog$1010], boundTranscludeFn);
           }
           afterTemplateNodeLinkFn(afterTemplateChildLinkFn, scope, node, rootElement, childBoundTranscludeFn,
                                   afterTemplateNodeLinkFn);
@@ -8486,47 +8502,47 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      * Sorting function for bound directives.
      */
     function byPriority(a, b) {
-      var diff = b[$fog$519] - a[$fog$519];
-      if (diff !== $fog$1) return diff;
-      if (a[$fog$42] !== b[$fog$42]) return (a[$fog$42] < b[$fog$42]) ? -$fog$6 : $fog$6;
-      return a[$fog$520] - b[$fog$520];
+      var diff = b[$fog$1068] - a[$fog$1068];
+      if (diff !== $fog$1586) return diff;
+      if (a[$fog$1545] !== b[$fog$1545]) return (a[$fog$1545] < b[$fog$1545]) ? -$fog$1581 : $fog$1581;
+      return a[$fog$1067] - b[$fog$1067];
     }
 
     function assertNoDuplicate(what, previousDirective, directive, element) {
 
       function wrapModuleNameIfDefined(moduleName) {
         return moduleName ?
-          ($fog$628 + moduleName + $fog$359) :
-          $fog$4;
+          ($fog$959 + moduleName + $fog$1228) :
+          $fog$1583;
       }
 
       if (previousDirective) {
-        throw $compileMinErr($fog$629, $fog$630,
-            previousDirective[$fog$42], wrapModuleNameIfDefined(previousDirective[$fog$226]),
-            directive[$fog$42], wrapModuleNameIfDefined(directive[$fog$226]), what, startingTag(element));
+        throw $compileMinErr($fog$958, $fog$957,
+            previousDirective[$fog$1545], wrapModuleNameIfDefined(previousDirective[$fog$1361]),
+            directive[$fog$1545], wrapModuleNameIfDefined(directive[$fog$1361]), what, startingTag(element));
       }
     }
 
 
     function addTextInterpolateDirective(directives, text) {
-      var interpolateFn = $interpolate(text, $fog$40);
+      var interpolateFn = $interpolate(text, $fog$1547);
       if (interpolateFn) {
-        directives[$fog$31]({
-          priority: $fog$1,
+        directives[$fog$1556]({
+          priority: $fog$1586,
           compile: function textInterpolateCompileFn(templateNode) {
-            var templateNodeParent = templateNode[$fog$438](),
-                hasCompileParent = !!templateNodeParent[$fog$10];
+            var templateNodeParent = templateNode[$fog$1149](),
+                hasCompileParent = !!templateNodeParent[$fog$1577];
 
             // When transcluding a template that has bindings in the root
             // we don't have a parent and thus need to add the class during linking fn.
-            if (hasCompileParent) compile[$fog$556](templateNodeParent);
+            if (hasCompileParent) compile[$fog$1031](templateNodeParent);
 
             return function textInterpolateLinkFn(scope, node) {
-              var parent = node[$fog$438]();
-              if (!hasCompileParent) compile[$fog$556](parent);
-              compile[$fog$554](parent, interpolateFn[$fog$631]);
-              scope[$fog$61](interpolateFn, function interpolateFnWatchAction(value) {
-                node[$fog$1][$fog$562] = value;
+              var parent = node[$fog$1149]();
+              if (!hasCompileParent) compile[$fog$1031](parent);
+              compile[$fog$1033](parent, interpolateFn[$fog$956]);
+              scope[$fog$1526](interpolateFn, function interpolateFnWatchAction(value) {
+                node[$fog$1586][$fog$1025] = value;
               });
             };
           }
@@ -8536,13 +8552,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
 
     function wrapTemplate(type, template) {
-      type = lowercase(type || $fog$122);
+      type = lowercase(type || $fog$1465);
       switch (type) {
-      case $fog$573:
-      case $fog$632:
-        var wrapper = document[$fog$270]($fog$271);
-        wrapper[$fog$274] = $fog$127 + type + $fog$633 + template + $fog$634 + type + $fog$633;
-        return wrapper[$fog$277][$fog$1][$fog$277];
+      case $fog$1014:
+      case $fog$955:
+        var wrapper = document[$fog$1317]($fog$1316);
+        wrapper[$fog$1313] = $fog$1460 + type + $fog$954 + template + $fog$953 + type + $fog$954;
+        return wrapper[$fog$1310][$fog$1586][$fog$1310];
       default:
         return template;
       }
@@ -8550,16 +8566,16 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
 
     function getTrustedContext(node, attrNormalizedName) {
-      if (attrNormalizedName == $fog$635) {
-        return $sce[$fog$636];
+      if (attrNormalizedName == $fog$952) {
+        return $sce[$fog$951];
       }
       var tag = nodeName_(node);
       // maction[xlink:href] can source SVG.  It's not limited to <maction>.
-      if (attrNormalizedName == $fog$637 ||
-          (tag == $fog$638 && attrNormalizedName == $fog$639) ||
-          (tag != $fog$537 && (attrNormalizedName == $fog$538 ||
-                            attrNormalizedName == $fog$640))) {
-        return $sce[$fog$641];
+      if (attrNormalizedName == $fog$950 ||
+          (tag == $fog$949 && attrNormalizedName == $fog$948) ||
+          (tag != $fog$1050 && (attrNormalizedName == $fog$1049 ||
+                            attrNormalizedName == $fog$947))) {
+        return $sce[$fog$946];
       }
     }
 
@@ -8568,29 +8584,29 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       var trustedContext = getTrustedContext(node, name);
       allOrNothing = ALL_OR_NOTHING_ATTRS[name] || allOrNothing;
 
-      var interpolateFn = $interpolate(value, $fog$40, trustedContext, allOrNothing);
+      var interpolateFn = $interpolate(value, $fog$1547, trustedContext, allOrNothing);
 
       // no interpolation found -> ignore
       if (!interpolateFn) return;
 
 
-      if (name === $fog$322 && nodeName_(node) === $fog$323) {
-        throw $compileMinErr($fog$642,
-            $fog$643,
+      if (name === $fog$1265 && nodeName_(node) === $fog$1264) {
+        throw $compileMinErr($fog$945,
+            $fog$944,
             startingTag(node));
       }
 
-      directives[$fog$31]({
-        priority: $fog$644,
+      directives[$fog$1556]({
+        priority: $fog$943,
         compile: function() {
             return {
               pre: function attrInterpolatePreLinkFn(scope, element, attr) {
-                var $$observers = (attr[$fog$545] || (attr[$fog$545] = {}));
+                var $$observers = (attr[$fog$1042] || (attr[$fog$1042] = {}));
 
-                if (EVENT_HANDLER_ATTR_REGEXP[$fog$68](name)) {
-                  throw $compileMinErr($fog$645,
-                      $fog$646 +
-                          $fog$647);
+                if (EVENT_HANDLER_ATTR_REGEXP[$fog$1519](name)) {
+                  throw $compileMinErr($fog$942,
+                      $fog$941 +
+                          $fog$940);
                 }
 
                 // If the attribute has changed since last $interpolate()ed
@@ -8599,7 +8615,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                   // we need to interpolate again since the attribute value has been updated
                   // (e.g. by another directive's compile function)
                   // ensure unset/empty values make interpolateFn falsy
-                  interpolateFn = newValue && $interpolate(newValue, $fog$40, trustedContext, allOrNothing);
+                  interpolateFn = newValue && $interpolate(newValue, $fog$1547, trustedContext, allOrNothing);
                   value = newValue;
                 }
 
@@ -8612,18 +8628,18 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                 // directive's linking fn during linking phase
                 attr[name] = interpolateFn(scope);
 
-                ($$observers[name] || ($$observers[name] = []))[$fog$546] = $fog$40;
-                (attr[$fog$545] && attr[$fog$545][name][$fog$648] || scope)[$fog$61](interpolateFn, function interpolateFnWatchAction(newValue, oldValue) {
+                ($$observers[name] || ($$observers[name] = []))[$fog$1041] = $fog$1547;
+                (attr[$fog$1042] && attr[$fog$1042][name][$fog$939] || scope)[$fog$1526](interpolateFn, function interpolateFnWatchAction(newValue, oldValue) {
                     //special case for class attribute addition + removal
                     //so that class changes can tap into the animation
                     //hooks provided by the $animate service. Be sure to
                     //skip animations when the first digest occurs (when
                     //both the new and the old values are the same) since
                     //the CSS classes are the non-interpolated values
-                    if (name === $fog$289 && newValue != oldValue) {
-                      attr[$fog$649](newValue, oldValue);
+                    if (name === $fog$1298 && newValue != oldValue) {
+                      attr[$fog$938](newValue, oldValue);
                     } else {
-                      attr[$fog$626](name, newValue);
+                      attr[$fog$961](name, newValue);
                     }
                   });
               }
@@ -8644,17 +8660,17 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
      * @param {Node} newNode The new DOM node.
      */
     function replaceWith($rootElement, elementsToRemove, newNode) {
-      var firstElementToRemove = elementsToRemove[$fog$1],
-          removeCount = elementsToRemove[$fog$10],
-          parent = firstElementToRemove[$fog$295],
+      var firstElementToRemove = elementsToRemove[$fog$1586],
+          removeCount = elementsToRemove[$fog$1577],
+          parent = firstElementToRemove[$fog$1292],
           i, ii;
 
       if ($rootElement) {
-        for (i = $fog$1, ii = $rootElement[$fog$10]; i < ii; i++) {
+        for (i = $fog$1586, ii = $rootElement[$fog$1577]; i < ii; i++) {
           if ($rootElement[i] == firstElementToRemove) {
             $rootElement[i++] = newNode;
-            for (var j = i, j2 = j + removeCount - $fog$6,
-                     jj = $rootElement[$fog$10];
+            for (var j = i, j2 = j + removeCount - $fog$1581,
+                     jj = $rootElement[$fog$1577];
                  j < jj; j++, j2++) {
               if (j2 < jj) {
                 $rootElement[j] = $rootElement[j2];
@@ -8662,13 +8678,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                 delete $rootElement[j];
               }
             }
-            $rootElement[$fog$10] -= removeCount - $fog$6;
+            $rootElement[$fog$1577] -= removeCount - $fog$1581;
 
             // If the replaced element is also the jQuery .context then replace it
             // .context is a deprecated jQuery api, so we should set it only when jQuery set it
             // http://api.jquery.com/context/
-            if ($rootElement[$fog$650] === firstElementToRemove) {
-              $rootElement[$fog$650] = newNode;
+            if ($rootElement[$fog$937] === firstElementToRemove) {
+              $rootElement[$fog$937] = newNode;
             }
             break;
           }
@@ -8676,24 +8692,24 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
       }
 
       if (parent) {
-        parent[$fog$343](newNode, firstElementToRemove);
+        parent[$fog$1244](newNode, firstElementToRemove);
       }
 
       // TODO(perf): what's this document fragment for? is it needed? can we at least reuse it?
-      var fragment = document[$fog$267]();
-      fragment[$fog$269](firstElementToRemove);
+      var fragment = document[$fog$1320]();
+      fragment[$fog$1318](firstElementToRemove);
 
-      if (jqLite[$fog$651](firstElementToRemove)) {
+      if (jqLite[$fog$936](firstElementToRemove)) {
         // Copy over user data (that includes Angular's $scope etc.). Don't copy private
         // data here because there's no public interface in jQuery to do that and copying over
         // event listeners (which is the main use of private data) wouldn't work anyway.
-        jqLite(newNode)[$fog$172](jqLite(firstElementToRemove)[$fog$172]());
+        jqLite(newNode)[$fog$1415](jqLite(firstElementToRemove)[$fog$1415]());
 
         // Remove data of the replaced element. We cannot just call .remove()
         // on the element it since that would deallocate scope that is needed
         // for the new node. Instead, remove the data "manually".
         if (!jQuery) {
-          delete jqLite[$fog$235][firstElementToRemove[jqLite[$fog$233]]];
+          delete jqLite[$fog$1352][firstElementToRemove[jqLite[$fog$1354]]];
         } else {
           // jQuery 2.x doesn't expose the data storage. Use jQuery.cleanData to clean up after
           // the replaced element. The cleanData version monkey-patched by Angular would cause
@@ -8702,25 +8718,25 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
           // that would break if another library patches the method after Angular does (one
           // example is jQuery UI). Instead, set a flag indicating scope destroying should be
           // skipped this one time.
-          skipDestroyOnNextJQueryCleanData = $fog$40;
-          jQuery[$fog$192]([firstElementToRemove]);
+          skipDestroyOnNextJQueryCleanData = $fog$1547;
+          jQuery[$fog$1395]([firstElementToRemove]);
         }
       }
 
-      for (var k = $fog$6, kk = elementsToRemove[$fog$10]; k < kk; k++) {
+      for (var k = $fog$1581, kk = elementsToRemove[$fog$1577]; k < kk; k++) {
         var element = elementsToRemove[k];
-        jqLite(element)[$fog$420](); // must do this way to clean up expando
-        fragment[$fog$269](element);
+        jqLite(element)[$fog$1167](); // must do this way to clean up expando
+        fragment[$fog$1318](element);
         delete elementsToRemove[k];
       }
 
-      elementsToRemove[$fog$1] = newNode;
-      elementsToRemove[$fog$10] = $fog$6;
+      elementsToRemove[$fog$1586] = newNode;
+      elementsToRemove[$fog$1577] = $fog$1581;
     }
 
 
     function cloneAndAnnotateFn(fn, annotation) {
-      return extend(function() { return fn[$fog$109]($fog$37, arguments); }, fn, annotation);
+      return extend(function() { return fn[$fog$1478]($fog$1550, arguments); }, fn, annotation);
     }
 
 
@@ -8739,24 +8755,24 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
                                          directive, newScope) {
       var onNewScopeDestroyed;
       forEach(bindings, function(definition, scopeName) {
-        var attrName = definition[$fog$652],
-        optional = definition[$fog$653],
-        mode = definition[$fog$654], // @, =, or &
+        var attrName = definition[$fog$935],
+        optional = definition[$fog$934],
+        mode = definition[$fog$933], // @, =, or &
         lastValue,
         parentGet, parentSet, compare;
 
         switch (mode) {
 
-          case $fog$137:
-            if (!optional && !hasOwnProperty[$fog$43](attrs, attrName)) {
-              destination[scopeName] = attrs[attrName] = void $fog$1;
+          case $fog$1450:
+            if (!optional && !hasOwnProperty[$fog$1544](attrs, attrName)) {
+              destination[scopeName] = attrs[attrName] = void $fog$1586;
             }
-            attrs[$fog$655](attrName, function(value) {
+            attrs[$fog$932](attrName, function(value) {
               if (isString(value)) {
                 destination[scopeName] = value;
               }
             });
-            attrs[$fog$545][attrName][$fog$648] = scope;
+            attrs[$fog$1042][attrName][$fog$939] = scope;
             if (isString(attrs[attrName])) {
               // If the attribute has been provided then we trigger an interpolation to ensure
               // the value is there for use in the link fn
@@ -8764,25 +8780,25 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
             }
             break;
 
-          case $fog$16:
-            if (!hasOwnProperty[$fog$43](attrs, attrName)) {
+          case $fog$1571:
+            if (!hasOwnProperty[$fog$1544](attrs, attrName)) {
               if (optional) break;
-              attrs[attrName] = void $fog$1;
+              attrs[attrName] = void $fog$1586;
             }
             if (optional && !attrs[attrName]) break;
 
             parentGet = $parse(attrs[attrName]);
-            if (parentGet[$fog$656]) {
+            if (parentGet[$fog$931]) {
               compare = equals;
             } else {
               compare = function(a, b) { return a === b || (a !== a && b !== b); };
             }
-            parentSet = parentGet[$fog$657] || function() {
+            parentSet = parentGet[$fog$930] || function() {
               // reset the change, or we will throw this exception on every $digest
               lastValue = destination[scopeName] = parentGet(scope);
-              throw $compileMinErr($fog$658,
-                  $fog$659,
-                  attrs[attrName], directive[$fog$42]);
+              throw $compileMinErr($fog$929,
+                  $fog$928,
+                  attrs[attrName], directive[$fog$1545]);
             };
             lastValue = destination[scopeName] = parentGet(scope);
             var parentValueWatch = function parentValueWatch(parentValue) {
@@ -8798,20 +8814,20 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
               }
               return lastValue = parentValue;
             };
-            parentValueWatch[$fog$660] = $fog$40;
+            parentValueWatch[$fog$927] = $fog$1547;
             var unwatch;
-            if (definition[$fog$661]) {
-              unwatch = scope[$fog$662](attrs[attrName], parentValueWatch);
+            if (definition[$fog$926]) {
+              unwatch = scope[$fog$925](attrs[attrName], parentValueWatch);
             } else {
-              unwatch = scope[$fog$61]($parse(attrs[attrName], parentValueWatch), $fog$37, parentGet[$fog$656]);
+              unwatch = scope[$fog$1526]($parse(attrs[attrName], parentValueWatch), $fog$1550, parentGet[$fog$931]);
             }
             onNewScopeDestroyed = (onNewScopeDestroyed || []);
-            onNewScopeDestroyed[$fog$31](unwatch);
+            onNewScopeDestroyed[$fog$1556](unwatch);
             break;
 
-          case $fog$14:
+          case $fog$1573:
             // Don't assign Object.prototype method to scope
-            parentGet = attrs[$fog$20](attrName) ? $parse(attrs[attrName]) : noop;
+            parentGet = attrs[$fog$1567](attrName) ? $parse(attrs[attrName]) : noop;
 
             // Don't assign noop to destination if expression is not valid
             if (parentGet === noop && optional) break;
@@ -8823,12 +8839,12 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
         }
       });
       var destroyBindings = onNewScopeDestroyed ? function destroyBindings() {
-        for (var i = $fog$1, ii = onNewScopeDestroyed[$fog$10]; i < ii; ++i) {
+        for (var i = $fog$1586, ii = onNewScopeDestroyed[$fog$1577]; i < ii; ++i) {
           onNewScopeDestroyed[i]();
         }
       } : noop;
       if (newScope && destroyBindings !== noop) {
-        newScope[$fog$580]($fog$195, destroyBindings);
+        newScope[$fog$1007]($fog$1392, destroyBindings);
         return noop;
       }
       return destroyBindings;
@@ -8836,13 +8852,13 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
   }];
 }
 
-var PREFIX_REGEXP = $fog$663;
+var PREFIX_REGEXP = $fog$924;
 /**
  * Converts all accepted directives format into proper directive name.
  * @param name Name to normalize
  */
 function directiveNormalize(name) {
-  return camelCase(name[$fog$7](PREFIX_REGEXP, $fog$4));
+  return camelCase(name[$fog$1580](PREFIX_REGEXP, $fog$1583));
 }
 
 /**
@@ -8906,47 +8922,47 @@ function directiveLinkingFn(
 ) {}
 
 function tokenDifference(str1, str2) {
-  var values = $fog$4,
-      tokens1 = str1[$fog$78]($fog$664),
-      tokens2 = str2[$fog$78]($fog$664);
+  var values = $fog$1583,
+      tokens1 = str1[$fog$1509]($fog$923),
+      tokens2 = str2[$fog$1509]($fog$923);
 
   outer:
-  for (var i = $fog$1; i < tokens1[$fog$10]; i++) {
+  for (var i = $fog$1586; i < tokens1[$fog$1577]; i++) {
     var token = tokens1[i];
-    for (var j = $fog$1; j < tokens2[$fog$10]; j++) {
+    for (var j = $fog$1586; j < tokens2[$fog$1577]; j++) {
       if (token == tokens2[j]) continue outer;
     }
-    values += (values[$fog$10] > $fog$1 ? $fog$288 : $fog$4) + token;
+    values += (values[$fog$1577] > $fog$1586 ? $fog$1299 : $fog$1583) + token;
   }
   return values;
 }
 
 function removeComments(jqNodes) {
   jqNodes = jqLite(jqNodes);
-  var i = jqNodes[$fog$10];
+  var i = jqNodes[$fog$1577];
 
-  if (i <= $fog$6) {
+  if (i <= $fog$1581) {
     return jqNodes;
   }
 
   while (i--) {
     var node = jqNodes[i];
-    if (node[$fog$39] === NODE_TYPE_COMMENT) {
-      splice[$fog$43](jqNodes, i, $fog$6);
+    if (node[$fog$1548] === NODE_TYPE_COMMENT) {
+      splice[$fog$1544](jqNodes, i, $fog$1581);
     }
   }
   return jqNodes;
 }
 
-var $controllerMinErr = minErr($fog$531);
+var $controllerMinErr = minErr($fog$1056);
 
 
-var CNTRL_REG = $fog$665;
+var CNTRL_REG = $fog$922;
 function identifierForController(controller, ident) {
   if (ident && isString(ident)) return ident;
   if (isString(controller)) {
-    var match = CNTRL_REG[$fog$272](controller);
-    if (match) return match[$fog$206];
+    var match = CNTRL_REG[$fog$1315](controller);
+    if (match) return match[$fog$1381];
   }
 }
 
@@ -8963,7 +8979,7 @@ function identifierForController(controller, ident) {
  */
 function $ControllerProvider() {
   var controllers = {},
-      globals = $fog$38;
+      globals = $fog$1549;
 
   /**
    * @ngdoc method
@@ -8973,8 +8989,8 @@ function $ControllerProvider() {
    * @param {Function|Array} constructor Controller constructor fn (optionally decorated with DI
    *    annotations in the array notation).
    */
-  this[$fog$222] = function(name, constructor) {
-    assertNotHasOwnProperty(name, $fog$190);
+  this[$fog$1365] = function(name, constructor) {
+    assertNotHasOwnProperty(name, $fog$1397);
     if (isObject(name)) {
       extend(controllers, name);
     } else {
@@ -8987,12 +9003,12 @@ function $ControllerProvider() {
    * @name $controllerProvider#allowGlobals
    * @description If called, allows `$controller` to find controller constructors on `window`
    */
-  this[$fog$666] = function() {
-    globals = $fog$40;
+  this[$fog$921] = function() {
+    globals = $fog$1547;
   };
 
 
-  this[$fog$350] = [$fog$170, $fog$390, function($injector, $window) {
+  this[$fog$1237] = [$fog$1417, $fog$1197, function($injector, $window) {
 
     /**
      * @ngdoc service
@@ -9030,26 +9046,26 @@ function $ControllerProvider() {
       //   param `ident` --- An optional label which overrides the label parsed from the controller
       //                     expression, if any.
       var instance, match, constructor, identifier;
-      later = later === $fog$40;
+      later = later === $fog$1547;
       if (ident && isString(ident)) {
         identifier = ident;
       }
 
       if (isString(expression)) {
-        match = expression[$fog$88](CNTRL_REG);
+        match = expression[$fog$1499](CNTRL_REG);
         if (!match) {
-          throw $controllerMinErr($fog$667,
-            $fog$668 +
-            $fog$669, expression);
+          throw $controllerMinErr($fog$920,
+            $fog$919 +
+            $fog$918, expression);
         }
-        constructor = match[$fog$6],
-        identifier = identifier || match[$fog$206];
-        expression = controllers[$fog$20](constructor)
+        constructor = match[$fog$1581],
+        identifier = identifier || match[$fog$1381];
+        expression = controllers[$fog$1567](constructor)
             ? controllers[constructor]
-            : getter(locals[$fog$313], constructor, $fog$40) ||
-                (globals ? getter($window, constructor, $fog$40) : undefined);
+            : getter(locals[$fog$1274], constructor, $fog$1547) ||
+                (globals ? getter($window, constructor, $fog$1547) : undefined);
 
-        assertArgFn(expression, constructor, $fog$40);
+        assertArgFn(expression, constructor, $fog$1547);
       }
 
       if (later) {
@@ -9064,21 +9080,21 @@ function $ControllerProvider() {
         // publicly.
         // Object creation: http://jsperf.com/create-constructor/2
         var controllerPrototype = (isArray(expression) ?
-          expression[expression[$fog$10] - $fog$6] : expression)[$fog$21];
-        instance = Object[$fog$52](controllerPrototype || $fog$37);
+          expression[expression[$fog$1577] - $fog$1581] : expression)[$fog$1566];
+        instance = Object[$fog$1535](controllerPrototype || $fog$1550);
 
         if (identifier) {
-          addIdentifier(locals, identifier, instance, constructor || expression[$fog$42]);
+          addIdentifier(locals, identifier, instance, constructor || expression[$fog$1545]);
         }
 
         var instantiate;
         return instantiate = extend(function() {
-          var result = $injector[$fog$167](expression, instance, locals, constructor);
+          var result = $injector[$fog$1420](expression, instance, locals, constructor);
           if (result !== instance && (isObject(result) || isFunction(result))) {
             instance = result;
             if (identifier) {
               // If result changed, re-assign controllerAs value to scope.
-              addIdentifier(locals, identifier, instance, constructor || expression[$fog$42]);
+              addIdentifier(locals, identifier, instance, constructor || expression[$fog$1545]);
             }
           }
           return instance;
@@ -9088,23 +9104,23 @@ function $ControllerProvider() {
         });
       }
 
-      instance = $injector[$fog$367](expression, locals, constructor);
+      instance = $injector[$fog$1220](expression, locals, constructor);
 
       if (identifier) {
-        addIdentifier(locals, identifier, instance, constructor || expression[$fog$42]);
+        addIdentifier(locals, identifier, instance, constructor || expression[$fog$1545]);
       }
 
       return instance;
     };
 
     function addIdentifier(locals, identifier, instance, name) {
-      if (!(locals && isObject(locals[$fog$313]))) {
-        throw minErr($fog$531)($fog$670,
-          $fog$671,
+      if (!(locals && isObject(locals[$fog$1274]))) {
+        throw minErr($fog$1056)($fog$917,
+          $fog$916,
           name, identifier);
       }
 
-      locals[$fog$313][identifier] = instance;
+      locals[$fog$1274][identifier] = instance;
     }
   }];
 }
@@ -9135,8 +9151,8 @@ function $ControllerProvider() {
    </example>
  */
 function $DocumentProvider() {
-  this[$fog$350] = [$fog$390, function(window) {
-    return jqLite(window[$fog$154]);
+  this[$fog$1237] = [$fog$1197, function(window) {
+    return jqLite(window[$fog$1433]);
   }];
 }
 
@@ -9181,15 +9197,15 @@ function $DocumentProvider() {
  *
  */
 function $ExceptionHandlerProvider() {
-  this[$fog$350] = [$fog$481, function($log) {
+  this[$fog$1237] = [$fog$1106, function($log) {
     return function(exception, cause) {
-      $log[$fog$461][$fog$109]($log, arguments);
+      $log[$fog$1126][$fog$1478]($log, arguments);
     };
   }];
 }
 
 var $$ForceReflowProvider = function() {
-  this[$fog$350] = [$fog$483, function($document) {
+  this[$fog$1237] = [$fog$1104, function($document) {
     return function(domNode) {
       //the line below will force the browser to perform a repaint so
       //that all the animated elements within the animation frame will
@@ -9200,35 +9216,35 @@ var $$ForceReflowProvider = function() {
       //WILL RESULT IN AN UNPREDICTABLE BUG THAT IS VERY HARD TO TRACK DOWN AND
       //WILL TAKE YEARS AWAY FROM YOUR LIFE.
       if (domNode) {
-        if (!domNode[$fog$39] && domNode instanceof jqLite) {
-          domNode = domNode[$fog$1];
+        if (!domNode[$fog$1548] && domNode instanceof jqLite) {
+          domNode = domNode[$fog$1586];
         }
       } else {
-        domNode = $document[$fog$1][$fog$672];
+        domNode = $document[$fog$1586][$fog$915];
       }
-      return domNode[$fog$673] + $fog$6;
+      return domNode[$fog$914] + $fog$1581;
     };
   }];
 };
 
-var APPLICATION_JSON = $fog$674;
-var CONTENT_TYPE_APPLICATION_JSON = {'Content-Type': APPLICATION_JSON + $fog$675};
-var JSON_START = $fog$676;
+var APPLICATION_JSON = $fog$913;
+var CONTENT_TYPE_APPLICATION_JSON = {'Content-Type': APPLICATION_JSON + $fog$912};
+var JSON_START = $fog$911;
 var JSON_ENDS = {
-  '[': $fog$677,
-  '{': $fog$678
+  '[': $fog$910,
+  '{': $fog$909
 };
-var JSON_PROTECTION_PREFIX = $fog$679;
-var $httpMinErr = minErr($fog$680);
+var JSON_PROTECTION_PREFIX = $fog$908;
+var $httpMinErr = minErr($fog$907);
 var $httpMinErrLegacyFn = function(method) {
   return function() {
-    throw $httpMinErr($fog$681, $fog$682, method);
+    throw $httpMinErr($fog$906, $fog$905, method);
   };
 };
 
 function serializeValue(v) {
   if (isObject(v)) {
-    return isDate(v) ? v[$fog$683]() : toJson(v);
+    return isDate(v) ? v[$fog$904]() : toJson(v);
   }
   return v;
 }
@@ -9251,22 +9267,22 @@ function $HttpParamSerializerProvider() {
    * Note that serializer will sort the request parameters alphabetically.
    * */
 
-  this[$fog$350] = function() {
+  this[$fog$1237] = function() {
     return function ngParamSerializer(params) {
-      if (!params) return $fog$4;
+      if (!params) return $fog$1583;
       var parts = [];
       forEachSorted(params, function(value, key) {
-        if (value === $fog$37 || isUndefined(value)) return;
+        if (value === $fog$1550 || isUndefined(value)) return;
         if (isArray(value)) {
           forEach(value, function(v, k) {
-            parts[$fog$31](encodeUriQuery(key)  + $fog$16 + encodeUriQuery(serializeValue(v)));
+            parts[$fog$1556](encodeUriQuery(key)  + $fog$1571 + encodeUriQuery(serializeValue(v)));
           });
         } else {
-          parts[$fog$31](encodeUriQuery(key) + $fog$16 + encodeUriQuery(serializeValue(value)));
+          parts[$fog$1556](encodeUriQuery(key) + $fog$1571 + encodeUriQuery(serializeValue(value)));
         }
       });
 
-      return parts[$fog$131]($fog$14);
+      return parts[$fog$1456]($fog$1573);
     };
   };
 }
@@ -9315,28 +9331,28 @@ function $HttpParamSerializerJQLikeProvider() {
    * ```
    *
    * */
-  this[$fog$350] = function() {
+  this[$fog$1237] = function() {
     return function jQueryLikeParamSerializer(params) {
-      if (!params) return $fog$4;
+      if (!params) return $fog$1583;
       var parts = [];
-      serialize(params, $fog$4, $fog$40);
-      return parts[$fog$131]($fog$14);
+      serialize(params, $fog$1583, $fog$1547);
+      return parts[$fog$1456]($fog$1573);
 
       function serialize(toSerialize, prefix, topLevel) {
-        if (toSerialize === $fog$37 || isUndefined(toSerialize)) return;
+        if (toSerialize === $fog$1550 || isUndefined(toSerialize)) return;
         if (isArray(toSerialize)) {
           forEach(toSerialize, function(value, index) {
-            serialize(value, prefix + $fog$2 + (isObject(value) ? index : $fog$4) + $fog$150);
+            serialize(value, prefix + $fog$1585 + (isObject(value) ? index : $fog$1583) + $fog$1437);
           });
         } else if (isObject(toSerialize) && !isDate(toSerialize)) {
           forEachSorted(toSerialize, function(value, key) {
             serialize(value, prefix +
-                (topLevel ? $fog$4 : $fog$2) +
+                (topLevel ? $fog$1583 : $fog$1585) +
                 key +
-                (topLevel ? $fog$4 : $fog$150));
+                (topLevel ? $fog$1583 : $fog$1437));
           });
         } else {
-          parts[$fog$31](encodeUriQuery(prefix) + $fog$16 + encodeUriQuery(serializeValue(toSerialize)));
+          parts[$fog$1556](encodeUriQuery(prefix) + $fog$1571 + encodeUriQuery(serializeValue(toSerialize)));
         }
       }
     };
@@ -9346,11 +9362,11 @@ function $HttpParamSerializerJQLikeProvider() {
 function defaultHttpResponseTransform(data, headers) {
   if (isString(data)) {
     // Strip json vulnerability protection prefix and trim whitespace
-    var tempData = data[$fog$7](JSON_PROTECTION_PREFIX, $fog$4)[$fog$69]();
+    var tempData = data[$fog$1580](JSON_PROTECTION_PREFIX, $fog$1583)[$fog$1518]();
 
     if (tempData) {
-      var contentType = headers($fog$684);
-      if ((contentType && (contentType[$fog$80](APPLICATION_JSON) === $fog$1)) || isJsonLike(tempData)) {
+      var contentType = headers($fog$903);
+      if ((contentType && (contentType[$fog$1507](APPLICATION_JSON) === $fog$1586)) || isJsonLike(tempData)) {
         data = fromJson(tempData);
       }
     }
@@ -9360,8 +9376,8 @@ function defaultHttpResponseTransform(data, headers) {
 }
 
 function isJsonLike(str) {
-    var jsonStart = str[$fog$88](JSON_START);
-    return jsonStart && JSON_ENDS[jsonStart[$fog$1]][$fog$68](str);
+    var jsonStart = str[$fog$1499](JSON_START);
+    return jsonStart && JSON_ENDS[jsonStart[$fog$1586]][$fog$1519](str);
 }
 
 /**
@@ -9375,14 +9391,14 @@ function parseHeaders(headers) {
 
   function fillInParsed(key, val) {
     if (key) {
-      parsed[key] = parsed[key] ? parsed[key] + $fog$303 + val : val;
+      parsed[key] = parsed[key] ? parsed[key] + $fog$1284 + val : val;
     }
   }
 
   if (isString(headers)) {
-    forEach(headers[$fog$78]($fog$380), function(line) {
-      i = line[$fog$80]($fog$3);
-      fillInParsed(lowercase(trim(line[$fog$425]($fog$1, i))), trim(line[$fog$425](i + $fog$6)));
+    forEach(headers[$fog$1509]($fog$1207), function(line) {
+      i = line[$fog$1507]($fog$1584);
+      fillInParsed(lowercase(trim(line[$fog$1162]($fog$1586, i))), trim(line[$fog$1162](i + $fog$1581)));
     });
   } else if (isObject(headers)) {
     forEach(headers, function(headerVal, headerKey) {
@@ -9414,8 +9430,8 @@ function headersGetter(headers) {
 
     if (name) {
       var value = headersObj[lowercase(name)];
-      if (value === void $fog$1) {
-        value = $fog$37;
+      if (value === void $fog$1586) {
+        value = $fog$1550;
       }
       return value;
     }
@@ -9450,7 +9466,7 @@ function transformData(data, headers, status, fns) {
 
 
 function isSuccess(status) {
-  return $fog$685 <= status && status < $fog$686;
+  return $fog$902 <= status && status < $fog$901;
 }
 
 
@@ -9494,7 +9510,7 @@ function $HttpProvider() {
    *  Defaults to {@link ng.$httpParamSerializer $httpParamSerializer}.
    *
    **/
-  var defaults = this[$fog$687] = {
+  var defaults = this[$fog$900] = {
     // transform incoming response data
     transformResponse: [defaultHttpResponseTransform],
 
@@ -9506,20 +9522,20 @@ function $HttpProvider() {
     // default headers
     headers: {
       common: {
-        'Accept': $fog$688
+        'Accept': $fog$899
       },
       post:   shallowCopy(CONTENT_TYPE_APPLICATION_JSON),
       put:    shallowCopy(CONTENT_TYPE_APPLICATION_JSON),
       patch:  shallowCopy(CONTENT_TYPE_APPLICATION_JSON)
     },
 
-    xsrfCookieName: $fog$689,
-    xsrfHeaderName: $fog$690,
+    xsrfCookieName: $fog$898,
+    xsrfHeaderName: $fog$897,
 
-    paramSerializer: $fog$691
+    paramSerializer: $fog$896
   };
 
-  var useApplyAsync = $fog$38;
+  var useApplyAsync = $fog$1549;
   /**
    * @ngdoc method
    * @name $httpProvider#useApplyAsync
@@ -9539,7 +9555,7 @@ function $HttpProvider() {
    * @returns {boolean|Object} If a value is specified, returns the $httpProvider for chaining.
    *    otherwise, returns the current configured value.
    **/
-  this[$fog$692] = function(value) {
+  this[$fog$895] = function(value) {
     if (isDefined(value)) {
       useApplyAsync = !!value;
       return this;
@@ -9547,7 +9563,7 @@ function $HttpProvider() {
     return useApplyAsync;
   };
 
-  var useLegacyPromise = $fog$40;
+  var useLegacyPromise = $fog$1547;
   /**
    * @ngdoc method
    * @name $httpProvider#useLegacyPromiseExtensions
@@ -9563,7 +9579,7 @@ function $HttpProvider() {
    * @returns {boolean|Object} If a value is specified, returns the $httpProvider for chaining.
    *    otherwise, returns the current configured value.
    **/
-  this[$fog$693] = function(value) {
+  this[$fog$894] = function(value) {
     if (isDefined(value)) {
       useLegacyPromise = !!value;
       return this;
@@ -9584,18 +9600,18 @@ function $HttpProvider() {
    *
    * {@link ng.$http#interceptors Interceptors detailed info}
    **/
-  var interceptorFactories = this[$fog$694] = [];
+  var interceptorFactories = this[$fog$893] = [];
 
-  this[$fog$350] = [$fog$695, $fog$696, $fog$484, $fog$168, $fog$409, $fog$170,
+  this[$fog$1237] = [$fog$892, $fog$891, $fog$1103, $fog$1419, $fog$1178, $fog$1417,
       function($httpBackend, $$cookieReader, $cacheFactory, $rootScope, $q, $injector) {
 
-    var defaultCache = $cacheFactory($fog$680);
+    var defaultCache = $cacheFactory($fog$907);
 
     /**
      * Make sure that default param serializer is exposed as a function
      */
-    defaults[$fog$697] = isString(defaults[$fog$697]) ?
-      $injector[$fog$182](defaults[$fog$697]) : defaults[$fog$697];
+    defaults[$fog$890] = isString(defaults[$fog$890]) ?
+      $injector[$fog$1405](defaults[$fog$890]) : defaults[$fog$890];
 
     /**
      * Interceptors stored in reverse order. Inner interceptors before outer interceptors.
@@ -9605,8 +9621,8 @@ function $HttpProvider() {
     var reversedInterceptors = [];
 
     forEach(interceptorFactories, function(interceptorFactory) {
-      reversedInterceptors[$fog$161](isString(interceptorFactory)
-          ? $injector[$fog$182](interceptorFactory) : $injector[$fog$167](interceptorFactory));
+      reversedInterceptors[$fog$1426](isString(interceptorFactory)
+          ? $injector[$fog$1405](interceptorFactory) : $injector[$fog$1420](interceptorFactory));
     });
 
     /**
@@ -10133,84 +10149,84 @@ function $HttpProvider() {
      */
     function $http(requestConfig) {
 
-      if (!angular[$fog$698](requestConfig)) {
-        throw minErr($fog$680)($fog$699, $fog$700, requestConfig);
+      if (!angular[$fog$889](requestConfig)) {
+        throw minErr($fog$907)($fog$888, $fog$887, requestConfig);
       }
 
       var config = extend({
-        method: $fog$182,
-        transformRequest: defaults[$fog$701],
-        transformResponse: defaults[$fog$702],
-        paramSerializer: defaults[$fog$697]
+        method: $fog$1405,
+        transformRequest: defaults[$fog$886],
+        transformResponse: defaults[$fog$885],
+        paramSerializer: defaults[$fog$890]
       }, requestConfig);
 
-      config[$fog$703] = mergeHeaders(requestConfig);
-      config[$fog$704] = uppercase(config[$fog$704]);
-      config[$fog$697] = isString(config[$fog$697]) ?
-        $injector[$fog$182](config[$fog$697]) : config[$fog$697];
+      config[$fog$884] = mergeHeaders(requestConfig);
+      config[$fog$883] = uppercase(config[$fog$883]);
+      config[$fog$890] = isString(config[$fog$890]) ?
+        $injector[$fog$1405](config[$fog$890]) : config[$fog$890];
 
       var serverRequest = function(config) {
-        var headers = config[$fog$703];
-        var reqData = transformData(config[$fog$172], headersGetter(headers), undefined, config[$fog$701]);
+        var headers = config[$fog$884];
+        var reqData = transformData(config[$fog$1415], headersGetter(headers), undefined, config[$fog$886]);
 
         // strip content-type if data is undefined
         if (isUndefined(reqData)) {
           forEach(headers, function(value, header) {
-            if (lowercase(header) === $fog$705) {
+            if (lowercase(header) === $fog$882) {
                 delete headers[header];
             }
           });
         }
 
-        if (isUndefined(config[$fog$706]) && !isUndefined(defaults[$fog$706])) {
-          config[$fog$706] = defaults[$fog$706];
+        if (isUndefined(config[$fog$881]) && !isUndefined(defaults[$fog$881])) {
+          config[$fog$881] = defaults[$fog$881];
         }
 
         // send request
-        return sendReq(config, reqData)[$fog$66](transformResponse, transformResponse);
+        return sendReq(config, reqData)[$fog$1521](transformResponse, transformResponse);
       };
 
       var chain = [serverRequest, undefined];
-      var promise = $q[$fog$707](config);
+      var promise = $q[$fog$880](config);
 
       // apply interceptors
       forEach(reversedInterceptors, function(interceptor) {
-        if (interceptor[$fog$708] || interceptor[$fog$709]) {
-          chain[$fog$161](interceptor[$fog$708], interceptor[$fog$709]);
+        if (interceptor[$fog$879] || interceptor[$fog$878]) {
+          chain[$fog$1426](interceptor[$fog$879], interceptor[$fog$878]);
         }
-        if (interceptor[$fog$710] || interceptor[$fog$711]) {
-          chain[$fog$31](interceptor[$fog$710], interceptor[$fog$711]);
+        if (interceptor[$fog$877] || interceptor[$fog$876]) {
+          chain[$fog$1556](interceptor[$fog$877], interceptor[$fog$876]);
         }
       });
 
-      while (chain[$fog$10]) {
-        var thenFn = chain[$fog$385]();
-        var rejectFn = chain[$fog$385]();
+      while (chain[$fog$1577]) {
+        var thenFn = chain[$fog$1202]();
+        var rejectFn = chain[$fog$1202]();
 
-        promise = promise[$fog$66](thenFn, rejectFn);
+        promise = promise[$fog$1521](thenFn, rejectFn);
       }
 
       if (useLegacyPromise) {
-        promise[$fog$712] = function(fn) {
-          assertArgFn(fn, $fog$187);
+        promise[$fog$875] = function(fn) {
+          assertArgFn(fn, $fog$1400);
 
-          promise[$fog$66](function(response) {
-            fn(response[$fog$172], response[$fog$713], response[$fog$703], config);
+          promise[$fog$1521](function(response) {
+            fn(response[$fog$1415], response[$fog$874], response[$fog$884], config);
           });
           return promise;
         };
 
-        promise[$fog$461] = function(fn) {
-          assertArgFn(fn, $fog$187);
+        promise[$fog$1126] = function(fn) {
+          assertArgFn(fn, $fog$1400);
 
-          promise[$fog$66]($fog$37, function(response) {
-            fn(response[$fog$172], response[$fog$713], response[$fog$703], config);
+          promise[$fog$1521]($fog$1550, function(response) {
+            fn(response[$fog$1415], response[$fog$874], response[$fog$884], config);
           });
           return promise;
         };
       } else {
-        promise[$fog$712] = $httpMinErrLegacyFn($fog$712);
-        promise[$fog$461] = $httpMinErrLegacyFn($fog$461);
+        promise[$fog$875] = $httpMinErrLegacyFn($fog$875);
+        promise[$fog$1126] = $httpMinErrLegacyFn($fog$1126);
       }
 
       return promise;
@@ -10218,14 +10234,14 @@ function $HttpProvider() {
       function transformResponse(response) {
         // make a copy since the response must be cacheable
         var resp = extend({}, response);
-        if (!response[$fog$172]) {
-          resp[$fog$172] = response[$fog$172];
+        if (!response[$fog$1415]) {
+          resp[$fog$1415] = response[$fog$1415];
         } else {
-          resp[$fog$172] = transformData(response[$fog$172], response[$fog$703], response[$fog$713], config[$fog$702]);
+          resp[$fog$1415] = transformData(response[$fog$1415], response[$fog$884], response[$fog$874], config[$fog$885]);
         }
-        return (isSuccess(response[$fog$713]))
+        return (isSuccess(response[$fog$874]))
           ? resp
-          : $q[$fog$448](resp);
+          : $q[$fog$1139](resp);
       }
 
       function executeHeaderFns(headers, config) {
@@ -10234,7 +10250,7 @@ function $HttpProvider() {
         forEach(headers, function(headerFn, header) {
           if (isFunction(headerFn)) {
             headerContent = headerFn(config);
-            if (headerContent != $fog$37) {
+            if (headerContent != $fog$1550) {
               processedHeaders[header] = headerContent;
             }
           } else {
@@ -10246,11 +10262,11 @@ function $HttpProvider() {
       }
 
       function mergeHeaders(config) {
-        var defHeaders = defaults[$fog$703],
-            reqHeaders = extend({}, config[$fog$703]),
+        var defHeaders = defaults[$fog$884],
+            reqHeaders = extend({}, config[$fog$884]),
             defHeaderName, lowercaseDefHeaderName, reqHeaderName;
 
-        defHeaders = extend({}, defHeaders[$fog$714], defHeaders[lowercase(config[$fog$704])]);
+        defHeaders = extend({}, defHeaders[$fog$873], defHeaders[lowercase(config[$fog$883])]);
 
         // using for-in instead of forEach to avoid unecessary iteration after header has been found
         defaultHeadersIteration:
@@ -10271,7 +10287,7 @@ function $HttpProvider() {
       }
     }
 
-    $http[$fog$715] = [];
+    $http[$fog$872] = [];
 
     /**
      * @ngdoc method
@@ -10321,7 +10337,7 @@ function $HttpProvider() {
      * @param {Object=} config Optional configuration object
      * @returns {HttpPromise} Future object
      */
-    createShortMethods($fog$182, $fog$716, $fog$717, $fog$718);
+    createShortMethods($fog$1405, $fog$871, $fog$870, $fog$869);
 
     /**
      * @ngdoc method
@@ -10361,7 +10377,7 @@ function $HttpProvider() {
       * @param {Object=} config Optional configuration object
       * @returns {HttpPromise} Future object
       */
-    createShortMethodsWithData($fog$617, $fog$352, $fog$719);
+    createShortMethodsWithData($fog$970, $fog$1235, $fog$868);
 
         /**
          * @ngdoc property
@@ -10373,7 +10389,7 @@ function $HttpProvider() {
          *
          * See "Setting HTTP Headers" and "Transforming Requests and Responses" sections above.
          */
-    $http[$fog$687] = defaults;
+    $http[$fog$900] = defaults;
 
 
     return $http;
@@ -10411,41 +10427,41 @@ function $HttpProvider() {
      * $httpBackend, defaults, $log, $rootScope, defaultCache, $http.pendingRequests
      */
     function sendReq(config, reqData) {
-      var deferred = $q[$fog$447](),
-          promise = deferred[$fog$451],
+      var deferred = $q[$fog$1140](),
+          promise = deferred[$fog$1136],
           cache,
           cachedResp,
-          reqHeaders = config[$fog$703],
-          url = buildUrl(config[$fog$466], config[$fog$697](config[$fog$720]));
+          reqHeaders = config[$fog$884],
+          url = buildUrl(config[$fog$1121], config[$fog$890](config[$fog$867]));
 
-      $http[$fog$715][$fog$31](config);
-      promise[$fog$66](removePendingReq, removePendingReq);
+      $http[$fog$872][$fog$1556](config);
+      promise[$fog$1521](removePendingReq, removePendingReq);
 
 
-      if ((config[$fog$235] || defaults[$fog$235]) && config[$fog$235] !== $fog$38 &&
-          (config[$fog$704] === $fog$721 || config[$fog$704] === $fog$722)) {
-        cache = isObject(config[$fog$235]) ? config[$fog$235]
-              : isObject(defaults[$fog$235]) ? defaults[$fog$235]
+      if ((config[$fog$1352] || defaults[$fog$1352]) && config[$fog$1352] !== $fog$1549 &&
+          (config[$fog$883] === $fog$866 || config[$fog$883] === $fog$865)) {
+        cache = isObject(config[$fog$1352]) ? config[$fog$1352]
+              : isObject(defaults[$fog$1352]) ? defaults[$fog$1352]
               : defaultCache;
       }
 
       if (cache) {
-        cachedResp = cache[$fog$182](url);
+        cachedResp = cache[$fog$1405](url);
         if (isDefined(cachedResp)) {
           if (isPromiseLike(cachedResp)) {
             // cached request has already been sent, but there is no response yet
-            cachedResp[$fog$66](resolvePromiseWithResult, resolvePromiseWithResult);
+            cachedResp[$fog$1521](resolvePromiseWithResult, resolvePromiseWithResult);
           } else {
             // serving from cache
             if (isArray(cachedResp)) {
-              resolvePromise(cachedResp[$fog$6], cachedResp[$fog$1], shallowCopy(cachedResp[$fog$0]), cachedResp[$fog$206]);
+              resolvePromise(cachedResp[$fog$1581], cachedResp[$fog$1586], shallowCopy(cachedResp[$fog$1587]), cachedResp[$fog$1381]);
             } else {
-              resolvePromise(cachedResp, $fog$685, {}, $fog$723);
+              resolvePromise(cachedResp, $fog$902, {}, $fog$864);
             }
           }
         } else {
           // put the promise for the non-transformed response into cache as a placeholder
-          cache[$fog$352](url, promise);
+          cache[$fog$1235](url, promise);
         }
       }
 
@@ -10453,15 +10469,15 @@ function $HttpProvider() {
       // if we won't have the response in cache, set the xsrf headers and
       // send the request to the backend
       if (isUndefined(cachedResp)) {
-        var xsrfValue = urlIsSameOrigin(config[$fog$466])
-            ? $$cookieReader()[config[$fog$724] || defaults[$fog$724]]
+        var xsrfValue = urlIsSameOrigin(config[$fog$1121])
+            ? $$cookieReader()[config[$fog$863] || defaults[$fog$863]]
             : undefined;
         if (xsrfValue) {
-          reqHeaders[(config[$fog$725] || defaults[$fog$725])] = xsrfValue;
+          reqHeaders[(config[$fog$862] || defaults[$fog$862])] = xsrfValue;
         }
 
-        $httpBackend(config[$fog$704], url, reqData, done, reqHeaders, config[$fog$726],
-            config[$fog$706], config[$fog$727]);
+        $httpBackend(config[$fog$883], url, reqData, done, reqHeaders, config[$fog$861],
+            config[$fog$881], config[$fog$860]);
       }
 
       return promise;
@@ -10476,10 +10492,10 @@ function $HttpProvider() {
       function done(status, response, headersString, statusText) {
         if (cache) {
           if (isSuccess(status)) {
-            cache[$fog$352](url, [status, response, parseHeaders(headersString), statusText]);
+            cache[$fog$1235](url, [status, response, parseHeaders(headersString), statusText]);
           } else {
             // remove promise from the cache
-            cache[$fog$420](url);
+            cache[$fog$1167](url);
           }
         }
 
@@ -10488,10 +10504,10 @@ function $HttpProvider() {
         }
 
         if (useApplyAsync) {
-          $rootScope[$fog$728](resolveHttpPromise);
+          $rootScope[$fog$859](resolveHttpPromise);
         } else {
           resolveHttpPromise();
-          if (!$rootScope[$fog$729]) $rootScope[$fog$171]();
+          if (!$rootScope[$fog$858]) $rootScope[$fog$1416]();
         }
       }
 
@@ -10501,9 +10517,9 @@ function $HttpProvider() {
        */
       function resolvePromise(response, status, headers, statusText) {
         // normalize internal statuses to 0
-        status = Math[$fog$309](status, $fog$1);
+        status = Math[$fog$1278](status, $fog$1586);
 
-        (isSuccess(status) ? deferred[$fog$449] : deferred[$fog$448])({
+        (isSuccess(status) ? deferred[$fog$1138] : deferred[$fog$1139])({
           data: response,
           status: status,
           headers: headersGetter(headers),
@@ -10513,19 +10529,19 @@ function $HttpProvider() {
       }
 
       function resolvePromiseWithResult(result) {
-        resolvePromise(result[$fog$172], result[$fog$713], shallowCopy(result[$fog$703]()), result[$fog$730]);
+        resolvePromise(result[$fog$1415], result[$fog$874], shallowCopy(result[$fog$884]()), result[$fog$857]);
       }
 
       function removePendingReq() {
-        var idx = $http[$fog$715][$fog$80](config);
-        if (idx !== -$fog$6) $http[$fog$715][$fog$30](idx, $fog$6);
+        var idx = $http[$fog$872][$fog$1507](config);
+        if (idx !== -$fog$1581) $http[$fog$872][$fog$1557](idx, $fog$1581);
       }
     }
 
 
     function buildUrl(url, serializedParams) {
-      if (serializedParams[$fog$10] > $fog$1) {
-        url += ((url[$fog$80]($fog$13) == -$fog$6) ? $fog$13 : $fog$14) + serializedParams;
+      if (serializedParams[$fog$1577] > $fog$1586) {
+        url += ((url[$fog$1507]($fog$1574) == -$fog$1581) ? $fog$1574 : $fog$1573) + serializedParams;
       }
       return url;
     }
@@ -10533,7 +10549,7 @@ function $HttpProvider() {
 }
 
 function createXhr() {
-    return new window[$fog$731]();
+    return new window[$fog$856]();
 }
 
 /**
@@ -10553,80 +10569,80 @@ function createXhr() {
  * $httpBackend} which can be trained with responses.
  */
 function $HttpBackendProvider() {
-  this[$fog$350] = [$fog$732, $fog$390, $fog$483, function($browser, $window, $document) {
-    return createHttpBackend($browser, createXhr, $browser[$fog$447], $window[$fog$35][$fog$733], $document[$fog$1]);
+  this[$fog$1237] = [$fog$855, $fog$1197, $fog$1104, function($browser, $window, $document) {
+    return createHttpBackend($browser, createXhr, $browser[$fog$1140], $window[$fog$1552][$fog$854], $document[$fog$1586]);
   }];
 }
 
 function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDocument) {
   // TODO(vojta): fix the signature
   return function(method, url, post, callback, headers, timeout, withCredentials, responseType) {
-    $browser[$fog$459]();
-    url = url || $browser[$fog$466]();
+    $browser[$fog$1128]();
+    url = url || $browser[$fog$1121]();
 
-    if (lowercase(method) == $fog$718) {
-      var callbackId = $fog$184 + (callbacks[$fog$734]++)[$fog$32]($fog$735);
+    if (lowercase(method) == $fog$869) {
+      var callbackId = $fog$1403 + (callbacks[$fog$853]++)[$fog$1555]($fog$852);
       callbacks[callbackId] = function(data) {
-        callbacks[callbackId][$fog$172] = data;
-        callbacks[callbackId][$fog$736] = $fog$40;
+        callbacks[callbackId][$fog$1415] = data;
+        callbacks[callbackId][$fog$851] = $fog$1547;
       };
 
-      var jsonpDone = jsonpReq(url[$fog$7]($fog$737, $fog$738 + callbackId),
+      var jsonpDone = jsonpReq(url[$fog$1580]($fog$850, $fog$849 + callbackId),
           callbackId, function(status, text) {
-        completeRequest(callback, status, callbacks[callbackId][$fog$172], $fog$4, text);
+        completeRequest(callback, status, callbacks[callbackId][$fog$1415], $fog$1583, text);
         callbacks[callbackId] = noop;
       });
     } else {
 
       var xhr = createXhr();
 
-      xhr[$fog$739](method, url, $fog$40);
+      xhr[$fog$848](method, url, $fog$1547);
       forEach(headers, function(value, key) {
         if (isDefined(value)) {
-            xhr[$fog$740](key, value);
+            xhr[$fog$847](key, value);
         }
       });
 
-      xhr[$fog$741] = function requestLoaded() {
-        var statusText = xhr[$fog$730] || $fog$4;
+      xhr[$fog$846] = function requestLoaded() {
+        var statusText = xhr[$fog$857] || $fog$1583;
 
         // responseText is the old-school way of retrieving response (supported by IE9)
         // response/responseType properties were introduced in XHR Level2 spec (supported by IE10)
-        var response = ($fog$710 in xhr) ? xhr[$fog$710] : xhr[$fog$742];
+        var response = ($fog$877 in xhr) ? xhr[$fog$877] : xhr[$fog$845];
 
         // normalize IE9 bug (http://bugs.jquery.com/ticket/1450)
-        var status = xhr[$fog$713] === $fog$743 ? $fog$744 : xhr[$fog$713];
+        var status = xhr[$fog$874] === $fog$844 ? $fog$843 : xhr[$fog$874];
 
         // fix status code when it is 0 (0 status is undocumented).
         // Occurs when accessing file resources or on Android 4.1 stock browser
         // while retrieving files from application cache.
-        if (status === $fog$1) {
-          status = response ? $fog$685 : urlResolve(url)[$fog$745] == $fog$746 ? $fog$747 : $fog$1;
+        if (status === $fog$1586) {
+          status = response ? $fog$902 : urlResolve(url)[$fog$842] == $fog$841 ? $fog$840 : $fog$1586;
         }
 
         completeRequest(callback,
             status,
             response,
-            xhr[$fog$748](),
+            xhr[$fog$839](),
             statusText);
       };
 
       var requestError = function() {
         // The response is always empty
         // See https://xhr.spec.whatwg.org/#request-error-steps and https://fetch.spec.whatwg.org/#concept-network-error
-        completeRequest(callback, -$fog$6, $fog$37, $fog$37, $fog$4);
+        completeRequest(callback, -$fog$1581, $fog$1550, $fog$1550, $fog$1583);
       };
 
-      xhr[$fog$749] = requestError;
-      xhr[$fog$750] = requestError;
+      xhr[$fog$838] = requestError;
+      xhr[$fog$837] = requestError;
 
       if (withCredentials) {
-        xhr[$fog$706] = $fog$40;
+        xhr[$fog$881] = $fog$1547;
       }
 
       if (responseType) {
         try {
-          xhr[$fog$727] = responseType;
+          xhr[$fog$860] = responseType;
         } catch (e) {
           // WebKit added support for the json responseType value on 09/03/2013
           // https://bugs.webkit.org/show_bug.cgi?id=73648. Versions of Safari prior to 7 are
@@ -10635,36 +10651,36 @@ function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDoc
           //
           // The json response type can be ignored if not supported, because JSON payloads are
           // parsed on the client-side regardless.
-          if (responseType !== $fog$751) {
+          if (responseType !== $fog$836) {
             throw e;
           }
         }
       }
 
-      xhr[$fog$752](post);
+      xhr[$fog$835](post);
     }
 
-    if (timeout > $fog$1) {
+    if (timeout > $fog$1586) {
       var timeoutId = $browserDefer(timeoutRequest, timeout);
     } else if (isPromiseLike(timeout)) {
-      timeout[$fog$66](timeoutRequest);
+      timeout[$fog$1521](timeoutRequest);
     }
 
 
     function timeoutRequest() {
       jsonpDone && jsonpDone();
-      xhr && xhr[$fog$753]();
+      xhr && xhr[$fog$834]();
     }
 
     function completeRequest(callback, status, response, headersString, statusText) {
       // cancel timeout and subsequent timeout promise resolution
       if (timeoutId !== undefined) {
-        $browserDefer[$fog$480](timeoutId);
+        $browserDefer[$fog$1107](timeoutId);
       }
-      jsonpDone = xhr = $fog$37;
+      jsonpDone = xhr = $fog$1550;
 
       callback(status, response, headersString, statusText);
-      $browser[$fog$458](noop);
+      $browser[$fog$1129](noop);
     }
   };
 
@@ -10672,25 +10688,25 @@ function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDoc
     // we can't use jQuery/jqLite here because jQuery does crazy stuff with script elements, e.g.:
     // - fetches local scripts via XHR and evals them
     // - adds and immediately removes script elements from the document
-    var script = rawDocument[$fog$270]($fog$754), callback = $fog$37;
-    script[$fog$329] = $fog$755;
-    script[$fog$538] = url;
-    script[$fog$756] = $fog$40;
+    var script = rawDocument[$fog$1317]($fog$833), callback = $fog$1550;
+    script[$fog$1258] = $fog$832;
+    script[$fog$1049] = url;
+    script[$fog$831] = $fog$1547;
 
     callback = function(event) {
-      removeEventListenerFn(script, $fog$301, callback);
-      removeEventListenerFn(script, $fog$461, callback);
-      rawDocument[$fog$672][$fog$297](script);
-      script = $fog$37;
-      var status = -$fog$6;
-      var text = $fog$757;
+      removeEventListenerFn(script, $fog$1286, callback);
+      removeEventListenerFn(script, $fog$1126, callback);
+      rawDocument[$fog$915][$fog$1290](script);
+      script = $fog$1550;
+      var status = -$fog$1581;
+      var text = $fog$830;
 
       if (event) {
-        if (event[$fog$329] === $fog$301 && !callbacks[callbackId][$fog$736]) {
-          event = { type: $fog$461 };
+        if (event[$fog$1258] === $fog$1286 && !callbacks[callbackId][$fog$851]) {
+          event = { type: $fog$1126 };
         }
-        text = event[$fog$329];
-        status = event[$fog$329] === $fog$461 ? $fog$747 : $fog$685;
+        text = event[$fog$1258];
+        status = event[$fog$1258] === $fog$1126 ? $fog$840 : $fog$902;
       }
 
       if (done) {
@@ -10698,23 +10714,23 @@ function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDoc
       }
     };
 
-    addEventListenerFn(script, $fog$301, callback);
-    addEventListenerFn(script, $fog$461, callback);
-    rawDocument[$fog$672][$fog$269](script);
+    addEventListenerFn(script, $fog$1286, callback);
+    addEventListenerFn(script, $fog$1126, callback);
+    rawDocument[$fog$915][$fog$1318](script);
     return callback;
   }
 }
 
-var $interpolateMinErr = angular[$fog$758] = minErr($fog$528);
-$interpolateMinErr[$fog$759] = function(text) {
-  throw $interpolateMinErr($fog$760,
-      $fog$761 +
-      $fog$762 +
-      $fog$763, text);
+var $interpolateMinErr = angular[$fog$829] = minErr($fog$1059);
+$interpolateMinErr[$fog$828] = function(text) {
+  throw $interpolateMinErr($fog$827,
+      $fog$826 +
+      $fog$825 +
+      $fog$824, text);
 };
 
-$interpolateMinErr[$fog$764] = function(text, err) {
-  return $interpolateMinErr($fog$764, $fog$765, text, err[$fog$32]());
+$interpolateMinErr[$fog$823] = function(text, err) {
+  return $interpolateMinErr($fog$823, $fog$822, text, err[$fog$1555]());
 };
 
 /**
@@ -10753,8 +10769,8 @@ $interpolateMinErr[$fog$764] = function(text, err) {
 </example>
  */
 function $InterpolateProvider() {
-  var startSymbol = $fog$549;
-  var endSymbol = $fog$550;
+  var startSymbol = $fog$1038;
+  var endSymbol = $fog$1037;
 
   /**
    * @ngdoc method
@@ -10765,7 +10781,7 @@ function $InterpolateProvider() {
    * @param {string=} value new value to set the starting symbol to.
    * @returns {string|self} Returns the symbol when used as getter and self if used as setter.
    */
-  this[$fog$547] = function(value) {
+  this[$fog$1040] = function(value) {
     if (value) {
       startSymbol = value;
       return this;
@@ -10783,7 +10799,7 @@ function $InterpolateProvider() {
    * @param {string=} value new value to set the ending symbol to.
    * @returns {string|self} Returns the symbol when used as getter and self if used as setter.
    */
-  this[$fog$548] = function(value) {
+  this[$fog$1039] = function(value) {
     if (value) {
       endSymbol = value;
       return this;
@@ -10793,29 +10809,29 @@ function $InterpolateProvider() {
   };
 
 
-  this[$fog$350] = [$fog$530, $fog$516, $fog$532, function($parse, $exceptionHandler, $sce) {
-    var startSymbolLength = startSymbol[$fog$10],
-        endSymbolLength = endSymbol[$fog$10],
-        escapedStartRegexp = new RegExp(startSymbol[$fog$7]($fog$766, escape), $fog$767),
-        escapedEndRegexp = new RegExp(endSymbol[$fog$7]($fog$766, escape), $fog$767);
+  this[$fog$1237] = [$fog$1057, $fog$1071, $fog$1055, function($parse, $exceptionHandler, $sce) {
+    var startSymbolLength = startSymbol[$fog$1577],
+        endSymbolLength = endSymbol[$fog$1577],
+        escapedStartRegexp = new RegExp(startSymbol[$fog$1580]($fog$821, escape), $fog$820),
+        escapedEndRegexp = new RegExp(endSymbol[$fog$1580]($fog$821, escape), $fog$820);
 
     function escape(ch) {
-      return $fog$768 + ch;
+      return $fog$819 + ch;
     }
 
     function unescapeText(text) {
-      return text[$fog$7](escapedStartRegexp, startSymbol)[$fog$7](escapedEndRegexp, endSymbol);
+      return text[$fog$1580](escapedStartRegexp, startSymbol)[$fog$1580](escapedEndRegexp, endSymbol);
     }
 
     function stringify(value) {
-      if (value == $fog$37) { // null || undefined
-        return $fog$4;
+      if (value == $fog$1550) { // null || undefined
+        return $fog$1583;
       }
       switch (typeof value) {
-        case $fog$55:
+        case $fog$1532:
           break;
-        case $fog$41:
-          value = $fog$4 + value;
+        case $fog$1546:
+          value = $fog$1583 + value;
           break;
         default:
           value = toJson(value);
@@ -10922,30 +10938,30 @@ function $InterpolateProvider() {
       allOrNothing = !!allOrNothing;
       var startIndex,
           endIndex,
-          index = $fog$1,
+          index = $fog$1586,
           expressions = [],
           parseFns = [],
-          textLength = text[$fog$10],
+          textLength = text[$fog$1577],
           exp,
           concat = [],
           expressionPositions = [];
 
       while (index < textLength) {
-        if (((startIndex = text[$fog$80](startSymbol, index)) != -$fog$6) &&
-             ((endIndex = text[$fog$80](endSymbol, startIndex + startSymbolLength)) != -$fog$6)) {
+        if (((startIndex = text[$fog$1507](startSymbol, index)) != -$fog$1581) &&
+             ((endIndex = text[$fog$1507](endSymbol, startIndex + startSymbolLength)) != -$fog$1581)) {
           if (index !== startIndex) {
-            concat[$fog$31](unescapeText(text[$fog$130](index, startIndex)));
+            concat[$fog$1556](unescapeText(text[$fog$1457](index, startIndex)));
           }
-          exp = text[$fog$130](startIndex + startSymbolLength, endIndex);
-          expressions[$fog$31](exp);
-          parseFns[$fog$31]($parse(exp, parseStringifyInterceptor));
+          exp = text[$fog$1457](startIndex + startSymbolLength, endIndex);
+          expressions[$fog$1556](exp);
+          parseFns[$fog$1556]($parse(exp, parseStringifyInterceptor));
           index = endIndex + endSymbolLength;
-          expressionPositions[$fog$31](concat[$fog$10]);
-          concat[$fog$31]($fog$4);
+          expressionPositions[$fog$1556](concat[$fog$1577]);
+          concat[$fog$1556]($fog$1583);
         } else {
           // we did not find an interpolation, so we have to add the remainder to the separators array
           if (index !== textLength) {
-            concat[$fog$31](unescapeText(text[$fog$130](index)));
+            concat[$fog$1556](unescapeText(text[$fog$1457](index)));
           }
           break;
         }
@@ -10957,28 +10973,28 @@ function $InterpolateProvider() {
       // that's used is assigned or constructed by some JS code somewhere that is more testable or
       // make it obvious that you bound the value to some user controlled value.  This helps reduce
       // the load when auditing for XSS issues.
-      if (trustedContext && concat[$fog$10] > $fog$6) {
-          $interpolateMinErr[$fog$759](text);
+      if (trustedContext && concat[$fog$1577] > $fog$1581) {
+          $interpolateMinErr[$fog$828](text);
       }
 
-      if (!mustHaveExpression || expressions[$fog$10]) {
+      if (!mustHaveExpression || expressions[$fog$1577]) {
         var compute = function(values) {
-          for (var i = $fog$1, ii = expressions[$fog$10]; i < ii; i++) {
+          for (var i = $fog$1586, ii = expressions[$fog$1577]; i < ii; i++) {
             if (allOrNothing && isUndefined(values[i])) return;
             concat[expressionPositions[i]] = values[i];
           }
-          return concat[$fog$131]($fog$4);
+          return concat[$fog$1456]($fog$1583);
         };
 
         var getValue = function(value) {
           return trustedContext ?
-            $sce[$fog$769](trustedContext, value) :
-            $sce[$fog$50](value);
+            $sce[$fog$818](trustedContext, value) :
+            $sce[$fog$1537](value);
         };
 
         return extend(function interpolationFn(context) {
-            var i = $fog$1;
-            var ii = expressions[$fog$10];
+            var i = $fog$1586;
+            var ii = expressions[$fog$1577];
             var values = new Array(ii);
 
             try {
@@ -10988,7 +11004,7 @@ function $InterpolateProvider() {
 
               return compute(values);
             } catch (err) {
-              $exceptionHandler($interpolateMinErr[$fog$764](text, err));
+              $exceptionHandler($interpolateMinErr[$fog$823](text, err));
             }
 
           }, {
@@ -10997,10 +11013,10 @@ function $InterpolateProvider() {
           expressions: expressions,
           $$watchDelegate: function(scope, listener) {
             var lastValue;
-            return scope[$fog$770](parseFns, function interpolateFnWatcher(values, oldValues) {
+            return scope[$fog$817](parseFns, function interpolateFnWatcher(values, oldValues) {
               var currValue = compute(values);
               if (isFunction(listener)) {
-                listener[$fog$43](this, currValue, values !== oldValues ? lastValue : currValue, scope);
+                listener[$fog$1544](this, currValue, values !== oldValues ? lastValue : currValue, scope);
               }
               lastValue = currValue;
             });
@@ -11013,7 +11029,7 @@ function $InterpolateProvider() {
           value = getValue(value);
           return allOrNothing && !isDefined(value) ? value : stringify(value);
         } catch (err) {
-          $exceptionHandler($interpolateMinErr[$fog$764](text, err));
+          $exceptionHandler($interpolateMinErr[$fog$823](text, err));
         }
       }
     }
@@ -11030,7 +11046,7 @@ function $InterpolateProvider() {
      *
      * @returns {string} start symbol.
      */
-    $interpolate[$fog$547] = function() {
+    $interpolate[$fog$1040] = function() {
       return startSymbol;
     };
 
@@ -11046,7 +11062,7 @@ function $InterpolateProvider() {
      *
      * @returns {string} end symbol.
      */
-    $interpolate[$fog$548] = function() {
+    $interpolate[$fog$1039] = function() {
       return endSymbol;
     };
 
@@ -11055,7 +11071,7 @@ function $InterpolateProvider() {
 }
 
 function $IntervalProvider() {
-  this[$fog$350] = [$fog$168, $fog$390, $fog$409, $fog$771,
+  this[$fog$1237] = [$fog$1419, $fog$1197, $fog$1178, $fog$816,
        function($rootScope,   $window,   $q,   $$q) {
     var intervals = {};
 
@@ -11186,35 +11202,35 @@ function $IntervalProvider() {
       * </example>
       */
     function interval(fn, delay, count, invokeApply) {
-      var hasParams = arguments[$fog$10] > $fog$230,
-          args = hasParams ? sliceArgs(arguments, $fog$230) : [],
-          setInterval = $window[$fog$772],
-          clearInterval = $window[$fog$773],
-          iteration = $fog$1,
+      var hasParams = arguments[$fog$1577] > $fog$1357,
+          args = hasParams ? sliceArgs(arguments, $fog$1357) : [],
+          setInterval = $window[$fog$815],
+          clearInterval = $window[$fog$814],
+          iteration = $fog$1586,
           skipApply = (isDefined(invokeApply) && !invokeApply),
-          deferred = (skipApply ? $$q : $q)[$fog$447](),
-          promise = deferred[$fog$451];
+          deferred = (skipApply ? $$q : $q)[$fog$1140](),
+          promise = deferred[$fog$1136];
 
-      count = isDefined(count) ? count : $fog$1;
+      count = isDefined(count) ? count : $fog$1586;
 
-      promise[$fog$66]($fog$37, $fog$37, (!hasParams) ? fn : function() {
-        fn[$fog$109]($fog$37, args);
+      promise[$fog$1521]($fog$1550, $fog$1550, (!hasParams) ? fn : function() {
+        fn[$fog$1478]($fog$1550, args);
       });
 
-      promise[$fog$774] = setInterval(function tick() {
-        deferred[$fog$775](iteration++);
+      promise[$fog$813] = setInterval(function tick() {
+        deferred[$fog$812](iteration++);
 
-        if (count > $fog$1 && iteration >= count) {
-          deferred[$fog$449](iteration);
-          clearInterval(promise[$fog$774]);
-          delete intervals[promise[$fog$774]];
+        if (count > $fog$1586 && iteration >= count) {
+          deferred[$fog$1138](iteration);
+          clearInterval(promise[$fog$813]);
+          delete intervals[promise[$fog$813]];
         }
 
-        if (!skipApply) $rootScope[$fog$171]();
+        if (!skipApply) $rootScope[$fog$1416]();
 
       }, delay);
 
-      intervals[promise[$fog$774]] = deferred;
+      intervals[promise[$fog$813]] = deferred;
 
       return promise;
     }
@@ -11230,14 +11246,14 @@ function $IntervalProvider() {
       * @param {Promise=} promise returned by the `$interval` function.
       * @returns {boolean} Returns `true` if the task was successfully canceled.
       */
-    interval[$fog$480] = function(promise) {
-      if (promise && promise[$fog$774] in intervals) {
-        intervals[promise[$fog$774]][$fog$448]($fog$776);
-        $window[$fog$773](promise[$fog$774]);
-        delete intervals[promise[$fog$774]];
-        return $fog$40;
+    interval[$fog$1107] = function(promise) {
+      if (promise && promise[$fog$813] in intervals) {
+        intervals[promise[$fog$813]][$fog$1139]($fog$811);
+        $window[$fog$814](promise[$fog$813]);
+        delete intervals[promise[$fog$813]];
+        return $fog$1547;
       }
-      return $fog$38;
+      return $fog$1549;
     };
 
     return interval;
@@ -11255,9 +11271,9 @@ function $IntervalProvider() {
  * * `id` – `{string}` – locale id formatted as `languageId-countryId` (e.g. `en-us`)
  */
 
-var PATH_MATCH = $fog$777,
-    DEFAULT_PORTS = {'http': $fog$778, 'https': $fog$779, 'ftp': $fog$780};
-var $locationMinErr = minErr($fog$391);
+var PATH_MATCH = $fog$810,
+    DEFAULT_PORTS = {'http': $fog$809, 'https': $fog$808, 'ftp': $fog$807};
+var $locationMinErr = minErr($fog$1196);
 
 
 /**
@@ -11267,39 +11283,39 @@ var $locationMinErr = minErr($fog$391);
  * @returns {string}
  */
 function encodePath(path) {
-  var segments = path[$fog$78]($fog$12),
-      i = segments[$fog$10];
+  var segments = path[$fog$1509]($fog$1575),
+      i = segments[$fog$1577];
 
   while (i--) {
     segments[i] = encodeUriSegment(segments[i]);
   }
 
-  return segments[$fog$131]($fog$12);
+  return segments[$fog$1456]($fog$1575);
 }
 
 function parseAbsoluteUrl(absoluteUrl, locationObj) {
   var parsedUrl = urlResolve(absoluteUrl);
 
-  locationObj[$fog$781] = parsedUrl[$fog$745];
-  locationObj[$fog$782] = parsedUrl[$fog$783];
-  locationObj[$fog$784] = toInt(parsedUrl[$fog$785]) || DEFAULT_PORTS[parsedUrl[$fog$745]] || $fog$37;
+  locationObj[$fog$806] = parsedUrl[$fog$842];
+  locationObj[$fog$805] = parsedUrl[$fog$804];
+  locationObj[$fog$803] = toInt(parsedUrl[$fog$802]) || DEFAULT_PORTS[parsedUrl[$fog$842]] || $fog$1550;
 }
 
 
 function parseAppUrl(relativeUrl, locationObj) {
-  var prefixed = (relativeUrl[$fog$93]($fog$1) !== $fog$12);
+  var prefixed = (relativeUrl[$fog$1494]($fog$1586) !== $fog$1575);
   if (prefixed) {
-    relativeUrl = $fog$12 + relativeUrl;
+    relativeUrl = $fog$1575 + relativeUrl;
   }
   var match = urlResolve(relativeUrl);
-  locationObj[$fog$786] = decodeURIComponent(prefixed && match[$fog$787][$fog$93]($fog$1) === $fog$12 ?
-      match[$fog$787][$fog$130]($fog$6) : match[$fog$787]);
-  locationObj[$fog$788] = parseKeyValue(match[$fog$789]);
-  locationObj[$fog$790] = decodeURIComponent(match[$fog$404]);
+  locationObj[$fog$801] = decodeURIComponent(prefixed && match[$fog$800][$fog$1494]($fog$1586) === $fog$1575 ?
+      match[$fog$800][$fog$1457]($fog$1581) : match[$fog$800]);
+  locationObj[$fog$799] = parseKeyValue(match[$fog$798]);
+  locationObj[$fog$797] = decodeURIComponent(match[$fog$1183]);
 
   // make sure path starts with '/';
-  if (locationObj[$fog$786] && locationObj[$fog$786][$fog$93]($fog$1) != $fog$12) {
-    locationObj[$fog$786] = $fog$12 + locationObj[$fog$786];
+  if (locationObj[$fog$801] && locationObj[$fog$801][$fog$1494]($fog$1586) != $fog$1575) {
+    locationObj[$fog$801] = $fog$1575 + locationObj[$fog$801];
   }
 }
 
@@ -11312,29 +11328,29 @@ function parseAppUrl(relativeUrl, locationObj) {
  *                   expected string.
  */
 function beginsWith(begin, whole) {
-  if (whole[$fog$80](begin) === $fog$1) {
-    return whole[$fog$425](begin[$fog$10]);
+  if (whole[$fog$1507](begin) === $fog$1586) {
+    return whole[$fog$1162](begin[$fog$1577]);
   }
 }
 
 
 function stripHash(url) {
-  var index = url[$fog$80]($fog$462);
-  return index == -$fog$6 ? url : url[$fog$425]($fog$1, index);
+  var index = url[$fog$1507]($fog$1125);
+  return index == -$fog$1581 ? url : url[$fog$1162]($fog$1586, index);
 }
 
 function trimEmptyHash(url) {
-  return url[$fog$7]($fog$791, $fog$792);
+  return url[$fog$1580]($fog$796, $fog$795);
 }
 
 
 function stripFile(url) {
-  return url[$fog$425]($fog$1, stripHash(url)[$fog$793]($fog$12) + $fog$6);
+  return url[$fog$1162]($fog$1586, stripHash(url)[$fog$794]($fog$1575) + $fog$1581);
 }
 
 /* return the server only (scheme://host:port) */
 function serverBase(url) {
-  return url[$fog$130]($fog$1, url[$fog$80]($fog$12, url[$fog$80]($fog$794) + $fog$0));
+  return url[$fog$1457]($fog$1586, url[$fog$1507]($fog$1575, url[$fog$1507]($fog$793) + $fog$1587));
 }
 
 
@@ -11348,8 +11364,8 @@ function serverBase(url) {
  * @param {string} basePrefix url path prefix
  */
 function LocationHtml5Url(appBase, appBaseNoFile, basePrefix) {
-  this[$fog$795] = $fog$40;
-  basePrefix = basePrefix || $fog$4;
+  this[$fog$792] = $fog$1547;
+  basePrefix = basePrefix || $fog$1583;
   parseAbsoluteUrl(appBase, this);
 
 
@@ -11358,40 +11374,40 @@ function LocationHtml5Url(appBase, appBaseNoFile, basePrefix) {
    * @param {string} url HTML5 url
    * @private
    */
-  this[$fog$796] = function(url) {
+  this[$fog$791] = function(url) {
     var pathUrl = beginsWith(appBaseNoFile, url);
     if (!isString(pathUrl)) {
-      throw $locationMinErr($fog$797, $fog$798, url,
+      throw $locationMinErr($fog$790, $fog$789, url,
           appBaseNoFile);
     }
 
     parseAppUrl(pathUrl, this);
 
-    if (!this[$fog$786]) {
-      this[$fog$786] = $fog$12;
+    if (!this[$fog$801]) {
+      this[$fog$801] = $fog$1575;
     }
 
-    this[$fog$799]();
+    this[$fog$788]();
   };
 
   /**
    * Compose url and update `absUrl` property
    * @private
    */
-  this[$fog$799] = function() {
-    var search = toKeyValue(this[$fog$788]),
-        hash = this[$fog$790] ? $fog$462 + encodeUriSegment(this[$fog$790]) : $fog$4;
+  this[$fog$788] = function() {
+    var search = toKeyValue(this[$fog$799]),
+        hash = this[$fog$797] ? $fog$1125 + encodeUriSegment(this[$fog$797]) : $fog$1583;
 
-    this[$fog$800] = encodePath(this[$fog$786]) + (search ? $fog$13 + search : $fog$4) + hash;
-    this[$fog$801] = appBaseNoFile + this[$fog$800][$fog$425]($fog$6); // first char is always '/'
+    this[$fog$787] = encodePath(this[$fog$801]) + (search ? $fog$1574 + search : $fog$1583) + hash;
+    this[$fog$786] = appBaseNoFile + this[$fog$787][$fog$1162]($fog$1581); // first char is always '/'
   };
 
-  this[$fog$802] = function(url, relHref) {
-    if (relHref && relHref[$fog$1] === $fog$462) {
+  this[$fog$785] = function(url, relHref) {
+    if (relHref && relHref[$fog$1586] === $fog$1125) {
       // special case for links to hash fragments:
       // keep the old url and only replace the hash fragment
-      this[$fog$404](relHref[$fog$9]($fog$6));
-      return $fog$40;
+      this[$fog$1183](relHref[$fog$1578]($fog$1581));
+      return $fog$1547;
     }
     var appUrl, prevAppUrl;
     var rewrittenUrl;
@@ -11399,17 +11415,17 @@ function LocationHtml5Url(appBase, appBaseNoFile, basePrefix) {
     if ((appUrl = beginsWith(appBase, url)) !== undefined) {
       prevAppUrl = appUrl;
       if ((appUrl = beginsWith(basePrefix, appUrl)) !== undefined) {
-        rewrittenUrl = appBaseNoFile + (beginsWith($fog$12, appUrl) || appUrl);
+        rewrittenUrl = appBaseNoFile + (beginsWith($fog$1575, appUrl) || appUrl);
       } else {
         rewrittenUrl = appBase + prevAppUrl;
       }
     } else if ((appUrl = beginsWith(appBaseNoFile, url)) !== undefined) {
       rewrittenUrl = appBaseNoFile + appUrl;
-    } else if (appBaseNoFile == url + $fog$12) {
+    } else if (appBaseNoFile == url + $fog$1575) {
       rewrittenUrl = appBaseNoFile;
     }
     if (rewrittenUrl) {
-      this[$fog$796](rewrittenUrl);
+      this[$fog$791](rewrittenUrl);
     }
     return !!rewrittenUrl;
   };
@@ -11436,11 +11452,11 @@ function LocationHashbangUrl(appBase, appBaseNoFile, hashPrefix) {
    * @param {string} url Hashbang url
    * @private
    */
-  this[$fog$796] = function(url) {
+  this[$fog$791] = function(url) {
     var withoutBaseUrl = beginsWith(appBase, url) || beginsWith(appBaseNoFile, url);
     var withoutHashUrl;
 
-    if (!isUndefined(withoutBaseUrl) && withoutBaseUrl[$fog$93]($fog$1) === $fog$462) {
+    if (!isUndefined(withoutBaseUrl) && withoutBaseUrl[$fog$1494]($fog$1586) === $fog$1125) {
 
       // The rest of the url starts with a hash so we have
       // got either a hashbang path or a plain hash fragment
@@ -11454,22 +11470,22 @@ function LocationHashbangUrl(appBase, appBaseNoFile, hashPrefix) {
       // There was no hashbang path nor hash fragment:
       // If we are in HTML5 mode we use what is left as the path;
       // Otherwise we ignore what is left
-      if (this[$fog$795]) {
+      if (this[$fog$792]) {
         withoutHashUrl = withoutBaseUrl;
       } else {
-        withoutHashUrl = $fog$4;
+        withoutHashUrl = $fog$1583;
         if (isUndefined(withoutBaseUrl)) {
           appBase = url;
-          this[$fog$7]();
+          this[$fog$1580]();
         }
       }
     }
 
     parseAppUrl(withoutHashUrl, this);
 
-    this[$fog$786] = removeWindowsDriveName(this[$fog$786], withoutHashUrl, appBase);
+    this[$fog$801] = removeWindowsDriveName(this[$fog$801], withoutHashUrl, appBase);
 
-    this[$fog$799]();
+    this[$fog$788]();
 
     /*
      * In Windows, on an anchor node on documents loaded from
@@ -11487,22 +11503,22 @@ function LocationHashbangUrl(appBase, appBaseNoFile, hashPrefix) {
       Matches paths for file protocol on windows,
       such as /C:/foo/bar, and captures only /foo/bar.
       */
-      var windowsFilePathExp = $fog$803;
+      var windowsFilePathExp = $fog$784;
 
       var firstPathSegmentMatch;
 
       //Get the relative path from the input URL.
-      if (url[$fog$80](base) === $fog$1) {
-        url = url[$fog$7](base, $fog$4);
+      if (url[$fog$1507](base) === $fog$1586) {
+        url = url[$fog$1580](base, $fog$1583);
       }
 
       // The input URL intentionally contains a first path segment that ends with a colon.
-      if (windowsFilePathExp[$fog$272](url)) {
+      if (windowsFilePathExp[$fog$1315](url)) {
         return path;
       }
 
-      firstPathSegmentMatch = windowsFilePathExp[$fog$272](path);
-      return firstPathSegmentMatch ? firstPathSegmentMatch[$fog$6] : path;
+      firstPathSegmentMatch = windowsFilePathExp[$fog$1315](path);
+      return firstPathSegmentMatch ? firstPathSegmentMatch[$fog$1581] : path;
     }
   };
 
@@ -11510,20 +11526,20 @@ function LocationHashbangUrl(appBase, appBaseNoFile, hashPrefix) {
    * Compose hashbang url and update `absUrl` property
    * @private
    */
-  this[$fog$799] = function() {
-    var search = toKeyValue(this[$fog$788]),
-        hash = this[$fog$790] ? $fog$462 + encodeUriSegment(this[$fog$790]) : $fog$4;
+  this[$fog$788] = function() {
+    var search = toKeyValue(this[$fog$799]),
+        hash = this[$fog$797] ? $fog$1125 + encodeUriSegment(this[$fog$797]) : $fog$1583;
 
-    this[$fog$800] = encodePath(this[$fog$786]) + (search ? $fog$13 + search : $fog$4) + hash;
-    this[$fog$801] = appBase + (this[$fog$800] ? hashPrefix + this[$fog$800] : $fog$4);
+    this[$fog$787] = encodePath(this[$fog$801]) + (search ? $fog$1574 + search : $fog$1583) + hash;
+    this[$fog$786] = appBase + (this[$fog$787] ? hashPrefix + this[$fog$787] : $fog$1583);
   };
 
-  this[$fog$802] = function(url, relHref) {
+  this[$fog$785] = function(url, relHref) {
     if (stripHash(appBase) == stripHash(url)) {
-      this[$fog$796](url);
-      return $fog$40;
+      this[$fog$791](url);
+      return $fog$1547;
     }
-    return $fog$38;
+    return $fog$1549;
   };
 }
 
@@ -11539,15 +11555,15 @@ function LocationHashbangUrl(appBase, appBaseNoFile, hashPrefix) {
  * @param {string} hashPrefix hashbang prefix
  */
 function LocationHashbangInHtml5Url(appBase, appBaseNoFile, hashPrefix) {
-  this[$fog$795] = $fog$40;
-  LocationHashbangUrl[$fog$109](this, arguments);
+  this[$fog$792] = $fog$1547;
+  LocationHashbangUrl[$fog$1478](this, arguments);
 
-  this[$fog$802] = function(url, relHref) {
-    if (relHref && relHref[$fog$1] === $fog$462) {
+  this[$fog$785] = function(url, relHref) {
+    if (relHref && relHref[$fog$1586] === $fog$1125) {
       // special case for links to hash fragments:
       // keep the old url and only replace the hash fragment
-      this[$fog$404](relHref[$fog$9]($fog$6));
-      return $fog$40;
+      this[$fog$1183](relHref[$fog$1578]($fog$1581));
+      return $fog$1547;
     }
 
     var rewrittenUrl;
@@ -11557,22 +11573,22 @@ function LocationHashbangInHtml5Url(appBase, appBaseNoFile, hashPrefix) {
       rewrittenUrl = url;
     } else if ((appUrl = beginsWith(appBaseNoFile, url))) {
       rewrittenUrl = appBase + hashPrefix + appUrl;
-    } else if (appBaseNoFile === url + $fog$12) {
+    } else if (appBaseNoFile === url + $fog$1575) {
       rewrittenUrl = appBaseNoFile;
     }
     if (rewrittenUrl) {
-      this[$fog$796](rewrittenUrl);
+      this[$fog$791](rewrittenUrl);
     }
     return !!rewrittenUrl;
   };
 
-  this[$fog$799] = function() {
-    var search = toKeyValue(this[$fog$788]),
-        hash = this[$fog$790] ? $fog$462 + encodeUriSegment(this[$fog$790]) : $fog$4;
+  this[$fog$788] = function() {
+    var search = toKeyValue(this[$fog$799]),
+        hash = this[$fog$797] ? $fog$1125 + encodeUriSegment(this[$fog$797]) : $fog$1583;
 
-    this[$fog$800] = encodePath(this[$fog$786]) + (search ? $fog$13 + search : $fog$4) + hash;
+    this[$fog$787] = encodePath(this[$fog$801]) + (search ? $fog$1574 + search : $fog$1583) + hash;
     // include hashPrefix in $$absUrl when $$url is empty so IE9 does not reload page because of removal of '#'
-    this[$fog$801] = appBase + hashPrefix + this[$fog$800];
+    this[$fog$786] = appBase + hashPrefix + this[$fog$787];
   };
 
 }
@@ -11584,13 +11600,13 @@ var locationPrototype = {
    * Are we in html5 mode?
    * @private
    */
-  $$html5: $fog$38,
+  $$html5: $fog$1549,
 
   /**
    * Has any change been replacing?
    * @private
    */
-  $$replace: $fog$38,
+  $$replace: $fog$1549,
 
   /**
    * @ngdoc method
@@ -11611,7 +11627,7 @@ var locationPrototype = {
    *
    * @return {string} full url
    */
-  absUrl: locationGetter($fog$801),
+  absUrl: locationGetter($fog$786),
 
   /**
    * @ngdoc method
@@ -11636,13 +11652,13 @@ var locationPrototype = {
    */
   url: function(url) {
     if (isUndefined(url)) {
-      return this[$fog$800];
+      return this[$fog$787];
     }
 
-    var match = PATH_MATCH[$fog$272](url);
-    if (match[$fog$6] || url === $fog$4) this[$fog$804](decodeURIComponent(match[$fog$6]));
-    if (match[$fog$0] || match[$fog$6] || url === $fog$4) this[$fog$789](match[$fog$206] || $fog$4);
-    this[$fog$404](match[$fog$587] || $fog$4);
+    var match = PATH_MATCH[$fog$1315](url);
+    if (match[$fog$1581] || url === $fog$1583) this[$fog$783](decodeURIComponent(match[$fog$1581]));
+    if (match[$fog$1587] || match[$fog$1581] || url === $fog$1583) this[$fog$798](match[$fog$1381] || $fog$1583);
+    this[$fog$1183](match[$fog$1000] || $fog$1583);
 
     return this;
   },
@@ -11665,7 +11681,7 @@ var locationPrototype = {
    *
    * @return {string} protocol of current url
    */
-  protocol: locationGetter($fog$781),
+  protocol: locationGetter($fog$806),
 
   /**
    * @ngdoc method
@@ -11693,7 +11709,7 @@ var locationPrototype = {
    *
    * @return {string} host of current url.
    */
-  host: locationGetter($fog$782),
+  host: locationGetter($fog$805),
 
   /**
    * @ngdoc method
@@ -11713,7 +11729,7 @@ var locationPrototype = {
    *
    * @return {Number} port
    */
-  port: locationGetter($fog$784),
+  port: locationGetter($fog$803),
 
   /**
    * @ngdoc method
@@ -11739,9 +11755,9 @@ var locationPrototype = {
    * @param {(string|number)=} path New path
    * @return {string} path
    */
-  path: locationGetterSetter($fog$786, function(path) {
-    path = path !== $fog$37 ? path[$fog$32]() : $fog$4;
-    return path[$fog$93]($fog$1) == $fog$12 ? path : $fog$12 + path;
+  path: locationGetterSetter($fog$801, function(path) {
+    path = path !== $fog$1550 ? path[$fog$1555]() : $fog$1583;
+    return path[$fog$1494]($fog$1586) == $fog$1575 ? path : $fog$1575 + path;
   }),
 
   /**
@@ -11790,35 +11806,35 @@ var locationPrototype = {
    * one or more arguments returns `$location` object itself.
    */
   search: function(search, paramValue) {
-    switch (arguments[$fog$10]) {
-      case $fog$1:
-        return this[$fog$788];
-      case $fog$6:
+    switch (arguments[$fog$1577]) {
+      case $fog$1586:
+        return this[$fog$799];
+      case $fog$1581:
         if (isString(search) || isNumber(search)) {
-          search = search[$fog$32]();
-          this[$fog$788] = parseKeyValue(search);
+          search = search[$fog$1555]();
+          this[$fog$799] = parseKeyValue(search);
         } else if (isObject(search)) {
           search = copy(search, {});
           // remove object undefined or null properties
           forEach(search, function(value, key) {
-            if (value == $fog$37) delete search[key];
+            if (value == $fog$1550) delete search[key];
           });
 
-          this[$fog$788] = search;
+          this[$fog$799] = search;
         } else {
-          throw $locationMinErr($fog$805,
-              $fog$806);
+          throw $locationMinErr($fog$782,
+              $fog$781);
         }
         break;
       default:
-        if (isUndefined(paramValue) || paramValue === $fog$37) {
-          delete this[$fog$788][search];
+        if (isUndefined(paramValue) || paramValue === $fog$1550) {
+          delete this[$fog$799][search];
         } else {
-          this[$fog$788][search] = paramValue;
+          this[$fog$799][search] = paramValue;
         }
     }
 
-    this[$fog$799]();
+    this[$fog$788]();
     return this;
   },
 
@@ -11843,8 +11859,8 @@ var locationPrototype = {
    * @param {(string|number)=} hash New hash fragment
    * @return {string} hash
    */
-  hash: locationGetterSetter($fog$790, function(hash) {
-    return hash !== $fog$37 ? hash[$fog$32]() : $fog$4;
+  hash: locationGetterSetter($fog$797, function(hash) {
+    return hash !== $fog$1550 ? hash[$fog$1555]() : $fog$1583;
   }),
 
   /**
@@ -11856,13 +11872,13 @@ var locationPrototype = {
    * record, instead of adding new one.
    */
   replace: function() {
-    this[$fog$807] = $fog$40;
+    this[$fog$780] = $fog$1547;
     return this;
   }
 };
 
 forEach([LocationHashbangInHtml5Url, LocationHashbangUrl, LocationHtml5Url], function(Location) {
-  Location[$fog$21] = Object[$fog$52](locationPrototype);
+  Location[$fog$1566] = Object[$fog$1535](locationPrototype);
 
   /**
    * @ngdoc method
@@ -11883,19 +11899,19 @@ forEach([LocationHashbangInHtml5Url, LocationHashbangUrl, LocationHtml5Url], fun
    * @param {object=} state State object for pushState or replaceState
    * @return {object} state
    */
-  Location[$fog$21][$fog$471] = function(state) {
-    if (!arguments[$fog$10]) {
-      return this[$fog$808];
+  Location[$fog$1566][$fog$1116] = function(state) {
+    if (!arguments[$fog$1577]) {
+      return this[$fog$779];
     }
 
-    if (Location !== LocationHtml5Url || !this[$fog$795]) {
-      throw $locationMinErr($fog$809, $fog$810 +
-        $fog$811);
+    if (Location !== LocationHtml5Url || !this[$fog$792]) {
+      throw $locationMinErr($fog$778, $fog$777 +
+        $fog$776);
     }
     // The user might modify `stateObject` after invoking `$location.state(stateObject)`
     // but we're changing the $$state reference to $browser.state() during the $digest
     // so the modification window is narrow.
-    this[$fog$808] = isUndefined(state) ? $fog$37 : state;
+    this[$fog$779] = isUndefined(state) ? $fog$1550 : state;
 
     return this;
   };
@@ -11916,7 +11932,7 @@ function locationGetterSetter(property, preprocess) {
     }
 
     this[property] = preprocess(value);
-    this[$fog$799]();
+    this[$fog$788]();
 
     return this;
   };
@@ -11956,11 +11972,11 @@ function locationGetterSetter(property, preprocess) {
  * Use the `$locationProvider` to configure how the application deep linking paths are stored.
  */
 function $LocationProvider() {
-  var hashPrefix = $fog$4,
+  var hashPrefix = $fog$1583,
       html5Mode = {
-        enabled: $fog$38,
-        requireBase: $fog$40,
-        rewriteLinks: $fog$40
+        enabled: $fog$1549,
+        requireBase: $fog$1547,
+        rewriteLinks: $fog$1547
       };
 
   /**
@@ -11970,7 +11986,7 @@ function $LocationProvider() {
    * @param {string=} prefix Prefix for hash part (containing path and search)
    * @returns {*} current value if used as getter or itself (chaining) if used as setter
    */
-  this[$fog$812] = function(prefix) {
+  this[$fog$775] = function(prefix) {
     if (isDefined(prefix)) {
       hashPrefix = prefix;
       return this;
@@ -11998,22 +12014,22 @@ function $LocationProvider() {
    *
    * @returns {Object} html5Mode object if used as getter or itself (chaining) if used as setter
    */
-  this[$fog$813] = function(mode) {
+  this[$fog$774] = function(mode) {
     if (isBoolean(mode)) {
-      html5Mode[$fog$436] = mode;
+      html5Mode[$fog$1151] = mode;
       return this;
     } else if (isObject(mode)) {
 
-      if (isBoolean(mode[$fog$436])) {
-        html5Mode[$fog$436] = mode[$fog$436];
+      if (isBoolean(mode[$fog$1151])) {
+        html5Mode[$fog$1151] = mode[$fog$1151];
       }
 
-      if (isBoolean(mode[$fog$814])) {
-        html5Mode[$fog$814] = mode[$fog$814];
+      if (isBoolean(mode[$fog$773])) {
+        html5Mode[$fog$773] = mode[$fog$773];
       }
 
-      if (isBoolean(mode[$fog$815])) {
-        html5Mode[$fog$815] = mode[$fog$815];
+      if (isBoolean(mode[$fog$772])) {
+        html5Mode[$fog$772] = mode[$fog$772];
       }
 
       return this;
@@ -12061,92 +12077,92 @@ function $LocationProvider() {
    * @param {string=} oldState History state object that was before it was changed.
    */
 
-  this[$fog$350] = [$fog$168, $fog$732, $fog$482, $fog$164, $fog$390,
+  this[$fog$1237] = [$fog$1419, $fog$855, $fog$1105, $fog$1423, $fog$1197,
       function($rootScope, $browser, $sniffer, $rootElement, $window) {
     var $location,
         LocationMode,
-        baseHref = $browser[$fog$478](), // if base[href] is undefined, it defaults to ''
-        initialUrl = $browser[$fog$466](),
+        baseHref = $browser[$fog$1109](), // if base[href] is undefined, it defaults to ''
+        initialUrl = $browser[$fog$1121](),
         appBase;
 
-    if (html5Mode[$fog$436]) {
-      if (!baseHref && html5Mode[$fog$814]) {
-        throw $locationMinErr($fog$816,
-          $fog$817);
+    if (html5Mode[$fog$1151]) {
+      if (!baseHref && html5Mode[$fog$773]) {
+        throw $locationMinErr($fog$771,
+          $fog$770);
       }
-      appBase = serverBase(initialUrl) + (baseHref || $fog$12);
-      LocationMode = $sniffer[$fog$455] ? LocationHtml5Url : LocationHashbangInHtml5Url;
+      appBase = serverBase(initialUrl) + (baseHref || $fog$1575);
+      LocationMode = $sniffer[$fog$1132] ? LocationHtml5Url : LocationHashbangInHtml5Url;
     } else {
       appBase = stripHash(initialUrl);
       LocationMode = LocationHashbangUrl;
     }
     var appBaseNoFile = stripFile(appBase);
 
-    $location = new LocationMode(appBase, appBaseNoFile, $fog$462 + hashPrefix);
-    $location[$fog$802](initialUrl, initialUrl);
+    $location = new LocationMode(appBase, appBaseNoFile, $fog$1125 + hashPrefix);
+    $location[$fog$785](initialUrl, initialUrl);
 
-    $location[$fog$808] = $browser[$fog$471]();
+    $location[$fog$779] = $browser[$fog$1116]();
 
-    var IGNORE_URI_REGEXP = $fog$818;
+    var IGNORE_URI_REGEXP = $fog$769;
 
     function setBrowserUrlWithFallback(url, replace, state) {
-      var oldUrl = $location[$fog$466]();
-      var oldState = $location[$fog$808];
+      var oldUrl = $location[$fog$1121]();
+      var oldState = $location[$fog$779];
       try {
-        $browser[$fog$466](url, replace, state);
+        $browser[$fog$1121](url, replace, state);
 
         // Make sure $location.state() returns referentially identical (not just deeply equal)
         // state object; this makes possible quick checking if the state changed in the digest
         // loop. Checking deep equality would be too expensive.
-        $location[$fog$808] = $browser[$fog$471]();
+        $location[$fog$779] = $browser[$fog$1116]();
       } catch (e) {
         // Restore old values if pushState fails
-        $location[$fog$466](oldUrl);
-        $location[$fog$808] = oldState;
+        $location[$fog$1121](oldUrl);
+        $location[$fog$779] = oldState;
 
         throw e;
       }
     }
 
-    $rootElement[$fog$186]($fog$819, function(event) {
+    $rootElement[$fog$1401]($fog$768, function(event) {
       // TODO(vojta): rewrite link when opening in new tab/window (in legacy browser)
       // currently we open nice url link and redirect then
 
-      if (!html5Mode[$fog$815] || event[$fog$820] || event[$fog$821] || event[$fog$822] || event[$fog$823] == $fog$0 || event[$fog$824] == $fog$0) return;
+      if (!html5Mode[$fog$772] || event[$fog$767] || event[$fog$766] || event[$fog$765] || event[$fog$764] == $fog$1587 || event[$fog$763] == $fog$1587) return;
 
-      var elm = jqLite(event[$fog$825]);
+      var elm = jqLite(event[$fog$762]);
 
       // traverse the DOM up to find first A tag
-      while (nodeName_(elm[$fog$1]) !== $fog$393) {
+      while (nodeName_(elm[$fog$1586]) !== $fog$1194) {
         // ignore rewriting if no A tag (reached root element, or no parent - removed from document)
-        if (elm[$fog$1] === $rootElement[$fog$1] || !(elm = elm[$fog$438]())[$fog$1]) return;
+        if (elm[$fog$1586] === $rootElement[$fog$1586] || !(elm = elm[$fog$1149]())[$fog$1586]) return;
       }
 
-      var absHref = elm[$fog$75]($fog$464);
+      var absHref = elm[$fog$1512]($fog$1123);
       // get the actual href attribute - see
       // http://msdn.microsoft.com/en-us/library/ie/dd347148(v=vs.85).aspx
-      var relHref = elm[$fog$76]($fog$464) || elm[$fog$76]($fog$826);
+      var relHref = elm[$fog$1511]($fog$1123) || elm[$fog$1511]($fog$761);
 
-      if (isObject(absHref) && absHref[$fog$32]() === $fog$827) {
+      if (isObject(absHref) && absHref[$fog$1555]() === $fog$760) {
         // SVGAnimatedString.animVal should be identical to SVGAnimatedString.baseVal, unless during
         // an animation.
-        absHref = urlResolve(absHref[$fog$591])[$fog$464];
+        absHref = urlResolve(absHref[$fog$996])[$fog$1123];
       }
 
       // Ignore when url is started with javascript: or mailto:
-      if (IGNORE_URI_REGEXP[$fog$68](absHref)) return;
+      if (IGNORE_URI_REGEXP[$fog$1519](absHref)) return;
 
-      if (absHref && !elm[$fog$76]($fog$825) && !event[$fog$327]()) {
-        if ($location[$fog$802](absHref, relHref)) {
+      if (absHref && !elm[$fog$1511]($fog$762) && !event[$fog$1260]()) {
+        if ($location[$fog$785](absHref, relHref)) {
           // We do a preventDefault for all urls that are part of the angular application,
           // in html5mode and also without, so that we are able to abort navigation without
           // getting double entries in the location history.
-          event[$fog$828]();
+          event[$fog$759]();
           // update location manually
-          if ($location[$fog$829]() != $browser[$fog$466]()) {
-            $rootScope[$fog$171]();
+          if ($location[$fog$758]() != $browser[$fog$1121]()) {
+            $rootScope[$fog$1416]();
             // hack to work around FF6 bug 684208 when scenario runner clicks on links
-            $window[$fog$35][$fog$830] = $fog$40;
+            $window[$fog$1552][$fog$757] = $fog$1547;
           }
         }
       }
@@ -12154,83 +12170,83 @@ function $LocationProvider() {
 
 
     // rewrite hashbang url <> html5 url
-    if (trimEmptyHash($location[$fog$829]()) != trimEmptyHash(initialUrl)) {
-      $browser[$fog$466]($location[$fog$829](), $fog$40);
+    if (trimEmptyHash($location[$fog$758]()) != trimEmptyHash(initialUrl)) {
+      $browser[$fog$1121]($location[$fog$758](), $fog$1547);
     }
 
-    var initializing = $fog$40;
+    var initializing = $fog$1547;
 
     // update $location when $browser url changes
-    $browser[$fog$472](function(newUrl, newState) {
+    $browser[$fog$1115](function(newUrl, newState) {
 
       if (isUndefined(beginsWith(appBaseNoFile, newUrl))) {
         // If we are navigating outside of the app then force a reload
-        $window[$fog$179][$fog$464] = newUrl;
+        $window[$fog$1408][$fog$1123] = newUrl;
         return;
       }
 
-      $rootScope[$fog$60](function() {
-        var oldUrl = $location[$fog$829]();
-        var oldState = $location[$fog$808];
+      $rootScope[$fog$1527](function() {
+        var oldUrl = $location[$fog$758]();
+        var oldState = $location[$fog$779];
         var defaultPrevented;
 
-        $location[$fog$796](newUrl);
-        $location[$fog$808] = newState;
+        $location[$fog$791](newUrl);
+        $location[$fog$779] = newState;
 
-        defaultPrevented = $rootScope[$fog$831]($fog$832, newUrl, oldUrl,
-            newState, oldState)[$fog$328];
+        defaultPrevented = $rootScope[$fog$756]($fog$755, newUrl, oldUrl,
+            newState, oldState)[$fog$1259];
 
         // if the location was changed by a `$locationChangeStart` handler then stop
         // processing this location change
-        if ($location[$fog$829]() !== newUrl) return;
+        if ($location[$fog$758]() !== newUrl) return;
 
         if (defaultPrevented) {
-          $location[$fog$796](oldUrl);
-          $location[$fog$808] = oldState;
-          setBrowserUrlWithFallback(oldUrl, $fog$38, oldState);
+          $location[$fog$791](oldUrl);
+          $location[$fog$779] = oldState;
+          setBrowserUrlWithFallback(oldUrl, $fog$1549, oldState);
         } else {
-          initializing = $fog$38;
+          initializing = $fog$1549;
           afterLocationChange(oldUrl, oldState);
         }
       });
-      if (!$rootScope[$fog$729]) $rootScope[$fog$833]();
+      if (!$rootScope[$fog$858]) $rootScope[$fog$754]();
     });
 
     // update browser
-    $rootScope[$fog$61](function $locationWatch() {
-      var oldUrl = trimEmptyHash($browser[$fog$466]());
-      var newUrl = trimEmptyHash($location[$fog$829]());
-      var oldState = $browser[$fog$471]();
-      var currentReplace = $location[$fog$807];
+    $rootScope[$fog$1526](function $locationWatch() {
+      var oldUrl = trimEmptyHash($browser[$fog$1121]());
+      var newUrl = trimEmptyHash($location[$fog$758]());
+      var oldState = $browser[$fog$1116]();
+      var currentReplace = $location[$fog$780];
       var urlOrStateChanged = oldUrl !== newUrl ||
-        ($location[$fog$795] && $sniffer[$fog$455] && oldState !== $location[$fog$808]);
+        ($location[$fog$792] && $sniffer[$fog$1132] && oldState !== $location[$fog$779]);
 
       if (initializing || urlOrStateChanged) {
-        initializing = $fog$38;
+        initializing = $fog$1549;
 
-        $rootScope[$fog$60](function() {
-          var newUrl = $location[$fog$829]();
-          var defaultPrevented = $rootScope[$fog$831]($fog$832, newUrl, oldUrl,
-              $location[$fog$808], oldState)[$fog$328];
+        $rootScope[$fog$1527](function() {
+          var newUrl = $location[$fog$758]();
+          var defaultPrevented = $rootScope[$fog$756]($fog$755, newUrl, oldUrl,
+              $location[$fog$779], oldState)[$fog$1259];
 
           // if the location was changed by a `$locationChangeStart` handler then stop
           // processing this location change
-          if ($location[$fog$829]() !== newUrl) return;
+          if ($location[$fog$758]() !== newUrl) return;
 
           if (defaultPrevented) {
-            $location[$fog$796](oldUrl);
-            $location[$fog$808] = oldState;
+            $location[$fog$791](oldUrl);
+            $location[$fog$779] = oldState;
           } else {
             if (urlOrStateChanged) {
               setBrowserUrlWithFallback(newUrl, currentReplace,
-                                        oldState === $location[$fog$808] ? $fog$37 : $location[$fog$808]);
+                                        oldState === $location[$fog$779] ? $fog$1550 : $location[$fog$779]);
             }
             afterLocationChange(oldUrl, oldState);
           }
         });
       }
 
-      $location[$fog$807] = $fog$38;
+      $location[$fog$780] = $fog$1549;
 
       // we don't need to return anything because $evalAsync will make the digest loop dirty when
       // there is a change
@@ -12239,8 +12255,8 @@ function $LocationProvider() {
     return $location;
 
     function afterLocationChange(oldUrl, oldState) {
-      $rootScope[$fog$831]($fog$834, $location[$fog$829](), oldUrl,
-        $location[$fog$808], oldState);
+      $rootScope[$fog$756]($fog$753, $location[$fog$758](), oldUrl,
+        $location[$fog$779], oldState);
     }
 }];
 }
@@ -12290,7 +12306,7 @@ function $LocationProvider() {
  * Use the `$logProvider` to configure how the application logs messages
  */
 function $LogProvider() {
-  var debug = $fog$40,
+  var debug = $fog$1547,
       self = this;
 
   /**
@@ -12300,7 +12316,7 @@ function $LogProvider() {
    * @param {boolean=} flag enable or disable debug level messages
    * @returns {*} current value if used as getter or itself (chaining) if used as setter
    */
-  this[$fog$835] = function(flag) {
+  this[$fog$752] = function(flag) {
     if (isDefined(flag)) {
       debug = flag;
     return this;
@@ -12309,7 +12325,7 @@ function $LogProvider() {
     }
   };
 
-  this[$fog$350] = [$fog$390, function($window) {
+  this[$fog$1237] = [$fog$1197, function($window) {
     return {
       /**
        * @ngdoc method
@@ -12318,7 +12334,7 @@ function $LogProvider() {
        * @description
        * Write a log message
        */
-      log: consoleLog($fog$836),
+      log: consoleLog($fog$751),
 
       /**
        * @ngdoc method
@@ -12327,7 +12343,7 @@ function $LogProvider() {
        * @description
        * Write an information message
        */
-      info: consoleLog($fog$491),
+      info: consoleLog($fog$1096),
 
       /**
        * @ngdoc method
@@ -12336,7 +12352,7 @@ function $LogProvider() {
        * @description
        * Write a warning message
        */
-      warn: consoleLog($fog$837),
+      warn: consoleLog($fog$750),
 
       /**
        * @ngdoc method
@@ -12345,7 +12361,7 @@ function $LogProvider() {
        * @description
        * Write an error message
        */
-      error: consoleLog($fog$461),
+      error: consoleLog($fog$1126),
 
       /**
        * @ngdoc method
@@ -12355,11 +12371,11 @@ function $LogProvider() {
        * Write a debug message
        */
       debug: (function() {
-        var fn = consoleLog($fog$838);
+        var fn = consoleLog($fog$749);
 
         return function() {
           if (debug) {
-            fn[$fog$109](self, arguments);
+            fn[$fog$1478](self, arguments);
           }
         };
       }())
@@ -12367,42 +12383,42 @@ function $LogProvider() {
 
     function formatError(arg) {
       if (arg instanceof Error) {
-        if (arg[$fog$379]) {
-          arg = (arg[$fog$378] && arg[$fog$379][$fog$80](arg[$fog$378]) === -$fog$6)
-              ? $fog$839 + arg[$fog$378] + $fog$380 + arg[$fog$379]
-              : arg[$fog$379];
-        } else if (arg[$fog$840]) {
-          arg = arg[$fog$378] + $fog$380 + arg[$fog$840] + $fog$3 + arg[$fog$841];
+        if (arg[$fog$1208]) {
+          arg = (arg[$fog$1209] && arg[$fog$1208][$fog$1507](arg[$fog$1209]) === -$fog$1581)
+              ? $fog$748 + arg[$fog$1209] + $fog$1207 + arg[$fog$1208]
+              : arg[$fog$1208];
+        } else if (arg[$fog$747]) {
+          arg = arg[$fog$1209] + $fog$1207 + arg[$fog$747] + $fog$1584 + arg[$fog$746];
         }
       }
       return arg;
     }
 
     function consoleLog(type) {
-      var console = $window[$fog$842] || {},
-          logFn = console[type] || console[$fog$836] || noop,
-          hasApply = $fog$38;
+      var console = $window[$fog$745] || {},
+          logFn = console[type] || console[$fog$751] || noop,
+          hasApply = $fog$1549;
 
       // Note: reading logFn.apply throws an error in IE11 in IE8 document mode.
       // The reason behind this is that console.log has type "object" in IE8...
       try {
-        hasApply = !!logFn[$fog$109];
+        hasApply = !!logFn[$fog$1478];
       } catch (e) {}
 
       if (hasApply) {
         return function() {
           var args = [];
           forEach(arguments, function(arg) {
-            args[$fog$31](formatError(arg));
+            args[$fog$1556](formatError(arg));
           });
-          return logFn[$fog$109](console, args);
+          return logFn[$fog$1478](console, args);
         };
       }
 
       // we are IE which either doesn't have window.console => this is noop and we do nothing,
       // or we are IE where console.log doesn't have apply so we log at least first 2 args
       return function(arg1, arg2) {
-        logFn(arg1, arg2 == $fog$37 ? $fog$4 : arg2);
+        logFn(arg1, arg2 == $fog$1550 ? $fog$1583 : arg2);
       };
     }
   }];
@@ -12419,7 +12435,7 @@ function $LogProvider() {
  *     Or gives undesired access to variables likes document or window?    *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-var $parseMinErr = minErr($fog$530);
+var $parseMinErr = minErr($fog$1057);
 
 // Sandboxing Angular Expressions
 // ------------------------------
@@ -12446,12 +12462,12 @@ var $parseMinErr = minErr($fog$530);
 
 
 function ensureSafeMemberName(name, fullExpression) {
-  if (name === $fog$843 || name === $fog$844
-      || name === $fog$845 || name === $fog$846
-      || name === $fog$847) {
-    throw $parseMinErr($fog$848,
-        $fog$849
-        + $fog$850, fullExpression);
+  if (name === $fog$744 || name === $fog$743
+      || name === $fog$742 || name === $fog$741
+      || name === $fog$740) {
+    throw $parseMinErr($fog$739,
+        $fog$738
+        + $fog$737, fullExpression);
   }
   return name;
 }
@@ -12459,51 +12475,51 @@ function ensureSafeMemberName(name, fullExpression) {
 function ensureSafeObject(obj, fullExpression) {
   // nifty check if obj is Function that is fast and works across iframes and other contexts
   if (obj) {
-    if (obj[$fog$85] === obj) {
-      throw $parseMinErr($fog$851,
-          $fog$852,
+    if (obj[$fog$1502] === obj) {
+      throw $parseMinErr($fog$736,
+          $fog$735,
           fullExpression);
     } else if (// isWindow(obj)
-        obj[$fog$59] === obj) {
-      throw $parseMinErr($fog$853,
-          $fog$854,
+        obj[$fog$1528] === obj) {
+      throw $parseMinErr($fog$734,
+          $fog$733,
           fullExpression);
     } else if (// isElement(obj)
-        obj[$fog$855] && (obj[$fog$74] || (obj[$fog$75] && obj[$fog$76] && obj[$fog$77]))) {
-      throw $parseMinErr($fog$856,
-          $fog$857,
+        obj[$fog$732] && (obj[$fog$1513] || (obj[$fog$1512] && obj[$fog$1511] && obj[$fog$1510]))) {
+      throw $parseMinErr($fog$731,
+          $fog$730,
           fullExpression);
     } else if (// block Object so that we can't get hold of dangerous Object.* methods
         obj === Object) {
-      throw $parseMinErr($fog$858,
-          $fog$859,
+      throw $parseMinErr($fog$729,
+          $fog$728,
           fullExpression);
     }
   }
   return obj;
 }
 
-var CALL = Function[$fog$21][$fog$43];
-var APPLY = Function[$fog$21][$fog$109];
-var BIND = Function[$fog$21][$fog$348];
+var CALL = Function[$fog$1566][$fog$1544];
+var APPLY = Function[$fog$1566][$fog$1478];
+var BIND = Function[$fog$1566][$fog$1239];
 
 function ensureSafeFunction(obj, fullExpression) {
   if (obj) {
-    if (obj[$fog$85] === obj) {
-      throw $parseMinErr($fog$851,
-        $fog$852,
+    if (obj[$fog$1502] === obj) {
+      throw $parseMinErr($fog$736,
+        $fog$735,
         fullExpression);
     } else if (obj === CALL || obj === APPLY || obj === BIND) {
-      throw $parseMinErr($fog$860,
-        $fog$861,
+      throw $parseMinErr($fog$727,
+        $fog$726,
         fullExpression);
     }
   }
 }
 
 var OPERATORS = createMap();
-forEach($fog$862[$fog$78]($fog$288), function(operator) { OPERATORS[operator] = $fog$40; });
-var ESCAPE = {"n":$fog$380, "f":$fog$863, "r":$fog$864, "t":$fog$865, "v":$fog$866, "'":$fog$470, '"':$fog$867};
+forEach($fog$725[$fog$1509]($fog$1299), function(operator) { OPERATORS[operator] = $fog$1547; });
+var ESCAPE = {"n":$fog$1207, "f":$fog$724, "r":$fog$723, "t":$fog$722, "v":$fog$721, "'":$fog$1117, '"':$fog$720};
 
 
 /////////////////////////////////////////
@@ -12513,210 +12529,210 @@ var ESCAPE = {"n":$fog$380, "f":$fog$863, "r":$fog$864, "t":$fog$865, "v":$fog$8
  * @constructor
  */
 var Lexer = function(options) {
-  this[$fog$324] = options;
+  this[$fog$1263] = options;
 };
 
-Lexer[$fog$21] = {
+Lexer[$fog$1566] = {
   constructor: Lexer,
 
   lex: function(text) {
-    this[$fog$326] = text;
-    this[$fog$520] = $fog$1;
-    this[$fog$868] = [];
+    this[$fog$1261] = text;
+    this[$fog$1067] = $fog$1586;
+    this[$fog$719] = [];
 
-    while (this[$fog$520] < this[$fog$326][$fog$10]) {
-      var ch = this[$fog$326][$fog$93](this[$fog$520]);
-      if (ch === $fog$867 || ch === $fog$470) {
-        this[$fog$869](ch);
-      } else if (this[$fog$870](ch) || ch === $fog$204 && this[$fog$870](this[$fog$871]())) {
-        this[$fog$872]();
-      } else if (this[$fog$873](ch)) {
-        this[$fog$874]();
-      } else if (this[$fog$875](ch, $fog$876)) {
-        this[$fog$868][$fog$31]({index: this[$fog$520], text: ch});
-        this[$fog$520]++;
-      } else if (this[$fog$877](ch)) {
-        this[$fog$520]++;
+    while (this[$fog$1067] < this[$fog$1261][$fog$1577]) {
+      var ch = this[$fog$1261][$fog$1494](this[$fog$1067]);
+      if (ch === $fog$720 || ch === $fog$1117) {
+        this[$fog$718](ch);
+      } else if (this[$fog$717](ch) || ch === $fog$1383 && this[$fog$717](this[$fog$716]())) {
+        this[$fog$715]();
+      } else if (this[$fog$714](ch)) {
+        this[$fog$713]();
+      } else if (this[$fog$712](ch, $fog$711)) {
+        this[$fog$719][$fog$1556]({index: this[$fog$1067], text: ch});
+        this[$fog$1067]++;
+      } else if (this[$fog$710](ch)) {
+        this[$fog$1067]++;
       } else {
-        var ch2 = ch + this[$fog$871]();
-        var ch3 = ch2 + this[$fog$871]($fog$0);
+        var ch2 = ch + this[$fog$716]();
+        var ch3 = ch2 + this[$fog$716]($fog$1587);
         var op1 = OPERATORS[ch];
         var op2 = OPERATORS[ch2];
         var op3 = OPERATORS[ch3];
         if (op1 || op2 || op3) {
           var token = op3 ? ch3 : (op2 ? ch2 : ch);
-          this[$fog$868][$fog$31]({index: this[$fog$520], text: token, operator: $fog$40});
-          this[$fog$520] += token[$fog$10];
+          this[$fog$719][$fog$1556]({index: this[$fog$1067], text: token, operator: $fog$1547});
+          this[$fog$1067] += token[$fog$1577];
         } else {
-          this[$fog$878]($fog$879, this[$fog$520], this[$fog$520] + $fog$6);
+          this[$fog$709]($fog$708, this[$fog$1067], this[$fog$1067] + $fog$1581);
         }
       }
     }
-    return this[$fog$868];
+    return this[$fog$719];
   },
 
   is: function(ch, chars) {
-    return chars[$fog$80](ch) !== -$fog$6;
+    return chars[$fog$1507](ch) !== -$fog$1581;
   },
 
   peek: function(i) {
-    var num = i || $fog$6;
-    return (this[$fog$520] + num < this[$fog$326][$fog$10]) ? this[$fog$326][$fog$93](this[$fog$520] + num) : $fog$38;
+    var num = i || $fog$1581;
+    return (this[$fog$1067] + num < this[$fog$1261][$fog$1577]) ? this[$fog$1261][$fog$1494](this[$fog$1067] + num) : $fog$1549;
   },
 
   isNumber: function(ch) {
-    return ($fog$880 <= ch && ch <= $fog$881) && typeof ch === $fog$55;
+    return ($fog$707 <= ch && ch <= $fog$706) && typeof ch === $fog$1532;
   },
 
   isWhitespace: function(ch) {
     // IE treats non-breaking space as \u00A0
-    return (ch === $fog$288 || ch === $fog$864 || ch === $fog$865 ||
-            ch === $fog$380 || ch === $fog$866 || ch === $fog$882);
+    return (ch === $fog$1299 || ch === $fog$723 || ch === $fog$722 ||
+            ch === $fog$1207 || ch === $fog$721 || ch === $fog$705);
   },
 
   isIdent: function(ch) {
-    return ($fog$393 <= ch && ch <= $fog$883 ||
-            $fog$589 <= ch && ch <= $fog$884 ||
-            $fog$184 === ch || ch === $fog$94);
+    return ($fog$1194 <= ch && ch <= $fog$704 ||
+            $fog$998 <= ch && ch <= $fog$703 ||
+            $fog$1403 === ch || ch === $fog$1493);
   },
 
   isExpOperator: function(ch) {
-    return (ch === $fog$536 || ch === $fog$135 || this[$fog$870](ch));
+    return (ch === $fog$1051 || ch === $fog$1452 || this[$fog$717](ch));
   },
 
   throwError: function(error, start, end) {
-    end = end || this[$fog$520];
+    end = end || this[$fog$1067];
     var colStr = (isDefined(start)
-            ? $fog$885 + start +  $fog$536 + this[$fog$520] + $fog$886 + this[$fog$326][$fog$130](start, end) + $fog$150
-            : $fog$288 + end);
-    throw $parseMinErr($fog$887, $fog$888,
-        error, colStr, this[$fog$326]);
+            ? $fog$702 + start +  $fog$1051 + this[$fog$1067] + $fog$701 + this[$fog$1261][$fog$1457](start, end) + $fog$1437
+            : $fog$1299 + end);
+    throw $parseMinErr($fog$700, $fog$699,
+        error, colStr, this[$fog$1261]);
   },
 
   readNumber: function() {
-    var number = $fog$4;
-    var start = this[$fog$520];
-    while (this[$fog$520] < this[$fog$326][$fog$10]) {
-      var ch = lowercase(this[$fog$326][$fog$93](this[$fog$520]));
-      if (ch == $fog$204 || this[$fog$870](ch)) {
+    var number = $fog$1583;
+    var start = this[$fog$1067];
+    while (this[$fog$1067] < this[$fog$1261][$fog$1577]) {
+      var ch = lowercase(this[$fog$1261][$fog$1494](this[$fog$1067]));
+      if (ch == $fog$1383 || this[$fog$717](ch)) {
         number += ch;
       } else {
-        var peekCh = this[$fog$871]();
-        if (ch == $fog$889 && this[$fog$890](peekCh)) {
+        var peekCh = this[$fog$716]();
+        if (ch == $fog$698 && this[$fog$697](peekCh)) {
           number += ch;
-        } else if (this[$fog$890](ch) &&
-            peekCh && this[$fog$870](peekCh) &&
-            number[$fog$93](number[$fog$10] - $fog$6) == $fog$889) {
+        } else if (this[$fog$697](ch) &&
+            peekCh && this[$fog$717](peekCh) &&
+            number[$fog$1494](number[$fog$1577] - $fog$1581) == $fog$698) {
           number += ch;
-        } else if (this[$fog$890](ch) &&
-            (!peekCh || !this[$fog$870](peekCh)) &&
-            number[$fog$93](number[$fog$10] - $fog$6) == $fog$889) {
-          this[$fog$878]($fog$891);
+        } else if (this[$fog$697](ch) &&
+            (!peekCh || !this[$fog$717](peekCh)) &&
+            number[$fog$1494](number[$fog$1577] - $fog$1581) == $fog$698) {
+          this[$fog$709]($fog$696);
         } else {
           break;
         }
       }
-      this[$fog$520]++;
+      this[$fog$1067]++;
     }
-    this[$fog$868][$fog$31]({
+    this[$fog$719][$fog$1556]({
       index: start,
       text: number,
-      constant: $fog$40,
+      constant: $fog$1547,
       value: Number(number)
     });
   },
 
   readIdent: function() {
-    var start = this[$fog$520];
-    while (this[$fog$520] < this[$fog$326][$fog$10]) {
-      var ch = this[$fog$326][$fog$93](this[$fog$520]);
-      if (!(this[$fog$873](ch) || this[$fog$870](ch))) {
+    var start = this[$fog$1067];
+    while (this[$fog$1067] < this[$fog$1261][$fog$1577]) {
+      var ch = this[$fog$1261][$fog$1494](this[$fog$1067]);
+      if (!(this[$fog$714](ch) || this[$fog$717](ch))) {
         break;
       }
-      this[$fog$520]++;
+      this[$fog$1067]++;
     }
-    this[$fog$868][$fog$31]({
+    this[$fog$719][$fog$1556]({
       index: start,
-      text: this[$fog$326][$fog$9](start, this[$fog$520]),
-      identifier: $fog$40
+      text: this[$fog$1261][$fog$1578](start, this[$fog$1067]),
+      identifier: $fog$1547
     });
   },
 
   readString: function(quote) {
-    var start = this[$fog$520];
-    this[$fog$520]++;
-    var string = $fog$4;
+    var start = this[$fog$1067];
+    this[$fog$1067]++;
+    var string = $fog$1583;
     var rawString = quote;
-    var escape = $fog$38;
-    while (this[$fog$520] < this[$fog$326][$fog$10]) {
-      var ch = this[$fog$326][$fog$93](this[$fog$520]);
+    var escape = $fog$1549;
+    while (this[$fog$1067] < this[$fog$1261][$fog$1577]) {
+      var ch = this[$fog$1261][$fog$1494](this[$fog$1067]);
       rawString += ch;
       if (escape) {
-        if (ch === $fog$892) {
-          var hex = this[$fog$326][$fog$130](this[$fog$520] + $fog$6, this[$fog$520] + $fog$587);
-          if (!hex[$fog$88]($fog$893)) {
-            this[$fog$878]($fog$894 + hex + $fog$150);
+        if (ch === $fog$695) {
+          var hex = this[$fog$1261][$fog$1457](this[$fog$1067] + $fog$1581, this[$fog$1067] + $fog$1000);
+          if (!hex[$fog$1499]($fog$694)) {
+            this[$fog$709]($fog$693 + hex + $fog$1437);
           }
-          this[$fog$520] += $fog$230;
-          string += String[$fog$24](parseInt(hex, $fog$895));
+          this[$fog$1067] += $fog$1357;
+          string += String[$fog$1563](parseInt(hex, $fog$692));
         } else {
           var rep = ESCAPE[ch];
           string = string + (rep || ch);
         }
-        escape = $fog$38;
-      } else if (ch === $fog$896) {
-        escape = $fog$40;
+        escape = $fog$1549;
+      } else if (ch === $fog$691) {
+        escape = $fog$1547;
       } else if (ch === quote) {
-        this[$fog$520]++;
-        this[$fog$868][$fog$31]({
+        this[$fog$1067]++;
+        this[$fog$719][$fog$1556]({
           index: start,
           text: rawString,
-          constant: $fog$40,
+          constant: $fog$1547,
           value: string
         });
         return;
       } else {
         string += ch;
       }
-      this[$fog$520]++;
+      this[$fog$1067]++;
     }
-    this[$fog$878]($fog$897, start);
+    this[$fog$709]($fog$690, start);
   }
 };
 
 var AST = function(lexer, options) {
-  this[$fog$898] = lexer;
-  this[$fog$324] = options;
+  this[$fog$689] = lexer;
+  this[$fog$1263] = options;
 };
 
-AST[$fog$899] = $fog$899;
-AST[$fog$900] = $fog$900;
-AST[$fog$901] = $fog$901;
-AST[$fog$902] = $fog$902;
-AST[$fog$903] = $fog$903;
-AST[$fog$904] = $fog$904;
-AST[$fog$905] = $fog$905;
-AST[$fog$906] = $fog$906;
-AST[$fog$907] = $fog$907;
-AST[$fog$908] = $fog$908;
-AST[$fog$909] = $fog$909;
-AST[$fog$910] = $fog$910;
-AST[$fog$911] = $fog$911;
-AST[$fog$912] = $fog$912;
-AST[$fog$913] = $fog$913;
+AST[$fog$688] = $fog$688;
+AST[$fog$687] = $fog$687;
+AST[$fog$686] = $fog$686;
+AST[$fog$685] = $fog$685;
+AST[$fog$684] = $fog$684;
+AST[$fog$683] = $fog$683;
+AST[$fog$682] = $fog$682;
+AST[$fog$681] = $fog$681;
+AST[$fog$680] = $fog$680;
+AST[$fog$679] = $fog$679;
+AST[$fog$678] = $fog$678;
+AST[$fog$677] = $fog$677;
+AST[$fog$676] = $fog$676;
+AST[$fog$675] = $fog$675;
+AST[$fog$674] = $fog$674;
 
 // Internal use only
-AST[$fog$914] = $fog$914;
+AST[$fog$673] = $fog$673;
 
-AST[$fog$21] = {
+AST[$fog$1566] = {
   ast: function(text) {
-    this[$fog$326] = text;
-    this[$fog$868] = this[$fog$898][$fog$915](text);
+    this[$fog$1261] = text;
+    this[$fog$719] = this[$fog$689][$fog$672](text);
 
-    var value = this[$fog$916]();
+    var value = this[$fog$671]();
 
-    if (this[$fog$868][$fog$10] !== $fog$1) {
-      this[$fog$878]($fog$917, this[$fog$868][$fog$1]);
+    if (this[$fog$719][$fog$1577] !== $fog$1586) {
+      this[$fog$709]($fog$670, this[$fog$719][$fog$1586]);
     }
 
     return value;
@@ -12724,146 +12740,146 @@ AST[$fog$21] = {
 
   program: function() {
     var body = [];
-    while ($fog$40) {
-      if (this[$fog$868][$fog$10] > $fog$1 && !this[$fog$871]($fog$918, $fog$359, $fog$142, $fog$150))
-        body[$fog$31](this[$fog$919]());
-      if (!this[$fog$920]($fog$142)) {
-        return { type: AST[$fog$899], body: body};
+    while ($fog$1547) {
+      if (this[$fog$719][$fog$1577] > $fog$1586 && !this[$fog$716]($fog$669, $fog$1228, $fog$1445, $fog$1437))
+        body[$fog$1556](this[$fog$668]());
+      if (!this[$fog$667]($fog$1445)) {
+        return { type: AST[$fog$688], body: body};
       }
     }
   },
 
   expressionStatement: function() {
-    return { type: AST[$fog$900], expression: this[$fog$921]() };
+    return { type: AST[$fog$687], expression: this[$fog$666]() };
   },
 
   filterChain: function() {
-    var left = this[$fog$922]();
+    var left = this[$fog$665]();
     var token;
-    while ((token = this[$fog$920]($fog$923))) {
-      left = this[$fog$924](left);
+    while ((token = this[$fog$667]($fog$664))) {
+      left = this[$fog$663](left);
     }
     return left;
   },
 
   expression: function() {
-    return this[$fog$925]();
+    return this[$fog$662]();
   },
 
   assignment: function() {
-    var result = this[$fog$926]();
-    if (this[$fog$920]($fog$16)) {
-      result = { type: AST[$fog$901], left: result, right: this[$fog$925](), operator: $fog$16};
+    var result = this[$fog$661]();
+    if (this[$fog$667]($fog$1571)) {
+      result = { type: AST[$fog$686], left: result, right: this[$fog$662](), operator: $fog$1571};
     }
     return result;
   },
 
   ternary: function() {
-    var test = this[$fog$927]();
+    var test = this[$fog$660]();
     var alternate;
     var consequent;
-    if (this[$fog$920]($fog$13)) {
-      alternate = this[$fog$922]();
-      if (this[$fog$928]($fog$3)) {
-        consequent = this[$fog$922]();
-        return { type: AST[$fog$902], test: test, alternate: alternate, consequent: consequent};
+    if (this[$fog$667]($fog$1574)) {
+      alternate = this[$fog$665]();
+      if (this[$fog$659]($fog$1584)) {
+        consequent = this[$fog$665]();
+        return { type: AST[$fog$685], test: test, alternate: alternate, consequent: consequent};
       }
     }
     return test;
   },
 
   logicalOR: function() {
-    var left = this[$fog$929]();
-    while (this[$fog$920]($fog$930)) {
-      left = { type: AST[$fog$903], operator: $fog$930, left: left, right: this[$fog$929]() };
+    var left = this[$fog$658]();
+    while (this[$fog$667]($fog$657)) {
+      left = { type: AST[$fog$684], operator: $fog$657, left: left, right: this[$fog$658]() };
     }
     return left;
   },
 
   logicalAND: function() {
-    var left = this[$fog$931]();
-    while (this[$fog$920]($fog$932)) {
-      left = { type: AST[$fog$903], operator: $fog$932, left: left, right: this[$fog$931]()};
+    var left = this[$fog$656]();
+    while (this[$fog$667]($fog$655)) {
+      left = { type: AST[$fog$684], operator: $fog$655, left: left, right: this[$fog$656]()};
     }
     return left;
   },
 
   equality: function() {
-    var left = this[$fog$933]();
+    var left = this[$fog$654]();
     var token;
-    while ((token = this[$fog$920]($fog$934,$fog$935,$fog$936,$fog$937))) {
-      left = { type: AST[$fog$904], operator: token[$fog$326], left: left, right: this[$fog$933]() };
+    while ((token = this[$fog$667]($fog$653,$fog$652,$fog$651,$fog$650))) {
+      left = { type: AST[$fog$683], operator: token[$fog$1261], left: left, right: this[$fog$654]() };
     }
     return left;
   },
 
   relational: function() {
-    var left = this[$fog$938]();
+    var left = this[$fog$649]();
     var token;
-    while ((token = this[$fog$920]($fog$127, $fog$633, $fog$939, $fog$940))) {
-      left = { type: AST[$fog$904], operator: token[$fog$326], left: left, right: this[$fog$938]() };
+    while ((token = this[$fog$667]($fog$1460, $fog$954, $fog$648, $fog$647))) {
+      left = { type: AST[$fog$683], operator: token[$fog$1261], left: left, right: this[$fog$649]() };
     }
     return left;
   },
 
   additive: function() {
-    var left = this[$fog$941]();
+    var left = this[$fog$646]();
     var token;
-    while ((token = this[$fog$920]($fog$135,$fog$536))) {
-      left = { type: AST[$fog$904], operator: token[$fog$326], left: left, right: this[$fog$941]() };
+    while ((token = this[$fog$667]($fog$1452,$fog$1051))) {
+      left = { type: AST[$fog$683], operator: token[$fog$1261], left: left, right: this[$fog$646]() };
     }
     return left;
   },
 
   multiplicative: function() {
-    var left = this[$fog$942]();
+    var left = this[$fog$645]();
     var token;
-    while ((token = this[$fog$920]($fog$284,$fog$12,$fog$943))) {
-      left = { type: AST[$fog$904], operator: token[$fog$326], left: left, right: this[$fog$942]() };
+    while ((token = this[$fog$667]($fog$1303,$fog$1575,$fog$644))) {
+      left = { type: AST[$fog$683], operator: token[$fog$1261], left: left, right: this[$fog$645]() };
     }
     return left;
   },
 
   unary: function() {
     var token;
-    if ((token = this[$fog$920]($fog$135, $fog$536, $fog$944))) {
-      return { type: AST[$fog$905], operator: token[$fog$326], prefix: $fog$40, argument: this[$fog$942]() };
+    if ((token = this[$fog$667]($fog$1452, $fog$1051, $fog$643))) {
+      return { type: AST[$fog$682], operator: token[$fog$1261], prefix: $fog$1547, argument: this[$fog$645]() };
     } else {
-      return this[$fog$945]();
+      return this[$fog$642]();
     }
   },
 
   primary: function() {
     var primary;
-    if (this[$fog$920]($fog$946)) {
-      primary = this[$fog$921]();
-      this[$fog$928]($fog$359);
-    } else if (this[$fog$920]($fog$2)) {
-      primary = this[$fog$947]();
-    } else if (this[$fog$920]($fog$948)) {
-      primary = this[$fog$44]();
-    } else if (this[$fog$949][$fog$20](this[$fog$871]()[$fog$326])) {
-      primary = copy(this[$fog$949][this[$fog$928]()[$fog$326]]);
-    } else if (this[$fog$871]()[$fog$624]) {
-      primary = this[$fog$624]();
-    } else if (this[$fog$871]()[$fog$219]) {
-      primary = this[$fog$219]();
+    if (this[$fog$667]($fog$641)) {
+      primary = this[$fog$666]();
+      this[$fog$659]($fog$1228);
+    } else if (this[$fog$667]($fog$1585)) {
+      primary = this[$fog$640]();
+    } else if (this[$fog$667]($fog$639)) {
+      primary = this[$fog$1543]();
+    } else if (this[$fog$638][$fog$1567](this[$fog$716]()[$fog$1261])) {
+      primary = copy(this[$fog$638][this[$fog$659]()[$fog$1261]]);
+    } else if (this[$fog$716]()[$fog$963]) {
+      primary = this[$fog$963]();
+    } else if (this[$fog$716]()[$fog$1368]) {
+      primary = this[$fog$1368]();
     } else {
-      this[$fog$878]($fog$950, this[$fog$871]());
+      this[$fog$709]($fog$637, this[$fog$716]());
     }
 
     var next;
-    while ((next = this[$fog$920]($fog$946, $fog$2, $fog$204))) {
-      if (next[$fog$326] === $fog$946) {
-        primary = {type: AST[$fog$906], callee: primary, arguments: this[$fog$951]() };
-        this[$fog$928]($fog$359);
-      } else if (next[$fog$326] === $fog$2) {
-        primary = { type: AST[$fog$907], object: primary, property: this[$fog$922](), computed: $fog$40 };
-        this[$fog$928]($fog$150);
-      } else if (next[$fog$326] === $fog$204) {
-        primary = { type: AST[$fog$907], object: primary, property: this[$fog$624](), computed: $fog$38 };
+    while ((next = this[$fog$667]($fog$641, $fog$1585, $fog$1383))) {
+      if (next[$fog$1261] === $fog$641) {
+        primary = {type: AST[$fog$681], callee: primary, arguments: this[$fog$636]() };
+        this[$fog$659]($fog$1228);
+      } else if (next[$fog$1261] === $fog$1585) {
+        primary = { type: AST[$fog$680], object: primary, property: this[$fog$665](), computed: $fog$1547 };
+        this[$fog$659]($fog$1437);
+      } else if (next[$fog$1261] === $fog$1383) {
+        primary = { type: AST[$fog$680], object: primary, property: this[$fog$963](), computed: $fog$1549 };
       } else {
-        this[$fog$878]($fog$952);
+        this[$fog$709]($fog$635);
       }
     }
     return primary;
@@ -12871,10 +12887,10 @@ AST[$fog$21] = {
 
   filter: function(baseExpression) {
     var args = [baseExpression];
-    var result = {type: AST[$fog$906], callee: this[$fog$624](), arguments: args, filter: $fog$40};
+    var result = {type: AST[$fog$681], callee: this[$fog$963](), arguments: args, filter: $fog$1547};
 
-    while (this[$fog$920]($fog$3)) {
-      args[$fog$31](this[$fog$922]());
+    while (this[$fog$667]($fog$1584)) {
+      args[$fog$1556](this[$fog$665]());
     }
 
     return result;
@@ -12882,117 +12898,117 @@ AST[$fog$21] = {
 
   parseArguments: function() {
     var args = [];
-    if (this[$fog$953]()[$fog$326] !== $fog$359) {
+    if (this[$fog$634]()[$fog$1261] !== $fog$1228) {
       do {
-        args[$fog$31](this[$fog$922]());
-      } while (this[$fog$920]($fog$79));
+        args[$fog$1556](this[$fog$665]());
+      } while (this[$fog$667]($fog$1508));
     }
     return args;
   },
 
   identifier: function() {
-    var token = this[$fog$928]();
-    if (!token[$fog$624]) {
-      this[$fog$878]($fog$954, token);
+    var token = this[$fog$659]();
+    if (!token[$fog$963]) {
+      this[$fog$709]($fog$633, token);
     }
-    return { type: AST[$fog$908], name: token[$fog$326] };
+    return { type: AST[$fog$679], name: token[$fog$1261] };
   },
 
   constant: function() {
     // TODO check that it is a constant
-    return { type: AST[$fog$909], value: this[$fog$928]()[$fog$163] };
+    return { type: AST[$fog$678], value: this[$fog$659]()[$fog$1424] };
   },
 
   arrayDeclaration: function() {
     var elements = [];
-    if (this[$fog$953]()[$fog$326] !== $fog$150) {
+    if (this[$fog$634]()[$fog$1261] !== $fog$1437) {
       do {
-        if (this[$fog$871]($fog$150)) {
+        if (this[$fog$716]($fog$1437)) {
           // Support trailing commas per ES5.1.
           break;
         }
-        elements[$fog$31](this[$fog$922]());
-      } while (this[$fog$920]($fog$79));
+        elements[$fog$1556](this[$fog$665]());
+      } while (this[$fog$667]($fog$1508));
     }
-    this[$fog$928]($fog$150);
+    this[$fog$659]($fog$1437);
 
-    return { type: AST[$fog$910], elements: elements };
+    return { type: AST[$fog$677], elements: elements };
   },
 
   object: function() {
     var properties = [], property;
-    if (this[$fog$953]()[$fog$326] !== $fog$918) {
+    if (this[$fog$634]()[$fog$1261] !== $fog$669) {
       do {
-        if (this[$fog$871]($fog$918)) {
+        if (this[$fog$716]($fog$669)) {
           // Support trailing commas per ES5.1.
           break;
         }
-        property = {type: AST[$fog$911], kind: $fog$955};
-        if (this[$fog$871]()[$fog$219]) {
-          property[$fog$489] = this[$fog$219]();
-        } else if (this[$fog$871]()[$fog$624]) {
-          property[$fog$489] = this[$fog$624]();
+        property = {type: AST[$fog$676], kind: $fog$632};
+        if (this[$fog$716]()[$fog$1368]) {
+          property[$fog$1098] = this[$fog$1368]();
+        } else if (this[$fog$716]()[$fog$963]) {
+          property[$fog$1098] = this[$fog$963]();
         } else {
-          this[$fog$878]($fog$956, this[$fog$871]());
+          this[$fog$709]($fog$631, this[$fog$716]());
         }
-        this[$fog$928]($fog$3);
-        property[$fog$163] = this[$fog$922]();
-        properties[$fog$31](property);
-      } while (this[$fog$920]($fog$79));
+        this[$fog$659]($fog$1584);
+        property[$fog$1424] = this[$fog$665]();
+        properties[$fog$1556](property);
+      } while (this[$fog$667]($fog$1508));
     }
-    this[$fog$928]($fog$918);
+    this[$fog$659]($fog$669);
 
-    return {type: AST[$fog$912], properties: properties };
+    return {type: AST[$fog$675], properties: properties };
   },
 
   throwError: function(msg, token) {
-    throw $parseMinErr($fog$957,
-        $fog$958,
-          token[$fog$326], msg, (token[$fog$520] + $fog$6), this[$fog$326], this[$fog$326][$fog$130](token[$fog$520]));
+    throw $parseMinErr($fog$630,
+        $fog$629,
+          token[$fog$1261], msg, (token[$fog$1067] + $fog$1581), this[$fog$1261], this[$fog$1261][$fog$1457](token[$fog$1067]));
   },
 
   consume: function(e1) {
-    if (this[$fog$868][$fog$10] === $fog$1) {
-      throw $parseMinErr($fog$959, $fog$960, this[$fog$326]);
+    if (this[$fog$719][$fog$1577] === $fog$1586) {
+      throw $parseMinErr($fog$628, $fog$627, this[$fog$1261]);
     }
 
-    var token = this[$fog$920](e1);
+    var token = this[$fog$667](e1);
     if (!token) {
-      this[$fog$878]($fog$961 + e1 + $fog$150, this[$fog$871]());
+      this[$fog$709]($fog$626 + e1 + $fog$1437, this[$fog$716]());
     }
     return token;
   },
 
   peekToken: function() {
-    if (this[$fog$868][$fog$10] === $fog$1) {
-      throw $parseMinErr($fog$959, $fog$960, this[$fog$326]);
+    if (this[$fog$719][$fog$1577] === $fog$1586) {
+      throw $parseMinErr($fog$628, $fog$627, this[$fog$1261]);
     }
-    return this[$fog$868][$fog$1];
+    return this[$fog$719][$fog$1586];
   },
 
   peek: function(e1, e2, e3, e4) {
-    return this[$fog$962]($fog$1, e1, e2, e3, e4);
+    return this[$fog$625]($fog$1586, e1, e2, e3, e4);
   },
 
   peekAhead: function(i, e1, e2, e3, e4) {
-    if (this[$fog$868][$fog$10] > i) {
-      var token = this[$fog$868][i];
-      var t = token[$fog$326];
+    if (this[$fog$719][$fog$1577] > i) {
+      var token = this[$fog$719][i];
+      var t = token[$fog$1261];
       if (t === e1 || t === e2 || t === e3 || t === e4 ||
           (!e1 && !e2 && !e3 && !e4)) {
         return token;
       }
     }
-    return $fog$38;
+    return $fog$1549;
   },
 
   expect: function(e1, e2, e3, e4) {
-    var token = this[$fog$871](e1, e2, e3, e4);
+    var token = this[$fog$716](e1, e2, e3, e4);
     if (token) {
-      this[$fog$868][$fog$385]();
+      this[$fog$719][$fog$1202]();
       return token;
     }
-    return $fog$38;
+    return $fog$1549;
   },
 
 
@@ -13000,225 +13016,225 @@ AST[$fog$21] = {
    * but using it as an identifier is not supported
    */
   constants: {
-    'true': { type: AST[$fog$909], value: $fog$40 },
-    'false': { type: AST[$fog$909], value: $fog$38 },
-    'null': { type: AST[$fog$909], value: $fog$37 },
-    'undefined': {type: AST[$fog$909], value: undefined },
-    'this': {type: AST[$fog$913] }
+    'true': { type: AST[$fog$678], value: $fog$1547 },
+    'false': { type: AST[$fog$678], value: $fog$1549 },
+    'null': { type: AST[$fog$678], value: $fog$1550 },
+    'undefined': {type: AST[$fog$678], value: undefined },
+    'this': {type: AST[$fog$674] }
   }
 };
 
 function ifDefined(v, d) {
-  return typeof v !== $fog$54 ? v : d;
+  return typeof v !== $fog$1533 ? v : d;
 }
 
 function plusFn(l, r) {
-  if (typeof l === $fog$54) return r;
-  if (typeof r === $fog$54) return l;
+  if (typeof l === $fog$1533) return r;
+  if (typeof r === $fog$1533) return l;
   return l + r;
 }
 
 function isStateless($filter, filterName) {
   var fn = $filter(filterName);
-  return !fn[$fog$660];
+  return !fn[$fog$927];
 }
 
 function findConstantAndWatchExpressions(ast, $filter) {
   var allConstants;
   var argsToWatch;
-  switch (ast[$fog$329]) {
-  case AST[$fog$899]:
-    allConstants = $fog$40;
-    forEach(ast[$fog$672], function(expr) {
-      findConstantAndWatchExpressions(expr[$fog$922], $filter);
-      allConstants = allConstants && expr[$fog$922][$fog$219];
+  switch (ast[$fog$1258]) {
+  case AST[$fog$688]:
+    allConstants = $fog$1547;
+    forEach(ast[$fog$915], function(expr) {
+      findConstantAndWatchExpressions(expr[$fog$665], $filter);
+      allConstants = allConstants && expr[$fog$665][$fog$1368];
     });
-    ast[$fog$219] = allConstants;
+    ast[$fog$1368] = allConstants;
     break;
-  case AST[$fog$909]:
-    ast[$fog$219] = $fog$40;
-    ast[$fog$963] = [];
+  case AST[$fog$678]:
+    ast[$fog$1368] = $fog$1547;
+    ast[$fog$624] = [];
     break;
-  case AST[$fog$905]:
-    findConstantAndWatchExpressions(ast[$fog$964], $filter);
-    ast[$fog$219] = ast[$fog$964][$fog$219];
-    ast[$fog$963] = ast[$fog$964][$fog$963];
+  case AST[$fog$682]:
+    findConstantAndWatchExpressions(ast[$fog$623], $filter);
+    ast[$fog$1368] = ast[$fog$623][$fog$1368];
+    ast[$fog$624] = ast[$fog$623][$fog$624];
     break;
-  case AST[$fog$904]:
-    findConstantAndWatchExpressions(ast[$fog$965], $filter);
-    findConstantAndWatchExpressions(ast[$fog$966], $filter);
-    ast[$fog$219] = ast[$fog$965][$fog$219] && ast[$fog$966][$fog$219];
-    ast[$fog$963] = ast[$fog$965][$fog$963][$fog$108](ast[$fog$966][$fog$963]);
+  case AST[$fog$683]:
+    findConstantAndWatchExpressions(ast[$fog$622], $filter);
+    findConstantAndWatchExpressions(ast[$fog$621], $filter);
+    ast[$fog$1368] = ast[$fog$622][$fog$1368] && ast[$fog$621][$fog$1368];
+    ast[$fog$624] = ast[$fog$622][$fog$624][$fog$1479](ast[$fog$621][$fog$624]);
     break;
-  case AST[$fog$903]:
-    findConstantAndWatchExpressions(ast[$fog$965], $filter);
-    findConstantAndWatchExpressions(ast[$fog$966], $filter);
-    ast[$fog$219] = ast[$fog$965][$fog$219] && ast[$fog$966][$fog$219];
-    ast[$fog$963] = ast[$fog$219] ? [] : [ast];
+  case AST[$fog$684]:
+    findConstantAndWatchExpressions(ast[$fog$622], $filter);
+    findConstantAndWatchExpressions(ast[$fog$621], $filter);
+    ast[$fog$1368] = ast[$fog$622][$fog$1368] && ast[$fog$621][$fog$1368];
+    ast[$fog$624] = ast[$fog$1368] ? [] : [ast];
     break;
-  case AST[$fog$902]:
-    findConstantAndWatchExpressions(ast[$fog$68], $filter);
-    findConstantAndWatchExpressions(ast[$fog$967], $filter);
-    findConstantAndWatchExpressions(ast[$fog$968], $filter);
-    ast[$fog$219] = ast[$fog$68][$fog$219] && ast[$fog$967][$fog$219] && ast[$fog$968][$fog$219];
-    ast[$fog$963] = ast[$fog$219] ? [] : [ast];
+  case AST[$fog$685]:
+    findConstantAndWatchExpressions(ast[$fog$1519], $filter);
+    findConstantAndWatchExpressions(ast[$fog$620], $filter);
+    findConstantAndWatchExpressions(ast[$fog$619], $filter);
+    ast[$fog$1368] = ast[$fog$1519][$fog$1368] && ast[$fog$620][$fog$1368] && ast[$fog$619][$fog$1368];
+    ast[$fog$624] = ast[$fog$1368] ? [] : [ast];
     break;
-  case AST[$fog$908]:
-    ast[$fog$219] = $fog$38;
-    ast[$fog$963] = [ast];
+  case AST[$fog$679]:
+    ast[$fog$1368] = $fog$1549;
+    ast[$fog$624] = [ast];
     break;
-  case AST[$fog$907]:
-    findConstantAndWatchExpressions(ast[$fog$44], $filter);
-    if (ast[$fog$969]) {
-      findConstantAndWatchExpressions(ast[$fog$970], $filter);
+  case AST[$fog$680]:
+    findConstantAndWatchExpressions(ast[$fog$1543], $filter);
+    if (ast[$fog$618]) {
+      findConstantAndWatchExpressions(ast[$fog$617], $filter);
     }
-    ast[$fog$219] = ast[$fog$44][$fog$219] && (!ast[$fog$969] || ast[$fog$970][$fog$219]);
-    ast[$fog$963] = [ast];
+    ast[$fog$1368] = ast[$fog$1543][$fog$1368] && (!ast[$fog$618] || ast[$fog$617][$fog$1368]);
+    ast[$fog$624] = [ast];
     break;
-  case AST[$fog$906]:
-    allConstants = ast[$fog$924] ? isStateless($filter, ast[$fog$971][$fog$42]) : $fog$38;
+  case AST[$fog$681]:
+    allConstants = ast[$fog$663] ? isStateless($filter, ast[$fog$616][$fog$1545]) : $fog$1549;
     argsToWatch = [];
-    forEach(ast[$fog$972], function(expr) {
+    forEach(ast[$fog$615], function(expr) {
       findConstantAndWatchExpressions(expr, $filter);
-      allConstants = allConstants && expr[$fog$219];
-      if (!expr[$fog$219]) {
-        argsToWatch[$fog$31][$fog$109](argsToWatch, expr[$fog$963]);
+      allConstants = allConstants && expr[$fog$1368];
+      if (!expr[$fog$1368]) {
+        argsToWatch[$fog$1556][$fog$1478](argsToWatch, expr[$fog$624]);
       }
     });
-    ast[$fog$219] = allConstants;
-    ast[$fog$963] = ast[$fog$924] && isStateless($filter, ast[$fog$971][$fog$42]) ? argsToWatch : [ast];
+    ast[$fog$1368] = allConstants;
+    ast[$fog$624] = ast[$fog$663] && isStateless($filter, ast[$fog$616][$fog$1545]) ? argsToWatch : [ast];
     break;
-  case AST[$fog$901]:
-    findConstantAndWatchExpressions(ast[$fog$965], $filter);
-    findConstantAndWatchExpressions(ast[$fog$966], $filter);
-    ast[$fog$219] = ast[$fog$965][$fog$219] && ast[$fog$966][$fog$219];
-    ast[$fog$963] = [ast];
+  case AST[$fog$686]:
+    findConstantAndWatchExpressions(ast[$fog$622], $filter);
+    findConstantAndWatchExpressions(ast[$fog$621], $filter);
+    ast[$fog$1368] = ast[$fog$622][$fog$1368] && ast[$fog$621][$fog$1368];
+    ast[$fog$624] = [ast];
     break;
-  case AST[$fog$910]:
-    allConstants = $fog$40;
+  case AST[$fog$677]:
+    allConstants = $fog$1547;
     argsToWatch = [];
-    forEach(ast[$fog$973], function(expr) {
+    forEach(ast[$fog$614], function(expr) {
       findConstantAndWatchExpressions(expr, $filter);
-      allConstants = allConstants && expr[$fog$219];
-      if (!expr[$fog$219]) {
-        argsToWatch[$fog$31][$fog$109](argsToWatch, expr[$fog$963]);
+      allConstants = allConstants && expr[$fog$1368];
+      if (!expr[$fog$1368]) {
+        argsToWatch[$fog$1556][$fog$1478](argsToWatch, expr[$fog$624]);
       }
     });
-    ast[$fog$219] = allConstants;
-    ast[$fog$963] = argsToWatch;
+    ast[$fog$1368] = allConstants;
+    ast[$fog$624] = argsToWatch;
     break;
-  case AST[$fog$912]:
-    allConstants = $fog$40;
+  case AST[$fog$675]:
+    allConstants = $fog$1547;
     argsToWatch = [];
-    forEach(ast[$fog$974], function(property) {
-      findConstantAndWatchExpressions(property[$fog$163], $filter);
-      allConstants = allConstants && property[$fog$163][$fog$219];
-      if (!property[$fog$163][$fog$219]) {
-        argsToWatch[$fog$31][$fog$109](argsToWatch, property[$fog$163][$fog$963]);
+    forEach(ast[$fog$613], function(property) {
+      findConstantAndWatchExpressions(property[$fog$1424], $filter);
+      allConstants = allConstants && property[$fog$1424][$fog$1368];
+      if (!property[$fog$1424][$fog$1368]) {
+        argsToWatch[$fog$1556][$fog$1478](argsToWatch, property[$fog$1424][$fog$624]);
       }
     });
-    ast[$fog$219] = allConstants;
-    ast[$fog$963] = argsToWatch;
+    ast[$fog$1368] = allConstants;
+    ast[$fog$624] = argsToWatch;
     break;
-  case AST[$fog$913]:
-    ast[$fog$219] = $fog$38;
-    ast[$fog$963] = [];
+  case AST[$fog$674]:
+    ast[$fog$1368] = $fog$1549;
+    ast[$fog$624] = [];
     break;
   }
 }
 
 function getInputs(body) {
-  if (body[$fog$10] != $fog$6) return;
-  var lastExpression = body[$fog$1][$fog$922];
-  var candidate = lastExpression[$fog$963];
-  if (candidate[$fog$10] !== $fog$6) return candidate;
-  return candidate[$fog$1] !== lastExpression ? candidate : undefined;
+  if (body[$fog$1577] != $fog$1581) return;
+  var lastExpression = body[$fog$1586][$fog$665];
+  var candidate = lastExpression[$fog$624];
+  if (candidate[$fog$1577] !== $fog$1581) return candidate;
+  return candidate[$fog$1586] !== lastExpression ? candidate : undefined;
 }
 
 function isAssignable(ast) {
-  return ast[$fog$329] === AST[$fog$908] || ast[$fog$329] === AST[$fog$907];
+  return ast[$fog$1258] === AST[$fog$679] || ast[$fog$1258] === AST[$fog$680];
 }
 
 function assignableAST(ast) {
-  if (ast[$fog$672][$fog$10] === $fog$6 && isAssignable(ast[$fog$672][$fog$1][$fog$922])) {
-    return {type: AST[$fog$901], left: ast[$fog$672][$fog$1][$fog$922], right: {type: AST[$fog$914]}, operator: $fog$16};
+  if (ast[$fog$915][$fog$1577] === $fog$1581 && isAssignable(ast[$fog$915][$fog$1586][$fog$665])) {
+    return {type: AST[$fog$686], left: ast[$fog$915][$fog$1586][$fog$665], right: {type: AST[$fog$673]}, operator: $fog$1571};
   }
 }
 
 function isLiteral(ast) {
-  return ast[$fog$672][$fog$10] === $fog$1 ||
-      ast[$fog$672][$fog$10] === $fog$6 && (
-      ast[$fog$672][$fog$1][$fog$922][$fog$329] === AST[$fog$909] ||
-      ast[$fog$672][$fog$1][$fog$922][$fog$329] === AST[$fog$910] ||
-      ast[$fog$672][$fog$1][$fog$922][$fog$329] === AST[$fog$912]);
+  return ast[$fog$915][$fog$1577] === $fog$1586 ||
+      ast[$fog$915][$fog$1577] === $fog$1581 && (
+      ast[$fog$915][$fog$1586][$fog$665][$fog$1258] === AST[$fog$678] ||
+      ast[$fog$915][$fog$1586][$fog$665][$fog$1258] === AST[$fog$677] ||
+      ast[$fog$915][$fog$1586][$fog$665][$fog$1258] === AST[$fog$675]);
 }
 
 function isConstant(ast) {
-  return ast[$fog$219];
+  return ast[$fog$1368];
 }
 
 function ASTCompiler(astBuilder, $filter) {
-  this[$fog$975] = astBuilder;
-  this[$fog$976] = $filter;
+  this[$fog$612] = astBuilder;
+  this[$fog$611] = $filter;
 }
 
-ASTCompiler[$fog$21] = {
+ASTCompiler[$fog$1566] = {
   compile: function(expression, expensiveChecks) {
     var self = this;
-    var ast = this[$fog$975][$fog$977](expression);
-    this[$fog$471] = {
-      nextId: $fog$1,
+    var ast = this[$fog$612][$fog$610](expression);
+    this[$fog$1116] = {
+      nextId: $fog$1586,
       filters: {},
       expensiveChecks: expensiveChecks,
       fn: {vars: [], body: [], own: {}},
       assign: {vars: [], body: [], own: {}},
       inputs: []
     };
-    findConstantAndWatchExpressions(ast, self[$fog$976]);
-    var extra = $fog$4;
+    findConstantAndWatchExpressions(ast, self[$fog$611]);
+    var extra = $fog$1583;
     var assignable;
-    this[$fog$978] = $fog$657;
+    this[$fog$609] = $fog$930;
     if ((assignable = assignableAST(ast))) {
-      this[$fog$471][$fog$979] = $fog$657;
-      var result = this[$fog$980]();
-      this[$fog$981](assignable, result);
-      extra = $fog$982 + this[$fog$983]($fog$657, $fog$984);
+      this[$fog$1116][$fog$608] = $fog$930;
+      var result = this[$fog$607]();
+      this[$fog$606](assignable, result);
+      extra = $fog$605 + this[$fog$604]($fog$930, $fog$603);
     }
-    var toWatch = getInputs(ast[$fog$672]);
-    self[$fog$978] = $fog$985;
+    var toWatch = getInputs(ast[$fog$915]);
+    self[$fog$609] = $fog$602;
     forEach(toWatch, function(watch, key) {
-      var fnKey = $fog$187 + key;
-      self[$fog$471][fnKey] = {vars: [], body: [], own: {}};
-      self[$fog$471][$fog$979] = fnKey;
-      var intoId = self[$fog$980]();
-      self[$fog$981](watch, intoId);
-      self[$fog$986](intoId);
-      self[$fog$471][$fog$985][$fog$31](fnKey);
-      watch[$fog$987] = key;
+      var fnKey = $fog$1400 + key;
+      self[$fog$1116][fnKey] = {vars: [], body: [], own: {}};
+      self[$fog$1116][$fog$608] = fnKey;
+      var intoId = self[$fog$607]();
+      self[$fog$606](watch, intoId);
+      self[$fog$601](intoId);
+      self[$fog$1116][$fog$602][$fog$1556](fnKey);
+      watch[$fog$600] = key;
     });
-    this[$fog$471][$fog$979] = $fog$187;
-    this[$fog$978] = $fog$988;
-    this[$fog$981](ast);
+    this[$fog$1116][$fog$608] = $fog$1400;
+    this[$fog$609] = $fog$599;
+    this[$fog$606](ast);
     var fnString =
       // The build and minification steps remove the string "use strict" from the code, but this is done using a regex.
       // This is a workaround for this until we do a better job at only removing the prefix only when we should.
-      $fog$867 + this[$fog$989] + $fog$288 + this[$fog$990] + $fog$991 +
-      this[$fog$992]() +
-      $fog$993 + this[$fog$983]($fog$187, $fog$994) +
+      $fog$720 + this[$fog$598] + $fog$1299 + this[$fog$597] + $fog$596 +
+      this[$fog$595]() +
+      $fog$594 + this[$fog$604]($fog$1400, $fog$593) +
       extra +
-      this[$fog$995]() +
-      $fog$996;
+      this[$fog$592]() +
+      $fog$591;
 
     /* jshint -W054 */
-    var fn = (new Function($fog$976,
-        $fog$997,
-        $fog$998,
-        $fog$999,
-        $fog$1000,
-        $fog$1001,
-        $fog$326,
+    var fn = (new Function($fog$611,
+        $fog$590,
+        $fog$589,
+        $fog$588,
+        $fog$587,
+        $fog$586,
+        $fog$1261,
         fnString))(
-          this[$fog$976],
+          this[$fog$611],
           ensureSafeMemberName,
           ensureSafeObject,
           ensureSafeFunction,
@@ -13226,444 +13242,444 @@ ASTCompiler[$fog$21] = {
           plusFn,
           expression);
     /* jshint +W054 */
-    this[$fog$471] = this[$fog$978] = undefined;
-    fn[$fog$656] = isLiteral(ast);
-    fn[$fog$219] = isConstant(ast);
+    this[$fog$1116] = this[$fog$609] = undefined;
+    fn[$fog$931] = isLiteral(ast);
+    fn[$fog$1368] = isConstant(ast);
     return fn;
   },
 
-  USE: $fog$1002,
+  USE: $fog$585,
 
-  STRICT: $fog$1003,
+  STRICT: $fog$584,
 
   watchFns: function() {
     var result = [];
-    var fns = this[$fog$471][$fog$985];
+    var fns = this[$fog$1116][$fog$602];
     var self = this;
     forEach(fns, function(name) {
-      result[$fog$31]($fog$1004 + name + $fog$16 + self[$fog$983](name, $fog$1005));
+      result[$fog$1556]($fog$583 + name + $fog$1571 + self[$fog$604](name, $fog$582));
     });
-    if (fns[$fog$10]) {
-      result[$fog$31]($fog$1006 + fns[$fog$131]($fog$79) + $fog$1007);
+    if (fns[$fog$1577]) {
+      result[$fog$1556]($fog$581 + fns[$fog$1456]($fog$1508) + $fog$580);
     }
-    return result[$fog$131]($fog$4);
+    return result[$fog$1456]($fog$1583);
   },
 
   generateFunction: function(name, params) {
-    return $fog$357 + params + $fog$1008 +
-        this[$fog$1009](name) +
-        this[$fog$672](name) +
-        $fog$1010;
+    return $fog$1230 + params + $fog$579 +
+        this[$fog$578](name) +
+        this[$fog$915](name) +
+        $fog$577;
   },
 
   filterPrefix: function() {
     var parts = [];
     var self = this;
-    forEach(this[$fog$471][$fog$1011], function(id, filter) {
-      parts[$fog$31](id + $fog$1012 + self[$fog$1013](filter) + $fog$359);
+    forEach(this[$fog$1116][$fog$576], function(id, filter) {
+      parts[$fog$1556](id + $fog$575 + self[$fog$574](filter) + $fog$1228);
     });
-    if (parts[$fog$10]) return $fog$1004 + parts[$fog$131]($fog$79) + $fog$142;
-    return $fog$4;
+    if (parts[$fog$1577]) return $fog$583 + parts[$fog$1456]($fog$1508) + $fog$1445;
+    return $fog$1583;
   },
 
   varsPrefix: function(section) {
-    return this[$fog$471][section][$fog$1014][$fog$10] ? $fog$1004 + this[$fog$471][section][$fog$1014][$fog$131]($fog$79) + $fog$142 : $fog$4;
+    return this[$fog$1116][section][$fog$573][$fog$1577] ? $fog$583 + this[$fog$1116][section][$fog$573][$fog$1456]($fog$1508) + $fog$1445 : $fog$1583;
   },
 
   body: function(section) {
-    return this[$fog$471][section][$fog$672][$fog$131]($fog$4);
+    return this[$fog$1116][section][$fog$915][$fog$1456]($fog$1583);
   },
 
   recurse: function(ast, intoId, nameId, recursionFn, create, skipWatchIdCheck) {
     var left, right, self = this, args, expression;
     recursionFn = recursionFn || noop;
-    if (!skipWatchIdCheck && isDefined(ast[$fog$987])) {
-      intoId = intoId || this[$fog$980]();
-      this[$fog$1015]($fog$28,
-        this[$fog$1016](intoId, this[$fog$1017]($fog$28, ast[$fog$987])),
-        this[$fog$1018](ast, intoId, nameId, recursionFn, create, $fog$40)
+    if (!skipWatchIdCheck && isDefined(ast[$fog$600])) {
+      intoId = intoId || this[$fog$607]();
+      this[$fog$572]($fog$1559,
+        this[$fog$571](intoId, this[$fog$570]($fog$1559, ast[$fog$600])),
+        this[$fog$569](ast, intoId, nameId, recursionFn, create, $fog$1547)
       );
       return;
     }
-    switch (ast[$fog$329]) {
-    case AST[$fog$899]:
-      forEach(ast[$fog$672], function(expression, pos) {
-        self[$fog$981](expression[$fog$922], undefined, undefined, function(expr) { right = expr; });
-        if (pos !== ast[$fog$672][$fog$10] - $fog$6) {
-          self[$fog$1019]()[$fog$672][$fog$31](right, $fog$142);
+    switch (ast[$fog$1258]) {
+    case AST[$fog$688]:
+      forEach(ast[$fog$915], function(expression, pos) {
+        self[$fog$606](expression[$fog$665], undefined, undefined, function(expr) { right = expr; });
+        if (pos !== ast[$fog$915][$fog$1577] - $fog$1581) {
+          self[$fog$568]()[$fog$915][$fog$1556](right, $fog$1445);
         } else {
-          self[$fog$986](right);
+          self[$fog$601](right);
         }
       });
       break;
-    case AST[$fog$909]:
-      expression = this[$fog$1013](ast[$fog$163]);
-      this[$fog$657](intoId, expression);
+    case AST[$fog$678]:
+      expression = this[$fog$574](ast[$fog$1424]);
+      this[$fog$930](intoId, expression);
       recursionFn(expression);
       break;
-    case AST[$fog$905]:
-      this[$fog$981](ast[$fog$964], undefined, undefined, function(expr) { right = expr; });
-      expression = ast[$fog$1020] + $fog$946 + this[$fog$1000](right, $fog$1) + $fog$359;
-      this[$fog$657](intoId, expression);
+    case AST[$fog$682]:
+      this[$fog$606](ast[$fog$623], undefined, undefined, function(expr) { right = expr; });
+      expression = ast[$fog$567] + $fog$641 + this[$fog$587](right, $fog$1586) + $fog$1228;
+      this[$fog$930](intoId, expression);
       recursionFn(expression);
       break;
-    case AST[$fog$904]:
-      this[$fog$981](ast[$fog$965], undefined, undefined, function(expr) { left = expr; });
-      this[$fog$981](ast[$fog$966], undefined, undefined, function(expr) { right = expr; });
-      if (ast[$fog$1020] === $fog$135) {
-        expression = this[$fog$1001](left, right);
-      } else if (ast[$fog$1020] === $fog$536) {
-        expression = this[$fog$1000](left, $fog$1) + ast[$fog$1020] + this[$fog$1000](right, $fog$1);
+    case AST[$fog$683]:
+      this[$fog$606](ast[$fog$622], undefined, undefined, function(expr) { left = expr; });
+      this[$fog$606](ast[$fog$621], undefined, undefined, function(expr) { right = expr; });
+      if (ast[$fog$567] === $fog$1452) {
+        expression = this[$fog$586](left, right);
+      } else if (ast[$fog$567] === $fog$1051) {
+        expression = this[$fog$587](left, $fog$1586) + ast[$fog$567] + this[$fog$587](right, $fog$1586);
       } else {
-        expression = $fog$946 + left + $fog$359 + ast[$fog$1020] + $fog$946 + right + $fog$359;
+        expression = $fog$641 + left + $fog$1228 + ast[$fog$567] + $fog$641 + right + $fog$1228;
       }
-      this[$fog$657](intoId, expression);
+      this[$fog$930](intoId, expression);
       recursionFn(expression);
       break;
-    case AST[$fog$903]:
-      intoId = intoId || this[$fog$980]();
-      self[$fog$981](ast[$fog$965], intoId);
-      self[$fog$1015](ast[$fog$1020] === $fog$932 ? intoId : self[$fog$1021](intoId), self[$fog$1018](ast[$fog$966], intoId));
+    case AST[$fog$684]:
+      intoId = intoId || this[$fog$607]();
+      self[$fog$606](ast[$fog$622], intoId);
+      self[$fog$572](ast[$fog$567] === $fog$655 ? intoId : self[$fog$566](intoId), self[$fog$569](ast[$fog$621], intoId));
       recursionFn(intoId);
       break;
-    case AST[$fog$902]:
-      intoId = intoId || this[$fog$980]();
-      self[$fog$981](ast[$fog$68], intoId);
-      self[$fog$1015](intoId, self[$fog$1018](ast[$fog$967], intoId), self[$fog$1018](ast[$fog$968], intoId));
+    case AST[$fog$685]:
+      intoId = intoId || this[$fog$607]();
+      self[$fog$606](ast[$fog$1519], intoId);
+      self[$fog$572](intoId, self[$fog$569](ast[$fog$620], intoId), self[$fog$569](ast[$fog$619], intoId));
       recursionFn(intoId);
       break;
-    case AST[$fog$908]:
-      intoId = intoId || this[$fog$980]();
+    case AST[$fog$679]:
+      intoId = intoId || this[$fog$607]();
       if (nameId) {
-        nameId[$fog$650] = self[$fog$978] === $fog$985 ? $fog$1005 : this[$fog$657](this[$fog$980](), this[$fog$1022]($fog$1023, ast[$fog$42]) + $fog$1024);
-        nameId[$fog$969] = $fog$38;
-        nameId[$fog$42] = ast[$fog$42];
+        nameId[$fog$937] = self[$fog$609] === $fog$602 ? $fog$582 : this[$fog$930](this[$fog$607](), this[$fog$565]($fog$564, ast[$fog$1545]) + $fog$563);
+        nameId[$fog$618] = $fog$1549;
+        nameId[$fog$1545] = ast[$fog$1545];
       }
-      ensureSafeMemberName(ast[$fog$42]);
-      self[$fog$1015](self[$fog$978] === $fog$985 || self[$fog$1021](self[$fog$1022]($fog$1023, ast[$fog$42])),
+      ensureSafeMemberName(ast[$fog$1545]);
+      self[$fog$572](self[$fog$609] === $fog$602 || self[$fog$566](self[$fog$565]($fog$564, ast[$fog$1545])),
         function() {
-          self[$fog$1015](self[$fog$978] === $fog$985 || $fog$1005, function() {
-            if (create && create !== $fog$6) {
-              self[$fog$1015](
-                self[$fog$1021](self[$fog$1025]($fog$1005, ast[$fog$42])),
-                self[$fog$1016](self[$fog$1025]($fog$1005, ast[$fog$42]), $fog$1026));
+          self[$fog$572](self[$fog$609] === $fog$602 || $fog$582, function() {
+            if (create && create !== $fog$1581) {
+              self[$fog$572](
+                self[$fog$566](self[$fog$562]($fog$582, ast[$fog$1545])),
+                self[$fog$571](self[$fog$562]($fog$582, ast[$fog$1545]), $fog$561));
             }
-            self[$fog$657](intoId, self[$fog$1025]($fog$1005, ast[$fog$42]));
+            self[$fog$930](intoId, self[$fog$562]($fog$582, ast[$fog$1545]));
           });
-        }, intoId && self[$fog$1016](intoId, self[$fog$1025]($fog$1023, ast[$fog$42]))
+        }, intoId && self[$fog$571](intoId, self[$fog$562]($fog$564, ast[$fog$1545]))
         );
-      if (self[$fog$471][$fog$1027] || isPossiblyDangerousMemberName(ast[$fog$42])) {
-        self[$fog$1028](intoId);
+      if (self[$fog$1116][$fog$560] || isPossiblyDangerousMemberName(ast[$fog$1545])) {
+        self[$fog$559](intoId);
       }
       recursionFn(intoId);
       break;
-    case AST[$fog$907]:
-      left = nameId && (nameId[$fog$650] = this[$fog$980]()) || this[$fog$980]();
-      intoId = intoId || this[$fog$980]();
-      self[$fog$981](ast[$fog$44], left, undefined, function() {
-        self[$fog$1015](self[$fog$1029](left), function() {
-          if (ast[$fog$969]) {
-            right = self[$fog$980]();
-            self[$fog$981](ast[$fog$970], right);
-            self[$fog$1030](right);
-            if (create && create !== $fog$6) {
-              self[$fog$1015](self[$fog$1021](self[$fog$1017](left, right)), self[$fog$1016](self[$fog$1017](left, right), $fog$1026));
+    case AST[$fog$680]:
+      left = nameId && (nameId[$fog$937] = this[$fog$607]()) || this[$fog$607]();
+      intoId = intoId || this[$fog$607]();
+      self[$fog$606](ast[$fog$1543], left, undefined, function() {
+        self[$fog$572](self[$fog$558](left), function() {
+          if (ast[$fog$618]) {
+            right = self[$fog$607]();
+            self[$fog$606](ast[$fog$617], right);
+            self[$fog$557](right);
+            if (create && create !== $fog$1581) {
+              self[$fog$572](self[$fog$566](self[$fog$570](left, right)), self[$fog$571](self[$fog$570](left, right), $fog$561));
             }
-            expression = self[$fog$998](self[$fog$1017](left, right));
-            self[$fog$657](intoId, expression);
+            expression = self[$fog$589](self[$fog$570](left, right));
+            self[$fog$930](intoId, expression);
             if (nameId) {
-              nameId[$fog$969] = $fog$40;
-              nameId[$fog$42] = right;
+              nameId[$fog$618] = $fog$1547;
+              nameId[$fog$1545] = right;
             }
           } else {
-            ensureSafeMemberName(ast[$fog$970][$fog$42]);
-            if (create && create !== $fog$6) {
-              self[$fog$1015](self[$fog$1021](self[$fog$1025](left, ast[$fog$970][$fog$42])), self[$fog$1016](self[$fog$1025](left, ast[$fog$970][$fog$42]), $fog$1026));
+            ensureSafeMemberName(ast[$fog$617][$fog$1545]);
+            if (create && create !== $fog$1581) {
+              self[$fog$572](self[$fog$566](self[$fog$562](left, ast[$fog$617][$fog$1545])), self[$fog$571](self[$fog$562](left, ast[$fog$617][$fog$1545]), $fog$561));
             }
-            expression = self[$fog$1025](left, ast[$fog$970][$fog$42]);
-            if (self[$fog$471][$fog$1027] || isPossiblyDangerousMemberName(ast[$fog$970][$fog$42])) {
-              expression = self[$fog$998](expression);
+            expression = self[$fog$562](left, ast[$fog$617][$fog$1545]);
+            if (self[$fog$1116][$fog$560] || isPossiblyDangerousMemberName(ast[$fog$617][$fog$1545])) {
+              expression = self[$fog$589](expression);
             }
-            self[$fog$657](intoId, expression);
+            self[$fog$930](intoId, expression);
             if (nameId) {
-              nameId[$fog$969] = $fog$38;
-              nameId[$fog$42] = ast[$fog$970][$fog$42];
+              nameId[$fog$618] = $fog$1549;
+              nameId[$fog$1545] = ast[$fog$617][$fog$1545];
             }
           }
         }, function() {
-          self[$fog$657](intoId, $fog$54);
+          self[$fog$930](intoId, $fog$1533);
         });
         recursionFn(intoId);
       }, !!create);
       break;
-    case AST[$fog$906]:
-      intoId = intoId || this[$fog$980]();
-      if (ast[$fog$924]) {
-        right = self[$fog$924](ast[$fog$971][$fog$42]);
+    case AST[$fog$681]:
+      intoId = intoId || this[$fog$607]();
+      if (ast[$fog$663]) {
+        right = self[$fog$663](ast[$fog$616][$fog$1545]);
         args = [];
-        forEach(ast[$fog$972], function(expr) {
-          var argument = self[$fog$980]();
-          self[$fog$981](expr, argument);
-          args[$fog$31](argument);
+        forEach(ast[$fog$615], function(expr) {
+          var argument = self[$fog$607]();
+          self[$fog$606](expr, argument);
+          args[$fog$1556](argument);
         });
-        expression = right + $fog$946 + args[$fog$131]($fog$79) + $fog$359;
-        self[$fog$657](intoId, expression);
+        expression = right + $fog$641 + args[$fog$1456]($fog$1508) + $fog$1228;
+        self[$fog$930](intoId, expression);
         recursionFn(intoId);
       } else {
-        right = self[$fog$980]();
+        right = self[$fog$607]();
         left = {};
         args = [];
-        self[$fog$981](ast[$fog$971], right, left, function() {
-          self[$fog$1015](self[$fog$1029](right), function() {
-            self[$fog$1031](right);
-            forEach(ast[$fog$972], function(expr) {
-              self[$fog$981](expr, self[$fog$980](), undefined, function(argument) {
-                args[$fog$31](self[$fog$998](argument));
+        self[$fog$606](ast[$fog$616], right, left, function() {
+          self[$fog$572](self[$fog$558](right), function() {
+            self[$fog$556](right);
+            forEach(ast[$fog$615], function(expr) {
+              self[$fog$606](expr, self[$fog$607](), undefined, function(argument) {
+                args[$fog$1556](self[$fog$589](argument));
               });
             });
-            if (left[$fog$42]) {
-              if (!self[$fog$471][$fog$1027]) {
-                self[$fog$1028](left[$fog$650]);
+            if (left[$fog$1545]) {
+              if (!self[$fog$1116][$fog$560]) {
+                self[$fog$559](left[$fog$937]);
               }
-              expression = self[$fog$1032](left[$fog$650], left[$fog$42], left[$fog$969]) + $fog$946 + args[$fog$131]($fog$79) + $fog$359;
+              expression = self[$fog$555](left[$fog$937], left[$fog$1545], left[$fog$618]) + $fog$641 + args[$fog$1456]($fog$1508) + $fog$1228;
             } else {
-              expression = right + $fog$946 + args[$fog$131]($fog$79) + $fog$359;
+              expression = right + $fog$641 + args[$fog$1456]($fog$1508) + $fog$1228;
             }
-            expression = self[$fog$998](expression);
-            self[$fog$657](intoId, expression);
+            expression = self[$fog$589](expression);
+            self[$fog$930](intoId, expression);
           }, function() {
-            self[$fog$657](intoId, $fog$54);
+            self[$fog$930](intoId, $fog$1533);
           });
           recursionFn(intoId);
         });
       }
       break;
-    case AST[$fog$901]:
-      right = this[$fog$980]();
+    case AST[$fog$686]:
+      right = this[$fog$607]();
       left = {};
-      if (!isAssignable(ast[$fog$965])) {
-        throw $parseMinErr($fog$1033, $fog$1034);
+      if (!isAssignable(ast[$fog$622])) {
+        throw $parseMinErr($fog$554, $fog$553);
       }
-      this[$fog$981](ast[$fog$965], undefined, left, function() {
-        self[$fog$1015](self[$fog$1029](left[$fog$650]), function() {
-          self[$fog$981](ast[$fog$966], right);
-          self[$fog$1028](self[$fog$1032](left[$fog$650], left[$fog$42], left[$fog$969]));
-          expression = self[$fog$1032](left[$fog$650], left[$fog$42], left[$fog$969]) + ast[$fog$1020] + right;
-          self[$fog$657](intoId, expression);
+      this[$fog$606](ast[$fog$622], undefined, left, function() {
+        self[$fog$572](self[$fog$558](left[$fog$937]), function() {
+          self[$fog$606](ast[$fog$621], right);
+          self[$fog$559](self[$fog$555](left[$fog$937], left[$fog$1545], left[$fog$618]));
+          expression = self[$fog$555](left[$fog$937], left[$fog$1545], left[$fog$618]) + ast[$fog$567] + right;
+          self[$fog$930](intoId, expression);
           recursionFn(intoId || expression);
         });
-      }, $fog$6);
+      }, $fog$1581);
       break;
-    case AST[$fog$910]:
+    case AST[$fog$677]:
       args = [];
-      forEach(ast[$fog$973], function(expr) {
-        self[$fog$981](expr, self[$fog$980](), undefined, function(argument) {
-          args[$fog$31](argument);
+      forEach(ast[$fog$614], function(expr) {
+        self[$fog$606](expr, self[$fog$607](), undefined, function(argument) {
+          args[$fog$1556](argument);
         });
       });
-      expression = $fog$2 + args[$fog$131]($fog$79) + $fog$150;
-      this[$fog$657](intoId, expression);
+      expression = $fog$1585 + args[$fog$1456]($fog$1508) + $fog$1437;
+      this[$fog$930](intoId, expression);
       recursionFn(expression);
       break;
-    case AST[$fog$912]:
+    case AST[$fog$675]:
       args = [];
-      forEach(ast[$fog$974], function(property) {
-        self[$fog$981](property[$fog$163], self[$fog$980](), undefined, function(expr) {
-          args[$fog$31](self[$fog$1013](
-              property[$fog$489][$fog$329] === AST[$fog$908] ? property[$fog$489][$fog$42] :
-                ($fog$4 + property[$fog$489][$fog$163])) +
-              $fog$3 + expr);
+      forEach(ast[$fog$613], function(property) {
+        self[$fog$606](property[$fog$1424], self[$fog$607](), undefined, function(expr) {
+          args[$fog$1556](self[$fog$574](
+              property[$fog$1098][$fog$1258] === AST[$fog$679] ? property[$fog$1098][$fog$1545] :
+                ($fog$1583 + property[$fog$1098][$fog$1424])) +
+              $fog$1584 + expr);
         });
       });
-      expression = $fog$948 + args[$fog$131]($fog$79) + $fog$918;
-      this[$fog$657](intoId, expression);
+      expression = $fog$639 + args[$fog$1456]($fog$1508) + $fog$669;
+      this[$fog$930](intoId, expression);
       recursionFn(expression);
       break;
-    case AST[$fog$913]:
-      this[$fog$657](intoId, $fog$1005);
-      recursionFn($fog$1005);
+    case AST[$fog$674]:
+      this[$fog$930](intoId, $fog$582);
+      recursionFn($fog$582);
       break;
-    case AST[$fog$914]:
-      this[$fog$657](intoId, $fog$1035);
-      recursionFn($fog$1035);
+    case AST[$fog$673]:
+      this[$fog$930](intoId, $fog$552);
+      recursionFn($fog$552);
       break;
     }
   },
 
   getHasOwnProperty: function(element, property) {
-    var key = element + $fog$204 + property;
-    var own = this[$fog$1019]()[$fog$1036];
-    if (!own[$fog$20](key)) {
-      own[key] = this[$fog$980]($fog$38, element + $fog$1037 + this[$fog$1013](property) + $fog$1038 + element + $fog$359);
+    var key = element + $fog$1383 + property;
+    var own = this[$fog$568]()[$fog$551];
+    if (!own[$fog$1567](key)) {
+      own[key] = this[$fog$607]($fog$1549, element + $fog$550 + this[$fog$574](property) + $fog$549 + element + $fog$1228);
     }
     return own[key];
   },
 
   assign: function(id, value) {
     if (!id) return;
-    this[$fog$1019]()[$fog$672][$fog$31](id, $fog$16, value, $fog$142);
+    this[$fog$568]()[$fog$915][$fog$1556](id, $fog$1571, value, $fog$1445);
     return id;
   },
 
   filter: function(filterName) {
-    if (!this[$fog$471][$fog$1011][$fog$20](filterName)) {
-      this[$fog$471][$fog$1011][filterName] = this[$fog$980]($fog$40);
+    if (!this[$fog$1116][$fog$576][$fog$1567](filterName)) {
+      this[$fog$1116][$fog$576][filterName] = this[$fog$607]($fog$1547);
     }
-    return this[$fog$471][$fog$1011][filterName];
+    return this[$fog$1116][$fog$576][filterName];
   },
 
   ifDefined: function(id, defaultValue) {
-    return $fog$1039 + id + $fog$79 + this[$fog$1013](defaultValue) + $fog$359;
+    return $fog$548 + id + $fog$1508 + this[$fog$574](defaultValue) + $fog$1228;
   },
 
   plus: function(left, right) {
-    return $fog$1040 + left + $fog$79 + right + $fog$359;
+    return $fog$547 + left + $fog$1508 + right + $fog$1228;
   },
 
   return_: function(id) {
-    this[$fog$1019]()[$fog$672][$fog$31]($fog$1041, id, $fog$142);
+    this[$fog$568]()[$fog$915][$fog$1556]($fog$546, id, $fog$1445);
   },
 
   if_: function(test, alternate, consequent) {
-    if (test === $fog$40) {
+    if (test === $fog$1547) {
       alternate();
     } else {
-      var body = this[$fog$1019]()[$fog$672];
-      body[$fog$31]($fog$1042, test, $fog$1008);
+      var body = this[$fog$568]()[$fog$915];
+      body[$fog$1556]($fog$545, test, $fog$579);
       alternate();
-      body[$fog$31]($fog$918);
+      body[$fog$1556]($fog$669);
       if (consequent) {
-        body[$fog$31]($fog$1043);
+        body[$fog$1556]($fog$544);
         consequent();
-        body[$fog$31]($fog$918);
+        body[$fog$1556]($fog$669);
       }
     }
   },
 
   not: function(expression) {
-    return $fog$1044 + expression + $fog$359;
+    return $fog$543 + expression + $fog$1228;
   },
 
   notNull: function(expression) {
-    return expression + $fog$1045;
+    return expression + $fog$542;
   },
 
   nonComputedMember: function(left, right) {
-    return left + $fog$204 + right;
+    return left + $fog$1383 + right;
   },
 
   computedMember: function(left, right) {
-    return left + $fog$2 + right + $fog$150;
+    return left + $fog$1585 + right + $fog$1437;
   },
 
   member: function(left, right, computed) {
-    if (computed) return this[$fog$1017](left, right);
-    return this[$fog$1025](left, right);
+    if (computed) return this[$fog$570](left, right);
+    return this[$fog$562](left, right);
   },
 
   addEnsureSafeObject: function(item) {
-    this[$fog$1019]()[$fog$672][$fog$31](this[$fog$998](item), $fog$142);
+    this[$fog$568]()[$fog$915][$fog$1556](this[$fog$589](item), $fog$1445);
   },
 
   addEnsureSafeMemberName: function(item) {
-    this[$fog$1019]()[$fog$672][$fog$31](this[$fog$997](item), $fog$142);
+    this[$fog$568]()[$fog$915][$fog$1556](this[$fog$590](item), $fog$1445);
   },
 
   addEnsureSafeFunction: function(item) {
-    this[$fog$1019]()[$fog$672][$fog$31](this[$fog$999](item), $fog$142);
+    this[$fog$568]()[$fog$915][$fog$1556](this[$fog$588](item), $fog$1445);
   },
 
   ensureSafeObject: function(item) {
-    return $fog$1046 + item + $fog$1047;
+    return $fog$541 + item + $fog$540;
   },
 
   ensureSafeMemberName: function(item) {
-    return $fog$1048 + item + $fog$1047;
+    return $fog$539 + item + $fog$540;
   },
 
   ensureSafeFunction: function(item) {
-    return $fog$1049 + item + $fog$1047;
+    return $fog$538 + item + $fog$540;
   },
 
   lazyRecurse: function(ast, intoId, nameId, recursionFn, create, skipWatchIdCheck) {
     var self = this;
     return function() {
-      self[$fog$981](ast, intoId, nameId, recursionFn, create, skipWatchIdCheck);
+      self[$fog$606](ast, intoId, nameId, recursionFn, create, skipWatchIdCheck);
     };
   },
 
   lazyAssign: function(id, value) {
     var self = this;
     return function() {
-      self[$fog$657](id, value);
+      self[$fog$930](id, value);
     };
   },
 
-  stringEscapeRegex: $fog$1050,
+  stringEscapeRegex: $fog$537,
 
   stringEscapeFn: function(c) {
-    return $fog$1051 + ($fog$1052 + c[$fog$25]($fog$1)[$fog$32]($fog$895))[$fog$9](-$fog$230);
+    return $fog$536 + ($fog$535 + c[$fog$1562]($fog$1586)[$fog$1555]($fog$692))[$fog$1578](-$fog$1357);
   },
 
   escape: function(value) {
-    if (isString(value)) return $fog$470 + value[$fog$7](this[$fog$1053], this[$fog$1054]) + $fog$470;
-    if (isNumber(value)) return value[$fog$32]();
-    if (value === $fog$40) return $fog$1055;
-    if (value === $fog$38) return $fog$1056;
-    if (value === $fog$37) return $fog$1057;
-    if (typeof value === $fog$54) return $fog$54;
+    if (isString(value)) return $fog$1117 + value[$fog$1580](this[$fog$534], this[$fog$533]) + $fog$1117;
+    if (isNumber(value)) return value[$fog$1555]();
+    if (value === $fog$1547) return $fog$532;
+    if (value === $fog$1549) return $fog$531;
+    if (value === $fog$1550) return $fog$530;
+    if (typeof value === $fog$1533) return $fog$1533;
 
-    throw $parseMinErr($fog$1058, $fog$952);
+    throw $parseMinErr($fog$529, $fog$635);
   },
 
   nextId: function(skip, init) {
-    var id = $fog$1035 + (this[$fog$471][$fog$980]++);
+    var id = $fog$552 + (this[$fog$1116][$fog$607]++);
     if (!skip) {
-      this[$fog$1019]()[$fog$1014][$fog$31](id + (init ? $fog$16 + init : $fog$4));
+      this[$fog$568]()[$fog$573][$fog$1556](id + (init ? $fog$1571 + init : $fog$1583));
     }
     return id;
   },
 
   current: function() {
-    return this[$fog$471][this[$fog$471][$fog$979]];
+    return this[$fog$1116][this[$fog$1116][$fog$608]];
   }
 };
 
 
 function ASTInterpreter(astBuilder, $filter) {
-  this[$fog$975] = astBuilder;
-  this[$fog$976] = $filter;
+  this[$fog$612] = astBuilder;
+  this[$fog$611] = $filter;
 }
 
-ASTInterpreter[$fog$21] = {
+ASTInterpreter[$fog$1566] = {
   compile: function(expression, expensiveChecks) {
     var self = this;
-    var ast = this[$fog$975][$fog$977](expression);
-    this[$fog$922] = expression;
-    this[$fog$1027] = expensiveChecks;
-    findConstantAndWatchExpressions(ast, self[$fog$976]);
+    var ast = this[$fog$612][$fog$610](expression);
+    this[$fog$665] = expression;
+    this[$fog$560] = expensiveChecks;
+    findConstantAndWatchExpressions(ast, self[$fog$611]);
     var assignable;
     var assign;
     if ((assignable = assignableAST(ast))) {
-      assign = this[$fog$981](assignable);
+      assign = this[$fog$606](assignable);
     }
-    var toWatch = getInputs(ast[$fog$672]);
+    var toWatch = getInputs(ast[$fog$915]);
     var inputs;
     if (toWatch) {
       inputs = [];
       forEach(toWatch, function(watch, key) {
-        var input = self[$fog$981](watch);
-        watch[$fog$1059] = input;
-        inputs[$fog$31](input);
-        watch[$fog$987] = key;
+        var input = self[$fog$606](watch);
+        watch[$fog$528] = input;
+        inputs[$fog$1556](input);
+        watch[$fog$600] = key;
       });
     }
     var expressions = [];
-    forEach(ast[$fog$672], function(expression) {
-      expressions[$fog$31](self[$fog$981](expression[$fog$922]));
+    forEach(ast[$fog$915], function(expression) {
+      expressions[$fog$1556](self[$fog$606](expression[$fog$665]));
     });
-    var fn = ast[$fog$672][$fog$10] === $fog$1 ? function() {} :
-             ast[$fog$672][$fog$10] === $fog$6 ? expressions[$fog$1] :
+    var fn = ast[$fog$915][$fog$1577] === $fog$1586 ? function() {} :
+             ast[$fog$915][$fog$1577] === $fog$1581 ? expressions[$fog$1586] :
              function(scope, locals) {
                var lastValue;
                forEach(expressions, function(exp) {
@@ -13672,132 +13688,132 @@ ASTInterpreter[$fog$21] = {
                return lastValue;
              };
     if (assign) {
-      fn[$fog$657] = function(scope, value, locals) {
+      fn[$fog$930] = function(scope, value, locals) {
         return assign(scope, locals, value);
       };
     }
     if (inputs) {
-      fn[$fog$985] = inputs;
+      fn[$fog$602] = inputs;
     }
-    fn[$fog$656] = isLiteral(ast);
-    fn[$fog$219] = isConstant(ast);
+    fn[$fog$931] = isLiteral(ast);
+    fn[$fog$1368] = isConstant(ast);
     return fn;
   },
 
   recurse: function(ast, context, create) {
     var left, right, self = this, args, expression;
-    if (ast[$fog$1059]) {
-      return this[$fog$985](ast[$fog$1059], ast[$fog$987]);
+    if (ast[$fog$528]) {
+      return this[$fog$602](ast[$fog$528], ast[$fog$600]);
     }
-    switch (ast[$fog$329]) {
-    case AST[$fog$909]:
-      return this[$fog$163](ast[$fog$163], context);
-    case AST[$fog$905]:
-      right = this[$fog$981](ast[$fog$964]);
-      return this[$fog$942 + ast[$fog$1020]](right, context);
-    case AST[$fog$904]:
-      left = this[$fog$981](ast[$fog$965]);
-      right = this[$fog$981](ast[$fog$966]);
-      return this[$fog$1060 + ast[$fog$1020]](left, right, context);
-    case AST[$fog$903]:
-      left = this[$fog$981](ast[$fog$965]);
-      right = this[$fog$981](ast[$fog$966]);
-      return this[$fog$1060 + ast[$fog$1020]](left, right, context);
-    case AST[$fog$902]:
-      return this[$fog$1061](
-        this[$fog$981](ast[$fog$68]),
-        this[$fog$981](ast[$fog$967]),
-        this[$fog$981](ast[$fog$968]),
+    switch (ast[$fog$1258]) {
+    case AST[$fog$678]:
+      return this[$fog$1424](ast[$fog$1424], context);
+    case AST[$fog$682]:
+      right = this[$fog$606](ast[$fog$623]);
+      return this[$fog$645 + ast[$fog$567]](right, context);
+    case AST[$fog$683]:
+      left = this[$fog$606](ast[$fog$622]);
+      right = this[$fog$606](ast[$fog$621]);
+      return this[$fog$527 + ast[$fog$567]](left, right, context);
+    case AST[$fog$684]:
+      left = this[$fog$606](ast[$fog$622]);
+      right = this[$fog$606](ast[$fog$621]);
+      return this[$fog$527 + ast[$fog$567]](left, right, context);
+    case AST[$fog$685]:
+      return this[$fog$526](
+        this[$fog$606](ast[$fog$1519]),
+        this[$fog$606](ast[$fog$620]),
+        this[$fog$606](ast[$fog$619]),
         context
       );
-    case AST[$fog$908]:
-      ensureSafeMemberName(ast[$fog$42], self[$fog$922]);
-      return self[$fog$624](ast[$fog$42],
-                             self[$fog$1027] || isPossiblyDangerousMemberName(ast[$fog$42]),
-                             context, create, self[$fog$922]);
-    case AST[$fog$907]:
-      left = this[$fog$981](ast[$fog$44], $fog$38, !!create);
-      if (!ast[$fog$969]) {
-        ensureSafeMemberName(ast[$fog$970][$fog$42], self[$fog$922]);
-        right = ast[$fog$970][$fog$42];
+    case AST[$fog$679]:
+      ensureSafeMemberName(ast[$fog$1545], self[$fog$665]);
+      return self[$fog$963](ast[$fog$1545],
+                             self[$fog$560] || isPossiblyDangerousMemberName(ast[$fog$1545]),
+                             context, create, self[$fog$665]);
+    case AST[$fog$680]:
+      left = this[$fog$606](ast[$fog$1543], $fog$1549, !!create);
+      if (!ast[$fog$618]) {
+        ensureSafeMemberName(ast[$fog$617][$fog$1545], self[$fog$665]);
+        right = ast[$fog$617][$fog$1545];
       }
-      if (ast[$fog$969]) right = this[$fog$981](ast[$fog$970]);
-      return ast[$fog$969] ?
-        this[$fog$1017](left, right, context, create, self[$fog$922]) :
-        this[$fog$1025](left, right, self[$fog$1027], context, create, self[$fog$922]);
-    case AST[$fog$906]:
+      if (ast[$fog$618]) right = this[$fog$606](ast[$fog$617]);
+      return ast[$fog$618] ?
+        this[$fog$570](left, right, context, create, self[$fog$665]) :
+        this[$fog$562](left, right, self[$fog$560], context, create, self[$fog$665]);
+    case AST[$fog$681]:
       args = [];
-      forEach(ast[$fog$972], function(expr) {
-        args[$fog$31](self[$fog$981](expr));
+      forEach(ast[$fog$615], function(expr) {
+        args[$fog$1556](self[$fog$606](expr));
       });
-      if (ast[$fog$924]) right = this[$fog$976](ast[$fog$971][$fog$42]);
-      if (!ast[$fog$924]) right = this[$fog$981](ast[$fog$971], $fog$40);
-      return ast[$fog$924] ?
+      if (ast[$fog$663]) right = this[$fog$611](ast[$fog$616][$fog$1545]);
+      if (!ast[$fog$663]) right = this[$fog$606](ast[$fog$616], $fog$1547);
+      return ast[$fog$663] ?
         function(scope, locals, assign, inputs) {
           var values = [];
-          for (var i = $fog$1; i < args[$fog$10]; ++i) {
-            values[$fog$31](args[i](scope, locals, assign, inputs));
+          for (var i = $fog$1586; i < args[$fog$1577]; ++i) {
+            values[$fog$1556](args[i](scope, locals, assign, inputs));
           }
-          var value = right[$fog$109](undefined, values, inputs);
+          var value = right[$fog$1478](undefined, values, inputs);
           return context ? {context: undefined, name: undefined, value: value} : value;
         } :
         function(scope, locals, assign, inputs) {
           var rhs = right(scope, locals, assign, inputs);
           var value;
-          if (rhs[$fog$163] != $fog$37) {
-            ensureSafeObject(rhs[$fog$650], self[$fog$922]);
-            ensureSafeFunction(rhs[$fog$163], self[$fog$922]);
+          if (rhs[$fog$1424] != $fog$1550) {
+            ensureSafeObject(rhs[$fog$937], self[$fog$665]);
+            ensureSafeFunction(rhs[$fog$1424], self[$fog$665]);
             var values = [];
-            for (var i = $fog$1; i < args[$fog$10]; ++i) {
-              values[$fog$31](ensureSafeObject(args[i](scope, locals, assign, inputs), self[$fog$922]));
+            for (var i = $fog$1586; i < args[$fog$1577]; ++i) {
+              values[$fog$1556](ensureSafeObject(args[i](scope, locals, assign, inputs), self[$fog$665]));
             }
-            value = ensureSafeObject(rhs[$fog$163][$fog$109](rhs[$fog$650], values), self[$fog$922]);
+            value = ensureSafeObject(rhs[$fog$1424][$fog$1478](rhs[$fog$937], values), self[$fog$665]);
           }
           return context ? {value: value} : value;
         };
-    case AST[$fog$901]:
-      left = this[$fog$981](ast[$fog$965], $fog$40, $fog$6);
-      right = this[$fog$981](ast[$fog$966]);
+    case AST[$fog$686]:
+      left = this[$fog$606](ast[$fog$622], $fog$1547, $fog$1581);
+      right = this[$fog$606](ast[$fog$621]);
       return function(scope, locals, assign, inputs) {
         var lhs = left(scope, locals, assign, inputs);
         var rhs = right(scope, locals, assign, inputs);
-        ensureSafeObject(lhs[$fog$163], self[$fog$922]);
-        lhs[$fog$650][lhs[$fog$42]] = rhs;
+        ensureSafeObject(lhs[$fog$1424], self[$fog$665]);
+        lhs[$fog$937][lhs[$fog$1545]] = rhs;
         return context ? {value: rhs} : rhs;
       };
-    case AST[$fog$910]:
+    case AST[$fog$677]:
       args = [];
-      forEach(ast[$fog$973], function(expr) {
-        args[$fog$31](self[$fog$981](expr));
+      forEach(ast[$fog$614], function(expr) {
+        args[$fog$1556](self[$fog$606](expr));
       });
       return function(scope, locals, assign, inputs) {
         var value = [];
-        for (var i = $fog$1; i < args[$fog$10]; ++i) {
-          value[$fog$31](args[i](scope, locals, assign, inputs));
+        for (var i = $fog$1586; i < args[$fog$1577]; ++i) {
+          value[$fog$1556](args[i](scope, locals, assign, inputs));
         }
         return context ? {value: value} : value;
       };
-    case AST[$fog$912]:
+    case AST[$fog$675]:
       args = [];
-      forEach(ast[$fog$974], function(property) {
-        args[$fog$31]({key: property[$fog$489][$fog$329] === AST[$fog$908] ?
-                        property[$fog$489][$fog$42] :
-                        ($fog$4 + property[$fog$489][$fog$163]),
-                   value: self[$fog$981](property[$fog$163])
+      forEach(ast[$fog$613], function(property) {
+        args[$fog$1556]({key: property[$fog$1098][$fog$1258] === AST[$fog$679] ?
+                        property[$fog$1098][$fog$1545] :
+                        ($fog$1583 + property[$fog$1098][$fog$1424]),
+                   value: self[$fog$606](property[$fog$1424])
         });
       });
       return function(scope, locals, assign, inputs) {
         var value = {};
-        for (var i = $fog$1; i < args[$fog$10]; ++i) {
-          value[args[i][$fog$489]] = args[i][$fog$163](scope, locals, assign, inputs);
+        for (var i = $fog$1586; i < args[$fog$1577]; ++i) {
+          value[args[i][$fog$1098]] = args[i][$fog$1424](scope, locals, assign, inputs);
         }
         return context ? {value: value} : value;
       };
-    case AST[$fog$913]:
+    case AST[$fog$674]:
       return function(scope) {
         return context ? {value: scope} : scope;
       };
-    case AST[$fog$914]:
+    case AST[$fog$673]:
       return function(scope, locals, assign, inputs) {
         return context ? {value: assign} : assign;
       };
@@ -13810,7 +13826,7 @@ ASTInterpreter[$fog$21] = {
       if (isDefined(arg)) {
         arg = +arg;
       } else {
-        arg = $fog$1;
+        arg = $fog$1586;
       }
       return context ? {value: arg} : arg;
     };
@@ -13821,7 +13837,7 @@ ASTInterpreter[$fog$21] = {
       if (isDefined(arg)) {
         arg = -arg;
       } else {
-        arg = $fog$1;
+        arg = $fog$1586;
       }
       return context ? {value: arg} : arg;
     };
@@ -13844,7 +13860,7 @@ ASTInterpreter[$fog$21] = {
     return function(scope, locals, assign, inputs) {
       var lhs = left(scope, locals, assign, inputs);
       var rhs = right(scope, locals, assign, inputs);
-      var arg = (isDefined(lhs) ? lhs : $fog$1) - (isDefined(rhs) ? rhs : $fog$1);
+      var arg = (isDefined(lhs) ? lhs : $fog$1586) - (isDefined(rhs) ? rhs : $fog$1586);
       return context ? {value: arg} : arg;
     };
   },
@@ -13938,7 +13954,7 @@ ASTInterpreter[$fog$21] = {
   identifier: function(name, expensiveChecks, context, create, expression) {
     return function(scope, locals, assign, inputs) {
       var base = locals && (name in locals) ? locals : scope;
-      if (create && create !== $fog$6 && base && !(base[name])) {
+      if (create && create !== $fog$1581 && base && !(base[name])) {
         base[name] = {};
       }
       var value = base ? base[name] : undefined;
@@ -13957,10 +13973,10 @@ ASTInterpreter[$fog$21] = {
       var lhs = left(scope, locals, assign, inputs);
       var rhs;
       var value;
-      if (lhs != $fog$37) {
+      if (lhs != $fog$1550) {
         rhs = right(scope, locals, assign, inputs);
         ensureSafeMemberName(rhs, expression);
-        if (create && create !== $fog$6 && lhs && !(lhs[rhs])) {
+        if (create && create !== $fog$1581 && lhs && !(lhs[rhs])) {
           lhs[rhs] = {};
         }
         value = lhs[rhs];
@@ -13976,10 +13992,10 @@ ASTInterpreter[$fog$21] = {
   nonComputedMember: function(left, right, expensiveChecks, context, create, expression) {
     return function(scope, locals, assign, inputs) {
       var lhs = left(scope, locals, assign, inputs);
-      if (create && create !== $fog$6 && lhs && !(lhs[right])) {
+      if (create && create !== $fog$1581 && lhs && !(lhs[right])) {
         lhs[right] = {};
       }
-      var value = lhs != $fog$37 ? lhs[right] : undefined;
+      var value = lhs != $fog$1550 ? lhs[right] : undefined;
       if (expensiveChecks || isPossiblyDangerousMemberName(right)) {
         ensureSafeObject(value, expression);
       }
@@ -14002,19 +14018,19 @@ ASTInterpreter[$fog$21] = {
  * @constructor
  */
 var Parser = function(lexer, $filter, options) {
-  this[$fog$898] = lexer;
-  this[$fog$976] = $filter;
-  this[$fog$324] = options;
-  this[$fog$977] = new AST(this[$fog$898]);
-  this[$fog$1062] = options[$fog$1063] ? new ASTInterpreter(this[$fog$977], $filter) :
-                                   new ASTCompiler(this[$fog$977], $filter);
+  this[$fog$689] = lexer;
+  this[$fog$611] = $filter;
+  this[$fog$1263] = options;
+  this[$fog$610] = new AST(this[$fog$689]);
+  this[$fog$525] = options[$fog$524] ? new ASTInterpreter(this[$fog$610], $filter) :
+                                   new ASTCompiler(this[$fog$610], $filter);
 };
 
-Parser[$fog$21] = {
+Parser[$fog$1566] = {
   constructor: Parser,
 
   parse: function(text) {
-    return this[$fog$1062][$fog$517](text, this[$fog$324][$fog$1027]);
+    return this[$fog$525][$fog$1070](text, this[$fog$1263][$fog$560]);
   }
 };
 
@@ -14022,13 +14038,13 @@ var getterFnCacheDefault = createMap();
 var getterFnCacheExpensive = createMap();
 
 function isPossiblyDangerousMemberName(name) {
-  return name == $fog$85;
+  return name == $fog$1502;
 }
 
-var objectValueOf = Object[$fog$21][$fog$50];
+var objectValueOf = Object[$fog$1566][$fog$1537];
 
 function getValueOf(value) {
-  return isFunction(value[$fog$50]) ? value[$fog$50]() : objectValueOf[$fog$43](value);
+  return isFunction(value[$fog$1537]) ? value[$fog$1537]() : objectValueOf[$fog$1544](value);
 }
 
 ///////////////////////////////////
@@ -14086,50 +14102,50 @@ function $ParseProvider() {
   var cacheDefault = createMap();
   var cacheExpensive = createMap();
 
-  this[$fog$350] = [$fog$976, function($filter) {
-    var noUnsafeEval = csp()[$fog$1064];
+  this[$fog$1237] = [$fog$611, function($filter) {
+    var noUnsafeEval = csp()[$fog$523];
     var $parseOptions = {
           csp: noUnsafeEval,
-          expensiveChecks: $fog$38
+          expensiveChecks: $fog$1549
         },
         $parseOptionsExpensive = {
           csp: noUnsafeEval,
-          expensiveChecks: $fog$40
+          expensiveChecks: $fog$1547
         };
 
     return function $parse(exp, interceptorFn, expensiveChecks) {
       var parsedExpression, oneTime, cacheKey;
 
       switch (typeof exp) {
-        case $fog$55:
-          exp = exp[$fog$69]();
+        case $fog$1532:
+          exp = exp[$fog$1518]();
           cacheKey = exp;
 
           var cache = (expensiveChecks ? cacheExpensive : cacheDefault);
           parsedExpression = cache[cacheKey];
 
           if (!parsedExpression) {
-            if (exp[$fog$93]($fog$1) === $fog$3 && exp[$fog$93]($fog$6) === $fog$3) {
-              oneTime = $fog$40;
-              exp = exp[$fog$130]($fog$0);
+            if (exp[$fog$1494]($fog$1586) === $fog$1584 && exp[$fog$1494]($fog$1581) === $fog$1584) {
+              oneTime = $fog$1547;
+              exp = exp[$fog$1457]($fog$1587);
             }
             var parseOptions = expensiveChecks ? $parseOptionsExpensive : $parseOptions;
             var lexer = new Lexer(parseOptions);
             var parser = new Parser(lexer, $filter, parseOptions);
-            parsedExpression = parser[$fog$114](exp);
-            if (parsedExpression[$fog$219]) {
-              parsedExpression[$fog$1065] = constantWatchDelegate;
+            parsedExpression = parser[$fog$1473](exp);
+            if (parsedExpression[$fog$1368]) {
+              parsedExpression[$fog$522] = constantWatchDelegate;
             } else if (oneTime) {
-              parsedExpression[$fog$1065] = parsedExpression[$fog$656] ?
+              parsedExpression[$fog$522] = parsedExpression[$fog$931] ?
                   oneTimeLiteralWatchDelegate : oneTimeWatchDelegate;
-            } else if (parsedExpression[$fog$985]) {
-              parsedExpression[$fog$1065] = inputsWatchDelegate;
+            } else if (parsedExpression[$fog$602]) {
+              parsedExpression[$fog$522] = inputsWatchDelegate;
             }
             cache[cacheKey] = parsedExpression;
           }
           return addInterceptor(parsedExpression, interceptorFn);
 
-        case $fog$46:
+        case $fog$1541:
           return addInterceptor(exp, interceptorFn);
 
         default:
@@ -14139,20 +14155,20 @@ function $ParseProvider() {
 
     function expressionInputDirtyCheck(newValue, oldValueOfValue) {
 
-      if (newValue == $fog$37 || oldValueOfValue == $fog$37) { // null/undefined
+      if (newValue == $fog$1550 || oldValueOfValue == $fog$1550) { // null/undefined
         return newValue === oldValueOfValue;
       }
 
-      if (typeof newValue === $fog$44) {
+      if (typeof newValue === $fog$1543) {
 
         // attempt to convert the value to a primitive type
         // TODO(docs): add a note to docs that by implementing valueOf even objects and arrays can
         //             be cheaply dirty-checked
         newValue = getValueOf(newValue);
 
-        if (typeof newValue === $fog$44) {
+        if (typeof newValue === $fog$1543) {
           // objects/arrays are not supported - deep-watching them would be too expensive
-          return $fog$38;
+          return $fog$1549;
         }
 
         // fall-through to the primitive equality check
@@ -14163,13 +14179,13 @@ function $ParseProvider() {
     }
 
     function inputsWatchDelegate(scope, listener, objectEquality, parsedExpression, prettyPrintExpression) {
-      var inputExpressions = parsedExpression[$fog$985];
+      var inputExpressions = parsedExpression[$fog$602];
       var lastResult;
 
-      if (inputExpressions[$fog$10] === $fog$6) {
+      if (inputExpressions[$fog$1577] === $fog$1581) {
         var oldInputValueOf = expressionInputDirtyCheck; // init to something unique so that equals check fails
-        inputExpressions = inputExpressions[$fog$1];
-        return scope[$fog$61](function expressionInputWatch(scope) {
+        inputExpressions = inputExpressions[$fog$1586];
+        return scope[$fog$1526](function expressionInputWatch(scope) {
           var newInputValue = inputExpressions(scope);
           if (!expressionInputDirtyCheck(newInputValue, oldInputValueOf)) {
             lastResult = parsedExpression(scope, undefined, undefined, [newInputValue]);
@@ -14181,15 +14197,15 @@ function $ParseProvider() {
 
       var oldInputValueOfValues = [];
       var oldInputValues = [];
-      for (var i = $fog$1, ii = inputExpressions[$fog$10]; i < ii; i++) {
+      for (var i = $fog$1586, ii = inputExpressions[$fog$1577]; i < ii; i++) {
         oldInputValueOfValues[i] = expressionInputDirtyCheck; // init to something unique so that equals check fails
-        oldInputValues[i] = $fog$37;
+        oldInputValues[i] = $fog$1550;
       }
 
-      return scope[$fog$61](function expressionInputsWatch(scope) {
-        var changed = $fog$38;
+      return scope[$fog$1526](function expressionInputsWatch(scope) {
+        var changed = $fog$1549;
 
-        for (var i = $fog$1, ii = inputExpressions[$fog$10]; i < ii; i++) {
+        for (var i = $fog$1586, ii = inputExpressions[$fog$1577]; i < ii; i++) {
           var newInputValue = inputExpressions[i](scope);
           if (changed || (changed = !expressionInputDirtyCheck(newInputValue, oldInputValueOfValues[i]))) {
             oldInputValues[i] = newInputValue;
@@ -14207,15 +14223,15 @@ function $ParseProvider() {
 
     function oneTimeWatchDelegate(scope, listener, objectEquality, parsedExpression) {
       var unwatch, lastValue;
-      return unwatch = scope[$fog$61](function oneTimeWatch(scope) {
+      return unwatch = scope[$fog$1526](function oneTimeWatch(scope) {
         return parsedExpression(scope);
       }, function oneTimeListener(value, old, scope) {
         lastValue = value;
         if (isFunction(listener)) {
-          listener[$fog$109](this, arguments);
+          listener[$fog$1478](this, arguments);
         }
         if (isDefined(value)) {
-          scope[$fog$419](function() {
+          scope[$fog$1168](function() {
             if (isDefined(lastValue)) {
               unwatch();
             }
@@ -14226,24 +14242,24 @@ function $ParseProvider() {
 
     function oneTimeLiteralWatchDelegate(scope, listener, objectEquality, parsedExpression) {
       var unwatch, lastValue;
-      return unwatch = scope[$fog$61](function oneTimeWatch(scope) {
+      return unwatch = scope[$fog$1526](function oneTimeWatch(scope) {
         return parsedExpression(scope);
       }, function oneTimeListener(value, old, scope) {
         lastValue = value;
         if (isFunction(listener)) {
-          listener[$fog$43](this, value, old, scope);
+          listener[$fog$1544](this, value, old, scope);
         }
         if (isAllDefined(value)) {
-          scope[$fog$419](function() {
+          scope[$fog$1168](function() {
             if (isAllDefined(lastValue)) unwatch();
           });
         }
       }, objectEquality);
 
       function isAllDefined(value) {
-        var allDefined = $fog$40;
+        var allDefined = $fog$1547;
         forEach(value, function(val) {
-          if (!isDefined(val)) allDefined = $fog$38;
+          if (!isDefined(val)) allDefined = $fog$1549;
         });
         return allDefined;
       }
@@ -14251,11 +14267,11 @@ function $ParseProvider() {
 
     function constantWatchDelegate(scope, listener, objectEquality, parsedExpression) {
       var unwatch;
-      return unwatch = scope[$fog$61](function constantWatch(scope) {
+      return unwatch = scope[$fog$1526](function constantWatch(scope) {
         return parsedExpression(scope);
       }, function constantListener(value, old, scope) {
         if (isFunction(listener)) {
-          listener[$fog$109](this, arguments);
+          listener[$fog$1478](this, arguments);
         }
         unwatch();
       }, objectEquality);
@@ -14263,7 +14279,7 @@ function $ParseProvider() {
 
     function addInterceptor(parsedExpression, interceptorFn) {
       if (!interceptorFn) return parsedExpression;
-      var watchDelegate = parsedExpression[$fog$1065];
+      var watchDelegate = parsedExpression[$fog$522];
 
       var regularWatch =
           watchDelegate !== oneTimeLiteralWatchDelegate &&
@@ -14281,14 +14297,14 @@ function $ParseProvider() {
       };
 
       // Propagate $$watchDelegates other then inputsWatchDelegate
-      if (parsedExpression[$fog$1065] &&
-          parsedExpression[$fog$1065] !== inputsWatchDelegate) {
-        fn[$fog$1065] = parsedExpression[$fog$1065];
-      } else if (!interceptorFn[$fog$660]) {
+      if (parsedExpression[$fog$522] &&
+          parsedExpression[$fog$522] !== inputsWatchDelegate) {
+        fn[$fog$522] = parsedExpression[$fog$522];
+      } else if (!interceptorFn[$fog$927]) {
         // If there is an interceptor, but no watchDelegate then treat the interceptor like
         // we treat filters - it is assumed to be a pure function unless flagged with $stateful
-        fn[$fog$1065] = inputsWatchDelegate;
-        fn[$fog$985] = parsedExpression[$fog$985] ? parsedExpression[$fog$985] : [parsedExpression];
+        fn[$fog$522] = inputsWatchDelegate;
+        fn[$fog$602] = parsedExpression[$fog$602] ? parsedExpression[$fog$602] : [parsedExpression];
       }
 
       return fn;
@@ -14512,17 +14528,17 @@ function $ParseProvider() {
  */
 function $QProvider() {
 
-  this[$fog$350] = [$fog$168, $fog$516, function($rootScope, $exceptionHandler) {
+  this[$fog$1237] = [$fog$1419, $fog$1071, function($rootScope, $exceptionHandler) {
     return qFactory(function(callback) {
-      $rootScope[$fog$60](callback);
+      $rootScope[$fog$1527](callback);
     }, $exceptionHandler);
   }];
 }
 
 function $$QProvider() {
-  this[$fog$350] = [$fog$732, $fog$516, function($browser, $exceptionHandler) {
+  this[$fog$1237] = [$fog$855, $fog$1071, function($browser, $exceptionHandler) {
     return qFactory(function(callback) {
-      $browser[$fog$447](callback);
+      $browser[$fog$1140](callback);
     }, $exceptionHandler);
   }];
 }
@@ -14536,14 +14552,14 @@ function $$QProvider() {
  * @returns {object} Promise manager.
  */
 function qFactory(nextTick, exceptionHandler) {
-  var $qMinErr = minErr($fog$409, TypeError);
+  var $qMinErr = minErr($fog$1178, TypeError);
   function callOnce(self, resolveFn, rejectFn) {
-    var called = $fog$38;
+    var called = $fog$1549;
     function wrap(fn) {
       return function(value) {
         if (called) return;
-        called = $fog$40;
-        fn[$fog$43](self, value);
+        called = $fog$1547;
+        fn[$fog$1544](self, value);
       };
     }
 
@@ -14565,32 +14581,32 @@ function qFactory(nextTick, exceptionHandler) {
   };
 
   function Promise() {
-    this[$fog$808] = { status: $fog$1 };
+    this[$fog$779] = { status: $fog$1586 };
   }
 
-  extend(Promise[$fog$21], {
+  extend(Promise[$fog$1566], {
     then: function(onFulfilled, onRejected, progressBack) {
       if (isUndefined(onFulfilled) && isUndefined(onRejected) && isUndefined(progressBack)) {
         return this;
       }
       var result = new Deferred();
 
-      this[$fog$808][$fog$1066] = this[$fog$808][$fog$1066] || [];
-      this[$fog$808][$fog$1066][$fog$31]([result, onFulfilled, onRejected, progressBack]);
-      if (this[$fog$808][$fog$713] > $fog$1) scheduleProcessQueue(this[$fog$808]);
+      this[$fog$779][$fog$521] = this[$fog$779][$fog$521] || [];
+      this[$fog$779][$fog$521][$fog$1556]([result, onFulfilled, onRejected, progressBack]);
+      if (this[$fog$779][$fog$874] > $fog$1586) scheduleProcessQueue(this[$fog$779]);
 
-      return result[$fog$451];
+      return result[$fog$1136];
     },
 
     "catch": function(callback) {
-      return this[$fog$66]($fog$37, callback);
+      return this[$fog$1521]($fog$1550, callback);
     },
 
     "finally": function(callback, progressBack) {
-      return this[$fog$66](function(value) {
-        return handleCallback(value, $fog$40, callback);
+      return this[$fog$1521](function(value) {
+        return handleCallback(value, $fog$1547, callback);
       }, function(error) {
-        return handleCallback(error, $fog$38, callback);
+        return handleCallback(error, $fog$1549, callback);
       }, progressBack);
     }
   });
@@ -14598,58 +14614,58 @@ function qFactory(nextTick, exceptionHandler) {
   //Faster, more basic than angular.bind http://jsperf.com/angular-bind-vs-custom-vs-native
   function simpleBind(context, fn) {
     return function(value) {
-      fn[$fog$43](context, value);
+      fn[$fog$1544](context, value);
     };
   }
 
   function processQueue(state) {
     var fn, deferred, pending;
 
-    pending = state[$fog$1066];
-    state[$fog$1067] = $fog$38;
-    state[$fog$1066] = undefined;
-    for (var i = $fog$1, ii = pending[$fog$10]; i < ii; ++i) {
-      deferred = pending[i][$fog$1];
-      fn = pending[i][state[$fog$713]];
+    pending = state[$fog$521];
+    state[$fog$520] = $fog$1549;
+    state[$fog$521] = undefined;
+    for (var i = $fog$1586, ii = pending[$fog$1577]; i < ii; ++i) {
+      deferred = pending[i][$fog$1586];
+      fn = pending[i][state[$fog$874]];
       try {
         if (isFunction(fn)) {
-          deferred[$fog$449](fn(state[$fog$163]));
-        } else if (state[$fog$713] === $fog$6) {
-          deferred[$fog$449](state[$fog$163]);
+          deferred[$fog$1138](fn(state[$fog$1424]));
+        } else if (state[$fog$874] === $fog$1581) {
+          deferred[$fog$1138](state[$fog$1424]);
         } else {
-          deferred[$fog$448](state[$fog$163]);
+          deferred[$fog$1139](state[$fog$1424]);
         }
       } catch (e) {
-        deferred[$fog$448](e);
+        deferred[$fog$1139](e);
         exceptionHandler(e);
       }
     }
   }
 
   function scheduleProcessQueue(state) {
-    if (state[$fog$1067] || !state[$fog$1066]) return;
-    state[$fog$1067] = $fog$40;
+    if (state[$fog$520] || !state[$fog$521]) return;
+    state[$fog$520] = $fog$1547;
     nextTick(function() { processQueue(state); });
   }
 
   function Deferred() {
-    this[$fog$451] = new Promise();
+    this[$fog$1136] = new Promise();
     //Necessary to support unbound execution :/
-    this[$fog$449] = simpleBind(this, this[$fog$449]);
-    this[$fog$448] = simpleBind(this, this[$fog$448]);
-    this[$fog$775] = simpleBind(this, this[$fog$775]);
+    this[$fog$1138] = simpleBind(this, this[$fog$1138]);
+    this[$fog$1139] = simpleBind(this, this[$fog$1139]);
+    this[$fog$812] = simpleBind(this, this[$fog$812]);
   }
 
-  extend(Deferred[$fog$21], {
+  extend(Deferred[$fog$1566], {
     resolve: function(val) {
-      if (this[$fog$451][$fog$808][$fog$713]) return;
-      if (val === this[$fog$451]) {
-        this[$fog$1068]($qMinErr(
-          $fog$1069,
-          $fog$1070,
+      if (this[$fog$1136][$fog$779][$fog$874]) return;
+      if (val === this[$fog$1136]) {
+        this[$fog$519]($qMinErr(
+          $fog$518,
+          $fog$517,
           val));
       } else {
-        this[$fog$1071](val);
+        this[$fog$516](val);
       }
 
     },
@@ -14657,45 +14673,45 @@ function qFactory(nextTick, exceptionHandler) {
     $$resolve: function(val) {
       var then, fns;
 
-      fns = callOnce(this, this[$fog$1071], this[$fog$1068]);
+      fns = callOnce(this, this[$fog$516], this[$fog$519]);
       try {
-        if ((isObject(val) || isFunction(val))) then = val && val[$fog$66];
+        if ((isObject(val) || isFunction(val))) then = val && val[$fog$1521];
         if (isFunction(then)) {
-          this[$fog$451][$fog$808][$fog$713] = -$fog$6;
-          then[$fog$43](val, fns[$fog$1], fns[$fog$6], this[$fog$775]);
+          this[$fog$1136][$fog$779][$fog$874] = -$fog$1581;
+          then[$fog$1544](val, fns[$fog$1586], fns[$fog$1581], this[$fog$812]);
         } else {
-          this[$fog$451][$fog$808][$fog$163] = val;
-          this[$fog$451][$fog$808][$fog$713] = $fog$6;
-          scheduleProcessQueue(this[$fog$451][$fog$808]);
+          this[$fog$1136][$fog$779][$fog$1424] = val;
+          this[$fog$1136][$fog$779][$fog$874] = $fog$1581;
+          scheduleProcessQueue(this[$fog$1136][$fog$779]);
         }
       } catch (e) {
-        fns[$fog$6](e);
+        fns[$fog$1581](e);
         exceptionHandler(e);
       }
     },
 
     reject: function(reason) {
-      if (this[$fog$451][$fog$808][$fog$713]) return;
-      this[$fog$1068](reason);
+      if (this[$fog$1136][$fog$779][$fog$874]) return;
+      this[$fog$519](reason);
     },
 
     $$reject: function(reason) {
-      this[$fog$451][$fog$808][$fog$163] = reason;
-      this[$fog$451][$fog$808][$fog$713] = $fog$0;
-      scheduleProcessQueue(this[$fog$451][$fog$808]);
+      this[$fog$1136][$fog$779][$fog$1424] = reason;
+      this[$fog$1136][$fog$779][$fog$874] = $fog$1587;
+      scheduleProcessQueue(this[$fog$1136][$fog$779]);
     },
 
     notify: function(progress) {
-      var callbacks = this[$fog$451][$fog$808][$fog$1066];
+      var callbacks = this[$fog$1136][$fog$779][$fog$521];
 
-      if ((this[$fog$451][$fog$808][$fog$713] <= $fog$1) && callbacks && callbacks[$fog$10]) {
+      if ((this[$fog$1136][$fog$779][$fog$874] <= $fog$1586) && callbacks && callbacks[$fog$1577]) {
         nextTick(function() {
           var callback, result;
-          for (var i = $fog$1, ii = callbacks[$fog$10]; i < ii; i++) {
-            result = callbacks[i][$fog$1];
-            callback = callbacks[i][$fog$206];
+          for (var i = $fog$1586, ii = callbacks[$fog$1577]; i < ii; i++) {
+            result = callbacks[i][$fog$1586];
+            callback = callbacks[i][$fog$1381];
             try {
-              result[$fog$775](isFunction(callback) ? callback(progress) : progress);
+              result[$fog$812](isFunction(callback) ? callback(progress) : progress);
             } catch (e) {
               exceptionHandler(e);
             }
@@ -14743,32 +14759,32 @@ function qFactory(nextTick, exceptionHandler) {
    */
   var reject = function(reason) {
     var result = new Deferred();
-    result[$fog$448](reason);
-    return result[$fog$451];
+    result[$fog$1139](reason);
+    return result[$fog$1136];
   };
 
   var makePromise = function makePromise(value, resolved) {
     var result = new Deferred();
     if (resolved) {
-      result[$fog$449](value);
+      result[$fog$1138](value);
     } else {
-      result[$fog$448](value);
+      result[$fog$1139](value);
     }
-    return result[$fog$451];
+    return result[$fog$1136];
   };
 
   var handleCallback = function handleCallback(value, isResolved, callback) {
-    var callbackOutput = $fog$37;
+    var callbackOutput = $fog$1550;
     try {
       if (isFunction(callback)) callbackOutput = callback();
     } catch (e) {
-      return makePromise(e, $fog$38);
+      return makePromise(e, $fog$1549);
     }
     if (isPromiseLike(callbackOutput)) {
-      return callbackOutput[$fog$66](function() {
+      return callbackOutput[$fog$1521](function() {
         return makePromise(value, isResolved);
       }, function(error) {
-        return makePromise(error, $fog$38);
+        return makePromise(error, $fog$1549);
       });
     } else {
       return makePromise(value, isResolved);
@@ -14795,8 +14811,8 @@ function qFactory(nextTick, exceptionHandler) {
 
   var when = function(value, callback, errback, progressBack) {
     var result = new Deferred();
-    result[$fog$449](value);
-    return result[$fog$451][$fog$66](callback, errback, progressBack);
+    result[$fog$1138](value);
+    return result[$fog$1136][$fog$1521](callback, errback, progressBack);
   };
 
   /**
@@ -14833,31 +14849,31 @@ function qFactory(nextTick, exceptionHandler) {
 
   function all(promises) {
     var deferred = new Deferred(),
-        counter = $fog$1,
+        counter = $fog$1586,
         results = isArray(promises) ? [] : {};
 
     forEach(promises, function(promise, key) {
       counter++;
-      when(promise)[$fog$66](function(value) {
-        if (results[$fog$20](key)) return;
+      when(promise)[$fog$1521](function(value) {
+        if (results[$fog$1567](key)) return;
         results[key] = value;
-        if (!(--counter)) deferred[$fog$449](results);
+        if (!(--counter)) deferred[$fog$1138](results);
       }, function(reason) {
-        if (results[$fog$20](key)) return;
-        deferred[$fog$448](reason);
+        if (results[$fog$1567](key)) return;
+        deferred[$fog$1139](reason);
       });
     });
 
-    if (counter === $fog$1) {
-      deferred[$fog$449](results);
+    if (counter === $fog$1586) {
+      deferred[$fog$1138](results);
     }
 
-    return deferred[$fog$451];
+    return deferred[$fog$1136];
   }
 
   var $Q = function Q(resolver) {
     if (!isFunction(resolver)) {
-      throw $qMinErr($fog$1072, $fog$1073, resolver);
+      throw $qMinErr($fog$515, $fog$514, resolver);
     }
 
     if (!(this instanceof Q)) {
@@ -14868,35 +14884,35 @@ function qFactory(nextTick, exceptionHandler) {
     var deferred = new Deferred();
 
     function resolveFn(value) {
-      deferred[$fog$449](value);
+      deferred[$fog$1138](value);
     }
 
     function rejectFn(reason) {
-      deferred[$fog$448](reason);
+      deferred[$fog$1139](reason);
     }
 
     resolver(resolveFn, rejectFn);
 
-    return deferred[$fog$451];
+    return deferred[$fog$1136];
   };
 
-  $Q[$fog$447] = defer;
-  $Q[$fog$448] = reject;
-  $Q[$fog$707] = when;
-  $Q[$fog$449] = resolve;
-  $Q[$fog$411] = all;
+  $Q[$fog$1140] = defer;
+  $Q[$fog$1139] = reject;
+  $Q[$fog$880] = when;
+  $Q[$fog$1138] = resolve;
+  $Q[$fog$1176] = all;
 
   return $Q;
 }
 
 function $$RAFProvider() { //rAF
-  this[$fog$350] = [$fog$390, $fog$1074, function($window, $timeout) {
-    var requestAnimationFrame = $window[$fog$1075] ||
-                                $window[$fog$1076];
+  this[$fog$1237] = [$fog$1197, $fog$513, function($window, $timeout) {
+    var requestAnimationFrame = $window[$fog$512] ||
+                                $window[$fog$511];
 
-    var cancelAnimationFrame = $window[$fog$1077] ||
-                               $window[$fog$1078] ||
-                               $window[$fog$1079];
+    var cancelAnimationFrame = $window[$fog$510] ||
+                               $window[$fog$509] ||
+                               $window[$fog$508];
 
     var rafSupported = !!requestAnimationFrame;
     var rafFn = rafSupported
@@ -14907,49 +14923,49 @@ function $$RAFProvider() { //rAF
           };
         }
       : function(fn) {
-          var timer = $timeout(fn, $fog$1080, $fog$38); // 1000 / 60 = 16.666
+          var timer = $timeout(fn, $fog$507, $fog$1549); // 1000 / 60 = 16.666
           return function() {
-            $timeout[$fog$480](timer);
+            $timeout[$fog$1107](timer);
           };
         };
 
-    queueFn[$fog$1081] = rafSupported;
+    queueFn[$fog$506] = rafSupported;
 
     var cancelLastRAF;
-    var taskCount = $fog$1;
+    var taskCount = $fog$1586;
     var taskQueue = [];
     return queueFn;
 
     function flush() {
-      for (var i = $fog$1; i < taskQueue[$fog$10]; i++) {
+      for (var i = $fog$1586; i < taskQueue[$fog$1577]; i++) {
         var task = taskQueue[i];
         if (task) {
-          taskQueue[i] = $fog$37;
+          taskQueue[i] = $fog$1550;
           task();
         }
       }
-      taskCount = taskQueue[$fog$10] = $fog$1;
+      taskCount = taskQueue[$fog$1577] = $fog$1586;
     }
 
     function queueFn(asyncFn) {
-      var index = taskQueue[$fog$10];
+      var index = taskQueue[$fog$1577];
 
       taskCount++;
-      taskQueue[$fog$31](asyncFn);
+      taskQueue[$fog$1556](asyncFn);
 
-      if (index === $fog$1) {
+      if (index === $fog$1586) {
         cancelLastRAF = rafFn(flush);
       }
 
       return function cancelQueueFn() {
-        if (index >= $fog$1) {
-          taskQueue[index] = $fog$37;
-          index = $fog$37;
+        if (index >= $fog$1586) {
+          taskQueue[index] = $fog$1550;
+          index = $fog$1550;
 
-          if (--taskCount === $fog$1 && cancelLastRAF) {
+          if (--taskCount === $fog$1586 && cancelLastRAF) {
             cancelLastRAF();
-            cancelLastRAF = $fog$37;
-            taskQueue[$fog$10] = $fog$1;
+            cancelLastRAF = $fog$1550;
+            taskQueue[$fog$1577] = $fog$1586;
           }
         }
       };
@@ -15025,13 +15041,13 @@ function $$RAFProvider() { //rAF
  * {@link guide/scope developer guide on scopes}.
  */
 function $RootScopeProvider() {
-  var TTL = $fog$51;
-  var $rootScopeMinErr = minErr($fog$168);
-  var lastDirtyWatch = $fog$37;
-  var applyAsyncId = $fog$37;
+  var TTL = $fog$1536;
+  var $rootScopeMinErr = minErr($fog$1419);
+  var lastDirtyWatch = $fog$1550;
+  var applyAsyncId = $fog$1550;
 
-  this[$fog$1082] = function(value) {
-    if (arguments[$fog$10]) {
+  this[$fog$505] = function(value) {
+    if (arguments[$fog$1577]) {
       TTL = value;
     }
     return TTL;
@@ -15039,23 +15055,23 @@ function $RootScopeProvider() {
 
   function createChildScopeClass(parent) {
     function ChildScope() {
-      this[$fog$1083] = this[$fog$1084] =
-          this[$fog$1085] = this[$fog$1086] = $fog$37;
-      this[$fog$1087] = {};
-      this[$fog$1088] = {};
-      this[$fog$1089] = $fog$1;
-      this[$fog$1090] = nextUid();
-      this[$fog$1091] = $fog$37;
+      this[$fog$504] = this[$fog$503] =
+          this[$fog$502] = this[$fog$501] = $fog$1550;
+      this[$fog$500] = {};
+      this[$fog$499] = {};
+      this[$fog$498] = $fog$1586;
+      this[$fog$497] = nextUid();
+      this[$fog$496] = $fog$1550;
     }
-    ChildScope[$fog$21] = parent;
+    ChildScope[$fog$1566] = parent;
     return ChildScope;
   }
 
-  this[$fog$350] = [$fog$170, $fog$516, $fog$530, $fog$732,
+  this[$fog$1237] = [$fog$1417, $fog$1071, $fog$1057, $fog$855,
       function($injector, $exceptionHandler, $parse, $browser) {
 
     function destroyChildScope($event) {
-        $event[$fog$1092][$fog$627] = $fog$40;
+        $event[$fog$495][$fog$960] = $fog$1547;
     }
 
     /**
@@ -15099,16 +15115,16 @@ function $RootScopeProvider() {
      *
      */
     function Scope() {
-      this[$fog$1090] = nextUid();
-      this[$fog$729] = this[$fog$1093] = this[$fog$1083] =
-                     this[$fog$1084] = this[$fog$1094] =
-                     this[$fog$1085] = this[$fog$1086] = $fog$37;
-      this[$fog$1095] = this;
-      this[$fog$627] = $fog$38;
-      this[$fog$1087] = {};
-      this[$fog$1088] = {};
-      this[$fog$1089] = $fog$1;
-      this[$fog$525] = $fog$37;
+      this[$fog$497] = nextUid();
+      this[$fog$858] = this[$fog$494] = this[$fog$504] =
+                     this[$fog$503] = this[$fog$493] =
+                     this[$fog$502] = this[$fog$501] = $fog$1550;
+      this[$fog$492] = this;
+      this[$fog$960] = $fog$1549;
+      this[$fog$500] = {};
+      this[$fog$499] = {};
+      this[$fog$498] = $fog$1586;
+      this[$fog$1062] = $fog$1550;
     }
 
     /**
@@ -15135,7 +15151,7 @@ function $RootScopeProvider() {
        * Reference to the root scope.
        */
 
-    Scope[$fog$21] = {
+    Scope[$fog$1566] = {
       constructor: Scope,
       /**
        * @ngdoc method
@@ -15173,22 +15189,22 @@ function $RootScopeProvider() {
 
         if (isolate) {
           child = new Scope();
-          child[$fog$1095] = this[$fog$1095];
+          child[$fog$492] = this[$fog$492];
         } else {
           // Only create a child scope class if somebody asks for one,
           // but cache it to allow the VM to optimize lookups.
-          if (!this[$fog$1091]) {
-            this[$fog$1091] = createChildScopeClass(this);
+          if (!this[$fog$496]) {
+            this[$fog$496] = createChildScopeClass(this);
           }
-          child = new this[$fog$1091]();
+          child = new this[$fog$496]();
         }
-        child[$fog$1093] = parent;
-        child[$fog$1094] = parent[$fog$1086];
-        if (parent[$fog$1085]) {
-          parent[$fog$1086][$fog$1084] = child;
-          parent[$fog$1086] = child;
+        child[$fog$494] = parent;
+        child[$fog$493] = parent[$fog$501];
+        if (parent[$fog$502]) {
+          parent[$fog$501][$fog$503] = child;
+          parent[$fog$501] = child;
         } else {
-          parent[$fog$1085] = parent[$fog$1086] = child;
+          parent[$fog$502] = parent[$fog$501] = child;
         }
 
         // When the new scope is not isolated or we inherit from `this`, and
@@ -15196,7 +15212,7 @@ function $RootScopeProvider() {
         // prototypically. In all other cases, this property needs to be set
         // when the parent scope is destroyed.
         // The listener needs to be added after the parent is set
-        if (isolate || parent != this) child[$fog$580]($fog$195, destroyChildScope);
+        if (isolate || parent != this) child[$fog$1007]($fog$1392, destroyChildScope);
 
         return child;
       },
@@ -15320,11 +15336,11 @@ function $RootScopeProvider() {
       $watch: function(watchExp, listener, objectEquality, prettyPrintExpression) {
         var get = $parse(watchExp);
 
-        if (get[$fog$1065]) {
-          return get[$fog$1065](this, listener, objectEquality, get, watchExp);
+        if (get[$fog$522]) {
+          return get[$fog$522](this, listener, objectEquality, get, watchExp);
         }
         var scope = this,
-            array = scope[$fog$1083],
+            array = scope[$fog$504],
             watcher = {
               fn: listener,
               last: initWatchVal,
@@ -15333,25 +15349,25 @@ function $RootScopeProvider() {
               eq: !!objectEquality
             };
 
-        lastDirtyWatch = $fog$37;
+        lastDirtyWatch = $fog$1550;
 
         if (!isFunction(listener)) {
-          watcher[$fog$187] = noop;
+          watcher[$fog$1400] = noop;
         }
 
         if (!array) {
-          array = scope[$fog$1083] = [];
+          array = scope[$fog$504] = [];
         }
         // we use unshift since we use a while loop in $digest for speed.
         // the while loop reads in reverse order.
-        array[$fog$161](watcher);
-        incrementWatchersCount(this, $fog$6);
+        array[$fog$1426](watcher);
+        incrementWatchersCount(this, $fog$1581);
 
         return function deregisterWatch() {
-          if (arrayRemove(array, watcher) >= $fog$1) {
-            incrementWatchersCount(scope, -$fog$6);
+          if (arrayRemove(array, watcher) >= $fog$1586) {
+            incrementWatchersCount(scope, -$fog$1581);
           }
-          lastDirtyWatch = $fog$37;
+          lastDirtyWatch = $fog$1550;
         };
       },
 
@@ -15381,50 +15397,50 @@ function $RootScopeProvider() {
        * @returns {function()} Returns a de-registration function for all listeners.
        */
       $watchGroup: function(watchExpressions, listener) {
-        var oldValues = new Array(watchExpressions[$fog$10]);
-        var newValues = new Array(watchExpressions[$fog$10]);
+        var oldValues = new Array(watchExpressions[$fog$1577]);
+        var newValues = new Array(watchExpressions[$fog$1577]);
         var deregisterFns = [];
         var self = this;
-        var changeReactionScheduled = $fog$38;
-        var firstRun = $fog$40;
+        var changeReactionScheduled = $fog$1549;
+        var firstRun = $fog$1547;
 
-        if (!watchExpressions[$fog$10]) {
+        if (!watchExpressions[$fog$1577]) {
           // No expressions means we call the listener ASAP
-          var shouldCall = $fog$40;
-          self[$fog$60](function() {
+          var shouldCall = $fog$1547;
+          self[$fog$1527](function() {
             if (shouldCall) listener(newValues, newValues, self);
           });
           return function deregisterWatchGroup() {
-            shouldCall = $fog$38;
+            shouldCall = $fog$1549;
           };
         }
 
-        if (watchExpressions[$fog$10] === $fog$6) {
+        if (watchExpressions[$fog$1577] === $fog$1581) {
           // Special case size of one
-          return this[$fog$61](watchExpressions[$fog$1], function watchGroupAction(value, oldValue, scope) {
-            newValues[$fog$1] = value;
-            oldValues[$fog$1] = oldValue;
+          return this[$fog$1526](watchExpressions[$fog$1586], function watchGroupAction(value, oldValue, scope) {
+            newValues[$fog$1586] = value;
+            oldValues[$fog$1586] = oldValue;
             listener(newValues, (value === oldValue) ? newValues : oldValues, scope);
           });
         }
 
         forEach(watchExpressions, function(expr, i) {
-          var unwatchFn = self[$fog$61](expr, function watchGroupSubAction(value, oldValue) {
+          var unwatchFn = self[$fog$1526](expr, function watchGroupSubAction(value, oldValue) {
             newValues[i] = value;
             oldValues[i] = oldValue;
             if (!changeReactionScheduled) {
-              changeReactionScheduled = $fog$40;
-              self[$fog$60](watchGroupAction);
+              changeReactionScheduled = $fog$1547;
+              self[$fog$1527](watchGroupAction);
             }
           });
-          deregisterFns[$fog$31](unwatchFn);
+          deregisterFns[$fog$1556](unwatchFn);
         });
 
         function watchGroupAction() {
-          changeReactionScheduled = $fog$38;
+          changeReactionScheduled = $fog$1549;
 
           if (firstRun) {
-            firstRun = $fog$38;
+            firstRun = $fog$1549;
             listener(newValues, newValues, self);
           } else {
             listener(newValues, oldValues, self);
@@ -15432,8 +15448,8 @@ function $RootScopeProvider() {
         }
 
         return function deregisterWatchGroup() {
-          while (deregisterFns[$fog$10]) {
-            deregisterFns[$fog$385]()();
+          while (deregisterFns[$fog$1577]) {
+            deregisterFns[$fog$1202]()();
           }
         };
       },
@@ -15495,7 +15511,7 @@ function $RootScopeProvider() {
        *    de-registration function is executed, the internal watch operation is terminated.
        */
       $watchCollection: function(obj, listener) {
-        $watchCollectionInterceptor[$fog$660] = $fog$40;
+        $watchCollectionInterceptor[$fog$927] = $fog$1547;
 
         var self = this;
         // the current value, updated on each dirty-check run
@@ -15506,13 +15522,13 @@ function $RootScopeProvider() {
         // a shallow copy of the newValue from when the last change happened
         var veryOldValue;
         // only track veryOldValue if the listener is asking for it
-        var trackVeryOldValue = (listener[$fog$10] > $fog$6);
-        var changeDetected = $fog$1;
+        var trackVeryOldValue = (listener[$fog$1577] > $fog$1581);
+        var changeDetected = $fog$1586;
         var changeDetector = $parse(obj, $watchCollectionInterceptor);
         var internalArray = [];
         var internalObject = {};
-        var initRun = $fog$40;
-        var oldLength = $fog$1;
+        var initRun = $fog$1547;
+        var oldLength = $fog$1586;
 
         function $watchCollectionInterceptor(_value) {
           newValue = _value;
@@ -15530,19 +15546,19 @@ function $RootScopeProvider() {
             if (oldValue !== internalArray) {
               // we are transitioning from something which was not an array into array.
               oldValue = internalArray;
-              oldLength = oldValue[$fog$10] = $fog$1;
+              oldLength = oldValue[$fog$1577] = $fog$1586;
               changeDetected++;
             }
 
-            newLength = newValue[$fog$10];
+            newLength = newValue[$fog$1577];
 
             if (oldLength !== newLength) {
               // if lengths do not match we need to trigger change notification
               changeDetected++;
-              oldValue[$fog$10] = oldLength = newLength;
+              oldValue[$fog$1577] = oldLength = newLength;
             }
             // copy the items to oldValue and look for changes.
-            for (var i = $fog$1; i < newLength; i++) {
+            for (var i = $fog$1586; i < newLength; i++) {
               oldItem = oldValue[i];
               newItem = newValue[i];
 
@@ -15556,13 +15572,13 @@ function $RootScopeProvider() {
             if (oldValue !== internalObject) {
               // we are transitioning from something which was not an object into object.
               oldValue = internalObject = {};
-              oldLength = $fog$1;
+              oldLength = $fog$1586;
               changeDetected++;
             }
             // copy the items to oldValue and look for changes.
-            newLength = $fog$1;
+            newLength = $fog$1586;
             for (key in newValue) {
-              if (newValue[$fog$20](key)) {
+              if (newValue[$fog$1567](key)) {
                 newLength++;
                 newItem = newValue[key];
                 oldItem = oldValue[key];
@@ -15584,7 +15600,7 @@ function $RootScopeProvider() {
               // we used to have more keys, need to find them and destroy them.
               changeDetected++;
               for (key in oldValue) {
-                if (!newValue[$fog$20](key)) {
+                if (!newValue[$fog$1567](key)) {
                   oldLength--;
                   delete oldValue[key];
                 }
@@ -15596,7 +15612,7 @@ function $RootScopeProvider() {
 
         function $watchCollectionAction() {
           if (initRun) {
-            initRun = $fog$38;
+            initRun = $fog$1549;
             listener(newValue, newValue, self);
           } else {
             listener(newValue, veryOldValue, self);
@@ -15608,14 +15624,14 @@ function $RootScopeProvider() {
               //primitive
               veryOldValue = newValue;
             } else if (isArrayLike(newValue)) {
-              veryOldValue = new Array(newValue[$fog$10]);
-              for (var i = $fog$1; i < newValue[$fog$10]; i++) {
+              veryOldValue = new Array(newValue[$fog$1577]);
+              for (var i = $fog$1586; i < newValue[$fog$1577]; i++) {
                 veryOldValue[i] = newValue[i];
               }
             } else { // if object
               veryOldValue = {};
               for (var key in newValue) {
-                if (hasOwnProperty[$fog$43](newValue, key)) {
+                if (hasOwnProperty[$fog$1544](newValue, key)) {
                   veryOldValue[key] = newValue[key];
                 }
               }
@@ -15623,7 +15639,7 @@ function $RootScopeProvider() {
           }
         }
 
-        return this[$fog$61](changeDetector, $watchCollectionAction);
+        return this[$fog$1526](changeDetector, $watchCollectionAction);
       },
 
       /**
@@ -15686,58 +15702,58 @@ function $RootScopeProvider() {
             watchLog = [],
             logIdx, logMsg, asyncTask;
 
-        beginPhase($fog$833);
+        beginPhase($fog$754);
         // Check for changes to browser url that happened in sync before the call to $digest
-        $browser[$fog$477]();
+        $browser[$fog$1110]();
 
-        if (this === $rootScope && applyAsyncId !== $fog$37) {
+        if (this === $rootScope && applyAsyncId !== $fog$1550) {
           // If this is the root scope, and $applyAsync has scheduled a deferred $apply(), then
           // cancel the scheduled $apply and flush the queue of expressions to be evaluated.
-          $browser[$fog$447][$fog$480](applyAsyncId);
+          $browser[$fog$1140][$fog$1107](applyAsyncId);
           flushApplyAsync();
         }
 
-        lastDirtyWatch = $fog$37;
+        lastDirtyWatch = $fog$1550;
 
         do { // "while dirty" loop
-          dirty = $fog$38;
+          dirty = $fog$1549;
           current = target;
 
-          while (asyncQueue[$fog$10]) {
+          while (asyncQueue[$fog$1577]) {
             try {
-              asyncTask = asyncQueue[$fog$385]();
-              asyncTask[$fog$188][$fog$1096](asyncTask[$fog$922], asyncTask[$fog$1097]);
+              asyncTask = asyncQueue[$fog$1202]();
+              asyncTask[$fog$1399][$fog$491](asyncTask[$fog$665], asyncTask[$fog$490]);
             } catch (e) {
               $exceptionHandler(e);
             }
-            lastDirtyWatch = $fog$37;
+            lastDirtyWatch = $fog$1550;
           }
 
           traverseScopesLoop:
           do { // "traverse the scopes" loop
-            if ((watchers = current[$fog$1083])) {
+            if ((watchers = current[$fog$504])) {
               // process our watches
-              length = watchers[$fog$10];
+              length = watchers[$fog$1577];
               while (length--) {
                 try {
                   watch = watchers[length];
                   // Most common watches are on primitives, in which case we can short
                   // circuit it with === operator, only when === fails do we use .equals
                   if (watch) {
-                    if ((value = watch[$fog$182](current)) !== (last = watch[$fog$1098]) &&
-                        !(watch[$fog$345]
+                    if ((value = watch[$fog$1405](current)) !== (last = watch[$fog$489]) &&
+                        !(watch[$fog$1242]
                             ? equals(value, last)
-                            : (typeof value === $fog$41 && typeof last === $fog$41
+                            : (typeof value === $fog$1546 && typeof last === $fog$1546
                                && isNaN(value) && isNaN(last)))) {
-                      dirty = $fog$40;
+                      dirty = $fog$1547;
                       lastDirtyWatch = watch;
-                      watch[$fog$1098] = watch[$fog$345] ? copy(value, $fog$37) : value;
-                      watch[$fog$187](value, ((last === initWatchVal) ? value : last), current);
-                      if (ttl < $fog$587) {
-                        logIdx = $fog$230 - ttl;
+                      watch[$fog$489] = watch[$fog$1242] ? copy(value, $fog$1550) : value;
+                      watch[$fog$1400](value, ((last === initWatchVal) ? value : last), current);
+                      if (ttl < $fog$1000) {
+                        logIdx = $fog$1357 - ttl;
                         if (!watchLog[logIdx]) watchLog[logIdx] = [];
-                        watchLog[logIdx][$fog$31]({
-                          msg: isFunction(watch[$fog$1099]) ? $fog$1100 + (watch[$fog$1099][$fog$42] || watch[$fog$1099][$fog$32]()) : watch[$fog$1099],
+                        watchLog[logIdx][$fog$1556]({
+                          msg: isFunction(watch[$fog$488]) ? $fog$487 + (watch[$fog$488][$fog$1545] || watch[$fog$488][$fog$1555]()) : watch[$fog$488],
                           newVal: value,
                           oldVal: last
                         });
@@ -15745,7 +15761,7 @@ function $RootScopeProvider() {
                     } else if (watch === lastDirtyWatch) {
                       // If the most recently dirty watcher is now clean, short circuit since the remaining watchers
                       // have already been tested.
-                      dirty = $fog$38;
+                      dirty = $fog$1549;
                       break traverseScopesLoop;
                     }
                   }
@@ -15758,31 +15774,31 @@ function $RootScopeProvider() {
             // Insanity Warning: scope depth-first traversal
             // yes, this code is a bit crazy, but it works and we have tests to prove it!
             // this piece should be kept in sync with the traversal in $broadcast
-            if (!(next = ((current[$fog$1089] && current[$fog$1085]) ||
-                (current !== target && current[$fog$1084])))) {
-              while (current !== target && !(next = current[$fog$1084])) {
-                current = current[$fog$1093];
+            if (!(next = ((current[$fog$498] && current[$fog$502]) ||
+                (current !== target && current[$fog$503])))) {
+              while (current !== target && !(next = current[$fog$503])) {
+                current = current[$fog$494];
               }
             }
           } while ((current = next));
 
           // `break traverseScopesLoop;` takes us to here
 
-          if ((dirty || asyncQueue[$fog$10]) && !(ttl--)) {
+          if ((dirty || asyncQueue[$fog$1577]) && !(ttl--)) {
             clearPhase();
-            throw $rootScopeMinErr($fog$1101,
-                $fog$1102 +
-                $fog$1103,
+            throw $rootScopeMinErr($fog$486,
+                $fog$485 +
+                $fog$484,
                 TTL, watchLog);
           }
 
-        } while (dirty || asyncQueue[$fog$10]);
+        } while (dirty || asyncQueue[$fog$1577]);
 
         clearPhase();
 
-        while (postDigestQueue[$fog$10]) {
+        while (postDigestQueue[$fog$1577]) {
           try {
-            postDigestQueue[$fog$385]()();
+            postDigestQueue[$fog$1202]()();
           } catch (e) {
             $exceptionHandler(e);
           }
@@ -15826,33 +15842,33 @@ function $RootScopeProvider() {
        */
       $destroy: function() {
         // We can't destroy a scope that has been already destroyed.
-        if (this[$fog$627]) return;
-        var parent = this[$fog$1093];
+        if (this[$fog$960]) return;
+        var parent = this[$fog$494];
 
-        this[$fog$831]($fog$195);
-        this[$fog$627] = $fog$40;
+        this[$fog$756]($fog$1392);
+        this[$fog$960] = $fog$1547;
 
         if (this === $rootScope) {
           //Remove handlers attached to window when $rootScope is removed
-          $browser[$fog$475]();
+          $browser[$fog$1112]();
         }
 
-        incrementWatchersCount(this, -this[$fog$1089]);
-        for (var eventName in this[$fog$1088]) {
-          decrementListenerCount(this, this[$fog$1088][eventName], eventName);
+        incrementWatchersCount(this, -this[$fog$498]);
+        for (var eventName in this[$fog$499]) {
+          decrementListenerCount(this, this[$fog$499][eventName], eventName);
         }
 
         // sever all the references to parent scopes (after this cleanup, the current scope should
         // not be retained by any of our references and should be eligible for garbage collection)
-        if (parent && parent[$fog$1085] == this) parent[$fog$1085] = this[$fog$1084];
-        if (parent && parent[$fog$1086] == this) parent[$fog$1086] = this[$fog$1094];
-        if (this[$fog$1094]) this[$fog$1094][$fog$1084] = this[$fog$1084];
-        if (this[$fog$1084]) this[$fog$1084][$fog$1094] = this[$fog$1094];
+        if (parent && parent[$fog$502] == this) parent[$fog$502] = this[$fog$503];
+        if (parent && parent[$fog$501] == this) parent[$fog$501] = this[$fog$493];
+        if (this[$fog$493]) this[$fog$493][$fog$503] = this[$fog$503];
+        if (this[$fog$503]) this[$fog$503][$fog$493] = this[$fog$493];
 
         // Disable listeners, watchers and apply/digest methods
-        this[$fog$195] = this[$fog$833] = this[$fog$171] = this[$fog$60] = this[$fog$728] = noop;
-        this[$fog$580] = this[$fog$61] = this[$fog$770] = function() { return noop; };
-        this[$fog$1087] = {};
+        this[$fog$1392] = this[$fog$754] = this[$fog$1416] = this[$fog$1527] = this[$fog$859] = noop;
+        this[$fog$1007] = this[$fog$1526] = this[$fog$817] = function() { return noop; };
+        this[$fog$500] = {};
 
         // All of the code below is bogus code that works around V8's memory leak via optimized code
         // and inline caches.
@@ -15862,8 +15878,8 @@ function $RootScopeProvider() {
         // - https://github.com/angular/angular.js/issues/6794#issuecomment-38648909
         // - https://github.com/angular/angular.js/issues/1313#issuecomment-10378451
 
-        this[$fog$1093] = this[$fog$1084] = this[$fog$1094] = this[$fog$1085] =
-            this[$fog$1086] = this[$fog$1095] = this[$fog$1083] = $fog$37;
+        this[$fog$494] = this[$fog$503] = this[$fog$493] = this[$fog$502] =
+            this[$fog$501] = this[$fog$492] = this[$fog$504] = $fog$1550;
       },
 
       /**
@@ -15931,19 +15947,19 @@ function $RootScopeProvider() {
       $evalAsync: function(expr, locals) {
         // if we are outside of an $digest loop and this is the first time we are scheduling async
         // task also schedule async auto-flush
-        if (!$rootScope[$fog$729] && !asyncQueue[$fog$10]) {
-          $browser[$fog$447](function() {
-            if (asyncQueue[$fog$10]) {
-              $rootScope[$fog$833]();
+        if (!$rootScope[$fog$858] && !asyncQueue[$fog$1577]) {
+          $browser[$fog$1140](function() {
+            if (asyncQueue[$fog$1577]) {
+              $rootScope[$fog$754]();
             }
           });
         }
 
-        asyncQueue[$fog$31]({scope: this, expression: expr, locals: locals});
+        asyncQueue[$fog$1556]({scope: this, expression: expr, locals: locals});
       },
 
       $$postDigest: function(fn) {
-        postDigestQueue[$fog$31](fn);
+        postDigestQueue[$fog$1556](fn);
       },
 
       /**
@@ -15993,9 +16009,9 @@ function $RootScopeProvider() {
        */
       $apply: function(expr) {
         try {
-          beginPhase($fog$171);
+          beginPhase($fog$1416);
           try {
-            return this[$fog$1096](expr);
+            return this[$fog$491](expr);
           } finally {
             clearPhase();
           }
@@ -16003,7 +16019,7 @@ function $RootScopeProvider() {
           $exceptionHandler(e);
         } finally {
           try {
-            $rootScope[$fog$833]();
+            $rootScope[$fog$754]();
           } catch (e) {
             $exceptionHandler(e);
             throw e;
@@ -16030,11 +16046,11 @@ function $RootScopeProvider() {
        */
       $applyAsync: function(expr) {
         var scope = this;
-        expr && applyAsyncQueue[$fog$31]($applyAsyncExpression);
+        expr && applyAsyncQueue[$fog$1556]($applyAsyncExpression);
         scheduleApplyAsync();
 
         function $applyAsyncExpression() {
-          scope[$fog$1096](expr);
+          scope[$fog$491](expr);
         }
       },
 
@@ -16066,26 +16082,26 @@ function $RootScopeProvider() {
        * @returns {function()} Returns a deregistration function for this listener.
        */
       $on: function(name, listener) {
-        var namedListeners = this[$fog$1087][name];
+        var namedListeners = this[$fog$500][name];
         if (!namedListeners) {
-          this[$fog$1087][name] = namedListeners = [];
+          this[$fog$500][name] = namedListeners = [];
         }
-        namedListeners[$fog$31](listener);
+        namedListeners[$fog$1556](listener);
 
         var current = this;
         do {
-          if (!current[$fog$1088][name]) {
-            current[$fog$1088][name] = $fog$1;
+          if (!current[$fog$499][name]) {
+            current[$fog$499][name] = $fog$1586;
           }
-          current[$fog$1088][name]++;
-        } while ((current = current[$fog$1093]));
+          current[$fog$499][name]++;
+        } while ((current = current[$fog$494]));
 
         var self = this;
         return function() {
-          var indexOfListener = namedListeners[$fog$80](listener);
-          if (indexOfListener !== -$fog$6) {
-            namedListeners[indexOfListener] = $fog$37;
-            decrementListenerCount(self, $fog$6, name);
+          var indexOfListener = namedListeners[$fog$1507](listener);
+          if (indexOfListener !== -$fog$1581) {
+            namedListeners[indexOfListener] = $fog$1550;
+            decrementListenerCount(self, $fog$1581, name);
           }
         };
       },
@@ -16117,48 +16133,48 @@ function $RootScopeProvider() {
         var empty = [],
             namedListeners,
             scope = this,
-            stopPropagation = $fog$38,
+            stopPropagation = $fog$1549,
             event = {
               name: name,
               targetScope: scope,
-              stopPropagation: function() {stopPropagation = $fog$40;},
+              stopPropagation: function() {stopPropagation = $fog$1547;},
               preventDefault: function() {
-                event[$fog$328] = $fog$40;
+                event[$fog$1259] = $fog$1547;
               },
-              defaultPrevented: $fog$38
+              defaultPrevented: $fog$1549
             },
-            listenerArgs = concat([event], arguments, $fog$6),
+            listenerArgs = concat([event], arguments, $fog$1581),
             i, length;
 
         do {
-          namedListeners = scope[$fog$1087][name] || empty;
-          event[$fog$1092] = scope;
-          for (i = $fog$1, length = namedListeners[$fog$10]; i < length; i++) {
+          namedListeners = scope[$fog$500][name] || empty;
+          event[$fog$495] = scope;
+          for (i = $fog$1586, length = namedListeners[$fog$1577]; i < length; i++) {
 
             // if listeners were deregistered, defragment the array
             if (!namedListeners[i]) {
-              namedListeners[$fog$30](i, $fog$6);
+              namedListeners[$fog$1557](i, $fog$1581);
               i--;
               length--;
               continue;
             }
             try {
               //allow all listeners attached to the current scope to run
-              namedListeners[i][$fog$109]($fog$37, listenerArgs);
+              namedListeners[i][$fog$1478]($fog$1550, listenerArgs);
             } catch (e) {
               $exceptionHandler(e);
             }
           }
           //if any listener on the current scope stops propagation, prevent bubbling
           if (stopPropagation) {
-            event[$fog$1092] = $fog$37;
+            event[$fog$495] = $fog$1550;
             return event;
           }
           //traverse upwards
-          scope = scope[$fog$1093];
+          scope = scope[$fog$494];
         } while (scope);
 
-        event[$fog$1092] = $fog$37;
+        event[$fog$495] = $fog$1550;
 
         return event;
       },
@@ -16193,31 +16209,31 @@ function $RootScopeProvider() {
               name: name,
               targetScope: target,
               preventDefault: function() {
-                event[$fog$328] = $fog$40;
+                event[$fog$1259] = $fog$1547;
               },
-              defaultPrevented: $fog$38
+              defaultPrevented: $fog$1549
             };
 
-        if (!target[$fog$1088][name]) return event;
+        if (!target[$fog$499][name]) return event;
 
-        var listenerArgs = concat([event], arguments, $fog$6),
+        var listenerArgs = concat([event], arguments, $fog$1581),
             listeners, i, length;
 
         //down while you can, then up and next sibling or up and next sibling until back at root
         while ((current = next)) {
-          event[$fog$1092] = current;
-          listeners = current[$fog$1087][name] || [];
-          for (i = $fog$1, length = listeners[$fog$10]; i < length; i++) {
+          event[$fog$495] = current;
+          listeners = current[$fog$500][name] || [];
+          for (i = $fog$1586, length = listeners[$fog$1577]; i < length; i++) {
             // if listeners were deregistered, defragment the array
             if (!listeners[i]) {
-              listeners[$fog$30](i, $fog$6);
+              listeners[$fog$1557](i, $fog$1581);
               i--;
               length--;
               continue;
             }
 
             try {
-              listeners[i][$fog$109]($fog$37, listenerArgs);
+              listeners[i][$fog$1478]($fog$1550, listenerArgs);
             } catch (e) {
               $exceptionHandler(e);
             }
@@ -16227,15 +16243,15 @@ function $RootScopeProvider() {
           // yes, this code is a bit crazy, but it works and we have tests to prove it!
           // this piece should be kept in sync with the traversal in $digest
           // (though it differs due to having the extra check for $$listenerCount)
-          if (!(next = ((current[$fog$1088][name] && current[$fog$1085]) ||
-              (current !== target && current[$fog$1084])))) {
-            while (current !== target && !(next = current[$fog$1084])) {
-              current = current[$fog$1093];
+          if (!(next = ((current[$fog$499][name] && current[$fog$502]) ||
+              (current !== target && current[$fog$503])))) {
+            while (current !== target && !(next = current[$fog$503])) {
+              current = current[$fog$494];
             }
           }
         }
 
-        event[$fog$1092] = $fog$37;
+        event[$fog$495] = $fog$1550;
         return event;
       }
     };
@@ -16243,39 +16259,39 @@ function $RootScopeProvider() {
     var $rootScope = new Scope();
 
     //The internal queues. Expose them on the $rootScope for debugging/testing purposes.
-    var asyncQueue = $rootScope[$fog$1104] = [];
-    var postDigestQueue = $rootScope[$fog$1105] = [];
-    var applyAsyncQueue = $rootScope[$fog$1106] = [];
+    var asyncQueue = $rootScope[$fog$483] = [];
+    var postDigestQueue = $rootScope[$fog$482] = [];
+    var applyAsyncQueue = $rootScope[$fog$481] = [];
 
     return $rootScope;
 
 
     function beginPhase(phase) {
-      if ($rootScope[$fog$729]) {
-        throw $rootScopeMinErr($fog$1107, $fog$1108, $rootScope[$fog$729]);
+      if ($rootScope[$fog$858]) {
+        throw $rootScopeMinErr($fog$480, $fog$479, $rootScope[$fog$858]);
       }
 
-      $rootScope[$fog$729] = phase;
+      $rootScope[$fog$858] = phase;
     }
 
     function clearPhase() {
-      $rootScope[$fog$729] = $fog$37;
+      $rootScope[$fog$858] = $fog$1550;
     }
 
     function incrementWatchersCount(current, count) {
       do {
-        current[$fog$1089] += count;
-      } while ((current = current[$fog$1093]));
+        current[$fog$498] += count;
+      } while ((current = current[$fog$494]));
     }
 
     function decrementListenerCount(current, count, name) {
       do {
-        current[$fog$1088][name] -= count;
+        current[$fog$499][name] -= count;
 
-        if (current[$fog$1088][name] === $fog$1) {
-          delete current[$fog$1088][name];
+        if (current[$fog$499][name] === $fog$1586) {
+          delete current[$fog$499][name];
         }
-      } while ((current = current[$fog$1093]));
+      } while ((current = current[$fog$494]));
     }
 
     /**
@@ -16285,20 +16301,20 @@ function $RootScopeProvider() {
     function initWatchVal() {}
 
     function flushApplyAsync() {
-      while (applyAsyncQueue[$fog$10]) {
+      while (applyAsyncQueue[$fog$1577]) {
         try {
-          applyAsyncQueue[$fog$385]()();
+          applyAsyncQueue[$fog$1202]()();
         } catch (e) {
           $exceptionHandler(e);
         }
       }
-      applyAsyncId = $fog$37;
+      applyAsyncId = $fog$1550;
     }
 
     function scheduleApplyAsync() {
-      if (applyAsyncId === $fog$37) {
-        applyAsyncId = $browser[$fog$447](function() {
-          $rootScope[$fog$171](flushApplyAsync);
+      if (applyAsyncId === $fog$1550) {
+        applyAsyncId = $browser[$fog$1140](function() {
+          $rootScope[$fog$1416](flushApplyAsync);
         });
       }
     }
@@ -16310,8 +16326,8 @@ function $RootScopeProvider() {
  * Private service to sanitize uris for links and images. Used by $compile and $sanitize.
  */
 function $$SanitizeUriProvider() {
-  var aHrefSanitizationWhitelist = $fog$1109,
-    imgSrcSanitizationWhitelist = $fog$1110;
+  var aHrefSanitizationWhitelist = $fog$478,
+    imgSrcSanitizationWhitelist = $fog$477;
 
   /**
    * @description
@@ -16329,7 +16345,7 @@ function $$SanitizeUriProvider() {
    * @returns {RegExp|ng.$compileProvider} Current RegExp if called without value or self for
    *    chaining otherwise.
    */
-  this[$fog$526] = function(regexp) {
+  this[$fog$1061] = function(regexp) {
     if (isDefined(regexp)) {
       aHrefSanitizationWhitelist = regexp;
       return this;
@@ -16354,7 +16370,7 @@ function $$SanitizeUriProvider() {
    * @returns {RegExp|ng.$compileProvider} Current RegExp if called without value or self for
    *    chaining otherwise.
    */
-  this[$fog$527] = function(regexp) {
+  this[$fog$1060] = function(regexp) {
     if (isDefined(regexp)) {
       imgSrcSanitizationWhitelist = regexp;
       return this;
@@ -16362,13 +16378,13 @@ function $$SanitizeUriProvider() {
     return imgSrcSanitizationWhitelist;
   };
 
-  this[$fog$350] = function() {
+  this[$fog$1237] = function() {
     return function sanitizeUri(uri, isImage) {
       var regex = isImage ? imgSrcSanitizationWhitelist : aHrefSanitizationWhitelist;
       var normalizedVal;
-      normalizedVal = urlResolve(uri)[$fog$464];
-      if (normalizedVal !== $fog$4 && !normalizedVal[$fog$88](regex)) {
-        return $fog$1111 + normalizedVal;
+      normalizedVal = urlResolve(uri)[$fog$1123];
+      if (normalizedVal !== $fog$1583 && !normalizedVal[$fog$1499](regex)) {
+        return $fog$476 + normalizedVal;
       }
       return uri;
     };
@@ -16386,42 +16402,42 @@ function $$SanitizeUriProvider() {
  *     Or gives undesired access to variables likes document or window?    *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-var $sceMinErr = minErr($fog$532);
+var $sceMinErr = minErr($fog$1055);
 
 var SCE_CONTEXTS = {
-  HTML: $fog$122,
-  CSS: $fog$415,
-  URL: $fog$466,
+  HTML: $fog$1465,
+  CSS: $fog$1172,
+  URL: $fog$1121,
   // RESOURCE_URL is a subtype of URL used in contexts where a privileged resource is sourced from a
   // url.  (e.g. ng-include, script src, templateUrl)
-  RESOURCE_URL: $fog$1112,
-  JS: $fog$1113
+  RESOURCE_URL: $fog$475,
+  JS: $fog$474
 };
 
 // Helper functions follow.
 
 function adjustMatcher(matcher) {
-  if (matcher === $fog$1114) {
+  if (matcher === $fog$473) {
     return matcher;
   } else if (isString(matcher)) {
     // Strings match exactly except for 2 wildcards - '*' and '**'.
     // '*' matches any character except those from the set ':/.?&'.
     // '**' matches any character (like .* in a RegExp).
     // More than 2 *'s raises an error as it's ill defined.
-    if (matcher[$fog$80]($fog$1115) > -$fog$6) {
-      throw $sceMinErr($fog$1116,
-          $fog$1117, matcher);
+    if (matcher[$fog$1507]($fog$472) > -$fog$1581) {
+      throw $sceMinErr($fog$471,
+          $fog$470, matcher);
     }
-    matcher = escapeForRegexp(matcher)[$fog$7]($fog$1118, $fog$1119)[$fog$7]($fog$1120, $fog$1121);
-    return new RegExp($fog$1122 + matcher + $fog$94);
+    matcher = escapeForRegexp(matcher)[$fog$1580]($fog$469, $fog$468)[$fog$1580]($fog$467, $fog$466);
+    return new RegExp($fog$465 + matcher + $fog$1493);
   } else if (isRegExp(matcher)) {
     // The only other type of matcher allowed is a Regexp.
     // Match entire URL / disallow partial matches.
     // Flags are reset (i.e. no global, ignoreCase or multiline)
-    return new RegExp($fog$1122 + matcher[$fog$87] + $fog$94);
+    return new RegExp($fog$465 + matcher[$fog$1500] + $fog$1493);
   } else {
-    throw $sceMinErr($fog$1123,
-        $fog$1124);
+    throw $sceMinErr($fog$464,
+        $fog$463);
   }
 }
 
@@ -16430,7 +16446,7 @@ function adjustMatchers(matchers) {
   var adjustedMatchers = [];
   if (isDefined(matchers)) {
     forEach(matchers, function(matcher) {
-      adjustedMatchers[$fog$31](adjustMatcher(matcher));
+      adjustedMatchers[$fog$1556](adjustMatcher(matcher));
     });
   }
   return adjustedMatchers;
@@ -16505,10 +16521,10 @@ function adjustMatchers(matchers) {
  */
 
 function $SceDelegateProvider() {
-  this[$fog$1125] = SCE_CONTEXTS;
+  this[$fog$462] = SCE_CONTEXTS;
 
   // Resource URLs can also be trusted by policy.
-  var resourceUrlWhitelist = [$fog$1114],
+  var resourceUrlWhitelist = [$fog$473],
       resourceUrlBlacklist = [];
 
   /**
@@ -16533,8 +16549,8 @@ function $SceDelegateProvider() {
    * @description
    * Sets/Gets the whitelist of trusted resource URLs.
    */
-  this[$fog$1126] = function(value) {
-    if (arguments[$fog$10]) {
+  this[$fog$461] = function(value) {
+    if (arguments[$fog$1577]) {
       resourceUrlWhitelist = adjustMatchers(value);
     }
     return resourceUrlWhitelist;
@@ -16567,48 +16583,48 @@ function $SceDelegateProvider() {
    * Sets/Gets the blacklist of trusted resource URLs.
    */
 
-  this[$fog$1127] = function(value) {
-    if (arguments[$fog$10]) {
+  this[$fog$460] = function(value) {
+    if (arguments[$fog$1577]) {
       resourceUrlBlacklist = adjustMatchers(value);
     }
     return resourceUrlBlacklist;
   };
 
-  this[$fog$350] = [$fog$170, function($injector) {
+  this[$fog$1237] = [$fog$1417, function($injector) {
 
     var htmlSanitizer = function htmlSanitizer(html) {
-      throw $sceMinErr($fog$1128, $fog$1129);
+      throw $sceMinErr($fog$459, $fog$458);
     };
 
-    if ($injector[$fog$1130]($fog$1131)) {
-      htmlSanitizer = $injector[$fog$182]($fog$1131);
+    if ($injector[$fog$457]($fog$456)) {
+      htmlSanitizer = $injector[$fog$1405]($fog$456);
     }
 
 
     function matchUrl(matcher, parsedUrl) {
-      if (matcher === $fog$1114) {
+      if (matcher === $fog$473) {
         return urlIsSameOrigin(parsedUrl);
       } else {
         // definitely a regex.  See adjustMatchers()
-        return !!matcher[$fog$272](parsedUrl[$fog$464]);
+        return !!matcher[$fog$1315](parsedUrl[$fog$1123]);
       }
     }
 
     function isResourceUrlAllowedByPolicy(url) {
-      var parsedUrl = urlResolve(url[$fog$32]());
-      var i, n, allowed = $fog$38;
+      var parsedUrl = urlResolve(url[$fog$1555]());
+      var i, n, allowed = $fog$1549;
       // Ensure that at least one item from the whitelist allows this url.
-      for (i = $fog$1, n = resourceUrlWhitelist[$fog$10]; i < n; i++) {
+      for (i = $fog$1586, n = resourceUrlWhitelist[$fog$1577]; i < n; i++) {
         if (matchUrl(resourceUrlWhitelist[i], parsedUrl)) {
-          allowed = $fog$40;
+          allowed = $fog$1547;
           break;
         }
       }
       if (allowed) {
         // Ensure that no item from the blacklist blocked this url.
-        for (i = $fog$1, n = resourceUrlBlacklist[$fog$10]; i < n; i++) {
+        for (i = $fog$1586, n = resourceUrlBlacklist[$fog$1577]; i < n; i++) {
           if (matchUrl(resourceUrlBlacklist[i], parsedUrl)) {
-            allowed = $fog$38;
+            allowed = $fog$1549;
             break;
           }
         }
@@ -16618,18 +16634,18 @@ function $SceDelegateProvider() {
 
     function generateHolderType(Base) {
       var holderType = function TrustedValueHolderType(trustedValue) {
-        this[$fog$1132] = function() {
+        this[$fog$455] = function() {
           return trustedValue;
         };
       };
       if (Base) {
-        holderType[$fog$21] = new Base();
+        holderType[$fog$1566] = new Base();
       }
-      holderType[$fog$21][$fog$50] = function sceValueOf() {
-        return this[$fog$1132]();
+      holderType[$fog$1566][$fog$1537] = function sceValueOf() {
+        return this[$fog$455]();
       };
-      holderType[$fog$21][$fog$32] = function sceToString() {
-        return this[$fog$1132]()[$fog$32]();
+      holderType[$fog$1566][$fog$1555] = function sceToString() {
+        return this[$fog$455]()[$fog$1555]();
       };
       return holderType;
     }
@@ -16637,11 +16653,11 @@ function $SceDelegateProvider() {
     var trustedValueHolderBase = generateHolderType(),
         byType = {};
 
-    byType[SCE_CONTEXTS[$fog$636]] = generateHolderType(trustedValueHolderBase);
-    byType[SCE_CONTEXTS[$fog$1133]] = generateHolderType(trustedValueHolderBase);
-    byType[SCE_CONTEXTS[$fog$1134]] = generateHolderType(trustedValueHolderBase);
-    byType[SCE_CONTEXTS[$fog$1135]] = generateHolderType(trustedValueHolderBase);
-    byType[SCE_CONTEXTS[$fog$641]] = generateHolderType(byType[SCE_CONTEXTS[$fog$1134]]);
+    byType[SCE_CONTEXTS[$fog$951]] = generateHolderType(trustedValueHolderBase);
+    byType[SCE_CONTEXTS[$fog$454]] = generateHolderType(trustedValueHolderBase);
+    byType[SCE_CONTEXTS[$fog$453]] = generateHolderType(trustedValueHolderBase);
+    byType[SCE_CONTEXTS[$fog$452]] = generateHolderType(trustedValueHolderBase);
+    byType[SCE_CONTEXTS[$fog$946]] = generateHolderType(byType[SCE_CONTEXTS[$fog$453]]);
 
     /**
      * @ngdoc method
@@ -16661,20 +16677,20 @@ function $SceDelegateProvider() {
      * where Angular expects a $sce.trustAs() return value.
      */
     function trustAs(type, trustedValue) {
-      var Constructor = (byType[$fog$20](type) ? byType[type] : $fog$37);
+      var Constructor = (byType[$fog$1567](type) ? byType[type] : $fog$1550);
       if (!Constructor) {
-        throw $sceMinErr($fog$1136,
-            $fog$1137,
+        throw $sceMinErr($fog$451,
+            $fog$450,
             type, trustedValue);
       }
-      if (trustedValue === $fog$37 || trustedValue === undefined || trustedValue === $fog$4) {
+      if (trustedValue === $fog$1550 || trustedValue === undefined || trustedValue === $fog$1583) {
         return trustedValue;
       }
       // All the current contexts in SCE_CONTEXTS happen to be strings.  In order to avoid trusting
       // mutable objects, we ensure here that the value passed in is actually a string.
-      if (typeof trustedValue !== $fog$55) {
-        throw $sceMinErr($fog$1138,
-            $fog$1139,
+      if (typeof trustedValue !== $fog$1532) {
+        throw $sceMinErr($fog$449,
+            $fog$448,
             type);
       }
       return new Constructor(trustedValue);
@@ -16700,7 +16716,7 @@ function $SceDelegateProvider() {
      */
     function valueOf(maybeTrusted) {
       if (maybeTrusted instanceof trustedValueHolderBase) {
-        return maybeTrusted[$fog$1132]();
+        return maybeTrusted[$fog$455]();
       } else {
         return maybeTrusted;
       }
@@ -16722,28 +16738,28 @@ function $SceDelegateProvider() {
      *     `$sceDelegate.trustAs`} if valid in this context.  Otherwise, throws an exception.
      */
     function getTrusted(type, maybeTrusted) {
-      if (maybeTrusted === $fog$37 || maybeTrusted === undefined || maybeTrusted === $fog$4) {
+      if (maybeTrusted === $fog$1550 || maybeTrusted === undefined || maybeTrusted === $fog$1583) {
         return maybeTrusted;
       }
-      var constructor = (byType[$fog$20](type) ? byType[type] : $fog$37);
+      var constructor = (byType[$fog$1567](type) ? byType[type] : $fog$1550);
       if (constructor && maybeTrusted instanceof constructor) {
-        return maybeTrusted[$fog$1132]();
+        return maybeTrusted[$fog$455]();
       }
       // If we get here, then we may only take one of two actions.
       // 1. sanitize the value for the requested type, or
       // 2. throw an exception.
-      if (type === SCE_CONTEXTS[$fog$641]) {
+      if (type === SCE_CONTEXTS[$fog$946]) {
         if (isResourceUrlAllowedByPolicy(maybeTrusted)) {
           return maybeTrusted;
         } else {
-          throw $sceMinErr($fog$1140,
-              $fog$1141,
-              maybeTrusted[$fog$32]());
+          throw $sceMinErr($fog$447,
+              $fog$446,
+              maybeTrusted[$fog$1555]());
         }
-      } else if (type === SCE_CONTEXTS[$fog$636]) {
+      } else if (type === SCE_CONTEXTS[$fog$951]) {
         return htmlSanitizer(maybeTrusted);
       }
-      throw $sceMinErr($fog$1128, $fog$1129);
+      throw $sceMinErr($fog$459, $fog$458);
     }
 
     return { trustAs: trustAs,
@@ -17035,7 +17051,7 @@ function $SceDelegateProvider() {
 /* jshint maxlen: 100 */
 
 function $SceProvider() {
-  var enabled = $fog$40;
+  var enabled = $fog$1547;
 
   /**
    * @ngdoc method
@@ -17048,8 +17064,8 @@ function $SceProvider() {
    * @description
    * Enables/disables SCE and returns the current value.
    */
-  this[$fog$436] = function(value) {
-    if (arguments[$fog$10]) {
+  this[$fog$1151] = function(value) {
+    if (arguments[$fog$1577]) {
       enabled = !!value;
     }
     return enabled;
@@ -17102,15 +17118,15 @@ function $SceProvider() {
    * sce.js and sceSpecs.js would need to be aware of this detail.
    */
 
-  this[$fog$350] = [$fog$530, $fog$1142, function(
+  this[$fog$1237] = [$fog$1057, $fog$445, function(
                 $parse,   $sceDelegate) {
     // Prereq: Ensure that we're not running in IE<11 quirks mode.  In that mode, IE < 11 allow
     // the "expression(javascript expression)" syntax which is insecure.
-    if (enabled && msie < $fog$207) {
-      throw $sceMinErr($fog$1143,
-        $fog$1144 +
-        $fog$1145 +
-        $fog$1146);
+    if (enabled && msie < $fog$1380) {
+      throw $sceMinErr($fog$444,
+        $fog$443 +
+        $fog$442 +
+        $fog$441);
     }
 
     var sce = shallowCopy(SCE_CONTEXTS);
@@ -17126,16 +17142,16 @@ function $SceProvider() {
      * @description
      * Returns a boolean indicating if SCE is enabled.
      */
-    sce[$fog$1147] = function() {
+    sce[$fog$440] = function() {
       return enabled;
     };
-    sce[$fog$1148] = $sceDelegate[$fog$1148];
-    sce[$fog$769] = $sceDelegate[$fog$769];
-    sce[$fog$50] = $sceDelegate[$fog$50];
+    sce[$fog$439] = $sceDelegate[$fog$439];
+    sce[$fog$818] = $sceDelegate[$fog$818];
+    sce[$fog$1537] = $sceDelegate[$fog$1537];
 
     if (!enabled) {
-      sce[$fog$1148] = sce[$fog$769] = function(type, value) { return value; };
-      sce[$fog$50] = identity;
+      sce[$fog$439] = sce[$fog$818] = function(type, value) { return value; };
+      sce[$fog$1537] = identity;
     }
 
     /**
@@ -17157,13 +17173,13 @@ function $SceProvider() {
      *    * `locals` – `{object=}` – local variables context object, useful for overriding values in
      *      `context`.
      */
-    sce[$fog$1149] = function sceParseAs(type, expr) {
+    sce[$fog$438] = function sceParseAs(type, expr) {
       var parsed = $parse(expr);
-      if (parsed[$fog$656] && parsed[$fog$219]) {
+      if (parsed[$fog$931] && parsed[$fog$1368]) {
         return parsed;
       } else {
         return $parse(expr, function(value) {
-          return sce[$fog$769](type, value);
+          return sce[$fog$818](type, value);
         });
       }
     };
@@ -17411,19 +17427,19 @@ function $SceProvider() {
      */
 
     // Shorthand delegations.
-    var parse = sce[$fog$1149],
-        getTrusted = sce[$fog$769],
-        trustAs = sce[$fog$1148];
+    var parse = sce[$fog$438],
+        getTrusted = sce[$fog$818],
+        trustAs = sce[$fog$439];
 
     forEach(SCE_CONTEXTS, function(enumValue, name) {
       var lName = lowercase(name);
-      sce[camelCase($fog$1150 + lName)] = function(expr) {
+      sce[camelCase($fog$437 + lName)] = function(expr) {
         return parse(enumValue, expr);
       };
-      sce[camelCase($fog$1151 + lName)] = function(value) {
+      sce[camelCase($fog$436 + lName)] = function(value) {
         return getTrusted(enumValue, value);
       };
-      sce[camelCase($fog$1152 + lName)] = function(value) {
+      sce[camelCase($fog$435 + lName)] = function(value) {
         return trustAs(enumValue, value);
       };
     });
@@ -17447,38 +17463,38 @@ function $SceProvider() {
  * This is very simple implementation of testing browser's features.
  */
 function $SnifferProvider() {
-  this[$fog$350] = [$fog$390, $fog$483, function($window, $document) {
+  this[$fog$1237] = [$fog$1197, $fog$1104, function($window, $document) {
     var eventSupport = {},
         android =
-          toInt(($fog$1153[$fog$272](lowercase(($window[$fog$1155] || {})[$fog$1154])) || [])[$fog$6]),
-        boxee = $fog$1156[$fog$68](($window[$fog$1155] || {})[$fog$1154]),
-        document = $document[$fog$1] || {},
+          toInt(($fog$434[$fog$1315](lowercase(($window[$fog$432] || {})[$fog$433])) || [])[$fog$1581]),
+        boxee = $fog$431[$fog$1519](($window[$fog$432] || {})[$fog$433]),
+        document = $document[$fog$1586] || {},
         vendorPrefix,
-        vendorRegex = $fog$1157,
-        bodyStyle = document[$fog$672] && document[$fog$672][$fog$317],
-        transitions = $fog$38,
-        animations = $fog$38,
+        vendorRegex = $fog$430,
+        bodyStyle = document[$fog$915] && document[$fog$915][$fog$1270],
+        transitions = $fog$1549,
+        animations = $fog$1549,
         match;
 
     if (bodyStyle) {
       for (var prop in bodyStyle) {
-        if (match = vendorRegex[$fog$272](prop)) {
-          vendorPrefix = match[$fog$1];
-          vendorPrefix = vendorPrefix[$fog$425]($fog$1, $fog$6)[$fog$22]() + vendorPrefix[$fog$425]($fog$6);
+        if (match = vendorRegex[$fog$1315](prop)) {
+          vendorPrefix = match[$fog$1586];
+          vendorPrefix = vendorPrefix[$fog$1162]($fog$1586, $fog$1581)[$fog$1565]() + vendorPrefix[$fog$1162]($fog$1581);
           break;
         }
       }
 
       if (!vendorPrefix) {
-        vendorPrefix = ($fog$1158 in bodyStyle) && $fog$1159;
+        vendorPrefix = ($fog$429 in bodyStyle) && $fog$428;
       }
 
-      transitions = !!(($fog$1160 in bodyStyle) || (vendorPrefix + $fog$1161 in bodyStyle));
-      animations  = !!(($fog$1162 in bodyStyle) || (vendorPrefix + $fog$1163 in bodyStyle));
+      transitions = !!(($fog$427 in bodyStyle) || (vendorPrefix + $fog$426 in bodyStyle));
+      animations  = !!(($fog$425 in bodyStyle) || (vendorPrefix + $fog$424 in bodyStyle));
 
       if (android && (!transitions ||  !animations)) {
-        transitions = isString(bodyStyle[$fog$1164]);
-        animations = isString(bodyStyle[$fog$1165]);
+        transitions = isString(bodyStyle[$fog$423]);
+        animations = isString(bodyStyle[$fog$422]);
       }
     }
 
@@ -17493,7 +17509,7 @@ function $SnifferProvider() {
       // so let's not use the history API also
       // We are purposefully using `!(android < 4)` to cover the case when `android` is undefined
       // jshint -W018
-      history: !!($window[$fog$455] && $window[$fog$455][$fog$468] && !(android < $fog$230) && !boxee),
+      history: !!($window[$fog$1132] && $window[$fog$1132][$fog$1119] && !(android < $fog$1357) && !boxee),
       // jshint +W018
       hasEvent: function(event) {
         // IE9 implements 'input' event it's so fubared that we rather pretend that it doesn't have
@@ -17501,11 +17517,11 @@ function $SnifferProvider() {
         // when cut operation is performed.
         // IE10+ implements 'input' event but it erroneously fires under various situations,
         // e.g. when placeholder changes, or a form is focused.
-        if (event === $fog$1059 && msie <= $fog$209) return $fog$38;
+        if (event === $fog$528 && msie <= $fog$1378) return $fog$1549;
 
         if (isUndefined(eventSupport[event])) {
-          var divElm = document[$fog$270]($fog$271);
-          eventSupport[event] = $fog$186 + event in divElm;
+          var divElm = document[$fog$1317]($fog$1316);
+          eventSupport[event] = $fog$1401 + event in divElm;
         }
 
         return eventSupport[event];
@@ -17519,7 +17535,7 @@ function $SnifferProvider() {
   }];
 }
 
-var $compileMinErr = minErr($fog$169);
+var $compileMinErr = minErr($fog$1418);
 
 /**
  * @ngdoc service
@@ -17541,27 +17557,27 @@ var $compileMinErr = minErr($fog$169);
  * @property {number} totalPendingRequests total amount of pending template requests being downloaded.
  */
 function $TemplateRequestProvider() {
-  this[$fog$350] = [$fog$1166, $fog$680, $fog$409, $fog$532, function($templateCache, $http, $q, $sce) {
+  this[$fog$1237] = [$fog$421, $fog$907, $fog$1178, $fog$1055, function($templateCache, $http, $q, $sce) {
     function handleRequestFn(tpl, ignoreRequestError) {
-      handleRequestFn[$fog$1167]++;
+      handleRequestFn[$fog$420]++;
 
       // We consider the template cache holds only trusted templates, so
       // there's no need to go through whitelisting again for keys that already
       // are included in there. This also makes Angular accept any script
       // directive, no matter its name. However, we still need to unwrap trusted
       // types.
-      if (!isString(tpl) || !$templateCache[$fog$182](tpl)) {
-        tpl = $sce[$fog$1168](tpl);
+      if (!isString(tpl) || !$templateCache[$fog$1405](tpl)) {
+        tpl = $sce[$fog$419](tpl);
       }
 
-      var transformResponse = $http[$fog$687] && $http[$fog$687][$fog$702];
+      var transformResponse = $http[$fog$900] && $http[$fog$900][$fog$885];
 
       if (isArray(transformResponse)) {
-        transformResponse = transformResponse[$fog$924](function(transformer) {
+        transformResponse = transformResponse[$fog$663](function(transformer) {
           return transformer !== defaultHttpResponseTransform;
         });
       } else if (transformResponse === defaultHttpResponseTransform) {
-        transformResponse = $fog$37;
+        transformResponse = $fog$1550;
       }
 
       var httpOptions = {
@@ -17569,32 +17585,32 @@ function $TemplateRequestProvider() {
         transformResponse: transformResponse
       };
 
-      return $http[$fog$182](tpl, httpOptions)
-        [$fog$454](function() {
-          handleRequestFn[$fog$1167]--;
+      return $http[$fog$1405](tpl, httpOptions)
+        [$fog$1133](function() {
+          handleRequestFn[$fog$420]--;
         })
-        [$fog$66](function(response) {
-          $templateCache[$fog$352](tpl, response[$fog$172]);
-          return response[$fog$172];
+        [$fog$1521](function(response) {
+          $templateCache[$fog$1235](tpl, response[$fog$1415]);
+          return response[$fog$1415];
         }, handleError);
 
       function handleError(resp) {
         if (!ignoreRequestError) {
-          throw $compileMinErr($fog$1169, $fog$1170,
-            tpl, resp[$fog$713], resp[$fog$730]);
+          throw $compileMinErr($fog$418, $fog$417,
+            tpl, resp[$fog$874], resp[$fog$857]);
         }
-        return $q[$fog$448](resp);
+        return $q[$fog$1139](resp);
       }
     }
 
-    handleRequestFn[$fog$1167] = $fog$1;
+    handleRequestFn[$fog$420] = $fog$1586;
 
     return handleRequestFn;
   }];
 }
 
 function $$TestabilityProvider() {
-  this[$fog$350] = [$fog$168, $fog$732, $fog$391,
+  this[$fog$1237] = [$fog$1419, $fog$855, $fog$1196,
        function($rootScope,   $browser,   $location) {
 
     /**
@@ -17618,21 +17634,21 @@ function $$TestabilityProvider() {
      * @param {boolean} opt_exactMatch If true, only returns exact matches
      *     for the expression. Filters and whitespace are ignored.
      */
-    testability[$fog$1171] = function(element, expression, opt_exactMatch) {
-      var bindings = element[$fog$1172]($fog$557);
+    testability[$fog$416] = function(element, expression, opt_exactMatch) {
+      var bindings = element[$fog$415]($fog$1030);
       var matches = [];
       forEach(bindings, function(binding) {
-        var dataBinding = angular[$fog$180](binding)[$fog$172]($fog$555);
+        var dataBinding = angular[$fog$1407](binding)[$fog$1415]($fog$1032);
         if (dataBinding) {
           forEach(dataBinding, function(bindingName) {
             if (opt_exactMatch) {
-              var matcher = new RegExp($fog$1173 + escapeForRegexp(expression) + $fog$1174);
-              if (matcher[$fog$68](bindingName)) {
-                matches[$fog$31](binding);
+              var matcher = new RegExp($fog$414 + escapeForRegexp(expression) + $fog$413);
+              if (matcher[$fog$1519](bindingName)) {
+                matches[$fog$1556](binding);
               }
             } else {
-              if (bindingName[$fog$80](expression) != -$fog$6) {
-                matches[$fog$31](binding);
+              if (bindingName[$fog$1507](expression) != -$fog$1581) {
+                matches[$fog$1556](binding);
               }
             }
           });
@@ -17653,13 +17669,13 @@ function $$TestabilityProvider() {
      * @param {boolean} opt_exactMatch If true, only returns exact matches
      *     for the expression.
      */
-    testability[$fog$1175] = function(element, expression, opt_exactMatch) {
-      var prefixes = [$fog$144, $fog$145, $fog$1176];
-      for (var p = $fog$1; p < prefixes[$fog$10]; ++p) {
-        var attributeEquals = opt_exactMatch ? $fog$16 : $fog$1177;
-        var selector = $fog$2 + prefixes[p] + $fog$1178 + attributeEquals + $fog$867 + expression + $fog$1179;
-        var elements = element[$fog$283](selector);
-        if (elements[$fog$10]) {
+    testability[$fog$412] = function(element, expression, opt_exactMatch) {
+      var prefixes = [$fog$1443, $fog$1442, $fog$411];
+      for (var p = $fog$1586; p < prefixes[$fog$1577]; ++p) {
+        var attributeEquals = opt_exactMatch ? $fog$1571 : $fog$410;
+        var selector = $fog$1585 + prefixes[p] + $fog$409 + attributeEquals + $fog$720 + expression + $fog$408;
+        var elements = element[$fog$1304](selector);
+        if (elements[$fog$1577]) {
           return elements;
         }
       }
@@ -17672,8 +17688,8 @@ function $$TestabilityProvider() {
      * Shortcut for getting the location in a browser agnostic way. Returns
      *     the path, search, and hash. (e.g. /path?a=b#hash)
      */
-    testability[$fog$1180] = function() {
-      return $location[$fog$466]();
+    testability[$fog$407] = function() {
+      return $location[$fog$1121]();
     };
 
     /**
@@ -17685,10 +17701,10 @@ function $$TestabilityProvider() {
      * @param {string} url The location url (path, search and hash,
      *     e.g. /path?a=b#hash) to go to.
      */
-    testability[$fog$1181] = function(url) {
-      if (url !== $location[$fog$466]()) {
-        $location[$fog$466](url);
-        $rootScope[$fog$833]();
+    testability[$fog$406] = function(url) {
+      if (url !== $location[$fog$1121]()) {
+        $location[$fog$1121](url);
+        $rootScope[$fog$754]();
       }
     };
 
@@ -17700,8 +17716,8 @@ function $$TestabilityProvider() {
      *
      * @param {function} callback
      */
-    testability[$fog$1182] = function(callback) {
-      $browser[$fog$463](callback);
+    testability[$fog$405] = function(callback) {
+      $browser[$fog$1124](callback);
     };
 
     return testability;
@@ -17709,7 +17725,7 @@ function $$TestabilityProvider() {
 }
 
 function $TimeoutProvider() {
-  this[$fog$350] = [$fog$168, $fog$732, $fog$409, $fog$771, $fog$516,
+  this[$fog$1237] = [$fog$1419, $fog$855, $fog$1178, $fog$816, $fog$1071,
        function($rootScope,   $browser,   $q,   $$q,   $exceptionHandler) {
 
     var deferreds = {};
@@ -17751,27 +17767,27 @@ function $TimeoutProvider() {
         fn = noop;
       }
 
-      var args = sliceArgs(arguments, $fog$206),
+      var args = sliceArgs(arguments, $fog$1381),
           skipApply = (isDefined(invokeApply) && !invokeApply),
-          deferred = (skipApply ? $$q : $q)[$fog$447](),
-          promise = deferred[$fog$451],
+          deferred = (skipApply ? $$q : $q)[$fog$1140](),
+          promise = deferred[$fog$1136],
           timeoutId;
 
-      timeoutId = $browser[$fog$447](function() {
+      timeoutId = $browser[$fog$1140](function() {
         try {
-          deferred[$fog$449](fn[$fog$109]($fog$37, args));
+          deferred[$fog$1138](fn[$fog$1478]($fog$1550, args));
         } catch (e) {
-          deferred[$fog$448](e);
+          deferred[$fog$1139](e);
           $exceptionHandler(e);
         }
         finally {
-          delete deferreds[promise[$fog$1183]];
+          delete deferreds[promise[$fog$404]];
         }
 
-        if (!skipApply) $rootScope[$fog$171]();
+        if (!skipApply) $rootScope[$fog$1416]();
       }, delay);
 
-      promise[$fog$1183] = timeoutId;
+      promise[$fog$404] = timeoutId;
       deferreds[timeoutId] = deferred;
 
       return promise;
@@ -17790,13 +17806,13 @@ function $TimeoutProvider() {
       * @returns {boolean} Returns `true` if the task hasn't executed yet and was successfully
       *   canceled.
       */
-    timeout[$fog$480] = function(promise) {
-      if (promise && promise[$fog$1183] in deferreds) {
-        deferreds[promise[$fog$1183]][$fog$448]($fog$776);
-        delete deferreds[promise[$fog$1183]];
-        return $browser[$fog$447][$fog$480](promise[$fog$1183]);
+    timeout[$fog$1107] = function(promise) {
+      if (promise && promise[$fog$404] in deferreds) {
+        deferreds[promise[$fog$404]][$fog$1139]($fog$811);
+        delete deferreds[promise[$fog$404]];
+        return $browser[$fog$1140][$fog$1107](promise[$fog$404]);
       }
-      return $fog$38;
+      return $fog$1549;
     };
 
     return timeout;
@@ -17810,8 +17826,8 @@ function $TimeoutProvider() {
 // doesn't know about mocked locations and resolves URLs to the real document - which is
 // exactly the behavior needed here.  There is little value is mocking these out for this
 // service.
-var urlParsingNode = document[$fog$270]($fog$393);
-var originUrl = urlResolve(window[$fog$179][$fog$464]);
+var urlParsingNode = document[$fog$1317]($fog$1194);
+var originUrl = urlResolve(window[$fog$1408][$fog$1123]);
 
 
 /**
@@ -17865,24 +17881,24 @@ function urlResolve(url) {
   if (msie) {
     // Normalize before parse.  Refer Implementation Notes on why this is
     // done in two steps on IE.
-    urlParsingNode[$fog$291]($fog$464, href);
-    href = urlParsingNode[$fog$464];
+    urlParsingNode[$fog$1296]($fog$1123, href);
+    href = urlParsingNode[$fog$1123];
   }
 
-  urlParsingNode[$fog$291]($fog$464, href);
+  urlParsingNode[$fog$1296]($fog$1123, href);
 
   // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
   return {
-    href: urlParsingNode[$fog$464],
-    protocol: urlParsingNode[$fog$745] ? urlParsingNode[$fog$745][$fog$7]($fog$1184, $fog$4) : $fog$4,
-    host: urlParsingNode[$fog$296],
-    search: urlParsingNode[$fog$789] ? urlParsingNode[$fog$789][$fog$7]($fog$1185, $fog$4) : $fog$4,
-    hash: urlParsingNode[$fog$404] ? urlParsingNode[$fog$404][$fog$7]($fog$1186, $fog$4) : $fog$4,
-    hostname: urlParsingNode[$fog$783],
-    port: urlParsingNode[$fog$785],
-    pathname: (urlParsingNode[$fog$787][$fog$93]($fog$1) === $fog$12)
-      ? urlParsingNode[$fog$787]
-      : $fog$12 + urlParsingNode[$fog$787]
+    href: urlParsingNode[$fog$1123],
+    protocol: urlParsingNode[$fog$842] ? urlParsingNode[$fog$842][$fog$1580]($fog$403, $fog$1583) : $fog$1583,
+    host: urlParsingNode[$fog$1291],
+    search: urlParsingNode[$fog$798] ? urlParsingNode[$fog$798][$fog$1580]($fog$402, $fog$1583) : $fog$1583,
+    hash: urlParsingNode[$fog$1183] ? urlParsingNode[$fog$1183][$fog$1580]($fog$401, $fog$1583) : $fog$1583,
+    hostname: urlParsingNode[$fog$804],
+    port: urlParsingNode[$fog$802],
+    pathname: (urlParsingNode[$fog$800][$fog$1494]($fog$1586) === $fog$1575)
+      ? urlParsingNode[$fog$800]
+      : $fog$1575 + urlParsingNode[$fog$800]
   };
 }
 
@@ -17895,8 +17911,8 @@ function urlResolve(url) {
  */
 function urlIsSameOrigin(requestUrl) {
   var parsed = (isString(requestUrl)) ? urlResolve(requestUrl) : requestUrl;
-  return (parsed[$fog$745] === originUrl[$fog$745] &&
-          parsed[$fog$296] === originUrl[$fog$296]);
+  return (parsed[$fog$842] === originUrl[$fog$842] &&
+          parsed[$fog$1291] === originUrl[$fog$1291]);
 }
 
 /**
@@ -17941,7 +17957,7 @@ function urlIsSameOrigin(requestUrl) {
    </example>
  */
 function $WindowProvider() {
-  this[$fog$350] = valueFn(window);
+  this[$fog$1237] = valueFn(window);
 }
 
 /**
@@ -17954,9 +17970,9 @@ function $WindowProvider() {
  * @return {Object} a key/value map of the current cookies
  */
 function $$CookieReader($document) {
-  var rawDocument = $document[$fog$1] || {};
+  var rawDocument = $document[$fog$1586] || {};
   var lastCookies = {};
-  var lastCookieString = $fog$4;
+  var lastCookieString = $fog$1583;
 
   function safeDecodeURIComponent(str) {
     try {
@@ -17968,23 +17984,23 @@ function $$CookieReader($document) {
 
   return function() {
     var cookieArray, cookie, i, index, name;
-    var currentCookieString = rawDocument[$fog$1187] || $fog$4;
+    var currentCookieString = rawDocument[$fog$400] || $fog$1583;
 
     if (currentCookieString !== lastCookieString) {
       lastCookieString = currentCookieString;
-      cookieArray = lastCookieString[$fog$78]($fog$1188);
+      cookieArray = lastCookieString[$fog$1509]($fog$399);
       lastCookies = {};
 
-      for (i = $fog$1; i < cookieArray[$fog$10]; i++) {
+      for (i = $fog$1586; i < cookieArray[$fog$1577]; i++) {
         cookie = cookieArray[i];
-        index = cookie[$fog$80]($fog$16);
-        if (index > $fog$1) { //ignore nameless cookies
-          name = safeDecodeURIComponent(cookie[$fog$130]($fog$1, index));
+        index = cookie[$fog$1507]($fog$1571);
+        if (index > $fog$1586) { //ignore nameless cookies
+          name = safeDecodeURIComponent(cookie[$fog$1457]($fog$1586, index));
           // the first value that is seen for a cookie is the most
           // specific one.  values for the same cookie name that
           // follow are for less specific paths.
           if (lastCookies[name] === undefined) {
-            lastCookies[name] = safeDecodeURIComponent(cookie[$fog$130](index + $fog$6));
+            lastCookies[name] = safeDecodeURIComponent(cookie[$fog$1457](index + $fog$1581));
           }
         }
       }
@@ -17993,10 +18009,10 @@ function $$CookieReader($document) {
   };
 }
 
-$$CookieReader[$fog$53] = [$fog$483];
+$$CookieReader[$fog$1534] = [$fog$1104];
 
 function $$CookieReaderProvider() {
-  this[$fog$350] = $$CookieReader;
+  this[$fog$1237] = $$CookieReader;
 }
 
 /* global currencyFilter: true,
@@ -18098,9 +18114,9 @@ function $$CookieReaderProvider() {
      </file>
    </example>
   */
-$FilterProvider[$fog$53] = [$fog$162];
+$FilterProvider[$fog$1534] = [$fog$1425];
 function $FilterProvider($provide) {
-  var suffix = $fog$1189;
+  var suffix = $fog$398;
 
   /**
    * @ngdoc method
@@ -18126,14 +18142,14 @@ function $FilterProvider($provide) {
       });
       return filters;
     } else {
-      return $provide[$fog$217](name + suffix, factory);
+      return $provide[$fog$1370](name + suffix, factory);
     }
   }
-  this[$fog$222] = register;
+  this[$fog$1365] = register;
 
-  this[$fog$350] = [$fog$170, function($injector) {
+  this[$fog$1237] = [$fog$1417, function($injector) {
     return function(name) {
-      return $injector[$fog$182](name + suffix);
+      return $injector[$fog$1405](name + suffix);
     };
   }];
 
@@ -18151,15 +18167,15 @@ function $FilterProvider($provide) {
     uppercaseFilter: false,
   */
 
-  register($fog$1190, currencyFilter);
-  register($fog$1191, dateFilter);
-  register($fog$924, filterFilter);
-  register($fog$751, jsonFilter);
-  register($fog$1192, limitToFilter);
-  register($fog$1193, lowercaseFilter);
-  register($fog$41, numberFilter);
-  register($fog$1194, orderByFilter);
-  register($fog$1195, uppercaseFilter);
+  register($fog$397, currencyFilter);
+  register($fog$396, dateFilter);
+  register($fog$663, filterFilter);
+  register($fog$836, jsonFilter);
+  register($fog$395, limitToFilter);
+  register($fog$394, lowercaseFilter);
+  register($fog$1546, numberFilter);
+  register($fog$393, orderByFilter);
+  register($fog$392, uppercaseFilter);
 }
 
 /**
@@ -18292,10 +18308,10 @@ function $FilterProvider($provide) {
 function filterFilter() {
   return function(array, expression, comparator) {
     if (!isArrayLike(array)) {
-      if (array == $fog$37) {
+      if (array == $fog$1550) {
         return array;
       } else {
-        throw minErr($fog$924)($fog$1196, $fog$1197, array);
+        throw minErr($fog$663)($fog$391, $fog$390, array);
       }
     }
 
@@ -18304,16 +18320,16 @@ function filterFilter() {
     var matchAgainstAnyProp;
 
     switch (expressionType) {
-      case $fog$46:
+      case $fog$1541:
         predicateFn = expression;
         break;
-      case $fog$65:
-      case $fog$1057:
-      case $fog$41:
-      case $fog$55:
-        matchAgainstAnyProp = $fog$40;
+      case $fog$1522:
+      case $fog$530:
+      case $fog$1546:
+      case $fog$1532:
+        matchAgainstAnyProp = $fog$1547;
         //jshint -W086
-      case $fog$44:
+      case $fog$1543:
         //jshint +W086
         predicateFn = createPredicateFn(expression, comparator, matchAgainstAnyProp);
         break;
@@ -18321,41 +18337,41 @@ function filterFilter() {
         return array;
     }
 
-    return Array[$fog$21][$fog$924][$fog$43](array, predicateFn);
+    return Array[$fog$1566][$fog$663][$fog$1544](array, predicateFn);
   };
 }
 
 // Helper functions for `filterFilter`
 function createPredicateFn(expression, comparator, matchAgainstAnyProp) {
-  var shouldMatchPrimitives = isObject(expression) && ($fog$94 in expression);
+  var shouldMatchPrimitives = isObject(expression) && ($fog$1493 in expression);
   var predicateFn;
 
-  if (comparator === $fog$40) {
+  if (comparator === $fog$1547) {
     comparator = equals;
   } else if (!isFunction(comparator)) {
     comparator = function(actual, expected) {
       if (isUndefined(actual)) {
         // No substring matching against `undefined`
-        return $fog$38;
+        return $fog$1549;
       }
-      if ((actual === $fog$37) || (expected === $fog$37)) {
+      if ((actual === $fog$1550) || (expected === $fog$1550)) {
         // No substring matching against `null`; only match against `null`
         return actual === expected;
       }
       if (isObject(expected) || (isObject(actual) && !hasCustomToString(actual))) {
         // Should not compare primitives against objects, unless they have custom `toString` method
-        return $fog$38;
+        return $fog$1549;
       }
 
-      actual = lowercase($fog$4 + actual);
-      expected = lowercase($fog$4 + expected);
-      return actual[$fog$80](expected) !== -$fog$6;
+      actual = lowercase($fog$1583 + actual);
+      expected = lowercase($fog$1583 + expected);
+      return actual[$fog$1507](expected) !== -$fog$1581;
     };
   }
 
   predicateFn = function(item) {
     if (shouldMatchPrimitives && !isObject(item)) {
-      return deepCompare(item, expression[$fog$94], comparator, $fog$38);
+      return deepCompare(item, expression[$fog$1493], comparator, $fog$1549);
     }
     return deepCompare(item, expression, comparator, matchAgainstAnyProp);
   };
@@ -18367,46 +18383,46 @@ function deepCompare(actual, expected, comparator, matchAgainstAnyProp, dontMatc
   var actualType = getTypeForFilter(actual);
   var expectedType = getTypeForFilter(expected);
 
-  if ((expectedType === $fog$55) && (expected[$fog$93]($fog$1) === $fog$944)) {
-    return !deepCompare(actual, expected[$fog$130]($fog$6), comparator, matchAgainstAnyProp);
+  if ((expectedType === $fog$1532) && (expected[$fog$1494]($fog$1586) === $fog$643)) {
+    return !deepCompare(actual, expected[$fog$1457]($fog$1581), comparator, matchAgainstAnyProp);
   } else if (isArray(actual)) {
     // In case `actual` is an array, consider it a match
     // if ANY of it's items matches `expected`
-    return actual[$fog$392](function(item) {
+    return actual[$fog$1195](function(item) {
       return deepCompare(item, expected, comparator, matchAgainstAnyProp);
     });
   }
 
   switch (actualType) {
-    case $fog$44:
+    case $fog$1543:
       var key;
       if (matchAgainstAnyProp) {
         for (key in actual) {
-          if ((key[$fog$93]($fog$1) !== $fog$94) && deepCompare(actual[key], expected, comparator, $fog$40)) {
-            return $fog$40;
+          if ((key[$fog$1494]($fog$1586) !== $fog$1493) && deepCompare(actual[key], expected, comparator, $fog$1547)) {
+            return $fog$1547;
           }
         }
-        return dontMatchWholeObject ? $fog$38 : deepCompare(actual, expected, comparator, $fog$38);
-      } else if (expectedType === $fog$44) {
+        return dontMatchWholeObject ? $fog$1549 : deepCompare(actual, expected, comparator, $fog$1549);
+      } else if (expectedType === $fog$1543) {
         for (key in expected) {
           var expectedVal = expected[key];
           if (isFunction(expectedVal) || isUndefined(expectedVal)) {
             continue;
           }
 
-          var matchAnyProperty = key === $fog$94;
+          var matchAnyProperty = key === $fog$1493;
           var actualVal = matchAnyProperty ? actual : actual[key];
           if (!deepCompare(actualVal, expectedVal, comparator, matchAnyProperty, matchAnyProperty)) {
-            return $fog$38;
+            return $fog$1549;
           }
         }
-        return $fog$40;
+        return $fog$1547;
       } else {
         return comparator(actual, expected);
       }
       break;
-    case $fog$46:
-      return $fog$38;
+    case $fog$1541:
+      return $fog$1549;
     default:
       return comparator(actual, expected);
   }
@@ -18414,7 +18430,7 @@ function deepCompare(actual, expected, comparator, matchAgainstAnyProp, dontMatc
 
 // Used for easily differentiating between `null` and actual `object`
 function getTypeForFilter(val) {
-  return (val === $fog$37) ? $fog$1057 : typeof val;
+  return (val === $fog$1550) ? $fog$530 : typeof val;
 }
 
 /**
@@ -18469,22 +18485,22 @@ function getTypeForFilter(val) {
      </file>
    </example>
  */
-currencyFilter[$fog$53] = [$fog$1198];
+currencyFilter[$fog$1534] = [$fog$389];
 function currencyFilter($locale) {
-  var formats = $locale[$fog$1199];
+  var formats = $locale[$fog$388];
   return function(amount, currencySymbol, fractionSize) {
     if (isUndefined(currencySymbol)) {
-      currencySymbol = formats[$fog$1200];
+      currencySymbol = formats[$fog$387];
     }
 
     if (isUndefined(fractionSize)) {
-      fractionSize = formats[$fog$1202][$fog$6][$fog$1201];
+      fractionSize = formats[$fog$385][$fog$1581][$fog$386];
     }
 
     // if null or undefined pass it through
-    return (amount == $fog$37)
+    return (amount == $fog$1550)
         ? amount
-        : formatNumber(amount, formats[$fog$1202][$fog$6], formats[$fog$1203], formats[$fog$1204], fractionSize)[$fog$7]($fog$1205, currencySymbol);
+        : formatNumber(amount, formats[$fog$385][$fog$1581], formats[$fog$384], formats[$fog$383], fractionSize)[$fog$1580]($fog$382, currencySymbol);
   };
 }
 
@@ -18542,226 +18558,226 @@ function currencyFilter($locale) {
  */
 
 
-numberFilter[$fog$53] = [$fog$1198];
+numberFilter[$fog$1534] = [$fog$389];
 function numberFilter($locale) {
-  var formats = $locale[$fog$1199];
+  var formats = $locale[$fog$388];
   return function(number, fractionSize) {
 
     // if null or undefined pass it through
-    return (number == $fog$37)
+    return (number == $fog$1550)
         ? number
-        : formatNumber(number, formats[$fog$1202][$fog$1], formats[$fog$1203], formats[$fog$1204],
+        : formatNumber(number, formats[$fog$385][$fog$1586], formats[$fog$384], formats[$fog$383],
                        fractionSize);
   };
 }
 
-var DECIMAL_SEP = $fog$204;
+var DECIMAL_SEP = $fog$1383;
 function formatNumber(number, pattern, groupSep, decimalSep, fractionSize) {
-  if (isObject(number)) return $fog$4;
+  if (isObject(number)) return $fog$1583;
 
-  var isNegative = number < $fog$1;
-  number = Math[$fog$1206](number);
+  var isNegative = number < $fog$1586;
+  number = Math[$fog$381](number);
 
   var isInfinity = number === Infinity;
-  if (!isInfinity && !isFinite(number)) return $fog$4;
+  if (!isInfinity && !isFinite(number)) return $fog$1583;
 
-  var numStr = number + $fog$4,
-      formatedText = $fog$4,
-      hasExponent = $fog$38,
+  var numStr = number + $fog$1583,
+      formatedText = $fog$1583,
+      hasExponent = $fog$1549,
       parts = [];
 
-  if (isInfinity) formatedText = $fog$1207;
+  if (isInfinity) formatedText = $fog$380;
 
-  if (!isInfinity && numStr[$fog$80]($fog$889) !== -$fog$6) {
-    var match = numStr[$fog$88]($fog$1208);
-    if (match && match[$fog$0] == $fog$536 && match[$fog$206] > fractionSize + $fog$6) {
-      number = $fog$1;
+  if (!isInfinity && numStr[$fog$1507]($fog$698) !== -$fog$1581) {
+    var match = numStr[$fog$1499]($fog$379);
+    if (match && match[$fog$1587] == $fog$1051 && match[$fog$1381] > fractionSize + $fog$1581) {
+      number = $fog$1586;
     } else {
       formatedText = numStr;
-      hasExponent = $fog$40;
+      hasExponent = $fog$1547;
     }
   }
 
   if (!isInfinity && !hasExponent) {
-    var fractionLen = (numStr[$fog$78](DECIMAL_SEP)[$fog$6] || $fog$4)[$fog$10];
+    var fractionLen = (numStr[$fog$1509](DECIMAL_SEP)[$fog$1581] || $fog$1583)[$fog$1577];
 
     // determine fractionSize if it is not specified
     if (isUndefined(fractionSize)) {
-      fractionSize = Math[$fog$308](Math[$fog$309](pattern[$fog$1209], fractionLen), pattern[$fog$1201]);
+      fractionSize = Math[$fog$1279](Math[$fog$1278](pattern[$fog$378], fractionLen), pattern[$fog$386]);
     }
 
     // safely round numbers in JS without hitting imprecisions of floating-point arithmetics
     // inspired by:
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
-    number = +(Math[$fog$1210](+(number[$fog$32]() + $fog$889 + fractionSize))[$fog$32]() + $fog$889 + -fractionSize);
+    number = +(Math[$fog$377](+(number[$fog$1555]() + $fog$698 + fractionSize))[$fog$1555]() + $fog$698 + -fractionSize);
 
-    var fraction = ($fog$4 + number)[$fog$78](DECIMAL_SEP);
-    var whole = fraction[$fog$1];
-    fraction = fraction[$fog$6] || $fog$4;
+    var fraction = ($fog$1583 + number)[$fog$1509](DECIMAL_SEP);
+    var whole = fraction[$fog$1586];
+    fraction = fraction[$fog$1581] || $fog$1583;
 
-    var i, pos = $fog$1,
-        lgroup = pattern[$fog$1211],
-        group = pattern[$fog$1212];
+    var i, pos = $fog$1586,
+        lgroup = pattern[$fog$376],
+        group = pattern[$fog$375];
 
-    if (whole[$fog$10] >= (lgroup + group)) {
-      pos = whole[$fog$10] - lgroup;
-      for (i = $fog$1; i < pos; i++) {
-        if ((pos - i) % group === $fog$1 && i !== $fog$1) {
+    if (whole[$fog$1577] >= (lgroup + group)) {
+      pos = whole[$fog$1577] - lgroup;
+      for (i = $fog$1586; i < pos; i++) {
+        if ((pos - i) % group === $fog$1586 && i !== $fog$1586) {
           formatedText += groupSep;
         }
-        formatedText += whole[$fog$93](i);
+        formatedText += whole[$fog$1494](i);
       }
     }
 
-    for (i = pos; i < whole[$fog$10]; i++) {
-      if ((whole[$fog$10] - i) % lgroup === $fog$1 && i !== $fog$1) {
+    for (i = pos; i < whole[$fog$1577]; i++) {
+      if ((whole[$fog$1577] - i) % lgroup === $fog$1586 && i !== $fog$1586) {
         formatedText += groupSep;
       }
-      formatedText += whole[$fog$93](i);
+      formatedText += whole[$fog$1494](i);
     }
 
     // format fraction part.
-    while (fraction[$fog$10] < fractionSize) {
-      fraction += $fog$880;
+    while (fraction[$fog$1577] < fractionSize) {
+      fraction += $fog$707;
     }
 
-    if (fractionSize && fractionSize !== $fog$880) formatedText += decimalSep + fraction[$fog$425]($fog$1, fractionSize);
+    if (fractionSize && fractionSize !== $fog$707) formatedText += decimalSep + fraction[$fog$1162]($fog$1586, fractionSize);
   } else {
-    if (fractionSize > $fog$1 && number < $fog$6) {
-      formatedText = number[$fog$1213](fractionSize);
+    if (fractionSize > $fog$1586 && number < $fog$1581) {
+      formatedText = number[$fog$374](fractionSize);
       number = parseFloat(formatedText);
     }
   }
 
-  if (number === $fog$1) {
-    isNegative = $fog$38;
+  if (number === $fog$1586) {
+    isNegative = $fog$1549;
   }
 
-  parts[$fog$31](isNegative ? pattern[$fog$1214] : pattern[$fog$1215],
+  parts[$fog$1556](isNegative ? pattern[$fog$373] : pattern[$fog$372],
              formatedText,
-             isNegative ? pattern[$fog$1216] : pattern[$fog$1217]);
-  return parts[$fog$131]($fog$4);
+             isNegative ? pattern[$fog$371] : pattern[$fog$370]);
+  return parts[$fog$1456]($fog$1583);
 }
 
 function padNumber(num, digits, trim) {
-  var neg = $fog$4;
-  if (num < $fog$1) {
-    neg =  $fog$536;
+  var neg = $fog$1583;
+  if (num < $fog$1586) {
+    neg =  $fog$1051;
     num = -num;
   }
-  num = $fog$4 + num;
-  while (num[$fog$10] < digits) num = $fog$880 + num;
+  num = $fog$1583 + num;
+  while (num[$fog$1577] < digits) num = $fog$707 + num;
   if (trim) {
-    num = num[$fog$425](num[$fog$10] - digits);
+    num = num[$fog$1162](num[$fog$1577] - digits);
   }
   return neg + num;
 }
 
 
 function dateGetter(name, size, offset, trim) {
-  offset = offset || $fog$1;
+  offset = offset || $fog$1586;
   return function(date) {
-    var value = date[$fog$182 + name]();
-    if (offset > $fog$1 || value > -offset) {
+    var value = date[$fog$1405 + name]();
+    if (offset > $fog$1586 || value > -offset) {
       value += offset;
     }
-    if (value === $fog$1 && offset == -$fog$1218) value = $fog$1218;
+    if (value === $fog$1586 && offset == -$fog$369) value = $fog$369;
     return padNumber(value, size, trim);
   };
 }
 
 function dateStrGetter(name, shortForm) {
   return function(date, formats) {
-    var value = date[$fog$182 + name]();
-    var get = uppercase(shortForm ? ($fog$1219 + name) : name);
+    var value = date[$fog$1405 + name]();
+    var get = uppercase(shortForm ? ($fog$368 + name) : name);
 
     return formats[get][value];
   };
 }
 
 function timeZoneGetter(date, formats, offset) {
-  var zone = -$fog$6 * offset;
-  var paddedZone = (zone >= $fog$1) ? $fog$135 : $fog$4;
+  var zone = -$fog$1581 * offset;
+  var paddedZone = (zone >= $fog$1586) ? $fog$1452 : $fog$1583;
 
-  paddedZone += padNumber(Math[zone > $fog$1 ? $fog$543 : $fog$1220](zone / $fog$1221), $fog$0) +
-                padNumber(Math[$fog$1206](zone % $fog$1221), $fog$0);
+  paddedZone += padNumber(Math[zone > $fog$1586 ? $fog$1044 : $fog$367](zone / $fog$366), $fog$1587) +
+                padNumber(Math[$fog$381](zone % $fog$366), $fog$1587);
 
   return paddedZone;
 }
 
 function getFirstThursdayOfYear(year) {
     // 0 = index of January
-    var dayOfWeekOnFirst = (new Date(year, $fog$1, $fog$6))[$fog$1222]();
+    var dayOfWeekOnFirst = (new Date(year, $fog$1586, $fog$1581))[$fog$365]();
     // 4 = index of Thursday (+1 to account for 1st = 5)
     // 11 = index of *next* Thursday (+1 account for 1st = 12)
-    return new Date(year, $fog$1, ((dayOfWeekOnFirst <= $fog$230) ? $fog$587 : $fog$1218) - dayOfWeekOnFirst);
+    return new Date(year, $fog$1586, ((dayOfWeekOnFirst <= $fog$1357) ? $fog$1000 : $fog$369) - dayOfWeekOnFirst);
 }
 
 function getThursdayThisWeek(datetime) {
-    return new Date(datetime[$fog$1223](), datetime[$fog$1224](),
+    return new Date(datetime[$fog$364](), datetime[$fog$363](),
       // 4 = index of Thursday
-      datetime[$fog$1225]() + ($fog$230 - datetime[$fog$1222]()));
+      datetime[$fog$362]() + ($fog$1357 - datetime[$fog$365]()));
 }
 
 function weekGetter(size) {
    return function(date) {
-      var firstThurs = getFirstThursdayOfYear(date[$fog$1223]()),
+      var firstThurs = getFirstThursdayOfYear(date[$fog$364]()),
          thisThurs = getThursdayThisWeek(date);
 
       var diff = +thisThurs - +firstThurs,
-         result = $fog$6 + Math[$fog$1210](diff / $fog$1226); // 6.048e8 ms per week
+         result = $fog$1581 + Math[$fog$377](diff / $fog$361); // 6.048e8 ms per week
 
       return padNumber(result, size);
    };
 }
 
 function ampmGetter(date, formats) {
-  return date[$fog$1227]() < $fog$1218 ? formats[$fog$1228][$fog$1] : formats[$fog$1228][$fog$6];
+  return date[$fog$360]() < $fog$369 ? formats[$fog$359][$fog$1586] : formats[$fog$359][$fog$1581];
 }
 
 function eraGetter(date, formats) {
-  return date[$fog$1223]() <= $fog$1 ? formats[$fog$1229][$fog$1] : formats[$fog$1229][$fog$6];
+  return date[$fog$364]() <= $fog$1586 ? formats[$fog$358][$fog$1586] : formats[$fog$358][$fog$1581];
 }
 
 function longEraGetter(date, formats) {
-  return date[$fog$1223]() <= $fog$1 ? formats[$fog$1230][$fog$1] : formats[$fog$1230][$fog$6];
+  return date[$fog$364]() <= $fog$1586 ? formats[$fog$357][$fog$1586] : formats[$fog$357][$fog$1581];
 }
 
 var DATE_FORMATS = {
-  yyyy: dateGetter($fog$1231, $fog$230),
-    yy: dateGetter($fog$1231, $fog$0, $fog$1, $fog$40),
-     y: dateGetter($fog$1231, $fog$6),
-  MMMM: dateStrGetter($fog$1232),
-   MMM: dateStrGetter($fog$1232, $fog$40),
-    MM: dateGetter($fog$1232, $fog$0, $fog$6),
-     M: dateGetter($fog$1232, $fog$6, $fog$6),
-    dd: dateGetter($fog$1233, $fog$0),
-     d: dateGetter($fog$1233, $fog$6),
-    HH: dateGetter($fog$1234, $fog$0),
-     H: dateGetter($fog$1234, $fog$6),
-    hh: dateGetter($fog$1234, $fog$0, -$fog$1218),
-     h: dateGetter($fog$1234, $fog$6, -$fog$1218),
-    mm: dateGetter($fog$1235, $fog$0),
-     m: dateGetter($fog$1235, $fog$6),
-    ss: dateGetter($fog$1236, $fog$0),
-     s: dateGetter($fog$1236, $fog$6),
+  yyyy: dateGetter($fog$356, $fog$1357),
+    yy: dateGetter($fog$356, $fog$1587, $fog$1586, $fog$1547),
+     y: dateGetter($fog$356, $fog$1581),
+  MMMM: dateStrGetter($fog$355),
+   MMM: dateStrGetter($fog$355, $fog$1547),
+    MM: dateGetter($fog$355, $fog$1587, $fog$1581),
+     M: dateGetter($fog$355, $fog$1581, $fog$1581),
+    dd: dateGetter($fog$354, $fog$1587),
+     d: dateGetter($fog$354, $fog$1581),
+    HH: dateGetter($fog$353, $fog$1587),
+     H: dateGetter($fog$353, $fog$1581),
+    hh: dateGetter($fog$353, $fog$1587, -$fog$369),
+     h: dateGetter($fog$353, $fog$1581, -$fog$369),
+    mm: dateGetter($fog$352, $fog$1587),
+     m: dateGetter($fog$352, $fog$1581),
+    ss: dateGetter($fog$351, $fog$1587),
+     s: dateGetter($fog$351, $fog$1581),
      // while ISO 8601 requires fractions to be prefixed with `.` or `,`
      // we can be just safely rely on using `sss` since we currently don't support single or two digit fractions
-   sss: dateGetter($fog$1237, $fog$206),
-  EEEE: dateStrGetter($fog$1238),
-   EEE: dateStrGetter($fog$1238, $fog$40),
+   sss: dateGetter($fog$350, $fog$1381),
+  EEEE: dateStrGetter($fog$349),
+   EEE: dateStrGetter($fog$349, $fog$1547),
      a: ampmGetter,
      Z: timeZoneGetter,
-    ww: weekGetter($fog$0),
-     w: weekGetter($fog$6),
+    ww: weekGetter($fog$1587),
+     w: weekGetter($fog$1581),
      G: eraGetter,
      GG: eraGetter,
      GGG: eraGetter,
      GGGG: longEraGetter
 };
 
-var DATE_FORMATS_SPLIT = $fog$1239,
-    NUMBER_STRING = $fog$1240;
+var DATE_FORMATS_SPLIT = $fog$348,
+    NUMBER_STRING = $fog$347;
 
 /**
  * @ngdoc filter
@@ -18856,31 +18872,31 @@ var DATE_FORMATS_SPLIT = $fog$1239,
      </file>
    </example>
  */
-dateFilter[$fog$53] = [$fog$1198];
+dateFilter[$fog$1534] = [$fog$389];
 function dateFilter($locale) {
 
 
-  var R_ISO8601_STR = $fog$1241;
+  var R_ISO8601_STR = $fog$346;
                      // 1        2       3         4          5          6          7          8  9     10      11
   function jsonStringToDate(string) {
     var match;
-    if (match = string[$fog$88](R_ISO8601_STR)) {
-      var date = new Date($fog$1),
-          tzHour = $fog$1,
-          tzMin  = $fog$1,
-          dateSetter = match[$fog$207] ? date[$fog$1242] : date[$fog$1243],
-          timeSetter = match[$fog$207] ? date[$fog$1244] : date[$fog$1245];
+    if (match = string[$fog$1499](R_ISO8601_STR)) {
+      var date = new Date($fog$1586),
+          tzHour = $fog$1586,
+          tzMin  = $fog$1586,
+          dateSetter = match[$fog$1380] ? date[$fog$345] : date[$fog$344],
+          timeSetter = match[$fog$1380] ? date[$fog$343] : date[$fog$342];
 
-      if (match[$fog$208]) {
-        tzHour = toInt(match[$fog$208] + match[$fog$51]);
-        tzMin = toInt(match[$fog$208] + match[$fog$209]);
+      if (match[$fog$1379]) {
+        tzHour = toInt(match[$fog$1379] + match[$fog$1536]);
+        tzMin = toInt(match[$fog$1379] + match[$fog$1378]);
       }
-      dateSetter[$fog$43](date, toInt(match[$fog$6]), toInt(match[$fog$0]) - $fog$6, toInt(match[$fog$206]));
-      var h = toInt(match[$fog$230] || $fog$1) - tzHour;
-      var m = toInt(match[$fog$587] || $fog$1) - tzMin;
-      var s = toInt(match[$fog$588] || $fog$1);
-      var ms = Math[$fog$1210](parseFloat($fog$1246 + (match[$fog$1247] || $fog$1)) * $fog$1248);
-      timeSetter[$fog$43](date, h, m, s, ms);
+      dateSetter[$fog$1544](date, toInt(match[$fog$1581]), toInt(match[$fog$1587]) - $fog$1581, toInt(match[$fog$1381]));
+      var h = toInt(match[$fog$1357] || $fog$1586) - tzHour;
+      var m = toInt(match[$fog$1000] || $fog$1586) - tzMin;
+      var s = toInt(match[$fog$999] || $fog$1586);
+      var ms = Math[$fog$377](parseFloat($fog$341 + (match[$fog$340] || $fog$1586)) * $fog$339);
+      timeSetter[$fog$1544](date, h, m, s, ms);
       return date;
     }
     return string;
@@ -18888,44 +18904,44 @@ function dateFilter($locale) {
 
 
   return function(date, format, timezone) {
-    var text = $fog$4,
+    var text = $fog$1583,
         parts = [],
         fn, match;
 
-    format = format || $fog$1249;
-    format = $locale[$fog$1250][format] || format;
+    format = format || $fog$338;
+    format = $locale[$fog$337][format] || format;
     if (isString(date)) {
-      date = NUMBER_STRING[$fog$68](date) ? toInt(date) : jsonStringToDate(date);
+      date = NUMBER_STRING[$fog$1519](date) ? toInt(date) : jsonStringToDate(date);
     }
 
     if (isNumber(date)) {
       date = new Date(date);
     }
 
-    if (!isDate(date) || !isFinite(date[$fog$86]())) {
+    if (!isDate(date) || !isFinite(date[$fog$1501]())) {
       return date;
     }
 
     while (format) {
-      match = DATE_FORMATS_SPLIT[$fog$272](format);
+      match = DATE_FORMATS_SPLIT[$fog$1315](format);
       if (match) {
-        parts = concat(parts, match, $fog$6);
-        format = parts[$fog$460]();
+        parts = concat(parts, match, $fog$1581);
+        format = parts[$fog$1127]();
       } else {
-        parts[$fog$31](format);
-        format = $fog$37;
+        parts[$fog$1556](format);
+        format = $fog$1550;
       }
     }
 
-    var dateTimezoneOffset = date[$fog$119]();
+    var dateTimezoneOffset = date[$fog$1468]();
     if (timezone) {
-      dateTimezoneOffset = timezoneToOffset(timezone, date[$fog$119]());
-      date = convertTimezoneToLocal(date, timezone, $fog$40);
+      dateTimezoneOffset = timezoneToOffset(timezone, date[$fog$1468]());
+      date = convertTimezoneToLocal(date, timezone, $fog$1547);
     }
     forEach(parts, function(value) {
       fn = DATE_FORMATS[value];
-      text += fn ? fn(date, $locale[$fog$1250], dateTimezoneOffset)
-                 : value[$fog$7]($fog$1251, $fog$4)[$fog$7]($fog$1252, $fog$470);
+      text += fn ? fn(date, $locale[$fog$337], dateTimezoneOffset)
+                 : value[$fog$1580]($fog$336, $fog$1583)[$fog$1580]($fog$335, $fog$1117);
     });
 
     return text;
@@ -18967,7 +18983,7 @@ function dateFilter($locale) {
 function jsonFilter() {
   return function(object, spacing) {
     if (isUndefined(spacing)) {
-        spacing = $fog$0;
+        spacing = $fog$1587;
     }
     return toJson(object, spacing);
   };
@@ -19095,26 +19111,26 @@ var uppercaseFilter = valueFn(uppercase);
 */
 function limitToFilter() {
   return function(input, limit, begin) {
-    if (Math[$fog$1206](Number(limit)) === Infinity) {
+    if (Math[$fog$381](Number(limit)) === Infinity) {
       limit = Number(limit);
     } else {
       limit = toInt(limit);
     }
     if (isNaN(limit)) return input;
 
-    if (isNumber(input)) input = input[$fog$32]();
+    if (isNumber(input)) input = input[$fog$1555]();
     if (!isArray(input) && !isString(input)) return input;
 
-    begin = (!begin || isNaN(begin)) ? $fog$1 : toInt(begin);
-    begin = (begin < $fog$1 && begin >= -input[$fog$10]) ? input[$fog$10] + begin : begin;
+    begin = (!begin || isNaN(begin)) ? $fog$1586 : toInt(begin);
+    begin = (begin < $fog$1586 && begin >= -input[$fog$1577]) ? input[$fog$1577] + begin : begin;
 
-    if (limit >= $fog$1) {
-      return input[$fog$9](begin, begin + limit);
+    if (limit >= $fog$1586) {
+      return input[$fog$1578](begin, begin + limit);
     } else {
-      if (begin === $fog$1) {
-        return input[$fog$9](limit, input[$fog$10]);
+      if (begin === $fog$1586) {
+        return input[$fog$1578](limit, input[$fog$1577]);
       } else {
-        return input[$fog$9](Math[$fog$309]($fog$1, begin + limit), begin);
+        return input[$fog$1578](Math[$fog$1278]($fog$1586, begin + limit), begin);
       }
     }
   };
@@ -19293,43 +19309,43 @@ function limitToFilter() {
     </file>
 </example>
  */
-orderByFilter[$fog$53] = [$fog$530];
+orderByFilter[$fog$1534] = [$fog$1057];
 function orderByFilter($parse) {
   return function(array, sortPredicate, reverseOrder) {
 
     if (!(isArrayLike(array))) return array;
 
     if (!isArray(sortPredicate)) { sortPredicate = [sortPredicate]; }
-    if (sortPredicate[$fog$10] === $fog$1) { sortPredicate = [$fog$135]; }
+    if (sortPredicate[$fog$1577] === $fog$1586) { sortPredicate = [$fog$1452]; }
 
     var predicates = processPredicates(sortPredicate, reverseOrder);
     // Add a predicate at the end that evaluates to the element index. This makes the
     // sort stable as it works as a tie-breaker when all the input predicates cannot
     // distinguish between two elements.
-    predicates[$fog$31]({ get: function() { return {}; }, descending: reverseOrder ? -$fog$6 : $fog$6});
+    predicates[$fog$1556]({ get: function() { return {}; }, descending: reverseOrder ? -$fog$1581 : $fog$1581});
 
     // The next three lines are a version of a Swartzian Transform idiom from Perl
     // (sometimes called the Decorate-Sort-Undecorate idiom)
     // See https://en.wikipedia.org/wiki/Schwartzian_transform
-    var compareValues = Array[$fog$21][$fog$1253][$fog$43](array, getComparisonObject);
-    compareValues[$fog$47](doComparison);
-    array = compareValues[$fog$1253](function(item) { return item[$fog$163]; });
+    var compareValues = Array[$fog$1566][$fog$334][$fog$1544](array, getComparisonObject);
+    compareValues[$fog$1540](doComparison);
+    array = compareValues[$fog$334](function(item) { return item[$fog$1424]; });
 
     return array;
 
     function getComparisonObject(value, index) {
       return {
         value: value,
-        predicateValues: predicates[$fog$1253](function(predicate) {
-          return getPredicateValue(predicate[$fog$182](value), index);
+        predicateValues: predicates[$fog$334](function(predicate) {
+          return getPredicateValue(predicate[$fog$1405](value), index);
         })
       };
     }
 
     function doComparison(v1, v2) {
-      var result = $fog$1;
-      for (var index=$fog$1, length = predicates[$fog$10]; index < length; ++index) {
-        result = compare(v1[$fog$1254][index], v2[$fog$1254][index]) * predicates[index][$fog$1255];
+      var result = $fog$1586;
+      for (var index=$fog$1586, length = predicates[$fog$1577]; index < length; ++index) {
+        result = compare(v1[$fog$333][index], v2[$fog$333][index]) * predicates[index][$fog$332];
         if (result) break;
       }
       return result;
@@ -19337,20 +19353,20 @@ function orderByFilter($parse) {
   };
 
   function processPredicates(sortPredicate, reverseOrder) {
-    reverseOrder = reverseOrder ? -$fog$6 : $fog$6;
-    return sortPredicate[$fog$1253](function(predicate) {
-      var descending = $fog$6, get = identity;
+    reverseOrder = reverseOrder ? -$fog$1581 : $fog$1581;
+    return sortPredicate[$fog$334](function(predicate) {
+      var descending = $fog$1581, get = identity;
 
       if (isFunction(predicate)) {
         get = predicate;
       } else if (isString(predicate)) {
-        if ((predicate[$fog$93]($fog$1) == $fog$135 || predicate[$fog$93]($fog$1) == $fog$536)) {
-          descending = predicate[$fog$93]($fog$1) == $fog$536 ? -$fog$6 : $fog$6;
-          predicate = predicate[$fog$130]($fog$6);
+        if ((predicate[$fog$1494]($fog$1586) == $fog$1452 || predicate[$fog$1494]($fog$1586) == $fog$1051)) {
+          descending = predicate[$fog$1494]($fog$1586) == $fog$1051 ? -$fog$1581 : $fog$1581;
+          predicate = predicate[$fog$1457]($fog$1581);
         }
-        if (predicate !== $fog$4) {
+        if (predicate !== $fog$1583) {
           get = $parse(predicate);
-          if (get[$fog$219]) {
+          if (get[$fog$1368]) {
             var key = get();
             get = function(value) { return value[key]; };
           }
@@ -19362,24 +19378,24 @@ function orderByFilter($parse) {
 
   function isPrimitive(value) {
     switch (typeof value) {
-      case $fog$41: /* falls through */
-      case $fog$65: /* falls through */
-      case $fog$55:
-        return $fog$40;
+      case $fog$1546: /* falls through */
+      case $fog$1522: /* falls through */
+      case $fog$1532:
+        return $fog$1547;
       default:
-        return $fog$38;
+        return $fog$1549;
     }
   }
 
   function objectValue(value, index) {
     // If `valueOf` is a valid function use that
-    if (typeof value[$fog$50] === $fog$46) {
-      value = value[$fog$50]();
+    if (typeof value[$fog$1537] === $fog$1541) {
+      value = value[$fog$1537]();
       if (isPrimitive(value)) return value;
     }
     // If `toString` is a valid function and not the one from `Object.prototype` use that
     if (hasCustomToString(value)) {
-      value = value[$fog$32]();
+      value = value[$fog$1555]();
       if (isPrimitive(value)) return value;
     }
     // We have a basic object so we use the position of the object in the collection
@@ -19388,25 +19404,25 @@ function orderByFilter($parse) {
 
   function getPredicateValue(value, index) {
     var type = typeof value;
-    if (value === $fog$37) {
-      type = $fog$55;
-      value = $fog$1057;
-    } else if (type === $fog$55) {
-      value = value[$fog$19]();
-    } else if (type === $fog$44) {
+    if (value === $fog$1550) {
+      type = $fog$1532;
+      value = $fog$530;
+    } else if (type === $fog$1532) {
+      value = value[$fog$1568]();
+    } else if (type === $fog$1543) {
       value = objectValue(value, index);
     }
     return { value: value, type: type };
   }
 
   function compare(v1, v2) {
-    var result = $fog$1;
-    if (v1[$fog$329] === v2[$fog$329]) {
-      if (v1[$fog$163] !== v2[$fog$163]) {
-        result = v1[$fog$163] < v2[$fog$163] ? -$fog$6 : $fog$6;
+    var result = $fog$1586;
+    if (v1[$fog$1258] === v2[$fog$1258]) {
+      if (v1[$fog$1424] !== v2[$fog$1424]) {
+        result = v1[$fog$1424] < v2[$fog$1424] ? -$fog$1581 : $fog$1581;
       }
     } else {
-      result = v1[$fog$329] < v2[$fog$329] ? -$fog$6 : $fog$6;
+      result = v1[$fog$1258] < v2[$fog$1258] ? -$fog$1581 : $fog$1581;
     }
     return result;
   }
@@ -19418,7 +19434,7 @@ function ngDirective(directive) {
       link: directive
     };
   }
-  directive[$fog$522] = directive[$fog$522] || $fog$1256;
+  directive[$fog$1065] = directive[$fog$1065] || $fog$331;
   return valueFn(directive);
 }
 
@@ -19436,20 +19452,20 @@ function ngDirective(directive) {
  * `<a href="" ng-click="list.addItem()">Add Item</a>`
  */
 var htmlAnchorDirective = valueFn({
-  restrict: $fog$583,
+  restrict: $fog$1004,
   compile: function(element, attr) {
-    if (!attr[$fog$464] && !attr[$fog$637]) {
+    if (!attr[$fog$1123] && !attr[$fog$950]) {
       return function(scope, element) {
         // If the linked element is not an anchor tag anymore, do nothing
-        if (element[$fog$1][$fog$74][$fog$19]() !== $fog$393) return;
+        if (element[$fog$1586][$fog$1513][$fog$1568]() !== $fog$1194) return;
 
         // SVGAElement does not use the href attribute, but rather the 'xlinkHref' attribute.
-        var href = toString[$fog$43](element[$fog$75]($fog$464)) === $fog$827 ?
-                   $fog$826 : $fog$464;
-        element[$fog$186]($fog$819, function(event) {
+        var href = toString[$fog$1544](element[$fog$1512]($fog$1123)) === $fog$760 ?
+                   $fog$761 : $fog$1123;
+        element[$fog$1401]($fog$768, function(event) {
           // if we have no href url, then don't navigate anywhere.
-          if (!element[$fog$76](href)) {
-            event[$fog$828]();
+          if (!element[$fog$1511](href)) {
+            event[$fog$759]();
           }
         });
       };
@@ -19812,21 +19828,21 @@ var ngAttributeAliasDirectives = {};
 // boolean attrs are evaluated
 forEach(BOOLEAN_ATTR, function(propName, attrName) {
   // binding to multiple is not supported
-  if (propName == $fog$322) return;
+  if (propName == $fog$1265) return;
 
   function defaultLinkFn(scope, element, attr) {
-    scope[$fog$61](attr[normalized], function ngBooleanAttrWatchAction(value) {
-      attr[$fog$626](attrName, !!value);
+    scope[$fog$1526](attr[normalized], function ngBooleanAttrWatchAction(value) {
+      attr[$fog$961](attrName, !!value);
     });
   }
 
-  var normalized = directiveNormalize($fog$144 + attrName);
+  var normalized = directiveNormalize($fog$1443 + attrName);
   var linkFn = defaultLinkFn;
 
-  if (propName === $fog$1257) {
+  if (propName === $fog$330) {
     linkFn = function(scope, element, attr) {
       // ensuring ngChecked doesn't interfere with ngModel when both are set on the same input
-      if (attr[$fog$1258] !== attr[normalized]) {
+      if (attr[$fog$329] !== attr[normalized]) {
         defaultLinkFn(scope, element, attr);
       }
     };
@@ -19834,8 +19850,8 @@ forEach(BOOLEAN_ATTR, function(propName, attrName) {
 
   ngAttributeAliasDirectives[normalized] = function() {
     return {
-      restrict: $fog$589,
-      priority: $fog$644,
+      restrict: $fog$998,
+      priority: $fog$943,
       link: linkFn
     };
   };
@@ -19845,20 +19861,20 @@ forEach(BOOLEAN_ATTR, function(propName, attrName) {
 forEach(ALIASED_ATTR, function(htmlAttr, ngAttr) {
   ngAttributeAliasDirectives[ngAttr] = function() {
     return {
-      priority: $fog$644,
+      priority: $fog$943,
       link: function(scope, element, attr) {
         //special case ngPattern when a literal regular expression value
         //is used as the expression (this way we don't have to watch anything).
-        if (ngAttr === $fog$1259 && attr[$fog$1259][$fog$93]($fog$1) == $fog$12) {
-          var match = attr[$fog$1259][$fog$88](REGEX_STRING_REGEXP);
+        if (ngAttr === $fog$328 && attr[$fog$328][$fog$1494]($fog$1586) == $fog$1575) {
+          var match = attr[$fog$328][$fog$1499](REGEX_STRING_REGEXP);
           if (match) {
-            attr[$fog$626]($fog$1259, new RegExp(match[$fog$6], match[$fog$0]));
+            attr[$fog$961]($fog$328, new RegExp(match[$fog$1581], match[$fog$1587]));
             return;
           }
         }
 
-        scope[$fog$61](attr[ngAttr], function ngAttrAliasWatchAction(value) {
-          attr[$fog$626](ngAttr, value);
+        scope[$fog$1526](attr[ngAttr], function ngAttrAliasWatchAction(value) {
+          attr[$fog$961](ngAttr, value);
         });
       }
     };
@@ -19866,37 +19882,37 @@ forEach(ALIASED_ATTR, function(htmlAttr, ngAttr) {
 });
 
 // ng-src, ng-srcset, ng-href are interpolated
-forEach([$fog$538, $fog$539, $fog$464], function(attrName) {
-  var normalized = directiveNormalize($fog$144 + attrName);
+forEach([$fog$1049, $fog$1048, $fog$1123], function(attrName) {
+  var normalized = directiveNormalize($fog$1443 + attrName);
   ngAttributeAliasDirectives[normalized] = function() {
     return {
-      priority: $fog$1260, // it needs to run after the attributes are interpolated
+      priority: $fog$327, // it needs to run after the attributes are interpolated
       link: function(scope, element, attr) {
         var propName = attrName,
             name = attrName;
 
-        if (attrName === $fog$464 &&
-            toString[$fog$43](element[$fog$75]($fog$464)) === $fog$827) {
-          name = $fog$637;
-          attr[$fog$534][name] = $fog$826;
-          propName = $fog$37;
+        if (attrName === $fog$1123 &&
+            toString[$fog$1544](element[$fog$1512]($fog$1123)) === $fog$760) {
+          name = $fog$950;
+          attr[$fog$1053][name] = $fog$761;
+          propName = $fog$1550;
         }
 
-        attr[$fog$655](normalized, function(value) {
+        attr[$fog$932](normalized, function(value) {
           if (!value) {
-            if (attrName === $fog$464) {
-              attr[$fog$626](name, $fog$37);
+            if (attrName === $fog$1123) {
+              attr[$fog$961](name, $fog$1550);
             }
             return;
           }
 
-          attr[$fog$626](name, value);
+          attr[$fog$961](name, value);
 
           // on IE, if "ng:src" directive declaration is used and "src" attribute doesn't exist
           // then calling element.setAttribute('src', 'foo') doesn't do anything, so we need
           // to set the property as well to achieve the desired effect.
           // we use attr[attrName] value since $set can sanitize the url.
-          if (msie && propName) element[$fog$75](propName, attr[name]);
+          if (msie && propName) element[$fog$1512](propName, attr[name]);
         });
       }
     };
@@ -19914,10 +19930,10 @@ var nullFormCtrl = {
   $setPristine: noop,
   $setSubmitted: noop
 },
-SUBMITTED_CLASS = $fog$1261;
+SUBMITTED_CLASS = $fog$326;
 
 function nullFormRenameControl(control, name) {
-  control[$fog$1262] = name;
+  control[$fog$325] = name;
 }
 
 /**
@@ -19962,25 +19978,25 @@ function nullFormRenameControl(control, name) {
  *
  */
 //asks for $scope to fool the BC controller module
-FormController[$fog$53] = [$fog$1263, $fog$1264, $fog$313, $fog$407, $fog$528];
+FormController[$fog$1534] = [$fog$324, $fog$323, $fog$1274, $fog$1180, $fog$1059];
 function FormController(element, attrs, $scope, $animate, $interpolate) {
   var form = this,
       controls = [];
 
-  var parentForm = form[$fog$1265] = element[$fog$438]()[$fog$190]($fog$638) || nullFormCtrl;
+  var parentForm = form[$fog$322] = element[$fog$1149]()[$fog$1397]($fog$949) || nullFormCtrl;
 
   // init state
-  form[$fog$1266] = {};
-  form[$fog$1267] = {};
-  form[$fog$1268] = undefined;
-  form[$fog$1262] = $interpolate(attrs[$fog$42] || attrs[$fog$1269] || $fog$4)($scope);
-  form[$fog$1270] = $fog$38;
-  form[$fog$1271] = $fog$40;
-  form[$fog$1272] = $fog$40;
-  form[$fog$1273] = $fog$38;
-  form[$fog$1274] = $fog$38;
+  form[$fog$321] = {};
+  form[$fog$320] = {};
+  form[$fog$319] = undefined;
+  form[$fog$325] = $interpolate(attrs[$fog$1545] || attrs[$fog$318] || $fog$1583)($scope);
+  form[$fog$317] = $fog$1549;
+  form[$fog$316] = $fog$1547;
+  form[$fog$315] = $fog$1547;
+  form[$fog$314] = $fog$1549;
+  form[$fog$313] = $fog$1549;
 
-  parentForm[$fog$1275](form);
+  parentForm[$fog$312](form);
 
   /**
    * @ngdoc method
@@ -19993,9 +20009,9 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    * event defined in `ng-model-options`. This method is typically needed by the reset button of
    * a form that uses `ng-model-options` to pend updates.
    */
-  form[$fog$1276] = function() {
+  form[$fog$311] = function() {
     forEach(controls, function(control) {
-      control[$fog$1276]();
+      control[$fog$311]();
     });
   };
 
@@ -20010,9 +20026,9 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    * event defined in `ng-model-options`. This method is rarely needed as `NgModelController`
    * usually handles calling this in response to input events.
    */
-  form[$fog$1277] = function() {
+  form[$fog$310] = function() {
     forEach(controls, function(control) {
-      control[$fog$1277]();
+      control[$fog$310]();
     });
   };
 
@@ -20025,26 +20041,26 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    *
    * Input elements using ngModelController do this automatically when they are linked.
    */
-  form[$fog$1275] = function(control) {
+  form[$fog$312] = function(control) {
     // Breaking change - before, inputs whose name was "hasOwnProperty" were quietly ignored
     // and not added to the scope.  Now we throw an error.
-    assertNotHasOwnProperty(control[$fog$1262], $fog$1059);
-    controls[$fog$31](control);
+    assertNotHasOwnProperty(control[$fog$325], $fog$528);
+    controls[$fog$1556](control);
 
-    if (control[$fog$1262]) {
-      form[control[$fog$1262]] = control;
+    if (control[$fog$325]) {
+      form[control[$fog$325]] = control;
     }
   };
 
   // Private API: rename a form control
-  form[$fog$1278] = function(control, newName) {
-    var oldName = control[$fog$1262];
+  form[$fog$309] = function(control, newName) {
+    var oldName = control[$fog$325];
 
     if (form[oldName] === control) {
       delete form[oldName];
     }
     form[newName] = control;
-    control[$fog$1262] = newName;
+    control[$fog$325] = newName;
   };
 
   /**
@@ -20056,18 +20072,18 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    *
    * Input elements using ngModelController do this automatically when they are destroyed.
    */
-  form[$fog$1279] = function(control) {
-    if (control[$fog$1262] && form[control[$fog$1262]] === control) {
-      delete form[control[$fog$1262]];
+  form[$fog$308] = function(control) {
+    if (control[$fog$325] && form[control[$fog$325]] === control) {
+      delete form[control[$fog$325]];
     }
-    forEach(form[$fog$1268], function(value, name) {
-      form[$fog$1280](name, $fog$37, control);
+    forEach(form[$fog$319], function(value, name) {
+      form[$fog$307](name, $fog$1550, control);
     });
-    forEach(form[$fog$1266], function(value, name) {
-      form[$fog$1280](name, $fog$37, control);
+    forEach(form[$fog$321], function(value, name) {
+      form[$fog$307](name, $fog$1550, control);
     });
-    forEach(form[$fog$1267], function(value, name) {
-      form[$fog$1280](name, $fog$37, control);
+    forEach(form[$fog$320], function(value, name) {
+      form[$fog$307](name, $fog$1550, control);
     });
 
     arrayRemove(controls, control);
@@ -20091,9 +20107,9 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
       if (!list) {
         object[property] = [controller];
       } else {
-        var index = list[$fog$80](controller);
-        if (index === -$fog$6) {
-          list[$fog$31](controller);
+        var index = list[$fog$1507](controller);
+        if (index === -$fog$1581) {
+          list[$fog$1556](controller);
         }
       }
     },
@@ -20103,7 +20119,7 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
         return;
       }
       arrayRemove(list, controller);
-      if (list[$fog$10] === $fog$1) {
+      if (list[$fog$1577] === $fog$1586) {
         delete object[property];
       }
     },
@@ -20121,12 +20137,12 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    * This method can be called to add the 'ng-dirty' class and set the form to a dirty
    * state (ng-dirty class). This method will also propagate to parent forms.
    */
-  form[$fog$1281] = function() {
-    $animate[$fog$418](element, PRISTINE_CLASS);
-    $animate[$fog$417](element, DIRTY_CLASS);
-    form[$fog$1270] = $fog$40;
-    form[$fog$1271] = $fog$38;
-    parentForm[$fog$1281]();
+  form[$fog$306] = function() {
+    $animate[$fog$1169](element, PRISTINE_CLASS);
+    $animate[$fog$1170](element, DIRTY_CLASS);
+    form[$fog$317] = $fog$1547;
+    form[$fog$316] = $fog$1549;
+    parentForm[$fog$306]();
   };
 
   /**
@@ -20143,13 +20159,13 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    * Setting a form back to a pristine state is often useful when we want to 'reuse' a form after
    * saving or resetting it.
    */
-  form[$fog$1282] = function() {
-    $animate[$fog$443](element, PRISTINE_CLASS, DIRTY_CLASS + $fog$288 + SUBMITTED_CLASS);
-    form[$fog$1270] = $fog$38;
-    form[$fog$1271] = $fog$40;
-    form[$fog$1274] = $fog$38;
+  form[$fog$305] = function() {
+    $animate[$fog$1144](element, PRISTINE_CLASS, DIRTY_CLASS + $fog$1299 + SUBMITTED_CLASS);
+    form[$fog$317] = $fog$1549;
+    form[$fog$316] = $fog$1547;
+    form[$fog$313] = $fog$1549;
     forEach(controls, function(control) {
-      control[$fog$1282]();
+      control[$fog$305]();
     });
   };
 
@@ -20166,9 +20182,9 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    * Setting a form controls back to their untouched state is often useful when setting the form
    * back to its pristine state.
    */
-  form[$fog$1283] = function() {
+  form[$fog$304] = function() {
     forEach(controls, function(control) {
-      control[$fog$1283]();
+      control[$fog$304]();
     });
   };
 
@@ -20179,10 +20195,10 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
    * @description
    * Sets the form to its submitted state.
    */
-  form[$fog$1284] = function() {
-    $animate[$fog$417](element, SUBMITTED_CLASS);
-    form[$fog$1274] = $fog$40;
-    parentForm[$fog$1284]();
+  form[$fog$303] = function() {
+    $animate[$fog$1170](element, SUBMITTED_CLASS);
+    form[$fog$313] = $fog$1547;
+    parentForm[$fog$303]();
   };
 }
 
@@ -20352,21 +20368,21 @@ function FormController(element, attrs, $scope, $animate, $interpolate) {
  *                       related scope, under this name.
  */
 var formDirectiveFactory = function(isNgForm) {
-  return [$fog$1074, $fog$530, function($timeout, $parse) {
+  return [$fog$513, $fog$1057, function($timeout, $parse) {
     var formDirective = {
-      name: $fog$638,
-      restrict: isNgForm ? $fog$1285 : $fog$583,
+      name: $fog$949,
+      restrict: isNgForm ? $fog$302 : $fog$1004,
       controller: FormController,
       compile: function ngFormCompile(formElement, attr) {
         // Setup initial state of the control
-        formElement[$fog$417](PRISTINE_CLASS)[$fog$417](VALID_CLASS);
+        formElement[$fog$1170](PRISTINE_CLASS)[$fog$1170](VALID_CLASS);
 
-        var nameAttr = attr[$fog$42] ? $fog$42 : (isNgForm && attr[$fog$1269] ? $fog$1269 : $fog$38);
+        var nameAttr = attr[$fog$1545] ? $fog$1545 : (isNgForm && attr[$fog$318] ? $fog$318 : $fog$1549);
 
         return {
           pre: function ngFormPreLink(scope, formElement, attr, controller) {
             // if `action` attr is not present on the form, prevent the default action (submission)
-            if (!($fog$639 in attr)) {
+            if (!($fog$948 in attr)) {
               // we can't use jq events because if a form is destroyed during submission the default
               // action is not prevented. see #1238
               //
@@ -20374,40 +20390,40 @@ var formDirectiveFactory = function(isNgForm) {
               // page reload if the form was destroyed by submission of the form via a click handler
               // on a button in the form. Looks like an IE9 specific bug.
               var handleFormSubmission = function(event) {
-                scope[$fog$171](function() {
-                  controller[$fog$1277]();
-                  controller[$fog$1284]();
+                scope[$fog$1416](function() {
+                  controller[$fog$310]();
+                  controller[$fog$303]();
                 });
 
-                event[$fog$828]();
+                event[$fog$759]();
               };
 
-              addEventListenerFn(formElement[$fog$1], $fog$1286, handleFormSubmission);
+              addEventListenerFn(formElement[$fog$1586], $fog$301, handleFormSubmission);
 
               // unregister the preventDefault listener so that we don't not leak memory but in a
               // way that will achieve the prevention of the default action.
-              formElement[$fog$186]($fog$195, function() {
+              formElement[$fog$1401]($fog$1392, function() {
                 $timeout(function() {
-                  removeEventListenerFn(formElement[$fog$1], $fog$1286, handleFormSubmission);
-                }, $fog$1, $fog$38);
+                  removeEventListenerFn(formElement[$fog$1586], $fog$301, handleFormSubmission);
+                }, $fog$1586, $fog$1549);
               });
             }
 
-            var parentFormCtrl = controller[$fog$1265];
-            var setter = nameAttr ? getSetter(controller[$fog$1262]) : noop;
+            var parentFormCtrl = controller[$fog$322];
+            var setter = nameAttr ? getSetter(controller[$fog$325]) : noop;
 
             if (nameAttr) {
               setter(scope, controller);
-              attr[$fog$655](nameAttr, function(newValue) {
-                if (controller[$fog$1262] === newValue) return;
+              attr[$fog$932](nameAttr, function(newValue) {
+                if (controller[$fog$325] === newValue) return;
                 setter(scope, undefined);
-                parentFormCtrl[$fog$1278](controller, newValue);
-                setter = getSetter(controller[$fog$1262]);
+                parentFormCtrl[$fog$309](controller, newValue);
+                setter = getSetter(controller[$fog$325]);
                 setter(scope, controller);
               });
             }
-            formElement[$fog$186]($fog$195, function() {
-              parentFormCtrl[$fog$1279](controller);
+            formElement[$fog$1401]($fog$1392, function() {
+              parentFormCtrl[$fog$308](controller);
               setter(scope, undefined);
               extend(controller, nullFormCtrl); //stop propagating child destruction handlers upwards
             });
@@ -20419,17 +20435,17 @@ var formDirectiveFactory = function(isNgForm) {
     return formDirective;
 
     function getSetter(expression) {
-      if (expression === $fog$4) {
+      if (expression === $fog$1583) {
         //create an assignable expression, so forms with an empty name can be renamed later
-        return $parse($fog$1287)[$fog$657];
+        return $parse($fog$300)[$fog$930];
       }
-      return $parse(expression)[$fog$657] || noop;
+      return $parse(expression)[$fog$930] || noop;
     }
   }];
 };
 
 var formDirective = formDirectiveFactory();
-var ngFormDirective = formDirectiveFactory($fog$40);
+var ngFormDirective = formDirectiveFactory($fog$1547);
 
 /* global VALID_CLASS: false,
   INVALID_CLASS: false,
@@ -20441,15 +20457,15 @@ var ngFormDirective = formDirectiveFactory($fog$40);
 */
 
 // Regex code is obtained from SO: https://stackoverflow.com/questions/3143070/javascript-regex-iso-datetime#answer-3143231
-var ISO_DATE_REGEXP = $fog$1288;
-var URL_REGEXP = $fog$1289;
-var EMAIL_REGEXP = $fog$1290;
-var NUMBER_REGEXP = $fog$1291;
-var DATE_REGEXP = $fog$1292;
-var DATETIMELOCAL_REGEXP = $fog$1293;
-var WEEK_REGEXP = $fog$1294;
-var MONTH_REGEXP = $fog$1295;
-var TIME_REGEXP = $fog$1296;
+var ISO_DATE_REGEXP = $fog$299;
+var URL_REGEXP = $fog$298;
+var EMAIL_REGEXP = $fog$297;
+var NUMBER_REGEXP = $fog$296;
+var DATE_REGEXP = $fog$295;
+var DATETIMELOCAL_REGEXP = $fog$294;
+var WEEK_REGEXP = $fog$293;
+var MONTH_REGEXP = $fog$292;
+var TIME_REGEXP = $fog$291;
 
 var inputType = {
 
@@ -20642,9 +20658,9 @@ var inputType = {
      </file>
      </example>
      */
-  'date': createDateInputType($fog$1191, DATE_REGEXP,
-         createDateParser(DATE_REGEXP, [$fog$1297, $fog$1298, $fog$1299]),
-         $fog$1300),
+  'date': createDateInputType($fog$396, DATE_REGEXP,
+         createDateParser(DATE_REGEXP, [$fog$290, $fog$289, $fog$288]),
+         $fog$287),
 
    /**
     * @ngdoc input
@@ -20737,9 +20753,9 @@ var inputType = {
     </file>
     </example>
     */
-  'datetime-local': createDateInputType($fog$1301, DATETIMELOCAL_REGEXP,
-      createDateParser(DATETIMELOCAL_REGEXP, [$fog$1297, $fog$1298, $fog$1299, $fog$1302, $fog$1303, $fog$1304, $fog$1305]),
-      $fog$1306),
+  'datetime-local': createDateInputType($fog$286, DATETIMELOCAL_REGEXP,
+      createDateParser(DATETIMELOCAL_REGEXP, [$fog$290, $fog$289, $fog$288, $fog$285, $fog$284, $fog$283, $fog$282]),
+      $fog$281),
 
   /**
    * @ngdoc input
@@ -20833,9 +20849,9 @@ var inputType = {
    </file>
    </example>
    */
-  'time': createDateInputType($fog$1307, TIME_REGEXP,
-      createDateParser(TIME_REGEXP, [$fog$1302, $fog$1303, $fog$1304, $fog$1305]),
-     $fog$1308),
+  'time': createDateInputType($fog$280, TIME_REGEXP,
+      createDateParser(TIME_REGEXP, [$fog$285, $fog$284, $fog$283, $fog$282]),
+     $fog$279),
 
    /**
     * @ngdoc input
@@ -20930,7 +20946,7 @@ var inputType = {
     </file>
     </example>
     */
-  'week': createDateInputType($fog$1309, WEEK_REGEXP, weekParser, $fog$1310),
+  'week': createDateInputType($fog$278, WEEK_REGEXP, weekParser, $fog$277),
 
   /**
    * @ngdoc input
@@ -21025,9 +21041,9 @@ var inputType = {
    </file>
    </example>
    */
-  'month': createDateInputType($fog$1311, MONTH_REGEXP,
-     createDateParser(MONTH_REGEXP, [$fog$1297, $fog$1298]),
-     $fog$1312),
+  'month': createDateInputType($fog$276, MONTH_REGEXP,
+     createDateParser(MONTH_REGEXP, [$fog$290, $fog$289]),
+     $fog$275),
 
   /**
    * @ngdoc input
@@ -21467,8 +21483,8 @@ var inputType = {
 };
 
 function stringBasedInputType(ctrl) {
-  ctrl[$fog$1313][$fog$31](function(value) {
-    return ctrl[$fog$1314](value) ? value : value[$fog$32]();
+  ctrl[$fog$274][$fog$1556](function(value) {
+    return ctrl[$fog$273](value) ? value : value[$fog$1555]();
   });
 }
 
@@ -21478,91 +21494,91 @@ function textInputType(scope, element, attr, ctrl, $sniffer, $browser) {
 }
 
 function baseInputType(scope, element, attr, ctrl, $sniffer, $browser) {
-  var type = lowercase(element[$fog$1][$fog$329]);
+  var type = lowercase(element[$fog$1586][$fog$1258]);
 
   // In composition mode, users are still inputing intermediate text buffer,
   // hold the listener until composition is done.
   // More about composition events: https://developer.mozilla.org/en-US/docs/Web/API/CompositionEvent
-  if (!$sniffer[$fog$1315]) {
-    var composing = $fog$38;
+  if (!$sniffer[$fog$272]) {
+    var composing = $fog$1549;
 
-    element[$fog$186]($fog$1316, function(data) {
-      composing = $fog$40;
+    element[$fog$1401]($fog$271, function(data) {
+      composing = $fog$1547;
     });
 
-    element[$fog$186]($fog$1317, function() {
-      composing = $fog$38;
+    element[$fog$1401]($fog$270, function() {
+      composing = $fog$1549;
       listener();
     });
   }
 
   var listener = function(ev) {
     if (timeout) {
-      $browser[$fog$447][$fog$480](timeout);
-      timeout = $fog$37;
+      $browser[$fog$1140][$fog$1107](timeout);
+      timeout = $fog$1550;
     }
     if (composing) return;
-    var value = element[$fog$1318](),
-        event = ev && ev[$fog$329];
+    var value = element[$fog$269](),
+        event = ev && ev[$fog$1258];
 
     // By default we will trim the value
     // If the attribute ng-trim exists we will avoid trimming
     // If input type is 'password', the value is never trimmed
-    if (type !== $fog$1319 && (!attr[$fog$1320] || attr[$fog$1320] !== $fog$1056)) {
+    if (type !== $fog$268 && (!attr[$fog$267] || attr[$fog$267] !== $fog$531)) {
       value = trim(value);
     }
 
     // If a control is suffering from bad input (due to native validators), browsers discard its
     // value, so it may be necessary to revalidate (by calling $setViewValue again) even if the
     // control's value is the same empty value twice in a row.
-    if (ctrl[$fog$1321] !== value || (value === $fog$4 && ctrl[$fog$1322])) {
-      ctrl[$fog$1323](value, event);
+    if (ctrl[$fog$266] !== value || (value === $fog$1583 && ctrl[$fog$265])) {
+      ctrl[$fog$264](value, event);
     }
   };
 
   // if the browser does support "input" event, we are fine - except on IE9 which doesn't fire the
   // input event on backspace, delete or cut
-  if ($sniffer[$fog$1324]($fog$1059)) {
-    element[$fog$186]($fog$1059, listener);
+  if ($sniffer[$fog$263]($fog$528)) {
+    element[$fog$1401]($fog$528, listener);
   } else {
     var timeout;
 
     var deferListener = function(ev, input, origValue) {
       if (!timeout) {
-        timeout = $browser[$fog$447](function() {
-          timeout = $fog$37;
-          if (!input || input[$fog$163] !== origValue) {
+        timeout = $browser[$fog$1140](function() {
+          timeout = $fog$1550;
+          if (!input || input[$fog$1424] !== origValue) {
             listener(ev);
           }
         });
       }
     };
 
-    element[$fog$186]($fog$1325, function(event) {
-      var key = event[$fog$1326];
+    element[$fog$1401]($fog$262, function(event) {
+      var key = event[$fog$261];
 
       // ignore
       //    command            modifiers                   arrows
-      if (key === $fog$1327 || ($fog$1328 < key && key < $fog$1329) || ($fog$1330 <= key && key <= $fog$1331)) return;
+      if (key === $fog$260 || ($fog$259 < key && key < $fog$258) || ($fog$257 <= key && key <= $fog$256)) return;
 
-      deferListener(event, this, this[$fog$163]);
+      deferListener(event, this, this[$fog$1424]);
     });
 
     // if user modifies input value using context menu in IE, we need "paste" and "cut" events to catch it
-    if ($sniffer[$fog$1324]($fog$1332)) {
-      element[$fog$186]($fog$1333, deferListener);
+    if ($sniffer[$fog$263]($fog$255)) {
+      element[$fog$1401]($fog$254, deferListener);
     }
   }
 
   // if user paste into input using mouse on older browser
   // or form autocomplete on newer browser, we need "change" event to catch it
-  element[$fog$186]($fog$1334, listener);
+  element[$fog$1401]($fog$253, listener);
 
-  ctrl[$fog$1335] = function() {
+  ctrl[$fog$252] = function() {
     // Workaround for Firefox validation #12102.
-    var value = ctrl[$fog$1314](ctrl[$fog$1321]) ? $fog$4 : ctrl[$fog$1321];
-    if (element[$fog$1318]() !== value) {
-      element[$fog$1318](value);
+    var value = ctrl[$fog$273](ctrl[$fog$266]) ? $fog$1583 : ctrl[$fog$266];
+    if (element[$fog$269]() !== value) {
+      element[$fog$269](value);
     }
   };
 }
@@ -21573,26 +21589,26 @@ function weekParser(isoWeek, existingDate) {
   }
 
   if (isString(isoWeek)) {
-    WEEK_REGEXP[$fog$90] = $fog$1;
-    var parts = WEEK_REGEXP[$fog$272](isoWeek);
+    WEEK_REGEXP[$fog$1497] = $fog$1586;
+    var parts = WEEK_REGEXP[$fog$1315](isoWeek);
     if (parts) {
-      var year = +parts[$fog$6],
-          week = +parts[$fog$0],
-          hours = $fog$1,
-          minutes = $fog$1,
-          seconds = $fog$1,
-          milliseconds = $fog$1,
+      var year = +parts[$fog$1581],
+          week = +parts[$fog$1587],
+          hours = $fog$1586,
+          minutes = $fog$1586,
+          seconds = $fog$1586,
+          milliseconds = $fog$1586,
           firstThurs = getFirstThursdayOfYear(year),
-          addDays = (week - $fog$6) * $fog$1247;
+          addDays = (week - $fog$1581) * $fog$340;
 
       if (existingDate) {
-        hours = existingDate[$fog$1227]();
-        minutes = existingDate[$fog$118]();
-        seconds = existingDate[$fog$1336]();
-        milliseconds = existingDate[$fog$1337]();
+        hours = existingDate[$fog$360]();
+        minutes = existingDate[$fog$1469]();
+        seconds = existingDate[$fog$251]();
+        milliseconds = existingDate[$fog$250]();
       }
 
-      return new Date(year, $fog$1, firstThurs[$fog$1225]() + addDays, hours, minutes, seconds, milliseconds);
+      return new Date(year, $fog$1586, firstThurs[$fog$362]() + addDays, hours, minutes, seconds, milliseconds);
     }
   }
 
@@ -21611,37 +21627,37 @@ function createDateParser(regexp, mapping) {
       // When a date is JSON'ified to wraps itself inside of an extra
       // set of double quotes. This makes the date parsing code unable
       // to match the date string and parse it as a date.
-      if (iso[$fog$93]($fog$1) == $fog$867 && iso[$fog$93](iso[$fog$10] - $fog$6) == $fog$867) {
-        iso = iso[$fog$130]($fog$6, iso[$fog$10] - $fog$6);
+      if (iso[$fog$1494]($fog$1586) == $fog$720 && iso[$fog$1494](iso[$fog$1577] - $fog$1581) == $fog$720) {
+        iso = iso[$fog$1457]($fog$1581, iso[$fog$1577] - $fog$1581);
       }
-      if (ISO_DATE_REGEXP[$fog$68](iso)) {
+      if (ISO_DATE_REGEXP[$fog$1519](iso)) {
         return new Date(iso);
       }
-      regexp[$fog$90] = $fog$1;
-      parts = regexp[$fog$272](iso);
+      regexp[$fog$1497] = $fog$1586;
+      parts = regexp[$fog$1315](iso);
 
       if (parts) {
-        parts[$fog$385]();
+        parts[$fog$1202]();
         if (date) {
           map = {
-            yyyy: date[$fog$1223](),
-            MM: date[$fog$1224]() + $fog$6,
-            dd: date[$fog$1225](),
-            HH: date[$fog$1227](),
-            mm: date[$fog$118](),
-            ss: date[$fog$1336](),
-            sss: date[$fog$1337]() / $fog$1248
+            yyyy: date[$fog$364](),
+            MM: date[$fog$363]() + $fog$1581,
+            dd: date[$fog$362](),
+            HH: date[$fog$360](),
+            mm: date[$fog$1469](),
+            ss: date[$fog$251](),
+            sss: date[$fog$250]() / $fog$339
           };
         } else {
-          map = { yyyy: $fog$1338, MM: $fog$6, dd: $fog$6, HH: $fog$1, mm: $fog$1, ss: $fog$1, sss: $fog$1 };
+          map = { yyyy: $fog$249, MM: $fog$1581, dd: $fog$1581, HH: $fog$1586, mm: $fog$1586, ss: $fog$1586, sss: $fog$1586 };
         }
 
         forEach(parts, function(part, index) {
-          if (index < mapping[$fog$10]) {
+          if (index < mapping[$fog$1577]) {
             map[mapping[index]] = +part;
           }
         });
-        return new Date(map[$fog$1297], map[$fog$1298] - $fog$6, map[$fog$1299], map[$fog$1302], map[$fog$1303], map[$fog$1304] || $fog$1, map[$fog$1305] * $fog$1248 || $fog$1);
+        return new Date(map[$fog$290], map[$fog$289] - $fog$1581, map[$fog$288], map[$fog$285], map[$fog$284], map[$fog$283] || $fog$1586, map[$fog$282] * $fog$339 || $fog$1586);
       }
     }
 
@@ -21653,13 +21669,13 @@ function createDateInputType(type, regexp, parseDate, format) {
   return function dynamicDateInputType(scope, element, attr, ctrl, $sniffer, $browser, $filter) {
     badInputChecker(scope, element, attr, ctrl);
     baseInputType(scope, element, attr, ctrl, $sniffer, $browser);
-    var timezone = ctrl && ctrl[$fog$1339] && ctrl[$fog$1339][$fog$1340];
+    var timezone = ctrl && ctrl[$fog$248] && ctrl[$fog$248][$fog$247];
     var previousDate;
 
-    ctrl[$fog$1341] = type;
-    ctrl[$fog$1342][$fog$31](function(value) {
-      if (ctrl[$fog$1314](value)) return $fog$37;
-      if (regexp[$fog$68](value)) {
+    ctrl[$fog$246] = type;
+    ctrl[$fog$245][$fog$1556](function(value) {
+      if (ctrl[$fog$273](value)) return $fog$1550;
+      if (regexp[$fog$1519](value)) {
         // Note: We cannot read ctrl.$modelValue, as there might be a different
         // parser/formatter in the processing chain so that the model
         // contains some different data format!
@@ -21672,47 +21688,47 @@ function createDateInputType(type, regexp, parseDate, format) {
       return undefined;
     });
 
-    ctrl[$fog$1313][$fog$31](function(value) {
+    ctrl[$fog$274][$fog$1556](function(value) {
       if (value && !isDate(value)) {
-        throw ngModelMinErr($fog$1343, $fog$1344, value);
+        throw ngModelMinErr($fog$244, $fog$243, value);
       }
       if (isValidDate(value)) {
         previousDate = value;
         if (previousDate && timezone) {
-          previousDate = convertTimezoneToLocal(previousDate, timezone, $fog$40);
+          previousDate = convertTimezoneToLocal(previousDate, timezone, $fog$1547);
         }
-        return $filter($fog$1191)(value, format, timezone);
+        return $filter($fog$396)(value, format, timezone);
       } else {
-        previousDate = $fog$37;
-        return $fog$4;
+        previousDate = $fog$1550;
+        return $fog$1583;
       }
     });
 
-    if (isDefined(attr[$fog$308]) || attr[$fog$1345]) {
+    if (isDefined(attr[$fog$1279]) || attr[$fog$242]) {
       var minVal;
-      ctrl[$fog$1346][$fog$308] = function(value) {
+      ctrl[$fog$241][$fog$1279] = function(value) {
         return !isValidDate(value) || isUndefined(minVal) || parseDate(value) >= minVal;
       };
-      attr[$fog$655]($fog$308, function(val) {
+      attr[$fog$932]($fog$1279, function(val) {
         minVal = parseObservedDateValue(val);
-        ctrl[$fog$1347]();
+        ctrl[$fog$240]();
       });
     }
 
-    if (isDefined(attr[$fog$309]) || attr[$fog$1348]) {
+    if (isDefined(attr[$fog$1278]) || attr[$fog$239]) {
       var maxVal;
-      ctrl[$fog$1346][$fog$309] = function(value) {
+      ctrl[$fog$241][$fog$1278] = function(value) {
         return !isValidDate(value) || isUndefined(maxVal) || parseDate(value) <= maxVal;
       };
-      attr[$fog$655]($fog$309, function(val) {
+      attr[$fog$932]($fog$1278, function(val) {
         maxVal = parseObservedDateValue(val);
-        ctrl[$fog$1347]();
+        ctrl[$fog$240]();
       });
     }
 
     function isValidDate(value) {
       // Invalid Date: getTime() returns NaN
-      return value && !(value[$fog$86] && value[$fog$86]() !== value[$fog$86]());
+      return value && !(value[$fog$1501] && value[$fog$1501]() !== value[$fog$1501]());
     }
 
     function parseObservedDateValue(val) {
@@ -21722,16 +21738,16 @@ function createDateInputType(type, regexp, parseDate, format) {
 }
 
 function badInputChecker(scope, element, attr, ctrl) {
-  var node = element[$fog$1];
-  var nativeValidation = ctrl[$fog$1322] = isObject(node[$fog$18]);
+  var node = element[$fog$1586];
+  var nativeValidation = ctrl[$fog$265] = isObject(node[$fog$1569]);
   if (nativeValidation) {
-    ctrl[$fog$1342][$fog$31](function(value) {
-      var validity = element[$fog$75](VALIDITY_STATE_PROPERTY) || {};
+    ctrl[$fog$245][$fog$1556](function(value) {
+      var validity = element[$fog$1512](VALIDITY_STATE_PROPERTY) || {};
       // Detect bug in FF35 for input[email] (https://bugzilla.mozilla.org/show_bug.cgi?id=1064430):
       // - also sets validity.badInput (should only be validity.typeMismatch).
       // - see http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#e-mail-state-(type=email)
       // - can ignore this case as we can still read out the erroneous email...
-      return validity[$fog$1349] && !validity[$fog$1350] ? undefined : value;
+      return validity[$fog$238] && !validity[$fog$237] ? undefined : value;
     });
   }
 }
@@ -21740,52 +21756,52 @@ function numberInputType(scope, element, attr, ctrl, $sniffer, $browser) {
   badInputChecker(scope, element, attr, ctrl);
   baseInputType(scope, element, attr, ctrl, $sniffer, $browser);
 
-  ctrl[$fog$1341] = $fog$41;
-  ctrl[$fog$1342][$fog$31](function(value) {
-    if (ctrl[$fog$1314](value))      return $fog$37;
-    if (NUMBER_REGEXP[$fog$68](value)) return parseFloat(value);
+  ctrl[$fog$246] = $fog$1546;
+  ctrl[$fog$245][$fog$1556](function(value) {
+    if (ctrl[$fog$273](value))      return $fog$1550;
+    if (NUMBER_REGEXP[$fog$1519](value)) return parseFloat(value);
     return undefined;
   });
 
-  ctrl[$fog$1313][$fog$31](function(value) {
-    if (!ctrl[$fog$1314](value)) {
+  ctrl[$fog$274][$fog$1556](function(value) {
+    if (!ctrl[$fog$273](value)) {
       if (!isNumber(value)) {
-        throw ngModelMinErr($fog$1351, $fog$1352, value);
+        throw ngModelMinErr($fog$236, $fog$235, value);
       }
-      value = value[$fog$32]();
+      value = value[$fog$1555]();
     }
     return value;
   });
 
-  if (isDefined(attr[$fog$308]) || attr[$fog$1345]) {
+  if (isDefined(attr[$fog$1279]) || attr[$fog$242]) {
     var minVal;
-    ctrl[$fog$1346][$fog$308] = function(value) {
-      return ctrl[$fog$1314](value) || isUndefined(minVal) || value >= minVal;
+    ctrl[$fog$241][$fog$1279] = function(value) {
+      return ctrl[$fog$273](value) || isUndefined(minVal) || value >= minVal;
     };
 
-    attr[$fog$655]($fog$308, function(val) {
+    attr[$fog$932]($fog$1279, function(val) {
       if (isDefined(val) && !isNumber(val)) {
-        val = parseFloat(val, $fog$51);
+        val = parseFloat(val, $fog$1536);
       }
       minVal = isNumber(val) && !isNaN(val) ? val : undefined;
       // TODO(matsko): implement validateLater to reduce number of validations
-      ctrl[$fog$1347]();
+      ctrl[$fog$240]();
     });
   }
 
-  if (isDefined(attr[$fog$309]) || attr[$fog$1348]) {
+  if (isDefined(attr[$fog$1278]) || attr[$fog$239]) {
     var maxVal;
-    ctrl[$fog$1346][$fog$309] = function(value) {
-      return ctrl[$fog$1314](value) || isUndefined(maxVal) || value <= maxVal;
+    ctrl[$fog$241][$fog$1278] = function(value) {
+      return ctrl[$fog$273](value) || isUndefined(maxVal) || value <= maxVal;
     };
 
-    attr[$fog$655]($fog$309, function(val) {
+    attr[$fog$932]($fog$1278, function(val) {
       if (isDefined(val) && !isNumber(val)) {
-        val = parseFloat(val, $fog$51);
+        val = parseFloat(val, $fog$1536);
       }
       maxVal = isNumber(val) && !isNaN(val) ? val : undefined;
       // TODO(matsko): implement validateLater to reduce number of validations
-      ctrl[$fog$1347]();
+      ctrl[$fog$240]();
     });
   }
 }
@@ -21796,10 +21812,10 @@ function urlInputType(scope, element, attr, ctrl, $sniffer, $browser) {
   baseInputType(scope, element, attr, ctrl, $sniffer, $browser);
   stringBasedInputType(ctrl);
 
-  ctrl[$fog$1341] = $fog$466;
-  ctrl[$fog$1346][$fog$466] = function(modelValue, viewValue) {
+  ctrl[$fog$246] = $fog$1121;
+  ctrl[$fog$241][$fog$1121] = function(modelValue, viewValue) {
     var value = modelValue || viewValue;
-    return ctrl[$fog$1314](value) || URL_REGEXP[$fog$68](value);
+    return ctrl[$fog$273](value) || URL_REGEXP[$fog$1519](value);
   };
 }
 
@@ -21809,42 +21825,42 @@ function emailInputType(scope, element, attr, ctrl, $sniffer, $browser) {
   baseInputType(scope, element, attr, ctrl, $sniffer, $browser);
   stringBasedInputType(ctrl);
 
-  ctrl[$fog$1341] = $fog$1353;
-  ctrl[$fog$1346][$fog$1353] = function(modelValue, viewValue) {
+  ctrl[$fog$246] = $fog$234;
+  ctrl[$fog$241][$fog$234] = function(modelValue, viewValue) {
     var value = modelValue || viewValue;
-    return ctrl[$fog$1314](value) || EMAIL_REGEXP[$fog$68](value);
+    return ctrl[$fog$273](value) || EMAIL_REGEXP[$fog$1519](value);
   };
 }
 
 function radioInputType(scope, element, attr, ctrl) {
   // make the name unique, if not defined
-  if (isUndefined(attr[$fog$42])) {
-    element[$fog$76]($fog$42, nextUid());
+  if (isUndefined(attr[$fog$1545])) {
+    element[$fog$1511]($fog$1545, nextUid());
   }
 
   var listener = function(ev) {
-    if (element[$fog$1][$fog$1257]) {
-      ctrl[$fog$1323](attr[$fog$163], ev && ev[$fog$329]);
+    if (element[$fog$1586][$fog$330]) {
+      ctrl[$fog$264](attr[$fog$1424], ev && ev[$fog$1258]);
     }
   };
 
-  element[$fog$186]($fog$819, listener);
+  element[$fog$1401]($fog$768, listener);
 
-  ctrl[$fog$1335] = function() {
-    var value = attr[$fog$163];
-    element[$fog$1][$fog$1257] = (value == ctrl[$fog$1321]);
+  ctrl[$fog$252] = function() {
+    var value = attr[$fog$1424];
+    element[$fog$1586][$fog$330] = (value == ctrl[$fog$266]);
   };
 
-  attr[$fog$655]($fog$163, ctrl[$fog$1335]);
+  attr[$fog$932]($fog$1424, ctrl[$fog$252]);
 }
 
 function parseConstantExpr($parse, context, name, expression, fallback) {
   var parseFn;
   if (isDefined(expression)) {
     parseFn = $parse(expression);
-    if (!parseFn[$fog$219]) {
-      throw ngModelMinErr($fog$1354, $fog$1355 +
-                                   $fog$1356, name, expression);
+    if (!parseFn[$fog$1368]) {
+      throw ngModelMinErr($fog$233, $fog$232 +
+                                   $fog$231, name, expression);
     }
     return parseFn(context);
   }
@@ -21852,31 +21868,31 @@ function parseConstantExpr($parse, context, name, expression, fallback) {
 }
 
 function checkboxInputType(scope, element, attr, ctrl, $sniffer, $browser, $filter, $parse) {
-  var trueValue = parseConstantExpr($parse, scope, $fog$1357, attr[$fog$1357], $fog$40);
-  var falseValue = parseConstantExpr($parse, scope, $fog$1358, attr[$fog$1358], $fog$38);
+  var trueValue = parseConstantExpr($parse, scope, $fog$230, attr[$fog$230], $fog$1547);
+  var falseValue = parseConstantExpr($parse, scope, $fog$229, attr[$fog$229], $fog$1549);
 
   var listener = function(ev) {
-    ctrl[$fog$1323](element[$fog$1][$fog$1257], ev && ev[$fog$329]);
+    ctrl[$fog$264](element[$fog$1586][$fog$330], ev && ev[$fog$1258]);
   };
 
-  element[$fog$186]($fog$819, listener);
+  element[$fog$1401]($fog$768, listener);
 
-  ctrl[$fog$1335] = function() {
-    element[$fog$1][$fog$1257] = ctrl[$fog$1321];
+  ctrl[$fog$252] = function() {
+    element[$fog$1586][$fog$330] = ctrl[$fog$266];
   };
 
   // Override the standard `$isEmpty` because the $viewValue of an empty checkbox is always set to `false`
   // This is because of the parser below, which compares the `$modelValue` with `trueValue` to convert
   // it to a boolean.
-  ctrl[$fog$1314] = function(value) {
-    return value === $fog$38;
+  ctrl[$fog$273] = function(value) {
+    return value === $fog$1549;
   };
 
-  ctrl[$fog$1313][$fog$31](function(value) {
+  ctrl[$fog$274][$fog$1556](function(value) {
     return equals(value, trueValue);
   });
 
-  ctrl[$fog$1342][$fog$31](function(value) {
+  ctrl[$fog$245][$fog$1556](function(value) {
     return value ? trueValue : falseValue;
   });
 }
@@ -22055,15 +22071,15 @@ function checkboxInputType(scope, element, attr, ctrl, $sniffer, $browser, $filt
       </file>
     </example>
  */
-var inputDirective = [$fog$732, $fog$482, $fog$976, $fog$530,
+var inputDirective = [$fog$855, $fog$1105, $fog$611, $fog$1057,
     function($browser, $sniffer, $filter, $parse) {
   return {
-    restrict: $fog$583,
-    require: [$fog$1359],
+    restrict: $fog$1004,
+    require: [$fog$228],
     link: {
       pre: function(scope, element, attr, ctrls) {
-        if (ctrls[$fog$1]) {
-          (inputType[lowercase(attr[$fog$329])] || inputType[$fog$326])(scope, element, attr, ctrls[$fog$1], $sniffer,
+        if (ctrls[$fog$1586]) {
+          (inputType[lowercase(attr[$fog$1258])] || inputType[$fog$1261])(scope, element, attr, ctrls[$fog$1586], $sniffer,
                                                               $browser, $filter, $parse);
         }
       }
@@ -22073,7 +22089,7 @@ var inputDirective = [$fog$732, $fog$482, $fog$976, $fog$530,
 
 
 
-var CONSTANT_VALUE_REGEXP = $fog$1360;
+var CONSTANT_VALUE_REGEXP = $fog$227;
 /**
  * @ngdoc directive
  * @name ngValue
@@ -22133,17 +22149,17 @@ var CONSTANT_VALUE_REGEXP = $fog$1360;
  */
 var ngValueDirective = function() {
   return {
-    restrict: $fog$589,
-    priority: $fog$644,
+    restrict: $fog$998,
+    priority: $fog$943,
     compile: function(tpl, tplAttr) {
-      if (CONSTANT_VALUE_REGEXP[$fog$68](tplAttr[$fog$1361])) {
+      if (CONSTANT_VALUE_REGEXP[$fog$1519](tplAttr[$fog$226])) {
         return function ngValueConstantLink(scope, elm, attr) {
-          attr[$fog$626]($fog$163, scope[$fog$1096](attr[$fog$1361]));
+          attr[$fog$961]($fog$1424, scope[$fog$491](attr[$fog$226]));
         };
       } else {
         return function ngValueLink(scope, elm, attr) {
-          scope[$fog$61](attr[$fog$1361], function valueWatchAction(value) {
-            attr[$fog$626]($fog$163, value);
+          scope[$fog$1526](attr[$fog$226], function valueWatchAction(value) {
+            attr[$fog$961]($fog$1424, value);
           });
         };
       }
@@ -22202,16 +22218,16 @@ var ngValueDirective = function() {
      </file>
    </example>
  */
-var ngBindDirective = [$fog$169, function($compile) {
+var ngBindDirective = [$fog$1418, function($compile) {
   return {
-    restrict: $fog$1256,
+    restrict: $fog$331,
     compile: function ngBindCompile(templateElement) {
-      $compile[$fog$556](templateElement);
+      $compile[$fog$1031](templateElement);
       return function ngBindLink(scope, element, attr) {
-        $compile[$fog$554](element, attr[$fog$1362]);
-        element = element[$fog$1];
-        scope[$fog$61](attr[$fog$1362], function ngBindWatchAction(value) {
-          element[$fog$279] = value === undefined ? $fog$4 : value;
+        $compile[$fog$1033](element, attr[$fog$225]);
+        element = element[$fog$1586];
+        scope[$fog$1526](attr[$fog$225], function ngBindWatchAction(value) {
+          element[$fog$1308] = value === undefined ? $fog$1583 : value;
         });
       };
     }
@@ -22270,16 +22286,16 @@ var ngBindDirective = [$fog$169, function($compile) {
      </file>
    </example>
  */
-var ngBindTemplateDirective = [$fog$528, $fog$169, function($interpolate, $compile) {
+var ngBindTemplateDirective = [$fog$1059, $fog$1418, function($interpolate, $compile) {
   return {
     compile: function ngBindTemplateCompile(templateElement) {
-      $compile[$fog$556](templateElement);
+      $compile[$fog$1031](templateElement);
       return function ngBindTemplateLink(scope, element, attr) {
-        var interpolateFn = $interpolate(element[$fog$76](attr[$fog$534][$fog$1363]));
-        $compile[$fog$554](element, interpolateFn[$fog$631]);
-        element = element[$fog$1];
-        attr[$fog$655]($fog$1363, function(value) {
-          element[$fog$279] = value === undefined ? $fog$4 : value;
+        var interpolateFn = $interpolate(element[$fog$1511](attr[$fog$1053][$fog$224]));
+        $compile[$fog$1033](element, interpolateFn[$fog$956]);
+        element = element[$fog$1586];
+        attr[$fog$932]($fog$224, function(value) {
+          element[$fog$1308] = value === undefined ? $fog$1583 : value;
         });
       };
     }
@@ -22334,23 +22350,23 @@ var ngBindTemplateDirective = [$fog$528, $fog$169, function($interpolate, $compi
      </file>
    </example>
  */
-var ngBindHtmlDirective = [$fog$532, $fog$530, $fog$169, function($sce, $parse, $compile) {
+var ngBindHtmlDirective = [$fog$1055, $fog$1057, $fog$1418, function($sce, $parse, $compile) {
   return {
-    restrict: $fog$589,
+    restrict: $fog$998,
     compile: function ngBindHtmlCompile(tElement, tAttrs) {
-      var ngBindHtmlGetter = $parse(tAttrs[$fog$1364]);
-      var ngBindHtmlWatch = $parse(tAttrs[$fog$1364], function getStringValue(value) {
-        return (value || $fog$4)[$fog$32]();
+      var ngBindHtmlGetter = $parse(tAttrs[$fog$223]);
+      var ngBindHtmlWatch = $parse(tAttrs[$fog$223], function getStringValue(value) {
+        return (value || $fog$1583)[$fog$1555]();
       });
-      $compile[$fog$556](tElement);
+      $compile[$fog$1031](tElement);
 
       return function ngBindHtmlLink(scope, element, attr) {
-        $compile[$fog$554](element, attr[$fog$1364]);
+        $compile[$fog$1033](element, attr[$fog$223]);
 
-        scope[$fog$61](ngBindHtmlWatch, function ngBindHtmlWatchAction() {
+        scope[$fog$1526](ngBindHtmlWatch, function ngBindHtmlWatchAction() {
           // we re-evaluate the expr because we want a TrustedValueHolderType
           // for $sce, not a string
-          element[$fog$122]($sce[$fog$1365](ngBindHtmlGetter(scope)) || $fog$4);
+          element[$fog$1465]($sce[$fog$222](ngBindHtmlGetter(scope)) || $fog$1583);
         });
       };
     }
@@ -22425,36 +22441,36 @@ var ngBindHtmlDirective = [$fog$532, $fog$530, $fog$169, function($sce, $parse, 
  * </example>
  */
 var ngChangeDirective = valueFn({
-  restrict: $fog$589,
-  require: $fog$1258,
+  restrict: $fog$998,
+  require: $fog$329,
   link: function(scope, element, attr, ctrl) {
-    ctrl[$fog$1366][$fog$31](function() {
-      scope[$fog$1096](attr[$fog$1367]);
+    ctrl[$fog$221][$fog$1556](function() {
+      scope[$fog$491](attr[$fog$220]);
     });
   }
 });
 
 function classDirective(name, selector) {
-  name = $fog$1368 + name;
-  return [$fog$407, function($animate) {
+  name = $fog$219 + name;
+  return [$fog$1180, function($animate) {
     return {
-      restrict: $fog$1256,
+      restrict: $fog$331,
       link: function(scope, element, attr) {
         var oldVal;
 
-        scope[$fog$61](attr[name], ngClassWatchAction, $fog$40);
+        scope[$fog$1526](attr[name], ngClassWatchAction, $fog$1547);
 
-        attr[$fog$655]($fog$289, function(value) {
-          ngClassWatchAction(scope[$fog$1096](attr[name]));
+        attr[$fog$932]($fog$1298, function(value) {
+          ngClassWatchAction(scope[$fog$491](attr[name]));
         });
 
 
-        if (name !== $fog$1368) {
-          scope[$fog$61]($fog$1369, function($index, old$index) {
+        if (name !== $fog$219) {
+          scope[$fog$1526]($fog$218, function($index, old$index) {
             // jshint bitwise: false
-            var mod = $index & $fog$6;
-            if (mod !== (old$index & $fog$6)) {
-              var classes = arrayClasses(scope[$fog$1096](attr[name]));
+            var mod = $index & $fog$1581;
+            if (mod !== (old$index & $fog$1581)) {
+              var classes = arrayClasses(scope[$fog$491](attr[name]));
               mod === selector ?
                 addClasses(classes) :
                 removeClasses(classes);
@@ -22463,47 +22479,47 @@ function classDirective(name, selector) {
         }
 
         function addClasses(classes) {
-          var newClasses = digestClassCounts(classes, $fog$6);
-          attr[$fog$1370](newClasses);
+          var newClasses = digestClassCounts(classes, $fog$1581);
+          attr[$fog$217](newClasses);
         }
 
         function removeClasses(classes) {
-          var newClasses = digestClassCounts(classes, -$fog$6);
-          attr[$fog$1371](newClasses);
+          var newClasses = digestClassCounts(classes, -$fog$1581);
+          attr[$fog$216](newClasses);
         }
 
         function digestClassCounts(classes, count) {
           // Use createMap() to prevent class assumptions involving property
           // names in Object.prototype
-          var classCounts = element[$fog$172]($fog$1372) || createMap();
+          var classCounts = element[$fog$1415]($fog$215) || createMap();
           var classesToUpdate = [];
           forEach(classes, function(className) {
-            if (count > $fog$1 || classCounts[className]) {
-              classCounts[className] = (classCounts[className] || $fog$1) + count;
-              if (classCounts[className] === +(count > $fog$1)) {
-                classesToUpdate[$fog$31](className);
+            if (count > $fog$1586 || classCounts[className]) {
+              classCounts[className] = (classCounts[className] || $fog$1586) + count;
+              if (classCounts[className] === +(count > $fog$1586)) {
+                classesToUpdate[$fog$1556](className);
               }
             }
           });
-          element[$fog$172]($fog$1372, classCounts);
-          return classesToUpdate[$fog$131]($fog$288);
+          element[$fog$1415]($fog$215, classCounts);
+          return classesToUpdate[$fog$1456]($fog$1299);
         }
 
         function updateClasses(oldClasses, newClasses) {
           var toAdd = arrayDifference(newClasses, oldClasses);
           var toRemove = arrayDifference(oldClasses, newClasses);
-          toAdd = digestClassCounts(toAdd, $fog$6);
-          toRemove = digestClassCounts(toRemove, -$fog$6);
-          if (toAdd && toAdd[$fog$10]) {
-            $animate[$fog$417](element, toAdd);
+          toAdd = digestClassCounts(toAdd, $fog$1581);
+          toRemove = digestClassCounts(toRemove, -$fog$1581);
+          if (toAdd && toAdd[$fog$1577]) {
+            $animate[$fog$1170](element, toAdd);
           }
-          if (toRemove && toRemove[$fog$10]) {
-            $animate[$fog$418](element, toRemove);
+          if (toRemove && toRemove[$fog$1577]) {
+            $animate[$fog$1169](element, toRemove);
           }
         }
 
         function ngClassWatchAction(newVal) {
-          if (selector === $fog$40 || scope[$fog$1369] % $fog$0 === selector) {
+          if (selector === $fog$1547 || scope[$fog$218] % $fog$1587 === selector) {
             var newClasses = arrayClasses(newVal || []);
             if (!oldVal) {
               addClasses(newClasses);
@@ -22521,12 +22537,12 @@ function classDirective(name, selector) {
       var values = [];
 
       outer:
-      for (var i = $fog$1; i < tokens1[$fog$10]; i++) {
+      for (var i = $fog$1586; i < tokens1[$fog$1577]; i++) {
         var token = tokens1[i];
-        for (var j = $fog$1; j < tokens2[$fog$10]; j++) {
+        for (var j = $fog$1586; j < tokens2[$fog$1577]; j++) {
           if (token == tokens2[j]) continue outer;
         }
-        values[$fog$31](token);
+        values[$fog$1556](token);
       }
       return values;
     }
@@ -22535,15 +22551,15 @@ function classDirective(name, selector) {
       var classes = [];
       if (isArray(classVal)) {
         forEach(classVal, function(v) {
-          classes = classes[$fog$108](arrayClasses(v));
+          classes = classes[$fog$1479](arrayClasses(v));
         });
         return classes;
       } else if (isString(classVal)) {
-        return classVal[$fog$78]($fog$288);
+        return classVal[$fog$1509]($fog$1299);
       } else if (isObject(classVal)) {
         forEach(classVal, function(v, k) {
           if (v) {
-            classes = classes[$fog$108](k[$fog$78]($fog$288));
+            classes = classes[$fog$1479](k[$fog$1509]($fog$1299));
           }
         });
         return classes;
@@ -22731,7 +22747,7 @@ function classDirective(name, selector) {
    to view the step by step details of {@link $animate#addClass $animate.addClass} and
    {@link $animate#removeClass $animate.removeClass}.
  */
-var ngClassDirective = classDirective($fog$4, $fog$40);
+var ngClassDirective = classDirective($fog$1583, $fog$1547);
 
 /**
  * @ngdoc directive
@@ -22779,7 +22795,7 @@ var ngClassDirective = classDirective($fog$4, $fog$40);
      </file>
    </example>
  */
-var ngClassOddDirective = classDirective($fog$1373, $fog$1);
+var ngClassOddDirective = classDirective($fog$214, $fog$1586);
 
 /**
  * @ngdoc directive
@@ -22827,7 +22843,7 @@ var ngClassOddDirective = classDirective($fog$1373, $fog$1);
      </file>
    </example>
  */
-var ngClassEvenDirective = classDirective($fog$1374, $fog$6);
+var ngClassEvenDirective = classDirective($fog$213, $fog$1581);
 
 /**
  * @ngdoc directive
@@ -22883,8 +22899,8 @@ var ngClassEvenDirective = classDirective($fog$1374, $fog$6);
  */
 var ngCloakDirective = ngDirective({
   compile: function(element, attr) {
-    attr[$fog$626]($fog$1375, undefined);
-    element[$fog$418]($fog$1376);
+    attr[$fog$961]($fog$212, undefined);
+    element[$fog$1169]($fog$211);
   }
 });
 
@@ -23116,10 +23132,10 @@ var ngCloakDirective = ngDirective({
  */
 var ngControllerDirective = [function() {
   return {
-    restrict: $fog$589,
-    scope: $fog$40,
-    controller: $fog$137,
-    priority: $fog$1377
+    restrict: $fog$998,
+    scope: $fog$1547,
+    controller: $fog$1450,
+    priority: $fog$210
   };
 }];
 
@@ -23368,31 +23384,31 @@ var ngEventDirectives = {};
 // we need to execute their event handlers asynchronously using $evalAsync,
 // so that they are not executed in an inconsistent state.
 var forceAsyncEvents = {
-  'blur': $fog$40,
-  'focus': $fog$40
+  'blur': $fog$1547,
+  'focus': $fog$1547
 };
 forEach(
-  $fog$1378[$fog$78]($fog$288),
+  $fog$209[$fog$1509]($fog$1299),
   function(eventName) {
-    var directiveName = directiveNormalize($fog$144 + eventName);
-    ngEventDirectives[directiveName] = [$fog$530, $fog$168, function($parse, $rootScope) {
+    var directiveName = directiveNormalize($fog$1443 + eventName);
+    ngEventDirectives[directiveName] = [$fog$1057, $fog$1419, function($parse, $rootScope) {
       return {
-        restrict: $fog$589,
+        restrict: $fog$998,
         compile: function($element, attr) {
           // We expose the powerful $event object on the scope that provides access to the Window,
           // etc. that isn't protected by the fast paths in $parse.  We explicitly request better
           // checks at the cost of speed since event handler expressions are not executed as
           // frequently as regular change detection.
-          var fn = $parse(attr[directiveName], /* interceptorFn */ $fog$37, /* expensiveChecks */ $fog$40);
+          var fn = $parse(attr[directiveName], /* interceptorFn */ $fog$1550, /* expensiveChecks */ $fog$1547);
           return function ngEventHandler(scope, element) {
-            element[$fog$186](eventName, function(event) {
+            element[$fog$1401](eventName, function(event) {
               var callback = function() {
                 fn(scope, {$event:event});
               };
-              if (forceAsyncEvents[eventName] && $rootScope[$fog$729]) {
-                scope[$fog$60](callback);
+              if (forceAsyncEvents[eventName] && $rootScope[$fog$858]) {
+                scope[$fog$1527](callback);
               } else {
-                scope[$fog$171](callback);
+                scope[$fog$1416](callback);
               }
             });
           };
@@ -23887,47 +23903,47 @@ forEach(
     </file>
   </example>
  */
-var ngIfDirective = [$fog$407, function($animate) {
+var ngIfDirective = [$fog$1180, function($animate) {
   return {
-    multiElement: $fog$40,
-    transclude: $fog$180,
-    priority: $fog$1379,
-    terminal: $fog$40,
-    restrict: $fog$589,
-    $$tlb: $fog$40,
+    multiElement: $fog$1547,
+    transclude: $fog$1407,
+    priority: $fog$208,
+    terminal: $fog$1547,
+    restrict: $fog$998,
+    $$tlb: $fog$1547,
     link: function($scope, $element, $attr, ctrl, $transclude) {
         var block, childScope, previousElements;
-        $scope[$fog$61]($attr[$fog$1380], function ngIfWatchAction(value) {
+        $scope[$fog$1526]($attr[$fog$207], function ngIfWatchAction(value) {
 
           if (value) {
             if (!childScope) {
               $transclude(function(clone, newScope) {
                 childScope = newScope;
-                clone[clone[$fog$10]++] = document[$fog$609]($fog$1381 + $attr[$fog$1380] + $fog$288);
+                clone[clone[$fog$1577]++] = document[$fog$978]($fog$206 + $attr[$fog$207] + $fog$1299);
                 // Note: We only need the first/last node of the cloned nodes.
                 // However, we need to keep the reference to the jqlite wrapper as it might be changed later
                 // by a directive with templateUrl when its template arrives.
                 block = {
                   clone: clone
                 };
-                $animate[$fog$439](clone, $element[$fog$438](), $element);
+                $animate[$fog$1148](clone, $element[$fog$1149](), $element);
               });
             }
           } else {
             if (previousElements) {
-              previousElements[$fog$420]();
-              previousElements = $fog$37;
+              previousElements[$fog$1167]();
+              previousElements = $fog$1550;
             }
             if (childScope) {
-              childScope[$fog$195]();
-              childScope = $fog$37;
+              childScope[$fog$1392]();
+              childScope = $fog$1550;
             }
             if (block) {
-              previousElements = getBlockNodes(block[$fog$120]);
-              $animate[$fog$441](previousElements)[$fog$66](function() {
-                previousElements = $fog$37;
+              previousElements = getBlockNodes(block[$fog$1467]);
+              $animate[$fog$1146](previousElements)[$fog$1521](function() {
+                previousElements = $fog$1550;
               });
-              block = $fog$37;
+              block = $fog$1550;
             }
           }
         });
@@ -24113,46 +24129,46 @@ var ngIfDirective = [$fog$407, function($animate) {
  * @param {Object} angularEvent Synthetic event object.
  * @param {String} src URL of content to load.
  */
-var ngIncludeDirective = [$fog$529, $fog$1382, $fog$407,
+var ngIncludeDirective = [$fog$1058, $fog$205, $fog$1180,
                   function($templateRequest,   $anchorScroll,   $animate) {
   return {
-    restrict: $fog$1383,
-    priority: $fog$1384,
-    terminal: $fog$40,
-    transclude: $fog$180,
-    controller: angular[$fog$1385],
+    restrict: $fog$204,
+    priority: $fog$203,
+    terminal: $fog$1547,
+    transclude: $fog$1407,
+    controller: angular[$fog$202],
     compile: function(element, attr) {
-      var srcExp = attr[$fog$1386] || attr[$fog$538],
-          onloadExp = attr[$fog$741] || $fog$4,
-          autoScrollExp = attr[$fog$1387];
+      var srcExp = attr[$fog$201] || attr[$fog$1049],
+          onloadExp = attr[$fog$846] || $fog$1583,
+          autoScrollExp = attr[$fog$200];
 
       return function(scope, $element, $attr, ctrl, $transclude) {
-        var changeCounter = $fog$1,
+        var changeCounter = $fog$1586,
             currentScope,
             previousElement,
             currentElement;
 
         var cleanupLastIncludeContent = function() {
           if (previousElement) {
-            previousElement[$fog$420]();
-            previousElement = $fog$37;
+            previousElement[$fog$1167]();
+            previousElement = $fog$1550;
           }
           if (currentScope) {
-            currentScope[$fog$195]();
-            currentScope = $fog$37;
+            currentScope[$fog$1392]();
+            currentScope = $fog$1550;
           }
           if (currentElement) {
-            $animate[$fog$441](currentElement)[$fog$66](function() {
-              previousElement = $fog$37;
+            $animate[$fog$1146](currentElement)[$fog$1521](function() {
+              previousElement = $fog$1550;
             });
             previousElement = currentElement;
-            currentElement = $fog$37;
+            currentElement = $fog$1550;
           }
         };
 
-        scope[$fog$61](srcExp, function ngIncludeWatchAction(src) {
+        scope[$fog$1526](srcExp, function ngIncludeWatchAction(src) {
           var afterAnimation = function() {
-            if (isDefined(autoScrollExp) && (!autoScrollExp || scope[$fog$1096](autoScrollExp))) {
+            if (isDefined(autoScrollExp) && (!autoScrollExp || scope[$fog$491](autoScrollExp))) {
               $anchorScroll();
             }
           };
@@ -24161,10 +24177,10 @@ var ngIncludeDirective = [$fog$529, $fog$1382, $fog$407,
           if (src) {
             //set the 2nd param to true to ignore the template request error so that the inner
             //contents and scope can be cleaned up.
-            $templateRequest(src, $fog$40)[$fog$66](function(response) {
+            $templateRequest(src, $fog$1547)[$fog$1521](function(response) {
               if (thisChangeId !== changeCounter) return;
-              var newScope = scope[$fog$578]();
-              ctrl[$fog$612] = response;
+              var newScope = scope[$fog$1009]();
+              ctrl[$fog$975] = response;
 
               // Note: This will also link all children of ng-include that were contained in the original
               // html. If that content contains controllers, ... they could pollute/change the scope.
@@ -24174,24 +24190,24 @@ var ngIncludeDirective = [$fog$529, $fog$1382, $fog$407,
               // directives to non existing elements.
               var clone = $transclude(newScope, function(clone) {
                 cleanupLastIncludeContent();
-                $animate[$fog$439](clone, $fog$37, $element)[$fog$66](afterAnimation);
+                $animate[$fog$1148](clone, $fog$1550, $element)[$fog$1521](afterAnimation);
               });
 
               currentScope = newScope;
               currentElement = clone;
 
-              currentScope[$fog$1388]($fog$1389, src);
-              scope[$fog$1096](onloadExp);
+              currentScope[$fog$199]($fog$198, src);
+              scope[$fog$491](onloadExp);
             }, function() {
               if (thisChangeId === changeCounter) {
                 cleanupLastIncludeContent();
-                scope[$fog$1388]($fog$1390, src);
+                scope[$fog$199]($fog$197, src);
               }
             });
-            scope[$fog$1388]($fog$1391, src);
+            scope[$fog$199]($fog$196, src);
           } else {
             cleanupLastIncludeContent();
-            ctrl[$fog$612] = $fog$37;
+            ctrl[$fog$975] = $fog$1550;
           }
         });
       };
@@ -24204,27 +24220,27 @@ var ngIncludeDirective = [$fog$529, $fog$1382, $fog$407,
 // We need this directive so that the element content is already filled when
 // the link function of another directive on the same element as ngInclude
 // is called.
-var ngIncludeFillContentDirective = [$fog$169,
+var ngIncludeFillContentDirective = [$fog$1418,
   function($compile) {
     return {
-      restrict: $fog$1383,
-      priority: -$fog$1384,
-      require: $fog$1386,
+      restrict: $fog$204,
+      priority: -$fog$203,
+      require: $fog$201,
       link: function(scope, $element, $attr, ctrl) {
-        if ($fog$572[$fog$68]($element[$fog$1][$fog$32]())) {
+        if ($fog$1015[$fog$1519]($element[$fog$1586][$fog$1555]())) {
           // WebKit: https://bugs.webkit.org/show_bug.cgi?id=135698 --- SVG elements do not
           // support innerHTML, so detect this here and try to generate the contents
           // specially.
-          $element[$fog$121]();
-          $compile(jqLiteBuildFragment(ctrl[$fog$612], document)[$fog$277])(scope,
+          $element[$fog$1466]();
+          $compile(jqLiteBuildFragment(ctrl[$fog$975], document)[$fog$1310])(scope,
               function namespaceAdaptedClone(clone) {
-            $element[$fog$123](clone);
+            $element[$fog$1464](clone);
           }, {futureParentElement: $element});
           return;
         }
 
-        $element[$fog$122](ctrl[$fog$612]);
-        $compile($element[$fog$611]())(scope);
+        $element[$fog$1465](ctrl[$fog$975]);
+        $compile($element[$fog$976]())(scope);
       }
     };
   }];
@@ -24286,11 +24302,11 @@ var ngIncludeFillContentDirective = [$fog$169,
    </example>
  */
 var ngInitDirective = ngDirective({
-  priority: $fog$1392,
+  priority: $fog$195,
   compile: function() {
     return {
       pre: function(scope, element, attrs) {
-        scope[$fog$1096](attrs[$fog$1393]);
+        scope[$fog$491](attrs[$fog$194]);
       }
     };
   }
@@ -24382,14 +24398,14 @@ var ngInitDirective = ngDirective({
  */
 var ngListDirective = function() {
   return {
-    restrict: $fog$589,
-    priority: $fog$644,
-    require: $fog$1258,
+    restrict: $fog$998,
+    priority: $fog$943,
+    require: $fog$329,
     link: function(scope, element, attr, ctrl) {
       // We want to control whitespace trimming so we use this convoluted approach
       // to access the ngList attribute, which doesn't pre-trim the attribute
-      var ngList = element[$fog$76](attr[$fog$534][$fog$1394]) || $fog$303;
-      var trimValues = attr[$fog$1320] !== $fog$1056;
+      var ngList = element[$fog$1511](attr[$fog$1053][$fog$193]) || $fog$1284;
+      var trimValues = attr[$fog$267] !== $fog$531;
       var separator = trimValues ? trim(ngList) : ngList;
 
       var parse = function(viewValue) {
@@ -24399,26 +24415,26 @@ var ngListDirective = function() {
         var list = [];
 
         if (viewValue) {
-          forEach(viewValue[$fog$78](separator), function(value) {
-            if (value) list[$fog$31](trimValues ? trim(value) : value);
+          forEach(viewValue[$fog$1509](separator), function(value) {
+            if (value) list[$fog$1556](trimValues ? trim(value) : value);
           });
         }
 
         return list;
       };
 
-      ctrl[$fog$1342][$fog$31](parse);
-      ctrl[$fog$1313][$fog$31](function(value) {
+      ctrl[$fog$245][$fog$1556](parse);
+      ctrl[$fog$274][$fog$1556](function(value) {
         if (isArray(value)) {
-          return value[$fog$131](ngList);
+          return value[$fog$1456](ngList);
         }
 
         return undefined;
       });
 
       // Override the standard $isEmpty because an empty array means the input is empty.
-      ctrl[$fog$1314] = function(value) {
-        return !value || !value[$fog$10];
+      ctrl[$fog$273] = function(value) {
+        return !value || !value[$fog$1577];
       };
     }
   };
@@ -24432,15 +24448,15 @@ var ngListDirective = function() {
   TOUCHED_CLASS: true,
 */
 
-var VALID_CLASS = $fog$1395,
-    INVALID_CLASS = $fog$1396,
-    PRISTINE_CLASS = $fog$1397,
-    DIRTY_CLASS = $fog$1398,
-    UNTOUCHED_CLASS = $fog$1399,
-    TOUCHED_CLASS = $fog$1400,
-    PENDING_CLASS = $fog$1401;
+var VALID_CLASS = $fog$192,
+    INVALID_CLASS = $fog$191,
+    PRISTINE_CLASS = $fog$190,
+    DIRTY_CLASS = $fog$189,
+    UNTOUCHED_CLASS = $fog$188,
+    TOUCHED_CLASS = $fog$187,
+    PENDING_CLASS = $fog$186;
 
-var ngModelMinErr = minErr($fog$1258);
+var ngModelMinErr = minErr($fog$329);
 
 /**
  * @ngdoc type
@@ -24640,41 +24656,41 @@ is set to `true`. The parse error is stored in `ngModel.$error.parse`.
  *
  *
  */
-var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fog$407, $fog$1074, $fog$168, $fog$409, $fog$528,
+var NgModelController = [$fog$1274, $fog$1071, $fog$323, $fog$324, $fog$1057, $fog$1180, $fog$513, $fog$1419, $fog$1178, $fog$1059,
     function($scope, $exceptionHandler, $attr, $element, $parse, $animate, $timeout, $rootScope, $q, $interpolate) {
-  this[$fog$1321] = Number[$fog$1402];
-  this[$fog$1403] = Number[$fog$1402];
-  this[$fog$1404] = undefined; // stores the parsed modelValue / model set from scope regardless of validity.
-  this[$fog$1346] = {};
-  this[$fog$1405] = {};
-  this[$fog$1342] = [];
-  this[$fog$1313] = [];
-  this[$fog$1366] = [];
-  this[$fog$1406] = $fog$40;
-  this[$fog$1407] = $fog$38;
-  this[$fog$1271] = $fog$40;
-  this[$fog$1270] = $fog$38;
-  this[$fog$1272] = $fog$40;
-  this[$fog$1273] = $fog$38;
-  this[$fog$1266] = {}; // keep invalid keys here
-  this[$fog$1267] = {}; // keep valid keys here
-  this[$fog$1268] = undefined; // keep pending keys here
-  this[$fog$1262] = $interpolate($attr[$fog$42] || $fog$4, $fog$38)($scope);
+  this[$fog$266] = Number[$fog$185];
+  this[$fog$184] = Number[$fog$185];
+  this[$fog$183] = undefined; // stores the parsed modelValue / model set from scope regardless of validity.
+  this[$fog$241] = {};
+  this[$fog$182] = {};
+  this[$fog$245] = [];
+  this[$fog$274] = [];
+  this[$fog$221] = [];
+  this[$fog$181] = $fog$1547;
+  this[$fog$180] = $fog$1549;
+  this[$fog$316] = $fog$1547;
+  this[$fog$317] = $fog$1549;
+  this[$fog$315] = $fog$1547;
+  this[$fog$314] = $fog$1549;
+  this[$fog$321] = {}; // keep invalid keys here
+  this[$fog$320] = {}; // keep valid keys here
+  this[$fog$319] = undefined; // keep pending keys here
+  this[$fog$325] = $interpolate($attr[$fog$1545] || $fog$1583, $fog$1549)($scope);
 
 
-  var parsedNgModel = $parse($attr[$fog$1258]),
-      parsedNgModelAssign = parsedNgModel[$fog$657],
+  var parsedNgModel = $parse($attr[$fog$329]),
+      parsedNgModelAssign = parsedNgModel[$fog$930],
       ngModelGet = parsedNgModel,
       ngModelSet = parsedNgModelAssign,
-      pendingDebounce = $fog$37,
+      pendingDebounce = $fog$1550,
       parserValid,
       ctrl = this;
 
-  this[$fog$1408] = function(options) {
-    ctrl[$fog$1339] = options;
-    if (options && options[$fog$1409]) {
-      var invokeModelGetter = $parse($attr[$fog$1258] + $fog$1410),
-          invokeModelSetter = $parse($attr[$fog$1258] + $fog$1411);
+  this[$fog$179] = function(options) {
+    ctrl[$fog$248] = options;
+    if (options && options[$fog$178]) {
+      var invokeModelGetter = $parse($attr[$fog$329] + $fog$177),
+          invokeModelSetter = $parse($attr[$fog$329] + $fog$176);
 
       ngModelGet = function($scope) {
         var modelValue = parsedNgModel($scope);
@@ -24685,14 +24701,14 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
       };
       ngModelSet = function($scope, newValue) {
         if (isFunction(parsedNgModel($scope))) {
-          invokeModelSetter($scope, {$$$p: ctrl[$fog$1403]});
+          invokeModelSetter($scope, {$$$p: ctrl[$fog$184]});
         } else {
-          parsedNgModelAssign($scope, ctrl[$fog$1403]);
+          parsedNgModelAssign($scope, ctrl[$fog$184]);
         }
       };
-    } else if (!parsedNgModel[$fog$657]) {
-      throw ngModelMinErr($fog$658, $fog$1412,
-          $attr[$fog$1258], startingTag($element));
+    } else if (!parsedNgModel[$fog$930]) {
+      throw ngModelMinErr($fog$929, $fog$175,
+          $attr[$fog$329], startingTag($element));
     }
   };
 
@@ -24716,7 +24732,7 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * or `$viewValue` are objects (rather than a string or number) then `$render()` will not be
    * invoked if you only change a property on the objects.
    */
-  this[$fog$1335] = noop;
+  this[$fog$252] = noop;
 
   /**
    * @ngdoc method
@@ -24736,12 +24752,12 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * @param {*} value The value of the input to check for emptiness.
    * @returns {boolean} True if `value` is "empty".
    */
-  this[$fog$1314] = function(value) {
-    return isUndefined(value) || value === $fog$4 || value === $fog$37 || value !== value;
+  this[$fog$273] = function(value) {
+    return isUndefined(value) || value === $fog$1583 || value === $fog$1550 || value !== value;
   };
 
-  var parentForm = $element[$fog$191]($fog$1413) || nullFormCtrl,
-      currentValidationRunId = $fog$1;
+  var parentForm = $element[$fog$1396]($fog$174) || nullFormCtrl,
+      currentValidationRunId = $fog$1586;
 
   /**
    * @ngdoc method
@@ -24769,7 +24785,7 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
     ctrl: this,
     $element: $element,
     set: function(object, property) {
-      object[property] = $fog$40;
+      object[property] = $fog$1547;
     },
     unset: function(object, property) {
       delete object[property];
@@ -24789,11 +24805,11 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * state (`ng-pristine` class). A model is considered to be pristine when the control
    * has not been changed from when first compiled.
    */
-  this[$fog$1282] = function() {
-    ctrl[$fog$1270] = $fog$38;
-    ctrl[$fog$1271] = $fog$40;
-    $animate[$fog$418]($element, DIRTY_CLASS);
-    $animate[$fog$417]($element, PRISTINE_CLASS);
+  this[$fog$305] = function() {
+    ctrl[$fog$317] = $fog$1549;
+    ctrl[$fog$316] = $fog$1547;
+    $animate[$fog$1169]($element, DIRTY_CLASS);
+    $animate[$fog$1170]($element, PRISTINE_CLASS);
   };
 
   /**
@@ -24807,12 +24823,12 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * state (`ng-dirty` class). A model is considered to be dirty when the control has been changed
    * from when first compiled.
    */
-  this[$fog$1281] = function() {
-    ctrl[$fog$1270] = $fog$40;
-    ctrl[$fog$1271] = $fog$38;
-    $animate[$fog$418]($element, PRISTINE_CLASS);
-    $animate[$fog$417]($element, DIRTY_CLASS);
-    parentForm[$fog$1281]();
+  this[$fog$306] = function() {
+    ctrl[$fog$317] = $fog$1547;
+    ctrl[$fog$316] = $fog$1549;
+    $animate[$fog$1169]($element, PRISTINE_CLASS);
+    $animate[$fog$1170]($element, DIRTY_CLASS);
+    parentForm[$fog$306]();
   };
 
   /**
@@ -24827,10 +24843,10 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * by default, however this function can be used to restore that state if the model has
    * already been touched by the user.
    */
-  this[$fog$1283] = function() {
-    ctrl[$fog$1407] = $fog$38;
-    ctrl[$fog$1406] = $fog$40;
-    $animate[$fog$443]($element, UNTOUCHED_CLASS, TOUCHED_CLASS);
+  this[$fog$304] = function() {
+    ctrl[$fog$180] = $fog$1549;
+    ctrl[$fog$181] = $fog$1547;
+    $animate[$fog$1144]($element, UNTOUCHED_CLASS, TOUCHED_CLASS);
   };
 
   /**
@@ -24844,10 +24860,10 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * touched state (`ng-touched` class). A model is considered to be touched when the user has
    * first focused the control element and then shifted focus away from the control (blur event).
    */
-  this[$fog$1414] = function() {
-    ctrl[$fog$1407] = $fog$40;
-    ctrl[$fog$1406] = $fog$38;
-    $animate[$fog$443]($element, TOUCHED_CLASS, UNTOUCHED_CLASS);
+  this[$fog$173] = function() {
+    ctrl[$fog$180] = $fog$1547;
+    ctrl[$fog$181] = $fog$1549;
+    $animate[$fog$1144]($element, TOUCHED_CLASS, UNTOUCHED_CLASS);
   };
 
   /**
@@ -24911,10 +24927,10 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    *   </file>
    * </example>
    */
-  this[$fog$1276] = function() {
-    $timeout[$fog$480](pendingDebounce);
-    ctrl[$fog$1321] = ctrl[$fog$1415];
-    ctrl[$fog$1335]();
+  this[$fog$311] = function() {
+    $timeout[$fog$1107](pendingDebounce);
+    ctrl[$fog$266] = ctrl[$fog$172];
+    ctrl[$fog$252]();
   };
 
   /**
@@ -24929,25 +24945,25 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * If the validity changes to valid, it will set the model to the last available valid
    * `$modelValue`, i.e. either the last parsed value or the last value set from the scope.
    */
-  this[$fog$1347] = function() {
+  this[$fog$240] = function() {
     // ignore $validate before model is initialized
-    if (isNumber(ctrl[$fog$1403]) && isNaN(ctrl[$fog$1403])) {
+    if (isNumber(ctrl[$fog$184]) && isNaN(ctrl[$fog$184])) {
       return;
     }
 
-    var viewValue = ctrl[$fog$1415];
+    var viewValue = ctrl[$fog$172];
     // Note: we use the $$rawModelValue as $modelValue might have been
     // set to undefined during a view -> model update that found validation
     // errors. We can't parse the view here, since that could change
     // the model although neither viewValue nor the model on the scope changed
-    var modelValue = ctrl[$fog$1404];
+    var modelValue = ctrl[$fog$183];
 
-    var prevValid = ctrl[$fog$1272];
-    var prevModelValue = ctrl[$fog$1403];
+    var prevValid = ctrl[$fog$315];
+    var prevModelValue = ctrl[$fog$184];
 
-    var allowInvalid = ctrl[$fog$1339] && ctrl[$fog$1339][$fog$1416];
+    var allowInvalid = ctrl[$fog$248] && ctrl[$fog$248][$fog$171];
 
-    ctrl[$fog$1417](modelValue, viewValue, function(allValid) {
+    ctrl[$fog$170](modelValue, viewValue, function(allValid) {
       // If there was no change in validity, don't update the model
       // This prevents changing an invalid modelValue to undefined
       if (!allowInvalid && prevValid !== allValid) {
@@ -24955,88 +24971,88 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
         // external validators (e.g. calculated on the server),
         // that just call $setValidity and need the model value
         // to calculate their validity.
-        ctrl[$fog$1403] = allValid ? modelValue : undefined;
+        ctrl[$fog$184] = allValid ? modelValue : undefined;
 
-        if (ctrl[$fog$1403] !== prevModelValue) {
-          ctrl[$fog$1418]();
+        if (ctrl[$fog$184] !== prevModelValue) {
+          ctrl[$fog$169]();
         }
       }
     });
 
   };
 
-  this[$fog$1417] = function(modelValue, viewValue, doneCallback) {
+  this[$fog$170] = function(modelValue, viewValue, doneCallback) {
     currentValidationRunId++;
     var localValidationRunId = currentValidationRunId;
 
     // check parser error
     if (!processParseErrors()) {
-      validationDone($fog$38);
+      validationDone($fog$1549);
       return;
     }
     if (!processSyncValidators()) {
-      validationDone($fog$38);
+      validationDone($fog$1549);
       return;
     }
     processAsyncValidators();
 
     function processParseErrors() {
-      var errorKey = ctrl[$fog$1341] || $fog$114;
+      var errorKey = ctrl[$fog$246] || $fog$1473;
       if (parserValid === undefined) {
-        setValidity(errorKey, $fog$37);
+        setValidity(errorKey, $fog$1550);
       } else {
         if (!parserValid) {
-          forEach(ctrl[$fog$1346], function(v, name) {
-            setValidity(name, $fog$37);
+          forEach(ctrl[$fog$241], function(v, name) {
+            setValidity(name, $fog$1550);
           });
-          forEach(ctrl[$fog$1405], function(v, name) {
-            setValidity(name, $fog$37);
+          forEach(ctrl[$fog$182], function(v, name) {
+            setValidity(name, $fog$1550);
           });
         }
         // Set the parse error last, to prevent unsetting it, should a $validators key == parserName
         setValidity(errorKey, parserValid);
         return parserValid;
       }
-      return $fog$40;
+      return $fog$1547;
     }
 
     function processSyncValidators() {
-      var syncValidatorsValid = $fog$40;
-      forEach(ctrl[$fog$1346], function(validator, name) {
+      var syncValidatorsValid = $fog$1547;
+      forEach(ctrl[$fog$241], function(validator, name) {
         var result = validator(modelValue, viewValue);
         syncValidatorsValid = syncValidatorsValid && result;
         setValidity(name, result);
       });
       if (!syncValidatorsValid) {
-        forEach(ctrl[$fog$1405], function(v, name) {
-          setValidity(name, $fog$37);
+        forEach(ctrl[$fog$182], function(v, name) {
+          setValidity(name, $fog$1550);
         });
-        return $fog$38;
+        return $fog$1549;
       }
-      return $fog$40;
+      return $fog$1547;
     }
 
     function processAsyncValidators() {
       var validatorPromises = [];
-      var allValid = $fog$40;
-      forEach(ctrl[$fog$1405], function(validator, name) {
+      var allValid = $fog$1547;
+      forEach(ctrl[$fog$182], function(validator, name) {
         var promise = validator(modelValue, viewValue);
         if (!isPromiseLike(promise)) {
-          throw ngModelMinErr($fog$1405,
-            $fog$1419, promise);
+          throw ngModelMinErr($fog$182,
+            $fog$168, promise);
         }
         setValidity(name, undefined);
-        validatorPromises[$fog$31](promise[$fog$66](function() {
-          setValidity(name, $fog$40);
+        validatorPromises[$fog$1556](promise[$fog$1521](function() {
+          setValidity(name, $fog$1547);
         }, function(error) {
-          allValid = $fog$38;
-          setValidity(name, $fog$38);
+          allValid = $fog$1549;
+          setValidity(name, $fog$1549);
         }));
       });
-      if (!validatorPromises[$fog$10]) {
-        validationDone($fog$40);
+      if (!validatorPromises[$fog$1577]) {
+        validationDone($fog$1547);
       } else {
-        $q[$fog$411](validatorPromises)[$fog$66](function() {
+        $q[$fog$1176](validatorPromises)[$fog$1521](function() {
           validationDone(allValid);
         }, noop);
       }
@@ -25044,7 +25060,7 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
 
     function setValidity(name, isValid) {
       if (localValidationRunId === currentValidationRunId) {
-        ctrl[$fog$1280](name, isValid);
+        ctrl[$fog$307](name, isValid);
       }
     }
 
@@ -25067,76 +25083,76 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * event defined in `ng-model-options`. this method is rarely needed as `NgModelController`
    * usually handles calling this in response to input events.
    */
-  this[$fog$1277] = function() {
-    var viewValue = ctrl[$fog$1321];
+  this[$fog$310] = function() {
+    var viewValue = ctrl[$fog$266];
 
-    $timeout[$fog$480](pendingDebounce);
+    $timeout[$fog$1107](pendingDebounce);
 
     // If the view value has not changed then we should just exit, except in the case where there is
     // a native validator on the element. In this case the validation state may have changed even though
     // the viewValue has stayed empty.
-    if (ctrl[$fog$1415] === viewValue && (viewValue !== $fog$4 || !ctrl[$fog$1322])) {
+    if (ctrl[$fog$172] === viewValue && (viewValue !== $fog$1583 || !ctrl[$fog$265])) {
       return;
     }
-    ctrl[$fog$1415] = viewValue;
+    ctrl[$fog$172] = viewValue;
 
     // change to dirty
-    if (ctrl[$fog$1271]) {
-      this[$fog$1281]();
+    if (ctrl[$fog$316]) {
+      this[$fog$306]();
     }
-    this[$fog$1420]();
+    this[$fog$167]();
   };
 
-  this[$fog$1420] = function() {
-    var viewValue = ctrl[$fog$1415];
+  this[$fog$167] = function() {
+    var viewValue = ctrl[$fog$172];
     var modelValue = viewValue;
-    parserValid = isUndefined(modelValue) ? undefined : $fog$40;
+    parserValid = isUndefined(modelValue) ? undefined : $fog$1547;
 
     if (parserValid) {
-      for (var i = $fog$1; i < ctrl[$fog$1342][$fog$10]; i++) {
-        modelValue = ctrl[$fog$1342][i](modelValue);
+      for (var i = $fog$1586; i < ctrl[$fog$245][$fog$1577]; i++) {
+        modelValue = ctrl[$fog$245][i](modelValue);
         if (isUndefined(modelValue)) {
-          parserValid = $fog$38;
+          parserValid = $fog$1549;
           break;
         }
       }
     }
-    if (isNumber(ctrl[$fog$1403]) && isNaN(ctrl[$fog$1403])) {
+    if (isNumber(ctrl[$fog$184]) && isNaN(ctrl[$fog$184])) {
       // ctrl.$modelValue has not been touched yet...
-      ctrl[$fog$1403] = ngModelGet($scope);
+      ctrl[$fog$184] = ngModelGet($scope);
     }
-    var prevModelValue = ctrl[$fog$1403];
-    var allowInvalid = ctrl[$fog$1339] && ctrl[$fog$1339][$fog$1416];
-    ctrl[$fog$1404] = modelValue;
+    var prevModelValue = ctrl[$fog$184];
+    var allowInvalid = ctrl[$fog$248] && ctrl[$fog$248][$fog$171];
+    ctrl[$fog$183] = modelValue;
 
     if (allowInvalid) {
-      ctrl[$fog$1403] = modelValue;
+      ctrl[$fog$184] = modelValue;
       writeToModelIfNeeded();
     }
 
     // Pass the $$lastCommittedViewValue here, because the cached viewValue might be out of date.
     // This can happen if e.g. $setViewValue is called from inside a parser
-    ctrl[$fog$1417](modelValue, ctrl[$fog$1415], function(allValid) {
+    ctrl[$fog$170](modelValue, ctrl[$fog$172], function(allValid) {
       if (!allowInvalid) {
         // Note: Don't check ctrl.$valid here, as we could have
         // external validators (e.g. calculated on the server),
         // that just call $setValidity and need the model value
         // to calculate their validity.
-        ctrl[$fog$1403] = allValid ? modelValue : undefined;
+        ctrl[$fog$184] = allValid ? modelValue : undefined;
         writeToModelIfNeeded();
       }
     });
 
     function writeToModelIfNeeded() {
-      if (ctrl[$fog$1403] !== prevModelValue) {
-        ctrl[$fog$1418]();
+      if (ctrl[$fog$184] !== prevModelValue) {
+        ctrl[$fog$169]();
       }
     }
   };
 
-  this[$fog$1418] = function() {
-    ngModelSet($scope, ctrl[$fog$1403]);
-    forEach(ctrl[$fog$1366], function(listener) {
+  this[$fog$169] = function() {
+    ngModelSet($scope, ctrl[$fog$184]);
+    forEach(ctrl[$fog$221], function(listener) {
       try {
         listener();
       } catch (e) {
@@ -25185,39 +25201,39 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
    * @param {string} value Value from the view.
    * @param {string} trigger Event that triggered the update.
    */
-  this[$fog$1323] = function(value, trigger) {
-    ctrl[$fog$1321] = value;
-    if (!ctrl[$fog$1339] || ctrl[$fog$1339][$fog$1421]) {
-      ctrl[$fog$1422](trigger);
+  this[$fog$264] = function(value, trigger) {
+    ctrl[$fog$266] = value;
+    if (!ctrl[$fog$248] || ctrl[$fog$248][$fog$166]) {
+      ctrl[$fog$165](trigger);
     }
   };
 
-  this[$fog$1422] = function(trigger) {
-    var debounceDelay = $fog$1,
-        options = ctrl[$fog$1339],
+  this[$fog$165] = function(trigger) {
+    var debounceDelay = $fog$1586,
+        options = ctrl[$fog$248],
         debounce;
 
-    if (options && isDefined(options[$fog$1423])) {
-      debounce = options[$fog$1423];
+    if (options && isDefined(options[$fog$164])) {
+      debounce = options[$fog$164];
       if (isNumber(debounce)) {
         debounceDelay = debounce;
       } else if (isNumber(debounce[trigger])) {
         debounceDelay = debounce[trigger];
-      } else if (isNumber(debounce[$fog$1424])) {
-        debounceDelay = debounce[$fog$1424];
+      } else if (isNumber(debounce[$fog$163])) {
+        debounceDelay = debounce[$fog$163];
       }
     }
 
-    $timeout[$fog$480](pendingDebounce);
+    $timeout[$fog$1107](pendingDebounce);
     if (debounceDelay) {
       pendingDebounce = $timeout(function() {
-        ctrl[$fog$1277]();
+        ctrl[$fog$310]();
       }, debounceDelay);
-    } else if ($rootScope[$fog$729]) {
-      ctrl[$fog$1277]();
+    } else if ($rootScope[$fog$858]) {
+      ctrl[$fog$310]();
     } else {
-      $scope[$fog$171](function() {
-        ctrl[$fog$1277]();
+      $scope[$fog$1416](function() {
+        ctrl[$fog$310]();
       });
     }
   };
@@ -25230,30 +25246,30 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
   //    -> scope value did not change since the last digest as
   //       ng-change executes in apply phase
   // 4. view should be changed back to 'a'
-  $scope[$fog$61](function ngModelWatch() {
+  $scope[$fog$1526](function ngModelWatch() {
     var modelValue = ngModelGet($scope);
 
     // if scope model value and ngModel value are out of sync
     // TODO(perf): why not move this to the action fn?
-    if (modelValue !== ctrl[$fog$1403] &&
+    if (modelValue !== ctrl[$fog$184] &&
        // checks for NaN is needed to allow setting the model to NaN when there's an asyncValidator
-       (ctrl[$fog$1403] === ctrl[$fog$1403] || modelValue === modelValue)
+       (ctrl[$fog$184] === ctrl[$fog$184] || modelValue === modelValue)
     ) {
-      ctrl[$fog$1403] = ctrl[$fog$1404] = modelValue;
+      ctrl[$fog$184] = ctrl[$fog$183] = modelValue;
       parserValid = undefined;
 
-      var formatters = ctrl[$fog$1313],
-          idx = formatters[$fog$10];
+      var formatters = ctrl[$fog$274],
+          idx = formatters[$fog$1577];
 
       var viewValue = modelValue;
       while (idx--) {
         viewValue = formatters[idx](viewValue);
       }
-      if (ctrl[$fog$1321] !== viewValue) {
-        ctrl[$fog$1321] = ctrl[$fog$1415] = viewValue;
-        ctrl[$fog$1335]();
+      if (ctrl[$fog$266] !== viewValue) {
+        ctrl[$fog$266] = ctrl[$fog$172] = viewValue;
+        ctrl[$fog$252]();
 
-        ctrl[$fog$1417](modelValue, viewValue, noop);
+        ctrl[$fog$170](modelValue, viewValue, noop);
       }
     }
 
@@ -25430,54 +25446,54 @@ var NgModelController = [$fog$313, $fog$516, $fog$1264, $fog$1263, $fog$530, $fo
      </file>
  * </example>
  */
-var ngModelDirective = [$fog$168, function($rootScope) {
+var ngModelDirective = [$fog$1419, function($rootScope) {
   return {
-    restrict: $fog$589,
-    require: [$fog$1258, $fog$1425, $fog$1426],
+    restrict: $fog$998,
+    require: [$fog$329, $fog$162, $fog$161],
     controller: NgModelController,
     // Prelink needs to run before any input directive
     // so that we can set the NgModelOptions in NgModelController
     // before anyone else uses it.
-    priority: $fog$6,
+    priority: $fog$1581,
     compile: function ngModelCompile(element) {
       // Setup initial state of the control
-      element[$fog$417](PRISTINE_CLASS)[$fog$417](UNTOUCHED_CLASS)[$fog$417](VALID_CLASS);
+      element[$fog$1170](PRISTINE_CLASS)[$fog$1170](UNTOUCHED_CLASS)[$fog$1170](VALID_CLASS);
 
       return {
         pre: function ngModelPreLink(scope, element, attr, ctrls) {
-          var modelCtrl = ctrls[$fog$1],
-              formCtrl = ctrls[$fog$6] || nullFormCtrl;
+          var modelCtrl = ctrls[$fog$1586],
+              formCtrl = ctrls[$fog$1581] || nullFormCtrl;
 
-          modelCtrl[$fog$1408](ctrls[$fog$0] && ctrls[$fog$0][$fog$1339]);
+          modelCtrl[$fog$179](ctrls[$fog$1587] && ctrls[$fog$1587][$fog$248]);
 
           // notify others, especially parent forms
-          formCtrl[$fog$1275](modelCtrl);
+          formCtrl[$fog$312](modelCtrl);
 
-          attr[$fog$655]($fog$42, function(newValue) {
-            if (modelCtrl[$fog$1262] !== newValue) {
-              formCtrl[$fog$1278](modelCtrl, newValue);
+          attr[$fog$932]($fog$1545, function(newValue) {
+            if (modelCtrl[$fog$325] !== newValue) {
+              formCtrl[$fog$309](modelCtrl, newValue);
             }
           });
 
-          scope[$fog$580]($fog$195, function() {
-            formCtrl[$fog$1279](modelCtrl);
+          scope[$fog$1007]($fog$1392, function() {
+            formCtrl[$fog$308](modelCtrl);
           });
         },
         post: function ngModelPostLink(scope, element, attr, ctrls) {
-          var modelCtrl = ctrls[$fog$1];
-          if (modelCtrl[$fog$1339] && modelCtrl[$fog$1339][$fog$1427]) {
-            element[$fog$186](modelCtrl[$fog$1339][$fog$1427], function(ev) {
-              modelCtrl[$fog$1422](ev && ev[$fog$329]);
+          var modelCtrl = ctrls[$fog$1586];
+          if (modelCtrl[$fog$248] && modelCtrl[$fog$248][$fog$160]) {
+            element[$fog$1401](modelCtrl[$fog$248][$fog$160], function(ev) {
+              modelCtrl[$fog$165](ev && ev[$fog$1258]);
             });
           }
 
-          element[$fog$186]($fog$1428, function(ev) {
-            if (modelCtrl[$fog$1407]) return;
+          element[$fog$1401]($fog$159, function(ev) {
+            if (modelCtrl[$fog$180]) return;
 
-            if ($rootScope[$fog$729]) {
-              scope[$fog$60](modelCtrl[$fog$1414]);
+            if ($rootScope[$fog$858]) {
+              scope[$fog$1527](modelCtrl[$fog$173]);
             } else {
-              scope[$fog$171](modelCtrl[$fog$1414]);
+              scope[$fog$1416](modelCtrl[$fog$173]);
             }
           });
         }
@@ -25486,7 +25502,7 @@ var ngModelDirective = [$fog$168, function($rootScope) {
   };
 }];
 
-var DEFAULT_REGEXP = $fog$1429;
+var DEFAULT_REGEXP = $fog$158;
 
 /**
  * @ngdoc directive
@@ -25650,20 +25666,20 @@ var DEFAULT_REGEXP = $fog$1429;
  */
 var ngModelOptionsDirective = function() {
   return {
-    restrict: $fog$589,
-    controller: [$fog$313, $fog$1264, function($scope, $attrs) {
+    restrict: $fog$998,
+    controller: [$fog$1274, $fog$323, function($scope, $attrs) {
       var that = this;
-      this[$fog$1339] = copy($scope[$fog$1096]($attrs[$fog$1430]));
+      this[$fog$248] = copy($scope[$fog$491]($attrs[$fog$157]));
       // Allow adding/overriding bound events
-      if (this[$fog$1339][$fog$1427] !== undefined) {
-        this[$fog$1339][$fog$1421] = $fog$38;
+      if (this[$fog$248][$fog$160] !== undefined) {
+        this[$fog$248][$fog$166] = $fog$1549;
         // extract "default" pseudo-event from list of events that can trigger a model update
-        this[$fog$1339][$fog$1427] = trim(this[$fog$1339][$fog$1427][$fog$7](DEFAULT_REGEXP, function() {
-          that[$fog$1339][$fog$1421] = $fog$40;
-          return $fog$288;
+        this[$fog$248][$fog$160] = trim(this[$fog$248][$fog$160][$fog$1580](DEFAULT_REGEXP, function() {
+          that[$fog$248][$fog$166] = $fog$1547;
+          return $fog$1299;
         }));
       } else {
-        this[$fog$1339][$fog$1421] = $fog$40;
+        this[$fog$248][$fog$166] = $fog$1547;
       }
     }]
   };
@@ -25673,45 +25689,45 @@ var ngModelOptionsDirective = function() {
 
 // helper methods
 function addSetValidityMethod(context) {
-  var ctrl = context[$fog$1431],
-      $element = context[$fog$1263],
+  var ctrl = context[$fog$156],
+      $element = context[$fog$324],
       classCache = {},
-      set = context[$fog$1432],
-      unset = context[$fog$1433],
-      parentForm = context[$fog$1434],
-      $animate = context[$fog$407];
+      set = context[$fog$155],
+      unset = context[$fog$154],
+      parentForm = context[$fog$153],
+      $animate = context[$fog$1180];
 
-  classCache[INVALID_CLASS] = !(classCache[VALID_CLASS] = $element[$fog$1435](VALID_CLASS));
+  classCache[INVALID_CLASS] = !(classCache[VALID_CLASS] = $element[$fog$152](VALID_CLASS));
 
-  ctrl[$fog$1280] = setValidity;
+  ctrl[$fog$307] = setValidity;
 
   function setValidity(validationErrorKey, state, controller) {
     if (state === undefined) {
-      createAndSet($fog$1268, validationErrorKey, controller);
+      createAndSet($fog$319, validationErrorKey, controller);
     } else {
-      unsetAndCleanup($fog$1268, validationErrorKey, controller);
+      unsetAndCleanup($fog$319, validationErrorKey, controller);
     }
     if (!isBoolean(state)) {
-      unset(ctrl[$fog$1266], validationErrorKey, controller);
-      unset(ctrl[$fog$1267], validationErrorKey, controller);
+      unset(ctrl[$fog$321], validationErrorKey, controller);
+      unset(ctrl[$fog$320], validationErrorKey, controller);
     } else {
       if (state) {
-        unset(ctrl[$fog$1266], validationErrorKey, controller);
-        set(ctrl[$fog$1267], validationErrorKey, controller);
+        unset(ctrl[$fog$321], validationErrorKey, controller);
+        set(ctrl[$fog$320], validationErrorKey, controller);
       } else {
-        set(ctrl[$fog$1266], validationErrorKey, controller);
-        unset(ctrl[$fog$1267], validationErrorKey, controller);
+        set(ctrl[$fog$321], validationErrorKey, controller);
+        unset(ctrl[$fog$320], validationErrorKey, controller);
       }
     }
-    if (ctrl[$fog$1268]) {
-      cachedToggleClass(PENDING_CLASS, $fog$40);
-      ctrl[$fog$1272] = ctrl[$fog$1273] = undefined;
-      toggleValidationCss($fog$4, $fog$37);
+    if (ctrl[$fog$319]) {
+      cachedToggleClass(PENDING_CLASS, $fog$1547);
+      ctrl[$fog$315] = ctrl[$fog$314] = undefined;
+      toggleValidationCss($fog$1583, $fog$1550);
     } else {
-      cachedToggleClass(PENDING_CLASS, $fog$38);
-      ctrl[$fog$1272] = isObjectEmpty(ctrl[$fog$1266]);
-      ctrl[$fog$1273] = !ctrl[$fog$1272];
-      toggleValidationCss($fog$4, ctrl[$fog$1272]);
+      cachedToggleClass(PENDING_CLASS, $fog$1549);
+      ctrl[$fog$315] = isObjectEmpty(ctrl[$fog$321]);
+      ctrl[$fog$314] = !ctrl[$fog$315];
+      toggleValidationCss($fog$1583, ctrl[$fog$315]);
     }
 
     // re-read the state as the set/unset methods could have
@@ -25719,18 +25735,18 @@ function addSetValidityMethod(context) {
     // where setting/unsetting only increments/decrements the value,
     // and does not replace it.
     var combinedState;
-    if (ctrl[$fog$1268] && ctrl[$fog$1268][validationErrorKey]) {
+    if (ctrl[$fog$319] && ctrl[$fog$319][validationErrorKey]) {
       combinedState = undefined;
-    } else if (ctrl[$fog$1266][validationErrorKey]) {
-      combinedState = $fog$38;
-    } else if (ctrl[$fog$1267][validationErrorKey]) {
-      combinedState = $fog$40;
+    } else if (ctrl[$fog$321][validationErrorKey]) {
+      combinedState = $fog$1549;
+    } else if (ctrl[$fog$320][validationErrorKey]) {
+      combinedState = $fog$1547;
     } else {
-      combinedState = $fog$37;
+      combinedState = $fog$1550;
     }
 
     toggleValidationCss(validationErrorKey, combinedState);
-    parentForm[$fog$1280](validationErrorKey, combinedState, ctrl);
+    parentForm[$fog$307](validationErrorKey, combinedState, ctrl);
   }
 
   function createAndSet(name, value, controller) {
@@ -25751,31 +25767,31 @@ function addSetValidityMethod(context) {
 
   function cachedToggleClass(className, switchValue) {
     if (switchValue && !classCache[className]) {
-      $animate[$fog$417]($element, className);
-      classCache[className] = $fog$40;
+      $animate[$fog$1170]($element, className);
+      classCache[className] = $fog$1547;
     } else if (!switchValue && classCache[className]) {
-      $animate[$fog$418]($element, className);
-      classCache[className] = $fog$38;
+      $animate[$fog$1169]($element, className);
+      classCache[className] = $fog$1549;
     }
   }
 
   function toggleValidationCss(validationErrorKey, isValid) {
-    validationErrorKey = validationErrorKey ? $fog$536 + snake_case(validationErrorKey, $fog$536) : $fog$4;
+    validationErrorKey = validationErrorKey ? $fog$1051 + snake_case(validationErrorKey, $fog$1051) : $fog$1583;
 
-    cachedToggleClass(VALID_CLASS + validationErrorKey, isValid === $fog$40);
-    cachedToggleClass(INVALID_CLASS + validationErrorKey, isValid === $fog$38);
+    cachedToggleClass(VALID_CLASS + validationErrorKey, isValid === $fog$1547);
+    cachedToggleClass(INVALID_CLASS + validationErrorKey, isValid === $fog$1549);
   }
 }
 
 function isObjectEmpty(obj) {
   if (obj) {
     for (var prop in obj) {
-      if (obj[$fog$20](prop)) {
-        return $fog$38;
+      if (obj[$fog$1567](prop)) {
+        return $fog$1549;
       }
     }
   }
-  return $fog$40;
+  return $fog$1547;
 }
 
 /**
@@ -25810,11 +25826,11 @@ function isObjectEmpty(obj) {
       </file>
     </example>
  */
-var ngNonBindableDirective = ngDirective({ terminal: $fog$40, priority: $fog$1248 });
+var ngNonBindableDirective = ngDirective({ terminal: $fog$1547, priority: $fog$339 });
 
 /* global jqLiteRemove */
 
-var ngOptionsMinErr = minErr($fog$1436);
+var ngOptionsMinErr = minErr($fog$151);
 
 /**
  * @ngdoc directive
@@ -26027,7 +26043,7 @@ var ngOptionsMinErr = minErr($fog$1436);
 
 // jshint maxlen: false
 //                     //00001111111111000000000002222222222000000000000000000000333333333300000000000000000000000004444444444400000000000005555555555555550000000006666666666666660000000777777777777777000000000000000888888888800000000000000000009999999999
-var NG_OPTIONS_REGEXP = $fog$1437;
+var NG_OPTIONS_REGEXP = $fog$150;
                         // 1: value expression (valueFn)
                         // 2: label expression (displayFn)
                         // 3: group by expression (groupByFn)
@@ -26040,32 +26056,32 @@ var NG_OPTIONS_REGEXP = $fog$1437;
 // jshint maxlen: 100
 
 
-var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
+var ngOptionsDirective = [$fog$1418, $fog$1057, function($compile, $parse) {
 
   function parseOptionsExpression(optionsExp, selectElement, scope) {
 
-    var match = optionsExp[$fog$88](NG_OPTIONS_REGEXP);
+    var match = optionsExp[$fog$1499](NG_OPTIONS_REGEXP);
     if (!(match)) {
-      throw ngOptionsMinErr($fog$1438,
-        $fog$1439 +
-        $fog$1440 +
-        $fog$1441,
+      throw ngOptionsMinErr($fog$149,
+        $fog$148 +
+        $fog$147 +
+        $fog$146,
         optionsExp, startingTag(selectElement));
     }
 
     // Extract the parts from the ngOptions expression
 
     // The variable name for the value of the item in the collection
-    var valueName = match[$fog$587] || match[$fog$1247];
+    var valueName = match[$fog$1000] || match[$fog$340];
     // The variable name for the key of the item in the collection
-    var keyName = match[$fog$588];
+    var keyName = match[$fog$999];
 
     // An expression that generates the viewValue for an option if there is a label expression
-    var selectAs = $fog$1442[$fog$68](match[$fog$1]) && match[$fog$6];
+    var selectAs = $fog$145[$fog$1519](match[$fog$1586]) && match[$fog$1581];
     // An expression that is used to track the id of each object in the options collection
-    var trackBy = match[$fog$208];
+    var trackBy = match[$fog$1379];
     // An expression that generates the viewValue for an option if there is no label expression
-    var valueFn = $parse(match[$fog$0] ? match[$fog$6] : valueName);
+    var valueFn = $parse(match[$fog$1587] ? match[$fog$1581] : valueName);
     var selectAsFn = selectAs && $parse(selectAs);
     var viewValueFn = selectAsFn || valueFn;
     var trackByFn = trackBy && $parse(trackBy);
@@ -26080,10 +26096,10 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
       return getTrackByValueFn(value, getLocals(value, key));
     };
 
-    var displayFn = $parse(match[$fog$0] || match[$fog$6]);
-    var groupByFn = $parse(match[$fog$206] || $fog$4);
-    var disableWhenFn = $parse(match[$fog$230] || $fog$4);
-    var valuesFn = $parse(match[$fog$207]);
+    var displayFn = $parse(match[$fog$1587] || match[$fog$1581]);
+    var groupByFn = $parse(match[$fog$1381] || $fog$1583);
+    var disableWhenFn = $parse(match[$fog$1357] || $fog$1583);
+    var valuesFn = $parse(match[$fog$1380]);
 
     var locals = {};
     var getLocals = keyName ? function(value, key) {
@@ -26097,11 +26113,11 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
 
 
     function Option(selectValue, viewValue, label, group, disabled) {
-      this[$fog$1443] = selectValue;
-      this[$fog$1444] = viewValue;
-      this[$fog$1445] = label;
-      this[$fog$1446] = group;
-      this[$fog$1447] = disabled;
+      this[$fog$144] = selectValue;
+      this[$fog$143] = viewValue;
+      this[$fog$142] = label;
+      this[$fog$141] = group;
+      this[$fog$140] = disabled;
     }
 
     function getOptionValuesKeys(optionValues) {
@@ -26113,8 +26129,8 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
         // if object, extract keys, in enumeration order, unsorted
         optionValuesKeys = [];
         for (var itemKey in optionValues) {
-          if (optionValues[$fog$20](itemKey) && itemKey[$fog$93]($fog$1) !== $fog$94) {
-            optionValuesKeys[$fog$31](itemKey);
+          if (optionValues[$fog$1567](itemKey) && itemKey[$fog$1494]($fog$1586) !== $fog$1493) {
+            optionValuesKeys[$fog$1556](itemKey);
           }
         }
       }
@@ -26132,25 +26148,25 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
         optionValues = optionValues || [];
 
         var optionValuesKeys = getOptionValuesKeys(optionValues);
-        var optionValuesLength = optionValuesKeys[$fog$10];
-        for (var index = $fog$1; index < optionValuesLength; index++) {
+        var optionValuesLength = optionValuesKeys[$fog$1577];
+        for (var index = $fog$1586; index < optionValuesLength; index++) {
           var key = (optionValues === optionValuesKeys) ? index : optionValuesKeys[index];
           var value = optionValues[key];
 
           var locals = getLocals(optionValues[key], key);
           var selectValue = getTrackByValueFn(optionValues[key], locals);
-          watchedArray[$fog$31](selectValue);
+          watchedArray[$fog$1556](selectValue);
 
           // Only need to watch the displayFn if there is a specific label expression
-          if (match[$fog$0] || match[$fog$6]) {
+          if (match[$fog$1587] || match[$fog$1581]) {
             var label = displayFn(scope, locals);
-            watchedArray[$fog$31](label);
+            watchedArray[$fog$1556](label);
           }
 
           // Only need to watch the disableWhenFn if there is a specific disable expression
-          if (match[$fog$230]) {
+          if (match[$fog$1357]) {
             var disableWhen = disableWhenFn(scope, locals);
-            watchedArray[$fog$31](disableWhen);
+            watchedArray[$fog$1556](disableWhen);
           }
         }
         return watchedArray;
@@ -26165,9 +26181,9 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
         // which must have been called to trigger `getOptions`
         var optionValues = valuesFn(scope) || [];
         var optionValuesKeys = getOptionValuesKeys(optionValues);
-        var optionValuesLength = optionValuesKeys[$fog$10];
+        var optionValuesLength = optionValuesKeys[$fog$1577];
 
-        for (var index = $fog$1; index < optionValuesLength; index++) {
+        for (var index = $fog$1586; index < optionValuesLength; index++) {
           var key = (optionValues === optionValuesKeys) ? index : optionValuesKeys[index];
           var value = optionValues[key];
           var locals = getLocals(value, key);
@@ -26178,7 +26194,7 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
           var disabled = disableWhenFn(scope, locals);
           var optionItem = new Option(selectValue, viewValue, label, group, disabled);
 
-          optionItems[$fog$31](optionItem);
+          optionItems[$fog$1556](optionItem);
           selectValueMap[selectValue] = optionItem;
         }
 
@@ -26191,7 +26207,7 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
           getViewValueFromOption: function(option) {
             // If the viewValue could be an object that may be mutated by the application,
             // we need to make a copy and not return the reference to the value on the option.
-            return trackBy ? angular[$fog$1448](option[$fog$1444]) : option[$fog$1444];
+            return trackBy ? angular[$fog$139](option[$fog$143]) : option[$fog$143];
           }
         };
       }
@@ -26201,86 +26217,86 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
 
   // we can't just jqLite('<option>') since jqLite is not smart enough
   // to create it in <select> and IE barfs otherwise.
-  var optionTemplate = document[$fog$270]($fog$259),
-      optGroupTemplate = document[$fog$270]($fog$258);
+  var optionTemplate = document[$fog$1317]($fog$1328),
+      optGroupTemplate = document[$fog$1317]($fog$1329);
 
   return {
-    restrict: $fog$589,
-    terminal: $fog$40,
-    require: [$fog$323, $fog$1359],
+    restrict: $fog$998,
+    terminal: $fog$1547,
+    require: [$fog$1264, $fog$228],
     link: function(scope, selectElement, attr, ctrls) {
 
       // if ngModel is not defined, we don't need to do anything
-      var ngModelCtrl = ctrls[$fog$6];
+      var ngModelCtrl = ctrls[$fog$1581];
       if (!ngModelCtrl) return;
 
-      var selectCtrl = ctrls[$fog$1];
-      var multiple = attr[$fog$322];
+      var selectCtrl = ctrls[$fog$1586];
+      var multiple = attr[$fog$1265];
 
       // The emptyOption allows the application developer to provide their own custom "empty"
       // option when the viewValue does not match any of the option values.
       var emptyOption;
-      for (var i = $fog$1, children = selectElement[$fog$855](), ii = children[$fog$10]; i < ii; i++) {
-        if (children[i][$fog$163] === $fog$4) {
-          emptyOption = children[$fog$345](i);
+      for (var i = $fog$1586, children = selectElement[$fog$732](), ii = children[$fog$1577]; i < ii; i++) {
+        if (children[i][$fog$1424] === $fog$1583) {
+          emptyOption = children[$fog$1242](i);
           break;
         }
       }
 
       var providedEmptyOption = !!emptyOption;
 
-      var unknownOption = jqLite(optionTemplate[$fog$282]($fog$38));
-      unknownOption[$fog$1318]($fog$13);
+      var unknownOption = jqLite(optionTemplate[$fog$1305]($fog$1549));
+      unknownOption[$fog$269]($fog$1574);
 
       var options;
-      var ngOptions = parseOptionsExpression(attr[$fog$1436], selectElement, scope);
+      var ngOptions = parseOptionsExpression(attr[$fog$151], selectElement, scope);
 
 
       var renderEmptyOption = function() {
         if (!providedEmptyOption) {
-          selectElement[$fog$434](emptyOption);
+          selectElement[$fog$1153](emptyOption);
         }
-        selectElement[$fog$1318]($fog$4);
-        emptyOption[$fog$75]($fog$325, $fog$40); // needed for IE
-        emptyOption[$fog$76]($fog$325, $fog$40);
+        selectElement[$fog$269]($fog$1583);
+        emptyOption[$fog$1512]($fog$1262, $fog$1547); // needed for IE
+        emptyOption[$fog$1511]($fog$1262, $fog$1547);
       };
 
       var removeEmptyOption = function() {
         if (!providedEmptyOption) {
-          emptyOption[$fog$420]();
+          emptyOption[$fog$1167]();
         }
       };
 
 
       var renderUnknownOption = function() {
-        selectElement[$fog$434](unknownOption);
-        selectElement[$fog$1318]($fog$13);
-        unknownOption[$fog$75]($fog$325, $fog$40); // needed for IE
-        unknownOption[$fog$76]($fog$325, $fog$40);
+        selectElement[$fog$1153](unknownOption);
+        selectElement[$fog$269]($fog$1574);
+        unknownOption[$fog$1512]($fog$1262, $fog$1547); // needed for IE
+        unknownOption[$fog$1511]($fog$1262, $fog$1547);
       };
 
       var removeUnknownOption = function() {
-        unknownOption[$fog$420]();
+        unknownOption[$fog$1167]();
       };
 
 
       // Update the controller methods for multiple selectable options
       if (!multiple) {
 
-        selectCtrl[$fog$1449] = function writeNgOptionsValue(value) {
-          var option = options[$fog$1450](value);
+        selectCtrl[$fog$138] = function writeNgOptionsValue(value) {
+          var option = options[$fog$137](value);
 
-          if (option && !option[$fog$1447]) {
-            if (selectElement[$fog$1][$fog$163] !== option[$fog$1443]) {
+          if (option && !option[$fog$140]) {
+            if (selectElement[$fog$1586][$fog$1424] !== option[$fog$144]) {
               removeUnknownOption();
               removeEmptyOption();
 
-              selectElement[$fog$1][$fog$163] = option[$fog$1443];
-              option[$fog$180][$fog$325] = $fog$40;
-              option[$fog$180][$fog$291]($fog$325, $fog$325);
+              selectElement[$fog$1586][$fog$1424] = option[$fog$144];
+              option[$fog$1407][$fog$1262] = $fog$1547;
+              option[$fog$1407][$fog$1296]($fog$1262, $fog$1262);
             }
           } else {
-            if (value === $fog$37 || providedEmptyOption) {
+            if (value === $fog$1550 || providedEmptyOption) {
               removeUnknownOption();
               renderEmptyOption();
             } else {
@@ -26290,55 +26306,55 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
           }
         };
 
-        selectCtrl[$fog$1451] = function readNgOptionsValue() {
+        selectCtrl[$fog$136] = function readNgOptionsValue() {
 
-          var selectedOption = options[$fog$1452][selectElement[$fog$1318]()];
+          var selectedOption = options[$fog$135][selectElement[$fog$269]()];
 
-          if (selectedOption && !selectedOption[$fog$1447]) {
+          if (selectedOption && !selectedOption[$fog$140]) {
             removeEmptyOption();
             removeUnknownOption();
-            return options[$fog$1453](selectedOption);
+            return options[$fog$134](selectedOption);
           }
-          return $fog$37;
+          return $fog$1550;
         };
 
         // If we are using `track by` then we must watch the tracked value on the model
         // since ngModel only watches for object identity change
-        if (ngOptions[$fog$1454]) {
-          scope[$fog$61](
-            function() { return ngOptions[$fog$1455](ngModelCtrl[$fog$1321]); },
-            function() { ngModelCtrl[$fog$1335](); }
+        if (ngOptions[$fog$133]) {
+          scope[$fog$1526](
+            function() { return ngOptions[$fog$132](ngModelCtrl[$fog$266]); },
+            function() { ngModelCtrl[$fog$252](); }
           );
         }
 
       } else {
 
-        ngModelCtrl[$fog$1314] = function(value) {
-          return !value || value[$fog$10] === $fog$1;
+        ngModelCtrl[$fog$273] = function(value) {
+          return !value || value[$fog$1577] === $fog$1586;
         };
 
 
-        selectCtrl[$fog$1449] = function writeNgOptionsMultiple(value) {
-          options[$fog$1456][$fog$45](function(option) {
-            option[$fog$180][$fog$325] = $fog$38;
+        selectCtrl[$fog$138] = function writeNgOptionsMultiple(value) {
+          options[$fog$131][$fog$1542](function(option) {
+            option[$fog$1407][$fog$1262] = $fog$1549;
           });
 
           if (value) {
-            value[$fog$45](function(item) {
-              var option = options[$fog$1450](item);
-              if (option && !option[$fog$1447]) option[$fog$180][$fog$325] = $fog$40;
+            value[$fog$1542](function(item) {
+              var option = options[$fog$137](item);
+              if (option && !option[$fog$140]) option[$fog$1407][$fog$1262] = $fog$1547;
             });
           }
         };
 
 
-        selectCtrl[$fog$1451] = function readNgOptionsMultiple() {
-          var selectedValues = selectElement[$fog$1318]() || [],
+        selectCtrl[$fog$136] = function readNgOptionsMultiple() {
+          var selectedValues = selectElement[$fog$269]() || [],
               selections = [];
 
           forEach(selectedValues, function(value) {
-            var option = options[$fog$1452][value];
-            if (option && !option[$fog$1447]) selections[$fog$31](options[$fog$1453](option));
+            var option = options[$fog$135][value];
+            if (option && !option[$fog$140]) selections[$fog$1556](options[$fog$134](option));
           });
 
           return selections;
@@ -26346,16 +26362,16 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
 
         // If we are using `track by` then we must watch these tracked values on the model
         // since ngModel only watches for object identity change
-        if (ngOptions[$fog$1454]) {
+        if (ngOptions[$fog$133]) {
 
-          scope[$fog$662](function() {
-            if (isArray(ngModelCtrl[$fog$1321])) {
-              return ngModelCtrl[$fog$1321][$fog$1253](function(value) {
-                return ngOptions[$fog$1455](value);
+          scope[$fog$925](function() {
+            if (isArray(ngModelCtrl[$fog$266])) {
+              return ngModelCtrl[$fog$266][$fog$334](function(value) {
+                return ngOptions[$fog$132](value);
               });
             }
           }, function() {
-            ngModelCtrl[$fog$1335]();
+            ngModelCtrl[$fog$252]();
           });
 
         }
@@ -26366,16 +26382,16 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
 
         // we need to remove it before calling selectElement.empty() because otherwise IE will
         // remove the label from the element. wtf?
-        emptyOption[$fog$420]();
+        emptyOption[$fog$1167]();
 
         // compile the element since there might be bindings in it
         $compile(emptyOption)(scope);
 
         // remove the class, which is added automatically because we recompile the element and it
         // becomes the compilation root
-        emptyOption[$fog$418]($fog$561);
+        emptyOption[$fog$1169]($fog$1026);
       } else {
-        emptyOption = jqLite(optionTemplate[$fog$282]($fog$38));
+        emptyOption = jqLite(optionTemplate[$fog$1305]($fog$1549));
       }
 
       // We need to do this here to ensure that the options object is defined
@@ -26383,36 +26399,36 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
       updateOptions();
 
       // We will re-render the option elements if the option values or labels change
-      scope[$fog$662](ngOptions[$fog$1457], updateOptions);
+      scope[$fog$925](ngOptions[$fog$130], updateOptions);
 
       // ------------------------------------------------------------------ //
 
 
       function updateOptionElement(option, element) {
-        option[$fog$180] = element;
-        element[$fog$1447] = option[$fog$1447];
-        if (option[$fog$163] !== element[$fog$163]) element[$fog$163] = option[$fog$1443];
-        if (option[$fog$1445] !== element[$fog$1445]) {
-          element[$fog$1445] = option[$fog$1445];
-          element[$fog$279] = option[$fog$1445];
+        option[$fog$1407] = element;
+        element[$fog$140] = option[$fog$140];
+        if (option[$fog$1424] !== element[$fog$1424]) element[$fog$1424] = option[$fog$144];
+        if (option[$fog$142] !== element[$fog$142]) {
+          element[$fog$142] = option[$fog$142];
+          element[$fog$1308] = option[$fog$142];
         }
       }
 
       function addOrReuseElement(parent, current, type, templateElement) {
         var element;
         // Check whether we can reuse the next element
-        if (current && lowercase(current[$fog$74]) === type) {
+        if (current && lowercase(current[$fog$1513]) === type) {
           // The next element is the right type so reuse it
           element = current;
         } else {
           // The next element is not the right type so create a new one
-          element = templateElement[$fog$282]($fog$38);
+          element = templateElement[$fog$1305]($fog$1549);
           if (!current) {
             // There are no more elements so just append it to the select
-            parent[$fog$269](element);
+            parent[$fog$1318](element);
           } else {
             // The next element is not a group so insert the new one
-            parent[$fog$342](element, current);
+            parent[$fog$1245](element, current);
           }
         }
         return element;
@@ -26422,7 +26438,7 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
       function removeExcessElements(current) {
         var next;
         while (current) {
-          next = current[$fog$205];
+          next = current[$fog$1382];
           jqLiteRemove(current);
           current = next;
         }
@@ -26430,14 +26446,14 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
 
 
       function skipEmptyAndUnknownOptions(current) {
-        var emptyOption_ = emptyOption && emptyOption[$fog$1];
-        var unknownOption_ = unknownOption && unknownOption[$fog$1];
+        var emptyOption_ = emptyOption && emptyOption[$fog$1586];
+        var unknownOption_ = unknownOption && unknownOption[$fog$1586];
 
         if (emptyOption_ || unknownOption_) {
           while (current &&
                 (current === emptyOption_ ||
                 current === unknownOption_)) {
-            current = current[$fog$205];
+            current = current[$fog$1382];
           }
         }
         return current;
@@ -26446,89 +26462,89 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
 
       function updateOptions() {
 
-        var previousValue = options && selectCtrl[$fog$1451]();
+        var previousValue = options && selectCtrl[$fog$136]();
 
-        options = ngOptions[$fog$1458]();
+        options = ngOptions[$fog$129]();
 
         var groupMap = {};
-        var currentElement = selectElement[$fog$1][$fog$278];
+        var currentElement = selectElement[$fog$1586][$fog$1309];
 
         // Ensure that the empty option is always there if it was explicitly provided
         if (providedEmptyOption) {
-          selectElement[$fog$434](emptyOption);
+          selectElement[$fog$1153](emptyOption);
         }
 
         currentElement = skipEmptyAndUnknownOptions(currentElement);
 
-        options[$fog$1456][$fog$45](function updateOption(option) {
+        options[$fog$131][$fog$1542](function updateOption(option) {
           var group;
           var groupElement;
           var optionElement;
 
-          if (option[$fog$1446]) {
+          if (option[$fog$141]) {
 
             // This option is to live in a group
             // See if we have already created this group
-            group = groupMap[option[$fog$1446]];
+            group = groupMap[option[$fog$141]];
 
             if (!group) {
 
               // We have not already created this group
-              groupElement = addOrReuseElement(selectElement[$fog$1],
+              groupElement = addOrReuseElement(selectElement[$fog$1586],
                                                currentElement,
-                                               $fog$258,
+                                               $fog$1329,
                                                optGroupTemplate);
               // Move to the next element
-              currentElement = groupElement[$fog$205];
+              currentElement = groupElement[$fog$1382];
 
               // Update the label on the group element
-              groupElement[$fog$1445] = option[$fog$1446];
+              groupElement[$fog$142] = option[$fog$141];
 
               // Store it for use later
-              group = groupMap[option[$fog$1446]] = {
+              group = groupMap[option[$fog$141]] = {
                 groupElement: groupElement,
-                currentOptionElement: groupElement[$fog$278]
+                currentOptionElement: groupElement[$fog$1309]
               };
 
             }
 
             // So now we have a group for this option we add the option to the group
-            optionElement = addOrReuseElement(group[$fog$1459],
-                                              group[$fog$1460],
-                                              $fog$259,
+            optionElement = addOrReuseElement(group[$fog$128],
+                                              group[$fog$127],
+                                              $fog$1328,
                                               optionTemplate);
             updateOptionElement(option, optionElement);
             // Move to the next element
-            group[$fog$1460] = optionElement[$fog$205];
+            group[$fog$127] = optionElement[$fog$1382];
 
           } else {
 
             // This option is not in a group
-            optionElement = addOrReuseElement(selectElement[$fog$1],
+            optionElement = addOrReuseElement(selectElement[$fog$1586],
                                               currentElement,
-                                              $fog$259,
+                                              $fog$1328,
                                               optionTemplate);
             updateOptionElement(option, optionElement);
             // Move to the next element
-            currentElement = optionElement[$fog$205];
+            currentElement = optionElement[$fog$1382];
           }
         });
 
 
         // Now remove all excess options and group
-        Object[$fog$48](groupMap)[$fog$45](function(key) {
-          removeExcessElements(groupMap[key][$fog$1460]);
+        Object[$fog$1539](groupMap)[$fog$1542](function(key) {
+          removeExcessElements(groupMap[key][$fog$127]);
         });
         removeExcessElements(currentElement);
 
-        ngModelCtrl[$fog$1335]();
+        ngModelCtrl[$fog$252]();
 
         // Check to see if the value has changed due to the update to the options
-        if (!ngModelCtrl[$fog$1314](previousValue)) {
-          var nextValue = selectCtrl[$fog$1451]();
-          if (ngOptions[$fog$1454] ? !equals(previousValue, nextValue) : previousValue !== nextValue) {
-            ngModelCtrl[$fog$1323](nextValue);
-            ngModelCtrl[$fog$1335]();
+        if (!ngModelCtrl[$fog$273](previousValue)) {
+          var nextValue = selectCtrl[$fog$136]();
+          if (ngOptions[$fog$133] ? !equals(previousValue, nextValue) : previousValue !== nextValue) {
+            ngModelCtrl[$fog$264](nextValue);
+            ngModelCtrl[$fog$252]();
           }
         }
 
@@ -26713,43 +26729,43 @@ var ngOptionsDirective = [$fog$169, $fog$530, function($compile, $parse) {
       </file>
     </example>
  */
-var ngPluralizeDirective = [$fog$1198, $fog$528, $fog$481, function($locale, $interpolate, $log) {
-  var BRACE = $fog$1461,
-      IS_WHEN = $fog$1462;
+var ngPluralizeDirective = [$fog$389, $fog$1059, $fog$1106, function($locale, $interpolate, $log) {
+  var BRACE = $fog$126,
+      IS_WHEN = $fog$125;
 
   return {
     link: function(scope, element, attr) {
-      var numberExp = attr[$fog$1463],
-          whenExp = attr[$fog$534][$fog$707] && element[$fog$76](attr[$fog$534][$fog$707]), // we have {{}} in attrs
-          offset = attr[$fog$1464] || $fog$1,
-          whens = scope[$fog$1096](whenExp) || {},
+      var numberExp = attr[$fog$124],
+          whenExp = attr[$fog$1053][$fog$880] && element[$fog$1511](attr[$fog$1053][$fog$880]), // we have {{}} in attrs
+          offset = attr[$fog$123] || $fog$1586,
+          whens = scope[$fog$491](whenExp) || {},
           whensExpFns = {},
-          startSymbol = $interpolate[$fog$547](),
-          endSymbol = $interpolate[$fog$548](),
-          braceReplacement = startSymbol + numberExp + $fog$536 + offset + endSymbol,
-          watchRemover = angular[$fog$1385],
+          startSymbol = $interpolate[$fog$1040](),
+          endSymbol = $interpolate[$fog$1039](),
+          braceReplacement = startSymbol + numberExp + $fog$1051 + offset + endSymbol,
+          watchRemover = angular[$fog$202],
           lastCount;
 
       forEach(attr, function(expression, attributeName) {
-        var tmpMatch = IS_WHEN[$fog$272](attributeName);
+        var tmpMatch = IS_WHEN[$fog$1315](attributeName);
         if (tmpMatch) {
-          var whenKey = (tmpMatch[$fog$6] ? $fog$536 : $fog$4) + lowercase(tmpMatch[$fog$0]);
-          whens[whenKey] = element[$fog$76](attr[$fog$534][attributeName]);
+          var whenKey = (tmpMatch[$fog$1581] ? $fog$1051 : $fog$1583) + lowercase(tmpMatch[$fog$1587]);
+          whens[whenKey] = element[$fog$1511](attr[$fog$1053][attributeName]);
         }
       });
       forEach(whens, function(expression, key) {
-        whensExpFns[key] = $interpolate(expression[$fog$7](BRACE, braceReplacement));
+        whensExpFns[key] = $interpolate(expression[$fog$1580](BRACE, braceReplacement));
 
       });
 
-      scope[$fog$61](numberExp, function ngPluralizeWatchAction(newVal) {
+      scope[$fog$1526](numberExp, function ngPluralizeWatchAction(newVal) {
         var count = parseFloat(newVal);
         var countIsNaN = isNaN(count);
 
         if (!countIsNaN && !(count in whens)) {
           // If an explicit number rule such as 1, 2, 3... is defined, just use it.
           // Otherwise, check it against pluralization rules in $locale service.
-          count = $locale[$fog$1465](count - offset);
+          count = $locale[$fog$122](count - offset);
         }
 
         // If both `count` and `lastCount` are NaN, we don't need to re-register a watch.
@@ -26758,20 +26774,20 @@ var ngPluralizeDirective = [$fog$1198, $fog$528, $fog$481, function($locale, $in
           watchRemover();
           var whenExpFn = whensExpFns[count];
           if (isUndefined(whenExpFn)) {
-            if (newVal != $fog$37) {
-              $log[$fog$838]($fog$1466 + count + $fog$1467 + whenExp);
+            if (newVal != $fog$1550) {
+              $log[$fog$749]($fog$121 + count + $fog$120 + whenExp);
             }
             watchRemover = noop;
             updateElementText();
           } else {
-            watchRemover = scope[$fog$61](whenExpFn, updateElementText);
+            watchRemover = scope[$fog$1526](whenExpFn, updateElementText);
           }
           lastCount = count;
         }
       });
 
       function updateElementText(newText) {
-        element[$fog$326](newText || $fog$4);
+        element[$fog$1261](newText || $fog$1583);
       }
     }
   };
@@ -27075,67 +27091,67 @@ var ngPluralizeDirective = [$fog$1198, $fog$528, $fog$481, function($locale, $in
       </file>
     </example>
  */
-var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
-  var NG_REMOVED = $fog$1468;
-  var ngRepeatMinErr = minErr($fog$1469);
+var ngRepeatDirective = [$fog$1057, $fog$1180, function($parse, $animate) {
+  var NG_REMOVED = $fog$119;
+  var ngRepeatMinErr = minErr($fog$118);
 
   var updateScope = function(scope, index, valueIdentifier, value, keyIdentifier, key, arrayLength) {
     // TODO(perf): generate setters to shave off ~40ms or 1-1.5%
     scope[valueIdentifier] = value;
     if (keyIdentifier) scope[keyIdentifier] = key;
-    scope[$fog$1369] = index;
-    scope[$fog$1470] = (index === $fog$1);
-    scope[$fog$1471] = (index === (arrayLength - $fog$6));
-    scope[$fog$1472] = !(scope[$fog$1470] || scope[$fog$1471]);
+    scope[$fog$218] = index;
+    scope[$fog$117] = (index === $fog$1586);
+    scope[$fog$116] = (index === (arrayLength - $fog$1581));
+    scope[$fog$115] = !(scope[$fog$117] || scope[$fog$116]);
     // jshint bitwise: false
-    scope[$fog$1473] = !(scope[$fog$1474] = (index&$fog$6) === $fog$1);
+    scope[$fog$114] = !(scope[$fog$113] = (index&$fog$1581) === $fog$1586);
     // jshint bitwise: true
   };
 
   var getBlockStart = function(block) {
-    return block[$fog$120][$fog$1];
+    return block[$fog$1467][$fog$1586];
   };
 
   var getBlockEnd = function(block) {
-    return block[$fog$120][block[$fog$120][$fog$10] - $fog$6];
+    return block[$fog$1467][block[$fog$1467][$fog$1577] - $fog$1581];
   };
 
 
   return {
-    restrict: $fog$589,
-    multiElement: $fog$40,
-    transclude: $fog$180,
-    priority: $fog$1248,
-    terminal: $fog$40,
-    $$tlb: $fog$40,
+    restrict: $fog$998,
+    multiElement: $fog$1547,
+    transclude: $fog$1407,
+    priority: $fog$339,
+    terminal: $fog$1547,
+    $$tlb: $fog$1547,
     compile: function ngRepeatCompile($element, $attr) {
-      var expression = $attr[$fog$1469];
-      var ngRepeatEndComment = document[$fog$609]($fog$1475 + expression + $fog$288);
+      var expression = $attr[$fog$118];
+      var ngRepeatEndComment = document[$fog$978]($fog$112 + expression + $fog$1299);
 
-      var match = expression[$fog$88]($fog$1476);
+      var match = expression[$fog$1499]($fog$111);
 
       if (!match) {
-        throw ngRepeatMinErr($fog$1438, $fog$1477,
+        throw ngRepeatMinErr($fog$149, $fog$110,
             expression);
       }
 
-      var lhs = match[$fog$6];
-      var rhs = match[$fog$0];
-      var aliasAs = match[$fog$206];
-      var trackByExp = match[$fog$230];
+      var lhs = match[$fog$1581];
+      var rhs = match[$fog$1587];
+      var aliasAs = match[$fog$1381];
+      var trackByExp = match[$fog$1357];
 
-      match = lhs[$fog$88]($fog$1478);
+      match = lhs[$fog$1499]($fog$109);
 
       if (!match) {
-        throw ngRepeatMinErr($fog$1479, $fog$1480,
+        throw ngRepeatMinErr($fog$108, $fog$107,
             lhs);
       }
-      var valueIdentifier = match[$fog$206] || match[$fog$6];
-      var keyIdentifier = match[$fog$0];
+      var valueIdentifier = match[$fog$1381] || match[$fog$1581];
+      var keyIdentifier = match[$fog$1587];
 
-      if (aliasAs && (!$fog$1481[$fog$68](aliasAs) ||
-          $fog$1482[$fog$68](aliasAs))) {
-        throw ngRepeatMinErr($fog$1483, $fog$1484,
+      if (aliasAs && (!$fog$106[$fog$1519](aliasAs) ||
+          $fog$105[$fog$1519](aliasAs))) {
+        throw ngRepeatMinErr($fog$104, $fog$103,
           aliasAs);
       }
 
@@ -27160,7 +27176,7 @@ var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
             // assign key, value, and $index to the locals so that they can be used in hash functions
             if (keyIdentifier) hashFnLocals[keyIdentifier] = key;
             hashFnLocals[valueIdentifier] = value;
-            hashFnLocals[$fog$1369] = index;
+            hashFnLocals[$fog$218] = index;
             return trackByExpGetter($scope, hashFnLocals);
           };
         }
@@ -27176,9 +27192,9 @@ var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
         var lastBlockMap = createMap();
 
         //watch props
-        $scope[$fog$662](rhs, function ngRepeatAction(collection) {
+        $scope[$fog$925](rhs, function ngRepeatAction(collection) {
           var index, length,
-              previousNode = $element[$fog$1],     // node that cloned nodes should be inserted after
+              previousNode = $element[$fog$1586],     // node that cloned nodes should be inserted after
                                               // initialized to the comment node anchor
               nextNode,
               // Same as lastBlockMap but it has the current state. It will become the
@@ -27205,17 +27221,17 @@ var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
             // if object, extract keys, in enumeration order, unsorted
             collectionKeys = [];
             for (var itemKey in collection) {
-              if (collection[$fog$20](itemKey) && itemKey[$fog$93]($fog$1) !== $fog$94) {
-                collectionKeys[$fog$31](itemKey);
+              if (collection[$fog$1567](itemKey) && itemKey[$fog$1494]($fog$1586) !== $fog$1493) {
+                collectionKeys[$fog$1556](itemKey);
               }
             }
           }
 
-          collectionLength = collectionKeys[$fog$10];
+          collectionLength = collectionKeys[$fog$1577];
           nextBlockOrder = new Array(collectionLength);
 
           // locate existing items
-          for (index = $fog$1; index < collectionLength; index++) {
+          for (index = $fog$1586; index < collectionLength; index++) {
             key = (collection === collectionKeys) ? index : collectionKeys[index];
             value = collection[key];
             trackById = trackByIdFn(key, value, index);
@@ -27228,40 +27244,40 @@ var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
             } else if (nextBlockMap[trackById]) {
               // if collision detected. restore lastBlockMap and throw an error
               forEach(nextBlockOrder, function(block) {
-                if (block && block[$fog$188]) lastBlockMap[block[$fog$1485]] = block;
+                if (block && block[$fog$1399]) lastBlockMap[block[$fog$102]] = block;
               });
-              throw ngRepeatMinErr($fog$1486,
-                  $fog$1487,
+              throw ngRepeatMinErr($fog$101,
+                  $fog$100,
                   expression, trackById, value);
             } else {
               // new never before seen block
               nextBlockOrder[index] = {id: trackById, scope: undefined, clone: undefined};
-              nextBlockMap[trackById] = $fog$40;
+              nextBlockMap[trackById] = $fog$1547;
             }
           }
 
           // remove leftover items
           for (var blockKey in lastBlockMap) {
             block = lastBlockMap[blockKey];
-            elementsToRemove = getBlockNodes(block[$fog$120]);
-            $animate[$fog$441](elementsToRemove);
-            if (elementsToRemove[$fog$1][$fog$295]) {
+            elementsToRemove = getBlockNodes(block[$fog$1467]);
+            $animate[$fog$1146](elementsToRemove);
+            if (elementsToRemove[$fog$1586][$fog$1292]) {
               // if the element was not removed yet because of pending animation, mark it as deleted
               // so that we can ignore it later
-              for (index = $fog$1, length = elementsToRemove[$fog$10]; index < length; index++) {
-                elementsToRemove[index][NG_REMOVED] = $fog$40;
+              for (index = $fog$1586, length = elementsToRemove[$fog$1577]; index < length; index++) {
+                elementsToRemove[index][NG_REMOVED] = $fog$1547;
               }
             }
-            block[$fog$188][$fog$195]();
+            block[$fog$1399][$fog$1392]();
           }
 
           // we are not using forEach for perf reasons (trying to avoid #call)
-          for (index = $fog$1; index < collectionLength; index++) {
+          for (index = $fog$1586; index < collectionLength; index++) {
             key = (collection === collectionKeys) ? index : collectionKeys[index];
             value = collection[key];
             block = nextBlockOrder[index];
 
-            if (block[$fog$188]) {
+            if (block[$fog$1399]) {
               // if we have already seen this object, then we need to reuse the
               // associated scope/element
 
@@ -27269,32 +27285,32 @@ var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
 
               // skip nodes that are already pending removal via leave animation
               do {
-                nextNode = nextNode[$fog$205];
+                nextNode = nextNode[$fog$1382];
               } while (nextNode && nextNode[NG_REMOVED]);
 
               if (getBlockStart(block) != nextNode) {
                 // existing item which got moved
-                $animate[$fog$440](getBlockNodes(block[$fog$120]), $fog$37, jqLite(previousNode));
+                $animate[$fog$1147](getBlockNodes(block[$fog$1467]), $fog$1550, jqLite(previousNode));
               }
               previousNode = getBlockEnd(block);
-              updateScope(block[$fog$188], index, valueIdentifier, value, keyIdentifier, key, collectionLength);
+              updateScope(block[$fog$1399], index, valueIdentifier, value, keyIdentifier, key, collectionLength);
             } else {
               // new item which we don't know about
               $transclude(function ngRepeatTransclude(clone, scope) {
-                block[$fog$188] = scope;
+                block[$fog$1399] = scope;
                 // http://jsperf.com/clone-vs-createcomment
-                var endNode = ngRepeatEndComment[$fog$282]($fog$38);
-                clone[clone[$fog$10]++] = endNode;
+                var endNode = ngRepeatEndComment[$fog$1305]($fog$1549);
+                clone[clone[$fog$1577]++] = endNode;
 
                 // TODO(perf): support naked previousNode in `enter` to avoid creation of jqLite wrapper?
-                $animate[$fog$439](clone, $fog$37, jqLite(previousNode));
+                $animate[$fog$1148](clone, $fog$1550, jqLite(previousNode));
                 previousNode = endNode;
                 // Note: We only need the first/last node of the cloned nodes.
                 // However, we need to keep the reference to the jqlite wrapper as it might be changed later
                 // by a directive with templateUrl when its template arrives.
-                block[$fog$120] = clone;
-                nextBlockMap[block[$fog$1485]] = block;
-                updateScope(block[$fog$188], index, valueIdentifier, value, keyIdentifier, key, collectionLength);
+                block[$fog$1467] = clone;
+                nextBlockMap[block[$fog$102]] = block;
+                updateScope(block[$fog$1399], index, valueIdentifier, value, keyIdentifier, key, collectionLength);
               });
             }
           }
@@ -27305,8 +27321,8 @@ var ngRepeatDirective = [$fog$530, $fog$407, function($parse, $animate) {
   };
 }];
 
-var NG_HIDE_CLASS = $fog$1488;
-var NG_HIDE_IN_PROGRESS_CLASS = $fog$1489;
+var NG_HIDE_CLASS = $fog$99;
+var NG_HIDE_IN_PROGRESS_CLASS = $fog$98;
 /**
  * @ngdoc directive
  * @name ngShow
@@ -27464,17 +27480,17 @@ var NG_HIDE_IN_PROGRESS_CLASS = $fog$1489;
     </file>
   </example>
  */
-var ngShowDirective = [$fog$407, function($animate) {
+var ngShowDirective = [$fog$1180, function($animate) {
   return {
-    restrict: $fog$589,
-    multiElement: $fog$40,
+    restrict: $fog$998,
+    multiElement: $fog$1547,
     link: function(scope, element, attr) {
-      scope[$fog$61](attr[$fog$1490], function ngShowWatchAction(value) {
+      scope[$fog$1526](attr[$fog$97], function ngShowWatchAction(value) {
         // we're adding a temporary, animation-specific class for ng-hide since this way
         // we can control when the element is actually displayed on screen without having
         // to have a global/greedy CSS selector that breaks when other animations are run.
         // Read: https://github.com/angular/angular.js/issues/9103#issuecomment-58335845
-        $animate[value ? $fog$418 : $fog$417](element, NG_HIDE_CLASS, {
+        $animate[value ? $fog$1169 : $fog$1170](element, NG_HIDE_CLASS, {
           tempClasses: NG_HIDE_IN_PROGRESS_CLASS
         });
       });
@@ -27626,15 +27642,15 @@ var ngShowDirective = [$fog$407, function($animate) {
     </file>
   </example>
  */
-var ngHideDirective = [$fog$407, function($animate) {
+var ngHideDirective = [$fog$1180, function($animate) {
   return {
-    restrict: $fog$589,
-    multiElement: $fog$40,
+    restrict: $fog$998,
+    multiElement: $fog$1547,
     link: function(scope, element, attr) {
-      scope[$fog$61](attr[$fog$1491], function ngHideWatchAction(value) {
+      scope[$fog$1526](attr[$fog$96], function ngHideWatchAction(value) {
         // The comment inside of the ngShowDirective explains why we add and
         // remove a temporary class for the show/hide animation
-        $animate[value ? $fog$417 : $fog$418](element,NG_HIDE_CLASS, {
+        $animate[value ? $fog$1170 : $fog$1169](element,NG_HIDE_CLASS, {
           tempClasses: NG_HIDE_IN_PROGRESS_CLASS
         });
       });
@@ -27689,12 +27705,12 @@ var ngHideDirective = [$fog$407, function($animate) {
    </example>
  */
 var ngStyleDirective = ngDirective(function(scope, element, attr) {
-  scope[$fog$61](attr[$fog$1492], function ngStyleWatchAction(newStyles, oldStyles) {
+  scope[$fog$1526](attr[$fog$95], function ngStyleWatchAction(newStyles, oldStyles) {
     if (oldStyles && (newStyles !== oldStyles)) {
-      forEach(oldStyles, function(val, style) { element[$fog$415](style, $fog$4);});
+      forEach(oldStyles, function(val, style) { element[$fog$1172](style, $fog$1583);});
     }
-    if (newStyles) element[$fog$415](newStyles);
-  }, $fog$40);
+    if (newStyles) element[$fog$1172](newStyles);
+  }, $fog$1547);
 });
 
 /**
@@ -27825,52 +27841,52 @@ var ngStyleDirective = ngDirective(function(scope, element, attr) {
     </file>
   </example>
  */
-var ngSwitchDirective = [$fog$407, function($animate) {
+var ngSwitchDirective = [$fog$1180, function($animate) {
   return {
-    require: $fog$1493,
+    require: $fog$94,
 
     // asks for $scope to fool the BC controller module
-    controller: [$fog$313, function ngSwitchController() {
-     this[$fog$1494] = {};
+    controller: [$fog$1274, function ngSwitchController() {
+     this[$fog$93] = {};
     }],
     link: function(scope, element, attr, ngSwitchController) {
-      var watchExpr = attr[$fog$1493] || attr[$fog$186],
+      var watchExpr = attr[$fog$94] || attr[$fog$1401],
           selectedTranscludes = [],
           selectedElements = [],
           previousLeaveAnimations = [],
           selectedScopes = [];
 
       var spliceFactory = function(array, index) {
-          return function() { array[$fog$30](index, $fog$6); };
+          return function() { array[$fog$1557](index, $fog$1581); };
       };
 
-      scope[$fog$61](watchExpr, function ngSwitchWatchAction(value) {
+      scope[$fog$1526](watchExpr, function ngSwitchWatchAction(value) {
         var i, ii;
-        for (i = $fog$1, ii = previousLeaveAnimations[$fog$10]; i < ii; ++i) {
-          $animate[$fog$480](previousLeaveAnimations[i]);
+        for (i = $fog$1586, ii = previousLeaveAnimations[$fog$1577]; i < ii; ++i) {
+          $animate[$fog$1107](previousLeaveAnimations[i]);
         }
-        previousLeaveAnimations[$fog$10] = $fog$1;
+        previousLeaveAnimations[$fog$1577] = $fog$1586;
 
-        for (i = $fog$1, ii = selectedScopes[$fog$10]; i < ii; ++i) {
-          var selected = getBlockNodes(selectedElements[i][$fog$120]);
-          selectedScopes[i][$fog$195]();
-          var promise = previousLeaveAnimations[i] = $animate[$fog$441](selected);
-          promise[$fog$66](spliceFactory(previousLeaveAnimations, i));
+        for (i = $fog$1586, ii = selectedScopes[$fog$1577]; i < ii; ++i) {
+          var selected = getBlockNodes(selectedElements[i][$fog$1467]);
+          selectedScopes[i][$fog$1392]();
+          var promise = previousLeaveAnimations[i] = $animate[$fog$1146](selected);
+          promise[$fog$1521](spliceFactory(previousLeaveAnimations, i));
         }
 
-        selectedElements[$fog$10] = $fog$1;
-        selectedScopes[$fog$10] = $fog$1;
+        selectedElements[$fog$1577] = $fog$1586;
+        selectedScopes[$fog$1577] = $fog$1586;
 
-        if ((selectedTranscludes = ngSwitchController[$fog$1494][$fog$944 + value] || ngSwitchController[$fog$1494][$fog$13])) {
+        if ((selectedTranscludes = ngSwitchController[$fog$93][$fog$643 + value] || ngSwitchController[$fog$93][$fog$1574])) {
           forEach(selectedTranscludes, function(selectedTransclude) {
-            selectedTransclude[$fog$577](function(caseElement, selectedScope) {
-              selectedScopes[$fog$31](selectedScope);
-              var anchor = selectedTransclude[$fog$180];
-              caseElement[caseElement[$fog$10]++] = document[$fog$609]($fog$1495);
+            selectedTransclude[$fog$1010](function(caseElement, selectedScope) {
+              selectedScopes[$fog$1556](selectedScope);
+              var anchor = selectedTransclude[$fog$1407];
+              caseElement[caseElement[$fog$1577]++] = document[$fog$978]($fog$92);
               var block = { clone: caseElement };
 
-              selectedElements[$fog$31](block);
-              $animate[$fog$439](caseElement, anchor[$fog$438](), anchor);
+              selectedElements[$fog$1556](block);
+              $animate[$fog$1148](caseElement, anchor[$fog$1149](), anchor);
             });
           });
         }
@@ -27880,24 +27896,24 @@ var ngSwitchDirective = [$fog$407, function($animate) {
 }];
 
 var ngSwitchWhenDirective = ngDirective({
-  transclude: $fog$180,
-  priority: $fog$1496,
-  require: $fog$1497,
-  multiElement: $fog$40,
+  transclude: $fog$1407,
+  priority: $fog$91,
+  require: $fog$90,
+  multiElement: $fog$1547,
   link: function(scope, element, attrs, ctrl, $transclude) {
-    ctrl[$fog$1494][$fog$944 + attrs[$fog$1498]] = (ctrl[$fog$1494][$fog$944 + attrs[$fog$1498]] || []);
-    ctrl[$fog$1494][$fog$944 + attrs[$fog$1498]][$fog$31]({ transclude: $transclude, element: element });
+    ctrl[$fog$93][$fog$643 + attrs[$fog$89]] = (ctrl[$fog$93][$fog$643 + attrs[$fog$89]] || []);
+    ctrl[$fog$93][$fog$643 + attrs[$fog$89]][$fog$1556]({ transclude: $transclude, element: element });
   }
 });
 
 var ngSwitchDefaultDirective = ngDirective({
-  transclude: $fog$180,
-  priority: $fog$1496,
-  require: $fog$1497,
-  multiElement: $fog$40,
+  transclude: $fog$1407,
+  priority: $fog$91,
+  require: $fog$90,
+  multiElement: $fog$1547,
   link: function(scope, element, attr, ctrl, $transclude) {
-    ctrl[$fog$1494][$fog$13] = (ctrl[$fog$1494][$fog$13] || []);
-    ctrl[$fog$1494][$fog$13][$fog$31]({ transclude: $transclude, element: element });
+    ctrl[$fog$93][$fog$1574] = (ctrl[$fog$93][$fog$1574] || []);
+    ctrl[$fog$93][$fog$1574][$fog$1556]({ transclude: $transclude, element: element });
    }
 });
 
@@ -27956,19 +27972,19 @@ var ngSwitchDefaultDirective = ngDirective({
  *
  */
 var ngTranscludeDirective = ngDirective({
-  restrict: $fog$1285,
+  restrict: $fog$302,
   link: function($scope, $element, $attrs, controller, $transclude) {
     if (!$transclude) {
-      throw minErr($fog$1499)($fog$1500,
-       $fog$1501 +
-       $fog$1502 +
-       $fog$1503,
+      throw minErr($fog$88)($fog$87,
+       $fog$86 +
+       $fog$85 +
+       $fog$84,
        startingTag($element));
     }
 
     $transclude(function(clone) {
-      $element[$fog$121]();
-      $element[$fog$123](clone);
+      $element[$fog$1466]();
+      $element[$fog$1464](clone);
     });
   }
 });
@@ -28006,16 +28022,16 @@ var ngTranscludeDirective = ngDirective({
     </file>
   </example>
  */
-var scriptDirective = [$fog$1166, function($templateCache) {
+var scriptDirective = [$fog$421, function($templateCache) {
   return {
-    restrict: $fog$583,
-    terminal: $fog$40,
+    restrict: $fog$1004,
+    terminal: $fog$1547,
     compile: function(element, attr) {
-      if (attr[$fog$329] == $fog$1504) {
-        var templateUrl = attr[$fog$1485],
-            text = element[$fog$1][$fog$326];
+      if (attr[$fog$1258] == $fog$83) {
+        var templateUrl = attr[$fog$102],
+            text = element[$fog$1586][$fog$1261];
 
-        $templateCache[$fog$352](templateUrl, text);
+        $templateCache[$fog$1235](templateUrl, text);
       }
     }
   };
@@ -28032,13 +28048,13 @@ var noopNgModelController = { $setViewValue: noop, $render: noop };
  * added `<option>` elements, perhaps by an `ngRepeat` directive.
  */
 var SelectController =
-        [$fog$1263, $fog$313, $fog$1264, function($element, $scope, $attrs) {
+        [$fog$324, $fog$1274, $fog$323, function($element, $scope, $attrs) {
 
   var self = this,
       optionsMap = new HashMap();
 
   // If the ngModel doesn't get provided then provide a dummy noop version to prevent errors
-  self[$fog$1505] = noopNgModelController;
+  self[$fog$82] = noopNgModelController;
 
   // The "unknown" option is one that is prepended to the list if the viewValue
   // does not match any of the options. When it is rendered the value of the unknown
@@ -28046,78 +28062,78 @@ var SelectController =
   //
   // We can't just jqLite('<option>') since jqLite is not smart enough
   // to create it in <select> and IE barfs otherwise.
-  self[$fog$1506] = jqLite(document[$fog$270]($fog$259));
-  self[$fog$1507] = function(val) {
-    var unknownVal = $fog$1508 + hashKey(val) + $fog$1509;
-    self[$fog$1506][$fog$1318](unknownVal);
-    $element[$fog$434](self[$fog$1506]);
-    $element[$fog$1318](unknownVal);
+  self[$fog$81] = jqLite(document[$fog$1317]($fog$1328));
+  self[$fog$80] = function(val) {
+    var unknownVal = $fog$79 + hashKey(val) + $fog$78;
+    self[$fog$81][$fog$269](unknownVal);
+    $element[$fog$1153](self[$fog$81]);
+    $element[$fog$269](unknownVal);
   };
 
-  $scope[$fog$580]($fog$195, function() {
+  $scope[$fog$1007]($fog$1392, function() {
     // disable unknown option so that we don't do work when the whole select is being destroyed
-    self[$fog$1507] = noop;
+    self[$fog$80] = noop;
   });
 
-  self[$fog$1510] = function() {
-    if (self[$fog$1506][$fog$438]()) self[$fog$1506][$fog$420]();
+  self[$fog$77] = function() {
+    if (self[$fog$81][$fog$1149]()) self[$fog$81][$fog$1167]();
   };
 
 
   // Read the value of the select control, the implementation of this changes depending
   // upon whether the select can have multiple values and whether ngOptions is at work.
-  self[$fog$1451] = function readSingleValue() {
-    self[$fog$1510]();
-    return $element[$fog$1318]();
+  self[$fog$136] = function readSingleValue() {
+    self[$fog$77]();
+    return $element[$fog$269]();
   };
 
 
   // Write the value to the select control, the implementation of this changes depending
   // upon whether the select can have multiple values and whether ngOptions is at work.
-  self[$fog$1449] = function writeSingleValue(value) {
-    if (self[$fog$1511](value)) {
-      self[$fog$1510]();
-      $element[$fog$1318](value);
-      if (value === $fog$4) self[$fog$1512][$fog$75]($fog$325, $fog$40); // to make IE9 happy
+  self[$fog$138] = function writeSingleValue(value) {
+    if (self[$fog$76](value)) {
+      self[$fog$77]();
+      $element[$fog$269](value);
+      if (value === $fog$1583) self[$fog$75][$fog$1512]($fog$1262, $fog$1547); // to make IE9 happy
     } else {
-      if (value == $fog$37 && self[$fog$1512]) {
-        self[$fog$1510]();
-        $element[$fog$1318]($fog$4);
+      if (value == $fog$1550 && self[$fog$75]) {
+        self[$fog$77]();
+        $element[$fog$269]($fog$1583);
       } else {
-        self[$fog$1507](value);
+        self[$fog$80](value);
       }
     }
   };
 
 
   // Tell the select control that an option, with the given value, has been added
-  self[$fog$1513] = function(value, element) {
-    assertNotHasOwnProperty(value, $fog$1514);
-    if (value === $fog$4) {
-      self[$fog$1512] = element;
+  self[$fog$74] = function(value, element) {
+    assertNotHasOwnProperty(value, $fog$73);
+    if (value === $fog$1583) {
+      self[$fog$75] = element;
     }
-    var count = optionsMap[$fog$182](value) || $fog$1;
-    optionsMap[$fog$352](value, count + $fog$6);
+    var count = optionsMap[$fog$1405](value) || $fog$1586;
+    optionsMap[$fog$1235](value, count + $fog$1581);
   };
 
   // Tell the select control that an option, with the given value, has been removed
-  self[$fog$1515] = function(value) {
-    var count = optionsMap[$fog$182](value);
+  self[$fog$72] = function(value) {
+    var count = optionsMap[$fog$1405](value);
     if (count) {
-      if (count === $fog$6) {
-        optionsMap[$fog$420](value);
-        if (value === $fog$4) {
-          self[$fog$1512] = undefined;
+      if (count === $fog$1581) {
+        optionsMap[$fog$1167](value);
+        if (value === $fog$1583) {
+          self[$fog$75] = undefined;
         }
       } else {
-        optionsMap[$fog$352](value, count - $fog$6);
+        optionsMap[$fog$1235](value, count - $fog$1581);
       }
     }
   };
 
   // Check whether the select control has an option matching the given value
-  self[$fog$1511] = function(value) {
-    return !!optionsMap[$fog$182](value);
+  self[$fog$76] = function(value) {
+    return !!optionsMap[$fog$1405](value);
   };
 }];
 
@@ -28195,32 +28211,32 @@ var SelectController =
 var selectDirective = function() {
 
   return {
-    restrict: $fog$583,
-    require: [$fog$323, $fog$1359],
+    restrict: $fog$1004,
+    require: [$fog$1264, $fog$228],
     controller: SelectController,
     link: function(scope, element, attr, ctrls) {
 
       // if ngModel is not defined, we don't need to do anything
-      var ngModelCtrl = ctrls[$fog$6];
+      var ngModelCtrl = ctrls[$fog$1581];
       if (!ngModelCtrl) return;
 
-      var selectCtrl = ctrls[$fog$1];
+      var selectCtrl = ctrls[$fog$1586];
 
-      selectCtrl[$fog$1505] = ngModelCtrl;
+      selectCtrl[$fog$82] = ngModelCtrl;
 
       // We delegate rendering to the `writeValue` method, which can be changed
       // if the select can have multiple selected values or if the options are being
       // generated by `ngOptions`
-      ngModelCtrl[$fog$1335] = function() {
-        selectCtrl[$fog$1449](ngModelCtrl[$fog$1321]);
+      ngModelCtrl[$fog$252] = function() {
+        selectCtrl[$fog$138](ngModelCtrl[$fog$266]);
       };
 
       // When the selected item(s) changes we delegate getting the value of the select control
       // to the `readValue` method, which can be changed if the select can have multiple
       // selected values or if the options are being generated by `ngOptions`
-      element[$fog$186]($fog$1334, function() {
-        scope[$fog$171](function() {
-          ngModelCtrl[$fog$1323](selectCtrl[$fog$1451]());
+      element[$fog$1401]($fog$253, function() {
+        scope[$fog$1416](function() {
+          ngModelCtrl[$fog$264](selectCtrl[$fog$136]());
         });
       });
 
@@ -28228,42 +28244,42 @@ var selectDirective = function() {
       // values from and to the control; also what it means for the value to be empty and
       // we have to add an extra watch since ngModel doesn't work well with arrays - it
       // doesn't trigger rendering if only an item in the array changes.
-      if (attr[$fog$322]) {
+      if (attr[$fog$1265]) {
 
         // Read value now needs to check each option to see if it is selected
-        selectCtrl[$fog$1451] = function readMultipleValue() {
+        selectCtrl[$fog$136] = function readMultipleValue() {
           var array = [];
-          forEach(element[$fog$77]($fog$259), function(option) {
-            if (option[$fog$325]) {
-              array[$fog$31](option[$fog$163]);
+          forEach(element[$fog$1510]($fog$1328), function(option) {
+            if (option[$fog$1262]) {
+              array[$fog$1556](option[$fog$1424]);
             }
           });
           return array;
         };
 
         // Write value now needs to set the selected property of each matching option
-        selectCtrl[$fog$1449] = function writeMultipleValue(value) {
+        selectCtrl[$fog$138] = function writeMultipleValue(value) {
           var items = new HashMap(value);
-          forEach(element[$fog$77]($fog$259), function(option) {
-            option[$fog$325] = isDefined(items[$fog$182](option[$fog$163]));
+          forEach(element[$fog$1510]($fog$1328), function(option) {
+            option[$fog$1262] = isDefined(items[$fog$1405](option[$fog$1424]));
           });
         };
 
         // we have to do it on each watch since ngModel watches reference, but
         // we need to work of an array, so we need to see if anything was inserted/removed
         var lastView, lastViewRef = NaN;
-        scope[$fog$61](function selectMultipleWatch() {
-          if (lastViewRef === ngModelCtrl[$fog$1321] && !equals(lastView, ngModelCtrl[$fog$1321])) {
-            lastView = shallowCopy(ngModelCtrl[$fog$1321]);
-            ngModelCtrl[$fog$1335]();
+        scope[$fog$1526](function selectMultipleWatch() {
+          if (lastViewRef === ngModelCtrl[$fog$266] && !equals(lastView, ngModelCtrl[$fog$266])) {
+            lastView = shallowCopy(ngModelCtrl[$fog$266]);
+            ngModelCtrl[$fog$252]();
           }
-          lastViewRef = ngModelCtrl[$fog$1321];
+          lastViewRef = ngModelCtrl[$fog$266];
         });
 
         // If we are a multiple select then value is now a collection
         // so the meaning of $isEmpty changes
-        ngModelCtrl[$fog$1314] = function(value) {
-          return !value || value[$fog$10] === $fog$1;
+        ngModelCtrl[$fog$273] = function(value) {
+          return !value || value[$fog$1577] === $fog$1586;
         };
 
       }
@@ -28275,28 +28291,28 @@ var selectDirective = function() {
 // The option directive is purely designed to communicate the existence (or lack of)
 // of dynamically created (and destroyed) option elements to their containing select
 // directive via its controller.
-var optionDirective = [$fog$528, function($interpolate) {
+var optionDirective = [$fog$1059, function($interpolate) {
 
   function chromeHack(optionElement) {
     // Workaround for https://code.google.com/p/chromium/issues/detail?id=381459
     // Adding an <option selected="selected"> element to a <select required="required"> should
     // automatically select the new element
-    if (optionElement[$fog$1][$fog$149]($fog$325)) {
-      optionElement[$fog$1][$fog$325] = $fog$40;
+    if (optionElement[$fog$1586][$fog$1438]($fog$1262)) {
+      optionElement[$fog$1586][$fog$1262] = $fog$1547;
     }
   }
 
   return {
-    restrict: $fog$583,
-    priority: $fog$644,
+    restrict: $fog$1004,
+    priority: $fog$943,
     compile: function(element, attr) {
 
       // If the value attribute is not defined then we fall back to the
       // text content of the option element, which may be interpolated
-      if (isUndefined(attr[$fog$163])) {
-        var interpolateFn = $interpolate(element[$fog$326](), $fog$40);
+      if (isUndefined(attr[$fog$1424])) {
+        var interpolateFn = $interpolate(element[$fog$1261](), $fog$1547);
         if (!interpolateFn) {
-          attr[$fog$626]($fog$163, element[$fog$326]());
+          attr[$fog$961]($fog$1424, element[$fog$1261]());
         }
       }
 
@@ -28304,34 +28320,34 @@ var optionDirective = [$fog$528, function($interpolate) {
 
         // This is an optimization over using ^^ since we don't want to have to search
         // all the way to the root of the DOM for every single option element
-        var selectCtrlName = $fog$1516,
-            parent = element[$fog$438](),
-            selectCtrl = parent[$fog$172](selectCtrlName) ||
-              parent[$fog$438]()[$fog$172](selectCtrlName); // in case we are in optgroup
+        var selectCtrlName = $fog$71,
+            parent = element[$fog$1149](),
+            selectCtrl = parent[$fog$1415](selectCtrlName) ||
+              parent[$fog$1149]()[$fog$1415](selectCtrlName); // in case we are in optgroup
 
         // Only update trigger option updates if this is an option within a `select`
         // that also has `ngModel` attached
-        if (selectCtrl && selectCtrl[$fog$1505]) {
+        if (selectCtrl && selectCtrl[$fog$82]) {
 
           if (interpolateFn) {
-            scope[$fog$61](interpolateFn, function interpolateWatchAction(newVal, oldVal) {
-              attr[$fog$626]($fog$163, newVal);
+            scope[$fog$1526](interpolateFn, function interpolateWatchAction(newVal, oldVal) {
+              attr[$fog$961]($fog$1424, newVal);
               if (oldVal !== newVal) {
-                selectCtrl[$fog$1515](oldVal);
+                selectCtrl[$fog$72](oldVal);
               }
-              selectCtrl[$fog$1513](newVal, element);
-              selectCtrl[$fog$1505][$fog$1335]();
+              selectCtrl[$fog$74](newVal, element);
+              selectCtrl[$fog$82][$fog$252]();
               chromeHack(element);
             });
           } else {
-            selectCtrl[$fog$1513](attr[$fog$163], element);
-            selectCtrl[$fog$1505][$fog$1335]();
+            selectCtrl[$fog$74](attr[$fog$1424], element);
+            selectCtrl[$fog$82][$fog$252]();
             chromeHack(element);
           }
 
-          element[$fog$186]($fog$195, function() {
-            selectCtrl[$fog$1515](attr[$fog$163]);
-            selectCtrl[$fog$1505][$fog$1335]();
+          element[$fog$1401]($fog$1392, function() {
+            selectCtrl[$fog$72](attr[$fog$1424]);
+            selectCtrl[$fog$82][$fog$252]();
           });
         }
       };
@@ -28340,24 +28356,24 @@ var optionDirective = [$fog$528, function($interpolate) {
 }];
 
 var styleDirective = valueFn({
-  restrict: $fog$583,
-  terminal: $fog$38
+  restrict: $fog$1004,
+  terminal: $fog$1549
 });
 
 var requiredDirective = function() {
   return {
-    restrict: $fog$589,
-    require: $fog$1359,
+    restrict: $fog$998,
+    require: $fog$228,
     link: function(scope, elm, attr, ctrl) {
       if (!ctrl) return;
-      attr[$fog$199] = $fog$40; // force truthy in case we are on non input element
+      attr[$fog$1388] = $fog$1547; // force truthy in case we are on non input element
 
-      ctrl[$fog$1346][$fog$199] = function(modelValue, viewValue) {
-        return !attr[$fog$199] || !ctrl[$fog$1314](viewValue);
+      ctrl[$fog$241][$fog$1388] = function(modelValue, viewValue) {
+        return !attr[$fog$1388] || !ctrl[$fog$273](viewValue);
       };
 
-      attr[$fog$655]($fog$199, function() {
-        ctrl[$fog$1347]();
+      attr[$fog$932]($fog$1388, function() {
+        ctrl[$fog$240]();
       });
     }
   };
@@ -28366,29 +28382,29 @@ var requiredDirective = function() {
 
 var patternDirective = function() {
   return {
-    restrict: $fog$589,
-    require: $fog$1359,
+    restrict: $fog$998,
+    require: $fog$228,
     link: function(scope, elm, attr, ctrl) {
       if (!ctrl) return;
 
-      var regexp, patternExp = attr[$fog$1259] || attr[$fog$310];
-      attr[$fog$655]($fog$310, function(regex) {
-        if (isString(regex) && regex[$fog$10] > $fog$1) {
-          regex = new RegExp($fog$1122 + regex + $fog$94);
+      var regexp, patternExp = attr[$fog$328] || attr[$fog$1277];
+      attr[$fog$932]($fog$1277, function(regex) {
+        if (isString(regex) && regex[$fog$1577] > $fog$1586) {
+          regex = new RegExp($fog$465 + regex + $fog$1493);
         }
 
-        if (regex && !regex[$fog$68]) {
-          throw minErr($fog$1259)($fog$1517,
-            $fog$1518, patternExp,
+        if (regex && !regex[$fog$1519]) {
+          throw minErr($fog$328)($fog$70,
+            $fog$69, patternExp,
             regex, startingTag(elm));
         }
 
         regexp = regex || undefined;
-        ctrl[$fog$1347]();
+        ctrl[$fog$240]();
       });
 
-      ctrl[$fog$1346][$fog$310] = function(value) {
-        return ctrl[$fog$1314](value) || isUndefined(regexp) || regexp[$fog$68](value);
+      ctrl[$fog$241][$fog$1277] = function(value) {
+        return ctrl[$fog$273](value) || isUndefined(regexp) || regexp[$fog$1519](value);
       };
     }
   };
@@ -28397,19 +28413,19 @@ var patternDirective = function() {
 
 var maxlengthDirective = function() {
   return {
-    restrict: $fog$589,
-    require: $fog$1359,
+    restrict: $fog$998,
+    require: $fog$228,
     link: function(scope, elm, attr, ctrl) {
       if (!ctrl) return;
 
-      var maxlength = -$fog$6;
-      attr[$fog$655]($fog$307, function(value) {
+      var maxlength = -$fog$1581;
+      attr[$fog$932]($fog$1280, function(value) {
         var intVal = toInt(value);
-        maxlength = isNaN(intVal) ? -$fog$6 : intVal;
-        ctrl[$fog$1347]();
+        maxlength = isNaN(intVal) ? -$fog$1581 : intVal;
+        ctrl[$fog$240]();
       });
-      ctrl[$fog$1346][$fog$307] = function(modelValue, viewValue) {
-        return (maxlength < $fog$1) || ctrl[$fog$1314](viewValue) || (viewValue[$fog$10] <= maxlength);
+      ctrl[$fog$241][$fog$1280] = function(modelValue, viewValue) {
+        return (maxlength < $fog$1586) || ctrl[$fog$273](viewValue) || (viewValue[$fog$1577] <= maxlength);
       };
     }
   };
@@ -28417,26 +28433,26 @@ var maxlengthDirective = function() {
 
 var minlengthDirective = function() {
   return {
-    restrict: $fog$589,
-    require: $fog$1359,
+    restrict: $fog$998,
+    require: $fog$228,
     link: function(scope, elm, attr, ctrl) {
       if (!ctrl) return;
 
-      var minlength = $fog$1;
-      attr[$fog$655]($fog$306, function(value) {
-        minlength = toInt(value) || $fog$1;
-        ctrl[$fog$1347]();
+      var minlength = $fog$1586;
+      attr[$fog$932]($fog$1281, function(value) {
+        minlength = toInt(value) || $fog$1586;
+        ctrl[$fog$240]();
       });
-      ctrl[$fog$1346][$fog$306] = function(modelValue, viewValue) {
-        return ctrl[$fog$1314](viewValue) || viewValue[$fog$10] >= minlength;
+      ctrl[$fog$241][$fog$1281] = function(modelValue, viewValue) {
+        return ctrl[$fog$273](viewValue) || viewValue[$fog$1577] >= minlength;
       };
     }
   };
 };
 
-if (window[$fog$35][$fog$1519]) {
+if (window[$fog$1552][$fog$68]) {
   //AngularJS is already loaded, so we can return here...
-  console[$fog$836]($fog$1520);
+  console[$fog$751]($fog$67);
   return;
 }
 
@@ -28446,140 +28462,140 @@ bindJQuery();
 
 publishExternalAPI(angular);
 
-angular[$fog$211]($fog$232, [], [$fog$162, function($provide) {
-var PLURAL_CATEGORY = {ZERO: $fog$1521, ONE: $fog$1522, TWO: $fog$1523, FEW: $fog$1524, MANY: $fog$1525, OTHER: $fog$1526};
+angular[$fog$1376]($fog$1355, [], [$fog$1425, function($provide) {
+var PLURAL_CATEGORY = {ZERO: $fog$66, ONE: $fog$65, TWO: $fog$64, FEW: $fog$63, MANY: $fog$62, OTHER: $fog$61};
 function getDecimals(n) {
-  n = n + $fog$4;
-  var i = n[$fog$80]($fog$204);
-  return (i == -$fog$6) ? $fog$1 : n[$fog$10] - i - $fog$6;
+  n = n + $fog$1583;
+  var i = n[$fog$1507]($fog$1383);
+  return (i == -$fog$1581) ? $fog$1586 : n[$fog$1577] - i - $fog$1581;
 }
 
 function getVF(n, opt_precision) {
   var v = opt_precision;
 
   if (undefined === v) {
-    v = Math[$fog$308](getDecimals(n), $fog$206);
+    v = Math[$fog$1279](getDecimals(n), $fog$1381);
   }
 
-  var base = Math[$fog$1527]($fog$51, v);
-  var f = ((n * base) | $fog$1) % base;
+  var base = Math[$fog$60]($fog$1536, v);
+  var f = ((n * base) | $fog$1586) % base;
   return {v: v, f: f};
 }
 
-$provide[$fog$163]($fog$1198, {
+$provide[$fog$1424]($fog$389, {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      $fog$1528,
-      $fog$1529
+      $fog$59,
+      $fog$58
     ],
     "DAY": [
-      $fog$1530,
-      $fog$1531,
-      $fog$1532,
-      $fog$1533,
-      $fog$1534,
-      $fog$1535,
-      $fog$1536
+      $fog$57,
+      $fog$56,
+      $fog$55,
+      $fog$54,
+      $fog$53,
+      $fog$52,
+      $fog$51
     ],
     "ERANAMES": [
-      $fog$1537,
-      $fog$1538
+      $fog$50,
+      $fog$49
     ],
     "ERAS": [
-      $fog$1539,
-      $fog$1540
+      $fog$48,
+      $fog$47
     ],
-    "FIRSTDAYOFWEEK": $fog$588,
+    "FIRSTDAYOFWEEK": $fog$999,
     "MONTH": [
-      $fog$1541,
-      $fog$1542,
-      $fog$1543,
-      $fog$1544,
-      $fog$1545,
-      $fog$1546,
-      $fog$1547,
-      $fog$1548,
-      $fog$1549,
-      $fog$1550,
-      $fog$1551,
-      $fog$1552
+      $fog$46,
+      $fog$45,
+      $fog$44,
+      $fog$43,
+      $fog$42,
+      $fog$41,
+      $fog$40,
+      $fog$39,
+      $fog$38,
+      $fog$37,
+      $fog$36,
+      $fog$35
     ],
     "SHORTDAY": [
-      $fog$1553,
-      $fog$1554,
-      $fog$1555,
-      $fog$1556,
-      $fog$1557,
-      $fog$1558,
-      $fog$1559
+      $fog$34,
+      $fog$33,
+      $fog$32,
+      $fog$31,
+      $fog$30,
+      $fog$29,
+      $fog$28
     ],
     "SHORTMONTH": [
-      $fog$1560,
-      $fog$1561,
-      $fog$1562,
-      $fog$1563,
-      $fog$1545,
-      $fog$1564,
-      $fog$1565,
-      $fog$1566,
-      $fog$1567,
-      $fog$1568,
-      $fog$1569,
-      $fog$1570
+      $fog$27,
+      $fog$26,
+      $fog$25,
+      $fog$24,
+      $fog$42,
+      $fog$23,
+      $fog$22,
+      $fog$21,
+      $fog$20,
+      $fog$19,
+      $fog$18,
+      $fog$17
     ],
     "WEEKENDRANGE": [
-      $fog$587,
-      $fog$588
+      $fog$1000,
+      $fog$999
     ],
-    "fullDate": $fog$1571,
-    "longDate": $fog$1572,
-    "medium": $fog$1573,
-    "mediumDate": $fog$1574,
-    "mediumTime": $fog$1575,
-    "short": $fog$1576,
-    "shortDate": $fog$1577,
-    "shortTime": $fog$1578
+    "fullDate": $fog$16,
+    "longDate": $fog$15,
+    "medium": $fog$14,
+    "mediumDate": $fog$13,
+    "mediumTime": $fog$12,
+    "short": $fog$11,
+    "shortDate": $fog$10,
+    "shortTime": $fog$9
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": $fog$94,
-    "DECIMAL_SEP": $fog$204,
-    "GROUP_SEP": $fog$79,
+    "CURRENCY_SYM": $fog$1493,
+    "DECIMAL_SEP": $fog$1383,
+    "GROUP_SEP": $fog$1508,
     "PATTERNS": [
       {
-        "gSize": $fog$206,
-        "lgSize": $fog$206,
-        "maxFrac": $fog$206,
-        "minFrac": $fog$1,
-        "minInt": $fog$6,
-        "negPre": $fog$536,
-        "negSuf": $fog$4,
-        "posPre": $fog$4,
-        "posSuf": $fog$4
+        "gSize": $fog$1381,
+        "lgSize": $fog$1381,
+        "maxFrac": $fog$1381,
+        "minFrac": $fog$1586,
+        "minInt": $fog$1581,
+        "negPre": $fog$1051,
+        "negSuf": $fog$1583,
+        "posPre": $fog$1583,
+        "posSuf": $fog$1583
       },
       {
-        "gSize": $fog$206,
-        "lgSize": $fog$206,
-        "maxFrac": $fog$0,
-        "minFrac": $fog$0,
-        "minInt": $fog$6,
-        "negPre": $fog$1579,
-        "negSuf": $fog$4,
-        "posPre": $fog$1580,
-        "posSuf": $fog$4
+        "gSize": $fog$1381,
+        "lgSize": $fog$1381,
+        "maxFrac": $fog$1587,
+        "minFrac": $fog$1587,
+        "minInt": $fog$1581,
+        "negPre": $fog$8,
+        "negSuf": $fog$1583,
+        "posPre": $fog$7,
+        "posSuf": $fog$1583
       }
     ]
   },
-  "id": $fog$1581,
-  "pluralCat": function(n, opt_precision) {  var i = n | $fog$1;  var vf = getVF(n, opt_precision);  if (i == $fog$6 && vf[$fog$1035] == $fog$1) {    return PLURAL_CATEGORY[$fog$1582];  }  return PLURAL_CATEGORY[$fog$1583];}
+  "id": $fog$6,
+  "pluralCat": function(n, opt_precision) {  var i = n | $fog$1586;  var vf = getVF(n, opt_precision);  if (i == $fog$1581 && vf[$fog$552] == $fog$1586) {    return PLURAL_CATEGORY[$fog$5];  }  return PLURAL_CATEGORY[$fog$4];}
 });
 }]);
 
-  jqLite(document)[$fog$1584](function() {
+  jqLite(document)[$fog$3](function() {
     angularInit(document, bootstrap);
   });
 
 })(window, document);
 
-!window[$fog$35][$fog$1586]()[$fog$1585] && window[$fog$35][$fog$180](document[$fog$717])[$fog$434]($fog$1587);
-})(2, 0, "[", ":", "", "] ", 1, "replace", /\{\d+\}/g, "slice", "length", "\nhttp://errors.angularjs.org/1.4.4/", "/", "?", "&", "p", "=", /^\/(.+)\/([a-z]*)$/, "validity", "toLowerCase", "hasOwnProperty", "prototype", "toUpperCase", /[A-Z]/g, "fromCharCode", "charCodeAt", 32, /[a-z]/g, "i", "I", "splice", "push", "toString", "getPrototypeOf", "ng", "angular", "documentMode", null, false, "nodeType", true, "number", "name", "call", "object", "forEach", "function", "sort", "keys", "$$hashKey", "valueOf", 10, "create", "$inject", "undefined", "string", "[object Date]", "isArray", "[object RegExp]", "window", "$evalAsync", "$watch", "[object File]", "[object FormData]", "[object Blob]", "boolean", "then", /^\[object (Uint8(Clamped)?)|(Uint16)|(Uint32)|(Int8)|(Int16)|(Int32)|(Float(32)|(64))Array\]$/, "test", "trim", /([-()\[\]{}+?*.$\^|,:#<!\\])/g, "\\$1", /\x08/g, "\\x08", "nodeName", "prop", "attr", "find", "split", ",", "indexOf", "cpws", "Can't copy! Making copies of Window or Scope instances is not supported.", "cpta", "Can't copy! TypedArray destination cannot be mutated.", "constructor", "getTime", "source", "match", /[^\/]*$/, "lastIndex", "cpi", "Can't copy! Source and destination are identical.", "charAt", "$", "rules", "querySelector", "[ng-csp]", "[data-ng-csp]", "getAttribute", "ng-csp", "data-ng-csp", "no-unsafe-eval", "no-inline-style", "name_", "\\:", "jq]", "jq", "concat", "apply", "$WINDOW", "$DOCUMENT", "$SCOPE", "stringify", "parse", "Jan 01, 1970 00:00:00 ", 60000, "setMinutes", "getMinutes", "getTimezoneOffset", "clone", "empty", "html", "append", "<div>", /^(<[^>]+>)/, /^<([\w\-]+)/, "<", /\+/g, "%20", "substring", "join", /%26/gi, /%3D/gi, /%2B/gi, "+", /%40/gi, "@", /%3A/gi, /%24/g, /%2C/gi, /%3B/gi, ";", /%20/g, "ng-", "data-ng-", "ng:", "x-ng-", "app", "hasAttribute", "]", "strictDi", "strict-di", "injector", "document", "btstrpd", "App Already Bootstrapped with this Element '{0}'", /</, "&lt;", />/, "&gt;", "unshift", "$provide", "value", "$rootElement", "debugInfoEnabled", "$compileProvider", "invoke", "$rootScope", "$compile", "$injector", "$apply", "data", /^NG_ENABLE_DEBUG_INFO!/, /^NG_DEFER_BOOTSTRAP!/, "resumeBootstrap", "resumeDeferredBootstrap", "NG_ENABLE_DEBUG_INFO!", "reload", "location", "element", "no injector found for element argument to getTestability", "get", "$$testability", "_", "jQuery", "on", "fn", "scope", "isolateScope", "controller", "inheritedData", "cleanData", "_data", "events", "$destroy", "triggerHandler", "areq", "Argument '{0}' is {1}", "required", "not a function, got ", "Object", "badname", "hasOwnProperty is not a valid {0} name", ".", "nextSibling", 3, 8, 9, 11, "$$minErr", "module", "nomod", "Module '{0}' is not available! You either misspelled ", "the module name or forgot to load it. If registering a module ensure that you ", "specify the dependencies as the second argument.", "provider", "factory", "service", "constant", "decorator", "$animateProvider", "register", "$filterProvider", "$controllerProvider", "directive", "$$moduleName", "<<already seen>>", / \{[\s\S]*$/, "1.4.4", 4, "pylon-requirement", "ngLocale", "expando", "ng339", "cache", "addEventListener", "removeEventListener", /([\:\-\_]+(.))/g, /^moz([A-Z])/, "mouseout", "mouseover", "jqLite", "Moz$1", /^<(\w+)\s*\/?>(?:<\/\1>|)$/, /<|&#?\w+;/, /<([\w:]+)/, /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi, "<select multiple=\"multiple\">", "</select>", "<table>", "</table>", "<table><colgroup>", "</colgroup></table>", "<table><tbody>", "</tbody></table>", "<table><tbody><tr>", "</tr></tbody></table>", "optgroup", "option", "tbody", "tfoot", "colgroup", "caption", "thead", "th", "td", "createDocumentFragment", "createTextNode", "appendChild", "createElement", "div", "exec", "_default", "innerHTML", "<$1></$2>", "lastChild", "childNodes", "firstChild", "textContent", "nosel", "Looking up elements via selectors is not supported by jqLite! See: http://docs.angularjs.org/api/angular.element", "cloneNode", "querySelectorAll", "*", "offargs", "jqLite#off() does not support the `selector` argument", "handle", " ", "class", /[\n\t]/g, "setAttribute", "ngController", "Controller", "documentElement", "parentNode", "host", "removeChild", "readyState", "complete", "setTimeout", "load", "DOMContentLoaded", ", ", "multiple,selected,checked,disabled,readOnly,required,open", "input,select,option,textarea,button,form,details", "minlength", "maxlength", "min", "max", "pattern", "INPUT", "TEXTAREA", "$scope", "$isolateScope", "$isolateScopeNoTemplate", "removeAttribute", "style", "specified", "getNamedItem", "attributes", "$dv", "multiple", "select", "options", "selected", "text", "isDefaultPrevented", "defaultPrevented", "type", "immediatePropagationStopped", "stopImmediatePropagation", "stopPropagation", "isImmediatePropagationStopped", "elem", "onargs", "jqLite#on() does not support the `selector` or `eventData` parameters", "mouseenter", "mouseleave", "relatedTarget", "contains", "off", "insertBefore", "replaceChild", "contentDocument", "eq", "nextElementSibling", "getElementsByTagName", "bind", "unbind", "$get", "nextUid", "put", /^[^\(]*\(\s*([^\)]*)\)/m, /,/, /^\s*(_?)(\S+?)\1\s*$/, /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg, "function(", /[\s\r\n]+/, ")", "strictdi", "{0} is not using explicit annotation and cannot be invoked in strict mode", "Provider", "isString", "unpr", "Unknown provider: {0}", " <- ", "instantiate", "pget", "Provider '{0}' must define $get factory method.", "undef", "Provider '{0}' must return a value from $get factory method.", "modulesToLoad", "not an array", "requires", "_runBlocks", "_invokeQueue", "_configBlocks", "message", "stack", "\n", "modulerr", "Failed to instantiate module {0} due to:\n{1}", "cdep", "Circular dependency found: {0}", "shift", "$$annotate", "itkn", "Incorrect injection token! Expected service name as string, got {0}", "disableAutoScrolling", "$window", "$location", "some", "a", "yOffset", "getComputedStyle", "position", "fixed", "bottom", "getBoundingClientRect", "scrollIntoView", "top", "scrollBy", "scrollTo", "hash", "getElementById", "getElementsByName", "$animate", "ng-animate", "$q", "$$rAF", "all", "chain", "$$AnimateRunner", "from", "css", "to", "addClass", "removeClass", "$$postDigest", "remove", "$$registeredAnimations", "notcsel", "Expecting class selector starting with '.' got '{0}'.", "-animation", "substr", "classNameFilter", "$$classNameFilter", "(\\s+|\\/)", "nongcls", "$animateProvider.classNameFilter(regex) prohibits accepting a regex value which matches/contains the \"{0}\" CSS class.", "$$animateQueue", "previousElementSibling", "after", "prepend", "pin", "enabled", "end", "parent", "enter", "move", "leave", "addclass", "setClass", "ng-inline-animate", "tempClasses", "animate", "defer", "reject", "resolve", "done", "promise", "getPromise", "catch", "finally", "history", "clearTimeout", "isMock", "$$completeOutstandingRequest", "$$incOutstandingRequestCount", "pop", "error", "#", "notifyWhenNoOutstandingRequests", "href", "base", "url", "replaceState", "pushState", /%27/g, "'", "state", "onUrlChange", "popstate", "hashchange", "$$applicationDestroyed", "hashchange popstate", "$$checkUrlChange", "baseHref", /^(https?\:)?\/\/[^\/]*/, "cancel", "$log", "$sniffer", "$document", "$cacheFactory", "iid", "CacheId '{0}' is already taken!", "capacity", "MAX_VALUE", "key", "n", "info", "templates", "$$sanitizeUriProvider", "Directive", /^\s*directive\:\s*([\w\-]+)\s+(.*)$/, /(([\w\-]+)(?:\:([^;]+))?;?)/, "ngSrc,ngSrcset,src,srcset", /^(?:(\^\^?)?(\?)?(\^\^?)?)?/, /^(on[a-z]+|formaction)$/, /^\s*([@&]|=(\*?))(\??)\s*(\w*)\s*$/, "iscp", "Invalid {3} for directive '{0}'.", " Definition: {... {1}: '{2}' ...}", "controller bindings definition", "isolate scope definition", "bindToController", "controllerAs", "noctrl", "Cannot bind to controller without directive '{0}'s controller.", "noident", "Cannot bind to controller without identifier for directive '{0}'.", "baddir", "Directive name '{0}' is invalid. The first character must be a lowercase letter", "Directive name '{0}' is invalid. The name should not contain leading or trailing whitespaces", "directiveFactory", "$exceptionHandler", "compile", "link", "priority", "index", "require", "restrict", "EA", "$$bindings", "$$isolateBindings", "aHrefSanitizationWhitelist", "imgSrcSanitizationWhitelist", "$interpolate", "$templateRequest", "$parse", "$controller", "$sce", "$$sanitizeUri", "$attr", "$$element", "-", "img", "src", "srcset", /(\s+\d+x\s*,|\s+\d+w\s*,|\s+,|,\s+)/, /\s/, /(,)/, "floor", "removeAttr", "$$observers", "$$inter", "startSymbol", "endSymbol", "{{", "}}", /\{\{/g, /}}/g, /^ngAttr[A-Z]/, "$$addBindingInfo", "$binding", "$$addBindingClass", "ng-binding", "$$addScopeInfo", "$$addScopeClass", "ng-isolate-scope", "ng-scope", "nodeValue", /\S+/, "wrap", "<span></span>", "parentBoundTranscludeFn", "transcludeControllers", "futureParentElement", "$$boundTransclude", "instance", "foreignobject", /SVG/, "svg", "terminal", "transcludeOnThisElement", "templateOnThisElement", "transclude", "$new", "$$destroyBindings", "$on", "$destroyed", "$$transcluded", "E", /_(.)/g, /(Start|End)$/, "Start", 5, 6, "A", "className", "animVal", "C", "M", "uterdir", "Unterminated attribute, found '{0}' but no matching '{1}' found.", "newScopeDirective", "controllerDirectives", "newIsolateScopeDirective", "templateDirective", "nonTlbTranscludeDirective", "hasElementTranscludeDirective", "$$start", "$$end", "templateUrl", "new/isolated scope", "' controller", "$$tlb", "transclusion", "createComment", ": ", "contents", "template", "templateNamespace", "tplrt", "Template for directive '{0}' must have exactly one root element. {1}", "pre", "post", "directiveName", "$$isolateScope", "^^", "ctreq", "Controller '{0}', required by directive '{1}', can't be found!", "$$originalDirective", "identifier", "multiElement", "$set", "$$destroyed", " (module: ", "multidir", "Multiple directives [{0}{1}, {2}{3}] asking for {4} on: {5}", "expressions", "math", ">", "</", "srcdoc", "HTML", "xlinkHref", "form", "action", "ngSrc", "RESOURCE_URL", "selmulti", "Binding to the 'multiple' attribute is not supported. Element: {0}", 100, "nodomevents", "Interpolations for HTML DOM event attributes are disallowed.  Please use the ", "ng- versions (such as ng-click instead of onclick) instead.", "$$scope", "$updateClass", "context", "hasData", "attrName", "optional", "mode", "$observe", "literal", "assign", "nonassign", "Expression '{0}' used with directive '{1}' is non-assignable!", "$stateful", "collection", "$watchCollection", /^((?:x|data)[\:\-_])/i, /\s+/, /^(\S+)(\s+as\s+(\w+))?$/, "allowGlobals", "ctrlfmt", "Badly formed controller string '{0}'. ", "Must match `__name__ as __id__` or `__name__`.", "noscp", "Cannot export controller '{0}' as '{1}'! No $scope object provided via `locals`.", "body", "offsetWidth", "application/json", ";charset=utf-8", /^\[|^\{(?!\{)/, /]$/, /}$/, /^\)\]\}',?\n/, "$http", "legacy", "The method `{0}` on the promise returned from `$http` has been disabled.", "toISOString", "Content-Type", 200, 300, "defaults", "application/json, text/plain, */*", "XSRF-TOKEN", "X-XSRF-TOKEN", "$httpParamSerializer", "useApplyAsync", "useLegacyPromiseExtensions", "interceptors", "$httpBackend", "$$cookieReader", "paramSerializer", "isObject", "badreq", "Http request configuration must be an object.  Received: {0}", "transformRequest", "transformResponse", "headers", "method", "content-type", "withCredentials", "when", "request", "requestError", "response", "responseError", "success", "status", "common", "pendingRequests", "delete", "head", "jsonp", "patch", "params", "GET", "JSONP", "OK", "xsrfCookieName", "xsrfHeaderName", "timeout", "responseType", "$applyAsync", "$$phase", "statusText", "XMLHttpRequest", "$browser", "callbacks", "counter", 36, "called", "JSON_CALLBACK", "angular.callbacks.", "open", "setRequestHeader", "onload", "responseText", 1223, 204, "protocol", "file", 404, "getAllResponseHeaders", "onerror", "onabort", "json", "send", "abort", "script", "text/javascript", "async", "unknown", "$interpolateMinErr", "throwNoconcat", "noconcat", "Error while interpolating: {0}\nStrict Contextual Escaping disallows ", "interpolations that concatenate multiple expressions when a trusted value is ", "required.  See http://docs.angularjs.org/api/ng.$sce", "interr", "Can't interpolate: {0}\n{1}", /./g, "g", "\\\\\\", "getTrusted", "$watchGroup", "$$q", "setInterval", "clearInterval", "$$intervalId", "notify", "canceled", /^([^\?#]*)(\?([^#]*))?(#(.*))?$/, 80, 443, 21, "$$protocol", "$$host", "hostname", "$$port", "port", "$$path", "pathname", "$$search", "search", "$$hash", /(#.+)|#$/, "$1", "lastIndexOf", "//", "$$html5", "$$parse", "ipthprfx", "Invalid url \"{0}\", missing path prefix \"{1}\".", "$$compose", "$$url", "$$absUrl", "$$parseLinkUrl", /^\/[A-Z]:(\/.*)/, "path", "isrcharg", "The first argument of the `$location#search()` call must be a string or an object.", "$$replace", "$$state", "nostate", "History API state support is available only ", "in HTML5 mode and only in browsers supporting HTML5 History API", "hashPrefix", "html5Mode", "requireBase", "rewriteLinks", "nobase", "$location in HTML5 mode requires a <base> tag to be present!", /^\s*(javascript|mailto):/i, "click", "ctrlKey", "metaKey", "shiftKey", "which", "button", "target", "xlink:href", "[object SVGAnimatedString]", "preventDefault", "absUrl", "ff-684208-preventDefault", "$broadcast", "$locationChangeStart", "$digest", "$locationChangeSuccess", "debugEnabled", "log", "warn", "debug", "Error: ", "sourceURL", "line", "console", "__defineGetter__", "__defineSetter__", "__lookupGetter__", "__lookupSetter__", "__proto__", "isecfld", "Attempting to access a disallowed field in Angular expressions! ", "Expression: {0}", "isecfn", "Referencing Function in Angular expressions is disallowed! Expression: {0}", "isecwindow", "Referencing the Window in Angular expressions is disallowed! Expression: {0}", "children", "isecdom", "Referencing DOM nodes in Angular expressions is disallowed! Expression: {0}", "isecobj", "Referencing Object in Angular expressions is disallowed! Expression: {0}", "isecff", "Referencing call, apply or bind in Angular expressions is disallowed! Expression: {0}", "+ - * / % === !== == != < > <= >= && || ! = |", "\f", "\r", "\t", "\u000b", "\"", "tokens", "readString", "isNumber", "peek", "readNumber", "isIdent", "readIdent", "is", "(){}[].,;:?", "isWhitespace", "throwError", "Unexpected next character ", "0", "9", " ", "z", "Z", "s ", " [", "lexerr", "Lexer Error: {0} at column{1} in expression [{2}].", "e", "isExpOperator", "Invalid exponent", "u", /[\da-f]{4}/i, "Invalid unicode escape [\\u", 16, "\\", "Unterminated quote", "lexer", "Program", "ExpressionStatement", "AssignmentExpression", "ConditionalExpression", "LogicalExpression", "BinaryExpression", "UnaryExpression", "CallExpression", "MemberExpression", "Identifier", "Literal", "ArrayExpression", "Property", "ObjectExpression", "ThisExpression", "NGValueParameter", "lex", "program", "is an unexpected token", "}", "expressionStatement", "expect", "filterChain", "expression", "|", "filter", "assignment", "ternary", "logicalOR", "consume", "logicalAND", "||", "equality", "&&", "relational", "==", "!=", "===", "!==", "additive", "<=", ">=", "multiplicative", "unary", "%", "!", "primary", "(", "arrayDeclaration", "{", "constants", "not a primary expression", "parseArguments", "IMPOSSIBLE", "peekToken", "is not a valid identifier", "init", "invalid key", "syntax", "Syntax Error: Token '{0}' {1} at column {2} of the expression [{3}] starting at [{4}].", "ueoe", "Unexpected end of expression: {0}", "is unexpected, expecting [", "peekAhead", "toWatch", "argument", "left", "right", "alternate", "consequent", "computed", "property", "callee", "arguments", "elements", "properties", "astBuilder", "$filter", "ast", "stage", "computing", "nextId", "recurse", "fn.assign=", "generateFunction", "s,v,l", "inputs", "return_", "watchId", "main", "USE", "STRICT", "\";\n", "filterPrefix", "var fn=", "s,l,a,i", "watchFns", "return fn;", "ensureSafeMemberName", "ensureSafeObject", "ensureSafeFunction", "ifDefined", "plus", "use", "strict", "var ", "s", "fn.inputs=[", "];", "){", "varsPrefix", "};", "filters", "=$filter(", "escape", "vars", "if_", "lazyAssign", "computedMember", "lazyRecurse", "current", "operator", "not", "getHasOwnProperty", "l", "?l:s", "nonComputedMember", "{}", "expensiveChecks", "addEnsureSafeObject", "notNull", "addEnsureSafeMemberName", "addEnsureSafeFunction", "member", "lval", "Trying to assing a value to a non l-value", "v", "own", "&&(", " in ", "ifDefined(", "plus(", "return ", "if(", "else{", "!(", "!=null", "ensureSafeObject(", ",text)", "ensureSafeMemberName(", "ensureSafeFunction(", /[^ a-zA-Z0-9]/g, "\\u", "0000", "stringEscapeRegex", "stringEscapeFn", "true", "false", "null", "esc", "input", "binary", "ternary?:", "astCompiler", "csp", "noUnsafeEval", "$$watchDelegate", "pending", "processScheduled", "$$reject", "qcycle", "Expected promise to be resolved with value other than itself '{0}'", "$$resolve", "norslvr", "Expected resolverFn, got '{0}'", "$timeout", "requestAnimationFrame", "webkitRequestAnimationFrame", "cancelAnimationFrame", "webkitCancelAnimationFrame", "webkitCancelRequestAnimationFrame", 16.66, "supported", "digestTtl", "$$watchers", "$$nextSibling", "$$childHead", "$$childTail", "$$listeners", "$$listenerCount", "$$watchersCount", "$id", "$$ChildScope", "currentScope", "$parent", "$$prevSibling", "$root", "$eval", "locals", "last", "exp", "fn: ", "infdig", "{0} $digest() iterations reached. Aborting!\n", "Watchers fired in the last 5 iterations: {1}", "$$asyncQueue", "$$postDigestQueue", "$$applyAsyncQueue", "inprog", "{0} already in progress", /^\s*(https?|ftp|mailto|tel|file):/, /^\s*((https?|ftp|file|blob):|data:image\/)/, "unsafe:", "resourceUrl", "js", "self", "***", "iwcard", "Illegal sequence *** in string matcher.  String: {0}", "\\*\\*", ".*", "\\*", "[^:/.?&;]*", "^", "imatcher", "Matchers may only be \"self\", string patterns or RegExp objects", "SCE_CONTEXTS", "resourceUrlWhitelist", "resourceUrlBlacklist", "unsafe", "Attempting to use an unsafe value in a safe context.", "has", "$sanitize", "$$unwrapTrustedValue", "CSS", "URL", "JS", "icontext", "Attempted to trust a value in invalid context. Context: {0}; Value: {1}", "itype", "Attempted to trust a non-string value in a content requiring a string: Context: {0}", "insecurl", "Blocked loading resource from url not allowed by $sceDelegate policy.  URL: {0}", "$sceDelegate", "iequirks", "Strict Contextual Escaping does not support Internet Explorer version < 11 in quirks ", "mode.  You can fix this by adding the text <!doctype html> to the top of your HTML ", "document.  See http://docs.angularjs.org/api/ng.$sce for more information.", "isEnabled", "trustAs", "parseAs", "parse_as_", "get_trusted_", "trust_as_", /android (\d+)/, "userAgent", "navigator", /Boxee/i, /^(Moz|webkit|ms)(?=[A-Z])/, "WebkitOpacity", "webkit", "transition", "Transition", "animation", "Animation", "webkitTransition", "webkitAnimation", "$templateCache", "totalPendingRequests", "getTrustedResourceUrl", "tpload", "Failed to load template: {0} (HTTP status: {1} {2})", "findBindings", "getElementsByClassName", "(^|\\s)", "(\\s|\\||$)", "findModels", "ng\\:", "*=", "model", "\"]", "getLocation", "setLocation", "whenStable", "$$timeoutId", /:$/, /^\?/, /^#/, "cookie", "; ", "Filter", "currency", "date", "limitTo", "lowercase", "orderBy", "uppercase", "notarray", "Expected array but received: {0}", "$locale", "NUMBER_FORMATS", "CURRENCY_SYM", "maxFrac", "PATTERNS", "GROUP_SEP", "DECIMAL_SEP", /\u00A4/g, "abs", "∞", /([\d\.]+)e(-?)(\d+)/, "minFrac", "round", "lgSize", "gSize", "toFixed", "negPre", "posPre", "negSuf", "posSuf", 12, "SHORT", "ceil", 60, "getDay", "getFullYear", "getMonth", "getDate", 6.048e8, "getHours", "AMPMS", "ERAS", "ERANAMES", "FullYear", "Month", "Date", "Hours", "Minutes", "Seconds", "Milliseconds", "Day", /((?:[^yMdHhmsaZEwG']+)|(?:'(?:[^']|'')*')|(?:E+|y+|M+|d+|H+|h+|m+|s+|a|Z|G+|w+))(.*)/, /^\-?\d+$/, /^(\d{4})-?(\d\d)-?(\d\d)(?:T(\d\d)(?::?(\d\d)(?::?(\d\d)(?:\.(\d+))?)?)?(Z|([+-])(\d\d):?(\d\d))?)?$/, "setUTCFullYear", "setFullYear", "setUTCHours", "setHours", "0.", 7, 1000, "mediumDate", "DATETIME_FORMATS", /(^'|'$)/g, /''/g, "map", "predicateValues", "descending", "AC", "checked", "ngModel", "ngPattern", 99, "ng-submitted", "$name", "$element", "$attrs", "$$parentForm", "$error", "$$success", "$pending", "ngForm", "$dirty", "$pristine", "$valid", "$invalid", "$submitted", "$addControl", "$rollbackViewValue", "$commitViewValue", "$$renameControl", "$removeControl", "$setValidity", "$setDirty", "$setPristine", "$setUntouched", "$setSubmitted", "EAC", "submit", "this[\"\"]", /\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)/, /^(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/, /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i, /^\s*(\-|\+)?(\d+|(\d*(\.\d*)))([eE][+-]?\d+)?\s*$/, /^(\d{4})-(\d{2})-(\d{2})$/, /^(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)(?::(\d\d)(\.\d{1,3})?)?$/, /^(\d{4})-W(\d\d)$/, /^(\d{4})-(\d\d)$/, /^(\d\d):(\d\d)(?::(\d\d)(\.\d{1,3})?)?$/, "yyyy", "MM", "dd", "yyyy-MM-dd", "datetimelocal", "HH", "mm", "ss", "sss", "yyyy-MM-ddTHH:mm:ss.sss", "time", "HH:mm:ss.sss", "week", "yyyy-Www", "month", "yyyy-MM", "$formatters", "$isEmpty", "android", "compositionstart", "compositionend", "val", "password", "ngTrim", "$viewValue", "$$hasNativeValidators", "$setViewValue", "hasEvent", "keydown", "keyCode", 91, 15, 19, 37, 40, "paste", "paste cut", "change", "$render", "getSeconds", "getMilliseconds", 1970, "$options", "timezone", "$$parserName", "$parsers", "datefmt", "Expected `{0}` to be a date", "ngMin", "$validators", "$validate", "ngMax", "badInput", "typeMismatch", "numfmt", "Expected `{0}` to be a number", "email", "constexpr", "Expected constant expression for `{0}`, but saw ", "`{1}`.", "ngTrueValue", "ngFalseValue", "?ngModel", /^(true|false|\d+)$/, "ngValue", "ngBind", "ngBindTemplate", "ngBindHtml", "getTrustedHtml", "$viewChangeListeners", "ngChange", "ngClass", "$index", "$addClass", "$removeClass", "$classCounts", "Odd", "Even", "ngCloak", "ng-cloak", 500, "click dblclick mousedown mouseup mouseover mouseout mousemove mouseenter mouseleave keydown keyup keypress submit focus blur copy cut paste", 600, "ngIf", " end ngIf: ", "$anchorScroll", "ECA", 400, "noop", "ngInclude", "autoscroll", "$emit", "$includeContentLoaded", "$includeContentError", "$includeContentRequested", 450, "ngInit", "ngList", "ng-valid", "ng-invalid", "ng-pristine", "ng-dirty", "ng-untouched", "ng-touched", "ng-pending", "NaN", "$modelValue", "$$rawModelValue", "$asyncValidators", "$untouched", "$touched", "$$setOptions", "getterSetter", "()", "($$$p)", "Expression '{0}' is non-assignable. Element: {1}", "$formController", "$setTouched", "$$lastCommittedViewValue", "allowInvalid", "$$runValidators", "$$writeModelToScope", "Expected asynchronous validator to return a promise but got '{0}' instead.", "$$parseAndValidate", "updateOnDefault", "$$debounceViewValueCommit", "debounce", "default", "^?form", "^?ngModelOptions", "updateOn", "blur", /(\s+|^)default(\s+|$)/, "ngModelOptions", "ctrl", "set", "unset", "parentForm", "hasClass", "ngOptions", /^\s*([\s\S]+?)(?:\s+as\s+([\s\S]+?))?(?:\s+group\s+by\s+([\s\S]+?))?(?:\s+disable\s+when\s+([\s\S]+?))?\s+for\s+(?:([\$\w][\$\w]*)|(?:\(\s*([\$\w][\$\w]*)\s*,\s*([\$\w][\$\w]*)\s*\)))\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?$/, "iexp", "Expected expression in form of ", "'_select_ (as _label_)? for (_key_,)?_value_ in _collection_'", " but got '{0}'. Element: {1}", / as /, "selectValue", "viewValue", "label", "group", "disabled", "copy", "writeValue", "getOptionFromViewValue", "readValue", "selectValueMap", "getViewValueFromOption", "trackBy", "getTrackByValue", "items", "getWatchables", "getOptions", "groupElement", "currentOptionElement", /{}/g, /^when(Minus)?(.+)$/, "count", "offset", "pluralCat", "ngPluralize: no rule defined for '", "' in ", "$$NG_REMOVED", "ngRepeat", "$first", "$last", "$middle", "$odd", "$even", " end ngRepeat: ", /^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+as\s+([\s\S]+?))?(?:\s+track\s+by\s+([\s\S]+?))?\s*$/, "Expected expression in form of '_item_ in _collection_[ track by _id_]' but got '{0}'.", /^(?:(\s*[\$\w]+)|\(\s*([\$\w]+)\s*,\s*([\$\w]+)\s*\))$/, "iidexp", "'_item_' in '_item_ in _collection_' should be an identifier or '(_key_, _value_)' expression, but got '{0}'.", /^[$a-zA-Z_][$a-zA-Z0-9_]*$/, /^(null|undefined|this|\$index|\$first|\$middle|\$last|\$even|\$odd|\$parent|\$root|\$id)$/, "badident", "alias '{0}' is invalid --- must be a valid JS identifier which is not a reserved name.", "id", "dupes", "Duplicates in a repeater are not allowed. Use 'track by' expression to specify unique keys. Repeater: {0}, Duplicate key: {1}, Duplicate value: {2}", "ng-hide", "ng-hide-animate", "ngShow", "ngHide", "ngStyle", "ngSwitch", "cases", " end ngSwitchWhen: ", 1200, "^ngSwitch", "ngSwitchWhen", "ngTransclude", "orphan", "Illegal use of ngTransclude directive in the template! ", "No parent directive that requires a transclusion found. ", "Element: {0}", "text/ng-template", "ngModelCtrl", "unknownOption", "renderUnknownOption", "? ", " ?", "removeUnknownOption", "hasOption", "emptyOption", "addOption", "\"option value\"", "removeOption", "$selectController", "noregexp", "Expected {0} to be a RegExp but was {1}. Element: {2}", "bootstrap", "WARNING: Tried to load angular more than once.", "zero", "one", "two", "few", "many", "other", "pow", "AM", "PM", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Before Christ", "Anno Domini", "BC", "AD", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "EEEE, MMMM d, y", "MMMM d, y", "MMM d, y h:mm:ss a", "MMM d, y", "h:mm:ss a", "M/d/yy h:mm a", "M/d/yy", "h:mm a", "-¤", "¤", "en-us", "ONE", "OTHER", "ready", "noInlineStyle", "$$csp", "<style type=\"text/css\">@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>");
+!window[$fog$1552][$fog$1]()[$fog$2] && window[$fog$1552][$fog$1407](document[$fog$870])[$fog$1153]($fog$0);
+})(2, 0, "[", ":", "", " ]", 1, "ecalper", /\{\d+\}/g, "ecils", "htgnel", "/4.4.1/gro.sjralugna.srorre//:ptth\n", "/", "?", "&", "p", "=", /^\/(.+)\/([a-z]*)$/, "ytidilav", "esaCrewoLot", "ytreporPnwOsah", "epytotorp", "esaCreppUot", /[A-Z]/g, "edoCrahCmorf", "tAedoCrahc", 32, /[a-z]/g, "i", "I", "ecilps", "hsup", "gnirtSot", "fOepytotorPteg", "gn", "ralugna", "edoMtnemucod", null, false, "epyTedon", true, "rebmun", "eman", "llac", "tcejbo", "hcaErof", "noitcnuf", "tros", "syek", "yeKhsah$$", "fOeulav", 10, "etaerc", "tcejni$", "denifednu", "gnirts", "]etaD tcejbo[", "yarrAsi", "]pxEgeR tcejbo[", "wodniw", "cnysAlave$", "hctaw$", "]eliF tcejbo[", "]ataDmroF tcejbo[", "]bolB tcejbo[", "naeloob", "neht", /^\[object (Uint8(Clamped)?)|(Uint16)|(Uint32)|(Int8)|(Int16)|(Int32)|(Float(32)|(64))Array\]$/, "tset", "mirt", /([-()\[\]{}+?*.$\^|,:#<!\\])/g, "1$\\", /\x08/g, "80x\\", "emaNedon", "porp", "rtta", "dnif", "tilps", ",", "fOxedni", "swpc", ".detroppus ton si secnatsni epocS ro wodniW fo seipoc gnikaM !ypoc t'naC", "atpc", ".detatum eb tonnac noitanitsed yarrAdepyT !ypoc t'naC", "rotcurtsnoc", "emiTteg", "ecruos", "hctam", /[^\/]*$/, "xednItsal", "ipc", ".lacitnedi era noitanitsed dna ecruoS !ypoc t'naC", "tArahc", "$", "selur", "rotceleSyreuq", "]psc-gn[", "]psc-gn-atad[", "etubirttAteg", "psc-gn", "psc-gn-atad", "lave-efasnu-on", "elyts-enilni-on", "_eman", ":\\", "]qj", "qj", "tacnoc", "ylppa", "WODNIW$", "TNEMUCOD$", "EPOCS$", "yfignirts", "esrap", " 00:00:00 0791 ,10 naJ", 60000, "setuniMtes", "setuniMteg", "tesffOenozemiTteg", "enolc", "ytpme", "lmth", "dneppa", ">vid<", /^(<[^>]+>)/, /^<([\w\-]+)/, "<", /\+/g, "02%", "gnirtsbus", "nioj", /%26/gi, /%3D/gi, /%2B/gi, "+", /%40/gi, "@", /%3A/gi, /%24/g, /%2C/gi, /%3B/gi, ";", /%20/g, "-gn", "-gn-atad", ":gn", "-gn-x", "ppa", "etubirttAsah", "]", "iDtcirts", "id-tcirts", "rotcejni", "tnemucod", "dprtstb", "'}0{' tnemelE siht htiw deppartstooB ydaerlA ppA", /</, ";tl&", />/, ";tg&", "tfihsnu", "edivorp$", "eulav", "tnemelEtoor$", "delbanEofnIgubed", "redivorPelipmoc$", "ekovni", "epocStoor$", "elipmoc$", "rotcejni$", "ylppa$", "atad", /^NG_ENABLE_DEBUG_INFO!/, /^NG_DEFER_BOOTSTRAP!/, "partstooBemuser", "partstooBderrefeDemuser", "!OFNI_GUBED_ELBANE_GN", "daoler", "noitacol", "tnemele", "ytilibatseTteg ot tnemugra tnemele rof dnuof rotcejni on", "teg", "ytilibatset$$", "_", "yreuQj", "no", "nf", "epocs", "epocSetalosi", "rellortnoc", "ataDdetirehni", "ataDnaelc", "atad_", "stneve", "yortsed$", "reldnaHreggirt", "qera", "}1{ si '}0{' tnemugrA", "deriuqer", " tog ,noitcnuf a ton", "tcejbO", "emandab", "eman }0{ dilav a ton si ytreporPnwOsah", ".", "gnilbiStxen", 3, 8, 9, 11, "rrEnim$$", "eludom", "domon", " dellepssim rehtie uoY !elbaliava ton si '}0{' eludoM", " uoy taht erusne eludom a gniretsiger fI .ti daol ot togrof ro eman eludom eht", ".tnemugra dnoces eht sa seicnedneped eht yficeps", "redivorp", "yrotcaf", "ecivres", "tnatsnoc", "rotaroced", "redivorPetamina$", "retsiger", "redivorPretlif$", "redivorPrellortnoc$", "evitcerid", "emaNeludom$$", ">>nees ydaerla<<", / \{[\s\S]*$/, "4.4.1", 4, "tnemeriuqer-nolyp", "elacoLgn", "odnapxe", "933gn", "ehcac", "renetsiLtnevEdda", "renetsiLtnevEevomer", /([\:\-\_]+(.))/g, /^moz([A-Z])/, "tuoesuom", "revoesuom", "etiLqj", "1$zoM", /^<(\w+)\s*\/?>(?:<\/\1>|)$/, /<|&#?\w+;/, /<([\w:]+)/, /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi, ">\"elpitlum\"=elpitlum tceles<", ">tceles/<", ">elbat<", ">elbat/<", ">puorgloc<>elbat<", ">elbat/<>puorgloc/<", ">ydobt<>elbat<", ">elbat/<>ydobt/<", ">rt<>ydobt<>elbat<", ">elbat/<>ydobt/<>rt/<", "puorgtpo", "noitpo", "ydobt", "tooft", "puorgloc", "noitpac", "daeht", "ht", "dt", "tnemgarFtnemucoDetaerc", "edoNtxeTetaerc", "dlihCdneppa", "tnemelEetaerc", "vid", "cexe", "tluafed_", "LMTHrenni", ">2$/<>1$<", "dlihCtsal", "sedoNdlihc", "dlihCtsrif", "tnetnoCtxet", "leson", "tnemele.ralugna/ipa/gro.sjralugna.scod//:ptth :eeS !etiLqj yb detroppus ton si srotceles aiv stnemele pu gnikooL", "edoNenolc", "llArotceleSyreuq", "*", "sgraffo", "tnemugra `rotceles` eht troppus ton seod )(ffo#etiLqj", "eldnah", " ", "ssalc", /[\n\t]/g, "etubirttAtes", "rellortnoCgn", "rellortnoC", "tnemelEtnemucod", "edoNtnerap", "tsoh", "dlihCevomer", "etatSydaer", "etelpmoc", "tuoemiTtes", "daol", "dedaoLtnetnoCMOD", " ,", "nepo,deriuqer,ylnOdaer,delbasid,dekcehc,detceles,elpitlum", "sliated,mrof,nottub,aeratxet,noitpo,tceles,tupni", "htgnelnim", "htgnelxam", "nim", "xam", "nrettap", "TUPNI", "AERATXET", "epocs$", "epocSetalosi$", "etalpmeToNepocSetalosi$", "etubirttAevomer", "elyts", "deificeps", "metIdemaNteg", "setubirtta", "vd$", "elpitlum", "tceles", "snoitpo", "detceles", "txet", "detneverPtluafeDsi", "detneverPtluafed", "epyt", "deppotSnoitagaporPetaidemmi", "noitagaporPetaidemmIpots", "noitagaporPpots", "deppotSnoitagaporPetaidemmIsi", "mele", "sgrano", "sretemarap `ataDtneve` ro `rotceles` eht troppus ton seod )(no#etiLqj", "retneesuom", "evaelesuom", "tegraTdetaler", "sniatnoc", "ffo", "erofeBtresni", "dlihCecalper", "tnemucoDtnetnoc", "qe", "gnilbiStnemelEtxen", "emaNgaTyBstnemelEteg", "dnib", "dnibnu", "teg$", "diUtxen", "tup", /^[^\(]*\(\s*([^\)]*)\)/m, /,/, /^\s*(_?)(\S+?)\1\s*$/, /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg, "(noitcnuf", /[\s\r\n]+/, ")", "idtcirts", "edom tcirts ni dekovni eb tonnac dna noitatonna ticilpxe gnisu ton si }0{", "redivorP", "gnirtSsi", "rpnu", "}0{ :redivorp nwonknU", " -< ", "etaitnatsni", "tegp", ".dohtem yrotcaf teg$ enifed tsum '}0{' redivorP", "fednu", ".dohtem yrotcaf teg$ morf eulav a nruter tsum '}0{' redivorP", "daoLoTseludom", "yarra na ton", "seriuqer", "skcolBnur_", "eueuQekovni_", "skcolBgifnoc_", "egassem", "kcats", "\n", "rreludom", "}1{\n:ot eud }0{ eludom etaitnatsni ot deliaF", "pedc", "}0{ :dnuof ycnedneped ralucriC", "tfihs", "etatonna$$", "nkti", "}0{ tog ,gnirts sa eman ecivres detcepxE !nekot noitcejni tcerrocnI", "gnillorcSotuAelbasid", "wodniw$", "noitacol$", "emos", "a", "tesffOy", "elytSdetupmoCteg", "noitisop", "dexif", "mottob", "tceRtneilCgnidnuoBteg", "weiVotnIllorcs", "pot", "yBllorcs", "oTllorcs", "hsah", "dIyBtnemelEteg", "emaNyBstnemelEteg", "etamina$", "etamina-gn", "q$", "FAr$$", "lla", "niahc", "rennuRetaminA$$", "morf", "ssc", "ot", "ssalCdda", "ssalCevomer", "tsegiDtsop$$", "evomer", "snoitaminAderetsiger$$", "lescton", ".'}0{' tog '.' htiw gnitrats rotceles ssalc gnitcepxE", "noitamina-", "rtsbus", "retliFemaNssalc", "retliFemaNssalc$$", ")/\\|+s\\(", "slcgnon", ".ssalc SSC \"}0{\" eht sniatnoc/sehctam hcihw eulav xeger a gnitpecca stibihorp )xeger(retliFemaNssalc.redivorPetamina$", "eueuQetamina$$", "gnilbiStnemelEsuoiverp", "retfa", "dneperp", "nip", "delbane", "dne", "tnerap", "retne", "evom", "evael", "ssalcdda", "ssalCtes", "etamina-enilni-gn", "sessalCpmet", "etamina", "refed", "tcejer", "evloser", "enod", "esimorp", "esimorPteg", "hctac", "yllanif", "yrotsih", "tuoemiTraelc", "kcoMsi", "tseuqeRgnidnatstuOetelpmoc$$", "tnuoCtseuqeRgnidnatstuOcni$$", "pop", "rorre", "#", "stseuqeRgnidnatstuOoNnehWyfiton", "ferh", "esab", "lru", "etatSecalper", "etatShsup", /%27/g, "'", "etats", "egnahClrUno", "etatspop", "egnahchsah", "deyortseDnoitacilppa$$", "etatspop egnahchsah", "egnahClrUkcehc$$", "ferHesab", /^(https?\:)?\/\/[^\/]*/, "lecnac", "gol$", "reffins$", "tnemucod$", "yrotcaFehcac$", "dii", "!nekat ydaerla si '}0{' dIehcaC", "yticapac", "EULAV_XAM", "yek", "n", "ofni", "setalpmet", "redivorPirUezitinas$$", "evitceriD", /^\s*directive\:\s*([\w\-]+)\s+(.*)$/, /(([\w\-]+)(?:\:([^;]+))?;?)/, "tescrs,crs,tescrSgn,crSgn", /^(?:(\^\^?)?(\?)?(\^\^?)?)?/, /^(on[a-z]+|formaction)$/, /^\s*([@&]|=(\*?))(\??)\s*(\w*)\s*$/, "pcsi", ".'}0{' evitcerid rof }3{ dilavnI", "}... '}2{' :}1{ ...{ :noitinifeD ", "noitinifed sgnidnib rellortnoc", "noitinifed epocs etalosi", "rellortnoCoTdnib", "sArellortnoc", "lrtcon", ".rellortnoc s'}0{' evitcerid tuohtiw rellortnoc ot dnib tonnaC", "tnedion", ".'}0{' evitcerid rof reifitnedi tuohtiw rellortnoc ot dnib tonnaC", "riddab", "rettel esacrewol a eb tsum retcarahc tsrif ehT .dilavni si '}0{' eman evitceriD", "secapsetihw gniliart ro gnidael niatnoc ton dluohs eman ehT .dilavni si '}0{' eman evitceriD", "yrotcaFevitcerid", "reldnaHnoitpecxe$", "elipmoc", "knil", "ytiroirp", "xedni", "eriuqer", "tcirtser", "AE", "sgnidnib$$", "sgnidniBetalosi$$", "tsiletihWnoitazitinaSferHa", "tsiletihWnoitazitinaScrSgmi", "etalopretni$", "tseuqeRetalpmet$", "esrap$", "rellortnoc$", "ecs$", "irUezitinas$$", "rtta$", "tnemele$$", "-", "gmi", "crs", "tescrs", /(\s+\d+x\s*,|\s+\d+w\s*,|\s+,|,\s+)/, /\s/, /(,)/, "roolf", "rttAevomer", "srevresbo$$", "retni$$", "lobmyStrats", "lobmySdne", "{{", "}}", /\{\{/g, /}}/g, /^ngAttr[A-Z]/, "ofnIgnidniBdda$$", "gnidnib$", "ssalCgnidniBdda$$", "gnidnib-gn", "ofnIepocSdda$$", "ssalCepocSdda$$", "epocs-etalosi-gn", "epocs-gn", "eulaVedon", /\S+/, "parw", ">naps/<>naps<", "nFedulcsnarTdnuoBtnerap", "srellortnoCedulcsnart", "tnemelEtneraPerutuf", "edulcsnarTdnuob$$", "ecnatsni", "tcejbongierof", /SVG/, "gvs", "lanimret", "tnemelEsihTnOedulcsnart", "tnemelEsihTnOetalpmet", "edulcsnart", "wen$", "sgnidniByortsed$$", "no$", "deyortsed$", "dedulcsnart$$", "E", /_(.)/g, /(Start|End)$/, "tratS", 5, 6, "A", "emaNssalc", "laVmina", "C", "M", "ridretu", ".dnuof '}1{' gnihctam on tub '}0{' dnuof ,etubirtta detanimretnU", "evitceriDepocSwen", "sevitceriDrellortnoc", "evitceriDepocSetalosIwen", "evitceriDetalpmet", "evitceriDedulcsnarTblTnon", "evitceriDedulcsnarTtnemelEsah", "trats$$", "dne$$", "lrUetalpmet", "epocs detalosi/wen", "rellortnoc '", "blt$$", "noisulcsnart", "tnemmoCetaerc", " :", "stnetnoc", "etalpmet", "ecapsemaNetalpmet", "trlpt", "}1{ .tnemele toor eno yltcaxe evah tsum '}0{' evitcerid rof etalpmeT", "erp", "tsop", "emaNevitcerid", "epocSetalosi$$", "^^", "qertc", "!dnuof eb t'nac ,'}1{' evitcerid yb deriuqer ,'}0{' rellortnoC", "evitceriDlanigiro$$", "reifitnedi", "tnemelEitlum", "tes$", "deyortsed$$", " :eludom( ", "riditlum", "}5{ :no }4{ rof gniksa ]}3{}2{ ,}1{}0{[ sevitcerid elpitluM", "snoisserpxe", "htam", ">", "/<", "codcrs", "LMTH", "ferHknilx", "mrof", "noitca", "crSgn", "LRU_ECRUOSER", "itlumles", "}0{ :tnemelE .detroppus ton si etubirtta 'elpitlum' eht ot gnidniB", 100, "stnevemodon", " eht esu esaelP  .dewollasid era setubirtta tneve MOD LMTH rof snoitalopretnI", ".daetsni )kcilcno fo daetsni kcilc-gn sa hcus( snoisrev -gn", "epocs$$", "ssalCetadpu$", "txetnoc", "ataDsah", "emaNrtta", "lanoitpo", "edom", "evresbo$", "laretil", "ngissa", "ngissanon", "!elbangissa-non si '}1{' evitcerid htiw desu '}0{' noisserpxE", "lufetats$", "noitcelloc", "noitcelloChctaw$", /^((?:x|data)[\:\-_])/i, /\s+/, /^(\S+)(\s+as\s+(\w+))?$/, "slabolGwolla", "tmflrtc", " .'}0{' gnirts rellortnoc demrof yldaB", ".`__eman__` ro `__di__ sa __eman__` hctam tsuM", "pcson", ".`slacol` aiv dedivorp tcejbo epocs$ oN !'}1{' sa '}0{' rellortnoc tropxe tonnaC", "ydob", "htdiWtesffo", "nosj/noitacilppa", "8-ftu=tesrahc;", /^\[|^\{(?!\{)/, /]$/, /}$/, /^\)\]\}',?\n/, "ptth$", "ycagel", ".delbasid neeb sah `ptth$` morf denruter esimorp eht no `}0{` dohtem ehT", "gnirtSOSIot", "epyT-tnetnoC", 200, 300, "stluafed", "*/* ,nialp/txet ,nosj/noitacilppa", "NEKOT-FRSX", "NEKOT-FRSX-X", "rezilaireSmaraPptth$", "cnysAylppAesu", "snoisnetxEesimorPycageLesu", "srotpecretni", "dnekcaBptth$", "redaeReikooc$$", "rezilaireSmarap", "tcejbOsi", "qerdab", "}0{ :devieceR  .tcejbo na eb tsum noitarugifnoc tseuqer pttH", "tseuqeRmrofsnart", "esnopseRmrofsnart", "sredaeh", "dohtem", "epyt-tnetnoc", "slaitnederChtiw", "nehw", "tseuqer", "rorrEtseuqer", "esnopser", "rorrEesnopser", "sseccus", "sutats", "nommoc", "stseuqeRgnidnep", "eteled", "daeh", "pnosj", "hctap", "smarap", "TEG", "PNOSJ", "KO", "emaNeikooCfrsx", "emaNredaeHfrsx", "tuoemit", "epyTesnopser", "cnysAylppa$", "esahp$$", "txeTsutats", "tseuqeRpttHLMX", "resworb$", "skcabllac", "retnuoc", 36, "dellac", "KCABLLAC_NOSJ", ".skcabllac.ralugna", "nepo", "redaeHtseuqeRtes", "daolno", "txeTesnopser", 1223, 204, "locotorp", "elif", 404, "sredaeHesnopseRllAteg", "rorreno", "trobano", "nosj", "dnes", "troba", "tpircs", "tpircsavaj/txet", "cnysa", "nwonknu", "rrEniMetalopretni$", "tacnocoNworht", "tacnocon", " swollasid gnipacsE lautxetnoC tcirtS\n}0{ :gnitalopretni elihw rorrE", " si eulav detsurt a nehw snoisserpxe elpitlum etanetacnoc taht snoitalopretni", "ecs$.gn/ipa/gro.sjralugna.scod//:ptth eeS  .deriuqer", "rretni", "}1{\n}0{ :etalopretni t'naC", /./g, "g", "\\\\\\", "detsurTteg", "puorGhctaw$", "q$$", "lavretnItes", "lavretnIraelc", "dIlavretni$$", "yfiton", "delecnac", /^([^\?#]*)(\?([^#]*))?(#(.*))?$/, 80, 443, 21, "locotorp$$", "tsoh$$", "emantsoh", "trop$$", "trop", "htap$$", "emanhtap", "hcraes$$", "hcraes", "hsah$$", /(#.+)|#$/, "1$", "fOxednItsal", "//", "5lmth$$", "esrap$$", "xfrphtpi", ".\"}1{\" xiferp htap gnissim ,\"}0{\" lru dilavnI", "esopmoc$$", "lru$$", "lrUsba$$", "lrUkniLesrap$$", /^\/[A-Z]:(\/.*)/, "htap", "grahcrsi", ".tcejbo na ro gnirts a eb tsum llac `)(hcraes#noitacol$` eht fo tnemugra tsrif ehT", "ecalper$$", "etats$$", "etatson", " ylno elbaliava si troppus etats IPA yrotsiH", "IPA yrotsiH 5LMTH gnitroppus sresworb ni ylno dna edom 5LMTH ni", "xiferPhsah", "edoM5lmth", "esaBeriuqer", "skniLetirwer", "esabon", "!tneserp eb ot gat >esab< a seriuqer edom 5LMTH ni noitacol$", /^\s*(javascript|mailto):/i, "kcilc", "yeKlrtc", "yeKatem", "yeKtfihs", "hcihw", "nottub", "tegrat", "ferh:knilx", "]gnirtSdetaminAGVS tcejbo[", "tluafeDtneverp", "lrUsba", "tluafeDtneverp-802486-ff", "tsacdaorb$", "tratSegnahCnoitacol$", "tsegid$", "sseccuSegnahCnoitacol$", "delbanEgubed", "gol", "nraw", "gubed", " :rorrE", "LRUecruos", "enil", "elosnoc", "__retteGenifed__", "__retteSenifed__", "__retteGpukool__", "__retteSpukool__", "__otorp__", "dlfcesi", " !snoisserpxe ralugnA ni dleif dewollasid a ssecca ot gnitpmettA", "}0{ :noisserpxE", "nfcesi", "}0{ :noisserpxE !dewollasid si snoisserpxe ralugnA ni noitcnuF gnicnerefeR", "wodniwcesi", "}0{ :noisserpxE !dewollasid si snoisserpxe ralugnA ni wodniW eht gnicnerefeR", "nerdlihc", "modcesi", "}0{ :noisserpxE !dewollasid si snoisserpxe ralugnA ni sedon MOD gnicnerefeR", "jbocesi", "}0{ :noisserpxE !dewollasid si snoisserpxe ralugnA ni tcejbO gnicnerefeR", "ffcesi", "}0{ :noisserpxE !dewollasid si snoisserpxe ralugnA ni dnib ro ylppa ,llac gnicnerefeR", "| = ! || && => =< > < =! == ==! === % / * - +", "\f", "\r", "\t", "\u000b", "\"", "snekot", "gnirtSdaer", "rebmuNsi", "keep", "rebmuNdaer", "tnedIsi", "tnedIdaer", "si", "?:;,.][}{)(", "ecapsetihWsi", "rorrEworht", " retcarahc txen detcepxenU", "0", "9", " ", "z", "Z", " s", "[ ", "rrexel", ".]}2{[ noisserpxe ni }1{nmuloc ta }0{ :rorrE rexeL", "e", "rotarepOpxEsi", "tnenopxe dilavnI", "u", /[\da-f]{4}/i, "u\\[ epacse edocinu dilavnI", 16, "\\", "etouq detanimretnU", "rexel", "margorP", "tnemetatSnoisserpxE", "noisserpxEtnemngissA", "noisserpxElanoitidnoC", "noisserpxElacigoL", "noisserpxEyraniB", "noisserpxEyranU", "noisserpxEllaC", "noisserpxErebmeM", "reifitnedI", "laretiL", "noisserpxEyarrA", "ytreporP", "noisserpxEtcejbO", "noisserpxEsihT", "retemaraPeulaVGN", "xel", "margorp", "nekot detcepxenu na si", "}", "tnemetatSnoisserpxe", "tcepxe", "niahCretlif", "noisserpxe", "|", "retlif", "tnemngissa", "yranret", "ROlacigol", "emusnoc", "DNAlacigol", "||", "ytilauqe", "&&", "lanoitaler", "==", "=!", "===", "==!", "evitidda", "=<", "=>", "evitacilpitlum", "yranu", "%", "!", "yramirp", "(", "noitaralceDyarra", "{", "stnatsnoc", "noisserpxe yramirp a ton", "stnemugrAesrap", "ELBISSOPMI", "nekoTkeep", "reifitnedi dilav a ton si", "tini", "yek dilavni", "xatnys", ".]}4{[ ta gnitrats ]}3{[ noisserpxe eht fo }2{ nmuloc ta }1{ '}0{' nekoT :rorrE xatnyS", "eoeu", "}0{ :noisserpxe fo dne detcepxenU", "[ gnitcepxe ,detcepxenu si", "daehAkeep", "hctaWot", "tnemugra", "tfel", "thgir", "etanretla", "tneuqesnoc", "detupmoc", "ytreporp", "eellac", "stnemugra", "stnemele", "seitreporp", "redliuBtsa", "retlif$", "tsa", "egats", "gnitupmoc", "dItxen", "esrucer", "=ngissa.nf", "noitcnuFetareneg", "l,v,s", "stupni", "_nruter", "dIhctaw", "niam", "ESU", "TCIRTS", "\n;\"", "xiferPretlif", "=nf rav", "i,a,l,s", "snFhctaw", ";nf nruter", "emaNrebmeMefaSerusne", "tcejbOefaSerusne", "noitcnuFefaSerusne", "denifeDfi", "sulp", "esu", "tcirts", " rav", "s", "[=stupni.nf", ";]", "{)", "xiferPsrav", ";}", "sretlif", "(retlif$=", "epacse", "srav", "_fi", "ngissAyzal", "rebmeMdetupmoc", "esruceRyzal", "tnerruc", "rotarepo", "ton", "ytreporPnwOsaHteg", "l", "s:l?", "rebmeMdetupmoCnon", "}{", "skcehCevisnepxe", "tcejbOefaSerusnEdda", "lluNton", "emaNrebmeMefaSerusnEdda", "noitcnuFefaSerusnEdda", "rebmem", "lavl", "eulav-l non a ot eulav a gnissa ot gniyrT", "v", "nwo", "(&&", " ni ", "(denifeDfi", "(sulp", " nruter", "(fi", "{esle", "(!", "llun=!", "(tcejbOefaSerusne", ")txet,", "(emaNrebmeMefaSerusne", "(noitcnuFefaSerusne", /[^ a-zA-Z0-9]/g, "u\\", "0000", "xegeRepacsEgnirts", "nFepacsEgnirts", "eurt", "eslaf", "llun", "cse", "tupni", "yranib", ":?yranret", "relipmoCtsa", "psc", "lavEefasnUon", "etageleDhctaw$$", "gnidnep", "deludehcSssecorp", "tcejer$$", "elcycq", "'}0{' flesti naht rehto eulav htiw devloser eb ot esimorp detcepxE", "evloser$$", "rvlsron", "'}0{' tog ,nFrevloser detcepxE", "tuoemit$", "emarFnoitaminAtseuqer", "emarFnoitaminAtseuqeRtikbew", "emarFnoitaminAlecnac", "emarFnoitaminAlecnaCtikbew", "emarFnoitaminAtseuqeRlecnaCtikbew", 16.66, "detroppus", "ltTtsegid", "srehctaw$$", "gnilbiStxen$$", "daeHdlihc$$", "liaTdlihc$$", "srenetsil$$", "tnuoCrenetsil$$", "tnuoCsrehctaw$$", "di$", "epocSdlihC$$", "epocStnerruc", "tnerap$", "gnilbiSverp$$", "toor$", "lave$", "slacol", "tsal", "pxe", " :nf", "gidfni", "\n!gnitrobA .dehcaer snoitareti )(tsegid$ }0{", "}1{ :snoitareti 5 tsal eht ni derif srehctaW", "eueuQcnysa$$", "eueuQtsegiDtsop$$", "eueuQcnysAylppa$$", "gorpni", "ssergorp ni ydaerla }0{", /^\s*(https?|ftp|mailto|tel|file):/, /^\s*((https?|ftp|file|blob):|data:image\/)/, ":efasnu", "lrUecruoser", "sj", "fles", "***", "dracwi", "}0{ :gnirtS  .rehctam gnirts ni *** ecneuqes lagellI", "*\\*\\", "*.", "*\\", "*];&?./:^[", "^", "rehctami", "stcejbo pxEgeR ro snrettap gnirts ,\"fles\" eb ylno yam srehctaM", "STXETNOC_ECS", "tsiletihWlrUecruoser", "tsilkcalBlrUecruoser", "efasnu", ".txetnoc efas a ni eulav efasnu na esu ot gnitpmettA", "sah", "ezitinas$", "eulaVdetsurTparwnu$$", "SSC", "LRU", "SJ", "txetnoci", "}1{ :eulaV ;}0{ :txetnoC .txetnoc dilavni ni eulav a tsurt ot detpmettA", "epyti", "}0{ :txetnoC :gnirts a gniriuqer tnetnoc a ni eulav gnirts-non a tsurt ot detpmettA", "lrucesni", "}0{ :LRU  .ycilop etageleDecs$ yb dewolla ton lru morf ecruoser gnidaol dekcolB", "etageleDecs$", "skriuqei", " skriuq ni 11 < noisrev rerolpxE tenretnI troppus ton seod gnipacsE lautxetnoC tcirtS", " LMTH ruoy fo pot eht ot >lmth epytcod!< txet eht gnidda yb siht xif nac uoY  .edom", ".noitamrofni erom rof ecs$.gn/ipa/gro.sjralugna.scod//:ptth eeS  .tnemucod", "delbanEsi", "sAtsurt", "sAesrap", "_sa_esrap", "_detsurt_teg", "_sa_tsurt", /android (\d+)/, "tnegAresu", "rotagivan", /Boxee/i, /^(Moz|webkit|ms)(?=[A-Z])/, "yticapOtikbeW", "tikbew", "noitisnart", "noitisnarT", "noitamina", "noitaminA", "noitisnarTtikbew", "noitaminAtikbew", "ehcaCetalpmet$", "stseuqeRgnidnePlatot", "lrUecruoseRdetsurTteg", "daolpt", ")}2{ }1{ :sutats PTTH( }0{ :etalpmet daol ot deliaF", "sgnidniBdnif", "emaNssalCyBstnemelEteg", ")s\\|^(", ")$||\\|s\\(", "sledoMdnif", ":\\gn", "=*", "ledom", "]\"", "noitacoLteg", "noitacoLtes", "elbatSnehw", "dItuoemit$$", /:$/, /^\?/, /^#/, "eikooc", " ;", "retliF", "ycnerruc", "etad", "oTtimil", "esacrewol", "yBredro", "esacreppu", "yarraton", "}0{ :deviecer tub yarra detcepxE", "elacol$", "STAMROF_REBMUN", "MYS_YCNERRUC", "carFxam", "SNRETTAP", "PES_PUORG", "PES_LAMICED", /\u00A4/g, "sba", "∞", /([\d\.]+)e(-?)(\d+)/, "carFnim", "dnuor", "eziSgl", "eziSg", "dexiFot", "erPgen", "erPsop", "fuSgen", "fuSsop", 12, "TROHS", "liec", 60, "yaDteg", "raeYlluFteg", "htnoMteg", "etaDteg", 6.048e8, "sruoHteg", "SMPMA", "SARE", "SEMANARE", "raeYlluF", "htnoM", "etaD", "sruoH", "setuniM", "sdnoceS", "sdnocesilliM", "yaD", /((?:[^yMdHhmsaZEwG']+)|(?:'(?:[^']|'')*')|(?:E+|y+|M+|d+|H+|h+|m+|s+|a|Z|G+|w+))(.*)/, /^\-?\d+$/, /^(\d{4})-?(\d\d)-?(\d\d)(?:T(\d\d)(?::?(\d\d)(?::?(\d\d)(?:\.(\d+))?)?)?(Z|([+-])(\d\d):?(\d\d))?)?$/, "raeYlluFCTUtes", "raeYlluFtes", "sruoHCTUtes", "sruoHtes", ".0", 7, 1000, "etaDmuidem", "STAMROF_EMITETAD", /(^'|'$)/g, /''/g, "pam", "seulaVetaciderp", "gnidnecsed", "CA", "dekcehc", "ledoMgn", "nrettaPgn", 99, "dettimbus-gn", "eman$", "tnemele$", "srtta$", "mroFtnerap$$", "rorre$", "sseccus$$", "gnidnep$", "mroFgn", "ytrid$", "enitsirp$", "dilav$", "dilavni$", "dettimbus$", "lortnoCdda$", "eulaVweiVkcabllor$", "eulaVweiVtimmoc$", "lortnoCemaner$$", "lortnoCevomer$", "ytidilaVtes$", "ytriDtes$", "enitsirPtes$", "dehcuotnUtes$", "dettimbuStes$", "CAE", "timbus", "]\"\"[siht", /\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)/, /^(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/, /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i, /^\s*(\-|\+)?(\d+|(\d*(\.\d*)))([eE][+-]?\d+)?\s*$/, /^(\d{4})-(\d{2})-(\d{2})$/, /^(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)(?::(\d\d)(\.\d{1,3})?)?$/, /^(\d{4})-W(\d\d)$/, /^(\d{4})-(\d\d)$/, /^(\d\d):(\d\d)(?::(\d\d)(\.\d{1,3})?)?$/, "yyyy", "MM", "dd", "dd-MM-yyyy", "lacolemitetad", "HH", "mm", "ss", "sss", "sss.ss:mm:HHTdd-MM-yyyy", "emit", "sss.ss:mm:HH", "keew", "wwW-yyyy", "htnom", "MM-yyyy", "srettamrof$", "ytpmEsi$", "diordna", "tratsnoitisopmoc", "dnenoitisopmoc", "lav", "drowssap", "mirTgn", "eulaVweiv$", "srotadilaVevitaNsah$$", "eulaVweiVtes$", "tnevEsah", "nwodyek", "edoCyek", 91, 15, 19, 37, 40, "etsap", "tuc etsap", "egnahc", "redner$", "sdnoceSteg", "sdnocesilliMteg", 1970, "snoitpo$", "enozemit", "emaNresrap$$", "sresrap$", "tmfetad", "etad a eb ot `}0{` detcepxE", "niMgn", "srotadilav$", "etadilav$", "xaMgn", "tupnIdab", "hctamsiMepyt", "tmfmun", "rebmun a eb ot `}0{` detcepxE", "liame", "rpxetsnoc", " was tub ,`}0{` rof noisserpxe tnatsnoc detcepxE", ".`}1{`", "eulaVeurTgn", "eulaVeslaFgn", "ledoMgn?", /^(true|false|\d+)$/, "eulaVgn", "dniBgn", "etalpmeTdniBgn", "lmtHdniBgn", "lmtHdetsurTteg", "srenetsiLegnahCweiv$", "egnahCgn", "ssalCgn", "xedni$", "ssalCdda$", "ssalCevomer$", "stnuoCssalc$", "ddO", "nevE", "kaolCgn", "kaolc-gn", 500, "etsap tuc ypoc rulb sucof timbus sserpyek puyek nwodyek evaelesuom retneesuom evomesuom tuoesuom revoesuom puesuom nwodesuom kcilclbd kcilc", 600, "fIgn", " :fIgn dne ", "llorcSrohcna$", "ACE", 400, "poon", "edulcnIgn", "llorcsotua", "time$", "dedaoLtnetnoCedulcni$", "rorrEtnetnoCedulcni$", "detseuqeRtnetnoCedulcni$", 450, "tinIgn", "tsiLgn", "dilav-gn", "dilavni-gn", "enitsirp-gn", "ytrid-gn", "dehcuotnu-gn", "dehcuot-gn", "gnidnep-gn", "NaN", "eulaVledom$", "eulaVledoMwar$$", "srotadilaVcnysa$", "dehcuotnu$", "dehcuot$", "snoitpOtes$$", "retteSretteg", ")(", ")p$$$(", "}1{ :tnemelE .elbangissa-non si '}0{' noisserpxE", "rellortnoCmrof$", "dehcuoTtes$", "eulaVweiVdettimmoCtsal$$", "dilavnIwolla", "srotadilaVnur$$", "epocSoTledoMetirw$$", ".daetsni '}0{' tog tub esimorp a nruter ot rotadilav suonorhcnysa detcepxE", "etadilaVdnAesrap$$", "tluafeDnOetadpu", "timmoCeulaVweiVecnuobed$$", "ecnuobed", "tluafed", "mrof?^", "snoitpOledoMgn?^", "nOetadpu", "rulb", /(\s+|^)default(\s+|$)/, "snoitpOledoMgn", "lrtc", "tes", "tesnu", "mroFtnerap", "ssalCsah", "snoitpOgn", /^\s*([\s\S]+?)(?:\s+as\s+([\s\S]+?))?(?:\s+group\s+by\s+([\s\S]+?))?(?:\s+disable\s+when\s+([\s\S]+?))?\s+for\s+(?:([\$\w][\$\w]*)|(?:\(\s*([\$\w][\$\w]*)\s*,\s*([\$\w][\$\w]*)\s*\)))\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?$/, "pxei", " fo mrof ni noisserpxe detcepxE", "'_noitcelloc_ ni _eulav_?),_yek_( rof ?)_lebal_ sa( _tceles_'", "}1{ :tnemelE .'}0{' tog tub ", / as /, "eulaVtceles", "eulaVweiv", "lebal", "puorg", "delbasid", "ypoc", "eulaVetirw", "eulaVweiVmorFnoitpOteg", "eulaVdaer", "paMeulaVtceles", "noitpOmorFeulaVweiVteg", "yBkcart", "eulaVyBkcarTteg", "smeti", "selbahctaWteg", "snoitpOteg", "tnemelEpuorg", "tnemelEnoitpOtnerruc", /{}/g, /^when(Minus)?(.+)$/, "tnuoc", "tesffo", "taClarulp", "' rof denifed elur on :ezilarulPgn", " ni '", "DEVOMER_GN$$", "taepeRgn", "tsrif$", "tsal$", "elddim$", "ddo$", "neve$", " :taepeRgn dne ", /^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+as\s+([\s\S]+?))?(?:\s+track\s+by\s+([\s\S]+?))?\s*$/, ".'}0{' tog tub ']_di_ yb kcart [_noitcelloc_ ni _meti_' fo mrof ni noisserpxe detcepxE", /^(?:(\s*[\$\w]+)|\(\s*([\$\w]+)\s*,\s*([\$\w]+)\s*\))$/, "pxedii", ".'}0{' tog tub ,noisserpxe ')_eulav_ ,_yek_(' ro reifitnedi na eb dluohs '_noitcelloc_ ni _meti_' ni '_meti_'", /^[$a-zA-Z_][$a-zA-Z0-9_]*$/, /^(null|undefined|this|\$index|\$first|\$middle|\$last|\$even|\$odd|\$parent|\$root|\$id)$/, "tnedidab", ".eman devreser a ton si hcihw reifitnedi SJ dilav a eb tsum --- dilavni si '}0{' saila", "di", "sepud", "}2{ :eulav etacilpuD ,}1{ :yek etacilpuD ,}0{ :retaepeR .syek euqinu yficeps ot noisserpxe 'yb kcart' esU .dewolla ton era retaeper a ni setacilpuD", "edih-gn", "etamina-edih-gn", "wohSgn", "ediHgn", "elytSgn", "hctiwSgn", "sesac", " :nehWhctiwSgn dne ", 1200, "hctiwSgn^", "nehWhctiwSgn", "edulcsnarTgn", "nahpro", " !etalpmet eht ni evitcerid edulcsnarTgn fo esu lagellI", " .dnuof noisulcsnart a seriuqer taht evitcerid tnerap oN", "}0{ :tnemelE", "etalpmet-gn/txet", "lrtCledoMgn", "noitpOnwonknu", "noitpOnwonknUredner", " ?", "? ", "noitpOnwonknUevomer", "noitpOsah", "noitpOytpme", "noitpOdda", "\"eulav noitpo\"", "noitpOevomer", "rellortnoCtceles$", "pxegeron", "}2{ :tnemelE .}1{ saw tub pxEgeR a eb ot }0{ detcepxE", "partstoob", ".ecno naht erom ralugna daol ot deirT :GNINRAW", "orez", "eno", "owt", "wef", "ynam", "rehto", "wop", "MA", "MP", "yadnuS", "yadnoM", "yadseuT", "yadsendeW", "yadsruhT", "yadirF", "yadrutaS", "tsirhC erofeB", "inimoD onnA", "CB", "DA", "yraunaJ", "yraurbeF", "hcraM", "lirpA", "yaM", "enuJ", "yluJ", "tsuguA", "rebmetpeS", "rebotcO", "rebmevoN", "rebmeceD", "nuS", "noM", "euT", "deW", "uhT", "irF", "taS", "naJ", "beF", "raM", "rpA", "nuJ", "luJ", "guA", "peS", "tcO", "voN", "ceD", "y ,d MMMM ,EEEE", "y ,d MMMM", "a ss:mm:h y ,d MMM", "y ,d MMM", "a ss:mm:h", "a mm:h yy/d/M", "yy/d/M", "a mm:h", "¤-", "¤", "su-ne", "ENO", "REHTO", "ydaer", "elytSenilnIon", "psc$$", ">elyts/<};etulosba:noitisop{rohcna-gn.};neddih:ytilibisiv{mihs-etamina-gn.};kcolb:yalpsid{mrof:\\gn};tnatropmi! enon:yalpsid{)etamina-edih-gn.(ton:edih-gn.,kaolc-gn-x.,kaolc-gn.,]kaolc-gn-x[,]kaolc-gn-atad[,]kaolc-gn[,]kaolc:\\gn[;\"8-FTU\" tesrahc@>\"ssc/txet\"=epyt elyts<");
      
