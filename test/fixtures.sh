@@ -1,6 +1,8 @@
-node cli test/fixtures/angular.input.js -o test/fixtures/angular.output.js
-node cli test/fixtures/angular.input.js -o test/fixtures/angular.reverse.output.js -t reverse
-node cli test/fixtures/angular.input.js -o test/fixtures/angular.zero.output.js -t zero
+npm run dist
+
+node cli test/fixtures/angular.in.js -o test/fixtures/angular.output.js
+node cli test/fixtures/angular.in.js -o test/fixtures/angular.reverse.output.js -t reverse
+node cli test/fixtures/angular.in.js -o test/fixtures/angular.zero.output.js -t zero
 
 node cli test/fixtures/seajs.input.js -o test/fixtures/seajs.output.js
 node cli test/fixtures/seajs.input.js -o test/fixtures/seajs.reverse.output.js -t reverse

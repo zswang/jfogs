@@ -206,29 +206,85 @@ function obfuscate(code, options) {
       }) + '"';
     });
     if (hasString) {
+      var params = {
+        argv: identFrom(guid++),
+        index: identFrom(guid++),
+        empty: identFrom(guid++),
+        len: identFrom(guid++),
+        string: identFrom(guid++),
+        replace: identFrom(guid++),
+        fromCharCode: identFrom(guid++),
+        length: identFrom(guid++),
+        0: identFrom(guid++),
+        1: identFrom(guid++),
+        2: identFrom(guid++),
+        String: identFrom(guid++),
+        regex1: identFrom(guid++),
+        regex2: identFrom(guid++),
+        fromCharCode: identFrom(guid++),
+        parseInt: identFrom(guid++),
+        rightToLeft: identFrom(guid++)
+      };
+
+      names.push(params.rightToLeft);
+      expressions.push('"\u202e"'); // 干扰字符
+
+      names.push(params.len);
+      expressions.push(expressions.length - 1);
+
+      names.push(params.string);
+      expressions.push('"string"');
+
+      names.push(params.replace);
+      expressions.push('"replace"');
+
+      names.push(params.regex1);
+      expressions.push('/./g');
+
+      names.push(params.regex2);
+      expressions.push('/.{7}/g');
+
+      names.push(params.String);
+      expressions.push('String');
+
+      names.push(params.fromCharCode);
+      expressions.push('"fromCharCode"');
+
+      names.push(params[0]);
+      expressions.push(0);
+
+      names.push(params[1]);
+      expressions.push(1);
+
+      names.push(params[2]);
+      expressions.push(2);
+
+      names.push(params.parseInt);
+      expressions.push('parseInt');
+
       decryption = format( /*#*/ function () {
         /*!
+if ('\u202e' !== #{rightToLeft}) {
+  return;
+}
 var #{argv} = arguments;
-for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
-  if (typeof #{argv}[#{index}] !== 'string') {
+for (var #{index} = 0; #{index} < #{len}; #{index}++) {
+  if (typeof #{argv}[#{index}] !== #{string}) {
     continue;
   }
-  #{argv}[#{index}] = #{argv}[#{index}].replace(/./g,
+  #{argv}[#{index}] = #{argv}[#{index}][#{replace}](#{regex1},
     function (a) {
       return {
-        '\u200c': 0,
-        '\u200d': 1
-      }[a]
+        '\u200c': #{0},
+        '\u200d': #{1}
+      }[a];
     }
-  ).replace(/.{7}/g, function (a) {
-    return String.fromCharCode(parseInt(a, 2));
+  ).replace(#{regex2}, function (a) {
+    return #{String}[#{fromCharCode}](#{parseInt}(a, #{2}));
   });
 }
     */
-      }, {
-        argv: identFrom(guid++),
-        index: identFrom(guid++)
-      });
+      }, params);
     }
     break;
   case 'reverse':
@@ -242,24 +298,62 @@ for (var #{index} = 0; #{index} < #{argv}.length; #{index}++) {
     var params = {
       argv: identFrom(guid++),
       index: identFrom(guid++),
+      empty: identFrom(guid++),
       len: identFrom(guid++),
-      temp: identFrom(guid++)
+      temp: identFrom(guid++),
+      string: identFrom(guid++),
+      split: identFrom(guid++),
+      reverse: identFrom(guid++),
+      0: identFrom(guid++),
+      1: identFrom(guid++),
+      2: identFrom(guid++),
+      join: identFrom(guid++),
+      rightToLeft: identFrom(guid++)
     };
+
+    names.push(params.rightToLeft);
+    expressions.push('"\u202e"'); // 干扰字符
+
+    names.push(params.len);
+    expressions.push(expressions.length - 1);
+
     if (hasString || expressions.length > 1) {
+
       decryption += format( /*#*/ function () {
         /*!
+if ('\u202e' !== #{rightToLeft}) {
+  return;
+}
 var #{argv} = arguments;
-var #{len} = #{argv}.length;
 var #{index};
         */
       }, params);
+
+      names.push(params.empty);
+      expressions.push('""');
+
+      names.push(params[0]);
+      expressions.push('0');
     }
     if (hasString) {
+
+      names.push(params.string);
+      expressions.push('"string"');
+
+      names.push(params.split);
+      expressions.push('"split"');
+
+      names.push(params.reverse);
+      expressions.push('"reverse"');
+
+      names.push(params.join);
+      expressions.push('"join"');
+
       decryption += format( /*#*/ function () {
         /*!
-for (#{index} = 0; #{index} < #{len}; #{index}++) {
-  if (typeof #{argv}[#{index}] === 'string') {
-    #{argv}[#{index}] = #{argv}[#{index}].split('').reverse().join('');
+for (#{index} = #{0}; #{index} < #{len}; #{index}++) {
+  if (typeof #{argv}[#{index}] === #{string}) {
+    #{argv}[#{index}] = #{argv}[#{index}][#{split}](#{empty})[#{reverse}]()[#{join}](#{empty});
   }
 }
         */
@@ -267,16 +361,36 @@ for (#{index} = 0; #{index} < #{len}; #{index}++) {
     }
 
     if (expressions.length > 1) {
+      names.push(params[1]);
+      expressions.push('1');
+
+      names.push(params[2]);
+      expressions.push('2');
+
       decryption += format( /*#*/ function () {
         /*!
-for (#{index} = 0; #{index} < #{len} / 2; #{index}++) {
+for (#{index} = #{0}; #{index} < #{len} / #{2}; #{index}++) {
   var #{temp} = #{argv}[#{index}];
-  #{argv}[#{index}] = #{argv}[#{len} - #{index} - 1];
-  #{argv}[#{len} - #{index} - 1] = #{temp};
+  #{argv}[#{index}] = #{argv}[#{len} - #{index} - #{1}];
+  #{argv}[#{len} - #{index} - #{1}] = #{temp};
 }
         */
       }, params);
     }
+    break;
+  default:
+    var params = {
+      rightToLeft: identFrom(guid++)
+    };
+    names.unshift(params.rightToLeft);
+    expressions.unshift('"\u202e"'); // 干扰字符
+    decryption += format( /*#*/ function () {
+      /*!
+if ('\u202e' !== #{rightToLeft}) {
+  return;
+}
+        */
+    }, params);
     break;
   }
   return format( /*#*/ function () {
