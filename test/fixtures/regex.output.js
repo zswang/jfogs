@@ -1,7 +1,7 @@
 
 (function ($fog$4, $fog$0, $fog$1, $fog$2, $fog$3) {
   
-if ('\u202e' !== $fog$4) {
+if ("‮" !== $fog$4) {
   return;
 }
         

@@ -186,6 +186,7 @@ function obfuscate(code, options) {
 
   var decryption = '';
   var hasString; // 是否存在字符串处理
+  var params = {};
 
   /*<jdists encoding="candy">*/
   switch (options.type) {
@@ -206,7 +207,7 @@ function obfuscate(code, options) {
       }) + '"';
     });
     if (hasString) {
-      var params = {
+      params = {
         argv: identFrom(guid++),
         index: identFrom(guid++),
         empty: identFrom(guid++),
@@ -221,9 +222,9 @@ function obfuscate(code, options) {
         String: identFrom(guid++),
         regex1: identFrom(guid++),
         regex2: identFrom(guid++),
-        fromCharCode: identFrom(guid++),
         parseInt: identFrom(guid++),
-        rightToLeft: identFrom(guid++)
+        rightToLeft: identFrom(guid++),
+        u202e: '"\u202e"'
       };
 
       names.push(params.rightToLeft);
@@ -264,7 +265,7 @@ function obfuscate(code, options) {
 
       decryption = format( /*#*/ function () {
         /*!
-if ('\u202e' !== #{rightToLeft}) {
+if (#{u202e} !== #{rightToLeft}) {
   return;
 }
 var #{argv} = arguments;
@@ -295,7 +296,7 @@ for (var #{index} = 0; #{index} < #{len}; #{index}++) {
       }
       return item;
     });
-    var params = {
+    params = {
       argv: identFrom(guid++),
       index: identFrom(guid++),
       empty: identFrom(guid++),
@@ -308,7 +309,8 @@ for (var #{index} = 0; #{index} < #{len}; #{index}++) {
       1: identFrom(guid++),
       2: identFrom(guid++),
       join: identFrom(guid++),
-      rightToLeft: identFrom(guid++)
+      rightToLeft: identFrom(guid++),
+      u202e: '"\u202e"'
     };
 
     names.push(params.rightToLeft);
@@ -321,7 +323,7 @@ for (var #{index} = 0; #{index} < #{len}; #{index}++) {
 
       decryption += format( /*#*/ function () {
         /*!
-if ('\u202e' !== #{rightToLeft}) {
+if (#{u202e} !== #{rightToLeft}) {
   return;
 }
 var #{argv} = arguments;
@@ -379,14 +381,15 @@ for (#{index} = #{0}; #{index} < #{len} / #{2}; #{index}++) {
     }
     break;
   default:
-    var params = {
-      rightToLeft: identFrom(guid++)
+    params = {
+      rightToLeft: identFrom(guid++),
+      u202e: '"\u202e"'
     };
     names.unshift(params.rightToLeft);
     expressions.unshift('"\u202e"'); // 干扰字符
     decryption += format( /*#*/ function () {
       /*!
-if ('\u202e' !== #{rightToLeft}) {
+if (#{u202e} !== #{rightToLeft}) {
   return;
 }
         */

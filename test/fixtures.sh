@@ -27,3 +27,7 @@ node cli test/fixtures/nostring.input.js -o test/fixtures/nostring.zero.output.j
 node cli test/fixtures/one.input.js -o test/fixtures/one.output.js
 node cli test/fixtures/one.input.js -o test/fixtures/one.reverse.output.js -t reverse
 node cli test/fixtures/one.input.js -o test/fixtures/one.zero.output.js -t zero
+
+node cli test/fixtures/use-strict.input.js -o test/fixtures/use-strict.output.js
+node cli test/fixtures/use-strict.input.js -o test/fixtures/use-strict.reverse.output.js -t reverse
+node cli test/fixtures/use-strict.input.js -o test/fixtures/use-strict.zero.output.js -t zero

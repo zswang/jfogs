@@ -1,7 +1,7 @@
 
-(function ($fog$0, $fog$17, $fog$4, $fog$5, $fog$6, $fog$13, $fog$14, $fog$12, $fog$15, $fog$9, $fog$10, $fog$11, $fog$16) {
+(function ($fog$0, $fog$16, $fog$4, $fog$5, $fog$6, $fog$13, $fog$14, $fog$12, $fog$7, $fog$9, $fog$10, $fog$11, $fog$15) {
   
-if ('\u202e' !== $fog$17) {
+if ("‮" !== $fog$16) {
   return;
 }
 var $fog$1 = arguments;
@@ -17,7 +17,7 @@ for (var $fog$2 = 0; $fog$2 < $fog$4; $fog$2++) {
       }[a];
     }
   ).replace($fog$14, function (a) {
-    return $fog$12[$fog$15]($fog$16(a, $fog$11));
+    return $fog$12[$fog$7]($fog$15(a, $fog$11));
   });
 }
     
