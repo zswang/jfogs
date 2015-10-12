@@ -35,3 +35,7 @@ node cli test/fixtures/use-strict.input.js -o test/fixtures/use-strict.zero.outp
 node cli test/fixtures/min.input.js -o test/fixtures/min.output.js
 node cli test/fixtures/min.input.js -o test/fixtures/min.reverse.output.js -t reverse
 node cli test/fixtures/min.input.js -o test/fixtures/min.zero.output.js -t zero
+
+node cli test/fixtures/unicode.input.js -o test/fixtures/unicode.output.js
+node cli test/fixtures/unicode.input.js -o test/fixtures/unicode.reverse.output.js -t reverse
+node cli test/fixtures/unicode.input.js -o test/fixtures/unicode.zero.output.js -t zero

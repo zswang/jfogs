@@ -4,8 +4,9 @@
 if ("‮" !== $fog$193) {
   return;
 }
+
 var $fog$178 = arguments;
-for (var $fog$179 = 0; $fog$179 < $fog$181; $fog$179++) {
+for (var $fog$179 = $fog$186; $fog$179 < $fog$181; $fog$179++) {
   if (typeof $fog$178[$fog$179] !== $fog$182) {
     continue;
   }
@@ -16,7 +17,7 @@ for (var $fog$179 = 0; $fog$179 < $fog$181; $fog$179++) {
         '\u200d': $fog$187
       }[a];
     }
-  ).replace($fog$191, function (a) {
+  )[$fog$183]($fog$191, function (a) {
     return $fog$189[$fog$184]($fog$192(a, $fog$188));
   });
 }

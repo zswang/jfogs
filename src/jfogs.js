@@ -25,15 +25,27 @@
 var esprima = require('esprima');
 
 /**
- * 对字符串进行 Unicode 编码
+ * 对字符串进行utf8编码
  *
- * @param {string} str 源字符串
- * @return {string} 返回编码后的内容
+ * param {string} str 原始字符串
  */
-function encodeUnicode(str) {
-  return String(str).replace(/[^\x09-\x7f\ufeff]/g, function (all) {
-    return '\\u' + (0x10000 + all.charCodeAt()).toString(16).substring(1);
-  });
+function encodeUTF8(str) {
+  if (!str) {
+    return str;
+  }
+  return String(str).replace(
+    /[\u0080-\u07ff]/g,
+    function (c) {
+      var cc = c.charCodeAt(0);
+      return String.fromCharCode(0xc0 | cc >> 6, 0x80 | cc & 0x3f);
+    }
+  ).replace(
+    /[\u0800-\uffff]/g,
+    function (c) {
+      var cc = c.charCodeAt(0);
+      return String.fromCharCode(0xe0 | cc >> 12, 0x80 | cc >> 6 & 0x3f, 0x80 | cc & 0x3f);
+    }
+  );
 }
 
 /**
@@ -200,13 +212,31 @@ function obfuscate(code, options) {
   /*<jdists encoding="candy">*/
   switch (options.type) {
   case 'zero':
+    var existsUnicode = false;
+    expressions.every(function (item) {
+      if (/[\u0100-\uffff]/.test(item)) {
+        existsUnicode = true;
+      }
+      return !existsUnicode;
+    });
+    var t;
+    if (existsUnicode) {
+      t = parseInt('100000000', 2);
+    }
+    else {
+      t = parseInt('10000000', 2);
+    }
     expressions = expressions.map(function (item) {
       if (!(/^["]/.test(item)) || item.length <= 2) {
         return item;
       }
       hasString = true;
-      var t = parseInt('10000000', 2);
-      return '"' + encodeUnicode(JSON.parse(item)).replace(/[^]/g, function (all) {
+      var value = JSON.parse(item);
+      if (existsUnicode) {
+        value = encodeUTF8(value);
+      }
+
+      return '"' + value.replace(/[^]/g, function (all) {
         return (t + all.charCodeAt()).toString(2).substring(1).replace(/[^]/g, function (n) {
           return {
             0: '\u200c',
@@ -233,7 +263,14 @@ function obfuscate(code, options) {
         regex2: identFrom(guid++),
         parseInt: identFrom(guid++),
         rightToLeft: identFrom(guid++),
-        u202e: '"\u202e"'
+        u202e: '"\u202e"',
+        6: identFrom(guid++),
+        charCodeAt: identFrom(guid++),
+        '0x0f': identFrom(guid++),
+        '0x1f': identFrom(guid++),
+        '0x3f': identFrom(guid++),
+        regex3: identFrom(guid++),
+        regex4: identFrom(guid++),
       };
 
       names.push(params.rightToLeft);
@@ -252,7 +289,32 @@ function obfuscate(code, options) {
       expressions.push('/./g');
 
       names.push(params.regex2);
-      expressions.push('/.{7}/g');
+      if (existsUnicode) {
+        expressions.push('/.{8}/g');
+        names.push(params.regex3);
+        expressions.push('/[\\u00c0-\\u00df][\\u0080-\\u00bf]/g');
+
+        names.push(params.regex4);
+        expressions.push('/[\\u00e0-\\u00ef][\\u0080-\\u00bf][\\u0080-\\u00bf]/g');
+
+        names.push(params.charCodeAt);
+        expressions.push('"charCodeAt"');
+
+        names.push(params[6]);
+        expressions.push(6);
+
+        names.push(params['0x0f']);
+        expressions.push(0x1f);
+
+        names.push(params['0x1f']);
+        expressions.push(0x1f);
+
+        names.push(params['0x3f']);
+        expressions.push(0x3f);
+      }
+      else {
+        expressions.push('/.{7}/g');
+      }
 
       names.push(params.String);
       expressions.push('String');
@@ -272,13 +334,15 @@ function obfuscate(code, options) {
       names.push(params.parseInt);
       expressions.push('parseInt');
 
-      decryption = format( /*#*/ function () {
-        /*!
+      if (existsUnicode) {
+        decryption = format( /*#*/ function () {
+          /*!
 if (#{u202e} !== #{rightToLeft}) {
   return;
 }
+
 var #{argv} = arguments;
-for (var #{index} = 0; #{index} < #{len}; #{index}++) {
+for (var #{index} = #{0}; #{index} < #{len}; #{index}++) {
   if (typeof #{argv}[#{index}] !== #{string}) {
     continue;
   }
@@ -289,12 +353,51 @@ for (var #{index} = 0; #{index} < #{len}; #{index}++) {
         '\u200d': #{1}
       }[a];
     }
-  ).replace(#{regex2}, function (a) {
+  )[#{replace}](#{regex2}, function (a) {
+    return #{String}[#{fromCharCode}](#{parseInt}(a, #{2}));
+  })[#{replace}](
+    #{regex3},
+    function(c) {
+      var cc = (c[#{charCodeAt}](#{0}) & #{0x1f}) << #{6} | (c[#{charCodeAt}](#{1}) & #{0x3f});
+      return #{String}[#{fromCharCode}](cc);
+    }
+  )[#{replace}](
+    #{regex4},
+    function(c) {
+      var cc = (c[#{charCodeAt}](#{0}) & #{0x0f}) << #{6} * #{2} | (c[#{charCodeAt}](#{1}) & #{0x3f}) << #{6} | (c[#{charCodeAt}](2) & #{0x3f});
+      return #{String}[#{fromCharCode}](cc);
+    }
+  );
+}
+    */
+        }, params);
+      }
+      else {
+        decryption = format( /*#*/ function () {
+          /*!
+if (#{u202e} !== #{rightToLeft}) {
+  return;
+}
+
+var #{argv} = arguments;
+for (var #{index} = #{0}; #{index} < #{len}; #{index}++) {
+  if (typeof #{argv}[#{index}] !== #{string}) {
+    continue;
+  }
+  #{argv}[#{index}] = #{argv}[#{index}][#{replace}](#{regex1},
+    function (a) {
+      return {
+        '\u200c': #{0},
+        '\u200d': #{1}
+      }[a];
+    }
+  )[#{replace}](#{regex2}, function (a) {
     return #{String}[#{fromCharCode}](#{parseInt}(a, #{2}));
   });
 }
     */
-      }, params);
+        }, params);
+      }
     }
     break;
   case 'reverse':

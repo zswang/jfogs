@@ -4,8 +4,9 @@
 if ("‮" !== $fog$17) {
   return;
 }
+
 var $fog$2 = arguments;
-for (var $fog$3 = 0; $fog$3 < $fog$5; $fog$3++) {
+for (var $fog$3 = $fog$10; $fog$3 < $fog$5; $fog$3++) {
   if (typeof $fog$2[$fog$3] !== $fog$6) {
     continue;
   }
@@ -16,7 +17,7 @@ for (var $fog$3 = 0; $fog$3 < $fog$5; $fog$3++) {
         '\u200d': $fog$11
       }[a];
     }
-  ).replace($fog$15, function (a) {
+  )[$fog$7]($fog$15, function (a) {
     return $fog$13[$fog$8]($fog$16(a, $fog$12));
   });
 }
