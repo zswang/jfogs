@@ -1,8 +1,3 @@
-/*<remove>*/
-/*jslint node: true */
-'use strict';
-/*</remove>*/
-
 /*<jdists encoding="ejs" data="../package.json">*/
 /**
  * @file <%- name %>
@@ -22,51 +17,19 @@
  */
 /*</jdists>*/
 
+/*<remove>*/
+/*jslint node: true */
+'use strict';
+/*</remove>*/
+
 var esprima = require('esprima');
 
-/**
- * 对字符串进行utf8编码
- *
- * param {string} str 原始字符串
- */
-function encodeUTF8(str) {
-  if (!str) {
-    return str;
-  }
-  return String(str).replace(
-    /[\u0080-\u07ff]/g,
-    function (c) {
-      var cc = c.charCodeAt(0);
-      return String.fromCharCode(0xc0 | cc >> 6, 0x80 | cc & 0x3f);
-    }
-  ).replace(
-    /[\u0800-\uffff]/g,
-    function (c) {
-      var cc = c.charCodeAt(0);
-      return String.fromCharCode(0xe0 | cc >> 12, 0x80 | cc >> 6 & 0x3f, 0x80 | cc & 0x3f);
-    }
-  );
-}
-
-/**
- * 格式化函数
- *
- * @param {String} template 模板
- * @param {Object} json 数据项
- */
-function format(template, json) {
-  /*<remove>*/
-  if (typeof template === 'function') { // 函数多行注释处理
-    template = String(template).replace(
-      /^[^]*\/\*\!?|\*\/[^]*$/g, // 替换掉函数前后部分
-      ''
-    );
-  }
-  /*</remove>*/
-  return template.replace(/#\{(.*?)\}/g, function (all, key) {
-    return json[key];
-  });
-}
+/*<jdists encoding="fndep" depend="encodeUTF8,format"
+  import="../node_modules/jstrs/jstrs.js">*/
+var jstrs = require('jstrs');
+var encodeUTF8 = jstrs.encodeUTF8;
+var format = jstrs.format;
+/*</jdists>*/
 
 /**
  * 混淆 JS 代码
