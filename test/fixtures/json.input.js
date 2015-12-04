@@ -1,3 +1,4 @@
 var a = {
-  "name": "value"
+  "name": "value",
+  1: 1
 };
