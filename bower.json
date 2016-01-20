@@ -1,0 +1,33 @@
+{
+  "name": "jfogs",
+  "version": "0.0.13",
+  "description": "Javascript code obfuscator",
+  "main": "./lib/jfogs.js",
+  "authors": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "code",
+    "obfuscator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "2.0.0"
+  },
+  "ignore": [
+    "debug",
+    "src",
+    "version.js",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ]
+}
