@@ -6,6 +6,7 @@ var package = JSON.parse(fs.readFileSync(filename));
 package.version = package.version.replace(/-?\d+$/, function(value) {
     return parseInt(value) + 1;
 });
+package.main = 'lib/' + package.name + '.js',
 fs.writeFileSync(filename, JSON.stringify(package, null, '  '));
 
 var bower_filename = path.join(__dirname, 'bower.json');

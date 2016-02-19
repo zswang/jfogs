@@ -45,10 +45,11 @@
   /**
    * 混淆 JS 代码
    *
-   * @param {String} code JS 代码字符串
+   * @param {string} code JS 代码字符串
    * @param {Object} options 配置项
-   * @param {Object} options.type 混淆类型 'zero': 零宽字符, 'reverse': 颠掉字符
-   * @return {String} 返回混淆后的代码
+   * @param {string} options.type 混淆类型 'zero': 零宽字符, 'reverse': 颠掉字符
+   * @param {string} options.export 是否导出函数
+   * @return {string} 返回混淆后的代码
    */
   function obfuscate(code, options) {
     if (!code) {
@@ -67,6 +68,19 @@
       range: true,
       loc: false
     });
+
+    var breakoutVariants = [];
+    if (options.breakout) { // 是否自动导出
+      syntax.body.forEach(function(item) {
+        if (item.type === 'VariableDeclaration') { // 变量定义
+          item.declarations.forEach(function(sub) {
+            breakoutVariants.push(sub.id.name);
+          });
+        } else if (item.type === 'FunctionDeclaration') { // 函数定义
+          breakoutVariants.push(item.id.name);
+        }
+      });
+    }
 
     var guid = 0;
     var memberExpressions = [];
@@ -474,6 +488,44 @@ if (#{u202e} !== #{rightToLeft}) {
         }, params);
         break;
     }
+    if (options.breakout && breakoutVariants.length) {
+
+      var breakoutIdent = identFrom(guid++);
+      var breakoutInside = breakoutVariants.map(function (name) {
+        return format('#{ident}.#{name} = #{name};', {
+          ident: breakoutIdent,
+          name: name
+        });
+      }).join('\n');
+      var breakoutOutside = breakoutVariants.map(function (name) {
+        return format('var #{name} = #{ident}.#{name};', {
+          ident: breakoutIdent,
+          name: name
+        });
+      }).join('\n');
+
+      return format( /*#*/ function() {
+        /*!
+var #{breakoutIdent} = {};
+(function (#{names}) {
+  #{decryption}
+  #{code}
+  #{breakoutInside}
+})(#{expressions});
+#{breakoutOutside}
+     */
+      }, {
+        breakoutIdent: breakoutIdent,
+        breakoutInside: breakoutInside,
+        breakoutOutside: breakoutOutside,
+
+        names: names.join(', '),
+        decryption: decryption,
+        code: code,
+        expressions: expressions.join(', ')
+      });
+    }
+
     return format( /*#*/ function() {
       /*!
 (function (#{names}) {

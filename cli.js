@@ -24,6 +24,10 @@ var argv = optimist
   .describe('t', 'Encryption type. (e.g. "zero" | "reverse")')
   .string('t')
 
+.alias('b', 'breakout')
+  .describe('t', 'Export Variants & Function')
+  .boolean('b')
+
 .alias('v', 'version')
   .describe('v', 'Print version number and exit.')
 
@@ -49,6 +53,7 @@ Options:
     #{-o, --output,cyan}              Output file (default STDOUT)
     #{-t, --type,cyan}                Encryption type (default "") e.g. "zero" | "reverse"
     #{-v, --version,cyan}             Output jfogs version
+    #{-b, --breakout,cyan}            Export Variants & Function
       */
     })
     .replace(/[^]*\/\*!?\s*|\s*\*\/[^]*/g, '')

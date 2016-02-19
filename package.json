@@ -1,8 +1,8 @@
 {
   "name": "jfogs",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "Javascript code obfuscator",
-  "main": "index.js",
+  "main": "lib/jfogs.js",
   "bin": {
     "jfogs": "cli.js"
   },
@@ -35,8 +35,7 @@
     "esprima": "^2.5.0",
     "mkdirp": "^0.5.0",
     "colors": "^1.0.3",
-    "optimist": "^0.6.1",
-    "jhtmls": "^0.1.9"
+    "optimist": "^0.6.1"
   },
   "scripts": {
     "_update_version": "node version.js",

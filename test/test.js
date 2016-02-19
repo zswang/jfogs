@@ -36,28 +36,24 @@ describe('fixtures', function () {
     var output = input.replace(/\.input\.(\w+)$/, '.output.$1');
     var reverseOutput = input.replace(/\.input\.(\w+)$/, '.reverse.output.$1');
     var zeroOutput = input.replace(/\.input\.(\w+)$/, '.zero.output.$1');
-
-    // var options = {};
-    // if (input.indexOf('zero') >= 0) {
-    //   options.type = 'zero';
-    // }
-    // if (input.indexOf('reverse') >= 0) {
-    //   options.type = 'reverse';
-    // }
+    var breakout = /breakout/.test(input);
     if (fs.existsSync(output)) {
-      it(input, function () {
+      it(input + (breakout ? ' -b' : ''), function () {
         assert.equal(
-          jfogs.obfuscate(fs.readFileSync(input), {}),
+          jfogs.obfuscate(fs.readFileSync(input), {
+            breakout: breakout
+          }),
           cleanCRLF(fs.readFileSync(output))
         );
       });
     }
 
     if (fs.existsSync(reverseOutput)) {
-      it(input + ' -t reverse', function () {
+      it(input + ' -t reverse' + (breakout ? ' -b' : ''), function () {
         assert.equal(
           jfogs.obfuscate(fs.readFileSync(input), {
-            type: 'reverse'
+            type: 'reverse',
+            breakout: breakout
           }),
           cleanCRLF(fs.readFileSync(reverseOutput))
         );
@@ -65,10 +61,11 @@ describe('fixtures', function () {
     }
 
     if (fs.existsSync(zeroOutput)) {
-      it(input + ' -t zero', function () {
+      it(input + ' -t zero' + (breakout ? ' -b' : ''), function () {
         assert.equal(
           jfogs.obfuscate(fs.readFileSync(input), {
-            type: 'zero'
+            type: 'zero',
+            breakout: breakout
           }),
           cleanCRLF(fs.readFileSync(zeroOutput))
         );
