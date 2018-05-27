@@ -32,7 +32,8 @@
     "jstrs": "^0.0.1"
   },
   "dependencies": {
-    "esprima": "^2.5.0",
+    "esprima": "^4.0.0",
+    "escodegen": "^1.9.0",
     "mkdirp": "^0.5.0",
     "colors": "^1.0.3",
     "optimist": "^0.6.1"
