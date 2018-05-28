@@ -36,7 +36,7 @@
   var exports = {};
 
   /*<jdists encoding="fndep" depend="encodeUTF8,format"
-    import="../node_modules/jstrs/jstrs.js">*/
+    import="../node_modules/jstrs/lib/jstrs.js">*/
   var jstrs = require('jstrs');
   var encodeUTF8 = jstrs.encodeUTF8;
   var format = jstrs.format;
