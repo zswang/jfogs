@@ -62,6 +62,19 @@
     options = options || {};
     var prefix = options.prefix || '$fog$';
     var seed = options.seed || Date.now();
+    var random = generateRandomFunction(seed);
+    var thisArg = options.thisArg || 'this';
+
+    var mapping, includeMapping;
+    if (options.mapping) {
+      mapping = options.mapping;
+      includeMapping = false;
+    } else {
+      mapping = [];
+      includeMapping = true;
+    }
+    var mappingName = options.mappingName || identFrom(guid++);
+    exports.mappingName = mappingName;
 
     function identFrom(index) {
       return prefix + index;
@@ -495,6 +508,35 @@ if (#{u202e} !== #{rightToLeft}) {
         }
         break;
     }
+
+    var argv = [];
+    var mappingCode = '';
+    var assigns = '';
+    if (names.length > 0) {
+      assigns = [];
+      var _mappingInner = identFrom(guid++);
+      names.forEach(function(name, idx) {
+        var key = identFrom(guid++);
+        var property = JSON.parse(expressions[idx]);
+        var index = mapping.indexOf(property);
+        if (index === -1) {
+          index = mapping.length;
+          mapping.push(property);
+        }
+        assigns.push(name + ' = ' + _mappingInner + '[' + index + ']');
+      });
+      argv[0] = _mappingInner;
+      if (includeMapping) {
+        expressions = [JSON.stringify(mapping)];
+      } else {
+        expressions = [mappingName];
+      }
+      assigns.sort(function(a,b){
+        return random() < 0.5;
+      });
+      assigns = 'var ' + assigns.join(', ') + ';';
+    }
+
     if (options.breakout && breakoutVariants.length) {
 
       var breakoutIdent = identFrom(guid++);
@@ -514,11 +556,13 @@ if (#{u202e} !== #{rightToLeft}) {
       return format( /*#*/ function() {
         /*!
 var #{breakoutIdent} = {};
-(function (#{names}) {
+(function (#{argv}) {
+  #{mapping}
+  #{assigns}
   #{decryption}
   #{code}
   #{breakoutInside}
-})(#{expressions});
+}).call(#{thisArg}, #{expressions});
 #{breakoutOutside}
      */
       }, {
@@ -526,30 +570,52 @@ var #{breakoutIdent} = {};
         breakoutInside: breakoutInside,
         breakoutOutside: breakoutOutside,
 
-        names: names.join(', '),
+        argv: argv.join(', '),
+        mapping: mappingCode,
+        assigns: assigns,
         decryption: decryption,
         code: code,
-        expressions: expressions.join(', ')
+        thisArg: thisArg,
+        expressions: expressions.join(', ') || 'undefined'
       });
     }
 
     return format( /*#*/ function() {
       /*!
-(function (#{names}) {
+(function (#{argv}) {
+  #{mapping}
+  #{assigns}
   #{decryption}
   #{code}
-})(#{expressions});
+}).call(#{thisArg}, #{expressions});
      */
     }, {
-      names: names.join(', '),
+      argv: argv.join(', '),
+      mapping: mappingCode,
+      assigns: assigns,
       decryption: decryption,
       code: code,
-      expressions: expressions.join(', ')
+      thisArg: thisArg,
+      expressions: expressions.join(', ') || 'undefined'
     });
     /*</jdists>*/
   }
 
+  function generateMapping(map){
+    var n = exports.mappingName;
+    return (n.indexOf(".") > 0?'':'var ') + n + ' = ' + JSON.stringify(map) + ';';
+  }
+
+  function generateRandomFunction(seed) {
+    seed = seed || (Date.now() & 0xFFFFFF - 1);
+    return function() {
+      seed = (1103515245 * seed + 12345) & 2147483647;
+      return seed / 2147483648;
+    };
+  }
+
   exports.obfuscate = obfuscate;
+  exports.generateMapping = generateMapping;
 
   if (typeof define === 'function') {
     if (define.amd || define.cmd) {
