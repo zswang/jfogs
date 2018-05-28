@@ -1,6 +1,6 @@
 {
   "name": "jfogs",
-  "version": "0.0.15",
+  "version": "1.0.0-alpha.7",
   "description": "Javascript code obfuscator",
   "main": "./lib/jfogs.js",
   "authors": {
