@@ -42,7 +42,8 @@
     "_update_version": "node version.js",
     "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec --timeout 15000",
     "lint": "jshint src/*.js",
-    "dist": "npm run _update_version && jdists src/jfogs.js -o lib/jfogs.js && npm run lint && npm test"
+    "dist": "jdists src/jfogs.js -o lib/jfogs.js && npm run lint",
+    "build": "npm run _update_version && jdists src/jfogs.js -o lib/jfogs.js && npm run lint && npm test"
   },
   "files": [
     "index.js",

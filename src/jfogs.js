@@ -48,15 +48,20 @@
    * @param {string} code JS 代码字符串
    * @param {Object} options 配置项
    * @param {string} options.type 混淆类型 'zero': 零宽字符, 'reverse': 颠掉字符
-   * @param {string} options.export 是否导出函数
+   * @param {string} options.breakout 是否导出函数
+   * @param {string} options.prefix 参数前缀
+   * @param {string} options.seed 随机种子
    * @return {string} 返回混淆后的代码
    */
   function obfuscate(code, options) {
     if (!code) {
       return code;
     }
+    var guid = 0;
+
     options = options || {};
     var prefix = options.prefix || '$fog$';
+    var seed = options.seed || Date.now();
 
     function identFrom(index) {
       return prefix + index;
@@ -82,7 +87,6 @@
       });
     }
 
-    var guid = 0;
     var memberExpressions = [];
     var propertys = {};
     var names = [];
@@ -473,19 +477,22 @@ for (#{index} = #{0}; #{index} < #{len} / #{2}; #{index}++) {
         }
         break;
       default:
-        params = {
-          rightToLeft: identFrom(guid++),
-          u202e: '"\u202e"'
-        };
-        names.unshift(params.rightToLeft);
-        expressions.unshift('"\u202e"'); // 干扰字符
-        decryption += format( /*#*/ function() {
+        if (options.type !== false) {
+          var distracter = '"\u202e"';
+          params = {
+            rightToLeft: identFrom(guid++),
+            u202e: distracter
+          };
+          names.unshift(params.rightToLeft);
+          expressions.unshift(distracter); // 干扰字符
+          decryption += format( /*#*/ function() {
           /*!
 if (#{u202e} !== #{rightToLeft}) {
   return;
 }
         */
-        }, params);
+          }, params);
+        }
         break;
     }
     if (options.breakout && breakoutVariants.length) {
