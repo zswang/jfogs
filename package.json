@@ -1,6 +1,6 @@
 {
   "name": "jfogs",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.10",
   "description": "Javascript code obfuscator",
   "main": "lib/jfogs.js",
   "bin": {
@@ -51,6 +51,7 @@
   "scripts": {
     "_update_version": "node version.js",
     "test": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec --timeout 15000",
+    "mocha": "mocha",
     "lint": "jshint src/*.js",
     "dist": "jdists src/jfogs.js -o lib/jfogs.js && npm run lint",
     "build": "npm run _update_version && npm run dist && npm test",
