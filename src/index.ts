@@ -25,12 +25,16 @@ export class Fog {
    */
   obfuscate(code: string): string {
     let program = esprima.parseScript(code)
+    let literals = []
 
     const scan = (node, parent) => {
       if (!node) {
         return
       }
+
+      // 字面量
       if (node.type === 'Literal') {
+        // 正则表达式变为字符串
         if (node.regex) {
           let regex = (node as RegExpLiteral).regex
           let info = parent[parent.length - 1]
@@ -48,8 +52,23 @@ export class Fog {
               },
             ],
           }
+        } else {
+          literals.push(node)
         }
       }
+
+      // 成员访问
+      if (node.type === 'MemberExpression') {
+        if (node.property.type === 'Identifier') {
+          node.property = {
+            type: 'Literal',
+            value: node.property.name,
+          }
+          node.computed = true
+        }
+      }
+
+      // 递归扫描
       Object.keys(node).forEach(key => {
         let sub = node[key]
         if (typeof sub === 'object') {
@@ -66,9 +85,15 @@ export class Fog {
       })
     }
 
-    scan(program, [])
     /** TODO: 搜索需要处理的节点 */
+    scan(program, [])
+
     /** TODO: 集中处理 */
+    literals.forEach((literal, index) => {
+      literal.type = 'Identifier'
+      literal.name = `${this.options.prefix}${index}`
+    })
+
     /** TODO: 添加修饰 */
     return escodegen.generate(program)
   }
@@ -77,7 +102,9 @@ export class Fog {
 /*<debug>*/
 let fog = new Fog()
 let code = fog.obfuscate(`
-var o = { a: 1, b: 2, c: /[\\w&]+a\\n/ }
+window.console.log('a')
 `)
 console.log(code)
+
+// console.log(JSON.stringify(esprima.parseScript(code), null, '  '))
 /*</debug>*/
