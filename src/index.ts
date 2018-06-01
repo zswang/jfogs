@@ -38,20 +38,20 @@ export class Fog {
         if (node.regex) {
           let regex = (node as RegExpLiteral).regex
           let info = parent[parent.length - 1]
+          let pattern = {
+            type: 'Literal',
+            value: regex.pattern,
+          }
+          let flags = {
+            type: 'Literal',
+            value: regex.flags,
+          }
           info.parent[info.key] = {
             type: 'CallExpression',
             callee: { type: 'Identifier', name: 'RegExp' },
-            arguments: [
-              {
-                type: 'Literal',
-                value: regex.pattern,
-              },
-              {
-                type: 'Literal',
-                value: regex.flags,
-              },
-            ],
+            arguments: regex.flags ? [pattern, flags] : [pattern],
           }
+          literals.push(pattern, flags)
         } else {
           literals.push(node)
         }
@@ -102,7 +102,7 @@ export class Fog {
 /*<debug>*/
 let fog = new Fog()
 let code = fog.obfuscate(`
-window.console.log('a')
+window.console.log(/\w+c/gim)
 `)
 console.log(code)
 
