@@ -1,10 +1,35 @@
 import * as esprima from 'esprima'
 import * as escodegen from 'escodegen'
-import { RegExpLiteral } from 'estree'
+import {
+  RegExpLiteral,
+  Literal,
+  BaseNode,
+  Identifier,
+  Property,
+  ObjectExpression,
+  MemberExpression,
+  Program,
+} from 'estree'
 
 export interface IFogOptions {
   /** 变量前缀 */
   prefix?: string
+}
+
+type ESNode =
+  | Literal
+  | RegExpLiteral
+  | Property
+  | ObjectExpression
+  | MemberExpression
+  | Program
+
+/**
+ * 父级路径
+ */
+interface IParentPath {
+  key: string
+  parent: ESNode
 }
 
 export class Fog {
@@ -25,24 +50,42 @@ export class Fog {
    */
   obfuscate(code: string): string {
     let program = esprima.parseScript(code)
-    let literals = []
+    let literals: (Literal | Identifier)[] = []
+    let objects: {
+      node: ObjectExpression
+      path: IParentPath[]
+    }[] = []
 
-    const scan = (node, parent) => {
+    /**
+     * 扫描语法元素
+     * @param node 语法节点
+     * @param path 节点上级路径
+     */
+    const scan = (node: ESNode, path: IParentPath[]) => {
       if (!node) {
         return
       }
 
-      // 字面量
+      // #region 对象表达式
+      if (node.type === 'ObjectExpression') {
+        objects.push({
+          node: node,
+          path: path,
+        })
+      }
+      // #endregion
+
+      // #region 字面量
       if (node.type === 'Literal') {
+        let info = path[path.length - 1]
         // 正则表达式变为字符串
-        if (node.regex) {
-          let regex = (node as RegExpLiteral).regex
-          let info = parent[parent.length - 1]
-          let pattern = {
+        let regex = (node as RegExpLiteral).regex
+        if (regex) {
+          let pattern: Literal = {
             type: 'Literal',
             value: regex.pattern,
           }
-          let flags = {
+          let flags: Literal = {
             type: 'Literal',
             value: regex.flags,
           }
@@ -56,8 +99,9 @@ export class Fog {
           literals.push(node)
         }
       }
+      // #endregion
 
-      // 成员访问
+      // #region 成员访问
       if (node.type === 'MemberExpression') {
         if (node.property.type === 'Identifier') {
           node.property = {
@@ -67,14 +111,15 @@ export class Fog {
           node.computed = true
         }
       }
+      // #endregion
 
-      // 递归扫描
+      // #region 递归扫描
       Object.keys(node).forEach(key => {
         let sub = node[key]
         if (typeof sub === 'object') {
           scan(
             sub,
-            parent.concat([
+            path.concat([
               {
                 key: key,
                 parent: node,
@@ -83,28 +128,99 @@ export class Fog {
           )
         }
       })
+      // #endregion
     }
 
-    /** TODO: 搜索需要处理的节点 */
+    // #region 搜索需要处理的节点
     scan(program, [])
+    // #endregion
 
-    /** TODO: 集中处理 */
-    literals.forEach((literal, index) => {
-      literal.type = 'Identifier'
-      literal.name = `${this.options.prefix}${index}`
+    // #region 拆分对象生成
+    let path: IParentPath
+    objects.reverse().forEach(item => {
+      let body: IParentPath
+      for (let i = item.path.length - 1; (path = item.path[i]); i--) {
+        if (path.key === 'body') {
+          body = item.path[i + 1]
+          break
+        }
+      }
+      if (body) {
+        let statements = []
+        let objIdentifier = {
+          type: 'Identifier',
+          name: '$fog$obj',
+        }
+        statements.push({
+          type: 'VariableDeclaration',
+          declarations: [
+            {
+              type: 'VariableDeclarator',
+              id: objIdentifier,
+              init: {
+                type: 'ObjectExpression',
+                properties: [],
+              },
+            },
+          ],
+          kind: 'var',
+        })
+
+        item.node.properties.forEach(propertie => {
+          let literal =
+            propertie.key.type === 'Identifier'
+              ? {
+                  type: 'Literal',
+                  value: propertie.key.name,
+                }
+              : propertie.key
+          literals.push(literal as Literal)
+          statements.push({
+            type: 'ExpressionStatement',
+            expression: {
+              type: 'AssignmentExpression',
+              operator: '=',
+              left: {
+                type: 'MemberExpression',
+                computed: true,
+                object: objIdentifier,
+                property: literal,
+              },
+              right: propertie.value,
+            },
+          })
+        })
+        ;[].splice.apply(body.parent, [body.key, 0].concat(statements))
+
+        // item.node.type = 'ObjectExpression'
+        path = item.path[item.path.length - 1]
+        path.parent[path.key] = objIdentifier
+      }
+    })
+    // #endregion
+
+    // 集中处理字面量
+    literals.forEach((node, index) => {
+      let identifier: Identifier = node as Identifier
+      let literal: Literal = node as Literal
+      identifier.type = 'Identifier'
+      identifier.name = `${this.options.prefix}${index}`
     })
 
     /** TODO: 添加修饰 */
+
+    // 生成代码
     return escodegen.generate(program)
   }
 }
 
 /*<debug>*/
 let fog = new Fog()
-let code = fog.obfuscate(`
-window.console.log(/\w+c/gim)
-`)
+let source = `
+console.log(1)
+`
+let code = fog.obfuscate(source)
 console.log(code)
 
-// console.log(JSON.stringify(esprima.parseScript(code), null, '  '))
+// console.log(JSON.stringify(esprima.parseScript(source), null, '  '))
 /*</debug>*/
