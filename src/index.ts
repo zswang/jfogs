@@ -14,6 +14,8 @@ import {
 export interface IFogOptions {
   /** 变量前缀 */
   prefix?: string
+  /** 全局变量 */
+  globalVariables?: string[]
 }
 
 type ESNode =
@@ -40,6 +42,17 @@ export class Fog {
     this.options = {
       /** 默认配置 */
       prefix: '$fog$',
+      globalVariables: [
+        'console',
+        'document',
+        'window',
+        'navigator',
+        'screen',
+        'sessionStorage',
+        'localStorage',
+        'Math',
+        'RegExp',
+      ],
       ...options,
     }
   }
@@ -137,7 +150,8 @@ export class Fog {
 
     // #region 拆分对象生成
     let path: IParentPath
-    objects.reverse().forEach(item => {
+    let queue = []
+    objects.reverse().forEach((item, index) => {
       let body: IParentPath
       for (let i = item.path.length - 1; (path = item.path[i]); i--) {
         if (path.key === 'body') {
@@ -149,7 +163,7 @@ export class Fog {
         let statements = []
         let objIdentifier = {
           type: 'Identifier',
-          name: '$fog$obj',
+          name: `${this.options.prefix}o${index}`,
         }
         statements.push({
           type: 'VariableDeclaration',
@@ -190,12 +204,16 @@ export class Fog {
             },
           })
         })
-        ;[].splice.apply(body.parent, [body.key, 0].concat(statements))
 
-        // item.node.type = 'ObjectExpression'
+        queue.unshift(() => {
+          ;[].splice.apply(body.parent, [body.key, 0].concat(statements))
+        })
         path = item.path[item.path.length - 1]
         path.parent[path.key] = objIdentifier
       }
+    })
+    queue.forEach(fn => {
+      fn()
     })
     // #endregion
 
@@ -217,8 +235,9 @@ export class Fog {
 /*<debug>*/
 let fog = new Fog()
 let source = `
-console.log(1)
+var a = { a: 1, b: { c: 3, d: 4 } }
 `
+
 let code = fog.obfuscate(source)
 console.log(code)
 

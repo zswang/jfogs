@@ -38,3 +38,4 @@ assets
 
 # release
 release
+debug.*
